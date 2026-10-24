@@ -52,6 +52,8 @@ The Vite frontend and `/api/index.py` ASGI calculator deploy together on Vercel.
 
 The compact wheel adds concentric bands, modern decan glyphs, selectable Ascendant/Whole Sign boundary alignment, label density, chart search, central hover/selection details and zoom up to 400%. Layout → Original retains the previous renderer for rollback. See `docs/WHEEL_REFINEMENT.md` for the unchanged numerical snapshot, real export comparisons and dense-object validation.
 
+Alchemystic Astrology is the astrology system's name; Mystic Rebels remains the brand. The decorative purple plasma orb beside the heading includes pause and reduced-motion support and stays separate from all chart calculations.
+
 Set `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` in each intended Vercel environment. Only the publishable key is exposed by `/api/config`. No service-role key is required by the client or calculation API. Local values go in ignored `.env`; see `.env.example`.
 
 Apply `supabase/migrations/20261024100237_mystic_rebels_charts.sql` to the intended project using an authenticated project administrator. The table uses ownership checks and RLS for all read/write operations. Until schema application and live verification are completed, cloud saving is not a verified completed capability.

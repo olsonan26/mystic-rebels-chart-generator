@@ -1,0 +1,26 @@
+/* Static gradients and paths are rasterized once; only transform/opacity loop. */
+.heading-identity { display:flex; align-items:center; gap:20px; min-width:0; }
+.heading-identity h1 { margin-top:0; }
+.plasma-accent { width:92px; height:92px; flex:0 0 92px; position:relative; }
+.plasma-orb { position:absolute; inset:0; pointer-events:none; }
+.plasma-halo { position:absolute; inset:-12%; border-radius:50%; background:radial-gradient(circle,#a432e93b 15%,#8114e51a 48%,transparent 70%); animation:plasma-breathe 8s ease-in-out infinite; }
+.plasma-globe { position:absolute; inset:10%; overflow:hidden; isolation:isolate; border-radius:50%; background:radial-gradient(circle at 44% 42%,#6d1e9c 0%,#32104f 38%,#190627 70%,#5d2483 97%); border:1px solid #c68ef280; box-shadow:inset -8px -9px 14px #14031f8c,inset 2px 2px 5px #e5b6ff70,0 0 16px #a323ec30; }
+.plasma-cloud { position:absolute; inset:0; border-radius:50%; mix-blend-mode:screen; }
+.plasma-cloud-one { background:conic-gradient(from 15deg,transparent,#9b31e275,transparent 24%,#e091ff60,transparent 52%,#7c12d47d,transparent 84%); animation:plasma-orbit 12s linear infinite; }
+.plasma-cloud-two { background:radial-gradient(ellipse at 35% 75%,#d356fc75,transparent 42%),radial-gradient(ellipse at 75% 30%,#702aff75,transparent 48%); animation:plasma-counter-orbit 16s linear infinite; }
+.plasma-filaments { position:absolute; inset:0; width:100%; height:100%; stroke:#e1a1ff; stroke-width:1.15; stroke-linecap:round; stroke-linejoin:round; opacity:.82; }
+.plasma-filaments path { filter:drop-shadow(0 0 2px #d353ff); }
+.plasma-filaments .plasma-fine { stroke-width:.6; opacity:.65; }
+.plasma-filaments-one { animation:plasma-orbit 12s linear infinite; }
+.plasma-filaments-two { stroke:#bb66f9; stroke-width:.8; opacity:.5; animation:plasma-counter-orbit 16s linear infinite; }
+.plasma-nucleus { position:absolute; inset:39%; border-radius:50%; background:radial-gradient(circle,#fff5ff 0%,#e1b0ff 18%,#c655ff 36%,#a332e660 58%,transparent 75%); box-shadow:0 0 12px #c252f36b; animation:plasma-breathe 8s ease-in-out infinite; }
+.plasma-glass { position:absolute; inset:0; border-radius:50%; box-shadow:inset 0 0 7px #e8c0ff8a; background:radial-gradient(ellipse at 30% 20%,#fff4ff4a 0%,transparent 22%); }
+.plasma-motion-toggle { position:absolute; bottom:0; right:0; width:23px; height:23px; padding:4px; display:grid; place-items:center; border-radius:50%; border:1px solid #d9c4e5; color:#824296; background:#faf6fd; cursor:pointer; }
+.plasma-motion-toggle:focus-visible { outline:2px solid #ad1bd6; outline-offset:3px; }
+.plasma-accent.is-paused .plasma-orb * { animation-play-state:paused; }
+@keyframes plasma-orbit { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
+@keyframes plasma-counter-orbit { from { transform:rotate(360deg); } to { transform:rotate(0deg); } }
+@keyframes plasma-breathe { 0%,100% { transform:scale(.94); opacity:.68; } 50% { transform:scale(1.04); opacity:.95; } }
+@media (prefers-reduced-motion:reduce) { .plasma-orb * { animation:none !important; } .plasma-motion-toggle { display:none; } }
+@media (max-width:760px) { .heading-identity { gap:10px; } .plasma-accent { width:64px; height:64px; flex-basis:64px; } .plasma-motion-toggle { width:21px; height:21px; } }
+@media print { .plasma-accent { display:none; } }

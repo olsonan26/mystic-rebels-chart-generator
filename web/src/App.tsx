@@ -19,6 +19,7 @@ import {
 import type { BirthInput, Chart, Location, ObjectEntry, Point } from "./types";
 import { Wheel } from "./Wheel";
 import { LegacyWheel } from "./LegacyWheel";
+import PlasmaOrb from "./PlasmaOrb";
 import { matchesPoint, type Density, type Orientation } from "./wheelLayout";
 import { formatPosition } from "./geometry";
 import { initializeStorage } from "./storage";
@@ -286,9 +287,12 @@ export default function App() {
       </header>
       <main>
         <div className="page-heading">
-          <div>
-            <h1>Your chart. Every detail.</h1>
-            <p>Create, customize, and explore your Alchemystic Astrology chart.</p>
+          <div className="heading-identity">
+            <PlasmaOrb />
+            <div>
+              <h1>Your chart. Every detail.</h1>
+              <p>Create, customize, and explore your Alchemystic Astrology chart.</p>
+            </div>
           </div>
           <button
             className="subtle"

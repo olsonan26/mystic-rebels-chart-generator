@@ -42,8 +42,14 @@ Evidence: `numerical-regression.json`, `browser-regression.json`, `compact-expor
 
 The 500-object case is a synthetic presentation stress test. It does not expand the production catalog or claim calculations for unsupported objects.
 
+## Alchemystic Astrology identity and decorative motion
+
+Mystic Rebels remains the product brand; the astrology system is named Alchemystic Astrology. The title, introduction and footer use that name. A small purple plasma orb loops beside the page heading, outside the chart SVG. It is decorative and does not indicate astronomical status or change chart values. The CSS loops animate only transform and opacity; static gradients and filaments form the globe. Users can pause it, and reduced-motion preferences disable animation. Desktop and 390-pixel mobile screenshots plus actual running/paused/reduced-motion browser observations are retained under `evidence/wheel-refinement/plasma-*`.
+
+The Linux CI run on commit `63fc1c4` passed all 238 astronomical/API tests, 13 frontend tests, production build and the exact same-runtime original/current engine comparison. The separately retained Windows/Linux comparison contains 378 numeric field differences over four charts, with a maximum longitude difference of 2.0464e-10 arcsecond; it is not represented as bit-identical across all native platforms. Before/after presentation results on the same platform remain exact.
+
 ## Hosting destination
 
 The supplied Vercel account is the Astro team (`astro-ac32`). Project: https://vercel.com/astro-ac32/mystic-rebels-chart-generator. Site: https://mystic-rebels-chart-generator-seven.vercel.app. Deployments require Vercel authentication. The previous account's deployment is retained for rollback.
 
-The source remains in the existing private GitHub repository. The Astro account cannot currently access that private repository through its Vercel Git integration (`repo_not_found`); deployment uses the authenticated CLI against the same checkout. Automatic Git deployment in Astro requires granting that Vercel account access to the repository. No new repository or calculation engine was created. No privileged account tokens are included in code, artifacts or browser configuration.
+The source remains in the existing private GitHub repository. The Astro account cannot currently access that private repository through its Vercel Git integration (`repo_not_found`), and direct checkout deployments using the unrelated Git author were blocked. Deployment therefore uses an exact `git archive` of the reviewed commit, authenticated as the Astro owner, with the source commit recorded in deployment metadata. Automatic Git deployment in Astro requires granting that Vercel account access to the repository. No new repository or calculation engine was created. No privileged account tokens are included in code, artifacts or browser configuration.

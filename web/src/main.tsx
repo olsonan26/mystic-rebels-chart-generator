@@ -7,6 +7,7 @@ import "@fontsource/montserrat/700.css";
 import "./style.css";
 import "./readability.css";
 import "./wheel.css";
+import "./plasma.css";
 import App from "./App";
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
