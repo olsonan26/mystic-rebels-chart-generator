@@ -30,6 +30,10 @@ The numeric `Position` column projects `formatPosition(longitude, precision).spl
 | 2°,32°,62°,92° cyclical age labels p255 | VERIFIED_EXAMPLE | not converted to exact dated prediction without chart context |
 | Complete return/progressed/current-life interpretation | BLOCKED | no prediction generator enabled |
 
+## Implemented Phase 10 research-only helpers
+
+`web/src/phase10Research.ts` contains separately tested **approaching-only** three-scale FCA proximity (including 10°57′ within 3′ and 5°56′ outside), **integer-degree undated age labels** (2, 32, 62, 92), and both disputed house-/sign-parity Spark candidates with `canonical:null`. These diagnostics are not enabled as interpreted readings, do not mutate object records and never produce prediction dates. The entire advanced-aspect mechanism remains blocked.
+
 ## Visible regression requirements
 
 - Exact numerical `longitude_deg` remains stable for chart markers, table-row data attributes and exported chart JSON.
@@ -39,4 +43,4 @@ The numeric `Position` column projects `formatPosition(longitude, precision).spl
 
 ## Release caveat
 
-The live Vercel project reported production aliases and no password/SSO protection during the audit. The existing Swiss Ephemeris AGPL/professional deployment obligation must be addressed separately before treating that service as a compliant closed-source public launch. This patch does not change licenses or backend binaries.
+The Astro-team Vercel project reports no *native* Vercel password/SSO protection, but the repository includes custom HMAC-signed access middleware and protected API routes (see docs/SITE_ACCESS.md). Verify the live password gate and environment configuration before claiming a public or private access state. The existing Swiss Ephemeris AGPL/professional licensing decision remains separate. This patch changes neither licenses nor astronomy binaries.
