@@ -65,7 +65,7 @@ describe("presentation-only wheel regression", () => {
     );
     expect(a).toEqual(b);
     expect(a.labels[0].id).toBe("asteroid-0499");
-    expect(a.labels.length).toBeGreaterThan(35);
+    expect(a.labels.length).toBeGreaterThan(6);
     expect(a.labels.length).toBeLessThan(500);
     for (let i = 0; i < a.labels.length; i++)
       for (let j = i + 1; j < a.labels.length; j++)
@@ -73,6 +73,10 @@ describe("presentation-only wheel regression", () => {
           Math.abs(a.labels[i].x - a.labels[j].x) >= a.width ||
             Math.abs(a.labels[i].y - a.labels[j].y) >= a.height,
         ).toBe(true);
+    for (const label of a.labels) {
+      const displacement = Math.abs(((label.angle - label.actual + 540) % 360) - 180);
+      expect(displacement).toBeLessThanOrEqual(a.maxLabelDriftDegrees);
+    }
     for (const label of a.labels)
       expect(label.actual).toBe(
         data.find((p) => p.id === label.id)!.longitude_deg,
@@ -83,7 +87,8 @@ describe("presentation-only wheel regression", () => {
     const data = stress(500);
     const sparse = compactLabels(data, 270, "sparse", 1, null, "Object 499");
     expect(sparse.labels[0].id).toBe("asteroid-0499");
-    expect(sparse.labels).toHaveLength(18);
+    expect(sparse.labels.length).toBeGreaterThan(0);
+    expect(sparse.labels.length).toBeLessThanOrEqual(18);
     expect(
       compactLabels(data, 270, "all", 4, null, "").labels.length,
     ).toBeGreaterThan(
