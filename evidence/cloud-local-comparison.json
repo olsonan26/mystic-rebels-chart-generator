@@ -1,0 +1,10 @@
+{
+  "objects": 72,
+  "max_cross_platform_longitude_residual_arcsec": 0.0,
+  "cloud_python": "3.12.14",
+  "local_python": "3.11.9",
+  "backend_flags": [
+    258
+  ],
+  "input_fingerprint_equal": true
+}

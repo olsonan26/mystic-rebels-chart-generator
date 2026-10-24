@@ -1,0 +1,6 @@
+{
+  "browser":{"mode":"launch","executable_path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe","headless":true},
+  "start_url":{"url":"https://www.astro.com/cgi/genchart.cgi","query":[]},
+  "actions":[{"step_id":"chart_selection_visible","action":"wait_for","locator":{"kind":"css","selector":"h2:has-text(\"Extended Chart Selection\")"},"state":"visible","timeout_ms":20000}],
+  "capture":{"at_end":["dom","accessibility","screenshot","url"],"events":["page-errors"]}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mystic-rebels-chart-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite web --host 127.0.0.1 --port 5173",
+    "build": "tsc -p web/tsconfig.json && vite build web",
+    "test": "vitest run",
+    "preview": "vite preview web --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.2.8",
+    "@supabase/supabase-js": "2.118.0",
+    "lucide-react": "1.61.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

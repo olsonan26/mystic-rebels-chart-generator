@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "product": "Mystic Rebels",
+  "engine_version": "0.1.0",
+  "chart_id": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+  "input": {
+    "name": "My chart",
+    "local_date": "1992-07-17",
+    "local_time": "20:01:00",
+    "timezone": "America/Los_Angeles",
+    "fold": null,
+    "latitude": 33.803,
+    "longitude": -118.072,
+    "location_name": "Entered coordinates",
+    "coordinate_provenance": "user_entered",
+    "time_accuracy": "nearest_minute",
+    "uncertainty_seconds": 30.0,
+    "objects": [
+      "Sun",
+      "Chiron",
+      "Eris",
+      "Midheaven",
+      "Nonagesimal",
+      "Fortune"
+    ],
+    "chart_type": "natal"
+  },
+  "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+  "time": {
+    "jd_ut1": 2448821.625699546,
+    "jd_tt": 2448821.6263794443,
+    "delta_t_seconds": 58.7431937456131,
+    "time_conversion": "swe.utc_to_jd Gregorian UTC; Swiss built-in Delta T model",
+    "birth_utc": "1992-07-18T03:01:00+00:00",
+    "iana_zone": "America/Los_Angeles",
+    "utc_offset_seconds": -25200,
+    "tzdata_version": "2026.5",
+    "time_is_reference_only": false,
+    "uncertainty_seconds": 30
+  },
+  "configuration": {
+    "center": "geocentric",
+    "zodiac": "tropical",
+    "houses": "whole_sign",
+    "position_type": "apparent ecliptic/equinox of date",
+    "backend_requested": "SWIEPH",
+    "requested_flags": 258,
+    "swiss_version": "2.10.03",
+    "binding_version": "2.10.3.2",
+    "python_version": "3.11.9",
+    "asset_manifest_sha256": "380775e5410e719e196fd8f33189491fe74a2c697d4b4f2d9431103634f4d886"
+  },
+  "angles": {
+    "Ascendant": 296.5674361399037,
+    "Descendant": 116.56743613990369,
+    "Midheaven": 225.82482012873805,
+    "ImumCoeli": 45.824820128738054,
+    "Vertex": 149.2900916713011,
+    "Invertex": 329.29009167130107,
+    "Nonagesimal": 206.5674361399037,
+    "Subnonagesimal": 26.56743613990369
+  },
+  "whole_sign_cusps": [
+    270.0,
+    300.0,
+    330.0,
+    0.0,
+    30.0,
+    60.0,
+    90.0,
+    120.0,
+    150.0,
+    180.0,
+    210.0,
+    240.0
+  ],
+  "points": [
+    {
+      "id": "Sun",
+      "name": "Sun",
+      "glyph": "\u2609",
+      "group": "Planets",
+      "longitude_deg": 115.74014204831833,
+      "latitude_deg": 0.00021845842594974367,
+      "distance_au": 1.0162490806707372,
+      "speed_longitude_deg_per_day": 0.9538967947891689,
+      "speed_latitude_deg_per_day": 2.615549447167573e-05,
+      "declination_deg": 20.997237975748696,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Cancer",
+      "sign_index": 3,
+      "degree_in_sign": 25.740142048318333,
+      "degree_floor": 25,
+      "decan": 3,
+      "tone": "Cancer",
+      "pulse": "Pisces",
+      "house": 7,
+      "field": "Libra",
+      "true_placement": "Libra",
+      "sign_ruler": "Moon",
+      "spark": null,
+      "display_dms": "Cancer 25\u00b044\u203225\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null
+    },
+    {
+      "id": "Chiron",
+      "name": "Chiron",
+      "glyph": "\u26b7",
+      "group": "Asteroids",
+      "longitude_deg": 131.04069393410913,
+      "latitude_deg": -6.123690452542404,
+      "distance_au": 10.609462917490681,
+      "speed_longitude_deg_per_day": 0.12163903757798886,
+      "speed_latitude_deg_per_day": 0.00347030188938709,
+      "declination_deg": 11.563120801500185,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          },
+          {
+            "path": "seas_18.se1",
+            "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Leo",
+      "sign_index": 4,
+      "degree_in_sign": 11.040693934109129,
+      "degree_floor": 11,
+      "decan": 2,
+      "tone": "Leo",
+      "pulse": "Sagittarius",
+      "house": 8,
+      "field": "Scorpio",
+      "true_placement": "Scorpio",
+      "sign_ruler": "Sun",
+      "spark": null,
+      "display_dms": "Leo 11\u00b002\u203226\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null
+    },
+    {
+      "id": "Eris",
+      "name": "Eris",
+      "glyph": "136199",
+      "group": "Minor bodies",
+      "longitude_deg": 18.068945435741245,
+      "latitude_deg": -16.99431657916623,
+      "distance_au": 97.26092869931746,
+      "speed_longitude_deg_per_day": -0.0007038686135225803,
+      "speed_latitude_deg_per_day": -0.0023764225322538786,
+      "declination_deg": -8.636497632620173,
+      "retrograde": true,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          },
+          {
+            "path": "ast136/s136199s.se1",
+            "sha256": "6c5a853ca59df0b67c705d11d81a7e8688a1c3c937a1a55308365f95e641316c"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Aries",
+      "sign_index": 0,
+      "degree_in_sign": 18.068945435741245,
+      "degree_floor": 18,
+      "decan": 2,
+      "tone": "Aries",
+      "pulse": "Leo",
+      "house": 4,
+      "field": "Cancer",
+      "true_placement": "Cancer",
+      "sign_ruler": "Mars",
+      "spark": null,
+      "display_dms": "Aries 18\u00b004\u203208\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null
+    },
+    {
+      "id": "Midheaven",
+      "name": "Midheaven",
+      "glyph": "MC",
+      "group": "Angles",
+      "longitude_deg": 225.82482012873805,
+      "retrograde": null,
+      "provenance": {
+        "algorithm": "swiss-independent-horizon-angles-v1",
+        "backend": "GEOMETRY",
+        "julian_ut1": 2448821.625699546,
+        "rule": null
+      },
+      "available": true,
+      "sign": "Scorpio",
+      "sign_index": 7,
+      "degree_in_sign": 15.824820128738054,
+      "degree_floor": 15,
+      "decan": 2,
+      "tone": "Scorpio",
+      "pulse": "Pisces",
+      "house": 11,
+      "field": "Aquarius",
+      "true_placement": "Aquarius",
+      "sign_ruler": "Pluto",
+      "spark": null,
+      "display_dms": "Scorpio 15\u00b049\u203229\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": false
+    },
+    {
+      "id": "Nonagesimal",
+      "name": "Nonagesimal",
+      "glyph": "No",
+      "group": "Angles",
+      "longitude_deg": 206.5674361399037,
+      "retrograde": null,
+      "provenance": {
+        "algorithm": "asc-minus90-plus90-source-verified-v2",
+        "backend": "GEOMETRY",
+        "julian_ut1": 2448821.625699546,
+        "rule": {
+          "id": "N9-011",
+          "version": "2",
+          "status": "READY",
+          "evidence": "book:661-665; viewer:539-542; Leo AC 13\u00b006 -> Taurus Nona 13\u00b006"
+        }
+      },
+      "available": true,
+      "sign": "Libra",
+      "sign_index": 6,
+      "degree_in_sign": 26.56743613990369,
+      "degree_floor": 26,
+      "decan": 3,
+      "tone": "Libra",
+      "pulse": "Gemini",
+      "house": 10,
+      "field": "Capricorn",
+      "true_placement": "Capricorn",
+      "sign_ruler": "Venus",
+      "spark": null,
+      "display_dms": "Libra 26\u00b034\u203203\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": false
+    },
+    {
+      "id": "Fortune",
+      "name": "Part of Fortune",
+      "glyph": "\u2297",
+      "group": "Parts",
+      "longitude_deg": 152.94035145698865,
+      "retrograde": null,
+      "provenance": {
+        "algorithm": "fixed-parts-no-sect-reversal-v1",
+        "backend": "DERIVED",
+        "parent_points": [
+          "Ascendant",
+          "Sun",
+          "Moon",
+          "Venus"
+        ],
+        "rule": {
+          "id": "N9-014",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:670-678"
+        }
+      },
+      "available": true,
+      "sign": "Virgo",
+      "sign_index": 5,
+      "degree_in_sign": 2.940351456988651,
+      "degree_floor": 2,
+      "decan": 1,
+      "tone": "Virgo",
+      "pulse": "Virgo",
+      "house": 9,
+      "field": "Sagittarius",
+      "true_placement": "Sagittarius",
+      "sign_ruler": "Mercury",
+      "spark": null,
+      "display_dms": "Virgo 2\u00b056\u203225\u2033",
+      "input_fingerprint": "fd7e28afb8b6977125f9b81b56194ad82187063e5a43949d5c08af9a68a288db",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": false
+    }
+  ],
+  "warnings": [],
+  "rules": {
+    "whole_sign": {
+      "id": "N9-003",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:Whole Sign house model"
+    },
+    "true_placement": {
+      "id": "N9-004",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:True Placement"
+    },
+    "tone": {
+      "id": "N9-005",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:astronomical sign"
+    },
+    "pulse": {
+      "id": "N9-006",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:227-230"
+    },
+    "ruler": {
+      "id": "N9-007",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:modern rulers"
+    },
+    "parts": {
+      "id": "N9-014",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:670-678"
+    },
+    "nonagesimal": {
+      "id": "N9-011",
+      "version": "2",
+      "status": "READY",
+      "evidence": "book:661-665; viewer:539-542; Leo AC 13\u00b006 -> Taurus Nona 13\u00b006"
+    },
+    "spark": {
+      "id": "N9-020/021",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Contradictory parity definitions"
+    },
+    "aspects": {
+      "id": "N9-033/034",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Incomplete per-object orbital reach and directional rules"
+    },
+    "progressions": {
+      "id": "N9-038",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Unverified calculation procedure"
+    }
+  },
+  "created_at_utc": "2026-10-24T09:44:35.847963+00:00"
+}

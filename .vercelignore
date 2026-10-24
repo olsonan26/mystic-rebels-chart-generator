@@ -1,0 +1,10 @@
+.runtime
+.venv
+reference
+evidence
+node_modules
+.env
+.git
+astronomy_qa
+CODEX_START_HERE.md
+README_FIRST.md

@@ -1,0 +1,10 @@
+{
+  "provider": "GeoNames",
+  "license": "CC BY 4.0",
+  "attribution_url": "https://www.geonames.org/",
+  "geonamescache_version": "3.0.2",
+  "location_kind": "city centroid, not a certified individual birth location",
+  "count": 34006,
+  "sha256": "24003548312c1536e7c728756bf48d770850d89b76275bed894e0bd5d94c1ae8",
+  "byte_size": 867459
+}

@@ -1,0 +1,13 @@
+{
+  "browser":{"mode":"launch","executable_path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe","headless":true},
+  "start_url":{"url":"http://127.0.0.1:8000","query":[]},
+  "environment":{"viewport":{"width":390,"height":844,"device_scale_factor":1}},
+  "actions":[
+    {"step_id":"initial_chart","action":"wait_for","locator":{"kind":"css","selector":"[data-table-object=\"Sun\"]"},"state":"attached","timeout_ms":15000},
+    {"step_id":"customize","action":"click","locator":{"kind":"css","selector":".mobile-object-toggle"}},
+    {"step_id":"all_objects","action":"click","locator":{"kind":"role","role":"button","name":"Select all available"}},
+    {"step_id":"complete_chart","action":"wait_for","locator":{"kind":"css","selector":"[data-table-object=\"Love\"]"},"state":"attached","timeout_ms":15000},
+    {"step_id":"return_to_chart","action":"click","locator":{"kind":"role","role":"button","name":"View chart"}}
+  ],
+  "capture":{"at_end":["dom","accessibility","screenshot","url"],"events":["page-errors"]}
+}

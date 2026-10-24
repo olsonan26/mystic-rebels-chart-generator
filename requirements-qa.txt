@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest==9.1.1
+httpx==0.28.1
+pyerfa==2.0.1.5
+numpy==2.4.6
+pypdf==6.21.2
+geonamescache==3.0.2
