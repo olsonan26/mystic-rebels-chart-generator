@@ -28,9 +28,9 @@ The original renderer is retained as `LegacyWheel.tsx` and remains selectable wi
 
 ## Numerical and visual evidence
 
-The immutable `evidence/wheel-refinement/before.json` was captured from commit `e250662` before changing the renderer: four charts, 296 point records, and 36 decan references. `scripts/wheel_regression.py` verifies every calculation/interpretation/export field and hashes every engine source file plus the manifest/catalog. Only generation timestamps and Python runtime-version metadata are excluded from cross-environment comparison; no floating-point tolerance or rounding is applied to calculated fields.
+The immutable `evidence/wheel-refinement/before.json` was captured from commit `e250662` before changing the renderer: four charts, 296 point records, and 36 decan references. `scripts/wheel_regression.py` verifies every calculation/interpretation/export field and hashes every engine source file plus the manifest/catalog. `git-source-baseline.json` records source hashes from that original Git commit. Engine bytes must match exactly; only the manifest's CRLF/LF text encoding is normalized for its independent content check. Cross-environment comparison excludes generation timestamps, Python runtime-version metadata and the platform-dependent raw manifest file fingerprint; no floating-point tolerance or rounding is applied to calculated fields.
 
-- All engine source files and catalog/manifest files are byte-identical.
+- All engine source files are byte-identical. Catalog and manifest content match the original Git commit; Git line-ending normalization is accounted for separately from content.
 - All 296 point records, houses, derived placements, rule metadata and numerical export fields match the baseline exactly.
 - 238 existing astronomical/API checks and 13 frontend checks pass. The frontend suite includes both alignment modes, all 36 modern decan legends, original-renderer rollback, exact markers and a synthetic 500-object stress case.
 - Actual browser JSON downloads from the compact and original designs are byte-identical. Both downloaded SVGs contain the same 72 unrounded object-coordinate pairs. SVG appearance intentionally differs; text styling is embedded for standalone use.

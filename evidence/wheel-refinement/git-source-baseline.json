@@ -1,0 +1,16 @@
+{
+  "baseline_commit": "e250662ebbf799f00f94c869a68d8bdab1d3f8ea",
+  "files": {
+    "mystic_rebels/__init__.py": "57ab34066773e79ab3fc458d5d1659cf96967b5386be7a219d2337409ef8676c",
+    "mystic_rebels/api.py": "ce5bf061ec8a9ff03cd01b69e51629b7d842378be52ca6db4723d7851dd1937f",
+    "mystic_rebels/astronomy.py": "27d8c0533d5b2ed1c387b24f058b064dd3faad882090244ad999e3844ef3cf7e",
+    "mystic_rebels/catalog.py": "98cc6e2e3ba9454b048e4a1df2dc15eec12dca97ade220c78173aa2cd7f524dc",
+    "mystic_rebels/chronology.py": "01ba67228618515ed5f0f58e2a06f9bf5f1080eb0fcbcd7203cd59011df88e75",
+    "mystic_rebels/errors.py": "e796da5a7a1572f9e69895a121df01eea807bbe65bd4d0ca7aa6ecdf905984ae",
+    "mystic_rebels/models.py": "0f33acf0c42cae744aa58e977caef65fc68525c0987ddf44ae7ae81f35cf99ba",
+    "mystic_rebels/placements.py": "598a330cb2f1399d61b0bd03df9d93a8b414c908e46ce938fec6bbb076536121",
+    "mystic_rebels/service.py": "42d87e691b6476e375a8b20fe865f2e512f120826552269b20e9e42e7aec77c4",
+    "data/ephemeris-manifest.json": "18292b8528a1dfe20a78711e9ca7074942354495f94520c0b7475dc08621061d",
+    "data/minor-bodies.json": "8c5e9618d64290d5db7725d62e9840f13e89a40c00b5cd8cc776d476c44a443d"
+  }
+}
