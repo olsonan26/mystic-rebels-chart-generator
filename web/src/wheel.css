@@ -1,0 +1,222 @@
+.wheel-presentation-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  padding: 12px 24px;
+  background: #fbf9fc;
+  border-top: 1px solid #eee7f2;
+  border-bottom: 1px solid #eee7f2;
+}
+.wheel-presentation-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #70587e;
+  font-size: 10px;
+}
+.wheel-presentation-controls select {
+  font: inherit;
+  font-size: 11px;
+  min-height: 34px;
+  padding: 5px 26px 5px 10px;
+  color: #41234f;
+  border: 1px solid #ddcce6;
+  border-radius: 7px;
+  background: #fff;
+}
+.wheel-presentation-controls select:disabled {
+  opacity: 0.5;
+}
+.wheel-find {
+  position: relative;
+  flex: 1;
+  min-width: 150px;
+}
+.wheel-find .search-input {
+  min-height: 34px;
+}
+.wheel-find input {
+  width: 100%;
+  min-width: 0;
+  font-size: 11px;
+}
+.wheel-search-results {
+  position: absolute;
+  z-index: 4;
+  top: 100%;
+  right: 0;
+  left: 0;
+  min-width: 240px;
+  max-height: 260px;
+  overflow: auto;
+  background: white;
+  border: 1px solid #d6b9e3;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px #39064e18;
+  padding: 8px;
+}
+.wheel-search-results p {
+  margin: 4px 5px 8px;
+  font-size: 10px;
+  color: #70587e;
+}
+.wheel-search-results button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  padding: 9px 6px;
+  color: #492156;
+  font-size: 11px;
+  cursor: pointer;
+}
+.wheel-search-results button:hover,
+.wheel-search-results button:focus-visible {
+  background: #f5eafa;
+}
+.wheel-search-results small {
+  font-size: 9px;
+  white-space: nowrap;
+}
+.wheel-density-note {
+  margin: 0;
+  padding: 0 24px 15px;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #745c80;
+}
+.compact-wheel .scale-number {
+  font-size: 8px;
+  fill: #705c7c;
+}
+.compact-wheel .compact-zodiac {
+  font-size: 29px;
+}
+.compact-wheel .compact-zodiac,
+.compact-wheel .decan-glyph,
+.compact-wheel .energy-glyph,
+.compact-wheel .compact-glyph,
+.compact-wheel .center-glyph {
+  font-family: "Segoe UI Symbol", "Noto Sans Symbols", serif;
+}
+.wheel-surface svg.compact-wheel {
+  max-height: none;
+}
+.compact-wheel .decan-glyph {
+  font-size: 15px;
+  fill: #705c7c;
+}
+.compact-wheel .energy-glyph {
+  font-size: 20px;
+  fill: #86549d;
+}
+.compact-wheel .energy-caption {
+  font-size: 8px;
+  fill: #765388;
+}
+.compact-wheel .compact-house {
+  font-size: 16px;
+  fill: #765388;
+}
+.compact-wheel .compact-angle {
+  font-size: 10px;
+  font-weight: 600;
+  fill: #7a438e;
+  paint-order: stroke;
+  stroke: white;
+  stroke-width: 3px;
+}
+.compact-wheel .compact-object-label {
+  cursor: pointer;
+}
+.compact-wheel .compact-glyph {
+  fill: #3d244a;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.compact-wheel .compact-position {
+  fill: #64506f;
+  font-variant-numeric: tabular-nums;
+  paint-order: stroke;
+  stroke: white;
+  stroke-width: 2.5px;
+}
+.compact-wheel .compact-retro {
+  font-size: 7px;
+  fill: #9b548d;
+}
+.compact-wheel .compact-object-label.selected text {
+  fill: #a100d0;
+}
+.compact-wheel .exact-object-marker {
+  cursor: crosshair;
+}
+.compact-wheel .exact-object-marker:focus {
+  outline: none;
+}
+.compact-wheel .exact-object-marker:focus .marker-hit {
+  fill: #c500ff25;
+  stroke: #a100d0;
+  stroke-width: 1;
+}
+.compact-wheel .center-brand {
+  font-size: 13px;
+  font-weight: 600;
+  fill: #8b57a0;
+}
+.compact-wheel .center-context {
+  font-size: 9px;
+  fill: #866b92;
+}
+.compact-wheel .center-glyph {
+  font-size: 32px;
+  fill: #7c2199;
+}
+.compact-wheel .center-object {
+  font-weight: 600;
+  fill: #40214e;
+}
+.compact-wheel .center-position {
+  font-size: 14px;
+  fill: #57276c;
+  font-variant-numeric: tabular-nums;
+}
+.compact-wheel .center-details {
+  font-size: 10px;
+  fill: #70577e;
+}
+@media (max-width: 760px) {
+  .wheel-presentation-controls {
+    padding: 12px;
+    gap: 10px;
+  }
+  .wheel-presentation-controls label {
+    flex: 1;
+    min-width: 95px;
+  }
+  .wheel-presentation-controls select {
+    width: 100%;
+    font-size: 10px;
+    padding-left: 6px;
+  }
+  .wheel-find {
+    flex-basis: 100%;
+  }
+  .wheel-density-note {
+    padding: 0 15px 15px;
+  }
+}
+@media print {
+  .wheel-presentation-controls,
+  .wheel-density-note {
+    display: none;
+  }
+}

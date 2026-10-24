@@ -1,0 +1,55 @@
+# Mystic Rebels compact Dual wheel
+
+This refines Mystic Rebels' Alchemystic Astrology presentation only. The existing Swiss calculations, object catalog, coordinates, Whole Sign assignments, True Placements, Tone/Pulse/rulers, mathematical Parts and interpretation outputs remain unchanged. No aspect lines or new astrological procedures were added.
+
+## Concentric architecture
+
+| Band, outside to inside | SVG radius |
+| --- | --- |
+| Degree scale; 10-minute subdivisions at 200% zoom | 474–486 |
+| Tropical astronomical zodiac | 432–468 |
+| Modern triplicity decan-ruler glyphs | 410–432 |
+| Exact astronomical markers | 400 |
+| Collision-managed glyph/position annotations | Between energy and marker bands |
+| House-derived True Placement energies | 183–224 |
+| Selected/hovered object inspection | 0–168 |
+
+All 36 decan legend entries are checked against references recorded from the existing placement rules before changes. The legend does not recalculate or replace any point's interpretation fields. The inner energy track remains house-derived: house 1 Aries, house 2 Taurus, and so on, independently of the external astronomical sign.
+
+Ascendant alignment retains the existing rotation. Whole Sign boundary alignment uses 0° of the rising astronomical sign at the left horizontal axis. Both use the same point records, same independent AC/MC and same Whole Sign cusp boundaries. A point's unrounded longitude always determines its marker; collision handling changes annotation positions only.
+
+## Dense charts and access
+
+Sparse, Balanced, Detailed and All that fit control annotations. Selection, search matches and major objects have priority. Spatial hashing and deterministic tie-breaking pack text without changing the input arrays. Finite label capacity never throws a chart-capacity error or removes a marker. The center reports the marker and annotation counts; the help text states that reduced labels do not mean reduced positions. Coincident astronomical longitudes remain coincident; search, keyboard focus, selection and the complete table distinguish their objects.
+
+Zoom extends to 400%, with normal horizontal/vertical viewport scrolling. At 200% the scale adds 10′ subdivisions. Search covers every successfully calculated object in the chart, highlights matching markers and prioritizes its label; it does not filter the astronomical point set. Hover previews and keyboard focus show details centrally; selection also updates the existing inspector.
+
+The original renderer is retained as `LegacyWheel.tsx` and remains selectable with Layout → Original (rollback). Its numerical data and original Ascendant alignment are retained. This also provides a visual comparison without reverting the application.
+
+## Numerical and visual evidence
+
+The immutable `evidence/wheel-refinement/before.json` was captured from commit `e250662` before changing the renderer: four charts, 296 point records, and 36 decan references. `scripts/wheel_regression.py` checks engine source bytes and manifest/catalog content against that original Git commit. It then executes the original engine in a temporary directory on the same native runtime and requires exact equality with the current engine, including every numerical, interpretation and JSON field except generation timestamps. No floating-point tolerance or rounding is applied. The frozen Windows snapshot is retained separately; cross-platform differences are measured in `cross-platform-comparison.json`, because different native compiler/libm runtimes are a separate comparison from presentation regression.
+
+- All engine source files are byte-identical. Catalog and manifest content match the original Git commit; Git line-ending normalization is accounted for separately from content.
+- All 296 point records, houses, derived placements, rule metadata and numerical export fields match the original engine exactly on the same runtime. The local Windows results also match the frozen pre-edit snapshot exactly; Linux cross-platform differences are recorded separately.
+- 238 existing astronomical/API checks and 13 frontend checks pass. The frontend suite includes both alignment modes, all 36 modern decan legends, original-renderer rollback, exact markers and a synthetic 500-object stress case.
+- Actual browser JSON downloads from the compact and original designs are byte-identical. Both downloaded SVGs contain the same 72 unrounded object-coordinate pairs. SVG appearance intentionally differs; text styling is embedded for standalone use.
+- Whole Sign SVG marker-coordinate inversion differs from recorded longitude by at most 4.10e-10 arcsecond, from floating-point trigonometry only; stored longitudes do not change.
+- In the measured 72-object chart at 100% Whole Sign view, All that fit places 61 non-overlapping text labels while retaining 72 markers and 72 table rows. At 200%, all 72 labels fit. Counts vary with chart clustering, selection, search and zoom.
+- REA desktop (1440×1640) and mobile (390×844) workflows complete without captured page errors. These are browser viewport checks, not claims of testing every physical phone/browser.
+
+Evidence: `numerical-regression.json`, `browser-regression.json`, `compact-export.svg`, REA captures and `compact-desktop.png` / `compact-mobile.png`, all under `evidence/wheel-refinement/`.
+
+The 500-object case is a synthetic presentation stress test. It does not expand the production catalog or claim calculations for unsupported objects.
+
+## Alchemystic Astrology identity and decorative motion
+
+Mystic Rebels remains the product brand; the astrology system is named Alchemystic Astrology. The title, introduction and footer use that name. A small purple plasma orb loops beside the page heading, outside the chart SVG. It is decorative and does not indicate astronomical status or change chart values. The CSS loops animate only transform and opacity; static gradients and filaments form the globe. Users can pause it, and reduced-motion preferences disable animation. Desktop and 390-pixel mobile screenshots plus actual running/paused/reduced-motion browser observations are retained under `evidence/wheel-refinement/plasma-*`.
+
+The Linux CI run on commit `63fc1c4` passed all 238 astronomical/API tests, 13 frontend tests, production build and the exact same-runtime original/current engine comparison. The separately retained Windows/Linux comparison contains 378 numeric field differences over four charts, with a maximum longitude difference of 2.0464e-10 arcsecond; it is not represented as bit-identical across all native platforms. Before/after presentation results on the same platform remain exact.
+
+## Hosting destination
+
+The supplied Vercel account is the Astro team (`astro-ac32`). Project: https://vercel.com/astro-ac32/mystic-rebels-chart-generator. Site: https://mystic-rebels-chart-generator-seven.vercel.app. Deployments require Vercel authentication. The previous account's deployment is retained for rollback.
+
+The source remains in the existing private GitHub repository. The Astro account cannot currently access that private repository through its Vercel Git integration (`repo_not_found`), and direct checkout deployments using the unrelated Git author were blocked. Deployment therefore uses an exact `git archive` of the reviewed commit, authenticated as the Astro owner, with the source commit recorded in deployment metadata. Automatic Git deployment in Astro requires granting that Vercel account access to the repository. No new repository or calculation engine was created. No privileged account tokens are included in code, artifacts or browser configuration.

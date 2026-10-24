@@ -1,0 +1,13 @@
+{
+  "engine_sources_byte_identical": true,
+  "manifest_catalog_content_identical": true,
+  "cases": 4,
+  "point_records": 296,
+  "same_runtime_original_engine_values_equal": true,
+  "all_calculation_and_interpretation_fields_equal": true,
+  "json_export_calculation_fields_equal": true,
+  "recorded_windows_snapshot_equal": true,
+  "cross_platform_difference_count": 0,
+  "excluded_same_runtime_field": "created_at_utc generation timestamp only",
+  "baseline_sha256_lf_normalized": "7a7c5c8a6dd12386560fd016f82343ba8a50b934ce73d90a860f7fe3525ec51c"
+}

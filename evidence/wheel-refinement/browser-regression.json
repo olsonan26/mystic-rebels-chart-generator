@@ -1,0 +1,15 @@
+{
+  "json_downloads_byte_identical": true,
+  "json_objects": 72,
+  "both_svg_raw_coordinate_maps_identical": true,
+  "svg_marker_count_compact": 72,
+  "svg_marker_count_original": 72,
+  "browser_whole_sign_max_marker_residual_arcsec": 4.0927261579781766e-10,
+  "actual_text_overlap_pairs_at_100_percent": 0,
+  "all_object_markers_at_100_percent": 72,
+  "all_object_labels_at_100_percent": 61,
+  "all_object_markers_at_200_percent": 72,
+  "all_object_labels_at_200_percent": 72,
+  "fine_scale_at_200_percent_minutes": 10,
+  "crowded_object_search_selection_verified": "Gonggong"
+}

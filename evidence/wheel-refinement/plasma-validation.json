@@ -1,0 +1,155 @@
+{
+  "running": {
+    "title": "Mystic Rebels | Alchemystic Astrology",
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "reducedMotion": false,
+    "orbOutsideWheel": true,
+    "animationCount": 6,
+    "animations": [
+      {
+        "name": "plasma-breathe",
+        "state": "running",
+        "duration": 8000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform",
+          "opacity"
+        ]
+      },
+      {
+        "name": "plasma-orbit",
+        "state": "running",
+        "duration": 12000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-counter-orbit",
+        "state": "running",
+        "duration": 16000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-orbit",
+        "state": "running",
+        "duration": 12000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-counter-orbit",
+        "state": "running",
+        "duration": 16000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-breathe",
+        "state": "running",
+        "duration": 8000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform",
+          "opacity"
+        ]
+      }
+    ],
+    "pauseButtonLabel": "Pause decorative plasma animation",
+    "pauseButtonHidden": false,
+    "chartMarkers": 12,
+    "chartRows": 12
+  },
+  "paused": {
+    "title": "Mystic Rebels | Alchemystic Astrology",
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "reducedMotion": false,
+    "orbOutsideWheel": true,
+    "animationCount": 6,
+    "animations": [
+      {
+        "name": "plasma-breathe",
+        "state": "paused",
+        "duration": 8000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform",
+          "opacity"
+        ]
+      },
+      {
+        "name": "plasma-orbit",
+        "state": "paused",
+        "duration": 12000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-counter-orbit",
+        "state": "paused",
+        "duration": 16000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-orbit",
+        "state": "paused",
+        "duration": 12000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-counter-orbit",
+        "state": "paused",
+        "duration": 16000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform"
+        ]
+      },
+      {
+        "name": "plasma-breathe",
+        "state": "paused",
+        "duration": 8000,
+        "infinite": true,
+        "keyframeProperties": [
+          "transform",
+          "opacity"
+        ]
+      }
+    ],
+    "pauseButtonLabel": "Play decorative plasma animation",
+    "pauseButtonHidden": false,
+    "chartMarkers": 12,
+    "chartRows": 12
+  },
+  "reduced-motion": {
+    "title": "Mystic Rebels | Alchemystic Astrology",
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "reducedMotion": true,
+    "orbOutsideWheel": true,
+    "animationCount": 0,
+    "animations": [],
+    "pauseButtonLabel": "Play decorative plasma animation",
+    "pauseButtonHidden": true,
+    "chartMarkers": 12,
+    "chartRows": 12
+  }
+}

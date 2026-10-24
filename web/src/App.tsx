@@ -18,6 +18,9 @@ import {
 } from "lucide-react";
 import type { BirthInput, Chart, Location, ObjectEntry, Point } from "./types";
 import { Wheel } from "./Wheel";
+import { LegacyWheel } from "./LegacyWheel";
+import PlasmaOrb from "./PlasmaOrb";
+import { matchesPoint, type Density, type Orientation } from "./wheelLayout";
 import { formatPosition } from "./geometry";
 import { initializeStorage } from "./storage";
 import Account from "./Account";
@@ -74,6 +77,10 @@ export default function App() {
     ),
     [active, setActive] = useState<string | null>("Sun"),
     [dual, setDual] = useState(false),
+    [wheelDesign, setWheelDesign] = useState<"compact" | "original">("compact"),
+    [orientation, setOrientation] = useState<Orientation>("ascendant"),
+    [labelDensity, setLabelDensity] = useState<Density>("balanced"),
+    [wheelSearch, setWheelSearch] = useState(""),
     [zoom, setZoom] = useState(1),
     [precision, setPrecision] = useState<"degree" | "minute" | "second">(
       "second",
@@ -229,12 +236,24 @@ export default function App() {
     const svg = document.getElementById("chart-wheel");
     if (!svg || !chart) return;
     const clone = svg.cloneNode(true) as SVGElement;
-    const source = document.querySelectorAll("#chart-wheel text");
-    clone.querySelectorAll("text").forEach((node, i) => {
+    const source = document.querySelectorAll(
+      "#chart-wheel text, #chart-wheel tspan",
+    );
+    clone.querySelectorAll("text, tspan").forEach((node, i) => {
       const style = getComputedStyle(source[i]);
-      node.setAttribute("font-family", style.fontFamily);
-      node.setAttribute("font-size", style.fontSize);
-      node.setAttribute("font-weight", style.fontWeight);
+      for (const property of [
+        "font-family",
+        "font-size",
+        "font-weight",
+        "fill",
+        "stroke",
+        "stroke-width",
+        "paint-order",
+        "stroke-linejoin",
+        "font-variant-numeric",
+        "letter-spacing",
+      ])
+        node.setAttribute(property, style.getPropertyValue(property));
     });
     download(
       "mystic-rebels-chart.svg",
@@ -268,9 +287,12 @@ export default function App() {
       </header>
       <main>
         <div className="page-heading">
-          <div>
-            <h1>Your chart. Every detail.</h1>
-            <p>Create, customize, and explore your sky.</p>
+          <div className="heading-identity">
+            <PlasmaOrb />
+            <div>
+              <h1>Your chart. Every detail.</h1>
+              <p>Create, customize, and explore your Alchemystic Astrology chart.</p>
+            </div>
           </div>
           <button
             className="subtle"
@@ -784,6 +806,110 @@ export default function App() {
                   </select>
                 </label>
               </div>
+              <div
+                className="wheel-presentation-controls"
+                aria-label="Wheel presentation"
+              >
+                <label>
+                  Layout
+                  <select
+                    aria-label="Wheel layout"
+                    value={wheelDesign}
+                    onChange={(e) =>
+                      setWheelDesign(e.target.value as typeof wheelDesign)
+                    }
+                  >
+                    <option value="compact">Compact</option>
+                    <option value="original">Original (rollback)</option>
+                  </select>
+                </label>
+                <label>
+                  Alignment
+                  <select
+                    aria-label="Wheel alignment"
+                    value={
+                      wheelDesign === "original" ? "ascendant" : orientation
+                    }
+                    disabled={
+                      wheelDesign === "original" ||
+                      chart?.angles.Ascendant === undefined
+                    }
+                    onChange={(e) =>
+                      setOrientation(e.target.value as Orientation)
+                    }
+                  >
+                    <option value="ascendant">Ascendant</option>
+                    <option value="whole-sign">Whole Sign boundary</option>
+                  </select>
+                </label>
+                <label>
+                  Labels
+                  <select
+                    aria-label="Wheel label density"
+                    value={labelDensity}
+                    disabled={wheelDesign === "original"}
+                    onChange={(e) => setLabelDensity(e.target.value as Density)}
+                  >
+                    <option value="sparse">Sparse</option>
+                    <option value="balanced">Balanced</option>
+                    <option value="detailed">Detailed</option>
+                    <option value="all">All that fit</option>
+                  </select>
+                </label>
+                <div className="wheel-find">
+                  <div className="search-input">
+                    <Search size={14} />
+                    <input
+                      aria-label="Find in wheel"
+                      type="search"
+                      placeholder="Find in this chart"
+                      value={wheelSearch}
+                      onChange={(e) => setWheelSearch(e.target.value)}
+                    />
+                  </div>
+                  {wheelSearch.trim() && (
+                    <div
+                      className="wheel-search-results"
+                      aria-label="Matching chart objects"
+                    >
+                      <p>
+                        {
+                          available.filter((p) =>
+                            matchesPoint(
+                              { ...p, longitude_deg: p.longitude_deg! },
+                              wheelSearch,
+                            ),
+                          ).length
+                        }{" "}
+                        matches · all markers remain visible
+                      </p>
+                      {available
+                        .filter((p) =>
+                          matchesPoint(
+                            { ...p, longitude_deg: p.longitude_deg! },
+                            wheelSearch,
+                          ),
+                        )
+                        .map((p) => (
+                          <button
+                            key={p.id}
+                            onClick={() => {
+                              setActive(p.id);
+                              setWheelSearch("");
+                            }}
+                          >
+                            <span>
+                              {p.glyph} {p.name}
+                            </span>
+                            <small>
+                              {formatPosition(p.longitude_deg!, precision)}
+                            </small>
+                          </button>
+                        ))}
+                    </div>
+                  )}
+                </div>
+              </div>
               {error && (
                 <div role="alert" className="error">
                   <div>
@@ -806,13 +932,27 @@ export default function App() {
                     style={{ width: `${zoom * 100}%` }}
                   >
                     {chart ? (
-                      <Wheel
-                        chart={chart}
-                        dual={dual}
-                        selected={active}
-                        onSelect={setActive}
-                        precision={precision}
-                      />
+                      wheelDesign === "original" ? (
+                        <LegacyWheel
+                          chart={chart}
+                          dual={dual}
+                          selected={active}
+                          onSelect={setActive}
+                          precision={precision}
+                        />
+                      ) : (
+                        <Wheel
+                          chart={chart}
+                          dual={dual}
+                          selected={active}
+                          onSelect={setActive}
+                          precision={precision}
+                          orientation={orientation}
+                          density={labelDensity}
+                          query={wheelSearch}
+                          zoom={zoom}
+                        />
+                      )
                     ) : (
                       <div className="empty-chart">
                         {busy ? (
@@ -839,9 +979,9 @@ export default function App() {
                   </button>
                   <span>{Math.round(zoom * 100)}%</span>
                   <button
-                    onClick={() => setZoom((z) => Math.min(2.5, z + 0.25))}
+                    onClick={() => setZoom((z) => Math.min(4, z + 0.25))}
                     aria-label="Zoom in"
-                    disabled={zoom >= 2.5}
+                    disabled={zoom >= 4}
                   >
                     <Plus size={16} />
                   </button>
@@ -876,6 +1016,16 @@ export default function App() {
                   <ArrowDownToLine size={14} /> Export SVG
                 </button>
               </div>
+              {wheelDesign === "compact" && (
+                <p className="wheel-density-note">
+                  Every calculated object has an exact marker. Labels prioritize
+                  selection, search and major objects; crowded labels are
+                  reduced, never positions.{" "}
+                  {zoom >= 2
+                    ? "Outer scale: 10′ subdivisions."
+                    : "Outer scale: 1°; zoom to 200% for 10′ subdivisions."}
+                </p>
+              )}
             </section>
             {selected && (
               <section className="inspector panel" aria-live="polite">
@@ -1084,7 +1234,7 @@ export default function App() {
       <footer className="page-footer">
         <img src="/mystic-rebels.avif" alt="Mystic Rebels" />
         <p>Your sky. Your perspective.</p>
-        <span>Chart generator v0.1</span>
+        <span>Alchemystic Astrology · Chart generator v0.1</span>
       </footer>
       <div className="sr-only" role="status" aria-live="polite">
         {status}
