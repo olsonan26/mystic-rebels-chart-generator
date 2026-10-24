@@ -1,0 +1,13 @@
+{
+  "engine_sources_byte_identical": true,
+  "cases": 4,
+  "point_records": 296,
+  "all_calculation_and_interpretation_fields_equal": true,
+  "json_export_calculation_fields_equal": true,
+  "same_environment_export_values_equal": true,
+  "excluded_metadata_fields": [
+    "created_at_utc generation timestamp",
+    "configuration.python_version runtime environment"
+  ],
+  "baseline_sha256_lf_normalized": "7a7c5c8a6dd12386560fd016f82343ba8a50b934ce73d90a860f7fe3525ec51c"
+}

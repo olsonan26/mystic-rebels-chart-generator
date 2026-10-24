@@ -48,7 +48,9 @@ The last command performs live NASA queries and stores raw responses. Ordinary t
 
 ## Hosting
 
-The Vite frontend and `/api/index.py` ASGI calculator deploy together on Vercel. GitHub is linked to the Vercel project. `vercel.json`, `.python-version`, and `pyproject.toml` configure the native Python function and data inclusion. The compact GeoNames index avoids shipping the much larger development database package in the function.
+The Vite frontend and `/api/index.py` ASGI calculator deploy together on Vercel. Current destination: [Astro project](https://vercel.com/astro-ac32/mystic-rebels-chart-generator), [authenticated site](https://mystic-rebels-chart-generator-seven.vercel.app). Source stays in the existing private GitHub repository. The Astro Vercel account still requires access to that private repository for automatic Git deployment; the authenticated CLI deploys the same checkout in the meantime. `vercel.json`, `.python-version`, and `pyproject.toml` configure the native Python function and data inclusion. The compact GeoNames index avoids shipping the much larger development database package in the function.
+
+The compact wheel adds concentric bands, modern decan glyphs, selectable Ascendant/Whole Sign boundary alignment, label density, chart search, central hover/selection details and zoom up to 400%. Layout → Original retains the previous renderer for rollback. See `docs/WHEEL_REFINEMENT.md` for the unchanged numerical snapshot, real export comparisons and dense-object validation.
 
 Set `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` in each intended Vercel environment. Only the publishable key is exposed by `/api/config`. No service-role key is required by the client or calculation API. Local values go in ignored `.env`; see `.env.example`.
 
