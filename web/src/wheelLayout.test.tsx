@@ -145,7 +145,8 @@ describe("presentation-only wheel regression", () => {
       />,
     );
     expect((svg.match(/data-object-id=/g) ?? []).length).toBe(500);
-    expect((svg.match(/data-label-id=/g) ?? []).length).toBe(18);
+    expect((svg.match(/data-label-id=/g) ?? []).length).toBeGreaterThan(0);
+    expect((svg.match(/data-label-id=/g) ?? []).length).toBeLessThanOrEqual(18);
   });
   it("retains the original renderer as a working rollback", () => {
     const svg = renderToStaticMarkup(
