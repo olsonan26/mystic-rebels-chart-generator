@@ -29,6 +29,10 @@ export type Point = ObjectEntry & {
   speed_longitude_deg_per_day?: number;
   distance_au?: number;
   retrograde: boolean | null;
+  // Optional research metadata. Never synthesize undocumented PRE/POST phases.
+  motion_status?: "Direct" | "Retrograde" | "Stationary" | "Unknown";
+  gradity_phase?: "Prograde" | "Pregrade" | "Retrograde" | "Postgrade" | null;
+  gradity_source_status?: "EXPLICIT" | "VERIFIED_EXAMPLE" | "DERIVED" | "UNKNOWN";
   sign: string;
   sign_index: number;
   degree_in_sign: number;

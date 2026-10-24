@@ -21,7 +21,8 @@ import { Wheel } from "./Wheel";
 import { LegacyWheel } from "./LegacyWheel";
 import PlasmaOrb from "./PlasmaOrb";
 import { matchesPoint, type Density, type Orientation } from "./wheelLayout";
-import { formatPosition } from "./geometry";
+import { formatPosition, formatDegreeOnly } from "./geometry";
+import { motionStatus, observedGradity } from "./gradeity";
 import { initializeStorage } from "./storage";
 import Account from "./Account";
 
@@ -1044,9 +1045,11 @@ export default function App() {
                 <div className="inspector-values">
                   {[
                     ["House", selected.house ?? "—"],
-                    ["Field", selected.field ?? "—"],
-                    ["Tone", selected.tone],
+                    ["True Placement / Field", selected.field ?? "—"],
+                    ["Astronomical Sign / Tone", selected.tone],
                     ["Pulse", selected.pulse],
+                    ["Motion status", motionStatus(selected)],
+                    ["Gradity (research)", observedGradity(selected) ?? "Unverified"],
                   ].map(([key, value]) => (
                     <div key={key}>
                       <small>{key}</small>
@@ -1075,7 +1078,7 @@ export default function App() {
               <div className="positions-header">
                 <div>
                   <h2>Planetary positions</h2>
-                  <p>The exact positions behind your chart.</p>
+                  <p>Numeric Position is the degree within the astronomical sign shown separately as Tone. The exact unrounded longitude is unchanged. Gradity is research-only until station/boundary events are independently verified.</p>
                 </div>
                 <div className="search-input">
                   <Search size={15} />
@@ -1109,8 +1112,13 @@ export default function App() {
                     <tr>
                       <th>Object</th>
                       <th>Position</th>
+                      <th>Astronomical sign / Tone</th>
+                      <th>True Placement / Field</th>
+                      <th>Whole Sign house</th>
+                      <th>Motion</th>
+                      <th>Gradity</th>
                       {(tableView === "placements"
-                        ? ["House", "Field", "Tone", "Pulse"]
+                        ? ["Pulse"]
                         : [
                             "Latitude °",
                             "Declination °",
@@ -1143,14 +1151,18 @@ export default function App() {
                               {p.retrograde && <span className="rx">℞</span>}
                             </button>
                           </td>
-                          <td>{formatPosition(p.longitude_deg!, precision)}</td>
+                          <td>{formatDegreeOnly(p.longitude_deg!, precision)}</td>
+                          <td>{p.tone}</td>
+                          <td>{p.field ?? "—"}</td>
+                          <td>{p.house ?? "—"}</td>
+                          <td>{motionStatus(p)}</td>
+                          <td title="Only a source-supported observed retrograde is classified. Pregrade/Postgrade require verified station and boundary events.">
+                            {["Planets", "Asteroids", "Minor bodies"].includes(p.group)
+                              ? observedGradity(p) ?? "Unverified"
+                              : "—"}
+                          </td>
                           {tableView === "placements" ? (
-                            <>
-                              <td>{p.house ?? "—"}</td>
-                              <td>{p.field ?? "—"}</td>
-                              <td>{p.tone}</td>
-                              <td>{p.pulse}</td>
-                            </>
+                            <td>{p.pulse}</td>
                           ) : (
                             <>
                               {[

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { formatPosition, placeLabels, polar, normalize } from "./geometry";
+import { formatPosition, formatDegreeOnly, placeLabels, polar, normalize } from "./geometry";
 describe("raw chart geometry", () => {
   it("retains the exact longitude when allocating crowded labels", () => {
     const points = Array.from({ length: 45 }, (_, i) => ({
@@ -50,6 +50,12 @@ describe("raw chart geometry", () => {
     const raw = 29.9999999;
     expect(formatPosition(raw)).toBe("0°00′00″ Taurus");
     expect(raw).toBe(29.9999999);
+  });
+  it("displays only the original numeric position while sign remains separate", () => {
+    expect(formatDegreeOnly(115.74027777777778)).toBe("25°44′25″");
+    expect(formatDegreeOnly(359.5, "minute")).toBe("29°30′");
+    expect(formatDegreeOnly(29.9999999)).toBe("0°00′00″");
+    expect(formatPosition(115.74027777777778)).toBe("25°44′25″ Cancer");
   });
   it("formats wrap and minute precision correctly", () => {
     expect(formatPosition(360)).toBe("0°00′00″ Aries");
