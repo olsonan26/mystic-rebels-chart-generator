@@ -15,7 +15,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: python -m pip install -r requirements-qa.txt
-      - run: python -m pytest astronomy_qa -q --junitxml=evidence/ci-astronomy.xml
+      - run: python -m pytest astronomy_qa access_qa -q --junitxml=evidence/ci-astronomy.xml
       - run: python scripts/wheel_regression.py
       - run: npm ci
       - run: npm test
