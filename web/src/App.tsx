@@ -288,7 +288,7 @@ export default function App() {
         <div className="page-heading">
           <div>
             <h1>Your chart. Every detail.</h1>
-            <p>Create, customize, and explore your sky.</p>
+            <p>Create, customize, and explore your Alchemystic Astrology chart.</p>
           </div>
           <button
             className="subtle"
@@ -1230,7 +1230,7 @@ export default function App() {
       <footer className="page-footer">
         <img src="/mystic-rebels.avif" alt="Mystic Rebels" />
         <p>Your sky. Your perspective.</p>
-        <span>Chart generator v0.1</span>
+        <span>Alchemystic Astrology · Chart generator v0.1</span>
       </footer>
       <div className="sr-only" role="status" aria-live="polite">
         {status}

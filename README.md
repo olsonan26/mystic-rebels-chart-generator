@@ -1,4 +1,4 @@
-# Mystic Rebels Chart Generator
+# Mystic Rebels — Alchemystic Astrology Chart Generator
 
 Independent Mystic Rebels web application with a native Swiss Ephemeris calculation API, precise SVG natal/Dual wheels, grouped object selection, a full-precision position model, and Supabase account/saved-chart integration.
 

@@ -1,5 +1,5 @@
 """Record BEFORE presentation edits; verify every calculation/export field afterward."""
-import hashlib,json,sys
+import hashlib,json,sys,subprocess,tempfile,shutil
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
@@ -23,6 +23,28 @@ def across_environments(charts):
         chart['configuration'].pop('python_version',None)
         chart['configuration'].pop('asset_manifest_sha256',None)
     return values
+def original_engine_cases(commit,inputs,source_files):
+    # Compare before and after on the SAME native runtime. A Windows frozen
+    # snapshot cannot establish bit-for-bit Linux libm/compiler agreement.
+    with tempfile.TemporaryDirectory(prefix='mystic-rebels-regression-') as directory:
+        baseline=Path(directory)
+        shutil.copytree(ROOT/'data',baseline/'data')
+        for name in source_files:
+            if not name.endswith('.py'):continue
+            target=baseline/name;target.parent.mkdir(parents=True,exist_ok=True)
+            target.write_bytes(subprocess.check_output(['git','show',commit+':'+name],cwd=ROOT))
+        runner="import json,sys;sys.path.insert(0,sys.argv[1]);from mystic_rebels.service import calculate;from mystic_rebels.models import BirthInput;print(json.dumps([{k:v for k,v in calculate(BirthInput(**x)).items() if k!='created_at_utc'} for x in json.load(sys.stdin)]))"
+        result=subprocess.run([sys.executable,'-c',runner,str(baseline)],input=json.dumps(inputs),text=True,encoding='utf-8',capture_output=True,cwd=baseline,check=True)
+        return json.loads(result.stdout)
+def differences(a,b,path=''):
+    if isinstance(a,dict) and isinstance(b,dict):
+        return [r for key in sorted(set(a)|set(b)) for r in differences(a.get(key),b.get(key),path+'.'+key)]
+    if isinstance(a,list) and isinstance(b,list) and len(a)==len(b):
+        return [r for i,(x,y) in enumerate(zip(a,b)) for r in differences(x,y,f'{path}[{i}]')]
+    if a==b:return []
+    result={'path':path,'recorded':a,'current':b}
+    if isinstance(a,(int,float)) and isinstance(b,(int,float)):result['absolute_difference']=abs(a-b)
+    return [result]
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
     if '--record' in sys.argv:
@@ -43,9 +65,12 @@ def main():
     raw_hashes=hashes()
     assert all(value==raw_hashes[path] for path,value in before['engine_hashes'].items() if path.endswith('.py')),'Engine source bytes changed'
     after=calculate_cases(before['inputs'])
-    assert across_environments(before['charts'])==across_environments(after),'Calculated values or interpretation outputs changed'
-    assert across_environments(json.loads(json.dumps(after)))==across_environments(before['charts']),'JSON calculation/export values changed'
-    report={'engine_sources_byte_identical':True,'manifest_catalog_content_identical':True,'cases':len(after),'point_records':sum(len(c['points']) for c in after),'all_calculation_and_interpretation_fields_equal':True,'json_export_calculation_fields_equal':True,'same_environment_export_values_equal':before['charts']==after,'excluded_metadata_fields':['created_at_utc generation timestamp','configuration.python_version runtime environment','configuration.asset_manifest_sha256 raw file hash differs with Git CRLF/LF normalization; manifest content hash is checked separately'],'baseline_sha256_lf_normalized':hashlib.sha256(BASE.read_text(encoding='utf-8').encode('utf-8')).hexdigest()}
+    reference=original_engine_cases(before['baseline_commit'],before['inputs'],source_before['files'])
+    assert reference==after,'Original and current engines differ on the same runtime'
+    assert json.loads(json.dumps(after))==reference,'JSON calculation/export values changed'
+    recorded_differences=differences(across_environments(before['charts']),across_environments(after))
+    (OUT/'cross-platform-comparison.json').write_text(json.dumps({'recorded_runtime':before['charts'][0]['configuration']['python_version'],'current_runtime':after[0]['configuration']['python_version'],'differences':recorded_differences},indent=2)+'\n')
+    report={'engine_sources_byte_identical':True,'manifest_catalog_content_identical':True,'cases':len(after),'point_records':sum(len(c['points']) for c in after),'same_runtime_original_engine_values_equal':True,'all_calculation_and_interpretation_fields_equal':True,'json_export_calculation_fields_equal':True,'recorded_windows_snapshot_equal':not recorded_differences,'cross_platform_difference_count':len(recorded_differences),'excluded_same_runtime_field':'created_at_utc generation timestamp only','baseline_sha256_lf_normalized':hashlib.sha256(BASE.read_text(encoding='utf-8').encode('utf-8')).hexdigest()}
     (OUT/'numerical-regression.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report))
 if __name__=='__main__':main()
