@@ -79,13 +79,17 @@ export function compactLabels(
     density === "all"
       ? points.length
       : Math.round({ sparse: 18, balanced: 48, detailed: 88 }[density] * zoom);
+  // Prioritize source-significant objects before lower-priority research bodies.
+  // Sorting within each priority remains by true unrounded longitude.
   const ranks: Record<string, number> = {
-    Planets: 400,
-    Angles: 300,
+    Angles: 460,
+    Planets: 450,
+    "Lunar points": 435,
     Asteroids: 200,
-    "Lunar points": 150,
-    Parts: 100,
+    Parts: 150,
+    "Minor bodies": 100,
   };
+  const maxLabelDriftDegrees = 24; // display-only: never relocate astronomical anchors
   const score = (p: LayoutPoint) =>
     (p.id === selected ? 10000 : 0) +
     (query.trim() && matchesPoint(p, query) ? 5000 : 0) +
@@ -121,7 +125,7 @@ export function compactLabels(
     if (labels.length >= target) break;
     let found: CompactLabel | undefined;
     // Spatial hashing keeps hundreds bounded; only annotation positions move.
-    for (let shift = 0; shift <= 180 && !found; shift += 2) {
+    for (let shift = 0; shift <= maxLabelDriftDegrees && !found; shift += 2) {
       for (const direction of shift === 0 ? [1] : [1, -1]) {
         for (let lane = 0; lane < lanes; lane++) {
           const radius = 376 - lane * laneStep,
@@ -144,5 +148,5 @@ export function compactLabels(
     }
     // A full annotation band never removes or throws away an astronomical point.
   }
-  return { labels, requested: Math.min(target, points.length), width, height };
+  return { labels, requested: Math.min(target, points.length), width, height, maxLabelDriftDegrees };
 }
