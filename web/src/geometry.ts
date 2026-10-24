@@ -145,3 +145,13 @@ export function placeLabels(
       };
     });
 }
+
+// Present the same rounded degree/minute/second value without a zodiac sign.
+// Numeric Position and Astronomical Sign/Tone are separate UI columns; the
+// unrounded absolute longitude is never changed.
+export function formatDegreeOnly(
+  longitude: number,
+  precision: "degree" | "minute" | "second" = "second",
+) {
+  return formatPosition(longitude, precision).split(" ")[0];
+}
