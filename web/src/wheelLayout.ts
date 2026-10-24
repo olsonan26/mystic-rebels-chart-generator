@@ -130,6 +130,9 @@ export function compactLabels(
         for (let lane = 0; lane < lanes; lane++) {
           const radius = 376 - lane * laneStep,
             angle = normalize(p.longitude_deg + direction * shift);
+          // Preserve the astronomical sign sector even for the annotation.
+          if (Math.floor(angle / 30) !== Math.floor(normalize(p.longitude_deg) / 30))
+            continue;
           const [x, y] = polar(angle, radius, rotation);
           if (fits(x, y)) {
             found = { id: p.id, actual: p.longitude_deg, angle, radius, x, y };
