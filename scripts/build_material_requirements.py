@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT))
 from knowledge_audit.registry import load_registry
 from knowledge_audit.semantics import load_inventory, _closure
 from knowledge_audit.sources import original_witnesses, atomic_assertions
+from knowledge_audit.requirements import code_trace_hash
 
 # Entries are grouped in exactly the same order as comma-separated fragments
 # in the original table. A slash/compound can require several independent tasks.
@@ -105,7 +106,7 @@ def main():
     trace_paths = ['mystic_rebels/api.py', 'mystic_rebels/service.py', 'mystic_rebels/models.py',
                    'mystic_rebels/catalog.py', 'mystic_rebels/placements.py', 'web/src/App.tsx',
                    'web/src/MethodVerification.tsx', '.vercelignore']
-    code_trace = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_text(encoding='utf-8').encode()).hexdigest(),
+    code_trace = [dict(path=p, sha256=code_trace_hash(p, 'COMMITTED_HEAD'),
                        hash_normalization='UTF8_UNIVERSAL_NEWLINES') for p in trace_paths]
     sections, requirements = [], []
     examples = json.loads((ROOT / 'data/knowledge/worked_examples.json').read_text())['examples']
@@ -189,7 +190,7 @@ def main():
         audit_date_local='2026-10-25', source_table_sha256=hashlib.sha256(json.dumps(source_rows, separators=(',', ':')).encode()).hexdigest(),
         source_table_path='docs/INTERPRETIVE_COVERAGE_AUDIT.md',
         semantic_coverage_percent=None, all_important_knowledge_covered=False,
-        code_trace=code_trace, sections=sections, requirements=requirements)
+        code_trace_basis='COMMITTED_HEAD', code_trace=code_trace, sections=sections, requirements=requirements)
     output = ROOT / 'data/knowledge/material_requirements.json'
     output.write_text(json.dumps(data, ensure_ascii=True, indent=2) + '\n', encoding='utf-8')
     lines = ['# Original 18-section material-context reconciliation', '',

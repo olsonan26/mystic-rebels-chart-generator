@@ -1,6 +1,7 @@
 """Account for every original material-context fragment and its atomic tasks."""
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 from .registry import ROOT
@@ -14,6 +15,30 @@ DISPOSITIONS = {'resolved', 'source found but implementation missing',
 
 def load_requirements(path=REQUIREMENTS):
     return json.loads(Path(path).read_text(encoding='utf-8'))
+
+
+def code_trace_hash(path, basis='WORKING_TREE', root=ROOT):
+    """Keep published-code evidence separate from unrelated uncommitted work.
+
+    A source archive has no Git metadata, so its included files are the trace.
+    In a checkout, COMMITTED_HEAD inspects HEAD:path and detects committed code
+    changes while deliberately excluding uncommitted local fixes.
+    """
+    if basis not in ('WORKING_TREE', 'COMMITTED_HEAD'):
+        raise ValueError('Unknown code trace basis: ' + basis)
+    if basis == 'COMMITTED_HEAD' and (root / '.git').exists():
+        raw = subprocess.check_output(['git', 'show', 'HEAD:' + path], cwd=root)
+        text = raw.decode('utf-8').replace('\r\n', '\n').replace('\r', '\n')
+    else:
+        text = (root / path).read_text(encoding='utf-8')
+    return hashlib.sha256(text.encode('utf-8')).hexdigest()
+
+
+def validate_code_trace(data, root=ROOT):
+    basis = data.get('code_trace_basis', 'WORKING_TREE')
+    for ref in data['code_trace']:
+        if code_trace_hash(ref['path'], basis, root) != ref['sha256']:
+            raise ValueError('Inspected product path changed; refresh code trace: ' + ref['path'])
 
 
 def _source_table():
@@ -92,10 +117,7 @@ def validate_requirements(data=None, check_files=True):
             or data['all_important_knowledge_covered'] is not False):
         raise ValueError('Requirements denominator is not book semantic coverage')
     if check_files:
-        for ref in data['code_trace']:
-            # Universal-newline reading makes Git LF normalization harmless.
-            if hashlib.sha256((ROOT / ref['path']).read_text(encoding='utf-8').encode()).hexdigest() != ref['sha256']:
-                raise ValueError('Inspected product path changed; refresh code trace: ' + ref['path'])
+        validate_code_trace(data)
         for row in by_id.values():
             for name in row['tests']['calculation_regressions'] + row['tests']['audit_integrity_tests']:
                 if not (ROOT / name.split('::')[0]).is_file():

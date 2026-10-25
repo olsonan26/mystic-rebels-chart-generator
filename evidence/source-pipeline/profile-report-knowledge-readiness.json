@@ -17,7 +17,7 @@
   "ready_report_sections": 0,
   "authorities_sha256": {
     "data/knowledge/interpretive_inventory.json": "25133246964f39736dbb8bdbd2ff76b815ccde35cef4c9147fced1f90dae632c",
-    "data/knowledge/material_requirements.json": "24c841103c5898f8419e1f9639a8b648cfcb209003b9f508d0f3ff8f184eccf6",
+    "data/knowledge/material_requirements.json": "6f426fd0386afea2dfe47a3d0676c0c38adaea710c8b8dffd3a112f92c7e1c67",
     "data/knowledge/original_assertions.json": "da03c68c7ddbc8411a0094e3cb4f8c0ee79c253effdc20e79da7022be1d2e206",
     "data/knowledge/source_manifest.json": "62aef878b8b576c043829a4b2379103490179677444d3095ff8769260441cd25",
     "data/knowledge/source_line_annotations.json": "1c1d1d59cd014a1778f511b8b0472a396fd593241fff72d37afe45473668481e",
@@ -35,5 +35,6 @@
     "cited bounded report synthesis",
     "report evaluation and workflow verification"
   ],
-  "latest_source_audit_verification": "evidence/source-pipeline/closing-next-verification.json"
+  "latest_source_audit_verification": "evidence/source-pipeline/closing-next-verification.json",
+  "latest_report_knowledge_manifest": "data/knowledge/report_knowledge_manifest.json"
 }

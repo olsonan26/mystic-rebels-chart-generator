@@ -6,10 +6,11 @@
   "source_table_path": "docs/INTERPRETIVE_COVERAGE_AUDIT.md",
   "semantic_coverage_percent": null,
   "all_important_knowledge_covered": false,
+  "code_trace_basis": "COMMITTED_HEAD",
   "code_trace": [
     {
       "path": "mystic_rebels/api.py",
-      "sha256": "c6d7601416534a5b4c30b1978e1168fc2ebdeef77a107919bcf9d92108b0bf9c",
+      "sha256": "3b3284b51eaa808a34855b31f427ab7f846c98f806ecc21a7830b1b1a58cc2bd",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     {

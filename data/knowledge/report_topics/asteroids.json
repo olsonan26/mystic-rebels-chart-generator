@@ -13883,7 +13883,7 @@
   ],
   "requirement_authority": {
     "path": "data/knowledge/material_requirements.json",
-    "sha256": "53173f46b6247db811a86b4c074203ecae72372cad26cebcf9173949ba39023f",
+    "sha256": "ffa525e9350d61b1f66e440fce5006fe9fd74ea06d3f756347faea9c1366ed30",
     "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "annotation_authority": {
