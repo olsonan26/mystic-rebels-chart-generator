@@ -4,17 +4,17 @@ Use repository **olsonan26/mystic-rebels-chart-generator**, branch **codex/metho
 
 Open [the knowledge branch](https://github.com/olsonan26/mystic-rebels-chart-generator/tree/codex/methodology-verification-20261024) and configure your connector or clone to use that exact ref. Do not merge the engineering branch into `main` merely to make an indexer see the data; that can also change the deployed application.
 
-The saved knowledge currently includes **131 concepts, 250 selected assertions, 207 report requirements, 49 findings, 44 capabilities and 30 worked examples**. Meanings and vocabulary are present. Source completeness, numerical validation and report implementation remain unfinished; **all 18 report sections remain unready**. Packaging these records does not make their claims empirically validated or approve personal reports.
+The saved knowledge currently includes **131 concepts, 267 selected assertions, 207 report requirements, 50 findings, 44 capabilities and 30 worked examples**. Meanings and vocabulary are present. Source completeness, numerical validation and report implementation remain unfinished; **all 18 report sections remain unready**. Packaging these records does not make their claims empirically validated or approve personal reports.
 
-## Use supported components
+## Use the source meanings for signs, Chiron and Eunomia
 
-**The saved text can be used now for cited source explanations and eligible chart-vocabulary annotations.** Read [REPORT_COMPONENT_USE.md](docs/REPORT_COMPONENT_USE.md) and [the per-component use catalog](data/knowledge/report_component_use.json). There are47 reviewed vocabulary components available for annotation. `NOT_APPROVED` blocks unvalidated personal claims and unresolved formulas; it does not ban reading/citing source material. The remaining18-section readiness gate applies to complete personal reports.
+**Do not leave these topics to an existing library.** [source_meaning_profiles.json](data/knowledge/source_meaning_profiles.json) now contains all12 original sign core entries, Chiron's reviewed Fractured Structures vocabulary and both Eunomia alternatives. See [REPORT_COMPONENT_USE.md](docs/REPORT_COMPONENT_USE.md) for the exact replacement instruction and working consumer.
 
-Run `python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown` for the working example. The tool returns separate chart facts, source summaries, citations and gaps, without inventing a missing sign interpretation or selecting a conflicting definition.
+There are60 supported vocabulary annotations and one explicit conflicting-alternatives output. Chiron's source-vocabulary support is separate from the aggregate example/orbit gaps. Original686 is present; the compilation's missing-page note is historical. Eunomia is shown with both source definitions, with no silent winner or generic substitution. `external_library_fallback_allowed=false` applies throughout the consumer contract.
 
 ## Pull these files
 
-For ingestion, read [the machine manifest](data/knowledge/report_knowledge_manifest.json), then its seven topic packets (each under 600 KB) for bounded connector reads. [The complete audit-text bundle](data/knowledge/report_knowledge_bundle.json) is an 8.6 MB bulk-download alternative. Topic packets include transitive context, matching assertions and findings, and requirement references; use the canonical requirement authority for full required facts and gates. The bulk bundle includes unchanged copies of nine canonical JSON authorities, including all 589 image-bound annotations and both original-review logs. Exact source IDs, hashes, conflicting findings, limitations and approval flags stay attached. `--check` rejects stale exports after canonical records change. Authority hashes declare UTF8_UNIVERSAL_NEWLINES normalization so Windows/Linux Git checkouts produce identical exports; original witness image/OCR hashes are retained exactly.
+For ingestion, read [the machine manifest](data/knowledge/report_knowledge_manifest.json), then its seven topic packets (each under 1 MB) for bounded connector reads. [The complete audit-text bundle](data/knowledge/report_knowledge_bundle.json) is a 9.1 MB bulk-download alternative. Topic packets include transitive context, matching assertions and findings, and requirement references; use the canonical requirement authority for full required facts and gates. The bulk bundle includes unchanged copies of ten canonical JSON authorities, including all 609 image-bound annotations and both original-review logs. Exact source IDs, hashes, conflicting findings, limitations and approval flags stay attached. `--check` rejects stale exports after canonical records change. Authority hashes declare UTF8_UNIVERSAL_NEWLINES normalization so Windows/Linux Git checkouts produce identical exports; original witness image/OCR hashes are retained exactly.
 
 For direct ingestion, use these canonical files:
 
@@ -35,7 +35,7 @@ For all retained engineering, audit and release history, read [PROFILE_REPORT_KN
 |---|---|
 | Sun through Pluto | `meaning-sun` through `meaning-pluto`, plus `planet-lexicon` and `planet-categories` |
 | Twelve houses | `house-field`, `field-01` through `field-12`; preserve natural Field versus actual sign |
-| Signs, degrees and decans | `tone-pulse`, `spark-entry`, `phsr`, and applicable original assertions/reviews; this is not a claim of a complete approved twelve-sign dictionary |
+| Signs, degrees and decans | `tone-pulse`, `spark-entry`, `phsr`, and applicable original assertions/reviews; the12 core sign entries are in source_meaning_profiles.json; full contextual synthesis remains separate |
 | Cusps and blending | `fringe-fca`, `anchors`, linked width/exception conflicts |
 | Aspect meanings | `spectrum-meanings`, `directional-context`, `vantage-resolution`, `handoff`, `forced-contact`, `block-color`, `free-theory`, `clusters` |
 | Asteroids | `chiron`, all `asteroid-*` records and their original assertions; preserve contradictory definitions such as Eunomia |

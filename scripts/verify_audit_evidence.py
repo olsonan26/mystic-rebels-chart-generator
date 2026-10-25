@@ -39,6 +39,7 @@ def main():
         ('local-space', 'locational-profile'),
         ('epoch-imprint', 'special-contexts'),
         ('agency', 'profile-foundation'),
+        ('tone-pulse', 'profile-foundation'),
         ('exclusions', 'special-contexts'),
         ('derivatives', 'special-contexts'),
         ('rectification', 'special-contexts'),

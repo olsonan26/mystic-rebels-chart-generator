@@ -13,6 +13,7 @@
     "source_reference_use_allowed": true,
     "eligible_chart_vocabulary_annotations_allowed": true,
     "personal_interpretation_approval_is_separate": true,
+    "external_library_fallback_allowed": false,
     "rules": [
       "Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.",
       "Preserve every applicable original assertion and contradictory witness; never rank conflicts away.",
@@ -20,20 +21,20 @@
       "Source vocabulary and exact calculations do not establish empirical outcome accuracy.",
       "NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.",
       "An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.",
-      "Do not fill missing vocabulary or rules from generic astrology or a model prior.",
+      "Replace existing-library meanings for source-covered signs,Chiron and Eunomia; never fill missing or conflicting material from generic astrology or a model prior.",
       "A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media."
     ]
   },
   "counts": {
     "concepts": 131,
-    "assertions": 250,
+    "assertions": 267,
     "requirements": 207,
-    "findings": 49,
+    "findings": 50,
     "capabilities": 44,
     "worked_examples": 30,
-    "annotations": 589,
+    "annotations": 609,
     "initial_review_records": 44,
-    "continuation_review_records": 670,
+    "continuation_review_records": 683,
     "report_sections": 18,
     "ready_report_sections": 0
   },
@@ -143,27 +144,27 @@
   },
   "bundle": {
     "path": "data/knowledge/report_knowledge_bundle.json",
-    "sha256": "025d9800ad82062c69041568d28c91e1dfd476f3e0754d5886554b80f27ddd74"
+    "sha256": "704f410548773b1f67fc712e39a9b9aba2b00a564694e4f66f3aac289b574434"
   },
   "authorities": {
     "concepts": {
       "path": "data/knowledge/interpretive_inventory.json",
-      "sha256": "81e8c56f4f5e5f489ed4399cfe2f198a99c4116f7d88de782d407a2812720a49",
+      "sha256": "2c7c93d83b1dfabbbc845e5b469c9ca7617200bc6883b707d4ab2e0be722c25a",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "assertions": {
       "path": "data/knowledge/original_assertions.json",
-      "sha256": "4a1ec759caadbe1b8124128b7b50380771f4652b7031e112717d8b13202c1356",
+      "sha256": "f301fa5bdcedd5d8c05842dc74eb718887d120a60d95e6489763a78487f49152",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "requirements": {
       "path": "data/knowledge/material_requirements.json",
-      "sha256": "ffa525e9350d61b1f66e440fce5006fe9fd74ea06d3f756347faea9c1366ed30",
+      "sha256": "d4aa7f879626e04a012ecbe6d9d9c86b442d21c5348c9dacc8df58d7a4620a4e",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "findings": {
       "path": "data/knowledge/source_blocker_findings.json",
-      "sha256": "e3356690c12089459aefdb2fbafccf12b0476fe08aaae37bf225f292248174d9",
+      "sha256": "e11e81d2bff64e3650830e1d56c70af8da9f04bf96fca42b1f7f5c904f98dba2",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "capabilities": {
@@ -178,7 +179,7 @@
     },
     "annotations": {
       "path": "data/knowledge/source_line_annotations.json",
-      "sha256": "ceaf635cd19d75f9704942940b6079d320cd60924ded35af7537272319daa77d",
+      "sha256": "bc183d75a75883a546529b425360a6fe58b2a4e60b6dd914f13271a014ab5aa8",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "initial_original_reviews": {
@@ -188,7 +189,12 @@
     },
     "continuation_original_reviews": {
       "path": "data/knowledge/source_review_continuation.json",
-      "sha256": "642be34dbab279e732a63f13bd0e7296ae65838d891ac304a268d5eea00cfd77",
+      "sha256": "535533b621188403922b7ed982b51a19042db1ef41a90d5dafe1262839c3d637",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "meaning_profiles": {
+      "path": "data/knowledge/source_meaning_profiles.json",
+      "sha256": "8e3f296bd5e68ab4fee55997a008e44b08ecec8af468c5272bd8a8c70bdb7928",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     }
   },
@@ -199,76 +205,86 @@
   "check_command": "python scripts/export_report_knowledge.py --check",
   "component_use": {
     "path": "data/knowledge/report_component_use.json",
-    "sha256": "dec96c0e60bf09c692aebe620d35551a1e315a26899f1a978990d23dec9832e4",
+    "sha256": "f9b14fd33d6462161d252e5a21778b4633ac30a4e353323f2f51ec68af24e6cf",
     "counts": {
-      "total_components": 131,
-      "annotation_available": 47,
+      "total_components": 143,
+      "annotation_available": 60,
+      "conflict_alternatives_available": 1,
       "statuses": {
         "CONTEXT_OR_TECHNIQUE_REFERENCE_ONLY": 62,
-        "CITED_VOCABULARY_ANNOTATION_AVAILABLE": 47,
-        "CONFLICT_REFERENCE_ONLY": 3,
-        "INCOMPLETE_REFERENCE_ONLY": 19
+        "CITED_VOCABULARY_ANNOTATION_AVAILABLE": 59,
+        "CONFLICT_REFERENCE_ONLY": 2,
+        "CITED_VOCABULARY_ANNOTATION_AVAILABLE_WITH_SCOPED_LIMITS": 1,
+        "INCOMPLETE_REFERENCE_ONLY": 18,
+        "CONFLICT_ALTERNATIVES_AVAILABLE": 1
       }
     },
     "source_reference_use_allowed": true,
+    "core_sign_entries_present": 12,
+    "external_library_fallback_allowed": false,
     "annotation_command": "python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown",
     "personal_report_approved": false
+  },
+  "reviewed_meaning_profiles": {
+    "path": "data/knowledge/source_meaning_profiles.json",
+    "sha256": "8e3f296bd5e68ab4fee55997a008e44b08ecec8af468c5272bd8a8c70bdb7928",
+    "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "topic_packets": {
     "planets": {
       "path": "data/knowledge/report_topics/planets.json",
-      "bytes": 468704,
-      "sha256": "d486e1cf0c38086456b9886b4106629221233b2d38212f11cd8299a6803914cd",
+      "bytes": 536031,
+      "sha256": "cc0b7eda8748a42a0963a0b987552baeb4365ca58412e004a41481db0d5714ef",
       "concepts": 58,
-      "assertions": 202,
+      "assertions": 217,
       "findings": 43
     },
     "houses": {
       "path": "data/knowledge/report_topics/houses.json",
-      "bytes": 467265,
-      "sha256": "86fd76d95b7ad8cd4640fab77ea146c5923658dd5fee764f9aff60e94b82c5f2",
+      "bytes": 534592,
+      "sha256": "a400d8615e2fcf083aaa16fabd6ad236072bedb2f3dede2b4661492fe4aeb33b",
       "concepts": 61,
-      "assertions": 200,
+      "assertions": 215,
       "findings": 43
     },
     "sign_degree_decan_context": {
       "path": "data/knowledge/report_topics/sign_degree_decan_context.json",
-      "bytes": 451812,
-      "sha256": "0bba12661fbd78986b1c3feac540e0c2c01a5521073df5b6a009524c00ee9856",
+      "bytes": 519139,
+      "sha256": "05fd88c4d61d57d9f5da58af90d3e5fd47b64a56743a5003b08b1ee08d8046fa",
       "concepts": 48,
-      "assertions": 199,
+      "assertions": 214,
       "findings": 43
     },
     "cusps": {
       "path": "data/knowledge/report_topics/cusps.json",
-      "bytes": 451757,
-      "sha256": "8092752bf99cd0015e3b60c15667ada12d414c2102c65a1a7eeb4b7f36d470ce",
+      "bytes": 519084,
+      "sha256": "02a3f7c06656a53845cb6d1b6b07830fc56d03344cd296e4459c091523d1625f",
       "concepts": 48,
-      "assertions": 199,
+      "assertions": 214,
       "findings": 43
     },
     "aspects": {
       "path": "data/knowledge/report_topics/aspects.json",
-      "bytes": 451895,
-      "sha256": "4d0c40951b68812adb4cdb21a5ab3d46c8d2fe742c18535efb0143dc4c6b7c4d",
+      "bytes": 519222,
+      "sha256": "46a4d32bcd17d20a847ba2021d0a807996fe063aade28ee7ff00a217e7a98de9",
       "concepts": 48,
-      "assertions": 199,
+      "assertions": 214,
       "findings": 43
     },
     "asteroids": {
       "path": "data/knowledge/report_topics/asteroids.json",
-      "bytes": 562078,
-      "sha256": "8203f85bc9f8331a9a97a2c962db15b93c9bc419359f495f037cf2dd38052cc0",
+      "bytes": 643228,
+      "sha256": "6dda9160b84576b5404981b7b5c7cf336982374cb49e167f943321f3ce31759b",
       "concepts": 93,
-      "assertions": 227,
-      "findings": 47
+      "assertions": 244,
+      "findings": 48
     },
     "report_context": {
       "path": "data/knowledge/report_topics/report_context.json",
-      "bytes": 451818,
-      "sha256": "d4d9b7a4fbb56cb12a7b423e44cb8fcb0558a7d48f7ade0df4db47c23d7ece1f",
+      "bytes": 519145,
+      "sha256": "e4a94ffb19db52df3bba81d391c9ff1bc9f5bd5e4b3cb0f782fa5c624a7a51fb",
       "concepts": 48,
-      "assertions": 199,
+      "assertions": 214,
       "findings": 43
     }
   },

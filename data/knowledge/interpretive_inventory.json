@@ -3613,11 +3613,11 @@
       "source_status": "INCOMPLETE",
       "meaning_summary": "The source rejects the automatic wounded-healer narrative and emphasizes comparison, ill-fitting structures, and finding an individual way.",
       "exceptions": [
-        "The source explicitly marks original page686 missing.",
         "Michael Jackson example conflicts on 14:22 versus19 degrees and Saturn sextile versus trine.",
-        "Parenting anecdotes do not establish a user's medical condition or history."
+        "Parenting anecdotes do not establish a user's medical condition or history.",
+        "Original686 is recovered and reviewed; only the compiled PDF omits it. Core vocabulary is separately supported while example/orbit conflicts remain."
       ],
-      "report_gap": "Chiron position exists; its author-specific meaning and context do not.",
+      "report_gap": "Core source vocabulary is available; full contextual synthesis and disputed numerical/example claims remain unresolved.",
       "calculation_rule_ids": [],
       "requires_concepts": [],
       "runtime_interpretation": "ABSENT",
@@ -3681,8 +3681,14 @@
       "original_scan_update": "Original687 diagram shows19:18Rx, resolving the PDF14:22 transcription discrepancy. Original687 sextile versus688 trine remains contradictory.",
       "line_reconciliation_finding_ids": [
         "chiron-saturn-aspect",
-        "chiron685-orbit-wording"
-      ]
+        "chiron685-orbit-wording",
+        "chiron686-vocabulary-scope-recovered"
+      ],
+      "historical_compilation_exceptions": [
+        "The source explicitly marks original page686 missing."
+      ],
+      "vocabulary_source_profile": "chiron-reviewed-vocabulary",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED"
     },
     {
       "id": "asteroid-apophis",

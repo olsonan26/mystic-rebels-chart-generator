@@ -1,0 +1,961 @@
+{
+  "scope": "CITED_NATAL_CHART_VOCABULARY_ANNOTATIONS",
+  "status": "ANNOTATIONS_WITH_EXPLICIT_GAPS",
+  "annotations": [
+    {
+      "chart_fact": {
+        "body": "Moon",
+        "sign": "Cancer",
+        "house": 7
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "meaning-moon",
+          "source_text": "Safety, emotional relationship, familiarity, memory, nurturing and personal needs.",
+          "wording": "In this source: Safety, emotional relationship, familiarity, memory, nurturing and personal needs.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 193,
+              "reflow_footer": 197,
+              "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 232,
+              "reflow_footer": 236,
+              "page_text_sha256": "ea8dcdcb48a158a3541d5ca59a50df9a09bd0a3ae4f276a91ec0870178734d64"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "moon582-four-related-layers",
+              "proposition": "Original582requiresH4,H4delegate,CancerhouseandMoonforlunarRelatedEnergies;583extendsrelatedcontexttoallrulingplanets/houses/signsandcosmicCancerconditions.",
+              "file_id": "1I6TtM_5kUKayniXA71LxbTy_7APPaYPd",
+              "name": "IMG_5047.JPG",
+              "content_sha256": "9c28e8c7298221a723ef8fd197d44d5af8210f7e904f61a4bd951fcb44693758",
+              "original_printed_pages": [
+                "582"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "moon582-four-related-layers",
+              "proposition": "Original582requiresH4,H4delegate,CancerhouseandMoonforlunarRelatedEnergies;583extendsrelatedcontexttoallrulingplanets/houses/signsandcosmicCancerconditions.",
+              "file_id": "1dB6a7ZzyjoRnQx006HwHGZCi84PQhT31",
+              "name": "IMG_5048.JPG",
+              "content_sha256": "d8263317655b8d6994b111a13c05c5a10e7984f294ac0db4a457ac4446823400",
+              "original_printed_pages": [
+                "583"
+              ]
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "planet-lexicon"
+          ],
+          "findings": [],
+          "report_gap": "No contextual Moon meaning record is consumed by the chart/report runtime."
+        },
+        {
+          "concept_id": "field-07",
+          "source_text": "The source life-area sequence includes: Relating, exchange, outward value and design.",
+          "wording": "In this source: The source life-area sequence includes: Relating, exchange, outward value and design.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        },
+        {
+          "concept_id": "sign-cancer",
+          "source_text": "Nurture, memory, family ties and belonging; reaching toward the future while turning to the past.",
+          "wording": "In this source: Nurture, memory, family ties and belonging; reaching toward the future while turning to the past.",
+          "citations": [
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+              "name": "IMG_4608.jpg",
+              "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+              "original_printed_pages": [
+                "199"
+              ],
+              "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+              "line_ranges": [
+                [
+                  17,
+                  25
+                ]
+              ],
+              "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+              "name": "IMG_4605.JPG",
+              "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+              "original_printed_pages": [
+                "197"
+              ],
+              "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+              "line_ranges": [
+                [
+                  3,
+                  35
+                ]
+              ],
+              "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+              "name": "IMG_4589.jpg",
+              "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+              "original_printed_pages": [
+                "185"
+              ],
+              "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+              "line_ranges": [
+                [
+                  21,
+                  29
+                ]
+              ],
+              "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+              "name": "IMG_4590.jpg",
+              "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+              "original_printed_pages": [
+                "186"
+              ],
+              "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+              "line_ranges": [
+                [
+                  1,
+                  26
+                ]
+              ],
+              "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+            }
+          ],
+          "exceptions": [
+            "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+            "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+            "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+          ],
+          "dependencies": [
+            "tone-pulse",
+            "phsr",
+            "delegate-condition"
+          ],
+          "findings": [],
+          "report_gap": "Full contextual personal synthesis remains unapproved; this scoped source vocabulary is available."
+        }
+      ],
+      "source_alternatives": [],
+      "source_references": [],
+      "external_library_fallback_allowed": false,
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Juno",
+        "sign": "Taurus",
+        "house": 10
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "asteroid-juno",
+          "source_text": "Conditions of commitment across work, family or partners; revisiting commitment in the Rx example.",
+          "wording": "In this source: Conditions of commitment across work, family or partners; revisiting commitment in the Rx example.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 615,
+              "reflow_footer": 619,
+              "page_text_sha256": "5a80cee4bd2c5b391d52c372a5c7b9def41d5e42f615482e99a1c862c1dae047"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 616,
+              "reflow_footer": 620,
+              "page_text_sha256": "ae0f70a028bc60b965779ca3a983112350aa461d7c66747363e22a38cf801fa4"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 630,
+              "reflow_footer": 634,
+              "page_text_sha256": "3948f7f4538c5eddcbc6db03b7b447dccf7d9858fdfbfb7157338859e504c42d"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1lNUpt3qyDiTzdLfb6PcZRwCpKWDcEHaU",
+              "name": "IMG_5416.JPG",
+              "content_sha256": "247b51374702ceaefa711453859c6d08b65c41431ee664d21895b6bb7e17e9b2",
+              "original_printed_pages": [
+                "735"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1hFGbk9rqtbKhAvjoIPIkBOKJMGrk5Mfm",
+              "name": "IMG_5417.JPG",
+              "content_sha256": "735af7621888451e363ea502d3a6636f0083b9cae839089d852eb84e9b865225",
+              "original_printed_pages": [
+                "736"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1KRCsen0JmGVXWM8CVqp3_vSLjfidkBGW",
+              "name": "IMG_5418.JPG",
+              "content_sha256": "4e3a8378cb0d62f57220e3ae8157fbd7472702914e3679defb73bf6209da2df3",
+              "original_printed_pages": [
+                "737"
+              ]
+            }
+          ],
+          "exceptions": [
+            "Do not infer a complete OOI, event algorithm or personal history from this meaning."
+          ],
+          "dependencies": [
+            "phsr"
+          ],
+          "findings": [],
+          "report_gap": "Numerical catalog inclusion, if available, does not supply this contextual meaning to reports."
+        },
+        {
+          "concept_id": "field-10",
+          "source_text": "The source life-area sequence includes: Structure, accomplishment, public responsibility and reputation.",
+          "wording": "In this source: The source life-area sequence includes: Structure, accomplishment, public responsibility and reputation.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        },
+        {
+          "concept_id": "sign-taurus",
+          "source_text": "Grounding, patience, making things tangible, present sensory comfort and routine.",
+          "wording": "In this source: Grounding, patience, making things tangible, present sensory comfort and routine.",
+          "citations": [
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+              "name": "IMG_4607.jpg",
+              "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+              "original_printed_pages": [
+                "198"
+              ],
+              "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+              "line_ranges": [
+                [
+                  28,
+                  34
+                ]
+              ],
+              "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+              "name": "IMG_4605.JPG",
+              "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+              "original_printed_pages": [
+                "197"
+              ],
+              "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+              "line_ranges": [
+                [
+                  3,
+                  35
+                ]
+              ],
+              "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+              "name": "IMG_4589.jpg",
+              "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+              "original_printed_pages": [
+                "185"
+              ],
+              "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+              "line_ranges": [
+                [
+                  21,
+                  29
+                ]
+              ],
+              "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+              "name": "IMG_4590.jpg",
+              "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+              "original_printed_pages": [
+                "186"
+              ],
+              "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+              "line_ranges": [
+                [
+                  1,
+                  26
+                ]
+              ],
+              "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+              "name": "IMG_4623.jpg",
+              "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+              "original_printed_pages": [
+                "203"
+              ],
+              "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+              "line_ranges": [
+                [
+                  12,
+                  22
+                ]
+              ],
+              "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+              "name": "IMG_4624.jpg",
+              "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+              "original_printed_pages": [
+                "204"
+              ],
+              "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+              "line_ranges": [
+                [
+                  11,
+                  20
+                ]
+              ],
+              "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+            }
+          ],
+          "exceptions": [
+            "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+            "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+            "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+            "Venus/Taurus and Venus/Libra share value themes but have different personal/outward expression; do not collapse them.",
+            "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+          ],
+          "dependencies": [
+            "tone-pulse",
+            "phsr",
+            "delegate-condition"
+          ],
+          "findings": [],
+          "report_gap": "Full contextual personal synthesis remains unapproved; this scoped source vocabulary is available."
+        }
+      ],
+      "source_alternatives": [],
+      "source_references": [],
+      "external_library_fallback_allowed": false,
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Chiron",
+        "sign": "Aries",
+        "house": 5
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "chiron",
+          "source_text": "Fractured structures: comparison with expected standards, insecurity where established structures do not fit, and developing an individual, inventive and authentic way forward.",
+          "wording": "In this source: Fractured structures: comparison with expected standards, insecurity where established structures do not fit, and developing an individual, inventive and authentic way forward.",
+          "citations": [
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+              "name": "IMG_5278.JPG",
+              "content_sha256": "134b26f1d8cb99365a3e4c60827f26c8a2c0509069fb0a3cdb413d2002478104",
+              "original_printed_pages": [
+                "683"
+              ],
+              "ocr_output_sha256": "d8b2de4652ed961d554bfe52d9fc4d1ec33b6cdd7da2208d78b1a03aee03f90e",
+              "line_ranges": [
+                [
+                  1,
+                  22
+                ]
+              ],
+              "annotation_id": "meaning-repair-1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+              "name": "IMG_5280.jpg",
+              "content_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+              "original_printed_pages": [
+                "685"
+              ],
+              "ocr_output_sha256": "ae9965ae9cf8dfe1304905cf8410c36bcf45486fb16cd4f1231f3c11e3a0f433",
+              "line_ranges": [
+                [
+                  22,
+                  38
+                ]
+              ],
+              "annotation_id": "meaning-repair-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+              "name": "IMG_5281.JPG",
+              "content_sha256": "67e7b277900b95d2f2167fdd909ff778679c5c8d147a6d5c2e17a4a68fa1efff",
+              "original_printed_pages": [
+                "686"
+              ],
+              "ocr_output_sha256": "08a1766e2a5635b604bdd3328062d6257932976a1addae0df0803d88a003fc8f",
+              "line_ranges": [
+                [
+                  1,
+                  22
+                ]
+              ],
+              "annotation_id": "meaning-repair-1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+              "name": "IMG_5453.JPG",
+              "content_sha256": "3f067aa598cc91d5d7344bc74ea18214c5f15d724646aab8f7504723ccdb1a7a",
+              "original_printed_pages": [
+                "770"
+              ],
+              "ocr_output_sha256": "e5bda7b3aad2fe6b80b3f84bc46329260d35372fe37afe19c2e11ac0e4919526",
+              "line_ranges": [
+                [
+                  18,
+                  25
+                ]
+              ],
+              "annotation_id": "meaning-repair-1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a"
+            }
+          ],
+          "exceptions": [
+            "Michael Jackson example conflicts on 14:22 versus19 degrees and Saturn sextile versus trine.",
+            "Parenting anecdotes do not establish a user's medical condition or history.",
+            "Original686 is recovered and reviewed; only the compiled PDF omits it. Core vocabulary is separately supported while example/orbit conflicts remain.",
+            "Original686 is present and re-inspected; only the compiled PDF omits it.",
+            "Jackson example degree/aspect, orbital path wording and orbital-date conflicts are separate held-out claims, not missing core vocabulary.",
+            "These are author-defined interpretive themes, not proof of illness, trauma, clinical healing or a known biography."
+          ],
+          "dependencies": [
+            "phsr",
+            "delegate-condition"
+          ],
+          "findings": [
+            {
+              "id": "chiron-saturn-aspect",
+              "concept_ids": [
+                "chiron"
+              ],
+              "status": "DRAWN_SEXTILE_GEOMETRY_RESOLVED_TRINE_SENTENCE_RETAINED",
+              "finding": "Original687 shows Saturn19:07 Sagittarius and Chiron19:18 AquariusRx, giving a shortest longitude separation of60:11. This supports the687 sextile label. Original688's first sentence says trine. The chart-based branch is recoverable without guessing a birth epoch; the sentence disagreement remains in the source.",
+              "assertion_ids": [
+                "chiron687-chart-geometry",
+                "chiron-original-aspect-conflict"
+              ],
+              "annotation_ids": [
+                "chiron687-sextile",
+                "chiron688-trine"
+              ],
+              "diagram_checks": [
+                {
+                  "original_page": "687",
+                  "saturn_sign": "Sagittarius",
+                  "saturn_degree": "19:07",
+                  "chiron_sign": "Aquarius",
+                  "chiron_degree": "19:18",
+                  "shortest_separation": "60:11"
+                }
+              ],
+              "remaining": "This is arithmetic from the printed chart, not an independent ephemeris fixture or author-issued erratum.",
+              "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+            },
+            {
+              "id": "chiron685-orbit-wording",
+              "concept_ids": [
+                "chiron"
+              ],
+              "status": "SAME_PAGE_JUPITER_SCOPE_AND_CROSS_PAGE_DATE_TENSION",
+              "finding": "685 says inside Jupiter orbit then never reaches Jupiter path; diagram1979/1999 and692-693 prose1992/1999-2000 remain distinct.",
+              "assertion_ids": [
+                "chiron685-jupiter-path-conflict",
+                "chiron693-crossing-date-scope"
+              ],
+              "annotation_ids": [
+                "oct25-next-audit-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+                "oct25-next-audit-1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+                "oct25-next-audit-14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn"
+              ],
+              "remaining": "Author clarification and independently defined orbital/frame calculation required; schematic crossing is not a3D encounter.",
+              "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+            },
+            {
+              "id": "chiron686-vocabulary-scope-recovered",
+              "concept_ids": [
+                "chiron"
+              ],
+              "status": "CORE_VOCABULARY_RECOVERED_EXAMPLE_AND_ORBIT_CONFLICTS_REMAIN",
+              "finding": "Original686 was acquired and inspected; its omission is in the compiled PDF only. Originals683,685-686 and770 consistently support Fractured Structures rather than an automatic Wounded Healer interpretation. Separate Jackson-aspect and orbit wording/date conflicts do not erase this vocabulary.",
+              "assertion_ids": [
+                "chiron683-rejected-wounded-healer",
+                "chiron686-recovered-core-vocabulary"
+              ],
+              "annotation_ids": [
+                "meaning-repair-1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+                "meaning-repair-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+                "meaning-repair-1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+                "meaning-repair-1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a"
+              ],
+              "remaining": "Use the scoped original vocabulary with citations; preserve separate unresolved examples/numerical claims and personal-report gates. No generic-library fallback.",
+              "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+            }
+          ],
+          "report_gap": "Full contextual personal synthesis remains unapproved; this scoped source vocabulary is available."
+        },
+        {
+          "concept_id": "field-05",
+          "source_text": "The source life-area sequence includes: Expression, play, purpose, romance and children.",
+          "wording": "In this source: The source life-area sequence includes: Expression, play, purpose, romance and children.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "father419-fifth-authority-tenth",
+              "proposition": "Original419 assigns father to5thhouse and10thhouse to parents as authority/discipline rather than a specific parent.",
+              "file_id": "18m0sz1rGjGZSfDKNstDsFwNTojWsdTHm",
+              "name": "IMG_4853.jpg",
+              "content_sha256": "3bd3f57d2ab674b0d1d2ab3cc927621b645726a3673e8e17ff57eb3dc951e3be",
+              "original_printed_pages": [
+                "419"
+              ]
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        },
+        {
+          "concept_id": "sign-aries",
+          "source_text": "Beginnings, direct initiative and forward movement anchored in the present.",
+          "wording": "In this source: Beginnings, direct initiative and forward movement anchored in the present.",
+          "citations": [
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+              "name": "IMG_4607.jpg",
+              "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+              "original_printed_pages": [
+                "198"
+              ],
+              "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+              "line_ranges": [
+                [
+                  19,
+                  27
+                ]
+              ],
+              "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+              "name": "IMG_4605.JPG",
+              "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+              "original_printed_pages": [
+                "197"
+              ],
+              "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+              "line_ranges": [
+                [
+                  3,
+                  35
+                ]
+              ],
+              "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+              "name": "IMG_4589.jpg",
+              "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+              "original_printed_pages": [
+                "185"
+              ],
+              "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+              "line_ranges": [
+                [
+                  21,
+                  29
+                ]
+              ],
+              "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+              "name": "IMG_4590.jpg",
+              "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+              "original_printed_pages": [
+                "186"
+              ],
+              "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+              "line_ranges": [
+                [
+                  1,
+                  26
+                ]
+              ],
+              "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+            }
+          ],
+          "exceptions": [
+            "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+            "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+            "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+          ],
+          "dependencies": [
+            "tone-pulse",
+            "phsr",
+            "delegate-condition"
+          ],
+          "findings": [],
+          "report_gap": "Full contextual personal synthesis remains unapproved; this scoped source vocabulary is available."
+        }
+      ],
+      "source_alternatives": [],
+      "source_references": [],
+      "external_library_fallback_allowed": false,
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Eunomia",
+        "sign": "Virgo",
+        "house": 4
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "field-04",
+          "source_text": "The source life-area sequence includes: Personal safety, nurturing, home and emotional roots.",
+          "wording": "In this source: The source life-area sequence includes: Personal safety, nurturing, home and emotional roots.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        },
+        {
+          "concept_id": "sign-virgo",
+          "source_text": "Analysis, refinement and service; improving the next practical step and bringing it into the present.",
+          "wording": "In this source: Analysis, refinement and service; improving the next practical step and bringing it into the present.",
+          "citations": [
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+              "name": "IMG_4609.jpg",
+              "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+              "original_printed_pages": [
+                "200"
+              ],
+              "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+              "line_ranges": [
+                [
+                  3,
+                  12
+                ]
+              ],
+              "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+              "name": "IMG_4605.JPG",
+              "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+              "original_printed_pages": [
+                "197"
+              ],
+              "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+              "line_ranges": [
+                [
+                  3,
+                  35
+                ]
+              ],
+              "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+              "name": "IMG_4589.jpg",
+              "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+              "original_printed_pages": [
+                "185"
+              ],
+              "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+              "line_ranges": [
+                [
+                  21,
+                  29
+                ]
+              ],
+              "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+              "name": "IMG_4590.jpg",
+              "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+              "original_printed_pages": [
+                "186"
+              ],
+              "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+              "line_ranges": [
+                [
+                  1,
+                  26
+                ]
+              ],
+              "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+              "name": "IMG_4623.jpg",
+              "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+              "original_printed_pages": [
+                "203"
+              ],
+              "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+              "line_ranges": [
+                [
+                  12,
+                  22
+                ]
+              ],
+              "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+            },
+            {
+              "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+              "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+              "name": "IMG_4624.jpg",
+              "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+              "original_printed_pages": [
+                "204"
+              ],
+              "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+              "line_ranges": [
+                [
+                  11,
+                  20
+                ]
+              ],
+              "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+            }
+          ],
+          "exceptions": [
+            "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+            "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+            "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+            "Mercury/Gemini and Mercury/Virgo share mind themes but have different personal/outward expression; do not collapse them.",
+            "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+          ],
+          "dependencies": [
+            "tone-pulse",
+            "phsr",
+            "delegate-condition"
+          ],
+          "findings": [],
+          "report_gap": "Full contextual personal synthesis remains unapproved; this scoped source vocabulary is available."
+        }
+      ],
+      "source_alternatives": [
+        {
+          "concept_id": "asteroid-eunomia",
+          "alternatives": [
+            {
+              "id": "eunomia-surviving-core",
+              "label": "Dedicated chapter: Refined Resilience",
+              "source_meaning": "An exposed resilient core surviving loss; rebuilding from what remains strongest. The chapter explicitly rejects law, fairness, justice and order as its definition.",
+              "citations": [
+                {
+                  "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+                  "file_id": "14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx",
+                  "name": "IMG_5392.JPG",
+                  "content_sha256": "764ddd45da4fdee3d474c24caaec4750ca17449362cfd057b0ec7c48136794bb",
+                  "original_printed_pages": [
+                    "711"
+                  ],
+                  "ocr_output_sha256": "7bb88c97dcb0fa95502aaeb8c2eabd63c719535a5d5bb7bd9d6843ccdbe2c671",
+                  "line_ranges": [
+                    [
+                      19,
+                      34
+                    ]
+                  ],
+                  "annotation_id": "meaning-repair-14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx"
+                },
+                {
+                  "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+                  "file_id": "1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+                  "name": "IMG_5393.JPG",
+                  "content_sha256": "3070d80215980114029d16fe69b877fa390a276246b75a3a615c16f2ef967625",
+                  "original_printed_pages": [
+                    "712"
+                  ],
+                  "ocr_output_sha256": "cf8c02ddb2e7bbc825fb6a520e28ef5242d28e0380970a3bbfb6053ea5de359f",
+                  "line_ranges": [
+                    [
+                      1,
+                      24
+                    ]
+                  ],
+                  "annotation_id": "meaning-repair-1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2"
+                }
+              ]
+            },
+            {
+              "id": "eunomia-functional-order",
+              "label": "Comparative table: Functional Order",
+              "source_meaning": "Systems that align and work by design; the table describes this as mechanical rather than social order.",
+              "citations": [
+                {
+                  "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+                  "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+                  "name": "IMG_5455.JPG",
+                  "content_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+                  "original_printed_pages": [
+                    "772"
+                  ],
+                  "ocr_output_sha256": "020873915643be51b36ed643a7c81e23b2d08bd00b4e659ad564c3b8da19c0e9",
+                  "line_ranges": [
+                    [
+                      5,
+                      10
+                    ]
+                  ],
+                  "annotation_id": "meaning-repair-1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV"
+                }
+              ]
+            }
+          ],
+          "selected_alternative_id": null,
+          "findings": [
+            {
+              "id": "eunomia-two-meanings",
+              "concept_ids": [
+                "asteroid-eunomia"
+              ],
+              "status": "BOTH_ORIGINAL_MEANINGS_STORED_PRECEDENCE_UNRESOLVED",
+              "finding": "Original712 explicitly rejects order and describes resilience of the exposed surviving core. Original772 explicitly places Functional Order under We say and distinguishes it from mythological social order. This is not a They say/We say misreading; both are creator-authored claims and both are stored.",
+              "assertion_ids": [
+                "eunomia-surviving-core",
+                "eunomia-functional-order"
+              ],
+              "annotation_ids": [
+                "eunomia712-main",
+                "eunomia772-comparison"
+              ],
+              "remaining": "No explicit precedence or correction was located. Do not infer a combined personal reading from contradictory source meanings.",
+              "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+            }
+          ],
+          "exceptions": [
+            "Do not infer a complete OOI, event algorithm or personal history from this meaning.",
+            "Do not silently merge the main passage and comparative-table definitions; original scans must settle scope.",
+            "Neither precedence nor an author erratum has been established.",
+            "Do not substitute the generic mythological law/good-governance definition or merge both creator-authored alternatives."
+          ],
+          "external_library_fallback_allowed": false
+        }
+      ],
+      "source_references": [],
+      "external_library_fallback_allowed": false,
+      "combined_personal_interpretation": null
+    }
+  ],
+  "gaps": [
+    {
+      "body": "Eunomia",
+      "concept_id": "asteroid-eunomia",
+      "kind": "UNRESOLVED_SOURCE_ALTERNATIVES",
+      "detail": "Both source meanings are included; no precedence or generic substitute is selected."
+    }
+  ],
+  "personal_report_generated": false,
+  "personal_traits_inferred": false,
+  "astronomical_input_verified": false,
+  "empirical_accuracy_validated": false,
+  "external_library_fallback_allowed": false,
+  "synthesis_limit": "These are separate source meanings attached to supplied placements, not a combined interpretation of a person."
+}

@@ -24,6 +24,7 @@ SOURCES = {
     'annotations': 'source_line_annotations.json',
     'initial_original_reviews': 'source_review_updates.json',
     'continuation_original_reviews': 'source_review_continuation.json',
+    'meaning_profiles': 'source_meaning_profiles.json',
 }
 
 
@@ -67,6 +68,7 @@ def build():
         source_reference_use_allowed=True,
         eligible_chart_vocabulary_annotations_allowed=True,
         personal_interpretation_approval_is_separate=True,
+        external_library_fallback_allowed=False,
         rules=[
             'Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.',
             'Preserve every applicable original assertion and contradictory witness; never rank conflicts away.',
@@ -74,7 +76,7 @@ def build():
             'Source vocabulary and exact calculations do not establish empirical outcome accuracy.',
             'NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.',
             'An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.',
-            'Do not fill missing vocabulary or rules from generic astrology or a model prior.',
+            'Replace existing-library meanings for source-covered signs,Chiron and Eunomia; never fill missing or conflicting material from generic astrology or a model prior.',
             'A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media.',
         ])
     routes = {
@@ -90,12 +92,12 @@ def build():
     bundle = dict(schema_version='1.0', contract=contract, counts=counts,
         topic_routes=routes,
         coverage_limits=dict(
-            signs='Sign/Tone, natural-house, degree and decan context is retained; no exhaustive approved twelve-sign dictionary is claimed.',
+            signs='All twelve original sign core entries are recovered in source_meaning_profiles.json; full sign/ruler/aspect synthesis is not approved by core vocabulary coverage.',
             keywords='Reviewed meaning_summary/proposition/review text contains vocabulary. These are contextual source summaries, not unrestricted keyword-to-personality rules.',
             outstanding='Unreviewed images, failed OCR and unresolved semantic/numerical conflicts remain; consult the current audit checkpoint and exact queues for counts.',
             implementation='Report synthesis and the chart-context graph remain absent; all 18 report sections are unready.'),
         authorities=authorities, documents=documents)
-    catalog=usage_catalog(documents['concepts'],documents['assertions'],documents['findings'])
+    catalog=usage_catalog(documents['concepts'],documents['assertions'],documents['findings'],documents['meaning_profiles'])
     catalog_path='data/knowledge/report_component_use.json'
     catalog_bytes=encode(catalog)
     bundle_path='data/knowledge/report_knowledge_bundle.json'
@@ -109,8 +111,10 @@ def build():
         check_command='python scripts/export_report_knowledge.py --check')
     manifest['component_use']=dict(path=catalog_path,sha256=hashlib.sha256(catalog_bytes).hexdigest(),
         counts=catalog['counts'],source_reference_use_allowed=True,
+        core_sign_entries_present=catalog['core_sign_entries_present'],external_library_fallback_allowed=False,
         annotation_command='python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown',
         personal_report_approved=False)
+    manifest['reviewed_meaning_profiles']=authorities['meaning_profiles']
     outputs={bundle_path:encode(bundle),catalog_path:catalog_bytes}
     by_id={r['id']:r for r in records}
     manifest['topic_packets']={}
@@ -127,6 +131,7 @@ def build():
             initial_concept_ids=initial,transitive_concept_ids=sorted(selected),
             concepts=[r for r in records if r['id'] in selected],
             assertions=chosen_assertions,findings=chosen_findings,
+            reviewed_meaning_profiles=[p for p in documents['meaning_profiles']['profiles'] if p['source_concept_id'] in selected],
             requirement_references=[dict(id=r['id'],section_id=r['section_id'],
                 disposition=r['disposition'],personal_answer_approved=r['personal_answer_approved'])
                 for r in requirements if selected.intersection(r.get('concept_ids',[]))],

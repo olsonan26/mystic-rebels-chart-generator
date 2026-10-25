@@ -9815,6 +9815,306 @@
       ],
       "finding": "Focals differ from three-part Phase-Pulses; solar luminary resonance and planetary returns are temporary recalibration, explicitly not a yearlong prediction. Placement Activation continues beyond this page and no missing ending is invented.",
       "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+      "file_id": "1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+      "image_sha256": "134b26f1d8cb99365a3e4c60827f26c8a2c0509069fb0a3cdb413d2002478104",
+      "ocr_output_sha256": "d8b2de4652ed961d554bfe52d9fc4d1ec33b6cdd7da2208d78b1a03aee03f90e",
+      "printed_header": "683 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "finding": "Re-inspected original core-vocabulary evidence; retain semantic definitions separately from diagram/orbit/example disputes and reject generic-library substitution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+      "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+      "image_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+      "ocr_output_sha256": "ae9965ae9cf8dfe1304905cf8410c36bcf45486fb16cd4f1231f3c11e3a0f433",
+      "printed_header": "685 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          22,
+          38
+        ]
+      ],
+      "finding": "Re-inspected original core-vocabulary evidence; retain semantic definitions separately from diagram/orbit/example disputes and reject generic-library substitution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+      "file_id": "1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+      "image_sha256": "67e7b277900b95d2f2167fdd909ff778679c5c8d147a6d5c2e17a4a68fa1efff",
+      "ocr_output_sha256": "08a1766e2a5635b604bdd3328062d6257932976a1addae0df0803d88a003fc8f",
+      "printed_header": "686 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "finding": "Re-inspected original core-vocabulary evidence; retain semantic definitions separately from diagram/orbit/example disputes and reject generic-library substitution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+      "file_id": "1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+      "image_sha256": "3f067aa598cc91d5d7344bc74ea18214c5f15d724646aab8f7504723ccdb1a7a",
+      "ocr_output_sha256": "e5bda7b3aad2fe6b80b3f84bc46329260d35372fe37afe19c2e11ac0e4919526",
+      "printed_header": "770 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          18,
+          25
+        ]
+      ],
+      "finding": "Re-inspected original core-vocabulary evidence; retain semantic definitions separately from diagram/orbit/example disputes and reject generic-library substitution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx",
+      "file_id": "14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx",
+      "image_sha256": "764ddd45da4fdee3d474c24caaec4750ca17449362cfd057b0ec7c48136794bb",
+      "ocr_output_sha256": "7bb88c97dcb0fa95502aaeb8c2eabd63c719535a5d5bb7bd9d6843ccdbe2c671",
+      "printed_header": "711 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          19,
+          34
+        ]
+      ],
+      "finding": "Re-inspected both creator-authored Eunomia alternatives; neither omitted,merged nor selected by a generic library.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+      "file_id": "1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+      "image_sha256": "3070d80215980114029d16fe69b877fa390a276246b75a3a615c16f2ef967625",
+      "ocr_output_sha256": "cf8c02ddb2e7bbc825fb6a520e28ef5242d28e0380970a3bbfb6053ea5de359f",
+      "printed_header": "712 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          24
+        ]
+      ],
+      "finding": "Re-inspected both creator-authored Eunomia alternatives; neither omitted,merged nor selected by a generic library.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+      "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+      "image_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+      "ocr_output_sha256": "020873915643be51b36ed643a7c81e23b2d08bd00b4e659ad564c3b8da19c0e9",
+      "printed_header": "772 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "finding": "Re-inspected both creator-authored Eunomia alternatives; neither omitted,merged nor selected by a generic library.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+      "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+      "image_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+      "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+      "printed_header": "185 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          29
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+      "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+      "image_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+      "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+      "printed_header": "186 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          26
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+      "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+      "image_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+      "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+      "printed_header": "197 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          35
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+      "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+      "image_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+      "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+      "printed_header": "198 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          34
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+      "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+      "image_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+      "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+      "printed_header": "203 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          12,
+          22
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+      "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+      "image_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+      "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+      "printed_header": "204 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1AUXsStiEfA9EZZx6n6pkhA3J1Ud1mDfj",
+      "file_id": "1AUXsStiEfA9EZZx6n6pkhA3J1Ud1mDfj",
+      "image_sha256": "90b194d259df10b99a3856d3d92e06b7e8f998a40db3264877484dee7faa1c72",
+      "ocr_output_sha256": "59fd0ced4dcbd2a480f9800638bc0e9c03180b0e369baa16d6447a0d0e2e95b1",
+      "printed_header": "205 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1WHo7Oax96jk8ms5f5o9bzZmeemicABI6",
+      "file_id": "1WHo7Oax96jk8ms5f5o9bzZmeemicABI6",
+      "image_sha256": "58c2064ea145ee9670a71bd1ce5324c20adc1bfbf198bbdef6b3779d5529f496",
+      "ocr_output_sha256": "973b6697b521e8f99a7056fe1d10df92d765632d2f71a62832762bf46ced1b0c",
+      "printed_header": "206 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          28
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1NYHIqbNXnZLOo0rSsGIG-Z8ATJtE4tbF",
+      "file_id": "1NYHIqbNXnZLOo0rSsGIG-Z8ATJtE4tbF",
+      "image_sha256": "0c9ac377e2965aa0c21a256472b9c38daaff03bc338fc6de8a6528c4cc6623e7",
+      "ocr_output_sha256": "0a30359d61c532da59ab4910ccd36360c93dfea1e72b0d890c3548d1bf8fba77",
+      "printed_header": "207 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          25
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+      "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+      "image_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+      "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+      "printed_header": "199 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+      "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+      "image_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+      "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+      "printed_header": "200 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          37
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+      "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+      "image_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+      "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+      "printed_header": "201 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "meaning-repair-1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-",
+      "file_id": "1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-",
+      "image_sha256": "ee97d0b55d88085411be73da32fede8a0f1bbe5146539338afec2960bfe73085",
+      "ocr_output_sha256": "a229a9008fb99410c9a5c1c55bcd54ac2e75a7d0ac759d0f8368ad3bfd2ac41c",
+      "printed_header": "202 ORIGINAL_MEANING_REVIEW",
+      "line_ranges": [
+        [
+          1,
+          30
+        ]
+      ],
+      "finding": "Original sign/rulership passage visually checked for the source-specific sign profile. Signs are contextual expression styles; preserve modern rulers,dual-ruler distinctions and separate orbital-phase layer without generic stereotypes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
     }
   ]
 }

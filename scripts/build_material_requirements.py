@@ -119,7 +119,9 @@ def main():
             if declarations == '@VOCABULARY':
                 declarations = '; '.join(r['title'] + '::' + r['id']
                     for r in inventory['records'] if r['id'].startswith(('meaning-', 'field-')))
-                declarations += '; ' + '; '.join(sign + ' sign vocabulary::tone-pulse::source incomplete'
+                profile_path=ROOT/'data/knowledge/source_meaning_profiles.json'
+                covered={p.get('sign') for p in json.loads(profile_path.read_text())['profiles'] if p['kind']=='sign'} if profile_path.exists() else set()
+                declarations += '; ' + '; '.join(sign + ' sign vocabulary::tone-pulse::'+('source found but implementation missing' if sign in covered else 'source incomplete')
                     for sign in ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'])
                 declarations += '; Degree entry meaning::spark-entry::contradictory; Decan layer meaning::tone-pulse'
             if declarations == '@ALL_BODIES':

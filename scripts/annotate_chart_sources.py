@@ -11,7 +11,7 @@ def main():
     parser.add_argument('--format',choices=['json','markdown'],default='json')
     args=parser.parse_args()
     def load(name):return json.loads((ROOT/'data/knowledge'/name).read_text(encoding='utf-8'))
-    catalog=usage_catalog(load('interpretive_inventory.json'),load('original_assertions.json'),load('source_blocker_findings.json'))
+    catalog=usage_catalog(load('interpretive_inventory.json'),load('original_assertions.json'),load('source_blocker_findings.json'),load('source_meaning_profiles.json'))
     try:packet=annotate_chart(json.loads(args.input.read_text(encoding='utf-8')),catalog)
     except ValueError as error:parser.error(str(error))
     sys.stdout.write(render_markdown(packet) if args.format=='markdown' else json.dumps(packet,ensure_ascii=True,indent=2)+'\n')

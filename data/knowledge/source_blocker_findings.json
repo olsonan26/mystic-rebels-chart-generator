@@ -1014,6 +1014,26 @@
       ],
       "remaining": "Retain source confidence claims alongside agency and nondefinitive cautions. No rumor verification,guaranteed outcome,financial advice or empirical performance approval follows.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "chiron686-vocabulary-scope-recovered",
+      "concept_ids": [
+        "chiron"
+      ],
+      "status": "CORE_VOCABULARY_RECOVERED_EXAMPLE_AND_ORBIT_CONFLICTS_REMAIN",
+      "finding": "Original686 was acquired and inspected; its omission is in the compiled PDF only. Originals683,685-686 and770 consistently support Fractured Structures rather than an automatic Wounded Healer interpretation. Separate Jackson-aspect and orbit wording/date conflicts do not erase this vocabulary.",
+      "assertion_ids": [
+        "chiron683-rejected-wounded-healer",
+        "chiron686-recovered-core-vocabulary"
+      ],
+      "annotation_ids": [
+        "meaning-repair-1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+        "meaning-repair-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+        "meaning-repair-1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+        "meaning-repair-1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a"
+      ],
+      "remaining": "Use the scoped original vocabulary with citations; preserve separate unresolved examples/numerical claims and personal-report gates. No generic-library fallback.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]
 }

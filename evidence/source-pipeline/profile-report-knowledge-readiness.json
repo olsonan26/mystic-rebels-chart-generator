@@ -9,19 +9,19 @@
     "original-candidates.sqlite": true
   },
   "concept_records": 131,
-  "selected_assertions": 250,
-  "assertions_with_original_witnesses": 250,
+  "selected_assertions": 267,
+  "assertions_with_original_witnesses": 267,
   "personal_answer_approved_assertions": 0,
   "requirements": 207,
   "report_sections": 18,
   "ready_report_sections": 0,
   "authorities_sha256": {
-    "data/knowledge/interpretive_inventory.json": "25133246964f39736dbb8bdbd2ff76b815ccde35cef4c9147fced1f90dae632c",
-    "data/knowledge/material_requirements.json": "6f426fd0386afea2dfe47a3d0676c0c38adaea710c8b8dffd3a112f92c7e1c67",
-    "data/knowledge/original_assertions.json": "da03c68c7ddbc8411a0094e3cb4f8c0ee79c253effdc20e79da7022be1d2e206",
-    "data/knowledge/source_manifest.json": "62aef878b8b576c043829a4b2379103490179677444d3095ff8769260441cd25",
-    "data/knowledge/source_line_annotations.json": "1c1d1d59cd014a1778f511b8b0472a396fd593241fff72d37afe45473668481e",
-    "data/knowledge/source_blocker_findings.json": "393a38ad179c4d77d7784f350f78ea32a65b5757a7be43e55372f055ea08d945"
+    "data/knowledge/interpretive_inventory.json": "f66a8533f0d77f38eb3b560020ed6bcbad38248d87fe4f6df874612d17aa81d1",
+    "data/knowledge/material_requirements.json": "571a7301689b0d09309ca5b889cc53f7d561024e55720e2ff441f4974aed27ea",
+    "data/knowledge/original_assertions.json": "a45a42be3e408836242def0c605bda730c2debd65d0d28ad8b74a9aee714bea6",
+    "data/knowledge/source_manifest.json": "ba11dff421e101c2dbb419234b3ee70b3e227b560e2635a5be8303bc7eb7b609",
+    "data/knowledge/source_line_annotations.json": "b5312810a6b9be38e6fa65dcb56118da6a17b43bcdc82f9e4b87e06e839f1cac",
+    "data/knowledge/source_blocker_findings.json": "8036ffde692e43cf4e8939cf69cfb538468f22590826730e28876194ee76bf8a"
   },
   "source_hash_validation": "See current line,source and pipeline validators; asset presence explicitly checked here.",
   "fresh_checkout_contains_private_originals_ocr_indexes": false,
@@ -35,6 +35,6 @@
     "cited bounded report synthesis",
     "report evaluation and workflow verification"
   ],
-  "latest_source_audit_verification": "evidence/source-pipeline/closing-next-verification.json",
+  "latest_source_audit_verification": "evidence/source-pipeline/meaning-repair-verification.json",
   "latest_report_knowledge_manifest": "data/knowledge/report_knowledge_manifest.json"
 }

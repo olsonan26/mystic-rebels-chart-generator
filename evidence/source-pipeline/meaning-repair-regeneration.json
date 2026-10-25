@@ -1,0 +1,107 @@
+{
+  "status": "VERIFIED_REGENERATION_AND_VALIDATORS",
+  "regeneration": {
+    "before": {
+      "source_manifest": "ba11dff421e101c2dbb419234b3ee70b3e227b560e2635a5be8303bc7eb7b609",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "6d5312c3f88cc8cf36f358f0c5087c8e76b5e443e81e9d1a9b9d76d96b44a34f",
+      "interpretive_inventory": "f66a8533f0d77f38eb3b560020ed6bcbad38248d87fe4f6df874612d17aa81d1",
+      "original_assertions": "a45a42be3e408836242def0c605bda730c2debd65d0d28ad8b74a9aee714bea6",
+      "material_requirements": "571a7301689b0d09309ca5b889cc53f7d561024e55720e2ff441f4974aed27ea"
+    },
+    "after": {
+      "source_manifest": "ba11dff421e101c2dbb419234b3ee70b3e227b560e2635a5be8303bc7eb7b609",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "6d5312c3f88cc8cf36f358f0c5087c8e76b5e443e81e9d1a9b9d76d96b44a34f",
+      "interpretive_inventory": "f66a8533f0d77f38eb3b560020ed6bcbad38248d87fe4f6df874612d17aa81d1",
+      "original_assertions": "a45a42be3e408836242def0c605bda730c2debd65d0d28ad8b74a9aee714bea6",
+      "material_requirements": "571a7301689b0d09309ca5b889cc53f7d561024e55720e2ff441f4974aed27ea"
+    },
+    "identical": true
+  },
+  "validators": {
+    "check": {
+      "batch_count": 8,
+      "enumeration_complete": false,
+      "known_file_lower_bound": 1028,
+      "source_semantic_coverage_percent": null,
+      "coverage_percent_reason": "No complete eight-batch page/concept denominator or verified scan-to-rule mapping yet.",
+      "runtime_rules": 16,
+      "registered_rules": 44,
+      "complete_intelligence_claim_allowed": false
+    },
+    "check-semantics": {
+      "concepts": 131,
+      "report_sections": 18,
+      "source_states": {
+        "PASSAGE_REVIEWED": 91,
+        "CONFLICT": 3,
+        "INCOMPLETE": 15,
+        "PRIOR_REVIEW_ONLY": 2,
+        "FRAGMENT": 20
+      },
+      "status": "VALID_AUDIT_NOT_REPORT_APPROVAL"
+    },
+    "check-sources": {
+      "status": "VALID_VISIBLE_SNAPSHOT_NOT_PAGE_COVERAGE",
+      "file_records": 1029,
+      "printed_page_denominator": null
+    },
+    "check-requirements": {
+      "status": "VALID_RECONCILIATION_NOT_REPORT_APPROVAL",
+      "sections": 18,
+      "requirements": 207
+    },
+    "pdf_witnesses": {
+      "status": "PDF_AND_INDEX_WITNESSES_MATCH",
+      "pdf_pages": 692,
+      "concept_witness_pages": 300,
+      "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+      "complete_semantic_coverage_claimed": false
+    },
+    "verify_line_reconciliation": {
+      "status": "ALL_SAVED_OCR_LINE_LOCATORS_AND_HASHES_VERIFIED",
+      "files": 1028,
+      "counts": {
+        "NO_MATCH_CANDIDATE": 14320,
+        "lines": 34026,
+        "AUTO_PARTIAL_CANDIDATE": 3312,
+        "AUTO_MATCH_CANDIDATE": 16394,
+        "targeted_checked_lines": 10245
+      },
+      "annotations": 609,
+      "named_blocker_findings": 50,
+      "unreconciled_ocr_files": [
+        "1k2vapbXeUl3-rEkgCLMkHHUDAplWztE8"
+      ],
+      "full_visual_or_semantic_signoff": false,
+      "source_blockers_all_resolved": false,
+      "source_line_ledger_sha256": "ae9ce51a43172bdfabbc5bcc85186bd039a8c7b557658a71a325eb8b569810f2"
+    },
+    "verify_audit_evidence": {
+      "status": "VERIFIED_LOCAL_METADATA_AND_REVIEWED_SUMMARY_RETRIEVAL",
+      "selected_concepts": 31,
+      "atomic_requirement": "M08-04-01",
+      "personal_answer_generated": false
+    },
+    "verify_source_pipeline": {
+      "file_records": 1029,
+      "newly_acquired": 983,
+      "total_acquired": 1029,
+      "newly_ocr_extracted": 1028,
+      "total_ocr_extracted": 1028,
+      "new_targeted_visual_records": 683,
+      "newly_acquired_images_targeted_reviewed": 679,
+      "prior_acquired_images_reinspected": 4,
+      "total_targeted_visual_records": 725,
+      "targeted_passage_reconciliations": 683,
+      "new_atomic_assertions": 225,
+      "total_atomic_assertions": 267,
+      "remaining_acquisition": 0,
+      "remaining_ocr": 1,
+      "remaining_visual": 304,
+      "exhaustive_semantic_reviews_claimed": 0,
+      "printed_page_denominator": null
+    }
+  }
+}

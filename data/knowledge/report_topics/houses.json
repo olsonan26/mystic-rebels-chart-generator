@@ -13,6 +13,7 @@
     "source_reference_use_allowed": true,
     "eligible_chart_vocabulary_annotations_allowed": true,
     "personal_interpretation_approval_is_separate": true,
+    "external_library_fallback_allowed": false,
     "rules": [
       "Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.",
       "Preserve every applicable original assertion and contradictory witness; never rank conflicts away.",
@@ -20,7 +21,7 @@
       "Source vocabulary and exact calculations do not establish empirical outcome accuracy.",
       "NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.",
       "An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.",
-      "Do not fill missing vocabulary or rules from generic astrology or a model prior.",
+      "Replace existing-library meanings for source-covered signs,Chiron and Eunomia; never fill missing or conflicting material from generic astrology or a model prior.",
       "A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media."
     ]
   },
@@ -9765,6 +9766,443 @@
       "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
       "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
       "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign198-aries-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Aries: Beginnings, direct initiative and forward movement anchored in the present.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign198-taurus-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Taurus: Grounding, patience, making things tangible, present sensory comfort and routine.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign199-gemini-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Gemini: Curiosity, alternative options, linking ideas and sharing information, with forward-looking variety.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign199-cancer-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Cancer: Nurture, memory, family ties and belonging; reaching toward the future while turning to the past.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign199-leo-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Leo: Creative vitality, presence and courage; bringing possible expression into the present.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign200-virgo-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Virgo: Analysis, refinement and service; improving the next practical step and bringing it into the present.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign200-libra-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Libra: Balancing perspectives, harmony and relational exchange; weighing the present while looking back.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign200-scorpio-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Scorpio: Intensity, depth, hidden material, endings and transformation; drawing on the past.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign200-sagittarius-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Sagittarius: Exploration, philosophy and wider horizons; experience and past mistakes supplying future-facing wisdom.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200 ORIGINAL_MEANING_REVIEW"
+          ]
+        },
+        {
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign201-capricorn-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Capricorn: Endurance, rebuilding, ambition and gradual progress built on tradition and what came before.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign201-aquarius-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Aquarius: Exchange and transmission of ideas, community, vision and innovation; future progress anchored in prior understanding.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign202-pisces-vocabulary",
+      "concept_id": "tone-pulse",
+      "kind": "original_sign_vocabulary",
+      "proposition": "Pisces: Reflection, imagination, surrender and spiritual or creative transcendence; drawing the past toward the present.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source-attributed expression style only; full house,ruler,contact and chart-layer context remains required."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-",
+          "name": "IMG_4611.jpg",
+          "content_sha256": "ee97d0b55d88085411be73da32fede8a0f1bbe5146539338afec2960bfe73085",
+          "original_printed_pages": [
+            "202 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign197-role-and-nonstereotype",
+      "concept_id": "tone-pulse",
+      "kind": "explicit_scope",
+      "proposition": "Original197 defines signs as how themes express and explicitly declines to infer fixed personal traits from its Virgo-house example.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "A sign description is a contextual component,not a complete personality,clinical fact or forecast."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign185-modern-rulership-map",
+      "concept_id": "delegate-condition",
+      "kind": "explicit_source_mapping",
+      "proposition": "Original185-186 lists Aries-Mars,Taurus-Venus,Gemini-Mercury,Cancer-Moon,Leo-Sun,Virgo-Mercury,Libra-Venus,Scorpio-Pluto,Sagittarius-Jupiter,Capricorn-Saturn,Aquarius-Uranus,Pisces-Neptune.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the source's modern-ruler assignments; do not substitute traditional co-rulers."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185 ORIGINAL_MEANING_REVIEW"
+          ]
+        },
+        {
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sign203-dual-ruler-distinction",
+      "concept_id": "tone-pulse",
+      "kind": "explicit_context_distinction",
+      "proposition": "Original203-205 shares Mercury mind and Venus value themes while distinguishing Gemini/Taurus personal from Virgo/Libra outward expression and a separate actual orbital-phase layer.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not infer actual inferior/superior orbital position from sign alone or silently collapse the paired signs."
+      ],
+      "requires_concepts": [
+        "delegate-condition"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203 ORIGINAL_MEANING_REVIEW"
+          ]
+        },
+        {
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204 ORIGINAL_MEANING_REVIEW"
+          ]
+        },
+        {
+          "file_id": "1AUXsStiEfA9EZZx6n6pkhA3J1Ud1mDfj",
+          "name": "IMG_4625.jpg",
+          "content_sha256": "90b194d259df10b99a3856d3d92e06b7e8f998a40db3264877484dee7faa1c72",
+          "original_printed_pages": [
+            "205 ORIGINAL_MEANING_REVIEW"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
     }
   ],
   "findings": [
@@ -10660,6 +11098,1297 @@
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ],
+  "reviewed_meaning_profiles": [
+    {
+      "id": "sign-aries",
+      "concept_id": "sign-aries",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Aries source vocabulary",
+      "sign": "Aries",
+      "ruler": "Mars",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Beginnings, direct initiative and forward movement anchored in the present.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198"
+          ],
+          "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+          "line_ranges": [
+            [
+              19,
+              27
+            ]
+          ],
+          "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-taurus",
+      "concept_id": "sign-taurus",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Taurus source vocabulary",
+      "sign": "Taurus",
+      "ruler": "Venus",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Grounding, patience, making things tangible, present sensory comfort and routine.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198"
+          ],
+          "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+          "line_ranges": [
+            [
+              28,
+              34
+            ]
+          ],
+          "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+        "Venus/Taurus and Venus/Libra share value themes but have different personal/outward expression; do not collapse them.",
+        "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-gemini",
+      "concept_id": "sign-gemini",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Gemini source vocabulary",
+      "sign": "Gemini",
+      "ruler": "Mercury",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Curiosity, alternative options, linking ideas and sharing information, with forward-looking variety.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              6,
+              16
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+        "Mercury/Gemini and Mercury/Virgo share mind themes but have different personal/outward expression; do not collapse them.",
+        "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-cancer",
+      "concept_id": "sign-cancer",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Cancer source vocabulary",
+      "sign": "Cancer",
+      "ruler": "Moon",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Nurture, memory, family ties and belonging; reaching toward the future while turning to the past.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              17,
+              25
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-leo",
+      "concept_id": "sign-leo",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Leo source vocabulary",
+      "sign": "Leo",
+      "ruler": "Sun",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Creative vitality, presence and courage; bringing possible expression into the present.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              28,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-virgo",
+      "concept_id": "sign-virgo",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Virgo source vocabulary",
+      "sign": "Virgo",
+      "ruler": "Mercury",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Analysis, refinement and service; improving the next practical step and bringing it into the present.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              3,
+              12
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+        "Mercury/Gemini and Mercury/Virgo share mind themes but have different personal/outward expression; do not collapse them.",
+        "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-libra",
+      "concept_id": "sign-libra",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Libra source vocabulary",
+      "sign": "Libra",
+      "ruler": "Venus",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Balancing perspectives, harmony and relational exchange; weighing the present while looking back.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              16,
+              23
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review.",
+        "Venus/Taurus and Venus/Libra share value themes but have different personal/outward expression; do not collapse them.",
+        "The actual inferior/superior orbital phase is a separate layer; it must not be inferred from sign alone."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-scorpio",
+      "concept_id": "sign-scorpio",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Scorpio source vocabulary",
+      "sign": "Scorpio",
+      "ruler": "Pluto",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Intensity, depth, hidden material, endings and transformation; drawing on the past.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              26,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-sagittarius",
+      "concept_id": "sign-sagittarius",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Sagittarius source vocabulary",
+      "sign": "Sagittarius",
+      "ruler": "Jupiter",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Exploration, philosophy and wider horizons; experience and past mistakes supplying future-facing wisdom.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              34,
+              37
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              2,
+              7
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-capricorn",
+      "concept_id": "sign-capricorn",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Capricorn source vocabulary",
+      "sign": "Capricorn",
+      "ruler": "Saturn",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Endurance, rebuilding, ambition and gradual progress built on tradition and what came before.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              11,
+              18
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-aquarius",
+      "concept_id": "sign-aquarius",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Aquarius source vocabulary",
+      "sign": "Aquarius",
+      "ruler": "Uranus",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Exchange and transmission of ideas, community, vision and innovation; future progress anchored in prior understanding.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              22,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "sign-pisces",
+      "concept_id": "sign-pisces",
+      "source_concept_id": "tone-pulse",
+      "kind": "sign",
+      "title": "Pisces source vocabulary",
+      "sign": "Pisces",
+      "ruler": "Neptune",
+      "vocabulary_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "source_meaning": "Reflection, imagination, surrender and spiritual or creative transcendence; drawing the past toward the present.",
+      "citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-",
+          "name": "IMG_4611.jpg",
+          "content_sha256": "ee97d0b55d88085411be73da32fede8a0f1bbe5146539338afec2960bfe73085",
+          "original_printed_pages": [
+            "202"
+          ],
+          "ocr_output_sha256": "a229a9008fb99410c9a5c1c55bcd54ac2e75a7d0ac759d0f8368ad3bfd2ac41c",
+          "line_ranges": [
+            [
+              3,
+              15
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-"
+        }
+      ],
+      "context_citations": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "exceptions": [
+        "A sign supplies the manner of expression, not a complete personality or an event forecast.",
+        "Retain actual house, ruling-planet condition, aspects, degree/decan and chart-layer context.",
+        "Seasonal, historical, constellation and physical-causality claims are not independently validated by this vocabulary review."
+      ],
+      "dependencies": [
+        "tone-pulse",
+        "phsr",
+        "delegate-condition"
+      ],
+      "personal_answer_approved": false
+    }
+  ],
   "requirement_references": [
     {
       "id": "M01-01-01",
@@ -10754,73 +12483,73 @@
     {
       "id": "M01-02-23",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-24",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-25",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-26",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-27",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-28",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-29",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-30",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-31",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-32",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-33",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
       "id": "M01-02-34",
       "section_id": "profile-foundation",
-      "disposition": "source incomplete",
+      "disposition": "source found but implementation missing",
       "personal_answer_approved": false
     },
     {
@@ -11378,12 +13107,12 @@
   ],
   "requirement_authority": {
     "path": "data/knowledge/material_requirements.json",
-    "sha256": "ffa525e9350d61b1f66e440fce5006fe9fd74ea06d3f756347faea9c1366ed30",
+    "sha256": "d4aa7f879626e04a012ecbe6d9d9c86b442d21c5348c9dacc8df58d7a4620a4e",
     "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "annotation_authority": {
     "path": "data/knowledge/source_line_annotations.json",
-    "sha256": "ceaf635cd19d75f9704942940b6079d320cd60924ded35af7537272319daa77d",
+    "sha256": "bc183d75a75883a546529b425360a6fe58b2a4e60b6dd914f13271a014ab5aa8",
     "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "media_limit": "Only reviewed text and witness metadata; private source media/indexes are not included."

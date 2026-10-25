@@ -8,23 +8,23 @@
     "total_acquired": 1029,
     "newly_ocr_extracted": 1028,
     "total_ocr_extracted": 1028,
-    "new_targeted_visual_records": 670,
-    "newly_acquired_images_targeted_reviewed": 666,
+    "new_targeted_visual_records": 683,
+    "newly_acquired_images_targeted_reviewed": 679,
     "prior_acquired_images_reinspected": 4,
-    "total_targeted_visual_records": 712,
-    "targeted_passage_reconciliations": 670,
-    "new_atomic_assertions": 208,
-    "total_atomic_assertions": 250,
+    "total_targeted_visual_records": 725,
+    "targeted_passage_reconciliations": 683,
+    "new_atomic_assertions": 225,
+    "total_atomic_assertions": 267,
     "remaining_acquisition": 0,
     "remaining_ocr": 1,
-    "remaining_visual": 317,
+    "remaining_visual": 304,
     "exhaustive_semantic_reviews_claimed": 0,
     "printed_page_denominator": null
   },
   "requirement_dispositions": {
-    "source found but implementation missing": 116,
-    "source incomplete": 87,
-    "contradictory": 4
+    "source found but implementation missing": 128,
+    "contradictory": 4,
+    "source incomplete": 75
   },
   "candidate_searches": [
     {

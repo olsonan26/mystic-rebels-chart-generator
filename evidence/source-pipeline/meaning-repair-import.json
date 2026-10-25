@@ -1,0 +1,10 @@
+{
+  "new_targeted_images": 13,
+  "reinspected_images": 7,
+  "new_annotations": 20,
+  "new_assertions": 17,
+  "new_meaning_profiles": 14,
+  "image_and_ocr_hash_bound": true,
+  "raw_media_published": false,
+  "full_semantic_signoff": false
+}

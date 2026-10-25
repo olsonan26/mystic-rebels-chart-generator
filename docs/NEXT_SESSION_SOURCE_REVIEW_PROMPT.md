@@ -1,3 +1,9 @@
+## Latest source-meaning repair
+
+The latest checkpoint is the original-source repair for signs, Chiron and Eunomia. Read REPORT_COMPONENT_USE.md, data/knowledge/source_meaning_profiles.json and the refreshed master path before historical snapshots below. All12 core sign entries are original-backed; Chiron core vocabulary is usable despite separately held-out example/orbit claims; original686 exists. Eunomia is included as both unresolved alternatives. Never delegate these source meanings or gaps to an existing/generic library. This update inspects20 originals (13 first reviews,7 rechecks), adds17 assertions,20 annotations and one finding. Current totals725 images,267 assertions,609 annotations,50 findings;304 images remain. Full personal reports and unresolved formulas remain unapproved; preserve the separate Norfolk worktree and no-deployment boundary. Rebuild exports after source changes.
+
+---
+
 ## Latest component-use update
 
 The user asked to make supported meanings usable by an external report-building agent. See [REPORT_COMPONENT_USE.md](REPORT_COMPONENT_USE.md), `data/knowledge/report_component_use.json` and `scripts/annotate_chart_sources.py`. The annotation mode supports47 cited vocabulary components, while preserving19 incomplete,3 conflicting and62 context/technique reference records. Canonical source statuses and all18 complete-report readiness gates remain unchanged. No personal traits, missing sign meanings or unresolved formulas are invented. Regenerate/check the catalog through `scripts/export_report_knowledge.py` after each audit. Preserve the separate Norfolk worktree and no-deployment boundary.

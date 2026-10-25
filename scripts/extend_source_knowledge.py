@@ -151,6 +151,18 @@ def main():
                 if finding['id'] not in records[concept]['line_reconciliation_finding_ids']:
                     records[concept]['line_reconciliation_finding_ids'].append(finding['id'])
         path.write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')
+    profiles_path=ROOT/'data/knowledge/source_meaning_profiles.json'
+    if profiles_path.exists():
+        row=records['chiron']
+        old_missing='The source explicitly marks original page686 missing.'
+        if old_missing in row['exceptions']:
+            row['historical_compilation_exceptions']=[old_missing]
+            row['exceptions'].remove(old_missing)
+        replacement='Original686 is recovered and reviewed; only the compiled PDF omits it. Core vocabulary is separately supported while example/orbit conflicts remain.'
+        if replacement not in row['exceptions']:row['exceptions'].append(replacement)
+        row['vocabulary_source_profile']='chiron-reviewed-vocabulary'
+        row['vocabulary_status']='ORIGINAL_PASSAGE_REVIEWED'
+        row['report_gap']='Core source vocabulary is available; full contextual synthesis and disputed numerical/example claims remain unresolved.'
     # Do not erase historical source assertions or promote runtime/readiness.
     inventory_path.write_text(json.dumps(inventory, ensure_ascii=True, indent=2) + '\n', encoding='utf-8')
     examples_path = ROOT / 'data/knowledge/worked_examples.json'
