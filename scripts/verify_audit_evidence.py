@@ -36,6 +36,10 @@ def main():
         ('free-theory', 'pattern-resolution'),
         ('intra-house', 'pattern-resolution'),
         ('parans', 'locational-profile'),
+        ('synastry', 'synastry-profile'),
+        ('retrograde-meaning', 'retrograde-profile'),
+        ('eclipse', 'special-contexts'),
+        ('returns', 'return-phases'),
     ]
     packets = []
     for concept, section in selected:
@@ -48,11 +52,18 @@ def main():
             compiled_source_sha256=packet['source_sha256'], witness_policy=packet['witness_policy']))
         packets[-1]['original_atomic_assertion_ids'] = [a['id'] for a in packet['original_atomic_assertions']]
         packets[-1]['original_line_finding_ids'] = [f['id'] for f in packet['original_line_reconciliation_findings']]
+    findings = json.loads((ROOT / 'data/knowledge/source_blocker_findings.json').read_text(encoding='utf-8'))['findings']
+    expected_findings = {finding['id'] for finding in findings}
+    retrieved_findings = {identity for packet in packets for identity in packet['original_line_finding_ids']}
+    missing_findings = expected_findings - retrieved_findings
+    if missing_findings:
+        raise ValueError('Named findings missing from retrieval probes: ' + ', '.join(sorted(missing_findings)))
     requirement = requirement_packet('M08-04-01', database)
     out = dict(status='VERIFIED_LOCAL_METADATA_AND_REVIEWED_SUMMARY_RETRIEVAL',
         source_file_records=manifest['file_record_denominator'],
         printed_page_denominator=None, exhaustive_semantic_coverage=False,
-        packets=packets, atomic_requirement_retrieved=requirement['requirement']['id'],
+        packets=packets, named_findings_retrieved=sorted(retrieved_findings),
+        atomic_requirement_retrieved=requirement['requirement']['id'],
         personal_answer_generated=False, deployed_retrieval_verified=False,
         limitation='Original OCR candidates remain separate from reviewed concept packets. Concept packets contain reviewed summaries/assertions and linked conflicting findings, never automatically promote candidate OCR, and retain every compiled witness. Neither path is deployed answering.')
     evidence = ROOT / 'evidence/source-continuation/retrieval-check.json'

@@ -1,3 +1,5 @@
+Current source-audit checkpoint: [150 additional image reviews](docs/2026-10-25_source-audit-deeper-continuation.md). 462 targeted images; 170 assertions; 4,977 checked OCR locators; 567 files and 29,049 locators remain. All 18 report sections remain unready.
+
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
 Current source-audit checkpoint: [100-image continuation and exact remaining queues](docs/2026-10-25_source-audit-100-image-continuation.md). All1,029 retained IDs are acquired;1,028 have candidate OCR. Targeted review covers312 images and3,500 OCR lines,with128 selected assertions;717 files and30,526 lines remain unchecked at those stages. Older audit counts below are historical. No personal AI answering or unresolved formula activation is enabled.

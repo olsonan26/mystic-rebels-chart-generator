@@ -9,19 +9,21 @@
         "spark-entry"
       ],
       "status": "NORMATIVE_SIGN_SPEC_RECOVERED_COUNTERWORDING_RETAINED",
-      "finding": "Appendix c expressly specifies odd/even signs and confirms original234. Original557's Virgo Ascendant4:26 Aquarius Spark also distinguishes sign parity from literal house1 parity. Original235 expressly says houses; original510 Mars H4Libra Pisces Spark follows the house candidate. Both branches are now stored with discriminating examples.",
+      "finding": "Appendix c expressly specifies odd/even signs and confirms original234. Original557's Virgo Ascendant4:26 Aquarius Spark also distinguishes sign parity from literal house1 parity. Original235 expressly says houses; original510 Mars H4Libra Pisces Spark follows the house candidate. Both branches are now stored with discriminating examples. Original 630 adds MC 3 degrees Taurus called Capricorn degree and my Spark; preserve as additional context without selecting sign/house rule.",
       "assertion_ids": [
         "spark-lexicon-sign-parity",
         "spark-virgo-ascendant557",
         "spark-original-sign-derivation",
-        "spark-original-house-procedure"
+        "spark-original-house-procedure",
+        "spark630-mc-example"
       ],
       "annotation_ids": [
         "spark-sign234",
         "spark-house235",
         "spark-lexicon-c",
         "spark-horary557",
-        "fca510-mars"
+        "fca510-mars",
+        "lunar-depth-audit-1gLvU3EUVWsvKdKjf9r-vKzRDLCdCXjkt"
       ],
       "remaining": "No explicit erratum or version precedence was located. A single canonical execution policy cannot be attributed to all these passages without an editorial decision.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
@@ -243,14 +245,18 @@
         "forced-contact"
       ],
       "status": "QUALIFIED_INTERNAL_ALIGNMENT_DISTINGUISHED_FROM_EMISSION",
-      "finding": "Original645 has receiver-only anchors even at one-arcsecond offset. Original653 qualifies point-to-point internal alignment as30arcminutes,perhaps1degree,without giving either point outgoing OOI.",
+      "finding": "Original645 has receiver-only anchors even at one-arcsecond offset. Original653 qualifies point-to-point internal alignment as30arcminutes,perhaps1degree,without giving either point outgoing OOI. Originals 652/656 also say planet or point can aspect another persons Vertex/Invertex; 657 uses Vertex-to-Sun wording. Cross-ecosystem point emission remains unspecified.",
       "assertion_ids": [
         "anchor645-one-arcsecond-forced",
-        "anchor653-qualified-internal-alignment"
+        "anchor653-qualified-internal-alignment",
+        "vertex652-point-synastry-wording"
       ],
       "annotation_ids": [
         "directional-audit-img-5240-jpg",
-        "directional-audit-img-5248-jpg"
+        "directional-audit-img-5248-jpg",
+        "lunar-depth-audit-1JH5dw3Sz4jIl9Gx1yhS4t8awxoUMX2bK",
+        "lunar-depth-audit-1P0jsgI-8KlJ3rRC_hzmZREjodATYcQZA",
+        "lunar-depth-audit-1Cwrw1LREqlxslTZja0JaVqUA7Vi-jhjk"
       ],
       "remaining": "Internal alignment is distinct from exact transit activation; the qualified30minute/1degree alternatives are not a universal point orb.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
@@ -406,6 +412,138 @@
         "foundation-audit-1DO1_JCFNL6Sw5-zlpk9K9uehzbdut_3C"
       ],
       "remaining": "Do not interpret retained base-grid glyphs as reindexedH2relations; source redraw remains unlocated.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "notation524-528-transit",
+      "concept_ids": [
+        "natal-transit-order",
+        "returns",
+        "pass-through"
+      ],
+      "status": "SOURCE_NOTATION_AND_DIRECTION_QUALIFICATIONS_RETAINED",
+      "finding": "524definesTtransit/Pprogressed while528printsTransit=Pbut usesTPluto.",
+      "assertion_ids": [
+        "notation524-528-transit-conflict"
+      ],
+      "annotation_ids": [
+        "axis-audit-1aFoxChho5j7dj-GMGUkidODLqPGXALHB",
+        "axis-audit-1cdlqjMOMt8CH_d50FRrKEgi9FMmU1zwl"
+      ],
+      "remaining": "Keep contradictory printed notation; establish a separately documented parsing convention only after full context review.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "pluto528-transit-order-labels",
+      "concept_ids": [
+        "natal-transit-order",
+        "pass-through",
+        "forced-contact"
+      ],
+      "status": "SOURCE_NOTATION_AND_DIRECTION_QUALIFICATIONS_RETAINED",
+      "finding": "527-528explicitly ignore natalOOIs and reject Pallas/Mars chaining,while contact labels vary between natal-first and transit-first despite TransitVantageprose.",
+      "assertion_ids": [
+        "pluto528-transit-only-exclusions"
+      ],
+      "annotation_ids": [
+        "axis-audit-12lXSBzEIhp7NxkfFOjqtc3sZhTwLHd_R",
+        "axis-audit-1cdlqjMOMt8CH_d50FRrKEgi9FMmU1zwl"
+      ],
+      "remaining": "Emitter-only numerical scope is explicit here; printed from/to wording remains mixed and must not silently determine computational direction.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "synastry543-asymmetric-reach",
+      "concept_ids": [
+        "synastry",
+        "natal-transit-order"
+      ],
+      "status": "SOURCE_SCOPE_AND_FORMULA_BRANCHES_RETAINED",
+      "finding": "543explicitly distinguishes one-wayVenus4degreePluto contact across ecosystems from reciprocal activation;Moon3versusJupiter8analogy.",
+      "assertion_ids": [
+        "synastry543-one-way-ooi"
+      ],
+      "annotation_ids": [
+        "relationship-audit-1hw4XAPGx99mIXV30i_xrHf-E4UJT71EK"
+      ],
+      "remaining": "Keep334-338within-ecosystem equality scoped separately; receiving response does not emit a reciprocal contact.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "retro576-stage-subject-and-prograde",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context"
+      ],
+      "status": "SOURCE_SCOPE_AND_FORMULA_BRANCHES_RETAINED",
+      "finding": "569gives fourstageboundaries;576alternatesPrograde/Postgradesubjects and statesNeptune/PlutonevergoPrograde.",
+      "assertion_ids": [
+        "retro569-four-stage-boundaries"
+      ],
+      "annotation_ids": [
+        "relationship-audit-1i7XUL5vJc8es97LkdM7lfUmr0RGL-f7C",
+        "relationship-audit-1A5KC-f9CpzzFxpv-EPqKdY3b2ShBij8c"
+      ],
+      "remaining": "Need explicit station,wrap,overlap,equality and ephemeris/model coverage; categorical sentence is not runtime approval.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "eclipse596-southern-solar-node",
+      "concept_ids": [
+        "eclipse",
+        "nodes"
+      ],
+      "status": "SOURCE_SCOPE_AND_FORMULA_BRANCHES_RETAINED",
+      "finding": "595SouthernSolarusesSouthNode;596FringeSouthernSolarprintsNorthNode.",
+      "assertion_ids": [
+        "eclipse596-southern-node-conflict"
+      ],
+      "annotation_ids": [
+        "relationship-audit-1mLag5SNJSa1bCdG6erWtW9v7etUBpqb2",
+        "relationship-audit-1fZ2-NJt2NVVNRFOhIdPg_6xI9GpdqMp3"
+      ],
+      "remaining": "Preserve competing node identities; do not silently repair the Southern fringe row.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "eclipse596-lunar-sun-moon-reference",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "fringe-fca"
+      ],
+      "status": "SOURCE_SCOPE_AND_FORMULA_BRANCHES_RETAINED",
+      "finding": "595categorizes byMoon-sideNode,while596Lunarforced/fringerowsuseNodeconjunctSunatFullMoon aftertrueusesNodeconjunctMoon.",
+      "assertion_ids": [
+        "eclipse596-lunar-reference-conflict"
+      ],
+      "annotation_ids": [
+        "relationship-audit-1mLag5SNJSa1bCdG6erWtW9v7etUBpqb2",
+        "relationship-audit-1fZ2-NJt2NVVNRFOhIdPg_6xI9GpdqMp3"
+      ],
+      "remaining": "Referencebodychoice flips physicalnode-side; no substitution or class selection is approved.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "nodes607-true-direct-qualification",
+      "concept_ids": [
+        "nodes",
+        "retrograde-meaning"
+      ],
+      "status": "EARLIER_GENERALIZATION_HAS_EXPLICIT_LATER_MODEL_EXCEPTION",
+      "finding": "567/571/572 print always-retrograde nodes, while 607-608 explicitly allow True Lunar Nodes to move direct and distinguish Mean Nodes.",
+      "assertion_ids": [
+        "nodes567-always-retrograde-scope",
+        "nodes607-true-direct-exception",
+        "nodes609-mean-true-order"
+      ],
+      "annotation_ids": [
+        "relationship-audit-10fyCksVSEjTAK27xKXFBdSDVkTKc3Q7y",
+        "lunar-depth-audit-13hdlCSQiXh5q2HIwspvVy6StSGIMTZpD",
+        "lunar-depth-audit-1eCnWC1S9qttTZMCvmu9UCN2n7TqGSSCk",
+        "lunar-depth-audit-1uNDA1GSzzeMrCnFL4-AdXNQBzMDuGnL6"
+      ],
+      "remaining": "Retrieve the later qualification with earlier general wording; numerical ephemeris/model fixtures and symbolic interpretation remain separate.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]

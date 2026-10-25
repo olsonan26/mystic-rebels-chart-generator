@@ -1,0 +1,1066 @@
+{
+  "scope": "50_PREVIOUSLY_UNREVIEWED_IDS_FROM_EXACT_FILE_AND_LINE_QUEUES",
+  "baseline": "evidence/source-pipeline/continuation-100-verification.json",
+  "new_targeted_images": 50,
+  "reinspections": 0,
+  "new_annotations": 50,
+  "new_acquisitions": 0,
+  "new_ocr": 0,
+  "exhaustive_semantic_signoff": false,
+  "inspections": [
+    {
+      "id": "lunar-depth-audit-1RVoB7rUMBW-F1dAotreg0d_vqjggXur3",
+      "file_id": "1RVoB7rUMBW-F1dAotreg0d_vqjggXur3",
+      "image_sha256": "429096e337742f163931a05f3a5a8e40cfb16eaf08df3ce851cf2883f8777584",
+      "ocr_output_sha256": "03ae07de7aa8eead0ffdbf9da95e338e5b14752667d80b0c0942b660cefc3d65",
+      "printed_header": "597",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "Forced eclipse is described as delayed/separate nodal inclusion; Fringe as covert undercurrent rather than direct outward hit. These authored effects do not fix the596node/reference-body conflicts or validate event outcomes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5062.JPG",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1JXX79jYQHwJiXDaC5aBkp55T_VJ3pdm4",
+      "file_id": "1JXX79jYQHwJiXDaC5aBkp55T_VJ3pdm4",
+      "image_sha256": "ccaabae1df3fb0938edf38f740e3634f3090ddbd89410bc64ddc48316f812436",
+      "ocr_output_sha256": "003285ac2b5e9259bd32c82fc326aaaa14adf1d0c16bee65bcb89636072795ab",
+      "printed_header": "598",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Synodic Locale adds event-moment location/Ascendant to cosmic Sun-Moon configuration; July10,2025FullMoon example contrasts cities. Source-specific local interpretation is not astronomical visibility or an automatically personalized event forecast.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5063.JPG",
+      "concept_ids": [
+        "eclipse",
+        "relocation",
+        "lunar-arcs"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1v5OZ29IwimO0gDfPRgThOWBw3MmfKXqZ",
+      "file_id": "1v5OZ29IwimO0gDfPRgThOWBw3MmfKXqZ",
+      "image_sha256": "8b1b1a5ed03a22e1c4723d8b0f72dc0be41c74ec4a9d35594baa94a8926ac745",
+      "ocr_output_sha256": "79614cc236eb914323100e9f8f94d8d5627c224579ebade2c35dbac601498c69",
+      "printed_header": "599",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "LosAngeles versus NewYork event chart context is distinguished from separately mentioned line-of-sight proximity. Planetary Nodes section defines north/south ecliptic crossing; no observer-frame/epoch/mean/osculating planetary-node calculation is specified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5064.JPG",
+      "concept_ids": [
+        "nodes",
+        "relocation"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-17WwKavIMrzi4OSqGiWMp_Qp9yvx7-mRO",
+      "file_id": "17WwKavIMrzi4OSqGiWMp_Qp9yvx7-mRO",
+      "image_sha256": "03f9f01385ec0ff9da07209268be1914e3d9dc5efbd34e2eedd8d92fef4c73dd",
+      "ocr_output_sha256": "48bde191ba32df74c731f72556a9213fce088461f33eab57da4c76f1a7c3ce07",
+      "printed_header": "600",
+      "line_ranges": [
+        [
+          18,
+          29
+        ],
+        [
+          38,
+          38
+        ]
+      ],
+      "finding": "Source gives Venus14degree47Taurus,VNN19degree18Gemini,VSN3degree02Cancer and explicitly non-opposite planetary nodes; VNN-to-Sun21degree16Gemini offset1degree58. Preserve specified observer-frame uncertainty and separate actualplanet from node placement; do not force planetary nodes180degreesapart.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5065.jpg",
+      "concept_ids": [
+        "nodes",
+        "meaning-venus"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1crqI1DLkMWW-NQaRLh1YfzP7FeA4miJu",
+      "file_id": "1crqI1DLkMWW-NQaRLh1YfzP7FeA4miJu",
+      "image_sha256": "d3d36381168584ee1a77552ee17062937d782dc9200673f94b5375b5821ef601",
+      "ocr_output_sha256": "cd4eedd57bfb2369b39eb484ce24ea95b3e710bc981f85cfab12150d560301de",
+      "printed_header": "601",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "MC3degree25Taurus to VenusSouthNode3degree02Cancer is described as sextile; printed coordinates yield59degree37separation,23arcminutes from60. Lower diagram defines lunarascending/descendingeclipticcrossings separately from non-opposite planetary-nodeexample.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5066.jpg",
+      "concept_ids": [
+        "nodes",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1kB4pm4g_2nEaIosiW2cjbn_mKuRpSjU4",
+      "file_id": "1kB4pm4g_2nEaIosiW2cjbn_mKuRpSjU4",
+      "image_sha256": "56680986cad8ac9e5cf673446e01bad8560041b4896e7ad26740e5ce3941675b",
+      "ocr_output_sha256": "156543771087cbed222e4c15ab7475525cd5b0cb39ffef7cca02da83daf156cc",
+      "printed_header": "602",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Source rejects reducing SouthNode to pastlife and NorthNode to entiresouldestiny; SouthNode comfort/default themes are interpretive. No factual maternal/familyhistory follows solely from nodal placement.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5067.JPG",
+      "concept_ids": [
+        "nodes",
+        "agency"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1wjbAOgPwT105o77F3Nd9uSbA0JkRqzxS",
+      "file_id": "1wjbAOgPwT105o77F3Nd9uSbA0JkRqzxS",
+      "image_sha256": "95a0eea4bd25168c402a70a55cb925b3f612a404b2474a0a1c15ec534d8ff62e",
+      "ocr_output_sha256": "2b8bf54982e941af3b847b4200ff9e47dcf07b040f13009ca2b765360260f767",
+      "printed_header": "603",
+      "line_ranges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "finding": "Lunar nodal axis is explicitly an exact opposition and source says do not abandonSouthNode. NorthNode is described as return to understanding/growth rather than single destiny; retain competing layers and psychological-claim limits.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5068.JPG",
+      "concept_ids": [
+        "nodes",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1Fi81UucoTFzSp9Ey-9zXt-k5EboCgj0j",
+      "file_id": "1Fi81UucoTFzSp9Ey-9zXt-k5EboCgj0j",
+      "image_sha256": "5a1d4b2fd871f49230a630728499b731bef40c5c0b5594f39928b26c0e5d08cf",
+      "ocr_output_sha256": "5a87f83c92b827f9460d766c75eec66c285da81b07f8d6458905a54066777969",
+      "printed_header": "604",
+      "line_ranges": [
+        [
+          3,
+          10
+        ]
+      ],
+      "finding": "Autobiographical perfectionism/school expectations illustrate author's SouthNode story; NorthNodeH12Cancer with rulerH7 follows. This is testimony about author,not independent substantiation or a template establishing other people's childhoods.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5069.JPG",
+      "concept_ids": [
+        "nodes",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1JuTXr1H1GGOc43LVpe6Mfzky2_FdpoA-",
+      "file_id": "1JuTXr1H1GGOc43LVpe6Mfzky2_FdpoA-",
+      "image_sha256": "dac8bf22ee81681d1a0b20ed5bcb78e989efab814a9380dffa4d627d75fb58c6",
+      "ocr_output_sha256": "b000127f6c0b2c9df0b1ba080028be40accfd96734e7bb4f8174f35c26afe271",
+      "printed_header": "605",
+      "line_ranges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "finding": "Author continues desires for rest,belonging,intuition and compassion; final qualification says oppositeupbringingcouldstillfeellacking. Preserve this limitation against deterministic inference of familyevents from nodes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5070.JPG",
+      "concept_ids": [
+        "nodes",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1X6Xnqhm47QHDwN7YYSSPHXeU35p8i9-J",
+      "file_id": "1X6Xnqhm47QHDwN7YYSSPHXeU35p8i9-J",
+      "image_sha256": "827c780dee46740be4677076268cd9f21c4137f3ff8a89e01c968aa026697bfb",
+      "ocr_output_sha256": "a1327f29378ff3c683e4b9759ab90bfc11c31b87b4d141cdcce5b003fdca2989",
+      "printed_header": "606",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Author says providingeverythingwasnotmother'srole and recounts positive familymoments as NorthNode glimpses. These anecdotes qualify the preceding adverse narrative and must not be dropped to create a single uniformly negative familyprofile.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5071.JPG",
+      "concept_ids": [
+        "nodes",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-13hdlCSQiXh5q2HIwspvVy6StSGIMTZpD",
+      "file_id": "13hdlCSQiXh5q2HIwspvVy6StSGIMTZpD",
+      "image_sha256": "7f0a2ecc5cb29e31a547061c950f239a5190a0169827d1818c8a6c120c870beb",
+      "ocr_output_sha256": "aa96d7e3cf628a70483abd4154413258576c48ce3074b871ded25769271b3210",
+      "printed_header": "607",
+      "line_ranges": [
+        [
+          26,
+          33
+        ]
+      ],
+      "finding": "Explicit exception to general retrograde-node wording: MeanNodes versus TrueNodes,which can occasionally move direct. Link this qualifier to567/571/572rather than silently deleting either witness; source interpretive claims about imprint remain unvalidated.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5073.JPG",
+      "concept_ids": [
+        "nodes",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1eCnWC1S9qttTZMCvmu9UCN2n7TqGSSCk",
+      "file_id": "1eCnWC1S9qttTZMCvmu9UCN2n7TqGSSCk",
+      "image_sha256": "fc739a7a7f2478b42614149d7707468b6daa495f09947b8ef3c1c3917f2f13f3",
+      "ocr_output_sha256": "505674865972169c2d4874ad1d6fb7075b68aff8f3070fd3837be6c5c434940c",
+      "printed_header": "608",
+      "line_ranges": [
+        [
+          4,
+          12
+        ]
+      ],
+      "finding": "TrueNodesdirect interpretation is explicitly contrasted with usual inwardMeanNode interpretation; author says born during one such period. This is source confirmation of model distinction,not an independently checked natal speed fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5074.JPG",
+      "concept_ids": [
+        "nodes",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1uNDA1GSzzeMrCnFL4-AdXNQBzMDuGnL6",
+      "file_id": "1uNDA1GSzzeMrCnFL4-AdXNQBzMDuGnL6",
+      "image_sha256": "3b5e659e95c28428a964d780616b9915d52d96fd624a8ef8e9156372d3be956f",
+      "ocr_output_sha256": "8c1be51addbd7574c98260e1ead584bc4b5c54ed2e1b0cb9b0c6f00f59710d38",
+      "printed_header": "609",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "Source approximates mean/true maximum separation1.5degrees and gives Mean14degree35versusTrue13degree28,an offset1degree07; ordering matters in interpretation. Approximate maximum and first wording do not specify universal cusp/retrograde ordering or endpoint policy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5075.JPG",
+      "concept_ids": [
+        "nodes",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1mYfkjnFMgufF7ltO4DOOIPGA2CSCQ5oE",
+      "file_id": "1mYfkjnFMgufF7ltO4DOOIPGA2CSCQ5oE",
+      "image_sha256": "950ed779b502dca855eed5ce9ef5718d0411600a45fd0938adf2b6c2c127c989",
+      "ocr_output_sha256": "3c355b4cfaa9d681fce85c84151fbd49c4b03d1238cfc7af39ecf332b5834688",
+      "printed_header": "610",
+      "line_ranges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "finding": "Final personal narrative is followed by explicit rejection of VoidofCourseMoon,citing applyingaspects and larger objectset. Preserve source's chosen aspect/object scope; it does not prove no gap exists for every catalog,OOI or definition.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5076.jpg",
+      "concept_ids": [
+        "void-course",
+        "exclusions"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1Cl1clSDGoFOskWtjO2K9hLSJP8D13TK3",
+      "file_id": "1Cl1clSDGoFOskWtjO2K9hLSJP8D13TK3",
+      "image_sha256": "a2abb08bca095327fc2e30d1bbc41644827fe8fb6c65c084edc0dafa0e72d14c",
+      "ocr_output_sha256": "63eb62de7c3b38ec424e741b94ae23e1eecc39c8174ad05e25d0eaf204cd3ccb",
+      "printed_header": "626",
+      "line_ranges": [
+        [
+          3,
+          10
+        ]
+      ],
+      "finding": "MC introduction distinguishes sensitive meridian/ecliptic point from H10cusp and criticizes interchangeable career/Saturn descriptions. Whole-signhouse meaning and actualpoint geometry must remain separate.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5093.JPG",
+      "concept_ids": [
+        "anchors",
+        "field-10"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1snmK92efTr72tBWE__D34lrRdFkRqYYA",
+      "file_id": "1snmK92efTr72tBWE__D34lrRdFkRqYYA",
+      "image_sha256": "148c2fd9552593bb55388066594a15453ebb45eeab006cf62d35ba01dd5914e7",
+      "ocr_output_sha256": "b60539ea1fbf3dcdb3c0e6da6d6d35e72419d9fcfeb9d8f7724389f0764b2654",
+      "printed_header": "627",
+      "line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "finding": "NorthernHemisphere wireframe distinctly labels zenith,nadir,horizon,ecliptic,meridian,primevertical,AC/DC,MC/ICandVertex/Invertex. Targeted diagram topology reviewed; illustration is not a scale drawing or universal polar branch specification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5096.jpg",
+      "concept_ids": [
+        "anchors",
+        "vertex",
+        "invertex",
+        "declination"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1HBDFLS5GpuX4K31QS3p44Q111jq_wBaP",
+      "file_id": "1HBDFLS5GpuX4K31QS3p44Q111jq_wBaP",
+      "image_sha256": "5e5880f6cb859fcb9e5e7e091b1560054485a4f141988c5e68990aa3088a4489",
+      "ocr_output_sha256": "fd212796cd2c440630e41cd4be1a5d87249cc322b223fba7adc325e4ee3c233b",
+      "printed_header": "628",
+      "line_ranges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "finding": "Prose defines localmeridian/ecliptic MC/IC distinct from zenith/nadir and not pinnedtoH10inWholeSigns. Claimed possibleH1/H12/H11/H10/H9/H8/H7placements require separate highlatitude branch verification; no engine changes authorized.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5097.JPG",
+      "concept_ids": [
+        "anchors",
+        "declination",
+        "house-field"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1cTtqU45nSN2i9ZszxdZ9vQHXDUODjgkI",
+      "file_id": "1cTtqU45nSN2i9ZszxdZ9vQHXDUODjgkI",
+      "image_sha256": "2a9f11cdb1c9af07b5e70ce5839af57f8a8f8321323eb13244fa5b5e76d691ef",
+      "ocr_output_sha256": "1b341e1f0128636609ff4ecfe8258b9148b77330f6d28ed8829f34d74501533c",
+      "printed_header": "629",
+      "line_ranges": [
+        [
+          5,
+          12
+        ]
+      ],
+      "finding": "Source restricts zenith-MCalignment to tropiclatitudes and differentiates H10context from pointmeaning; final PHSR instruction varies MCreading by actualhouse. Keep geometry separate from universal career claims and exact latitudinal equality/polar conventions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5098.JPG",
+      "concept_ids": [
+        "anchors",
+        "phsr"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1gLvU3EUVWsvKdKjf9r-vKzRDLCdCXjkt",
+      "file_id": "1gLvU3EUVWsvKdKjf9r-vKzRDLCdCXjkt",
+      "image_sha256": "2fcc120d63d7f0d91b77a4bec7438147c3196266ae962b7830db322e6ce78d9c",
+      "ocr_output_sha256": "af1050ec823b8a4dd3db37c01d684719369f6e9cab8099686bebb4c6f72127f2",
+      "printed_header": "630",
+      "line_ranges": [
+        [
+          16,
+          27
+        ]
+      ],
+      "finding": "MC3degreesTaurus is called Capricorndegree and explicitly mySpark; relocation changes outerexposure while natalunderpinningspersist. Preserve this additional Spark example alongside234sign/235house/appendixc and other cases,not as automatic conflict resolution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5099.JPG",
+      "concept_ids": [
+        "anchors",
+        "spark-entry",
+        "relocation"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1BRSMBAzxrCbfgqwKLheOUapCxNSgWbaN",
+      "file_id": "1BRSMBAzxrCbfgqwKLheOUapCxNSgWbaN",
+      "image_sha256": "d98ce5ae3b836ec4848c584a27dd4c961b8dcbc7acbc29a95c9f6973b80a5100",
+      "ocr_output_sha256": "bece506b78835773fa7e186752ee0d332c36250e47249f29f0f0d56f3feffbd3",
+      "printed_header": "631",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Relocation example retains MCPiscesH9but changes LA18degreesPiscesdegree toSonoma14degreesSagittariusdegree inCancerdecan. Symbolicdegree/decan labels do not replace actual zodiaccoordinates or substantiate described personal outcomes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5100.JPG",
+      "concept_ids": [
+        "anchors",
+        "relocation",
+        "tone-pulse"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-19NcvrZ5vey8_iUO4Eo7-3iTdEteXZ39E",
+      "file_id": "19NcvrZ5vey8_iUO4Eo7-3iTdEteXZ39E",
+      "image_sha256": "222aff39e98af0571eb301728c3af31b70b15928d09bb70f737633a08d418d05",
+      "ocr_output_sha256": "f500f1c6f7971722e8abd41f55f9c817546e0a18d1b6c0d70e750b8a5d423d63",
+      "printed_header": "632",
+      "line_ranges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "finding": "VegasMC22Pisces versus natalSun21Gemini keeps square but changes source'sSpectrumfocus; TexasMCAriesH10withMarsH4Libra is separate relocatedcontext. No directional inequality or aspect-width policy follows solely from rounded coordinates.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5101.JPG",
+      "concept_ids": [
+        "anchors",
+        "relocation",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1N-qgUAFDFacMuoxjDXRvbt-EBtU1S6gy",
+      "file_id": "1N-qgUAFDFacMuoxjDXRvbt-EBtU1S6gy",
+      "image_sha256": "f175d1c1400955ccc7838c447a79ac1ac7b86e839d7598e8f2090b6b4986ae44",
+      "ocr_output_sha256": "e9bf99679fc9ccb9239b080979038c51ccacc5168b5243af61d336fb1c5c88a5",
+      "printed_header": "633",
+      "line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "finding": "Subheaven names IC,localmeridian/ecliptic intersection oppositeMC,not nadir. Author's JupiterRx0Scorpio beforeIC3Scorpio is called H4FCAcontext; point-boundary and cuspFCA remain distinct and raw roundedcoordinates do not establish exact inclusion.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5102.JPG",
+      "concept_ids": [
+        "anchors",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1ULu5GOKAid5LF5dxCV2KuXMyK5YCguFT",
+      "file_id": "1ULu5GOKAid5LF5dxCV2KuXMyK5YCguFT",
+      "image_sha256": "4547a8a41817a13a4fc08cf70cb1dcaf3a004a49f0562eb0da1f1339b90d5f53",
+      "ocr_output_sha256": "f7b29ec4daf3675ac18de8fb7441bc9e8af6681f3f5af4989dd477888638b18e",
+      "printed_header": "634",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "Jupiter-rules-FCAMeanLilith is described as ForcedAspect feedingIC; MCandICalso shapeeachotherinopposition. Preserve qualitativedelegatechain and timing scope,not generic proof natal chains can extend transit OOI.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5103.JPG",
+      "concept_ids": [
+        "anchors",
+        "forced-contact",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1Y0E1L_xH96j-xFrEHkL9I2vZjFjKTpU_",
+      "file_id": "1Y0E1L_xH96j-xFrEHkL9I2vZjFjKTpU_",
+      "image_sha256": "63ee11e9f77587b307cbdc5a12e94c4fd2f3af39d504f29b335ca7dc9e2975e4",
+      "ocr_output_sha256": "a61c811ff718f3545f836aeb253a5ecd7d38a3a76df22a5c465861b115c1560a",
+      "printed_header": "635",
+      "line_ranges": [
+        [
+          3,
+          10
+        ]
+      ],
+      "finding": "RelocatedICVirgoH3LA18degrees and AustinLibraH4at10degrees addtonatalICratherthaneraseit; source saysICcanoccupyH1throughH7belowAC/DCaxis. Coordinate frame and highlatitude limitations require independent validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5104.JPG",
+      "concept_ids": [
+        "anchors",
+        "relocation"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1KY7EpLpiEUBq40sFe21HY9frQjwy51gb",
+      "file_id": "1KY7EpLpiEUBq40sFe21HY9frQjwy51gb",
+      "image_sha256": "d8a923017bdb87d8f199e44c792ae1079f4c307cb007e4b3040721a345bde2bf",
+      "ocr_output_sha256": "18c57d849cd4117d3eb63a74772b96e00c1f9f2aed549a8eb391b5173e8c7c6a",
+      "printed_header": "636",
+      "line_ranges": [
+        [
+          5,
+          12
+        ]
+      ],
+      "finding": "AC/DC are horizon/ecliptic intersections180degreesopposite,lockedH1/H7inWholeSigns; risingintersection is not necessarilyduetrueEast. Exactlocation/moment,not genericcardinaldirectionorhousecusp substitution,definesgeometry.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5105.JPG",
+      "concept_ids": [
+        "anchors",
+        "declination"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-17SQ_EdhAyhwStg0KW29I6knnNfb0_Kx3",
+      "file_id": "17SQ_EdhAyhwStg0KW29I6knnNfb0_Kx3",
+      "image_sha256": "e2a304e25623c8beae5ae0c6b052c830ef9debd00ecb818fe75a0e5b147b38da",
+      "ocr_output_sha256": "c5df6161b05f7b4516c655d4f9fbffbb9ab0285d0c1a6afb177770e9185d6314",
+      "printed_header": "637",
+      "line_ranges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "finding": "Earthtilt/ecliptic diagram labels approximate23.5degrees and seasonal path; prose treats Ascendant as whereSunwouldriseifpresent,not necessarily actualSunplacement. Do not hardcode23.5aspreciseobliquity or equate symbolic emergence with conjunction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5106.jpg",
+      "concept_ids": [
+        "anchors",
+        "declination"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1TkacAYAdbDKPk7mW2w5wyI5-He1px2z5",
+      "file_id": "1TkacAYAdbDKPk7mW2w5wyI5-He1px2z5",
+      "image_sha256": "c624d9a261da1a6b61918e61246b12789ee98e3314451eacd473616e6108948c",
+      "ocr_output_sha256": "97d7c7124e0e34528e04622dedcb7ef7411dd102342bbe23c04c394a1ebb8be4",
+      "printed_header": "638",
+      "line_ranges": [
+        [
+          3,
+          11
+        ]
+      ],
+      "finding": "Ascendantmeaning distinguishes energeticignition,birthintersection,solarpotentialwithoutactualSun,andpreactionmotivation; onlyH1placementisclaimed. Sunconjunction interpretation explicitly depends onorder and additionalcontext,not interchangeablelabels.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5107.JPG",
+      "concept_ids": [
+        "anchors",
+        "field-01"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1OB9tesTrn6yiRZ5-apN4RZ4nHD0jeyEk",
+      "file_id": "1OB9tesTrn6yiRZ5-apN4RZ4nHD0jeyEk",
+      "image_sha256": "a20a74d4fa48e5639d27cd7c68fcdc12e3c8227a4d7ff1edd68267ca0d7d7b68",
+      "ocr_output_sha256": "db887ebec5f1270e531fb899c01e0a03edb62fdefbe3a9dd5b48aeb74ae56a29",
+      "printed_header": "639",
+      "line_ranges": [
+        [
+          2,
+          10
+        ]
+      ],
+      "finding": "Author gives Ascendant13Leo aTaurusdegree and distinguishes emergingmotivationfromaestheticmask; H12selfabovehorizon is distinguished from inwardH6/Virgoanalogy. These symbolic meanings do not establish universalpersonalappearance or clinicalfacts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5108.JPG",
+      "concept_ids": [
+        "anchors",
+        "spark-entry"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1A8yLQ0fd91GEsZ1ThIBrdZUe9b-SiHOi",
+      "file_id": "1A8yLQ0fd91GEsZ1ThIBrdZUe9b-SiHOi",
+      "image_sha256": "0b1c23ef49e72a89f4dd8755513cc73d3ffa88d884b82e34b90b420954657000",
+      "ocr_output_sha256": "b1ca92724d4a88ae0b4016357bf3252b0a3f529cadd466e6979245bfb190eca1",
+      "printed_header": "640",
+      "line_ranges": [
+        [
+          4,
+          15
+        ]
+      ],
+      "finding": "Actualsphere illustrates distinct AC/DC,MC/IC,zenith/nadirandprimevertical; text says H1to7actionandH7to1involvementexchangewithoutmerging. Preserve opposition and asymmetriccontext; no global equalOOIpolicy follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5110.jpg",
+      "concept_ids": [
+        "anchors",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1ubcIfNVLbga_v6CiUrY5xDdGWfDwUUZy",
+      "file_id": "1ubcIfNVLbga_v6CiUrY5xDdGWfDwUUZy",
+      "image_sha256": "d71a8ff5cad4ba3110bb3b1e0cf112a71577e8f06d86778e6956955e4e6e9f6e",
+      "ocr_output_sha256": "fad3ff64d942ae02fbda6b277c17d61d85b8b308123bbdd0594a8ae62c747939",
+      "printed_header": "643",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "LifePurpose summary distinguishes ACemergence,MCpublicprojection,DCinwardconnection,ICcoreanchor and requires individualrulers/placements. This is sourceinterpretation,not an approvedcareerreport or validated life-purpose assessment.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5238.JPG",
+      "concept_ids": [
+        "anchors",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1SECByGulXaJkYkPRpkeJ28L9yCjjHSxJ",
+      "file_id": "1SECByGulXaJkYkPRpkeJ28L9yCjjHSxJ",
+      "image_sha256": "7460269764aafdba6224e12fecfceb20e0fbff6380b3adae3176b29597496ee5",
+      "ocr_output_sha256": "f9986a4b8c95bd80af1d92a1859a24de8b9e720d975faaf1d32d0b0501a4a712",
+      "printed_header": "644",
+      "line_ranges": [
+        [
+          5,
+          12
+        ]
+      ],
+      "finding": "Worked fouranchorcontext includes LeoAC/SunH11,TaurusMCH10/VenusH10,AquariusDC/UranusRxH5,ScorpioIC/JupiterRxandPlutoRxH3. Keep as authored example and retain additionaldelegations rather than four isolatedsignkeywords.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5239.JPG",
+      "concept_ids": [
+        "anchors",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1v-BrceIjYzjJGfBSbwcUNH00UlMQUcAe",
+      "file_id": "1v-BrceIjYzjJGfBSbwcUNH00UlMQUcAe",
+      "image_sha256": "7a37fbbb2b1d52dba1d48c773346160564730ae3dd5486e6115831b5676f1d03",
+      "ocr_output_sha256": "9dc47970f5a700f89dbaeecccf0724f4a3c97aa4ada06e06e845c929efdf1913",
+      "printed_header": "646",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Vertex discussion rejects fate-only or sometimes-onlyactivation and uses satirical rhetoric; missingdefinition onthispage is not evidence no definition exists. Continue647-649and preserve receiver-only qualification645.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5241.JPG",
+      "concept_ids": [
+        "vertex",
+        "exclusions"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1VwQfpKHxIghs2ZFXc7FrUWTrEfntdu15",
+      "file_id": "1VwQfpKHxIghs2ZFXc7FrUWTrEfntdu15",
+      "image_sha256": "f7544910218e0910a64bb515324df73f6489dfd5e65ceeadc17d40a6dde3135d",
+      "ocr_output_sha256": "fe5f0cd06a3785a83c44616bc61b167e82a4609ac5d34a5bdd34ced36b968f6d",
+      "printed_header": "647",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Reused NorthernHemisphere diagram differentiates primevertical fromlocalmeridian andhorizon; same labeledtopology as627. Vertex/Invertex remain west/east primevertical/ecliptic intersections,not renamed AC/DC; drawing not scaledlongitude.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5242.jpg",
+      "concept_ids": [
+        "vertex",
+        "invertex",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1Zd4CA3mR9HHBu61IbmXl8b662CrzQ1IG",
+      "file_id": "1Zd4CA3mR9HHBu61IbmXl8b662CrzQ1IG",
+      "image_sha256": "1648c2d4b70fdd70e0fb36b369209a206fb515667fff8a25bf3ebd825ebb50c4",
+      "ocr_output_sha256": "aa857730f7921116979aecf4fae4669f0d799e9b1a68df0afb633746940d873c",
+      "printed_header": "648",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Vertex west/Invertex east definitions use primeverticalthroughzenith,nadir,geographicEast/West; localmeridianandprimeverticalare spatiallyperpendicular. This3D90degreeangle doesnotmean their eclipticintersectionlongitudesarealwayssquare.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5243.JPG",
+      "concept_ids": [
+        "vertex",
+        "invertex",
+        "declination"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-151BLkhqwiRqhx90M4ZdJhdxLLt5giVAK",
+      "file_id": "151BLkhqwiRqhx90M4ZdJhdxLLt5giVAK",
+      "image_sha256": "c16025b6bb1ea185845bb796fc8c69011447fe0a2a298a6eaf93378f29511c90",
+      "ocr_output_sha256": "a22159c5fde8b52f95497ff3c19ea8c049dd878b11807dbaf65883a204e7fe67",
+      "printed_header": "649",
+      "line_ranges": [
+        [
+          3,
+          12
+        ]
+      ],
+      "finding": "Source describes meridianoutward/privateaxis versusprimeverticalcatalyst and Vertex as outwardtippingpointleadingprivate recalibration. It does not make Vertex a fateevent or provide predictive timing bydescription alone.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5244.JPG",
+      "concept_ids": [
+        "vertex",
+        "axial-flow"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1n3ZGJe8eywAMp78GX7sa1_2HdKJBiCzK",
+      "file_id": "1n3ZGJe8eywAMp78GX7sa1_2HdKJBiCzK",
+      "image_sha256": "2cc6a3daabaa9147ed3f331f536272c6504c55f50b1b55d87d3ff24417cd60ff",
+      "ocr_output_sha256": "3285bbd732be7bece992757fcceeee227435f54dee5f02cfab4edffc42e9cdd1",
+      "printed_header": "650",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Vertex description emphasizes visibility,overextension and need to recheckinnerpurpose. Burnout/success narrative is qualitative source theory,not guaranteed trait or clinicaloutcome for a particular Vertexplacement.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5245.JPG",
+      "concept_ids": [
+        "vertex",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1u_kYkzjFNz2nj5zMnacLF4lZ155dtC83",
+      "file_id": "1u_kYkzjFNz2nj5zMnacLF4lZ155dtC83",
+      "image_sha256": "dc0ffe846143b34b382f55de07a118f6258f852927889ba2012d250d441e3f16",
+      "ocr_output_sha256": "8a4756388e8775dc8a324f0911fa021506d6420bb88b89a0328684329f4fc896",
+      "printed_header": "651",
+      "line_ranges": [
+        [
+          2,
+          10
+        ]
+      ],
+      "finding": "WorkedVertexpositions:Logan29degree06SagittariusH5FCAconjunctMeanBML;Ashley20degree15CapricornH6. Preserve FCA/mean-lilith labels and actualcoordinates; no universalpointemissionOOIorreplicatedoutcome follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5246.JPG",
+      "concept_ids": [
+        "vertex",
+        "fringe-fca",
+        "lilith"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1JH5dw3Sz4jIl9Gx1yhS4t8awxoUMX2bK",
+      "file_id": "1JH5dw3Sz4jIl9Gx1yhS4t8awxoUMX2bK",
+      "image_sha256": "84d0944c68af2e2a38e63987b73d20d44f5071e05110fff535af3d16241e0e3e",
+      "ocr_output_sha256": "20ddb871204d6c7a340a929c95f744a75565e4d239f031387d0401cd01daaf36",
+      "printed_header": "652",
+      "line_ranges": [
+        [
+          13,
+          30
+        ]
+      ],
+      "finding": "Source explicitly says oneperson'splanetORpointcanconjunct/aspectanotherVertex and rejects synastry-onlyactivation. Cross-ecosystem pointwording needs reconciliationwith645receiver-onlyanchors and653qualifiedinternalpointalignment; no outgoingpointOOI is established here.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5247.JPG",
+      "concept_ids": [
+        "vertex",
+        "synastry",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1eihTriLDG0SsU0LDWuOEcUDaM2dwocqk",
+      "file_id": "1eihTriLDG0SsU0LDWuOEcUDaM2dwocqk",
+      "image_sha256": "238666e7af1ef7b6c427db2b62e8134824f3f1aabb047090d167fa4d79a6985d",
+      "ocr_output_sha256": "878c7fa4a8a7c61d10906261c51b34a8e0a5357b75d86aac58240de17865e8c9",
+      "printed_header": "654",
+      "line_ranges": [
+        [
+          4,
+          12
+        ]
+      ],
+      "finding": "Invertex is eastern reemergence/reset afterVertexandICprocessing; example29degree06GeminiH11FCAoppositeMeanBML. Preserve exact oppositeaxis and internalmeaning without inventing a chronologicaleventtimer or emittedpointOOI.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5249.JPG",
+      "concept_ids": [
+        "invertex",
+        "vertex",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1qx_En198sm2enzk_erVGlnMTUv0AzlzV",
+      "file_id": "1qx_En198sm2enzk_erVGlnMTUv0AzlzV",
+      "image_sha256": "db897203ef807d09d9fec5edb6c2cfaf898331a836535b98b849821ceea405d4",
+      "ocr_output_sha256": "67a69f7ffb885061daeb38a6aba03a8eceb1268fd9ba6b025f88c762f14ebdb7",
+      "printed_header": "655",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "AshleyInvertex20degree15CancerH12requires IConSaturn,VertexrulerSaturnandMoonthemes in example. This is a qualitative individualreset narrative rather than an automatically prescribedtherapy or duration.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5250.JPG",
+      "concept_ids": [
+        "invertex",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1P0jsgI-8KlJ3rRC_hzmZREjodATYcQZA",
+      "file_id": "1P0jsgI-8KlJ3rRC_hzmZREjodATYcQZA",
+      "image_sha256": "a95072a60d0298dd298dfaadcbcca494cb5929b8c623cd63b87729272b8bf41c",
+      "ocr_output_sha256": "58db961239a454d049acd6efd16716d2f05b16a6caac03ca6ff5ece8a3c63bb7",
+      "printed_header": "656",
+      "line_ranges": [
+        [
+          4,
+          14
+        ]
+      ],
+      "finding": "Text repeats planetORpointtoInvertex synastryactivation and says anInvertexaspectalsoaspectstheoppositeVertex. Read complementaryangularrelationseparatelywithappropriateOOI; no unconditionalpointemissionoruniversalminor-aspectwidth equality follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5251.JPG",
+      "concept_ids": [
+        "invertex",
+        "vertex",
+        "synastry",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1Cwrw1LREqlxslTZja0JaVqUA7Vi-jhjk",
+      "file_id": "1Cwrw1LREqlxslTZja0JaVqUA7Vi-jhjk",
+      "image_sha256": "0cc37fe8146088d6f56649287e38ba0d0946eefaeeca850a68c6041ac5b13a5b",
+      "ocr_output_sha256": "376505d8b485460cf732a1f82cdd37d7b669a3e5caed7079c16ffd71efd703e5",
+      "printed_header": "657",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Example says herVertexquincunxesmySun; AxialFlowgroupsMC/ICandVertex/Invertex in fourpointcycle. Preservepoint-firstwording alongside receiver-onlyandexactactivation qualifications; spatialaxislabelsarenotnumericalOOIauthorization.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5252.JPG",
+      "concept_ids": [
+        "axial-flow",
+        "anchors",
+        "vertex",
+        "invertex"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1C2d1Fk1GHEXhTUsoZxA0J3GvxfufuNbC",
+      "file_id": "1C2d1Fk1GHEXhTUsoZxA0J3GvxfufuNbC",
+      "image_sha256": "fcc7d3011c59fbafec78a7dbb5015c62e8bd9d7f4d68c1800b7356e87234b5cc",
+      "ocr_output_sha256": "a4c802c0691348e162802257c6f22852688e25714366153367e19878942d073f",
+      "printed_header": "658",
+      "line_ranges": [
+        [
+          2,
+          11
+        ],
+        [
+          23,
+          35
+        ]
+      ],
+      "finding": "AxialFlowsequence:MCexternalsetting,Vertexwhatpullsinward,ICprocessing,Invertexemergentconclusion; AC/DCexecution/reflectioncontinues659. Greatcircle3Dgeometryislocational; conceptualorderisnotproofeveryeventactivatesallfouratonce.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5253.jpg",
+      "concept_ids": [
+        "axial-flow",
+        "anchors",
+        "vertex",
+        "invertex"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1_G0-C5kTUMY_iJTra-c7ZwQaMrOiEVrT",
+      "file_id": "1_G0-C5kTUMY_iJTra-c7ZwQaMrOiEVrT",
+      "image_sha256": "6765ceea0c5a12f6a960260c83726ea90ea8d9c57711b198c4ad0239ac879d79",
+      "ocr_output_sha256": "02b16fc26eff417c942295f420d07843f523558078c24724ac1051cc0eccc003",
+      "printed_header": "659",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Source explicitly separates ACactualaction/DCresponse fromthefourpointAxialFlow; restaurantMarch21anecdoteusesrulersandtransitMoonbeforeMars-to-Invertexactivation. No year,exacttime,coordinates or ephemerisfixture are suppliedhere for full replication.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5254.JPG",
+      "concept_ids": [
+        "axial-flow",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1xU72-izB6PLSWmitGCiN_reNdYaE_60W",
+      "file_id": "1xU72-izB6PLSWmitGCiN_reNdYaE_60W",
+      "image_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
+      "ocr_output_sha256": "f6578139e4d3fc75661ba6d64c5ba507661b91dfbb2d8032596f0c870d505d30",
+      "printed_header": "660",
+      "line_ranges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "finding": "Restaurantstory interprets Mars-to-InvertexH12CancerwithMoonH10andotherdelegatechains,thenAC/DCactions. Treat parentingepisode as author testimony,not verifiedclinicaleffect or calculatedevent prediction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5255.JPG",
+      "concept_ids": [
+        "axial-flow",
+        "invertex",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1ANJ-ER1nzurH7s6e2vCC4b6ce2BAeF-c",
+      "file_id": "1ANJ-ER1nzurH7s6e2vCC4b6ce2BAeF-c",
+      "image_sha256": "229e71fabe31e198eb98b5bbdf26f3431865370f1a01ac3342f41e03db73ffa7",
+      "ocr_output_sha256": "074b7d608ed1ca97e633515c8602250031d15efefc184caf373459bd1552e815",
+      "printed_header": "661",
+      "line_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "finding": "Header introduces Nonagesimal after transitSaturnVertex/JupiterMC anecdotes. Targeted image review distinguishes subsequent eclipticculmination fromMC; numericdiagram/adjacentpagebleedOCRonthisimage is not approved transcription.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5256.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1OZjxg2K2sVuSBFZ4RF8opw0nEqeW9ihD",
+      "file_id": "1OZjxg2K2sVuSBFZ4RF8opw0nEqeW9ihD",
+      "image_sha256": "9c6d35b1bebe701819856b0627351638e1342efa2a24ae442eccc57bfeaedcd9",
+      "ocr_output_sha256": "c42a8f4b2d54cb9de7107896058be336c01c3df5ca65f4d81e2edcc2d38e02b5",
+      "printed_header": "662",
+      "line_ranges": [
+        [
+          9,
+          15
+        ],
+        [
+          25,
+          32
+        ]
+      ],
+      "finding": "Nonagesimal is90degreesalongeclipticfromAscendant,highestabovehorizon,distinctMC/zenith; exampleNona13degree06andVenus14degree47offset1degree41. Abovehorizonbranch,wrap and polarhandlingstillrequireverifiedimplementation; sourcevisibilityclaimsnotempiricalproof.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5257.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1n6C3WZHIwgVTcZF66g2P12v5davJuOzG",
+      "file_id": "1n6C3WZHIwgVTcZF66g2P12v5davJuOzG",
+      "image_sha256": "70f87b1073bdddd8e149f584571b643b76d680d5a970a52fcdbe29f57152af9e",
+      "ocr_output_sha256": "0af2f414c73674f5de03dc2147149144da2fbc363412d4b7d11b1dcaf1cccab4",
+      "printed_header": "663",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Prose says DCsquaresNonagesimal and introduces oppositeSubnonagesimal; these exactgeometricrelationsmustremainseparatefrombody-specificOOIandoutcomeclaims. No sign of actualSunplacement is required by thepotentialpointdefinition.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5258.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "anchors"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1hiRqIyJX3xgV_zNno1s5oq6AUp7izUWf",
+      "file_id": "1hiRqIyJX3xgV_zNno1s5oq6AUp7izUWf",
+      "image_sha256": "9f03cf5e1b2441718647fd9614baad73f1e543f34dfcb5c1fbaa9de3c375f565",
+      "ocr_output_sha256": "2a7ee213947753cc48f18369332c629490ad00f12c2b2844a1b70b27ad9d9836",
+      "printed_header": "664",
+      "line_ranges": [
+        [
+          4,
+          12
+        ]
+      ],
+      "finding": "Subnonagesimal describes lowesteclipticpointbelowhorizon,oppositeNona,andclaimsH4becauseACH1; explicitly distinguishes potentialpointfromactivelyexpressedenergy. No astronomicalSunmustoccupythatlongitudeatbirthorcurrenttime.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5259.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "anchors",
+        "field-04"
+      ]
+    },
+    {
+      "id": "lunar-depth-audit-1ciMSpdgaJwP7xNqi6DkCk4SNzcBvKJRN",
+      "file_id": "1ciMSpdgaJwP7xNqi6DkCk4SNzcBvKJRN",
+      "image_sha256": "079cbf665567ad691fcf93dfa8ccc24a6b9c99c10cb3ceebe40a1a9a3d4d238f",
+      "ocr_output_sha256": "7672d4a157b65437df31546982aa1f208deb0f16781047b005dc855a0ae620dc",
+      "printed_header": "665",
+      "line_ranges": [
+        [
+          3,
+          10
+        ],
+        [
+          12,
+          17
+        ]
+      ],
+      "finding": "Author'sSubnonagesimal13degree06Scorpio/CeresRx13degree36offset30arcminutes confirmsprintedhalfdegree; Venus14degree47Taurusoppositionis1degree11offexact,notexactequality. Preserve namedCeresnurturing/resourcecontext and unvalidatedautobiographicalclaims; no30arcminuteuniversalpointOOI follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5260.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "asteroid-ceres",
+        "anchors"
+      ]
+    }
+  ],
+  "new_atomic_assertions": 12,
+  "assertion_ids": [
+    "nodes607-true-direct-exception",
+    "nodes609-mean-true-order",
+    "planetary600-nonopposite-nodes",
+    "synodic598-locale-versus-sight",
+    "void610-object-scope",
+    "mc628-distinct-from-zenith",
+    "spark630-mc-example",
+    "anchors636-horizon-versus-east",
+    "vertex648-prime-vertical-scope",
+    "vertex652-point-synastry-wording",
+    "axial658-four-point-sequence",
+    "nona662-versus-mc"
+  ]
+}

@@ -1,3 +1,9 @@
+## Current verified continuation: 150 additional images
+
+Read [2026-10-25_source-audit-deeper-continuation.md](2026-10-25_source-audit-deeper-continuation.md) and evidence/source-pipeline/continuation-deeper-verification.json first. Current totals: 1,029 acquired IDs; 1,028 successful OCR outputs; 462 targeted images; 170 selected assertions; 331 annotations; 4,977 checked of 34,026 OCR locators; 26 named findings; 567 files and 29,049 locators remain. This continuation added 150 new image reviews, 42 assertions and 1,477 line checks, without acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements). Earlier counts/results below are historical. Next exact ID: 1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3 (IMG_5261.JPG); inspect its image before asserting a printed header. No unresolved formula or answering layer is enabled.
+
+---
+
 # Source audit: 100-image continuation, 2026-10-25
 
 ## Current checkpoint

@@ -1,0 +1,69 @@
+{
+  "status": "VERIFIED_REGENERATION_AND_VALIDATORS",
+  "regeneration": {
+    "before": {
+      "source_manifest": "e6819b00dc3a85e81f17ea9a375b82cfb603cf0cb6bf0ad6442ee48ec331373e",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "c033ec391cf74c5178f3cf975753d8eb791b19df4c2942671609b9ac53c75e84",
+      "interpretive_inventory": "f2c4f692d0adea11e0d13193ea01edf2fec9e14a2b85869f2fe178eb18c33bb9",
+      "original_assertions": "b9dbd204e052a2623b88c6f3b8a7ccda80688427fd529891a170b0da2f19636e",
+      "material_requirements": "3ff21bbfef189520ceb91da48c278c8994965d5022c946e17945951dd86eea6f"
+    },
+    "after": {
+      "source_manifest": "e6819b00dc3a85e81f17ea9a375b82cfb603cf0cb6bf0ad6442ee48ec331373e",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "c033ec391cf74c5178f3cf975753d8eb791b19df4c2942671609b9ac53c75e84",
+      "interpretive_inventory": "f2c4f692d0adea11e0d13193ea01edf2fec9e14a2b85869f2fe178eb18c33bb9",
+      "original_assertions": "b9dbd204e052a2623b88c6f3b8a7ccda80688427fd529891a170b0da2f19636e",
+      "material_requirements": "3ff21bbfef189520ceb91da48c278c8994965d5022c946e17945951dd86eea6f"
+    },
+    "identical": true
+  },
+  "validators": {
+    "check": {
+      "batch_count": 8,
+      "enumeration_complete": false,
+      "known_file_lower_bound": 1028,
+      "source_semantic_coverage_percent": null,
+      "coverage_percent_reason": "No complete eight-batch page/concept denominator or verified scan-to-rule mapping yet.",
+      "runtime_rules": 16,
+      "registered_rules": 44,
+      "complete_intelligence_claim_allowed": false
+    },
+    "check-semantics": {
+      "concepts": 131,
+      "report_sections": 18,
+      "source_states": {
+        "PASSAGE_REVIEWED": 91,
+        "CONFLICT": 3,
+        "INCOMPLETE": 15,
+        "PRIOR_REVIEW_ONLY": 2,
+        "FRAGMENT": 20
+      },
+      "status": "VALID_AUDIT_NOT_REPORT_APPROVAL"
+    },
+    "check-sources": {
+      "status": "VALID_VISIBLE_SNAPSHOT_NOT_PAGE_COVERAGE",
+      "file_records": 1029,
+      "printed_page_denominator": null
+    },
+    "check-requirements": {
+      "status": "VALID_RECONCILIATION_NOT_REPORT_APPROVAL",
+      "sections": 18,
+      "requirements": 207
+    },
+    "pdf_witnesses": {
+      "status": "PDF_AND_INDEX_WITNESSES_MATCH",
+      "pdf_pages": 692,
+      "concept_witness_pages": 300,
+      "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+      "complete_semantic_coverage_claimed": false
+    },
+    "retrieval": {
+      "status": "VERIFIED_LOCAL_METADATA_AND_REVIEWED_SUMMARY_RETRIEVAL",
+      "selected_concepts": 23,
+      "atomic_requirement": "M08-04-01",
+      "personal_answer_generated": false
+    }
+  }
+}

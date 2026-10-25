@@ -1,0 +1,1072 @@
+{
+  "scope": "50_PREVIOUSLY_UNREVIEWED_IDS_FROM_EXACT_FILE_AND_LINE_QUEUES",
+  "baseline": "evidence/source-pipeline/continuation-100-verification.json",
+  "new_targeted_images": 50,
+  "reinspections": 0,
+  "new_annotations": 50,
+  "new_acquisitions": 0,
+  "new_ocr": 0,
+  "exhaustive_semantic_signoff": false,
+  "inspections": [
+    {
+      "id": "relationship-audit-1eaTjc04BH2MgWDxk-K2cUIRWxfj2TLp7",
+      "file_id": "1eaTjc04BH2MgWDxk-K2cUIRWxfj2TLp7",
+      "image_sha256": "97824c084bc689aea44e8c3f4b30c8c18ae63f53314aa0584739aeb5377e68ff",
+      "ocr_output_sha256": "c55c0c407ad45f2117d857f96e364df5ca2dc4b71e4c38ebba0e57ade1986a0e",
+      "printed_header": "542",
+      "line_ranges": [
+        [
+          3,
+          7
+        ]
+      ],
+      "finding": "Venus/Moon synastry example requires Mercury sextile Moon and Venus as delegate of H3/H10including their occupants. Planets-alone claims omit the actual authored chain; no universal personal communication diagnosis follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5005.jpg",
+      "concept_ids": [
+        "synastry",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "relationship-audit-1hw4XAPGx99mIXV30i_xrHf-E4UJT71EK",
+      "file_id": "1hw4XAPGx99mIXV30i_xrHf-E4UJT71EK",
+      "image_sha256": "b48999a76730b42400ae9b7b7396aa342099aef9cfed41881514d42c801a0875",
+      "ocr_output_sha256": "633f7c6627ad66067b07fc6d3ab046d8ecb9e4ea1cc5c2eecc3c2f85290d93be",
+      "printed_header": "543",
+      "line_ranges": [
+        [
+          16,
+          33
+        ]
+      ],
+      "finding": "Explicit cross-ecosystem one-way example: Venus squares other person's Pluto4degreesoff,Pluto does not square back; analogous transitMoon3degreeOOIcannot reachJupiter8degreesaway. Source says this is not the same as Forced Aspects despite resembling them. Preserve response versus emitted activation and apply to relocation synastry too.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5006.JPG",
+      "concept_ids": [
+        "synastry",
+        "natal-transit-order",
+        "forced-contact"
+      ]
+    },
+    {
+      "id": "relationship-audit-1XBg2nsqCyxdcom3tjZC_3nX8_-fDxLxt",
+      "file_id": "1XBg2nsqCyxdcom3tjZC_3nX8_-fDxLxt",
+      "image_sha256": "dbdf73207ef3c2eb5885ac3a4cfe195e944247b543050eed216a028cf615e644",
+      "ocr_output_sha256": "43e5dda441e030ade4a238030c947c158c9ddcddbda479e7a8ecf9d672eef26c",
+      "printed_header": "546",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Composite example locates Ascendant20Virgo,Taurusdecan and Gemini degree,with MercuryH9and VenusH9/H2delegation. Symbolic degree/decan/natal-frame layers are distinct; autobiographical claims and implied trauma are not independently verified facts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5010.JPG",
+      "concept_ids": [
+        "composite",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "relationship-audit-10hYS4obfhWAaX-CExLAUiKp1bfJ9aNK_",
+      "file_id": "10hYS4obfhWAaX-CExLAUiKp1bfJ9aNK_",
+      "image_sha256": "ed89c6f6ac357ef65054ecdff429fa2e649e8664844d81cddc91044c8548c042",
+      "ocr_output_sha256": "c21b4d793178aaa0ac82ac0881957c3f97f7624010190988e792fa6400c98dbf",
+      "printed_header": "547",
+      "line_ranges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "finding": "Composite retrograde is explicitly described as inward energy between the couple. Preserve composite scope and source interpretation; do not transplant natal/transit rules or infer actual mutual trauma from the chart.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5011.JPG",
+      "concept_ids": [
+        "composite",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "relationship-audit-1vPBjlu5TmjsmQC80kQIfudcAN2oyuT95",
+      "file_id": "1vPBjlu5TmjsmQC80kQIfudcAN2oyuT95",
+      "image_sha256": "46356d5f6dac81d343d6d80906708ac51c6236917bfccb6ae8fac3a1884f1ed4",
+      "ocr_output_sha256": "c760caaf695b7051a34935867acde578c461bd698fd28e4f2e6e2f7d7b1ed309",
+      "printed_header": "548",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Composite NeptuneRxH8ruler quincunxChironH10and PlutoRx link is an autobiographical example; later prose says composite has no actual birth location and rejects Davison midpoint-time/place substitution. No composite midpoint wrap or retrograde calculation specification is supplied here.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5012.JPG",
+      "concept_ids": [
+        "composite",
+        "relocation"
+      ]
+    },
+    {
+      "id": "relationship-audit-11DJUObFbgLlU556_o4XRUQq2xq2YzKLu",
+      "file_id": "11DJUObFbgLlU556_o4XRUQq2xq2YzKLu",
+      "image_sha256": "b87ff79cbd546239d281bb9820a460132353cb37fc3f498acd2ee8658d74c4c2",
+      "ocr_output_sha256": "02c7f873001da2272b32a5074c8a85683a0d6760a7c25ab7470d76b539cd9e54",
+      "printed_header": "549",
+      "line_ranges": [
+        [
+          20,
+          37
+        ]
+      ],
+      "finding": "Author rejects Davison time/place midpoint as distinct from merging existing chart energies; relationship event chart instead needs real time/date/place. Composite is a unit and may extend to groups. Retain distinction and anecdotal evidentiary limits; no universal outcome proof.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5013.JPG",
+      "concept_ids": [
+        "composite",
+        "election-horary"
+      ]
+    },
+    {
+      "id": "relationship-audit-1bCm-pa6Z36mCtW2xDI0kYfzUWIjmzayB",
+      "file_id": "1bCm-pa6Z36mCtW2xDI0kYfzUWIjmzayB",
+      "image_sha256": "1e73590216152b837250aaf56c635af03c360780d453601212117f42c394dd94",
+      "ocr_output_sha256": "e63e49aad4220963ca73be7e4ef9caa43a736ef6db26bb6553b8fb9401b739fb",
+      "printed_header": "550",
+      "line_ranges": [
+        [
+          2,
+          7
+        ]
+      ],
+      "finding": "Multiple Composites extend to groups and synastry beyond romance includes business/parent-child contexts. Electional section describes choosing event time and intentionally accepting VenusRetrograde; this is source practice,not efficacy evidence or a blanket prohibition on retrogrades.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5014.JPG",
+      "concept_ids": [
+        "composite",
+        "election-horary",
+        "agency"
+      ]
+    },
+    {
+      "id": "relationship-audit-1yQEPQACbwZ-8ouXai4Y9dMsIpmf7MeeS",
+      "file_id": "1yQEPQACbwZ-8ouXai4Y9dMsIpmf7MeeS",
+      "image_sha256": "d5b37b69e07f378bf6fa9e675d2d9b2e7d0b2f1f85563f31f06982376ec420fb",
+      "ocr_output_sha256": "4783c84d3ef8c25cb5b153755827f0b56cc5d46670df8b4e22ddda929a5d9997",
+      "printed_header": "551",
+      "line_ranges": [
+        [
+          4,
+          14
+        ]
+      ],
+      "finding": "Electional chart Ascendant refers to event/business actions rather than the owner; H7refers to entity-and-others. Keep event identity separate from person; real registration timing constraints and owner/business synastry remain separate layers.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5015.JPG",
+      "concept_ids": [
+        "election-horary",
+        "synastry"
+      ]
+    },
+    {
+      "id": "relationship-audit-1ny7ZEdbjBwFmn7jd1qi3DW_CUCLjYjeU",
+      "file_id": "1ny7ZEdbjBwFmn7jd1qi3DW_CUCLjYjeU",
+      "image_sha256": "707f0d725372b64c0cb5178da1bcfddb573fb593a39cbe886d2c05d1870ac694",
+      "ocr_output_sha256": "613a70fd31e1aaf5235dba39e8435d3bdde7d94a410ae7bde8bf49e8b792b268",
+      "printed_header": "552",
+      "line_ranges": [
+        [
+          7,
+          16
+        ]
+      ],
+      "finding": "Business example distinguishes owner intentions from electional entity roles/delegation. Claims of success or stress are interpretive and not validated financial outcomes; no date-scoring function or event inception rule is established here.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5016.JPG",
+      "concept_ids": [
+        "election-horary",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "relationship-audit-1hZpqwoDpdb0auuXyCf8D7CJtrp-_V9Do",
+      "file_id": "1hZpqwoDpdb0auuXyCf8D7CJtrp-_V9Do",
+      "image_sha256": "de810f5e9363e0d030a99ccb18a7f32e2d0217b7a19e6aae23ff10b7078bade6",
+      "ocr_output_sha256": "15ba459439a50ca214f13eb6c683dbbb71987edf2c8769cbde72164fc278094c",
+      "printed_header": "553",
+      "line_ranges": [
+        [
+          20,
+          32
+        ]
+      ],
+      "finding": "MysticRebels electional chart is described as SagittariusRising and H1Sun; prose invokes Gemini energy ofH3in an interpretive chain. Preserve natural-house symbolism versus actual Sagittarius-rising signs; diagram is not fully coordinate-verified and no GeminiH3occupancy is inferred.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5017.JPG",
+      "concept_ids": [
+        "election-horary",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "relationship-audit-1jJXoNHG1CAoIznJxV5DBW6u5XPpDpPs4",
+      "file_id": "1jJXoNHG1CAoIznJxV5DBW6u5XPpDpPs4",
+      "image_sha256": "2fba54d92baf8fddea36e78035b83fccb5635f05376d65df821f474d2d3dd9ce",
+      "ocr_output_sha256": "173f27becdb4073c10b1d6b0dba22cd265deba6222b11ee448bb9641a54f24ec",
+      "printed_header": "554",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Mercury/delegate/node context continues; Venus-conjunct-Pluto order is expressly contrasted with reverse order in H2example. Preserve direction,actual contacts and ongoing transits; do not turn business anecdote into financial advice or guaranteed success.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5018.jpg",
+      "concept_ids": [
+        "election-horary",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1V48qiMMRxspAia31lfsw_eZba9srYhMp",
+      "file_id": "1V48qiMMRxspAia31lfsw_eZba9srYhMp",
+      "image_sha256": "fd6fb998851264217d375f94facfdab7acfd5885d432c209303cc96198019c73",
+      "ocr_output_sha256": "c4b02c7b38a51dee18d8c50bca6c819613366a80dfdff25b810d53f97b36f9bd",
+      "printed_header": "555",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Horary introduction distinguishes question-time chart from general current-focus reading at answer time. Source asserts broad usefulness but supplies no tested answer accuracy; question time,answer time and event inception must remain separately cited.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5019.JPG",
+      "concept_ids": [
+        "election-horary",
+        "meaning-moon"
+      ]
+    },
+    {
+      "id": "relationship-audit-1S7CkMmN7oODlKg43jVdQTls9StkxUX2j",
+      "file_id": "1S7CkMmN7oODlKg43jVdQTls9StkxUX2j",
+      "image_sha256": "8387b263c33aea0d4b44dd41731489fae29b58c359b0f5b22872ae6746bb6978",
+      "ocr_output_sha256": "ae222e13e84ae304457d81c14a65af29f9ffdb46a2353f0e6c95232e3551655c",
+      "printed_header": "556",
+      "line_ranges": [
+        [
+          10,
+          14
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "finding": "Two methods: moment chart for question specifics,or current transit bond only if reader is involved. Source explicitly says this horary example is decision-context,not actual book/event election. Preserve the seemingly broad Electional label in step1and narrower final distinction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5020.JPG",
+      "concept_ids": [
+        "election-horary",
+        "synastry"
+      ]
+    },
+    {
+      "id": "relationship-audit-15vMIXyXQnUOSwY06Yw-2Ue3y3eg0r_kC",
+      "file_id": "15vMIXyXQnUOSwY06Yw-2Ue3y3eg0r_kC",
+      "image_sha256": "e1c06bafe0e327e638be34399e20943c7c2470ded11117acf06b5664ad0dabc2",
+      "ocr_output_sha256": "3e298952e1286926dcec050f9c85cc554ff4297cc625031561035ccc3d5b5278",
+      "printed_header": "558",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Book-reception horary example links Sun/Uranus semi-sextile JupiterH10and Chiron. Forecasts about community response and sales are authored predictions with no outcome validation; current task does not enable prediction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5022.jpg",
+      "concept_ids": [
+        "election-horary",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "relationship-audit-1fgy5Dx6AfF5i3KSymLoOY75E6tJcVQSk",
+      "file_id": "1fgy5Dx6AfF5i3KSymLoOY75E6tJcVQSk",
+      "image_sha256": "5d3d8b881420e884663f00949f35b81752e62793aaf709a6f8bd350b89773807",
+      "ocr_output_sha256": "3a47b076cdb7c2bbf2fd7638828c15ce0c760211b01d17029469089fc5b6da53",
+      "printed_header": "559",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Source labels book-reception interpretation a prediction and gives2degree32MCasGemini degree/decan/sign within Capricorn'shouse. Retain natural-house/actual-sign distinction and unverified author forecast; do not treat anecdotes or sales claims as test results.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5023.jpg",
+      "concept_ids": [
+        "election-horary",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1H1vL75D-i2LwVs2B0V_QsBGRHfbQegZ6",
+      "file_id": "1H1vL75D-i2LwVs2B0V_QsBGRHfbQegZ6",
+      "image_sha256": "a309071bafec44955cb21a8818df21f73af3e4098957be1705d358b2b163a76b",
+      "ocr_output_sha256": "b79aa9e314fc5b104f45632cc6c3e18bc20352c692021180df0b42ba863d032d",
+      "printed_header": "560",
+      "line_ranges": [
+        [
+          8,
+          14
+        ]
+      ],
+      "finding": "Bi-wheel illustrates author/question synastry and Jupiter-to-Sun conjunction theme. It continues horary decision context established556; not proof of actual release inception time or numerical coordinate agreement across all glyphs.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5024.jpg",
+      "concept_ids": [
+        "election-horary",
+        "synastry"
+      ]
+    },
+    {
+      "id": "relationship-audit-1LhWz_6klFvrL3M_gHGhraNn9gK2Z-9x5",
+      "file_id": "1LhWz_6klFvrL3M_gHGhraNn9gK2Z-9x5",
+      "image_sha256": "ec94f3c1c2474aa4a19a4ee6bbd44f05948e35931ce9d1d11f0f040e884a83fc",
+      "ocr_output_sha256": "d86c44e8c759b8428292596b1efffb74382163e1f36e15fb2d7791e0485fd94d",
+      "printed_header": "561",
+      "line_ranges": [
+        [
+          5,
+          9
+        ]
+      ],
+      "finding": "Question-chart CapricornMoon semi-sextile natalAquariusMoon illustrates separate ecosystems. Actual prerelease chart is separately shown and author mentions second activation at43years/Ascendant13degree06; time/degree conversion and endpoints remain unapproved.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5025.jpg",
+      "concept_ids": [
+        "election-horary",
+        "age-degree"
+      ]
+    },
+    {
+      "id": "relationship-audit-1GmY-dMt5X2LI4IH3pi7c320enjF0e3Rc",
+      "file_id": "1GmY-dMt5X2LI4IH3pi7c320enjF0e3Rc",
+      "image_sha256": "7d5d16370f246fa4f59f923f1c7e7509826fc6158a5adc3abf4ae0bd69adb0a5",
+      "ocr_output_sha256": "55a29e9e3adb26dfeb07531c31cfa8b88e2fa6c09eaf2dc62c7c553df89ea15e",
+      "printed_header": "562",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Horary credit-card story is an anecdote accompanying Moon-activates-events claim,not controlled evidence or a reproducible locator algorithm. Lower heading introduces PersonalEarthActivations; do not infer geocentric Earth position as a new planet.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5026.JPG",
+      "concept_ids": [
+        "earth-activation",
+        "election-horary",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1dmWVIkylwbfqXvahL8aIvxMWEh7Ykxp0",
+      "file_id": "1dmWVIkylwbfqXvahL8aIvxMWEh7Ykxp0",
+      "image_sha256": "dcd34bcf01de955a2323d9274bed7d04176ed12426b9fe75e3b062a61dc7793e",
+      "ocr_output_sha256": "c6ea38b316d7be9f334760df156212216c604986f05247114698b4ed52534207",
+      "printed_header": "563",
+      "line_ranges": [
+        [
+          6,
+          14
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          26,
+          35
+        ]
+      ],
+      "finding": "PersonalEarthActivation uses moment-and-location Ascendant; example21Sagittarius opposes21GeminiSun and ends needs exact. Jupiter12degree07Cancer is a separate ruler layer. Preserve dynamic current anchor versus birth anchor; no nonzero pointOOI or universal gateway outcome follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5027.JPG",
+      "concept_ids": [
+        "earth-activation",
+        "anchors"
+      ]
+    },
+    {
+      "id": "relationship-audit-10biw-N33txkfahmTtghJpc_-34cEGEVr",
+      "file_id": "10biw-N33txkfahmTtghJpc_-34cEGEVr",
+      "image_sha256": "a59128d19cbf876e67c23bfdb6db57baee8899fb2e332f2a97664b177b2b5b42",
+      "ocr_output_sha256": "51703ddc99414c7d4ee372ed7ce9f9e60f9c2c70ed83c1624fafed63efa7b703",
+      "printed_header": "564",
+      "line_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "finding": "PEA emphasizes PointofExactitude in anysign to Ascendant degree or Ascendant-ruler degree. Does not specify longitude-versus-degree-within-sign equivalence,every qualifying aspect,equality tolerance or polar handling; no solver enabled.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5028.JPG",
+      "concept_ids": [
+        "earth-activation",
+        "anchors"
+      ]
+    },
+    {
+      "id": "relationship-audit-1WOc_HifqL7v_1vv6n6zr8rMD59IjxcjE",
+      "file_id": "1WOc_HifqL7v_1vv6n6zr8rMD59IjxcjE",
+      "image_sha256": "cfabd34e46db845189f9ac8403b0f19b9b3b107a4e30802b4d6f59aa6417495d",
+      "ocr_output_sha256": "903bc86fe68bb9181290fdbbfcb6bd1db814e6e993166e3c623fd8c673673d1b",
+      "printed_header": "565",
+      "line_ranges": [
+        [
+          8,
+          14
+        ]
+      ],
+      "finding": "Retrograde is described as apparent geocentric retracing rather than literal orbital reversal; source rejects automatic bad outcomes,karmic debt and blanket stop-new-work advice. Interpretive claims remain separate from ephemeris motion and verified outcome evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5029.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "agency"
+      ]
+    },
+    {
+      "id": "relationship-audit-1bkbrQQSliPf27TbOokc0IG2OwE1wS9Nq",
+      "file_id": "1bkbrQQSliPf27TbOokc0IG2OwE1wS9Nq",
+      "image_sha256": "56949f38745ff5346799457efecab6af2d85b291b34f0f923acd337d4fe325ac",
+      "ocr_output_sha256": "5f1d103b24f6b7695f799c8d0ebca71cf4f26b28a8d099f94053f6f32d696cb2",
+      "printed_header": "566",
+      "line_ranges": [
+        [
+          8,
+          14
+        ]
+      ],
+      "finding": "Actual diagram labels Prograde,Pregrade,Retrograde and Postgrade; stationary turn is called InertialPoint and prose emphasizes daybefore/dayof/dayafter. That qualitative interval supplies no velocity threshold or numerical station equality policy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5030.jpg",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-10fyCksVSEjTAK27xKXFBdSDVkTKc3Q7y",
+      "file_id": "10fyCksVSEjTAK27xKXFBdSDVkTKc3Q7y",
+      "image_sha256": "bb865d33ebf2429704cef07a91c9c7003c06ad70dc01ccd379e421bcbd6c36c8",
+      "ocr_output_sha256": "eea22689315d8d801ae8128aadb3095832e44cdcf027066fc848be96f86a682b",
+      "printed_header": "567",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Printed claims Sun/Mooncannotretrograde and LunarNodesalwaysretrograde; CoreTrinity separates natalblueprint,progressedinnerstate,relocatedenvironment. Node claim does not identify mean/true model here; retain claim without forcing a model-independent motion flag.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5031.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "core-trinity",
+        "nodes"
+      ]
+    },
+    {
+      "id": "relationship-audit-1r5P445yxQuz8uYP1gJDg-G8Zr4pjKWL9",
+      "file_id": "1r5P445yxQuz8uYP1gJDg-G8Zr4pjKWL9",
+      "image_sha256": "f979fba4882fdee6eb2a05016595f52d6139b75b4249a2bc2d2cf23742fc020f",
+      "ocr_output_sha256": "ed4e442191b352f95f0b33f3cb120b5b1156bc1b7aa31d447d28261d8d0f2a7e",
+      "printed_header": "568",
+      "line_ranges": [
+        [
+          3,
+          13
+        ]
+      ],
+      "finding": "RetrogradeImprintTheory presents natal imprint as need to adjust rather than inherited specific world problems. Diagram gives four stages and says Direct contains three; psychological/metaphysical inference is source theory rather than measured fact.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5032.jpg",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1i7XUL5vJc8es97LkdM7lfUmr0RGL-f7C",
+      "file_id": "1i7XUL5vJc8es97LkdM7lfUmr0RGL-f7C",
+      "image_sha256": "1cca41d34610f2ab8cc3513bffbf77b8ddc6c1118f06d28cd4274cd2ebf5b112",
+      "ocr_output_sha256": "6ba99330c1f415063b30c25004d0838ec9cdc2d89f0fba3a337e55203cb3a1d9",
+      "printed_header": "569",
+      "line_ranges": [
+        [
+          5,
+          13
+        ]
+      ],
+      "finding": "Pregrade begins after crossing future retrograde enddegree; Retrograde retraces; Postgrade ends at original retrograde startdegree. Preserve exact text; station-boundary equality,wrap and overlapping loops remain unspecified. Mercury childhood claims below are not established personal facts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5033.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-18q3_vqjACzsZKJkm6LSsy77JEC7CN8iV",
+      "file_id": "18q3_vqjACzsZKJkm6LSsy77JEC7CN8iV",
+      "image_sha256": "f109e0be154422bd50576090bede7e44b9a97d5462fcf94096cee7e7e4d610dc",
+      "ocr_output_sha256": "534df20df512c804f64c5a63a22c8154c986a03d4b63e58a525d8670c8c9add3",
+      "printed_header": "570",
+      "line_ranges": [
+        [
+          3,
+          9
+        ]
+      ],
+      "finding": "Venus,Mars,Jupiter,Saturn retrograde sections associate conditional love,autonomy,belief,authority and suggested reframing. Record as authored interpretive themes,not diagnoses,proven childhood experiences or validated remedies.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5034.jpg",
+      "concept_ids": [
+        "retrograde-meaning",
+        "meaning-venus",
+        "meaning-mars",
+        "meaning-jupiter",
+        "meaning-saturn"
+      ]
+    },
+    {
+      "id": "relationship-audit-1ak3A71S4RFKJzHbyj9CsL0wFG_PYjawI",
+      "file_id": "1ak3A71S4RFKJzHbyj9CsL0wFG_PYjawI",
+      "image_sha256": "55fb76c97a6023bfb86e071f94adc4f771bde7a7f5c5dd220ecd185d270e293d",
+      "ocr_output_sha256": "da2d23af27149558b8f26d50c75ae4e1e8c3ccb748b9efcade99f935bcd9d149",
+      "printed_header": "571",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Uranus continuation,Neptune/Pluto and NorthNode themes are source interpretations; NorthNode heading repeats alwaysretrograde without mean/true qualifier. No childhood trauma,gaslighting or manipulation is established by these claims.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5035.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "meaning-neptune",
+        "meaning-pluto",
+        "nodes"
+      ]
+    },
+    {
+      "id": "relationship-audit-1USI57o85MebtIXbetlVAh-yDD3eraytK",
+      "file_id": "1USI57o85MebtIXbetlVAh-yDD3eraytK",
+      "image_sha256": "1e016993b4ca0cda79d5d77569b53b5a995d44c42d4702c864b646f12c95fa1c",
+      "ocr_output_sha256": "bf52f6a16ea8a58c53a8f3565f48854feec4bb38a3c787369c7ed1056b24ec9f",
+      "printed_header": "572",
+      "line_ranges": [
+        [
+          3,
+          9
+        ]
+      ],
+      "finding": "SouthNode heading repeatsalwaysretrograde and maternal-default interpretation; later text distinguishes retrogradeplanet from retrogradedhouse via ruler. Stated38percentpopulation has no dataset/citation here and does not validate a literal house motion flag.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5037.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "retrograded-house",
+        "nodes"
+      ]
+    },
+    {
+      "id": "relationship-audit-1-w24iYeQtxs3PiRre66ZgL3H0jAz6-vt",
+      "file_id": "1-w24iYeQtxs3PiRre66ZgL3H0jAz6-vt",
+      "image_sha256": "8c9c60f12a7f4e632cfc4d3822c84f4e573fe73f214c53f47dba4f83a3cad75b",
+      "ocr_output_sha256": "aaaf841e6210e8b7e0913dd36423cc4fe92a381194835a6dfabbc11c56eeadcb",
+      "printed_header": "573",
+      "line_ranges": [
+        [
+          3,
+          10
+        ]
+      ],
+      "finding": "Saturn-derived narrative stresses self-defined authority,goals and finite burden. Childhood/boundary/discipline descriptions remain author theory and do not establish personal historical facts or diagnostic conclusions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5038.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "meaning-saturn"
+      ]
+    },
+    {
+      "id": "relationship-audit-1Bxks_3bBKr4dzunEgtU3VQzk-wJIEt6h",
+      "file_id": "1Bxks_3bBKr4dzunEgtU3VQzk-wJIEt6h",
+      "image_sha256": "e8fef711cd4afbdc31cc7f246520cc0f96498721b58de4e2920ae2ce02ab297c",
+      "ocr_output_sha256": "1b8e88eadf7e7090e78e1671e486da544739335a8b4bcd96f135887e5852eb2a",
+      "printed_header": "574",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Transit-retrograde section explicitly separates sky pressure acting upon a person from natal energy lived with; reflective/repeating themes apply qualitatively. No reason to collapse natal,progressed or transit motion states into one flag.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5039.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "relationship-audit-1Eo7p5kev9faFNlG-1-V6pstQOUEnp9Gl",
+      "file_id": "1Eo7p5kev9faFNlG-1-V6pstQOUEnp9Gl",
+      "image_sha256": "51287cdf81b4a426daba1bd5b70e5c6325a851e7186e372ed97bacfb3bc7dfd3",
+      "ocr_output_sha256": "39d1e6c718784e1cd49c5f6731f2bb1842426deae4c3e183654b3e54786ec033",
+      "printed_header": "575",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Author's hurricane forecast claims and annihilationjoke are not validated event evidence. Later section defines Direct as Pregrade/Postgrade/Prograde and distinguishes eachplanetcycle from constantly different whole-sky context.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5040.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1A5KC-f9CpzzFxpv-EPqKdY3b2ShBij8c",
+      "file_id": "1A5KC-f9CpzzFxpv-EPqKdY3b2ShBij8c",
+      "image_sha256": "3972962097f4e80d5f1643b563dc6106846c0d0186f820864df099058a98bd5f",
+      "ocr_output_sha256": "6151aec7e856cb4470d114049d558f0124f3f535fd0d07277f5f813f1d4cf291",
+      "printed_header": "576",
+      "line_ranges": [
+        [
+          10,
+          23
+        ]
+      ],
+      "finding": "Text calls Prograde reinforcing Postgrade work then immediately says Postgradeisvital and notnew; it then states Neptune/PlutonevergoPrograde. Keep apparent paragraph subject ambiguity and categorical claim; boundaries and ephemeris coverage are not supplied.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5041.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context",
+        "meaning-neptune",
+        "meaning-pluto"
+      ]
+    },
+    {
+      "id": "relationship-audit-1I6sV_pCT26j-4BhR25LNb7MB1d94sOB_",
+      "file_id": "1I6sV_pCT26j-4BhR25LNb7MB1d94sOB_",
+      "image_sha256": "d96f1de8d0e7b300a957703e72da4fd532a041a58bb81c3ed5efca7214269ac6",
+      "ocr_output_sha256": "61e87fe0a5bb6169b92f0916c867dbfbc057ec0269cd39c4e9b2b955d85f698c",
+      "printed_header": "577",
+      "line_ranges": [
+        [
+          3,
+          13
+        ]
+      ],
+      "finding": "PlanetaryMotionImprints include four-stage natal context and explicitly require progressed-chart checking; natal and progressed stages can differ. No clinical inference or quantitative stage threshold follows from prose descriptions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5042.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context",
+        "core-trinity"
+      ]
+    },
+    {
+      "id": "relationship-audit-1sZvskMRTdTYFs5Eeumz3aipi_wJXYVRX",
+      "file_id": "1sZvskMRTdTYFs5Eeumz3aipi_wJXYVRX",
+      "image_sha256": "7c93092c5b5f269829f79e505a1bf2b2b28732baf4539d74e7f9074ac2c42dff",
+      "ocr_output_sha256": "66db7b7726a6f4ae08570ba81c3a435bda6c633cea6dd8b4e2eee0d4e3f7a4ed",
+      "printed_header": "578",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Author advocates reworking existing actions during retrogrades and gives rent/car/TV savings anecdotes. Financial amounts are unverified anecdotes,not causal efficacy tests or advice to spend based on retrograde status.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5043.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "agency"
+      ]
+    },
+    {
+      "id": "relationship-audit-1DIbeaypRwjDnKZhBGPL0n6SklZ1qdZIN",
+      "file_id": "1DIbeaypRwjDnKZhBGPL0n6SklZ1qdZIN",
+      "image_sha256": "84aaa62c3ea73522ebfe1caf2bf9bb2a405ec8751cd7119965aff334527e8486",
+      "ocr_output_sha256": "c591efc2b1d1ffa600d4b57eed4709bfd40451c466427d9e7b93239cf49aeab6",
+      "printed_header": "579",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "TV-refund anecdote concludes retrograde alignment and LaLuna section begins broad Moon-event assertions. Preserve source theory separate from astronomical tide/spin statements and causal or predictive validation; no application layer enabled.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5044.JPG",
+      "concept_ids": [
+        "retrograde-meaning",
+        "meaning-moon",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1pz1fMu6C9G70cxLQ8E5D8__X6eDdbPt4",
+      "file_id": "1pz1fMu6C9G70cxLQ8E5D8__X6eDdbPt4",
+      "image_sha256": "0cef975770836051eec85418040417f9a7bff9850d7f84b0090925cdaabd2dc8",
+      "ocr_output_sha256": "d5f8398f8c52d2bad7507fa82a3d2661dd121f06e8b15b17f665fd457389a7ac",
+      "printed_header": "580",
+      "line_ranges": [
+        [
+          6,
+          15
+        ]
+      ],
+      "finding": "Lunar context lists mean/osculatingLilith/Priapus,nodes,returns,lunar phases,eclipses,H4/H4ruler/Cancerhouse and Moon. Preserve full dependencies; Moontrigger claims explicitly include other planets setting the configuration and are not empirical event attribution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5045.JPG",
+      "concept_ids": [
+        "meaning-moon",
+        "lilith",
+        "nodes",
+        "lunar-arcs"
+      ]
+    },
+    {
+      "id": "relationship-audit-1I6TtM_5kUKayniXA71LxbTy_7APPaYPd",
+      "file_id": "1I6TtM_5kUKayniXA71LxbTy_7APPaYPd",
+      "image_sha256": "9c28e8c7298221a723ef8fd197d44d5af8210f7e904f61a4bd951fcb44693758",
+      "ocr_output_sha256": "c0775feb1824694aeb770b9908e342ba194f35b05c8bb0cdf3422b50496a1f3a",
+      "printed_header": "582",
+      "line_ranges": [
+        [
+          4,
+          18
+        ]
+      ],
+      "finding": "RelatedEnergies requires H4,H4delegate,Cancerhouse and Moon; source distinguishes natural H4Cancerassociation from actual H4ruler for non-AriesRising. Keep potentially conflicting layers and natal/cosmicCancercontext rather than flattening into Moon-alone text.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5047.JPG",
+      "concept_ids": [
+        "meaning-moon",
+        "delegate-condition",
+        "phsr"
+      ]
+    },
+    {
+      "id": "relationship-audit-1dB6a7ZzyjoRnQx006HwHGZCi84PQhT31",
+      "file_id": "1dB6a7ZzyjoRnQx006HwHGZCi84PQhT31",
+      "image_sha256": "d8263317655b8d6994b111a13c05c5a10e7984f294ac0db4a457ac4446823400",
+      "ocr_output_sha256": "0c48d03dbf2d2c7fe112ec67f78139e060b3e4db8f79314316a24dc2e1d0bb48",
+      "printed_header": "583",
+      "line_ranges": [
+        [
+          3,
+          9
+        ]
+      ],
+      "finding": "RelatedEnergies extends to all rulingplanets/houses/signs; Mars in cosmicCancerfeedsAries themes through Moon in example. LunarCycles section starts synodic cycle at exact Sun/Moon conjunction; keep Sun contribution and whole-chart context.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5048.JPG",
+      "concept_ids": [
+        "meaning-moon",
+        "lunar-arcs",
+        "cosmic-first"
+      ]
+    },
+    {
+      "id": "relationship-audit-1p0FjxdS5nD64aVqHKarm7pKmGcLTBmkD",
+      "file_id": "1p0FjxdS5nD64aVqHKarm7pKmGcLTBmkD",
+      "image_sha256": "ff0055000cf5c985b07ffb13fd2ae63d2e2e86643e93cd65aec78249c2660e04",
+      "ocr_output_sha256": "c0773d92e21c7ce0f4c40dd37a7856090bb6c5901ed703b524b4084577f32f41",
+      "printed_header": "584",
+      "line_ranges": [
+        [
+          8,
+          29
+        ]
+      ],
+      "finding": "SevenMajorAspects yield twelveMajorSynodicPositions instead of eightspiritualphases; diagram shows12positions. PrintedNew-toFirstQuarterone-versus-two-phaseclaim is not a complete boundary algorithm; do not infer omitted transition times or equate symbolic phase to illuminated fraction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5049.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "relationship-audit-1njUtCW7bez_e29aQHAvA6MnG_uYwJk1Y",
+      "file_id": "1njUtCW7bez_e29aQHAvA6MnG_uYwJk1Y",
+      "image_sha256": "f78ba357e72c9afab7e2b4a1754f38a8014ac08e7b922d66aec57d4a00dae4ee",
+      "ocr_output_sha256": "1de25a2b11b0e7cc49808a151684742e4630d3b6555d0edc78c2df9f9d621923",
+      "printed_header": "585",
+      "line_ranges": [
+        [
+          3,
+          15
+        ]
+      ],
+      "finding": "Source rejects NewMoonasautomaticnewpersonalcycle and distinguishes Sunpurpose/Moonsecurity meanings. This qualitative argument supplies no universal intervention or personal-event start trigger.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5050.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "meaning-sun",
+        "meaning-moon"
+      ]
+    },
+    {
+      "id": "relationship-audit-1jUNjg3ODWEnpRMBJlPa4t9a8jb0nTHH0",
+      "file_id": "1jUNjg3ODWEnpRMBJlPa4t9a8jb0nTHH0",
+      "image_sha256": "03da1a55f5d284311793f875bb5e3add2fe21f1373aa01b299d26637d1fa490b",
+      "ocr_output_sha256": "b5a6caab56795097b61026865472ce333ec4b3d8dfcfad4ed034af5807fb9cc0",
+      "printed_header": "586",
+      "line_ranges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "finding": "NewMoon is transitSun/transitMoon in universalecosystem,not automatically either natalbody; personal influence needs qualifying aspect. Preserve source objection to synchronized universal personalcycles and its H1/ruler/Mars/Ariesnew-themequalification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5051.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "cosmic-first",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "relationship-audit-1OIod9I-fQeiWDy1CyDj4dxJPn_EyuP0P",
+      "file_id": "1OIod9I-fQeiWDy1CyDj4dxJPn_EyuP0P",
+      "image_sha256": "03b9d9f9a47d948a02862be60def68c9043dbd04ed6103cb3e3140e5f7ab2384",
+      "ocr_output_sha256": "96406fae4d18fdf68ae2b77c09e2a29e67fd6d4a43836625acaaf17dfff745f4",
+      "printed_header": "588",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Source explicitly requires cosmic aspects first before contacts to natalchart; fullMoon opposition example honors separate security/purpose rather than fusion. All other planets and actualcontactdegrees remain necessary.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5053.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "cosmic-first"
+      ]
+    },
+    {
+      "id": "relationship-audit-1ewqorCWWDEjO0HhhhW1QlCzJRnN6oNoo",
+      "file_id": "1ewqorCWWDEjO0HhhhW1QlCzJRnN6oNoo",
+      "image_sha256": "30c3771ba2ae60cf3a0cb3d2855280f285e313e99962ae7e7c0b7809ae5dd1be",
+      "ocr_output_sha256": "690280586767323e43e22935b4075b275b98107297327c40711bfe7fb7999b06",
+      "printed_header": "589",
+      "line_ranges": [
+        [
+          2,
+          7
+        ]
+      ],
+      "finding": "Trine in opposition context may bring difficulty rather than unconditional benefit; first/thirdquarterMoonare explicitly differentiated and Sun-square-Moonis not semantically Moon-square-Sun. Preserve directed phase context without claiming numeric equality policy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5054.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-10dL974qlof4uHaDVER1Dqj57oXJrnjPP",
+      "file_id": "10dL974qlof4uHaDVER1Dqj57oXJrnjPP",
+      "image_sha256": "746e36f7b6099ae30a3698aeb1f2727043b2c12bc6962387e27e0cd80cc56de2",
+      "ocr_output_sha256": "6df959b254ad4291b8c77f00c01caea20cd067cf99855e4da4500148a80322c2",
+      "printed_header": "590",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "TransitMoon-to-Sunrelationship and seasonalTemplatecontext jointly inform source interpretation; otherMajor/minoraspectsremain relevant. Parent analogy is figurative and no calendar-based personal forecast or automaticSun-signreading is established.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5055.JPG",
+      "concept_ids": [
+        "lunar-arcs",
+        "templates",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "relationship-audit-1ErTBekcyQIpTLfXSABqbCC2vvuN5jNFk",
+      "file_id": "1ErTBekcyQIpTLfXSABqbCC2vvuN5jNFk",
+      "image_sha256": "20319bc83e7e11ad5f03302c41d710cb3f24af6fcef635e35afe3922fcea1f63",
+      "ocr_output_sha256": "dc12b9f38baa08929077c23f3716ae245237464c6cbab43569d38f5e7896b6ce",
+      "printed_header": "591",
+      "line_ranges": [
+        [
+          3,
+          8
+        ]
+      ],
+      "finding": "Opening eclipse alarm statement is explicitly parody of fearmongering; later electional business-on-eclipse anecdote is qualified by purpose alignment. Do not retrieve parody as author prediction or anecdote as outcome validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5056.JPG",
+      "concept_ids": [
+        "eclipse",
+        "election-horary",
+        "agency"
+      ]
+    },
+    {
+      "id": "relationship-audit-1B8Km0Kt9YW2lxtTe2887P0ncvMmVXHDW",
+      "file_id": "1B8Km0Kt9YW2lxtTe2887P0ncvMmVXHDW",
+      "image_sha256": "93c0347b0d09efa275ac967eae8e855b558b15f7071f58db3f6a89f36e297eb7",
+      "ocr_output_sha256": "c782e7c57e1c6a19f89a4ae80983a249e1587adde2e9d9b10ba1ff91a0ed8866",
+      "printed_header": "592",
+      "line_ranges": [
+        [
+          5,
+          8
+        ]
+      ],
+      "finding": "Source distinguishes celestial alignment from generalized chaos and describes latitude/node proximity alongside conjunction/opposition. No astronomical eclipse visibility,type,latitude or duration solver is specified; geographic observations are not replaceable by later longitude-only spiritual taxonomy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5057.JPG",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "declination"
+      ]
+    },
+    {
+      "id": "relationship-audit-1qLYnJ3r0mWzVWsc1IWf0PSG86GbT8VRq",
+      "file_id": "1qLYnJ3r0mWzVWsc1IWf0PSG86GbT8VRq",
+      "image_sha256": "ff677ca9ebe22331812c061186c4e10ff539f568949a243240f37c9f96f3ea70",
+      "ocr_output_sha256": "5038b18328cfd8d1d579ebc7a0b44e47a544c1974effda004f51297f2753a1a7",
+      "printed_header": "593",
+      "line_ranges": [
+        [
+          4,
+          8
+        ]
+      ],
+      "finding": "Solaralignmentneednotmeannewbeginnings; lunaroppositionneednotmeanclosure. Later source explicitly separates astronomical from astrologicaleclipse and requires other movingplanets/points/aspects. Do not label taxonomy a replacement for astronomicaleclipse detection.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5058.JPG",
+      "concept_ids": [
+        "eclipse",
+        "lunar-arcs"
+      ]
+    },
+    {
+      "id": "relationship-audit-19UFHber5-QLt7A2_mDmVLqIQk0jr8VOJ",
+      "file_id": "19UFHber5-QLt7A2_mDmVLqIQk0jr8VOJ",
+      "image_sha256": "dd12330f39ce510447576e215a2e749a6a8cd788b16c226037692729e2ceb3f4",
+      "ocr_output_sha256": "8eec3879e33e5e3dc891abc7cd8d1cbb07f77bbd944c9b143a673eb52f2c3d7d",
+      "printed_header": "594",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Mar29,2025example statesNode27Pisces/NewMoon9Aries,and calls astronomicalpartialeclipse nottrueastrologicaleclipse. Those roundedlongitudes are12degreesapart,within later59513degreefringeband ifsameNode/model. Preserve competingfringe/notastrologicalwording and source-specific sense of true; no outcome or noonefeltclaim validated.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5059.JPG",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "relationship-audit-1mLag5SNJSa1bCdG6erWtW9v7etUBpqb2",
+      "file_id": "1mLag5SNJSa1bCdG6erWtW9v7etUBpqb2",
+      "image_sha256": "2f467b3eca2e99affc5c9ea61d4b42cb931ceeaa3c7f11edf0e66d93329c725a",
+      "ocr_output_sha256": "14d60fca495f2bcd3d0f51c9466b4330b18a52cedbbcd9c5061b106b39a6a368",
+      "printed_header": "595",
+      "line_ranges": [
+        [
+          5,
+          14
+        ],
+        [
+          17,
+          32
+        ]
+      ],
+      "finding": "Taxonomy chooses node on Moon side and fourlunation/nodeoptions timesTrue/Forced/Fringe=12classes. NorthernSolar usesNorthNode3degreeMoontrue,10degreeSunforcedoutsideMoon3,and13degreeSunfringeoutside10;SouthernSolar startsSouthNode. Equality,node model and Sun/Moonexactnesstolerance remain unspecified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5060.JPG",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "fringe-fca"
+      ]
+    },
+    {
+      "id": "relationship-audit-1fZ2-NJt2NVVNRFOhIdPg_6xI9GpdqMp3",
+      "file_id": "1fZ2-NJt2NVVNRFOhIdPg_6xI9GpdqMp3",
+      "image_sha256": "a4fb08cb61bec3190e3f27421998ad8dbec2a205fb282c0e4b114589d857199e",
+      "ocr_output_sha256": "6a3cb778605e9d15624fccb2581419420d55c53ce23db7a475a954653d96e995",
+      "printed_header": "596",
+      "line_ranges": [
+        [
+          4,
+          31
+        ]
+      ],
+      "finding": "PrintedFringeSouthernSolarusesNorthNodeafter595SoutherncategorySouthNode. Northern/SouthernLunartrueusecorrespondingNodewithin3degreeMoon,butforced/fringeuseconjunctionwithin10/13degreeSunatMoonopposition,flippingphysicalnode-sideversus595definition. Preserve all rows without substituting Moon or oppositeNode; formulas remain blocked.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5061.JPG",
+      "concept_ids": [
+        "eclipse",
+        "nodes",
+        "fringe-fca"
+      ]
+    }
+  ],
+  "new_atomic_assertions": 15,
+  "assertion_ids": [
+    "synastry543-one-way-ooi",
+    "composite547-inward-retrograde",
+    "composite549-versus-event-chart",
+    "election551-entity-reference",
+    "horary556-decision-versus-inception",
+    "earth563-moment-anchor-definition",
+    "retro567-chart-layer-distinction",
+    "retro569-four-stage-boundaries",
+    "nodes567-always-retrograde-scope",
+    "moon582-four-related-layers",
+    "lunar584-twelve-synodic-positions",
+    "lunar586-universal-versus-personal",
+    "eclipse595-twelve-source-classes",
+    "eclipse596-southern-node-conflict",
+    "eclipse596-lunar-reference-conflict"
+  ]
+}

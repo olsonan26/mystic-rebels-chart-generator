@@ -1145,6 +1145,10 @@
           "reflow_footer": 486,
           "page_text_sha256": "4d7e8af717e3d1840b1d7b34a466fe0cecf8fad4713fed7861e44a399600552f"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "retro576-stage-subject-and-prograde",
+        "nodes607-true-direct-qualification"
       ]
     },
     {
@@ -1277,6 +1281,9 @@
           "reflow_footer": 632,
           "page_text_sha256": "2843bad6730c965dd526883cac6a534ce26084da90d5906b0fc1e0f3f26a9d4d"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "retro576-stage-subject-and-prograde"
       ]
     },
     {
@@ -1637,6 +1644,11 @@
           "reflow_footer": 486,
           "page_text_sha256": "4d7e8af717e3d1840b1d7b34a466fe0cecf8fad4713fed7861e44a399600552f"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "notation524-528-transit",
+        "pluto528-transit-order-labels",
+        "synastry543-asymmetric-reach"
       ]
     },
     {
@@ -1706,7 +1718,8 @@
         "pluto-original-coordinate",
         "point-internal-alignment-scope",
         "stellium-middle-reach",
-        "forced376-subject-wording"
+        "forced376-subject-wording",
+        "pluto528-transit-order-labels"
       ]
     },
     {
@@ -1894,7 +1907,8 @@
       ],
       "line_reconciliation_finding_ids": [
         "fca-width-and-boundaries",
-        "crossover443-coordinate-frame"
+        "crossover443-coordinate-frame",
+        "eclipse596-lunar-sun-moon-reference"
       ]
     },
     {
@@ -2472,6 +2486,10 @@
           "reflow_footer": 455,
           "page_text_sha256": "9bc191872254f78f7a7b3545fd8f0bd11c679207cfce86dfe4660f22315dcde6"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "notation524-528-transit",
+        "pluto528-transit-order-labels"
       ]
     },
     {
@@ -2607,7 +2625,11 @@
           "reflow_footer": 452,
           "page_text_sha256": "27d47d0ce7cf6b1fc5352cb8f5775cd858039370e64dc71204eba1921f5c973c"
         }
-      ]
+      ],
+      "line_reconciliation_finding_ids": [
+        "notation524-528-transit"
+      ],
+      "original_scan_update": "Originals518-524 recover phase boundaries, frozen versus current motion context and natal/progressed/relocated notation;528 has conflicting Transit=P wording. Exact event/re-entry/location/equality rules remain unresolved."
     },
     {
       "id": "synastry",
@@ -2668,6 +2690,9 @@
           "reflow_footer": 464,
           "page_text_sha256": "a765ffdcbea7746b315cb939eb0be7eb569dc9a7e85f42a8f627b98b3677a809"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "synastry543-asymmetric-reach"
       ]
     },
     {
@@ -2813,7 +2838,8 @@
           "reflow_footer": 474,
           "page_text_sha256": "261301ca0f9b514f2764a5c0ee22119213f3a479a605b92a68ddbf78ec409b7d"
         }
-      ]
+      ],
+      "original_scan_update": "Originals563-564 recover the moment/location Ascendant definition beyond the compiled fragment. Exactness and Ascendant/ruler-degree attention are explicit; reference frame, aspect set, root tolerance and polar conventions remain incomplete. See earth563-moment-anchor-definition; no invented PDF witness or runtime approval."
     },
     {
       "id": "eclipse",
@@ -2854,7 +2880,12 @@
           "reflow_footer": 496,
           "page_text_sha256": "adde45cb18c69e1ec40150d2015e7f56dfbead4a951bfee3b5450c6577042e4a"
         }
-      ]
+      ],
+      "line_reconciliation_finding_ids": [
+        "eclipse596-southern-solar-node",
+        "eclipse596-lunar-sun-moon-reference"
+      ],
+      "original_scan_update": "Originals595-596 recover all twelve printed class rows, including Southern fringe NorthNode versus SouthNode conflict and lunar forced/fringe Sun versus Moon reference conflict. Preserve every branch; this taxonomy is separate from astronomical eclipse detection and remains unapproved."
     },
     {
       "id": "nodes",
@@ -2901,7 +2932,13 @@
           "reflow_footer": 500,
           "page_text_sha256": "8891eb280b71c3c3d3f78f240fc83347b6b6148fa485661f14cc2feedd7d65d0"
         }
-      ]
+      ],
+      "line_reconciliation_finding_ids": [
+        "eclipse596-southern-solar-node",
+        "eclipse596-lunar-sun-moon-reference",
+        "nodes607-true-direct-qualification"
+      ],
+      "original_scan_update": "Originals607-609 explicitly distinguish Mean Nodes from True Lunar Nodes that can occasionally move direct, qualifying the earlier always-retrograde wording567/571/572. Planetary non-opposite node example600-601 retains unspecified observer/model conventions."
     },
     {
       "id": "void-course",

@@ -127,6 +127,12 @@ def main():
         'forced-contact': 'Original378 uses24:15->25:45 for1.5-degree reach; PDF343 changes these values. Original prose24:42 versus figure24:15 remains a starting-coordinate conflict.',
         'asteroid-eunomia': 'Original712 rejects order and original772 assigns functional order. Original scan review confirms competing claims; do not silently merge or select by majority.',
         'asteroid-elektra': 'Original707 chapter opening and771 comparison recovered: coordination of hidden complexity and invisible labor. Full chapter/context review is still incomplete.'}
+    notes.update({
+        'earth-activation': 'Originals563-564 recover the moment/location Ascendant definition beyond the compiled fragment. Exactness and Ascendant/ruler-degree attention are explicit; reference frame, aspect set, root tolerance and polar conventions remain incomplete. See earth563-moment-anchor-definition; no invented PDF witness or runtime approval.',
+        'eclipse': 'Originals595-596 recover all twelve printed class rows, including Southern fringe NorthNode versus SouthNode conflict and lunar forced/fringe Sun versus Moon reference conflict. Preserve every branch; this taxonomy is separate from astronomical eclipse detection and remains unapproved.',
+        'nodes': 'Originals607-609 explicitly distinguish Mean Nodes from True Lunar Nodes that can occasionally move direct, qualifying the earlier always-retrograde wording567/571/572. Planetary non-opposite node example600-601 retains unspecified observer/model conventions.',
+        'returns': 'Originals518-524 recover phase boundaries, frozen versus current motion context and natal/progressed/relocated notation;528 has conflicting Transit=P wording. Exact event/re-entry/location/equality rules remain unresolved.',
+    })
     for id, note in notes.items():
         records[id]['original_scan_update'] = note
     records['asteroid-eunomia']['source_status'] = 'CONFLICT'

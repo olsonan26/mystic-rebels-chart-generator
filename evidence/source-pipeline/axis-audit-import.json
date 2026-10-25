@@ -1,0 +1,1084 @@
+{
+  "scope": "50_PREVIOUSLY_UNREVIEWED_IDS_FROM_EXACT_FILE_AND_LINE_QUEUES",
+  "baseline": "evidence/source-pipeline/continuation-100-verification.json",
+  "new_targeted_images": 50,
+  "reinspections": 0,
+  "new_annotations": 50,
+  "new_acquisitions": 0,
+  "new_ocr": 0,
+  "exhaustive_semantic_signoff": false,
+  "inspections": [
+    {
+      "id": "axis-audit-1j1fnwH0DF1lQGlqJDGcU5XyxJceeIhoO",
+      "file_id": "1j1fnwH0DF1lQGlqJDGcU5XyxJceeIhoO",
+      "image_sha256": "f5113757a30e34e9a1e810c5cacd59ca420e29f23b9bf13fdce330c1c5fb0c5f",
+      "ocr_output_sha256": "9e745091819020f660b9c3d2838d7dd897da6518be95f3c05f4c0edc30c69948",
+      "printed_header": "462",
+      "line_ranges": [
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          33
+        ]
+      ],
+      "finding": "Templates are twelve Rising Sign frameworks before planets,rulers and aspects; Whole Signs place Ascendant within the first sign/house rather than necessarily at its cusp. This is a source interpretation framework,not twelve exhaustive personality types.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4915.jpg",
+      "concept_ids": [
+        "templates",
+        "free-theory",
+        "house-field"
+      ]
+    },
+    {
+      "id": "axis-audit-1TQ8BLUL08cVCpTjL8eB17jb0flBvOgCG",
+      "file_id": "1TQ8BLUL08cVCpTjL8eB17jb0flBvOgCG",
+      "image_sha256": "74a8c3a93ceca93958b434cf3f22c5ebb8f59533ed4b943e83579f6c90ffb3a2",
+      "ocr_output_sha256": "40aadfca3e1b2fb0ca17fceff9d85fcfa89708029a08c649ca02592066b41144",
+      "printed_header": "463",
+      "line_ranges": [
+        [
+          3,
+          12
+        ]
+      ],
+      "finding": "Aries Rising example continues Taurus H2 through Pisces H12; explicit warning rejects sign stereotypes and requires placements,rulers,asteroids,aspects,progressions and relocations before individual interpretation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4916.jpg",
+      "concept_ids": [
+        "templates",
+        "articulation"
+      ]
+    },
+    {
+      "id": "axis-audit-15B7mVUrC-rfqs4yAHL0mR_3MLsKUZjcz",
+      "file_id": "15B7mVUrC-rfqs4yAHL0mR_3MLsKUZjcz",
+      "image_sha256": "16608b3d1f88b83343491bef319c140e73450be81bb5fe15f15cd90561993cea",
+      "ocr_output_sha256": "8e95f19b7444d69443f847930c8e1e9c31de6c4831ff49aeaa732f62ba560be8",
+      "printed_header": "464",
+      "line_ranges": [
+        [
+          6,
+          17
+        ]
+      ],
+      "finding": "Articulation distinguishes H4 feel from think and H12 absence/unknown from asserting presence. Preserve vocabulary context; source wording does not validate a personal conclusion.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4917.jpg",
+      "concept_ids": [
+        "articulation",
+        "templates"
+      ]
+    },
+    {
+      "id": "axis-audit-1MLxhaWiZILSOeiYjs9pyua01GQOxDR-b",
+      "file_id": "1MLxhaWiZILSOeiYjs9pyua01GQOxDR-b",
+      "image_sha256": "6c1867c1979584678383923e2304726d1ba6cf12a41762076025b82d1e1c4ec7",
+      "ocr_output_sha256": "f1dbf81ba4acef87c8f72dd0d8c5eebf8acbd89c0589f32acaef517d0a89e208",
+      "printed_header": "465",
+      "line_ranges": [
+        [
+          9,
+          13
+        ]
+      ],
+      "finding": "Leo example attributes dramatic expression to Sagittarius H5 rather than Leo Sun/Moon/Venus generically. Its generosity discussion is a conditional foundational analogy before planets,not a categorical trait prediction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4918.jpg",
+      "concept_ids": [
+        "templates",
+        "field-05",
+        "field-02"
+      ]
+    },
+    {
+      "id": "axis-audit-1R7RGjRRVw1adLFLtp4zgpb9UJrxhyk5Y",
+      "file_id": "1R7RGjRRVw1adLFLtp4zgpb9UJrxhyk5Y",
+      "image_sha256": "dda117729c4ed46c40613a2126604db003bbba03ee28e8256c495574f1906cac",
+      "ocr_output_sha256": "de336597492520bafae214d3f26a508f09fb40803bd326da9d5f9b5b9d419b7e",
+      "printed_header": "466",
+      "line_ranges": [
+        [
+          5,
+          14
+        ]
+      ],
+      "finding": "Leo Rising leadership example combines H1 action with Leo expression and Scorpio H4; later text expressly calls templates foundations rather than stereotypes. Author's emotional themes are not established facts about every native.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4919.jpg",
+      "concept_ids": [
+        "templates",
+        "field-01",
+        "field-04"
+      ]
+    },
+    {
+      "id": "axis-audit-12RQWvwNYQ4LSzno1EIkzsIzXMNtI9MrF",
+      "file_id": "12RQWvwNYQ4LSzno1EIkzsIzXMNtI9MrF",
+      "image_sha256": "99ca4887964e872688f4fc40d1291c8d6425b7440a443c8b83e4ae89b002c1f8",
+      "ocr_output_sha256": "d99151edd9eee73e86f3fb085c08b8c5403a1df82a723d84eeeb06cae5248c47",
+      "printed_header": "467",
+      "line_ranges": [
+        [
+          6,
+          11
+        ],
+        [
+          12,
+          20
+        ]
+      ],
+      "finding": "Capricorn Rising H2 Aquarius requires Uranus condition and Venus context; Cancer Rising Capricorn H7 means roles/authority themes without necessarily traditional roles or desire for authority. Do not strip the qualification when retrieving.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4920.jpg",
+      "concept_ids": [
+        "templates",
+        "field-07",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "axis-audit-1JN80ao7zWG1pxRE7uGk30gpgcHYQWp16",
+      "file_id": "1JN80ao7zWG1pxRE7uGk30gpgcHYQWp16",
+      "image_sha256": "418af26631df9fd4e7d9b053ec0b1cf87f6dc137ff249e87c5787495cb5556ef",
+      "ocr_output_sha256": "15dc5d83a21f3c1d6a454df160666f14c293b9d32d9580721f4b528ce8e0c810",
+      "printed_header": "468",
+      "line_ranges": [
+        [
+          1,
+          11
+        ]
+      ],
+      "finding": "Gemini Rising whole-house diagram proceeds Gemini H1,Cancer H2,Leo H3,Virgo H4,Libra H5,Scorpio H6,Sagittarius H7,Capricorn H8. Prose is an illustrative template before individual planetary conditions; no coordinate computation supplied.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4921.jpg",
+      "concept_ids": [
+        "templates",
+        "house-field"
+      ]
+    },
+    {
+      "id": "axis-audit-1sWl2vvZEmOyFwInAzipZLcZFqpJR2fY3",
+      "file_id": "1sWl2vvZEmOyFwInAzipZLcZFqpJR2fY3",
+      "image_sha256": "ef20c73374c4f1f392925339bd3e5c831bcd086faa5534d3f724ab0665e2cccc",
+      "ocr_output_sha256": "bdf3112ecf51c2a10a7f8ff68beac1d0615afdb9202ec111aab906b4718aeeca",
+      "printed_header": "469",
+      "line_ranges": [
+        [
+          4,
+          15
+        ]
+      ],
+      "finding": "Gemini Rising continuation gives Aquarius H9,Pisces H10,Aries H11,Taurus H12. Templates are the baseline before planets,points,aspects and progressions; categorical-sounding example language must retain that restriction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4922.jpg",
+      "concept_ids": [
+        "templates",
+        "block-color"
+      ]
+    },
+    {
+      "id": "axis-audit-1Z24wdZKuAEZmDuepc2wfWn4Vc8hcyPVH",
+      "file_id": "1Z24wdZKuAEZmDuepc2wfWn4Vc8hcyPVH",
+      "image_sha256": "ecf5163b6a2af838a6613fa9851d20d4302f0a4a281c3f68c3ea0f142820e9ea",
+      "ocr_output_sha256": "794f0b58a9b74b2e2b93955256cf4542e31cb2e282e34a9f41f1a9f408c67062",
+      "printed_header": "470",
+      "line_ranges": [
+        [
+          2,
+          9
+        ]
+      ],
+      "finding": "Water cycle is Cancer-to-Scorpio-to-Pisces and rotated Scorpio-to-Pisces-to-Cancer,not reversed processing order. Quincunx flow is distinguished from adjacent-house/semi-sextile support; these are qualitative analogies.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4924.jpg",
+      "concept_ids": [
+        "free-theory",
+        "spectrum-meanings",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "axis-audit-1OmtwzTuTGPhk_Xh19wld88P0XpdnEveg",
+      "file_id": "1OmtwzTuTGPhk_Xh19wld88P0XpdnEveg",
+      "image_sha256": "2945e43095e37bc92455e445106e28307b050f6b75ababa544d610d743e6a45d",
+      "ocr_output_sha256": "a5143229c6829408dbc1ca157c0bb8c260904428b13383295df6de68214e8de2",
+      "printed_header": "471",
+      "line_ranges": [
+        [
+          5,
+          14
+        ]
+      ],
+      "finding": "Quincunx is explicitly150degrees and semi-sextile is Major in this system; Quinconic Flow describes a qualitative bridge/integration through resistance. No event timetable or minor-aspect OOI follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4925.jpg",
+      "concept_ids": [
+        "free-theory",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "axis-audit-1IMHqD06ErthGTz81WV0b0h-WABd65bZL",
+      "file_id": "1IMHqD06ErthGTz81WV0b0h-WABd65bZL",
+      "image_sha256": "abcd1c426317d44122fa7f9ad1c5f719a821f25bf0dd674db42f642750817e26",
+      "ocr_output_sha256": "8c04999df3cd555afc6c7e2100c803589de5d16b4587f2e6fb9d6a02c3bdaa96",
+      "printed_header": "472",
+      "line_ranges": [
+        [
+          42,
+          51
+        ]
+      ],
+      "finding": "Actual diagram and printed sequence give H1-to6-to11-to4-to9-to2-to7-to12-to5-to10-to3-to8-to1. OCR mangles arrows and house digits; authored sequence is image-grounded. This ideal house pattern advances five houses modulo12; no actual planetary aspect follows from house membership alone.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4926.jpg",
+      "concept_ids": [
+        "free-theory",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "axis-audit-16vTj-D31heto8tsfQEQzhqCHIPx1IQdU",
+      "file_id": "16vTj-D31heto8tsfQEQzhqCHIPx1IQdU",
+      "image_sha256": "52e6b0ac3d2337f8430584b6ea21e062f41a51e267985b0bd08121e69a5548cc",
+      "ocr_output_sha256": "11f9ec988b96ee95083c9912c1ef8a0b9a9b999e1c22c436b23d389236f60888",
+      "printed_header": "473",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Sequence explicitly applies at foundational level before other aspects/planetary conditions; first stages1,6,11,4,9,2,7 continue the prior diagram. Business/development analogies do not supply numerical timing or guaranteed outcomes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4927.jpg",
+      "concept_ids": [
+        "free-theory",
+        "templates"
+      ]
+    },
+    {
+      "id": "axis-audit-1G_nyGmrenC5-cwgkN0yUR-HO1a34EOIl",
+      "file_id": "1G_nyGmrenC5-cwgkN0yUR-HO1a34EOIl",
+      "image_sha256": "0a108f7bbde4fc199d5454f2f53b5d703e97ca44f1a8d6e4d88de914afbab2fa",
+      "ocr_output_sha256": "dc96286867aadc27a10bf0e4e4926f34c450add9e3aab9428792ac62f472ba85",
+      "printed_header": "474",
+      "line_ranges": [
+        [
+          3,
+          14
+        ]
+      ],
+      "finding": "Continuation gives4,9,2,7,12,5,10,3,8,1 and repeats the cycle while other aspects occur simultaneously. Health/symptom claims are source beliefs,not diagnostic or clinical evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4928.jpg",
+      "concept_ids": [
+        "free-theory",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "axis-audit-1B9MfnDnlP_RFmAwcbbUJIYT58CVw8LrX",
+      "file_id": "1B9MfnDnlP_RFmAwcbbUJIYT58CVw8LrX",
+      "image_sha256": "7544437722d2cb849f9343bcd14bf34020781820c3daed12f7dbd8abfe256a9a",
+      "ocr_output_sha256": "d7d97bccd63305d5a2c213a47c2e4ba940036bf4c93757d0d991601aaad29b9c",
+      "printed_header": "475",
+      "line_ranges": [
+        [
+          12,
+          22
+        ]
+      ],
+      "finding": "Lunar transit example uses approximately half a degree per hour and H1-to6 influence; this is an explanatory approximation,not a fixed lunar ephemeris speed or formula. Preserve concurrent aspects and chart conditions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4929.jpg",
+      "concept_ids": [
+        "free-theory",
+        "meaning-moon"
+      ]
+    },
+    {
+      "id": "axis-audit-1nH195n8oq1s0Rp0snP7RodL66ZL5p7mb",
+      "file_id": "1nH195n8oq1s0Rp0snP7RodL66ZL5p7mb",
+      "image_sha256": "75688269f766982f756a6bf89293257013b8dc3b665adbce1c5f597aef52cd84",
+      "ocr_output_sha256": "7ea42102c14791d30b969c6dad14e40f81cc681edab7faf53abeeea0d77f41e2",
+      "printed_header": "476",
+      "line_ranges": [
+        [
+          3,
+          7
+        ]
+      ],
+      "finding": "Dodecagram illustration accompanies Quinconic Flow and generalizes foundation to other houses; actual geometry does not establish an event predictor. Lower section names Aries as the qualitative trigger for Pisces-to-Leo flow.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4930.jpg",
+      "concept_ids": [
+        "free-theory",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "axis-audit-101DWapYL1f1oMhS_81unTlmsXBVPgOCX",
+      "file_id": "101DWapYL1f1oMhS_81unTlmsXBVPgOCX",
+      "image_sha256": "5a42054cbd9348c087bb5fde5217cace10e61e6c1f87e9ec6b72cb930cb153ae",
+      "ocr_output_sha256": "ca218f48873c2a4299911fe8cba19551807cc9ec5d712f80ee9efa58f7a872be",
+      "printed_header": "477",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Scorpio/H8-to-Aries/H1 strength example names Sagittarius as trigger and ends with Trine rationale; later H2-to7 example names H3 communication. These analogies do not specify numerical activation windows or performance/relationship guarantees.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4931.jpg",
+      "concept_ids": [
+        "free-theory",
+        "field-08",
+        "field-01"
+      ]
+    },
+    {
+      "id": "axis-audit-1oWg0_FojhqtWHhm7tjrFX4I6eLcqKJo1",
+      "file_id": "1oWg0_FojhqtWHhm7tjrFX4I6eLcqKJo1",
+      "image_sha256": "08ddb232ac39523c2a33cab3698cda85366bd2a5991be6da95fb3ea8bb1b97d9",
+      "ocr_output_sha256": "c2cbd46034b37ae32f42c0821f0e5a14ceb024cefdc9a4c248485e6399d29fa6",
+      "printed_header": "478",
+      "line_ranges": [
+        [
+          7,
+          17
+        ]
+      ],
+      "finding": "Sextile Threading separates odd and even house rings and says each energy presupposes the preceding sextile. This foundational contextual linkage must not be mistaken for actual body-to-body contacts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4932.jpg",
+      "concept_ids": [
+        "free-theory",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "axis-audit-1-pHHXhvrvtTuu72Kc_54hl5xGzTPkLV4",
+      "file_id": "1-pHHXhvrvtTuu72Kc_54hl5xGzTPkLV4",
+      "image_sha256": "9857249e0aed1d395971bb6ccce4f000f6dd53fd836c3203a2f64f8469b00352",
+      "ocr_output_sha256": "279d8253082b8bacf37d9d7c7c330f24eb3d7de8903d4e82c247e69f7966308b",
+      "printed_header": "479",
+      "line_ranges": [
+        [
+          2,
+          9
+        ]
+      ],
+      "finding": "Odd-house thread continues H3-to5-to7-to9-to11; prose links communication,expression and relationship themes as presumed background. No universal romantic compatibility conclusion follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4933.jpg",
+      "concept_ids": [
+        "free-theory",
+        "field-07"
+      ]
+    },
+    {
+      "id": "axis-audit-1PwJWewsBARqd1kVeYcC1VqlGCY6MmDAf",
+      "file_id": "1PwJWewsBARqd1kVeYcC1VqlGCY6MmDAf",
+      "image_sha256": "91c4f2b18f9fca6c4858edc24741bd49ad74f8e5b29381d9f161d0d012af739d",
+      "ocr_output_sha256": "eac5a1ce2e8295b02d2f221b9821c7b0d13a13c7bb88c3a367b8808a7d39345d",
+      "printed_header": "480",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Odd cycle closes and even sequence begins H12-to2-to4-to6-to8. Resources,security and routine examples are source interpretation,not established psychological prerequisites or diagnoses.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4935.jpg",
+      "concept_ids": [
+        "free-theory",
+        "field-02",
+        "field-04",
+        "field-06"
+      ]
+    },
+    {
+      "id": "axis-audit-144QYzwKnCUJW76P1cB3TXQI2NzcOeXhe",
+      "file_id": "144QYzwKnCUJW76P1cB3TXQI2NzcOeXhe",
+      "image_sha256": "f238d924d5ef4401a2ea42a106f86fa454c1ae7ec7140100c7f689b1644795b4",
+      "ocr_output_sha256": "378d56f9877529004944b7e608fd3bb180b200dfd3a44f8ec616c1fe766fb8c9",
+      "printed_header": "481",
+      "line_ranges": [
+        [
+          1,
+          13
+        ]
+      ],
+      "finding": "Even thread completes H8-to10-to12,with final prose distinguishing Fire-Air from Earth-Water rings and saying they do not operate in isolation. Ideal natural-house analogy is not a rule gating geometrically valid out-of-sign aspects.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4936.jpg",
+      "concept_ids": [
+        "free-theory",
+        "field-10",
+        "field-12"
+      ]
+    },
+    {
+      "id": "axis-audit-1oH27Y2ZEb7JNdxShaSI1Yk_L1vzjlknJ",
+      "file_id": "1oH27Y2ZEb7JNdxShaSI1Yk_L1vzjlknJ",
+      "image_sha256": "5b79460581c732a581ff76c11ff08ded1e801857c55bdea68f4d695951987b1c",
+      "ocr_output_sha256": "1d06ec16b0837def93ac6d0f1ea0c5d69f2dffb6173a21e84f4afcff8f87b6f0",
+      "printed_header": "482",
+      "line_ranges": [
+        [
+          15,
+          20
+        ],
+        [
+          31,
+          33
+        ]
+      ],
+      "finding": "STQ is Square-Trine-Quincunx,pronounced stuck; author explicitly rejects isolating three bodies while ignoring the rest of a chart. Pattern label alone does not establish whole-chart approval.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4937.jpg",
+      "concept_ids": [
+        "stq",
+        "templates",
+        "free-theory"
+      ]
+    },
+    {
+      "id": "axis-audit-1-b7gvd0GohtzAn-7rH7jPJSessQ6UJ8S",
+      "file_id": "1-b7gvd0GohtzAn-7rH7jPJSessQ6UJ8S",
+      "image_sha256": "844c709f24a34c2c1efb747ead9026575de1e6e25c1968e96751e424c34c08fc",
+      "ocr_output_sha256": "846b72bde1f7e7b21df2ac5639c636ba9e65f2f7ca5f0120b7f8d539fbfe1b26",
+      "printed_header": "483",
+      "line_ranges": [
+        [
+          9,
+          21
+        ]
+      ],
+      "finding": "Diagram A/B/C and prose agree H1-square-H4-trine-H8-quincunx-H1; actual planetary application is conditional on sitting in this formation. Ideal house relations do not themselves satisfy measured OOI or diagnose trauma.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4938.jpg",
+      "concept_ids": [
+        "stq",
+        "free-theory"
+      ]
+    },
+    {
+      "id": "axis-audit-1EwS9VhxS57sXWumBdKI1Rw_3OFj0dH2q",
+      "file_id": "1EwS9VhxS57sXWumBdKI1Rw_3OFj0dH2q",
+      "image_sha256": "649afd61c5c9eb288d577efd2572a7913b0ed0e98e61e7cb49e3a171b3abfd93",
+      "ocr_output_sha256": "80138cf9f1799b09cb1a15f7ae9d61116a3bf2608d4fe179000df9dfe8483848",
+      "printed_header": "484",
+      "line_ranges": [
+        [
+          21,
+          28
+        ]
+      ],
+      "finding": "Source proposes Planet B of the Square as STQ entry point; H4 example emphasizes nurturing before processing. This is a directional interpretation technique,not clinical treatment or a computational intensity formula.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4939.jpg",
+      "concept_ids": [
+        "stq",
+        "vantage-resolution"
+      ]
+    },
+    {
+      "id": "axis-audit-158mBBDaJtm_k-gNVvdcgJGIjFzSURayW",
+      "file_id": "158mBBDaJtm_k-gNVvdcgJGIjFzSURayW",
+      "image_sha256": "bd4b5d26fb6e478ee369671fffa695bad51b0d4a17e1ae3d6b8d4886dc681a5b",
+      "ocr_output_sha256": "9b3577b0090a5070d45a936d18118d05b295cfeb99fd8e924c74d5f1066c3491",
+      "printed_header": "485",
+      "line_ranges": [
+        [
+          1,
+          12
+        ]
+      ],
+      "finding": "Second STQ example is H2-square-H5-trine-H9-quincunx-H2. Money/joy/worldview narrative is illustrative and must remain conditional,without inferring facts about a person from the pattern.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4940.jpg",
+      "concept_ids": [
+        "stq",
+        "field-02",
+        "field-05",
+        "field-09"
+      ]
+    },
+    {
+      "id": "axis-audit-1g_1_xQ6tByag6FhPId2vY92N72uxScEz",
+      "file_id": "1g_1_xQ6tByag6FhPId2vY92N72uxScEz",
+      "image_sha256": "c74e4b2a86c4323d738afd41f027f0bfcf2effe6e9aa37bf73a3d968701df96e",
+      "ocr_output_sha256": "23659b3d74f2ddc643118383acbbb9bddde07666eae4ebf6ca7402efd195f1fb",
+      "printed_header": "486",
+      "line_ranges": [
+        [
+          6,
+          8
+        ],
+        [
+          29,
+          36
+        ]
+      ],
+      "finding": "Third STQ chain is H10-square-H1-trine-H5-quincunx-H10; source reiterates pattern is not isolated and includes other grand patterns. Reverse-Vantage resolution is qualitative,not a guarantee of happiness.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4941.jpg",
+      "concept_ids": [
+        "stq",
+        "vantage-resolution"
+      ]
+    },
+    {
+      "id": "axis-audit-1SBTsgwoZueu6aRw_2kNDqoJLGNbtiDln",
+      "file_id": "1SBTsgwoZueu6aRw_2kNDqoJLGNbtiDln",
+      "image_sha256": "4d09bdc558af38358535656782c8fa0ebf365446813b0563bb5171900eb47bfe",
+      "ocr_output_sha256": "b1d0ed313d2eaf5766aaacb5167c27118a184e42b22c1caee6d49171375f000b",
+      "printed_header": "515",
+      "line_ranges": [
+        [
+          1,
+          2
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "finding": "Phased Planetary Returns page supplies a chart and autobiographical backstory; targeted review verifies header and contextual role,not every diagram coordinate or reported event. Chart must not become independent corroboration of personal accusations.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4976.JPG",
+      "concept_ids": [
+        "returns",
+        "objective-context"
+      ]
+    },
+    {
+      "id": "axis-audit-1hRt7ywVXYV8WmKec1q9Rxtzq07lM2-2Z",
+      "file_id": "1hRt7ywVXYV8WmKec1q9Rxtzq07lM2-2Z",
+      "image_sha256": "59053acbad6ce8e17d1ab60898db0982d48b097ccb3a3e9aa6cd87a611c1dad9",
+      "ocr_output_sha256": "00094085288632083b629673dd02691341657bd2c370b8925d0a8783ca4db764",
+      "printed_header": "516",
+      "line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "finding": "Autobiographical interpretation includes Black Moon Lilith in Virgo H1 and Moon H12; retains chart/event context and does not substantiate a diagnosis or treatment claim. No general return algorithm follows from this anecdote.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4977.jpg",
+      "concept_ids": [
+        "returns",
+        "lilith"
+      ]
+    },
+    {
+      "id": "axis-audit-1qFkqp0Og728LgnaxZa6agJbIGRc9aZFd",
+      "file_id": "1qFkqp0Og728LgnaxZa6agJbIGRc9aZFd",
+      "image_sha256": "834d1edb93b7dce59865d0f39f393f01f19222fd34ca75ced1a327f2c8fef8b8",
+      "ocr_output_sha256": "fde13376a71f150621b28f4a0dc891fa74b71f4a725084e8a6dd06cccd239bc9",
+      "printed_header": "517",
+      "line_ranges": [
+        [
+          1,
+          12
+        ]
+      ],
+      "finding": "Solar Conjunction Resonance Chart interpretation frames themes as recalibrating focus rather than predicting what will happen; progressed and other chart layers are separately discussed. Do not collapse those layers into one current transit chart.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4978.JPG",
+      "concept_ids": [
+        "returns",
+        "cosmic-first"
+      ]
+    },
+    {
+      "id": "axis-audit-1AUOSVfMSjl_4AQIO-9nmiULfzqoGBZUn",
+      "file_id": "1AUOSVfMSjl_4AQIO-9nmiULfzqoGBZUn",
+      "image_sha256": "29e2825a641ee8abe8061a6f112e6b0cc94d89f3ac305d51033d81431e283094",
+      "ocr_output_sha256": "bbb671059367ddf3e96e7d3e62e5435810567eb790ed1e590a5aa7658c800412",
+      "printed_header": "518",
+      "line_ranges": [
+        [
+          14,
+          15
+        ],
+        [
+          28,
+          32
+        ]
+      ],
+      "finding": "Solar resonance interval runs direct conjunction to next Major semi-sextile,then new chart until sextile. Printed30days is a rough explanatory interval,not an exact ephemeris duration; source explicitly calls this recalibration rather than predictive map.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4979.jpg",
+      "concept_ids": [
+        "returns",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "axis-audit-11hHYRWSMfuO8WxRTDOmvMBuUlCRzbl81",
+      "file_id": "11hHYRWSMfuO8WxRTDOmvMBuUlCRzbl81",
+      "image_sha256": "5215b877864d04cbc7602c3c3b7d900f74d82d47b8da43efb82d91507caf8bab",
+      "ocr_output_sha256": "14f686feb1cff4ad30efe9eea500e1feed73e99ad53a44918edbf0d081902b78",
+      "printed_header": "519",
+      "line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "finding": "Solar Sextile Resonance example says Venus remains retrograde in the phase chart despite no current Venus retrograde. Preserve phase-cast versus current status; historical May9,2025 author context is not current ephemeris evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4980.JPG",
+      "concept_ids": [
+        "returns",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "axis-audit-1g3HXF0oZQZ5b6eJKNC6W9UWHkTgmzMhP",
+      "file_id": "1g3HXF0oZQZ5b6eJKNC6W9UWHkTgmzMhP",
+      "image_sha256": "15771813a09a6e3e81325db6b39f545f5085f09ba9d9054e17e6b701b6465fa4",
+      "ocr_output_sha256": "47a6f3b54a059f44cb0ff66d493d9b8109f606bb5fd30563b6f3ca4916366efe",
+      "printed_header": "520",
+      "line_ranges": [
+        [
+          12,
+          24
+        ]
+      ],
+      "finding": "Sun-to-current-Jupiter transit is interpreted separately from resonance chart despite also occurring within it; every planet including Moon has planet-specific phase context. Do not reuse a frozen phase chart as current transit positions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4981.jpg",
+      "concept_ids": [
+        "returns",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "axis-audit-1kcHhCGSsr8opQkNaxQ87tqWLsfjy8Oe0",
+      "file_id": "1kcHhCGSsr8opQkNaxQ87tqWLsfjy8Oe0",
+      "image_sha256": "e0564d211c56a884f94567959a6a291d2e35933bcd580da3ff7b88a88036b9f2",
+      "ocr_output_sha256": "ba6f59b80efce9fde2e3e0f9e1fc2501ee49edb620cedeef7f93730098ea58d5",
+      "printed_header": "521",
+      "line_ranges": [
+        [
+          18,
+          25
+        ]
+      ],
+      "finding": "Source gives Saturn square-to-trine interval and Apr19,2024phase from natal Saturn to transit Saturn,saying order matters. Preserve this wording alongside transit-to-natal activation/OOI rules rather than silently normalizing order.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4982.JPG",
+      "concept_ids": [
+        "returns",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "axis-audit-15XfgbcDYwDSgDMdplaGwy_IHpHT6IQAf",
+      "file_id": "15XfgbcDYwDSgDMdplaGwy_IHpHT6IQAf",
+      "image_sha256": "df3b07fef71813249d20e7685f05d325a1a27c1ed97c782b3a3ec6e8623a52a8",
+      "ocr_output_sha256": "b964f41c323a5b4cada91d5facffafd1ed58088fb7d305fa07f5b57e55c53dee",
+      "printed_header": "523",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Source describes Sun approaching square to natal Moon then says more accurately natal Moon squaring transit Sun; phase chart lasts until next trine. Keep aspect-language order separate from which body emits transit OOI. Diagram coordinates require further individual checking.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4984.jpg",
+      "concept_ids": [
+        "returns",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "axis-audit-1aFoxChho5j7dj-GMGUkidODLqPGXALHB",
+      "file_id": "1aFoxChho5j7dj-GMGUkidODLqPGXALHB",
+      "image_sha256": "a718cfc43b8bbc5f0ef64144f7960a5d98dfd66c3e4ead47211303ee625128a3",
+      "ocr_output_sha256": "5768749744a4c01e9029f87656678dbbe2adecc17ede32d4076593b05d5b2585",
+      "printed_header": "524",
+      "line_ranges": [
+        [
+          2,
+          9
+        ]
+      ],
+      "finding": "Notation explicitly N=natal,T=transit,P=progressed,R=relocated. This conflicts with528Transit=P wording; maintain source-specific notation and context rather than silently fixing the printed line.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4985.jpg",
+      "concept_ids": [
+        "returns",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "axis-audit-1fRrO9zxEwxmwuF1ED_UrKbZLcUeLQBhn",
+      "file_id": "1fRrO9zxEwxmwuF1ED_UrKbZLcUeLQBhn",
+      "image_sha256": "87bdecfdcdcf280fbd764e9f91f220fb5bed7a8e8329d38b4262a77255a832b3",
+      "ocr_output_sha256": "ec2ba89245341d50775965bb32a3a73e95b2b6f398e728f238e9abdf1f95ae84",
+      "printed_header": "525",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Source says fine resonance detail can be optional and labels Sun6degrees an Aries degree in Taurus H10. Degree symbolism and zodiac occupancy are distinct; this is not evidence that Taurus6degrees belongs astronomically to Aries.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4986.JPG",
+      "concept_ids": [
+        "pass-through",
+        "returns"
+      ]
+    },
+    {
+      "id": "axis-audit-13DomO8E_RyNwcnBKlGKFhdHwg2Br2sRN",
+      "file_id": "13DomO8E_RyNwcnBKlGKFhdHwg2Br2sRN",
+      "image_sha256": "310917d22a2cf63363721be40cca62a7f349bd89d4bece8aaf537421c74b2dbb",
+      "ocr_output_sha256": "4b480c56a8043c79c2a39824f6018e187d8c89888c0ea7b6a9d65c1be99ca0e7",
+      "printed_header": "526",
+      "line_ranges": [
+        [
+          3,
+          7
+        ]
+      ],
+      "finding": "Example separates Pluto meanings,Aquarius transit sign and Libra/H7 earthly field; defines Direct Impact by aspect versus Thematic Impact without direct aspect. Do not equate sign occupancy with direct conjunction or predicted divorce.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4987.jpg",
+      "concept_ids": [
+        "pass-through",
+        "meaning-pluto"
+      ]
+    },
+    {
+      "id": "axis-audit-12lXSBzEIhp7NxkfFOjqtc3sZhTwLHd_R",
+      "file_id": "12lXSBzEIhp7NxkfFOjqtc3sZhTwLHd_R",
+      "image_sha256": "7e05be70895e1480c13aad9fb241c2ee36934060bd6e860a083aa2365de37d24",
+      "ocr_output_sha256": "1bda2f113c83b7fe96238b4ce99828ca43a06c7d8d1ab997025af8b2c315c78a",
+      "printed_header": "527",
+      "line_ranges": [
+        [
+          21,
+          29
+        ]
+      ],
+      "finding": "PlutoRx1degree24Aquarius example ignores natal OOIs for transit-to-natal activation; JupiterRx0degree47Scorpio square offset37arcminutes. Example label lists natal first despite transit-emitter prose; preserve descriptive order and emitter scope distinctly.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4988.jpg",
+      "concept_ids": [
+        "pass-through",
+        "natal-transit-order",
+        "meaning-pluto"
+      ]
+    },
+    {
+      "id": "axis-audit-1cdlqjMOMt8CH_d50FRrKEgi9FMmU1zwl",
+      "file_id": "1cdlqjMOMt8CH_d50FRrKEgi9FMmU1zwl",
+      "image_sha256": "a9ea6df578947f93255897a1225d19c1724afcb483f94658136f50bde4f875cf",
+      "ocr_output_sha256": "19674a03b360c75525144868b5b160fd100e6c05355484cde14438e74f7a311d",
+      "printed_header": "528",
+      "line_ranges": [
+        [
+          2,
+          20
+        ]
+      ],
+      "finding": "Uranus1degree50Sagittarius sextile Pluto1degree24Aquarius offset26arcminutes. Pallas3degree57/Mars chain is explicitly rejected using transit-only OOI; MC/IC3degree25 offset2degree01 exceeds Pluto1degree30 reach to2degree54. PrintedTransit=P conflicts with524and same-pageT; labels mix direction despite prose claiming Transit Vantage. Preserve every wording; no runtime approval.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4989.jpg",
+      "concept_ids": [
+        "pass-through",
+        "natal-transit-order",
+        "meaning-pluto",
+        "asteroid-pallas",
+        "anchors"
+      ]
+    },
+    {
+      "id": "axis-audit-16X_vBAGPCFUDewnpWY2k9w54ffO9x_NA",
+      "file_id": "16X_vBAGPCFUDewnpWY2k9w54ffO9x_NA",
+      "image_sha256": "0855304a279ca16bcf95f13450bc5b4331cdde66def21277164cf3768159aba0",
+      "ocr_output_sha256": "99abbf0bd0be586a335bc4f334b3b7dc578f7ac75cb98b6c46762127b191b9f0",
+      "printed_header": "529",
+      "line_ranges": [
+        [
+          2,
+          4
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          25,
+          40
+        ]
+      ],
+      "finding": "Thematic Pluto presence in Aquarius H7 is secondary; source traces Moon ruler to H12 and primary sign-ruler Uranus both natal/cosmic,including natal retrograde H5. This is a contextual chain,not a direct aspect to every H7object or invented numerical attenuation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4990.JPG",
+      "concept_ids": [
+        "pass-through",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "axis-audit-1dOX5IAGR3WbBd0TkbYXeIqmUNti5-zdU",
+      "file_id": "1dOX5IAGR3WbBd0TkbYXeIqmUNti5-zdU",
+      "image_sha256": "0ef4c1c6e72ff6931cfe3099f1943daa08dc9f622a4589f2a6e08db7954c6ba5",
+      "ocr_output_sha256": "42fac0a45ba531b35499220cb50219d00b464b366ec777536357656088b6d4b8",
+      "printed_header": "530",
+      "line_ranges": [
+        [
+          7,
+          14
+        ]
+      ],
+      "finding": "Author contrasts two Leo Rising examples with different Uranus retrograde status and describes natal/cosmic ruler chains. Autobiographical parenting themes are not guaranteed transit outcomes for all Leo Risings.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4991.jpg",
+      "concept_ids": [
+        "pass-through",
+        "delegate-condition"
+      ]
+    },
+    {
+      "id": "axis-audit-1Kfo6Aih_Qfk9-lZ9pseGWjJ10kX3UZtQ",
+      "file_id": "1Kfo6Aih_Qfk9-lZ9pseGWjJ10kX3UZtQ",
+      "image_sha256": "9b59b667efa4fe89a250af248885aa766ada7e2654d84dde0deb35c797de47ff",
+      "ocr_output_sha256": "b4b6e55cd14c58dd3315e87308444c9807de8a28889dc3decd8107051f026975",
+      "printed_header": "531",
+      "line_ranges": [
+        [
+          9,
+          18
+        ]
+      ],
+      "finding": "Inward/outward expression says Mars H3 may signify assertive communication or aggression received from others. Interpretive reciprocity is not proof of symmetric numerical OOI or permission to erase transit direction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4992.jpg",
+      "concept_ids": [
+        "directional-context",
+        "pass-through"
+      ]
+    },
+    {
+      "id": "axis-audit-16uubWpGo79LlDXQB8iF2HDW-Uocdfmdf",
+      "file_id": "16uubWpGo79LlDXQB8iF2HDW-Uocdfmdf",
+      "image_sha256": "4d06b973d73619b26bba1dd4f03c96247c0a8fd5c8da414a66551bd1de689b03",
+      "ocr_output_sha256": "f8330481cfae0af5345c343d15ec4e49e7dbf4b45d0d17d80502cd4b4fce1985",
+      "printed_header": "532",
+      "line_ranges": [
+        [
+          19,
+          34
+        ]
+      ],
+      "finding": "Mars-on-Ascendant and Saturn-on-Moon example states separation167.15degrees=167degrees09arcminutes and no mutual aspect when both exact,explicitly qualified by OOI. This does not declare every separation near167degrees permanently non-aspecting.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4994.JPG",
+      "concept_ids": [
+        "with-while",
+        "spectrum-meanings"
+      ]
+    },
+    {
+      "id": "axis-audit-10oOlJj-RZ0k9zivCB8w3Y6Aqhrs3Ei9h",
+      "file_id": "10oOlJj-RZ0k9zivCB8w3Y6Aqhrs3Ei9h",
+      "image_sha256": "c1b518109fdf13c4aadb9a4419d18eebbe2198fe73cd87e45514734cc08fdf3a",
+      "ocr_output_sha256": "84cddb1543223a8774ec99eae156585e285de6b45b42704bafc619d1366fbfc2",
+      "printed_header": "533",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Closer simultaneous transits could acquire a tethering aspect; current example reads separate concurrent Mars/Saturn pressures. No threshold for that tether is given here; evaluate each emitter's applicable OOI rather than inventing connection.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4995.JPG",
+      "concept_ids": [
+        "with-while",
+        "forced-contact"
+      ]
+    },
+    {
+      "id": "axis-audit-1AICGHWG_UF3x5urh9cDpmtXnl3NbZsow",
+      "file_id": "1AICGHWG_UF3x5urh9cDpmtXnl3NbZsow",
+      "image_sha256": "eef4e0b3f74ada3fb715c26d177ffc2b15b7d0cdc5c1c796c6d39ac32e9d5485",
+      "ocr_output_sha256": "4f3b349570b979fc67e5c9e1b39c7c634cbd66b0fdb11360eb96872f8007347e",
+      "printed_header": "534",
+      "line_ranges": [
+        [
+          4,
+          13
+        ]
+      ],
+      "finding": "With describes aspect-connected influences; While retains concurrent nonconnected planets. Source requires both,not omission of nonaspected objects. Lower section introduces synastry as A-affects-B and B-affects-A.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4996.JPG",
+      "concept_ids": [
+        "with-while",
+        "synastry"
+      ]
+    },
+    {
+      "id": "axis-audit-17axCe54wSdAjcxaOFh9lMlYEOAi_si8b",
+      "file_id": "17axCe54wSdAjcxaOFh9lMlYEOAi_si8b",
+      "image_sha256": "92deef49dbb482cf6bcc673230e690a956f2ccbf6e6508c0612aad5ba8a44390",
+      "ocr_output_sha256": "29c08ef99a0adfb7850f3fdb304f5fa043979ebe8f59d30eca31f34089dbf3e5",
+      "printed_header": "535",
+      "line_ranges": [
+        [
+          11,
+          29
+        ]
+      ],
+      "finding": "Source lists eight charts:A natal/progressed/relocated,B natal/progressed/relocated,natal synastry and relocated synastry,with same-home/no-move caveat. Does not specify every inter-chart pairing or progressed algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4997.JPG",
+      "concept_ids": [
+        "synastry",
+        "templates"
+      ]
+    },
+    {
+      "id": "axis-audit-1UfY2OColYsAlWSnCUpG7antfVW78zPhx",
+      "file_id": "1UfY2OColYsAlWSnCUpG7antfVW78zPhx",
+      "image_sha256": "f91a1b03024f0ccf4213c39dc2089a5a3c4db1c6dfc940dfaf666632e99b30fe",
+      "ocr_output_sha256": "5bad6a92af5521f07960728bc880bc0d7dadd96b64ba63070eebff97a4d99398",
+      "printed_header": "536",
+      "line_ranges": [
+        [
+          2,
+          14
+        ]
+      ],
+      "finding": "Synastry additionally requires current transits and prior understanding of each person's chart. H1/H4/H5/H7/H8and Lilith/Chiron questions are interpretive prompts,not a validated compatibility score or factual personal assessment.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_4998.JPG",
+      "concept_ids": [
+        "synastry",
+        "natal-transit-order"
+      ]
+    },
+    {
+      "id": "axis-audit-1A5VTgaCdsYD9h4Ri5CZyZkmamZliwo6-",
+      "file_id": "1A5VTgaCdsYD9h4Ri5CZyZkmamZliwo6-",
+      "image_sha256": "557ca36b41a82dc158682a07d2460e1551774312c4a979b6400858fc7632977a",
+      "ocr_output_sha256": "385b356037a09d63ee8229b978853414ca5508bb0936f44ec8ef97d5588edd75",
+      "printed_header": "538",
+      "line_ranges": [
+        [
+          13,
+          25
+        ]
+      ],
+      "finding": "Different ecosystems act upon one another like transits rather than one combined within-ecosystem energy; relocation examples are author-specific. Preserve distinction from equal exact conjunction/opposition examples334-338which were within-ecosystem.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5001.JPG",
+      "concept_ids": [
+        "synastry",
+        "natal-transit-order",
+        "relocation"
+      ]
+    },
+    {
+      "id": "axis-audit-1lytT1c7OdTFMoi3ypZQf1urZ1UHw-6up",
+      "file_id": "1lytT1c7OdTFMoi3ypZQf1urZ1UHw-6up",
+      "image_sha256": "0228a17da71f028d1d1261d3d8db962a80b2637848190c3ca30cda6885956660",
+      "ocr_output_sha256": "d39e4c29b3a75defd0276749d3c9824770c62eb6336eccedaeaa805caa9db934",
+      "printed_header": "539",
+      "line_ranges": [
+        [
+          12,
+          22
+        ]
+      ],
+      "finding": "Interpersonal synastry is reciprocal acting-upon across two separate ecosystems; source contrasts persistent natal cross-influence with changing sky transits. Reciprocal interpretation does not establish identical emitter OOI,merged charts or fixed outcomes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5002.JPG",
+      "concept_ids": [
+        "synastry",
+        "directional-context"
+      ]
+    },
+    {
+      "id": "axis-audit-1YIehDPJ2gxfketemsVlqefYTX3jakXkj",
+      "file_id": "1YIehDPJ2gxfketemsVlqefYTX3jakXkj",
+      "image_sha256": "d3682a5e23e77dd8908eff1ba63382620ef414abae95bb89b7aed77bfcb36859",
+      "ocr_output_sha256": "ca9c0c8cd23d2846b1fcfe3a8826d05b3a0dcf6dfac57988bb5d5b8abb6c2b8e",
+      "printed_header": "540",
+      "line_ranges": [
+        [
+          7,
+          20
+        ]
+      ],
+      "finding": "Natal Venus/Moon example places both in Taurus H10for two Leo Risings; relocated Austin overlays instead use Gemini/Aries10thhouses. Keep natal and relocated frames separate and retain pass-through context; diagram not a full numerical verification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5003.JPG",
+      "concept_ids": [
+        "synastry",
+        "relocation",
+        "pass-through"
+      ]
+    },
+    {
+      "id": "axis-audit-1lcy5hHvK_8L0PSro2oaLyNkWWhbwTdjO",
+      "file_id": "1lcy5hHvK_8L0PSro2oaLyNkWWhbwTdjO",
+      "image_sha256": "efbb49cb8d32a05df4a8b3f0aa0abb97f6476f27f79da6cf6e91dd4d1d92ba1e",
+      "ocr_output_sha256": "8b51d93456e7d2469106875fdf0e27b6cb478d7c6af3d7997f2f58e0330dec0e",
+      "printed_header": "541",
+      "line_ranges": [
+        [
+          2,
+          10
+        ],
+        [
+          23,
+          29
+        ]
+      ],
+      "finding": "Moon pushes Venus and Venus pressures Moon across two ecosystems; planets-alone interpretation is explicitly incomplete without house/sign/aspect/bidirectional-rulership context. Do not collapse reciprocity into equal intensity or a universal harmony verdict.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5004.JPG",
+      "concept_ids": [
+        "synastry",
+        "delegate-condition"
+      ]
+    }
+  ],
+  "new_atomic_assertions": 15,
+  "assertion_ids": [
+    "templates462-foundation-scope",
+    "articulation464-word-choice",
+    "quinconic472-house-sequence",
+    "sextile478-two-threads",
+    "stq483-formation-and-context",
+    "stq484-planet-b-entry",
+    "returns518-major-phase-boundary",
+    "returns519-frozen-retrograde",
+    "notation524-528-transit-conflict",
+    "pluto528-transit-only-exclusions",
+    "pass529-secondary-ruler-layer",
+    "while532-qualified-no-contact",
+    "synastry535-eight-chart-context",
+    "synastry538-separate-ecosystems",
+    "synastry540-relocated-overlay"
+  ]
+}
