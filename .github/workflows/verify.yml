@@ -18,6 +18,9 @@ jobs:
       - run: python -m pytest astronomy_qa access_qa -q --junitxml=evidence/ci-astronomy.xml
       - run: python scripts/methodology_regression.py
       - run: python scripts/knowledge_audit.py check
+      - run: python scripts/knowledge_audit.py check-semantics
+      - run: python scripts/knowledge_audit.py check-sources
+      - run: python scripts/knowledge_audit.py check-requirements
       - run: npm ci
       - run: npm test
       - run: npm run build

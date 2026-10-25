@@ -1,0 +1,19 @@
+{
+  "status": "ALL_SAVED_OCR_LINE_LOCATORS_AND_HASHES_VERIFIED",
+  "files": 1028,
+  "counts": {
+    "NO_MATCH_CANDIDATE": 14320,
+    "lines": 34026,
+    "AUTO_PARTIAL_CANDIDATE": 3312,
+    "AUTO_MATCH_CANDIDATE": 16394,
+    "targeted_checked_lines": 3500
+  },
+  "annotations": 181,
+  "named_blocker_findings": 19,
+  "unreconciled_ocr_files": [
+    "1k2vapbXeUl3-rEkgCLMkHHUDAplWztE8"
+  ],
+  "full_visual_or_semantic_signoff": false,
+  "source_blockers_all_resolved": false,
+  "source_line_ledger_sha256": "52c69f470c74286dc3b8b3893a8584b005f64c69d867cf0842cd8f398ea9e793"
+}

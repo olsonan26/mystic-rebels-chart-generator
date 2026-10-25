@@ -1,0 +1,9 @@
+{
+  "new_targeted_images": 64,
+  "reinspections": [
+    "IMG_4963.jpg",
+    "IMG_5084.JPG"
+  ],
+  "new_annotations": 66,
+  "exhaustive_semantic_signoff": false
+}

@@ -1,5 +1,11 @@
 # Alchemystic Astrology source review
 
+Current checkpoint: [100-image continuation](2026-10-25_source-audit-100-image-continuation.md). The saved directional checkpoint and100 additional original images are now reconciled in the local audit foundation:312 targeted images,128 assertions,181 annotations,3,500 checked OCR lines and19 named findings. Older counts and tests below are historical. Source counterevidence remains attached; no unresolved formula was enabled.
+
+Resumable-pipeline update,2026-10-25:141 acquired file IDs now have candidate OCR and targeted visual reviews;888 originals remain pending. Original234/235 confirms competing sign/house Spark wording. Original625 distinguishes non-emitting anchors, natal emitter OOI association and exact transit activation. Original620 confirms matching osculating Sophia/Lilith retrograde;623–624 supplies arc ordering and OOI-independent gradients without wrap/equality rules. Flora720–721, Ixion734–735, Nessus749 and Sedna758–760 dedicated meanings were recovered. See the current section of [the audit report](2026-10-25_mystic-knowledge-audit-report.md) and `data/knowledge/source_review_continuation.json`. No unresolved formula or product change is enabled.
+
+Original-scan follow-up,2026-10-25: see [the continuation report](2026-10-25_mystic-knowledge-audit-report.md) and `data/knowledge/source_review_updates.json`. Sophia617-619 and progression491 are now recovered. Original378 has correct1.5-degree arithmetic but inconsistent starting coordinates; PDF343 mistranscribes the interval. Original687 has Chiron19:18Rx, correcting PDF14:22; the original sextile/trine disagreement remains. These updates supersede the corresponding compiled-source acquisition/error findings below. Printed492 is still unlocated; exact progression conventions and numerical Sophia verification remain open.
+
 Reviewed for Mystic Rebels on 2026-10-24. Source fidelity, astronomical calculation accuracy, and evidence for an interpretation are separate assessments. No source statement in this review establishes scientific validation of an interpretation.
 
 ## Source identity and page numbers

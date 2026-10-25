@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "source_id": "pure-reflow-9d5fb55c",
+  "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+  "scope": "SELECTED_WORKED_EXAMPLES_NOT_EXHAUSTIVE",
+  "examples": [
+    {
+      "id": "mercury-decan-contrast",
+      "concept_id": "tone-pulse",
+      "pdf_pages": [
+        290
+      ],
+      "kind": "MEANING_CONTRAST",
+      "source_facts": {
+        "sign": "Aries",
+        "degrees": [
+          5,
+          15,
+          25
+        ]
+      },
+      "source_assertion": "The three Mercury examples retain Aries directness but distinguish getting to action, expressive purpose and exploring possibilities.",
+      "audit_expectation": "Keep Tone fixed while Pulse differs; these examples omit full house/ruler context and are not complete personal descriptions.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "delegate-venus-mars",
+      "concept_id": "delegate-condition",
+      "pdf_pages": [
+        259
+      ],
+      "kind": "CONTEXT_CHAIN",
+      "source_facts": {
+        "Aries_house": 9,
+        "Aries_occupant": "Venus",
+        "Delegate": "Mars"
+      },
+      "source_assertion": "Mars carries ninth-house Field and the condition of Venus from Aries into its own placement.",
+      "audit_expectation": "A sign-ruler name lookup alone fails the example; retain the carried house, occupant and relationships.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "retrograde-occupant-not-house",
+      "concept_id": "double-retrograde",
+      "pdf_pages": [
+        273
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "occupant_retrograde": true,
+        "house_ruler_retrograde": false
+      },
+      "source_assertion": "An Rx planet in H1 does not make all H1 retrograde.",
+      "audit_expectation": "Keep occupant motion separate from the house Delegate condition; do not propagate Rx to other occupants.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "retrograde-template-exceptions",
+      "concept_id": "retrograded-house",
+      "pdf_pages": [
+        271
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "Aries_rising": [
+          "H4 Moon",
+          "H5 Sun"
+        ],
+        "Taurus_rising": [
+          "H4 Sun"
+        ],
+        "Pisces_rising": [
+          "H5 Moon"
+        ]
+      },
+      "source_assertion": "These house-ruler cases cannot be physically retrograde in the given modern ruler scheme.",
+      "audit_expectation": "Evaluate the ruler identity; never fabricate a retrograde luminary to match a house interpretation.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "jupiter-not-money",
+      "concept_id": "planet-lexicon",
+      "pdf_pages": [
+        180
+      ],
+      "kind": "EXCLUSION",
+      "source_facts": {
+        "planet": "Jupiter"
+      },
+      "source_assertion": "Expansion does not by itself establish money themes.",
+      "audit_expectation": "A finance answer requires applicable value/resource context rather than Jupiter as an automatic wealth label.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "moon-ooi-range",
+      "concept_id": "directional-context",
+      "pdf_pages": [
+        295
+      ],
+      "kind": "NUMERIC_CHECK",
+      "source_facts": {
+        "center_dms": "15:23",
+        "radius_deg": 3
+      },
+      "source_assertion": "The stated interval is 12:23 through18:23.",
+      "audit_expectation": "Radius is per side; do not double the per-side radius or treat the full six-degree span as radius.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "synastry-ooi-no-addition",
+      "concept_id": "directional-context",
+      "pdf_pages": [
+        297
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "moon_a_deg": 5,
+        "moon_b_deg": 10,
+        "moon_radius": 3
+      },
+      "source_assertion": "Two lunar OOIs overlapping does not establish an outgoing Moon-to-Moon contact.",
+      "audit_expectation": "Compare sender reach to the receiver, not the overlap or sum of two radii.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "pluto-ooi-counterexample",
+      "concept_id": "forced-contact",
+      "pdf_pages": [
+        343
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "center_dms": "24:42",
+        "stated_radius_deg": 1.5,
+        "printed_end_dms": "25:42",
+        "moon_dms": "25:57"
+      },
+      "source_assertion": "The prose says1.5 degrees but its arithmetic uses1 degree and calls the Moon unreached.",
+      "audit_expectation": "Literal1.5 degrees reaches26:12 and includes25:57. Preserve both statements; do not choose a universal radius.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION",
+      "original_scan_correction": {
+        "original_page": "378",
+        "scan": "IMG_4814.jpg",
+        "actual_interval": [
+          "24:15",
+          "25:45"
+        ],
+        "earlier_original_prose": "24:42",
+        "disposition": "PDF_ARITHMETIC_TRANSCRIPTION_ERROR_ORIGINAL_COORDINATE_CONFLICT_REMAINS"
+      }
+    },
+    {
+      "id": "spark-progressed-mc",
+      "concept_id": "spark-entry",
+      "pdf_pages": [
+        433
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "degree": 14,
+        "house": 10,
+        "sign_ordinal": 3,
+        "source_label": "Gemini"
+      },
+      "source_assertion": "Progressed MC Gemini14:50 H10 is called Gemini Spark.",
+      "audit_expectation": "H gives Sagittarius; Z gives Gemini. Do not mark H or Z canonically approved.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "spark-austin-mars",
+      "concept_id": "spark-entry",
+      "pdf_pages": [
+        434
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "degree": 5,
+        "house": 4,
+        "sign_ordinal": 7,
+        "source_label": "Pisces"
+      },
+      "source_assertion": "Austin Mars Libra5:56 H4 is called Pisces Spark.",
+      "audit_expectation": "H gives Pisces; Z gives Virgo. Preserve disagreement with the progressed example.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "spark-composite-saturn",
+      "concept_id": "spark-entry",
+      "pdf_pages": [
+        458
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "degree": 28,
+        "house": 2,
+        "sign_ordinal": 7,
+        "source_label": "Pisces"
+      },
+      "source_assertion": "Composite Saturn Libra28 H2 is called Pisces degree.",
+      "audit_expectation": "H gives Aquarius and Z gives Leo; neither matches Pisces.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "fca-austin-mars",
+      "concept_id": "fringe-fca",
+      "pdf_pages": [
+        431,
+        434
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "degree_dms": "5:56",
+        "stated_width_arcmin": 3,
+        "distance_to_next_arcmin": 4
+      },
+      "source_assertion": "The source calls the Mars degree an Aries FCA.",
+      "audit_expectation": "Keep literal three-arcminute diagnostic and record the failed example; do not enlarge the width.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "fca-after-boundary",
+      "concept_id": "fringe-fca",
+      "pdf_pages": [
+        612
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "object": "Interamnia",
+        "position": "Virgo0:12",
+        "house": 2
+      },
+      "source_assertion": "The example says H1 and H2 both affect the placement from H2.",
+      "audit_expectation": "An approaching-only helper is partial; do not reassign the primary H2 placement or invent a blend weight.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "cluster-same-sign",
+      "concept_id": "clusters",
+      "pdf_pages": [
+        340
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "degrees": [
+          4,
+          15,
+          27
+        ]
+      },
+      "source_assertion": "Same-sign membership alone does not establish a stellium.",
+      "audit_expectation": "Require actual supported relationships and distinguish them from a same-sign collection.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "rolling-cluster",
+      "concept_id": "clusters",
+      "pdf_pages": [
+        341
+      ],
+      "kind": "CONTEXT_CHAIN",
+      "source_facts": {
+        "Venus_deg": 10,
+        "Sun_deg": 12,
+        "Saturn_deg": 19
+      },
+      "source_assertion": "The middle planet can connect endpoints that do not contact directly.",
+      "audit_expectation": "Store directed edges and reach; a connected chain must not imply endpoint mutual contact.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "with-while-non-aspect",
+      "concept_id": "with-while",
+      "pdf_pages": [
+        450,
+        451
+      ],
+      "kind": "CONTEXT_SEPARATION",
+      "source_facts": {
+        "separation_deg": 167.15,
+        "events": [
+          "Mars at AC",
+          "Saturn at Moon"
+        ]
+      },
+      "source_assertion": "The source treats the simultaneous pressures separately in this example.",
+      "audit_expectation": "Do not fuse concurrent events or drop either one. This is a supplied example, not a universal non-aspect tolerance.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "stq-resolution-entry",
+      "concept_id": "stq",
+      "pdf_pages": [
+        415,
+        416
+      ],
+      "kind": "CONTEXT_CHAIN",
+      "source_facts": {
+        "sequence": [
+          "H1 square H4",
+          "H4 trine H8",
+          "H8 quincunx H1"
+        ]
+      },
+      "source_assertion": "The square's receiving energy is the entry to resolution.",
+      "audit_expectation": "A shape label alone omits the proposed method; the source uses nurturing/security before further action.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "core-trinity-mc",
+      "concept_id": "core-trinity",
+      "pdf_pages": [
+        433,
+        434,
+        435
+      ],
+      "kind": "CONTEXT_CONTRAST",
+      "source_facts": {
+        "progressed": "Gemini14:50 H10",
+        "natal": "Taurus3:25 H10",
+        "Austin": "Aries10:57 H10",
+        "Los_Angeles": "Pisces18:39 H9"
+      },
+      "source_assertion": "The source combines different inner, baseline and external expression layers.",
+      "audit_expectation": "Keep chart identities and rulers separate; do not use rounded examples as progression epoch or high-precision astronomy truth.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "synastry-venus-moon",
+      "concept_id": "synastry",
+      "pdf_pages": [
+        456,
+        457
+      ],
+      "kind": "CONTEXT_CHAIN",
+      "source_facts": {
+        "sender": "Logan Venus",
+        "receiver": "Ashley Moon",
+        "sender_carried_houses": [
+          3,
+          10
+        ],
+        "receiver_carried_house": 12
+      },
+      "source_assertion": "Venus carries Mars/SaturnRx/PlutoRx and Chiron context; the Moon carries its own ruled-house sensitivity.",
+      "audit_expectation": "A simple Venus-Moon compatibility phrase misses the supplied Delegate and receiver context.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "vertex-reset",
+      "concept_id": "vertex",
+      "pdf_pages": [
+        527
+      ],
+      "kind": "MEANING_CONTRAST",
+      "source_facts": {
+        "Logan": "Vertex29:06 H5 Sagittarius FCA",
+        "Ashley": "Vertex20:15 H6 Capricorn"
+      },
+      "source_assertion": "The two visibility/overextension examples differ in house, sign, ruler and related conditions.",
+      "audit_expectation": "Do not issue the same burnout story to every Vertex placement.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "axial-event-loop",
+      "concept_id": "axial-flow",
+      "pdf_pages": [
+        535,
+        537
+      ],
+      "kind": "CONTEXT_CHAIN",
+      "source_facts": {
+        "stages": [
+          "MC setting",
+          "Vertex event to absorb",
+          "IC processing",
+          "Invertex conclusion"
+        ]
+      },
+      "source_assertion": "The restaurant example routes family/routine context through the axes and rulers.",
+      "audit_expectation": "The known coordinates alone do not constitute event interpretation; keep all stage/ruler evidence.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "fortune-arithmetic",
+      "concept_id": "fortune",
+      "pdf_pages": [
+        548
+      ],
+      "kind": "NUMERIC_CHECK",
+      "source_facts": {
+        "AC": 133,
+        "Moon": 325,
+        "Sun": 81,
+        "rounded_result": 17,
+        "printed_full_result": "Aries17:47"
+      },
+      "source_assertion": "The rounded calculation wraps377 to17, and full positions supply17:47.",
+      "audit_expectation": "Do not demand equality between rounded arithmetic and the full precision chart.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "spirit-arithmetic",
+      "concept_id": "spirit",
+      "pdf_pages": [
+        552,
+        553
+      ],
+      "kind": "NUMERIC_CHECK",
+      "source_facts": {
+        "AC": 133,
+        "Sun": 81,
+        "Moon": 325,
+        "rounded_result": 249,
+        "printed_full_result": "Sagittarius8:25"
+      },
+      "source_assertion": "The rounded negative result wraps-111 to249; the precise chart point differs.",
+      "audit_expectation": "Preserve source rounding limits and the fixed formula; do not reverse it at night.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "love-not-romance",
+      "concept_id": "love",
+      "pdf_pages": [
+        558,
+        559
+      ],
+      "kind": "MEANING_CONTRAST",
+      "source_facts": {
+        "events": [
+          "pricing tiers",
+          "design buttons",
+          "family visit",
+          "software issue"
+        ]
+      },
+      "source_assertion": "The source's Love activations include non-romantic activities.",
+      "audit_expectation": "Interpret the formula and context; do not invent a promised romance.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "chiron-jackson-values",
+      "concept_id": "chiron",
+      "pdf_pages": [
+        568
+      ],
+      "kind": "CONTRADICTION",
+      "source_facts": {
+        "diagram_degree": "14:22 Rx",
+        "prose_degree": 19,
+        "first_saturn_relation": "sextile",
+        "later_saturn_relation": "trine"
+      },
+      "source_assertion": "The same example contains mismatched degree and aspect descriptions.",
+      "audit_expectation": "Reject as a precise golden fixture; preserve both discrepancies for original-scan review.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION",
+      "original_scan_correction": {
+        "original_pages": [
+          "687",
+          "688"
+        ],
+        "scans": [
+          "IMG_5282.jpg",
+          "IMG_5283.jpg"
+        ],
+        "original_diagram": "19:18 Rx",
+        "disposition": "PDF_DEGREE_ERROR_RESOLVED_ORIGINAL_ASPECT_CONFLICT_REMAINS"
+      }
+    },
+    {
+      "id": "eunomia-two-descriptions",
+      "concept_id": "asteroid-eunomia",
+      "pdf_pages": [
+        603,
+        604,
+        629
+      ],
+      "kind": "SEMANTIC_TENSION",
+      "source_facts": {
+        "main": "exposed resilient core after loss",
+        "comparison": "functional order"
+      },
+      "source_assertion": "The surviving main passage and comparison table emphasize substantially different descriptions.",
+      "audit_expectation": "Do not adjudicate from the reflow alone; determine whether the original supports a broader scope or has an attribution error.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "varuna-pregrade",
+      "concept_id": "gradity-context",
+      "pdf_pages": [
+        627,
+        628
+      ],
+      "kind": "CONTEXT_CONTRAST",
+      "source_facts": {
+        "object": "Varuna",
+        "position": "Gemini16:35 H11",
+        "source_phase": "Pregrade"
+      },
+      "source_assertion": "The author relates Pregrade to noticing issues while expecting revisions.",
+      "audit_expectation": "A semantic example does not provide the timed station/shadow events needed to validate asteroid Gradity.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "paran-not-angle",
+      "concept_id": "parans",
+      "pdf_pages": [
+        636,
+        637,
+        640
+      ],
+      "kind": "FRAME_EXCEPTION",
+      "source_facts": {
+        "pair": [
+          "Venus horizon-rising",
+          "Pluto horizon-setting"
+        ]
+      },
+      "source_assertion": "The source distinguishes these sky events from zodiacal AC/DC conjunctions.",
+      "audit_expectation": "Keep horizon/topocentric and ecliptic frames separate; do not reuse natal-angle contact as a Paran event.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "profection-initial-interval",
+      "concept_id": "profections",
+      "pdf_pages": [
+        126,
+        127
+      ],
+      "kind": "CONTEXT_CONTRAST",
+      "source_facts": {
+        "author_interval": "June1982 to March1983",
+        "Ashley_interval": "February1985 to March1985"
+      },
+      "source_assertion": "Both reach their initial H1 activation at the next spring despite different ages.",
+      "audit_expectation": "Do not start H1 on each birthday or claim that exact-equinox boundary ownership is specified.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    },
+    {
+      "id": "derivative-child",
+      "concept_id": "derivatives",
+      "pdf_pages": [
+        684,
+        685
+      ],
+      "kind": "EXCEPTION",
+      "source_facts": {
+        "third_child_derivative_house": 9,
+        "natural_children_house": 5
+      },
+      "source_assertion": "The derivative child perspective supplements the natural H5 child interpretation.",
+      "audit_expectation": "Never overwrite natal chart identity or remove the original child context.",
+      "use": "SOURCE_EXAMPLE_NOT_INDEPENDENT_PERSONAL_VALIDATION"
+    }
+  ]
+}

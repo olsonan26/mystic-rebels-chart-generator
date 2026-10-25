@@ -1,0 +1,15 @@
+{
+  "scope": "VISUALLY_INSPECTED_QUALITY_LIMIT_NOT_A_TRANSCRIPTION",
+  "issues": [
+    {
+      "file_id": "1k2vapbXeUl3-rEkgCLMkHHUDAplWztE8",
+      "name": "IMG_5036.JPG",
+      "image_sha256": "b0f1cf2642127e24a4c24f862c6ffcd3dbafe8bdd1ebafc8386a08725435eb7c",
+      "quality": "SEVERE_MOTION_BLUR",
+      "printed_header": "UNKNOWN_UNREADABLE",
+      "ocr_result": "EMPTY_OCR",
+      "visual_observation": "Actual image inspected. Strong diagonal motion blur prevents a reliable printed-header or line transcription. OCR produced an empty result. Acquisition and exact bytes remain intact.",
+      "required_next_evidence": "A sharper independent photograph or duplicate of this page. Do not infer its page number from camera sequence."
+    }
+  ]
+}

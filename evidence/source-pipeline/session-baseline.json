@@ -1,0 +1,11 @@
+{
+  "scope": "PRESERVED_START_OF_PIPELINE_CONTINUATION_BASELINE",
+  "date_local": "2026-10-25",
+  "evidence": "evidence/source-continuation/verification.json",
+  "file_records": 1029,
+  "acquired": 46,
+  "ocr_extracted": 0,
+  "targeted_visual": 44,
+  "atomic_assertions": 42,
+  "compiled_pdf_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d"
+}

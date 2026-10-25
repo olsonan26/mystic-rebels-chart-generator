@@ -1,0 +1,2155 @@
+{
+  "schema_version": "1.0",
+  "scope": "SELECTED_ATOMIC_ORIGINAL_SOURCE_ASSERTIONS_NOT_EXHAUSTIVE",
+  "all_important_knowledge_covered": false,
+  "required_competing_pairs": [
+    [
+      "eunomia-surviving-core",
+      "eunomia-functional-order"
+    ],
+    [
+      "pluto-correct-original-arithmetic",
+      "pluto-original-center-conflict"
+    ],
+    [
+      "chiron-original-degree",
+      "chiron-original-aspect-conflict"
+    ],
+    [
+      "spark-original-sign-derivation",
+      "spark-original-house-procedure"
+    ]
+  ],
+  "assertions": [
+    {
+      "id": "sophia-mean-opposition",
+      "concept_id": "sophia",
+      "kind": "formula_specification",
+      "proposition": "Mean Sophia is opposite the matching Mean Lilith placement.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Only a source specification; verify coordinate frame and independent fixture before runtime release."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "content_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "original_printed_pages": [
+            "619"
+          ],
+          "name": "IMG_5086.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-osculating-opposition",
+      "concept_id": "sophia",
+      "kind": "formula_specification",
+      "proposition": "Osculating Sophia is opposite the matching Osculating Lilith placement.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not substitute interpolated perigee, a different ellipse, or arbitrary Selene motion."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "content_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "original_printed_pages": [
+            "619"
+          ],
+          "name": "IMG_5086.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-perigee-identity",
+      "concept_id": "sophia",
+      "kind": "construction_meaning",
+      "proposition": "The source's Sophia names lunar perigee and explicitly distinguishes arbitrary Selene constructions.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Source physical explanations and interpretive claims are not inherited scientific validation."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1Im4rG2y7X2Wk8bhBuU9MSCc6hAA-t6jT",
+          "content_sha256": "e56839cdc635bd3f1473330153344830811ded168354cfd6c970ec12e6661c6a",
+          "original_printed_pages": [
+            "617"
+          ],
+          "name": "IMG_5084.JPG"
+        },
+        {
+          "file_id": "1-i_eTTDlnAsMeYH_qHFKm5kKRkajVyEB",
+          "content_sha256": "499381b1e9769a46de623baac46443eea6b93346f2f61c3ea1ad835d36607e61",
+          "original_printed_pages": [
+            "618"
+          ],
+          "name": "IMG_5085.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-mean-undercurrent",
+      "concept_id": "sophia",
+      "kind": "descriptive_meaning",
+      "proposition": "Mean Sophia describes a persistent background pull toward attachment or belonging.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A theme is not known personal history or a diagnosis."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "content_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "original_printed_pages": [
+            "619"
+          ],
+          "name": "IMG_5086.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-osculating-reactivity",
+      "concept_id": "sophia",
+      "kind": "descriptive_meaning",
+      "proposition": "Osculating Sophia describes a more immediate and situational response to external triggers.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Full house, ruler, arc and relationship conditions remain required."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "content_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "original_printed_pages": [
+            "619"
+          ],
+          "name": "IMG_5086.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-retrograde-reworking",
+      "concept_id": "sophia",
+      "kind": "contextual_exception",
+      "proposition": "Osculating Sophia retrograde retains attachment while its expression needs reworking.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Original619 continues onto620; do not treat this one page as a complete retrograde theory."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "content_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "original_printed_pages": [
+            "619"
+          ],
+          "name": "IMG_5086.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "progression-relative-time",
+      "concept_id": "core-trinity",
+      "kind": "approximate_formula_description",
+      "proposition": "A lived year corresponds approximately to a day of planetary motion, illustrated by the Sun's roughly one degree per year.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Exact year/day definition, time scale, angles and location coupling are unspecified; original492 remains unlocated."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1SRP6tNldzWH10gS3URuuXpcwypJn_bme",
+          "content_sha256": "bc99ee327724221bb78d69c603610a8ca3a506032ce4fe870fe88b13f90a36ee",
+          "original_printed_pages": [
+            "491"
+          ],
+          "name": "IMG_4952.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "progression-relative-bodies",
+      "concept_id": "core-trinity",
+      "kind": "contextual_rule",
+      "proposition": "Progressed bodies retain their own relative pace rather than advancing every body by a fixed solar amount.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not infer a conventional solar-arc algorithm."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1SRP6tNldzWH10gS3URuuXpcwypJn_bme",
+          "content_sha256": "bc99ee327724221bb78d69c603610a8ca3a506032ce4fe870fe88b13f90a36ee",
+          "original_printed_pages": [
+            "491"
+          ],
+          "name": "IMG_4952.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "core-trinity-simultaneous",
+      "concept_id": "core-trinity",
+      "kind": "contextual_rule",
+      "proposition": "Natal, progressed and relocated layers are referenced together rather than replacing one another.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A three-wheel illustration is not a verified progression or relocation workflow."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1SRP6tNldzWH10gS3URuuXpcwypJn_bme",
+          "content_sha256": "bc99ee327724221bb78d69c603610a8ca3a506032ce4fe870fe88b13f90a36ee",
+          "original_printed_pages": [
+            "491"
+          ],
+          "name": "IMG_4952.jpg"
+        },
+        {
+          "file_id": "1ioPyZNIePzN1GtinVguoT8LtC4NOfdRj",
+          "content_sha256": "a4b521ff25516abdd26daa4dcdcf6741c7c1db062399004df1b2889fdfcb160a",
+          "original_printed_pages": [
+            "507"
+          ],
+          "name": "IMG_4968.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "natal-static-baseline",
+      "concept_id": "core-trinity",
+      "kind": "contextual_rule",
+      "proposition": "The natal layer remains a fixed baseline as the other layers change.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not overwrite natal evidence when a progressed placement changes."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1SRP6tNldzWH10gS3URuuXpcwypJn_bme",
+          "content_sha256": "bc99ee327724221bb78d69c603610a8ca3a506032ce4fe870fe88b13f90a36ee",
+          "original_printed_pages": [
+            "491"
+          ],
+          "name": "IMG_4952.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-radius-not-diameter",
+      "concept_id": "directional-context",
+      "kind": "formula_specification",
+      "proposition": "An OOI number is reach in one direction; total span is twice that radius.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Geometry and interpretive approval are distinct; per-aspect bands remain separate."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1KewFiwgRWZQMOqqv1Y-6bxR2HT59I473",
+          "content_sha256": "116946f30e15b6fe9c5d861af029809947e0436a98558c174846cb8d95651e03",
+          "original_printed_pages": [
+            "237"
+          ],
+          "name": "IMG_4658.jpg"
+        },
+        {
+          "file_id": "1DEJQlVjrQk0nJP8mT_WarlSIKeIKa9_I",
+          "content_sha256": "4568320c72258187cf897aed046169b6ca00635e8faf99ebb08c68af74bcb80f",
+          "original_printed_pages": [
+            "239"
+          ],
+          "name": "IMG_4660.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-sun-ten",
+      "concept_id": "directional-context",
+      "kind": "numeric_source_parameter",
+      "proposition": "The passage assigns the Sun a ten-degree OOI.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Partial catalog witness; no approval of every Sun aspect or all contexts."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1gy-LonrFjRd98A-he2SgLq-LejlksR4l",
+          "content_sha256": "f36b2c59a86a09b449e43225c014d47b245389b2466e90d3cec2a1a8e1f01e93",
+          "original_printed_pages": [
+            "238"
+          ],
+          "name": "IMG_4659.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-moon-three",
+      "concept_id": "directional-context",
+      "kind": "numeric_source_parameter",
+      "proposition": "Moon OOI is three degrees in each direction.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not reuse an emitter radius as an exact activation rule for every point."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1KewFiwgRWZQMOqqv1Y-6bxR2HT59I473",
+          "content_sha256": "116946f30e15b6fe9c5d861af029809947e0436a98558c174846cb8d95651e03",
+          "original_printed_pages": [
+            "237"
+          ],
+          "name": "IMG_4658.jpg"
+        },
+        {
+          "file_id": "1gy-LonrFjRd98A-he2SgLq-LejlksR4l",
+          "content_sha256": "f36b2c59a86a09b449e43225c014d47b245389b2466e90d3cec2a1a8e1f01e93",
+          "original_printed_pages": [
+            "238"
+          ],
+          "name": "IMG_4659.jpg"
+        },
+        {
+          "file_id": "1DEJQlVjrQk0nJP8mT_WarlSIKeIKa9_I",
+          "content_sha256": "4568320c72258187cf897aed046169b6ca00635e8faf99ebb08c68af74bcb80f",
+          "original_printed_pages": [
+            "239"
+          ],
+          "name": "IMG_4660.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-mars-four",
+      "concept_id": "directional-context",
+      "kind": "numeric_source_parameter",
+      "proposition": "The passage assigns Mars a four-degree OOI.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A partial catalog parameter is not a full aspect-network implementation."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+          "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+          "original_printed_pages": [
+            "240"
+          ],
+          "name": "IMG_4661.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-saturn-approximate",
+      "concept_id": "directional-context",
+      "kind": "approximate_source_parameter",
+      "proposition": "The passage describes Saturn OOI as around seven and a half degrees.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Preserve the approximation; do not silently promote to an exact universal threshold."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+          "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+          "original_printed_pages": [
+            "240"
+          ],
+          "name": "IMG_4661.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ooi-chiron-one",
+      "concept_id": "forced-contact",
+      "kind": "numeric_source_parameter",
+      "proposition": "The example assigns Chiron a one-degree OOI.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Its separate semisextile geometric band is not the same parameter."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1yvqdstZEW0yvqdRTTP32mBDyxUxB62Ej",
+          "content_sha256": "003df58b1a2412358a4456953db55e823047df99f4e785880613e91b9d09404d",
+          "original_printed_pages": [
+            "246"
+          ],
+          "name": "IMG_4667.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "same-house-not-conjunction",
+      "concept_id": "directional-context",
+      "kind": "explicit_exclusion",
+      "proposition": "Shared house/sign occupancy alone does not establish conjunction.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A missing graph cannot prove no contact; test nuclear reach separately."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1DEJQlVjrQk0nJP8mT_WarlSIKeIKa9_I",
+          "content_sha256": "4568320c72258187cf897aed046169b6ca00635e8faf99ebb08c68af74bcb80f",
+          "original_printed_pages": [
+            "239"
+          ],
+          "name": "IMG_4660.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "one-way-response",
+      "concept_id": "forced-contact",
+      "kind": "directional_rule",
+      "proposition": "A receiving body's response does not establish a reverse initiating edge when its own reach does not cover the sender.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Retain sender, receiver and ecosystem separately."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1nek0n2UHTNbFYYoPJ63vkBf80VcHP1no",
+          "content_sha256": "06b261ba3c2c01ca7425dcc54b80880fa8dce3f06a5e6367bba58d05218de6e6",
+          "original_printed_pages": [
+            "241"
+          ],
+          "name": "IMG_4662.jpg"
+        },
+        {
+          "file_id": "1p8EJRt9Fqkz_8sNpTzBti9jTxMt0-oWw",
+          "content_sha256": "cba86e90537ba2b95ba5040834be88118b8de3e4f6314ff455ee476d0e996952",
+          "original_printed_pages": [
+            "244"
+          ],
+          "name": "IMG_4665.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "no-cross-ecosystem-radius-sum",
+      "concept_id": "directional-context",
+      "kind": "explicit_exclusion",
+      "proposition": "Two people's OOI radii must not be summed to manufacture a contact.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not reuse within-ecosystem Fringe merging across charts."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1p8EJRt9Fqkz_8sNpTzBti9jTxMt0-oWw",
+          "content_sha256": "cba86e90537ba2b95ba5040834be88118b8de3e4f6314ff455ee476d0e996952",
+          "original_printed_pages": [
+            "244"
+          ],
+          "name": "IMG_4665.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "natal-no-sky-initiation",
+      "concept_id": "natal-transit-order",
+      "kind": "directional_exclusion",
+      "proposition": "In transit interpretation a natal body's response does not mean it initiates physical influence on the current sky.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Both reading perspectives do not imply two active physical edges."
+      ],
+      "witnesses": [
+        {
+          "file_id": "13TUQXGBSIsXiO006Tk5B-ieRo6VxjPfB",
+          "content_sha256": "47f73e2674e7b5fe0b04bc795656de0d3bda0a4a0ece1c32fc4060606c3af642",
+          "original_printed_pages": [
+            "245"
+          ],
+          "name": "IMG_4666.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fringe-interval-example",
+      "concept_id": "fringe-fca",
+      "kind": "worked_example_geometry",
+      "proposition": "For the printed Mars5:56 and Saturn15:32 example, the illustrated overlap is8:02 through9:56.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Retain approximate Saturn radius; do not elevate this interval to a universal Fringe catalog."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1AGuRE-D0MSkImSdyzctOsSKut6OxZT12",
+          "content_sha256": "8538def45b28e9f702e12eeb4094f74f07e6b047d1e751e9fb5e1225793910e2",
+          "original_printed_pages": [
+            "242"
+          ],
+          "name": "IMG_4663.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fringe-activation-pass-through",
+      "concept_id": "fringe-fca",
+      "kind": "activation_rule_description",
+      "proposition": "The transit Moon activates the illustrated Fringe by traversing its interval rather than extending its own OOI into it.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Exact endpoint equality and retrograde traversal conventions still require clarification."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1AGuRE-D0MSkImSdyzctOsSKut6OxZT12",
+          "content_sha256": "8538def45b28e9f702e12eeb4094f74f07e6b047d1e751e9fb5e1225793910e2",
+          "original_printed_pages": [
+            "242"
+          ],
+          "name": "IMG_4663.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fringe-sequential-not-merged",
+      "concept_id": "fringe-fca",
+      "kind": "meaning_and_exclusion",
+      "proposition": "The example treats non-nuclear Fringe as a lingering sequential influence rather than a merged conjunction.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Receiving conditions and the complete chain still matter."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1AGuRE-D0MSkImSdyzctOsSKut6OxZT12",
+          "content_sha256": "8538def45b28e9f702e12eeb4094f74f07e6b047d1e751e9fb5e1225793910e2",
+          "original_printed_pages": [
+            "242"
+          ],
+          "name": "IMG_4663.jpg"
+        },
+        {
+          "file_id": "1w1Im29SpHE3mDAUInaMChTg8YlrhdMJA",
+          "content_sha256": "5875b2391fa9c0e9a14a3b8c84dcf700216398a2bd78a839db1944aa6d830ab5",
+          "original_printed_pages": [
+            "243"
+          ],
+          "name": "IMG_4664.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "vantage-two-perspectives",
+      "concept_id": "vantage-resolution",
+      "kind": "contextual_rule",
+      "proposition": "Vantage examines each participant's perspective and surroundings while preserving specific energy direction.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A symmetric label loses the sender/receiver sequence."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1fN8wLBpRlXQb3dP-nJ8mPibjwL55J9bG",
+          "content_sha256": "b1af1abb7eda8a69ca11dc103fc2ec7404a2c8d2e452d07e6bce28645284a5cd",
+          "original_printed_pages": [
+            "363"
+          ],
+          "name": "IMG_4799.jpg"
+        },
+        {
+          "file_id": "194UsasNazGYgH43LTBj2-ETxTD2EOUDZ",
+          "content_sha256": "a6c154faad0d396c855f6adef8d2dfbde25e9966ce5f51e28a89b1e187d73c19",
+          "original_printed_pages": [
+            "364"
+          ],
+          "name": "IMG_4800.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fca-five-percent",
+      "concept_id": "fringe-fca",
+      "kind": "formula_specification",
+      "proposition": "The stated spill fraction is five percent of sign, decan or degree scale.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "No after-boundary strengths or complete retrograde/equality policy are supplied."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1KRNT79eHwWbIeK1WwUgJ87B14XFFYyP3",
+          "content_sha256": "595f1f7b9785c7fe6a7fce79116246926dce49e8a2907a51304b8173623bcae0",
+          "original_printed_pages": [
+            "508"
+          ],
+          "name": "IMG_4969.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fca-degree-counterexample",
+      "concept_id": "fringe-fca",
+      "kind": "contradictory_worked_example",
+      "proposition": "The stated degree width is three arcminutes, but Mars5:56 is still labelled Aries FCA four arcminutes before6.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Preserve the numeric threshold and the conflicting printed example; author correction is required."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1KRNT79eHwWbIeK1WwUgJ87B14XFFYyP3",
+          "content_sha256": "595f1f7b9785c7fe6a7fce79116246926dce49e8a2907a51304b8173623bcae0",
+          "original_printed_pages": [
+            "508"
+          ],
+          "name": "IMG_4969.jpg"
+        },
+        {
+          "file_id": "10fu6tdeWyuCSz72O0zZGbZiyh82OmzY0",
+          "content_sha256": "6e8de7b770466b79c2e7ed92ef6e475bbc1a21c2d9165c7bcdd4eb02f3bcd11f",
+          "original_printed_pages": [
+            "510"
+          ],
+          "name": "IMG_4971.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "pluto-correct-original-arithmetic",
+      "concept_id": "forced-contact",
+      "kind": "compilation_correction",
+      "proposition": "The original's24:15 plus1:30 gives25:45, leaving Moon25:57 twelve arcminutes beyond reach.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "The same original earlier gives24:42 as the Pluto coordinate; do not erase that residual conflict."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1suk1Ca369m-BaeDOnRY_IAoxBCiYK99f",
+          "content_sha256": "ab8a73d47d97bf1870bbe32c6483ccefe90e3fd17ca1489ecac0550f2984f1c1",
+          "original_printed_pages": [
+            "378"
+          ],
+          "name": "IMG_4814.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "pluto-original-center-conflict",
+      "concept_id": "forced-contact",
+      "kind": "source_contradiction",
+      "proposition": "Earlier original prose gives24:42 while the figure and final interval start at24:15.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "The two starting values produce different Moon reach; author/version clarification remains required."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1suk1Ca369m-BaeDOnRY_IAoxBCiYK99f",
+          "content_sha256": "ab8a73d47d97bf1870bbe32c6483ccefe90e3fd17ca1489ecac0550f2984f1c1",
+          "original_printed_pages": [
+            "378"
+          ],
+          "name": "IMG_4814.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "chiron-original-degree",
+      "concept_id": "chiron",
+      "kind": "compilation_correction",
+      "proposition": "Original diagram19:18Rx agrees with rounded prose19; the compiled14:22 description is wrong.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "This source correction is not an independent astronomical fixture."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+          "content_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+          "original_printed_pages": [
+            "687"
+          ],
+          "name": "IMG_5282.jpg"
+        },
+        {
+          "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+          "content_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+          "original_printed_pages": [
+            "688"
+          ],
+          "name": "IMG_5283.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "chiron-original-aspect-conflict",
+      "concept_id": "chiron",
+      "kind": "source_contradiction",
+      "proposition": "The original calls the Saturn relationship sextile on687 and trine on688.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Preserve both; do not invent a chart epoch or use biography to choose an aspect."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+          "content_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+          "original_printed_pages": [
+            "687"
+          ],
+          "name": "IMG_5282.jpg"
+        },
+        {
+          "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+          "content_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+          "original_printed_pages": [
+            "688"
+          ],
+          "name": "IMG_5283.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "eunomia-surviving-core",
+      "concept_id": "asteroid-eunomia",
+      "kind": "competing_meaning",
+      "proposition": "The main chapter describes an exposed resilient core surviving loss and explicitly rejects order/fairness as its meaning.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Competes with the original772 comparative entry; precedence is not established."
+      ],
+      "witnesses": [
+        {
+          "file_id": "14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx",
+          "content_sha256": "764ddd45da4fdee3d474c24caaec4750ca17449362cfd057b0ec7c48136794bb",
+          "original_printed_pages": [
+            "711"
+          ],
+          "name": "IMG_5392.JPG"
+        },
+        {
+          "file_id": "1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+          "content_sha256": "3070d80215980114029d16fe69b877fa390a276246b75a3a615c16f2ef967625",
+          "original_printed_pages": [
+            "712"
+          ],
+          "name": "IMG_5393.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "eunomia-functional-order",
+      "concept_id": "asteroid-eunomia",
+      "kind": "competing_meaning",
+      "proposition": "The comparative entry assigns Eunomia functional order and systems working by design.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Competes with the main chapter; do not silently combine the two."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+          "content_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+          "original_printed_pages": [
+            "772"
+          ],
+          "name": "IMG_5455.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "elektra-hidden-complexity",
+      "concept_id": "asteroid-elektra",
+      "kind": "descriptive_meaning",
+      "proposition": "Elektra describes hidden coordination that holds many fragments together as a working system.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not substitute mythological tragedy; full participating conditions remain missing."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1U2QVHDBksWrHjcTOf0jJnVHcq_YDIEkJ",
+          "content_sha256": "68c7c52f4569c68b7b80a6266e2b8c7b26ad26463a0bf97c91c96a7d203541fa",
+          "original_printed_pages": [
+            "707"
+          ],
+          "name": "IMG_5388.JPG"
+        },
+        {
+          "file_id": "1E7KFtr3gIT12hSEHZq2gpsslwdYux9G_",
+          "content_sha256": "728079cf438fc39149c8bec2429969911ccdade2e9b9079abd610bcdd3d466ed",
+          "original_printed_pages": [
+            "771"
+          ],
+          "name": "IMG_5454.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "euphrosyne-divergent-continuity",
+      "concept_id": "asteroid-euphrosyne",
+      "kind": "descriptive_meaning",
+      "proposition": "Euphrosyne describes continuity and lineages formed through divergence from a shared plane.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "A keyword alone does not replace ruler, forced-contact and retrograde context."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1DQVzifeQjHJN6rKQ2uyEM7eG-urUkrGz",
+          "content_sha256": "b0dd670f5e4b28fe5089e5a3d89fb8caf68ae529d1982741b64204575a128a43",
+          "original_printed_pages": [
+            "713"
+          ],
+          "name": "IMG_5394.jpg"
+        },
+        {
+          "file_id": "1vvJYVA7qW0cvCpPcewP1S8HMBc2OJYQW",
+          "content_sha256": "05d4a5a0cac4f228747fdb6fe956cbaf7313e4ceaaffc27c4a4ea79860b3a649",
+          "original_printed_pages": [
+            "714"
+          ],
+          "name": "IMG_5395.JPG"
+        },
+        {
+          "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+          "content_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+          "original_printed_pages": [
+            "772"
+          ],
+          "name": "IMG_5455.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "vesta-retrograde-inward",
+      "concept_id": "asteroid-vesta",
+      "kind": "contextual_meaning",
+      "proposition": "Retrograde Vesta turns commitment and purpose inward and can accompany isolation or overprotection in the source's interpretation.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "This is conditional source language, not evidence of a user's trauma or diagnosis."
+      ],
+      "witnesses": [
+        {
+          "file_id": "15Kb8V0gnXE-JE6Z3N1AuU7emmVDkyWde",
+          "content_sha256": "795442fb1c585e4b454f881556aadb0827a76b5ab002a45dbcaf8453931e0012",
+          "original_printed_pages": [
+            "768"
+          ],
+          "name": "IMG_5451.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "composite-joint-entity",
+      "concept_id": "composite",
+      "kind": "meaning_and_exclusion",
+      "proposition": "A composite describes the pair as a joint entity, distinct from reciprocal Synastry behavior or an electional relationship-event chart.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not fabricate when a relationship became official."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1czwdGeUogNul57VCExgwcUI-VIk6TvA5",
+          "content_sha256": "6c4e3c274bad80c5d7ba8a0ddccfe20d17e05cdaebd787361d44118586b44f6d",
+          "original_printed_pages": [
+            "544"
+          ],
+          "name": "IMG_5007.jpg"
+        },
+        {
+          "file_id": "1mDkn1o1lYFOWYuhITN-upLNAPfO3s7Jd",
+          "content_sha256": "7bb704aa60345b0649bbced9815c30eb0c2b2b91b96dedf409e32111f025c280",
+          "original_printed_pages": [
+            "545"
+          ],
+          "name": "IMG_5009.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "composite-midpoint-example",
+      "concept_id": "composite",
+      "kind": "worked_example_geometry",
+      "proposition": "Gemini21:16 and Pisces7:24 have the illustrated composite Sun at Aries29:20.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "No antipodal midpoint choice, angular method or full context algorithm is specified."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1czwdGeUogNul57VCExgwcUI-VIk6TvA5",
+          "content_sha256": "6c4e3c274bad80c5d7ba8a0ddccfe20d17e05cdaebd787361d44118586b44f6d",
+          "original_printed_pages": [
+            "544"
+          ],
+          "name": "IMG_5007.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "composite-ac-priority",
+      "concept_id": "composite",
+      "kind": "context_dependency",
+      "proposition": "The original composite assessment prioritizes Ascendant and its ruler.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Still requires full ruler condition; a name alone is insufficient."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mDkn1o1lYFOWYuhITN-upLNAPfO3s7Jd",
+          "content_sha256": "7bb704aa60345b0649bbced9815c30eb0c2b2b91b96dedf409e32111f025c280",
+          "original_printed_pages": [
+            "545"
+          ],
+          "name": "IMG_5009.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "composite-fourth-priority",
+      "concept_id": "composite",
+      "kind": "context_dependency",
+      "proposition": "The original composite assessment explicitly includes fourth-house condition and its ruler.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Preserve the natural chart and all relevant conditions."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mDkn1o1lYFOWYuhITN-upLNAPfO3s7Jd",
+          "content_sha256": "7bb704aa60345b0649bbced9815c30eb0c2b2b91b96dedf409e32111f025c280",
+          "original_printed_pages": [
+            "545"
+          ],
+          "name": "IMG_5009.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "composite-fifth-priority",
+      "concept_id": "composite",
+      "kind": "context_dependency",
+      "proposition": "The original composite assessment explicitly includes fifth-house condition and its ruler.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "No source-approved weighting algorithm follows from this priority list."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mDkn1o1lYFOWYuhITN-upLNAPfO3s7Jd",
+          "content_sha256": "7bb704aa60345b0649bbced9815c30eb0c2b2b91b96dedf409e32111f025c280",
+          "original_printed_pages": [
+            "545"
+          ],
+          "name": "IMG_5009.JPG"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "descendant-discernment",
+      "concept_id": "anchors",
+      "kind": "descriptive_meaning",
+      "proposition": "Descendant includes discerning what external contact is admitted into one's personal world.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Its coordinate alone does not implement the meaning; sign/ruler context remains required."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1YN23XcAitoYMAzy-7XPQFowBKX996Npi",
+          "content_sha256": "41dbf34d5899983c7006d697ffca2865df802921a88e6728541c2c63c1b386fa",
+          "original_printed_pages": [
+            "641"
+          ],
+          "name": "IMG_5111.jpg"
+        },
+        {
+          "file_id": "1ld7hy7fz6g2bJxQtStKcsbSPjyFp-v9q",
+          "content_sha256": "1fb9443a4bf44bfb15f58e633e524adf0104cda093c25648f31862c6a5c00364",
+          "original_printed_pages": [
+            "642"
+          ],
+          "name": "IMG_5237.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency-personal-control",
+      "concept_id": "agency",
+      "kind": "explicit_caution",
+      "proposition": "The source distinguishes personal choice and action from control of the universe or other people.",
+      "applicability": "Listed original example or concept; complete chart context required for personal application.",
+      "exclusions_and_limits": [
+        "Do not turn interpretation into a promise of control or guaranteed outcome."
+      ],
+      "witnesses": [
+        {
+          "file_id": "1N5t_c0fNQ_NLHYsdtjSTpCMsFwpuG2mj",
+          "content_sha256": "86164c1627ecff72f4cea94de54ae7a53f1a10c7349bd0257f50a21829a98fc4",
+          "original_printed_pages": [
+            "487"
+          ],
+          "name": "IMG_4942.jpg"
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spark-original-sign-derivation",
+      "concept_id": "spark-entry",
+      "kind": "competing_formula_description",
+      "proposition": "Printed234 explicitly develops the odd/even sign derivation as Alchemystic Degree Theory.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain competing house-parity instructions and conflicting worked cases; no canonical execution approval."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1-2VEig2PpqXaj3So9b7Wh1U8wmyGBM-c",
+          "name": "IMG_4655.jpg",
+          "content_sha256": "9601d49b0a134314a0b6d0ffc51a767e22327435a3dc59af21317e5b94a6acbf",
+          "original_printed_pages": [
+            "234"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spark-original-modulus-development",
+      "concept_id": "spark-entry",
+      "kind": "worked_example",
+      "proposition": "Printed233 illustrates 218 modulo12 yielding2 and ordinal3 Gemini within the exploratory degree derivations.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Development history does not determine precedence over the later house procedure."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1TaYxiP-8GAZKI3ZKfhoC1QUMLeJ56xsR",
+          "name": "IMG_4654.jpg",
+          "content_sha256": "ad9b3ff6238e69898a993f5a2b89fa95ef8c6631182e801dd834ec4a4fb5250a",
+          "original_printed_pages": [
+            "233"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spark-progressed-original509",
+      "concept_id": "spark-entry",
+      "kind": "competing_worked_example",
+      "proposition": "The progressed MC14:50 Gemini H10 and Mercury2:28 Leo H12 are each labelled Gemini Spark.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "House-parity candidate differs; preserve both printed labels and do not repair them silently."
+      ],
+      "requires_concepts": [
+        "core-trinity",
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1m_OXOnujdJg1pYXHYbMffqfqsUdVZCe9",
+          "name": "IMG_4970.jpg",
+          "content_sha256": "6ee6c3a7283406d15be1a455cd7389971ef2d46b64296f3b88ba1eb70c04722e",
+          "original_printed_pages": [
+            "509"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spark-relocated-original511",
+      "concept_id": "spark-entry",
+      "kind": "competing_worked_example",
+      "proposition": "Relocated MC18:39 Pisces H9 is labelled Aries Spark.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "House-parity candidate gives Libra; exact chart inputs remain unverified."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ywwOKN0igg1WyQhvIx39SreCaWmIVHnW",
+          "name": "IMG_4972.JPG",
+          "content_sha256": "c244e6d89e772b65d33f24b825ff06d38fd6b7746a0f1ef163b86d83caf4c834",
+          "original_printed_pages": [
+            "511"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "receiver-anchor-natal-emitter-radius",
+      "concept_id": "directional-context",
+      "kind": "contextual_exception",
+      "proposition": "A natal anchor is associated when it lies within the planet's OOI; the anchor does not emit.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No universal receiver catalog or all-aspect band specification follows."
+      ],
+      "requires_concepts": [
+        "anchors"
+      ],
+      "witnesses": [
+        {
+          "file_id": "10GRylqxqQZ_vqCyb5CsrS2uZI3vBM7Y2",
+          "name": "IMG_5092.JPG",
+          "content_sha256": "24d57326c89462a0da6e727229c06b790dd4b9f1facc6ed6ec6b01aa3bbd69b2",
+          "original_printed_pages": [
+            "625"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "receiver-anchor-transit-exact",
+      "concept_id": "anchors",
+      "kind": "activation_specification",
+      "proposition": "Transit activation of a Vitality Anchor must be exact, distinct from natal OOI association.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Exact-contact tolerance, event time scale and equality ownership remain unspecified."
+      ],
+      "requires_concepts": [
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "10GRylqxqQZ_vqCyb5CsrS2uZI3vBM7Y2",
+          "name": "IMG_5092.JPG",
+          "content_sha256": "24d57326c89462a0da6e727229c06b790dd4b9f1facc6ed6ec6b01aa3bbd69b2",
+          "original_printed_pages": [
+            "625"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-matched-retrograde",
+      "concept_id": "sophia",
+      "kind": "motion_specification",
+      "proposition": "The passage states that osculating Lilith retrograde implies osculating Sophia retrograde.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Verify latitude/frame, speed conventions and independent numerical fixtures before implementation."
+      ],
+      "requires_concepts": [
+        "lilith"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1dbl3yje8UCmLIPx3CIoq7S9RHRgC5d6C",
+          "name": "IMG_5087.JPG",
+          "content_sha256": "4138fe8242adf9e5b7c3f2a011b836700ad051784b5c4c54eb174d7a2c923bc6",
+          "original_printed_pages": [
+            "620"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-arc-endpoints",
+      "concept_id": "lunar-arcs",
+      "kind": "construction_specification",
+      "proposition": "Sophia's arc is formed between mean and true Sophia, with the first encountered endpoint setting the inward/outward trajectory.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The source does not explicitly settle shortest versus directed arc, wrap or endpoint equality."
+      ],
+      "requires_concepts": [
+        "sophia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1sWgk46z-UueF2pct-Vl8Aze4rZAB3_tq",
+          "name": "IMG_5090.JPG",
+          "content_sha256": "bd47ceec55dd8d0e461176eededfb9e44a3265283c9d9b4c9390dd59ed3b8a20",
+          "original_printed_pages": [
+            "623"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sophia-arc-regardless-ooi",
+      "concept_id": "lunar-arcs",
+      "kind": "contextual_exception",
+      "proposition": "The within-arc gradient depends on closeness to the endpoints regardless of OOI.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No interpolation function or endpoint inclusion algorithm is supplied."
+      ],
+      "requires_concepts": [
+        "sophia",
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1nF0yOF-rauBcFPPUMuIyBU86XIhsEmVo",
+          "name": "IMG_5091.JPG",
+          "content_sha256": "f75b2c9aeba74331a171551de5358a2b9364eb9d13ea621255bb6e98eb2383e0",
+          "original_printed_pages": [
+            "624"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lilith-arc-endpoints-original",
+      "concept_id": "lunar-arcs",
+      "kind": "construction_specification",
+      "proposition": "The Lilith arc spans mean and true Lilith and filters placements within it.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Juno near the midpoint is an example occupant; a midpoint must not replace the arc or endpoints."
+      ],
+      "requires_concepts": [
+        "lilith"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1-TDTieJDtJOcTc58Z8lY77wEKk9bQpX2",
+          "name": "IMG_5083.JPG",
+          "content_sha256": "a9c8ffaeec1c21c96e06cdadd73ba1cd46b9aec953fbb4adc0bffdf7811c0f08",
+          "original_printed_pages": [
+            "616"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lunar-no-interpolated-substitution",
+      "concept_id": "lilith",
+      "kind": "explicit_exclusion",
+      "proposition": "The source excludes interpolated points and replacement by an arc midpoint.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is a source fidelity constraint; independent ephemeris frame validation remains necessary."
+      ],
+      "requires_concepts": [
+        "lunar-arcs"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1TuWkvSM_WyLPVgO42krIaPZmD9uDFQ3t",
+          "name": "IMG_5081.JPG",
+          "content_sha256": "20efe5329049c2fc487ddcd234c67aa1d13a05c4b36fe4b07c914e4446bbe132",
+          "original_printed_pages": [
+            "614"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lunar-diagram-recovered612",
+      "concept_id": "lilith",
+      "kind": "diagram_witness",
+      "proposition": "Both provider IDs preserve the same original612 ellipse diagram with apogee/perigee and orbital/empty foci.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Exact byte duplicate counts as two acquired file identities and one content witness, not two pages."
+      ],
+      "requires_concepts": [
+        "sophia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LdnHU8Z8MZmb4kwLPkHrWl_2yhL5FbDK",
+          "name": "IMG_5079.jpg",
+          "content_sha256": "c69b56ca2da6f8067b392c900191aed96546a314fbb6b5278c51024c9faa6fee",
+          "original_printed_pages": [
+            "612"
+          ]
+        },
+        {
+          "file_id": "1plU43ZSqvEA8NmCYEek3JMtm7716wXcN",
+          "name": "IMG_5079.jpg",
+          "content_sha256": "c69b56ca2da6f8067b392c900191aed96546a314fbb6b5278c51024c9faa6fee",
+          "original_printed_pages": [
+            "612"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fca-after-boundary-interamnia-original",
+      "concept_id": "fringe-fca",
+      "kind": "contextual_counterexample",
+      "proposition": "Original732 says Interamnia0:12 Virgo H2 is influenced by H1 and H2 from H2.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Supports post-boundary blending, but does not specify weights, all scales, equality or retrograde rules."
+      ],
+      "requires_concepts": [
+        "asteroid-interamnia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1PsVkQfphy5AKYhk6IOP-6YyWO1egB8Ee",
+          "name": "IMG_5413.JPG",
+          "content_sha256": "4afa75a99d37a681bfc8e38ece1f1b0a73f64f433f980bfe5f7494449326a9ce",
+          "original_printed_pages": [
+            "732"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fca-sophia-rounded-example",
+      "concept_id": "fringe-fca",
+      "kind": "worked_example_limit",
+      "proposition": "Mean Sophia at29 Gemini H11 is called FCA in original620.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No arcminute is supplied; do not treat rounded29 as evidence for a different FCA threshold."
+      ],
+      "requires_concepts": [
+        "sophia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1dbl3yje8UCmLIPx3CIoq7S9RHRgC5d6C",
+          "name": "IMG_5087.JPG",
+          "content_sha256": "4138fe8242adf9e5b7c3f2a011b836700ad051784b5c4c54eb174d7a2c923bc6",
+          "original_printed_pages": [
+            "620"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "return-natal-baseline-original",
+      "concept_id": "returns",
+      "kind": "contextual_rule",
+      "proposition": "Aspect resonance resets natal planetary themes and keeps natal rather than relocated energies as the reference.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Short duration is not a numerical phase-selection, tolerance or re-entry algorithm."
+      ],
+      "requires_concepts": [
+        "core-trinity"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1GgBxi1K6ZbiX_7HvCA5wFixbgXlJzMhN",
+          "name": "IMG_4975.JPG",
+          "content_sha256": "28fbcacde94db0a6b541df1b65c59ed301f9eb0baf84a80a7697c4b06dc9c921",
+          "original_printed_pages": [
+            "514"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "directional-semisextile-sides-original",
+      "concept_id": "natal-transit-order",
+      "kind": "directional_example",
+      "proposition": "The two Moon/Sun semi-sextile diagrams distinguish applying from H4 into H5 from the reversed H5-to-H6 perspective.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The illustrative30-degree separation may cross different house patterns; it is not a complete directed aspect engine."
+      ],
+      "requires_concepts": [
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ZPuKl6g7Bb0WhtImAlnNpsLl9k-W34VX",
+          "name": "IMG_4962.jpg",
+          "content_sha256": "885b00169b1dc63e038a7d32771c765c9ab25c6caee160a8806b0d5fe02c798f",
+          "original_printed_pages": [
+            "501"
+          ]
+        },
+        {
+          "file_id": "1FoQUGkZDtce3IewW89JwH6UFUjf1Esh9",
+          "name": "IMG_4963.jpg",
+          "content_sha256": "5e4e2448823f4aae869bba51f773d3e8ce97b3f99edeae03ba1fed99dd295759",
+          "original_printed_pages": [
+            "502"
+          ]
+        },
+        {
+          "file_id": "1G66MclE-HywwkLQYhFsZUYy79hwfu3M1",
+          "name": "IMG_4964.jpg",
+          "content_sha256": "e86a29c85221bc69c80d342481c383d1db2e99426bede175e909e3975466da7e",
+          "original_printed_pages": [
+            "503"
+          ]
+        },
+        {
+          "file_id": "1u0evqR1H8vC4NnV1HA3BvSt_Nvr4fEW-",
+          "name": "IMG_4965.jpg",
+          "content_sha256": "96a6e0863214e9cd1b3b899fd4c0dfcfeeda5a1986d8a742bf59010dff5f8e6b",
+          "original_printed_pages": [
+            "504"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "flora-dispersed-actions",
+      "concept_id": "asteroid-flora",
+      "kind": "descriptive_meaning",
+      "proposition": "Flora concerns actions and methods spreading into wider lives and systems through fragmentation and dispersal.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not substitute generic fertility mythology, personal history or literal meteorite causation."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "10oUDqlU77U7onw6VMLygGnfBOOMjXY9R",
+          "name": "IMG_5401.JPG",
+          "content_sha256": "0e36345a953bbb0246b1491825fbe448bc8c42921afd16663fc04088df068695",
+          "original_printed_pages": [
+            "720"
+          ]
+        },
+        {
+          "file_id": "1MiskBKsURFGpWS8ldW0z4NzEZiXZjU4n",
+          "name": "IMG_5402.JPG",
+          "content_sha256": "2f564dbc544a39369063b7ab15d11aeb73537d9807af5c5e321e4f139a3493f6",
+          "original_printed_pages": [
+            "721"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "flora-comparison-original",
+      "concept_id": "asteroid-flora",
+      "kind": "explicit_exclusion",
+      "proposition": "The comparative entry distinguishes Flora's dispersal theme from the literal flowers/fertility reading.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Author accuracy ratings are not empirical measurements."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1L1q-Yi87uBiIgaRpG0wpir9Kz53kLpen",
+          "name": "IMG_5456.JPG",
+          "content_sha256": "d37b04c2c151af8e435246055399b58cbcb745c6e1fb25cdb5abcb4ac49d56e6",
+          "original_printed_pages": [
+            "773"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ixion-repeated-patterns",
+      "concept_id": "asteroid-ixion",
+      "kind": "descriptive_meaning",
+      "proposition": "Ixion describes unfinished patterns repeating and inward reworking during retrograde.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain glossary775's rule-breaking momentum as a separate witness; do not infer individual misconduct."
+      ],
+      "requires_concepts": [
+        "phsr",
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1aPsW0FfCe2fekt6pPTOYYzU2pGyr6n7o",
+          "name": "IMG_5415.JPG",
+          "content_sha256": "ac7a89513f935f1c10df62ba89c6ff0c9739882b4e802d2cc19532f0164470f6",
+          "original_printed_pages": [
+            "734"
+          ]
+        },
+        {
+          "file_id": "1lNUpt3qyDiTzdLfb6PcZRwCpKWDcEHaU",
+          "name": "IMG_5416.JPG",
+          "content_sha256": "247b51374702ceaefa711453859c6d08b65c41431ee664d21895b6bb7e17e9b2",
+          "original_printed_pages": [
+            "735"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "ixion-comparison-momentum",
+      "concept_id": "asteroid-ixion",
+      "kind": "comparative_meaning",
+      "proposition": "The comparative entry characterizes Ixion as rule-breaking momentum.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is not identical wording to the dedicated repetition chapter; preserve both without blending away their differences."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1EfWaS3lM35NY6xKERwkDE2Y86L5tMnsm",
+          "name": "IMG_5458.JPG",
+          "content_sha256": "a152df1e6bcadd7cf8b0ca44d0af758cf4f53f9ab582be0430030716f32e19ed",
+          "original_printed_pages": [
+            "775"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "nessus-transmitted-residue",
+      "concept_id": "asteroid-nessus",
+      "kind": "descriptive_meaning",
+      "proposition": "Nessus concerns transmission of inherited residue, distinguished from the wound itself, and recognizing cycles that can be interrupted.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Never infer abuse, trauma or diagnosis about a person from a placement."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mDe50j5I-36ZdDkVa9xJ1yNWIuqRtUbD",
+          "name": "IMG_5431.JPG",
+          "content_sha256": "4403d8d7306bf326bca517274318ce23293bd49a4e2555da386c0cf4ecc9880e",
+          "original_printed_pages": [
+            "749"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "nessus-retrograde-inward",
+      "concept_id": "asteroid-nessus",
+      "kind": "contextual_exception",
+      "proposition": "Retrograde Nessus is described as inward sensitivity and the burden of identifying repeating inherited patterns.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Source language is interpretive, not proof of a psychological condition or treatment."
+      ],
+      "requires_concepts": [
+        "phsr",
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mDe50j5I-36ZdDkVa9xJ1yNWIuqRtUbD",
+          "name": "IMG_5431.JPG",
+          "content_sha256": "4403d8d7306bf326bca517274318ce23293bd49a4e2555da386c0cf4ecc9880e",
+          "original_printed_pages": [
+            "749"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "nessus-comparison-entanglement",
+      "concept_id": "asteroid-nessus",
+      "kind": "comparative_meaning",
+      "proposition": "Comparative777 emphasizes destructive entanglement and repetition alongside dedicated749's transmitted residue.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep both scopes and do not turn the author rating into measured accuracy."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1mndkmiSRBBjNu8kdRrm-ApBTVUYLmp_v",
+          "name": "IMG_5460.JPG",
+          "content_sha256": "bdf38b6c62c5b892706a973ee5583971a626aa1dc6f05d4c14a191f0131613a9",
+          "original_printed_pages": [
+            "777"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sedna-delayed-consequence",
+      "concept_id": "asteroid-sedna",
+      "kind": "descriptive_meaning",
+      "proposition": "Sedna concerns long-delayed consequences of longstanding causes becoming visible.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No deterministic forecast, causal physical proof or known personal history follows."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+          "name": "IMG_5440.JPG",
+          "content_sha256": "834ffa6fd485fddf47e680c59ea7ffce476bc3f7a7cc2231810345859446c73f",
+          "original_printed_pages": [
+            "758"
+          ]
+        },
+        {
+          "file_id": "1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+          "name": "IMG_5441.JPG",
+          "content_sha256": "ec801689d33aef038d628e64d83e91d76dac83f76243ba89c79ab40d8068407b",
+          "original_printed_pages": [
+            "759"
+          ]
+        },
+        {
+          "file_id": "1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+          "name": "IMG_5442.jpg",
+          "content_sha256": "e4661e8e463776e5a62d49c386359b713aaa91fe0d1179fe8b0002b1d3d9055b",
+          "original_printed_pages": [
+            "760"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "gonggong-opening-recovered",
+      "concept_id": "asteroid-gonggong",
+      "kind": "descriptive_meaning",
+      "proposition": "Gonggong frames exile and return as catalysts for rediscovery, including chosen creative retreat.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the narrower original meaning instead of importing mythology or generic catastrophe."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "15e22vas6l8OyiL_aDVAULZcl6s9oZtVZ",
+          "name": "IMG_5406.JPG",
+          "content_sha256": "c748bb1244fd9e7b4efcbafb6af60b1a0f5980e04b0fc286c742f9b317c181bc",
+          "original_printed_pages": [
+            "725"
+          ]
+        },
+        {
+          "file_id": "1JTWmLQWcpLosZE_EdHyi_u2jl7QKPX-J",
+          "name": "IMG_5407.JPG",
+          "content_sha256": "b35e93a03e4277088687a852dff6eaf459eb91e5f6817d21203d751792c45492",
+          "original_printed_pages": [
+            "726"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "iris-fragment-recovered",
+      "concept_id": "asteroid-iris",
+      "kind": "descriptive_meaning",
+      "proposition": "Iris concerns clarity and exposing what is present without itself transforming it.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The example does not establish another person's honesty, health or motives."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1PsVkQfphy5AKYhk6IOP-6YyWO1egB8Ee",
+          "name": "IMG_5413.JPG",
+          "content_sha256": "4afa75a99d37a681bfc8e38ece1f1b0a73f64f433f980bfe5f7494449326a9ce",
+          "original_printed_pages": [
+            "732"
+          ]
+        },
+        {
+          "file_id": "1pdGhmlCJLfR9rKh3tTWjASE4OCMxQf5z",
+          "name": "IMG_5414.JPG",
+          "content_sha256": "b0fcb94583d635b4ee6fc2a0b1cb60027af7032083da56e4e1513e7be343273c",
+          "original_printed_pages": [
+            "733"
+          ]
+        },
+        {
+          "file_id": "1EfWaS3lM35NY6xKERwkDE2Y86L5tMnsm",
+          "name": "IMG_5458.JPG",
+          "content_sha256": "a152df1e6bcadd7cf8b0ca44d0af758cf4f53f9ab582be0430030716f32e19ed",
+          "original_printed_pages": [
+            "775"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "salacia-fragment-recovered",
+      "concept_id": "asteroid-salacia",
+      "kind": "descriptive_meaning",
+      "proposition": "Salacia concerns bonds maintained by shared pull through separation and recurring connection.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not assume permanent partnership, compatibility or literal binary-orbit causation."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zq3vFBo4casiqhN0tZFxtx4SZGJtLAQY",
+          "name": "IMG_5438.JPG",
+          "content_sha256": "1769e32e10fad827676799019db69c9ccfabf5bcf6e8435fe48a3772285bb945",
+          "original_printed_pages": [
+            "756"
+          ]
+        },
+        {
+          "file_id": "19D70EJGnSp47sJF9k07rI3wXdOa437Cd",
+          "name": "IMG_5439.jpg",
+          "content_sha256": "8c333983de40d14356cde4d12d4e46bf6b6616f3158c7ac466f61f88e2a7dfea",
+          "original_printed_pages": [
+            "757"
+          ]
+        },
+        {
+          "file_id": "1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+          "name": "IMG_5440.JPG",
+          "content_sha256": "834ffa6fd485fddf47e680c59ea7ffce476bc3f7a7cc2231810345859446c73f",
+          "original_printed_pages": [
+            "758"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sylvia-fragment-recovered",
+      "concept_id": "asteroid-sylvia",
+      "kind": "descriptive_meaning",
+      "proposition": "Sylvia concerns workable cohesion among fragments without requiring a single monolithic core.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This chapter meaning does not supply an OOI catalog or a contextual report engine."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+          "name": "IMG_5442.jpg",
+          "content_sha256": "e4661e8e463776e5a62d49c386359b713aaa91fe0d1179fe8b0002b1d3d9055b",
+          "original_printed_pages": [
+            "760"
+          ]
+        },
+        {
+          "file_id": "1MEwKpdpUd1AsNNKRvlywLuAJCwi5RgRx",
+          "name": "IMG_5443.JPG",
+          "content_sha256": "0e864d599e544c7c04d9ca2685f3513704e654c69a72d2ae9484158586948455",
+          "original_printed_pages": [
+            "761"
+          ]
+        },
+        {
+          "file_id": "1vnyZUHrhr7AifZcsVD2EniuRwOid8M6B",
+          "name": "IMG_5444.jpg",
+          "content_sha256": "18c92dab5f0bcae0c764c280f2a1bc1db9a37ca37ddc34a27938c30509455a67",
+          "original_printed_pages": [
+            "762"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "elektra-closing-recovered",
+      "concept_id": "asteroid-elektra",
+      "kind": "descriptive_meaning",
+      "proposition": "Elektra closing describes hidden effort and complex pieces coordinating into functioning mastery.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain the previously reviewed opening707 and comparison771; no personal mastery claim is established."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1XH-H0PWVFPWFy76N2idJ7kaqWdtG3YeQ",
+          "name": "IMG_5389.jpg",
+          "content_sha256": "5a17a08af45459aba9236447f9d353baecc02e229b7a4d53a2f847d0ee21c79c",
+          "original_printed_pages": [
+            "708"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "juno-excludes-infidelity-tracking",
+      "concept_id": "asteroid-juno",
+      "kind": "explicit_exclusion",
+      "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The source does not license claims about cheating, soulmates or another person's behavior."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1lNUpt3qyDiTzdLfb6PcZRwCpKWDcEHaU",
+          "name": "IMG_5416.JPG",
+          "content_sha256": "247b51374702ceaefa711453859c6d08b65c41431ee664d21895b6bb7e17e9b2",
+          "original_printed_pages": [
+            "735"
+          ]
+        },
+        {
+          "file_id": "1hFGbk9rqtbKhAvjoIPIkBOKJMGrk5Mfm",
+          "name": "IMG_5417.JPG",
+          "content_sha256": "735af7621888451e363ea502d3a6636f0083b9cae839089d852eb84e9b865225",
+          "original_printed_pages": [
+            "736"
+          ]
+        },
+        {
+          "file_id": "1KRCsen0JmGVXWM8CVqp3_vSLjfidkBGW",
+          "name": "IMG_5418.JPG",
+          "content_sha256": "4e3a8378cb0d62f57220e3ae8157fbd7472702914e3679defb73bf6209da2df3",
+          "original_printed_pages": [
+            "737"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spark-original-house-procedure",
+      "concept_id": "spark-entry",
+      "kind": "competing_formula_specification",
+      "proposition": "Printed235 explicitly applies degree modulo12 plus ordinal1 to odd houses and takes the opposite sign in even houses; Juno5 in H6 is labelled Pisces.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Printed234 develops sign parity and later examples remain mixed. No source-issued precedence is established."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1cY5Ih6NDZDJOMBTwx0pHcB3EoJMakSfR",
+          "name": "IMG_4656.jpg",
+          "content_sha256": "ed3997ae2c87806f2e146c83bdc493a105dcaac3b4b4d6053011d5b067450c3c",
+          "original_printed_pages": [
+            "235"
+          ]
+        },
+        {
+          "file_id": "1TSj1oBg6QUgH-VMjuM83cTd-b0MLhU69",
+          "name": "IMG_4657.jpg",
+          "content_sha256": "d8363d5427257ad4074a2358a4b7b37cb32de9a4c5f915d4a31ed210deb30344",
+          "original_printed_pages": [
+            "236"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    }
+  ]
+}

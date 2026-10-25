@@ -1,0 +1,236 @@
+# Original 18-section material-context reconciliation
+
+This reconciles every comma-separated fragment and its compound requirements against the original table. It is a requirements denominator, not the denominator of all knowledge in the book. No section is ready for a personal report. Original scans and compiled witnesses remain separately identified.
+
+| Original section | Original fragments | Atomic tasks | Dispositions |
+|---|---:|---:|---|
+| Personal foundation | 5 | 40 | contradictory: 2; source found but implementation missing: 26; source incomplete: 12 |
+| Planetary condition | 3 | 5 | source found but implementation missing: 5 |
+| House condition | 4 | 5 | source found but implementation missing: 5 |
+| Retrograde profile | 3 | 4 | source found but implementation missing: 4 |
+| Directed relationships | 6 | 12 | contradictory: 1; source found but implementation missing: 3; source incomplete: 8 |
+| Purpose and public/private expression | 4 | 11 | source found but implementation missing: 11 |
+| Fortune, Spirit and Love | 4 | 7 | source found but implementation missing: 6; source incomplete: 1 |
+| Lunar context | 4 | 8 | source found but implementation missing: 6; source incomplete: 2 |
+| Declination | 3 | 4 | source found but implementation missing: 3; source incomplete: 1 |
+| Resolution/patterns | 5 | 6 | source found but implementation missing: 6 |
+| Additional bodies | 3 | 57 | contradictory: 1; source found but implementation missing: 26; source incomplete: 30 |
+| Daily/current sky | 5 | 7 | source found but implementation missing: 5; source incomplete: 2 |
+| Annual/age timing | 5 | 6 | source incomplete: 6 |
+| Dynamic layers | 3 | 5 | source incomplete: 5 |
+| Return phases | 3 | 5 | source incomplete: 5 |
+| Two-person relationships | 4 | 11 | source found but implementation missing: 6; source incomplete: 5 |
+| Location | 4 | 6 | source found but implementation missing: 1; source incomplete: 5 |
+| Special contexts | 6 | 8 | source found but implementation missing: 3; source incomplete: 5 |
+
+The machine-readable ledger includes source/page hashes, original scan IDs/hashes, dependencies, calculation files/tests, inspected product paths, separate retrieval/report-use stages, selected examples and missing interpretation tests for each task.
+
+| Task | Original fragment | Atomic requirement | Witnesses | Disposition |
+|---|---|---|---|---|
+| M01-01-01 | Ordered PHSR+ | PHSR+ ordered assembler | PDF 179,283,284; original 420,426,447,450,461 | source found but implementation missing |
+| M01-02-01 | source vocabulary | Sun vocabulary | PDF 193,234; original 418 | source found but implementation missing |
+| M01-02-02 | source vocabulary | Moon vocabulary | PDF 193,232; original 418 | source found but implementation missing |
+| M01-02-03 | source vocabulary | Mercury vocabulary | PDF 177; original not reviewed | source found but implementation missing |
+| M01-02-04 | source vocabulary | Venus vocabulary | PDF 154,177; original not reviewed | source found but implementation missing |
+| M01-02-05 | source vocabulary | Mars vocabulary | PDF 154,155; original not reviewed | source found but implementation missing |
+| M01-02-06 | source vocabulary | Jupiter vocabulary | PDF 155,176,180; original not reviewed | source found but implementation missing |
+| M01-02-07 | source vocabulary | Saturn vocabulary | PDF 176; original not reviewed | source found but implementation missing |
+| M01-02-08 | source vocabulary | Uranus vocabulary | PDF 166,176; original not reviewed | source found but implementation missing |
+| M01-02-09 | source vocabulary | Neptune vocabulary | PDF 166; original not reviewed | source found but implementation missing |
+| M01-02-10 | source vocabulary | Pluto vocabulary | PDF 149,169; original 379 | source found but implementation missing |
+| M01-02-11 | source vocabulary | House 1 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-12 | source vocabulary | House 2 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-13 | source vocabulary | House 3 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-14 | source vocabulary | House 4 thematic Field | PDF 384; original 417,418,441,453,454,455 | source found but implementation missing |
+| M01-02-15 | source vocabulary | House 5 thematic Field | PDF 384; original 419,425,441,458 | source found but implementation missing |
+| M01-02-16 | source vocabulary | House 6 thematic Field | PDF 384; original 455,456,457 | source found but implementation missing |
+| M01-02-17 | source vocabulary | House 7 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-18 | source vocabulary | House 8 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-19 | source vocabulary | House 9 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-20 | source vocabulary | House 10 thematic Field | PDF 384; original 417,419 | source found but implementation missing |
+| M01-02-21 | source vocabulary | House 11 thematic Field | PDF 384; original not reviewed | source found but implementation missing |
+| M01-02-22 | source vocabulary | House 12 thematic Field | PDF 384; original 425,439 | source found but implementation missing |
+| M01-02-23 | source vocabulary | Aries sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-24 | source vocabulary | Taurus sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-25 | source vocabulary | Gemini sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-26 | source vocabulary | Cancer sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-27 | source vocabulary | Leo sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-28 | source vocabulary | Virgo sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-29 | source vocabulary | Libra sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-30 | source vocabulary | Scorpio sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-31 | source vocabulary | Sagittarius sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-32 | source vocabulary | Capricorn sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-33 | source vocabulary | Aquarius sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-34 | source vocabulary | Pisces sign vocabulary | PDF 179,274,289,290,291; original not reviewed | source incomplete |
+| M01-02-35 | source vocabulary | Degree entry meaning | PDF 292,293,433,434,458; original 508,510,557,c,ab,232,233,234,509,511,235,236,303,304,305 | contradictory |
+| M01-02-36 | source vocabulary | Decan layer meaning | PDF 179,274,289,290,291; original not reviewed | source found but implementation missing |
+| M01-03-01 | templates | Rising templates | PDF 404,405,407; original 415,416 | source found but implementation missing |
+| M01-04-01 | unresolved Spark | Canonical Spark parity | PDF 292,293,433,434,458; original 508,510,557,c,ab,232,233,234,509,511,235,236,303,304,305 | contradictory |
+| M01-05-01 | personal dialogue | Personal dialogue and known-fact separation | PDF 135,136,139,140,381,382,633,670,671,672,689,690; original 487,500,345,357,391,396,397,400,411,415,416,417,420,421,422,423,445,446 | source found but implementation missing |
+| M02-01-01 | Full incoming/outgoing relationships | Incoming directed relationships | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M02-01-02 | Full incoming/outgoing relationships | Outgoing directed relationships | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M02-02-01 | receiving condition | Receiving placement and ruler condition | PDF 258,259,280,283,295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,322,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,374,375,380,381,382,384,387,388,390,392,395,398,403,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M02-03-01 | Delegate payloads | Delegate payload preservation | PDF 258,259,280,283; original 322,374,382,403 | source found but implementation missing |
+| M02-03-02 | Delegate payloads | Delegate cycles and multiple responsibilities | PDF 258,259,280,283; original 322,374,382,403 | source found but implementation missing |
+| M03-01-01 | Empty-house meaning | Empty-house meaning | PDF 218,219,257; original not reviewed | source found but implementation missing |
+| M03-02-01 | ruler/occupant condition | House ruler condition | PDF 258,259,280,283; original 322,374,382,403 | source found but implementation missing |
+| M03-02-02 | ruler/occupant condition | Each occupant condition | PDF 150,151,161,172,179,283,284,477,478,479,480,481,482; original 347,349,346,330,352,362,385,408,420,426,447,450,461 | source found but implementation missing |
+| M03-03-01 | multiple themes | Multiple concurrent house themes | PDF 391,392; original 458,459 | source found but implementation missing |
+| M03-04-01 | Delegate retrograde | Delegate retrograde house context | PDF 271,272,273; original not reviewed | source found but implementation missing |
+| M04-01-01 | Body-specific natal versus transit meaning | Body-specific natal retrograde meaning | PDF 150,151,161,172,477,478,479,480,481,482; original 347,349,346,330,352,362,385,408 | source found but implementation missing |
+| M04-01-02 | Body-specific natal versus transit meaning | Body-specific transit retrograde meaning | PDF 150,151,161,172,174,175,331,332,426,428,477,478,479,480,481,482; original 244,245,246,497,498,499,494,495,496,501,502,503,504,347,349,346,339,340,330,310,581,587,522,352,362,385,408 | source found but implementation missing |
+| M04-02-01 | double-retrograde ordering | Sequential double retrograde reading | PDF 273; original not reviewed | source found but implementation missing |
+| M04-03-01 | template exceptions | Modern-ruler template exceptions | PDF 271,272,273,404,405,407; original 415,416 | source found but implementation missing |
+| M05-01-01 | Approved OOI graph | Complete approved per-body OOI catalog | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source incomplete |
+| M05-01-02 | Approved OOI graph | Directed contact graph | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source incomplete |
+| M05-02-01 | forced response | Forced response versus initiation | PDF 297,342,343,522,523,529; original 237,238,239,240,241,244,245,246,378,377,496,343,344,345,346,645,m,372,371,373,374,375,376,379,381,410 | source incomplete |
+| M05-03-01 | hand-offs | Conjunction hand-off | PDF 324,325,326,327,383; original 348,341,335,336,337,338,340,334,317,318,320,315,315,k,380,394 | source found but implementation missing |
+| M05-03-02 | hand-offs | Opposition 180 hand-off | PDF 324,325,326,327,383; original 348,341,335,336,337,338,340,334,317,318,320,315,315,k,380,394 | source found but implementation missing |
+| M05-04-01 | spectrum meanings | Aspect-specific spectrum bands | PDF 308,347,348,349,352,354,355,357,358,359,360,361; original 237,238,239,240,241,347,348,349,350,351,383,338,323,324,327,317,318,319,320,321,322,312,313,314,315,315,316,307,309,311,k,352,353,354,356,376,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,427,428,429,430,431,432,433,434,435,436,437 | source incomplete |
+| M05-04-02 | spectrum meanings | Aspect spectrum meanings | PDF 308,347,348,349,352,354,355,357,358,359,360,361; original 237,238,239,240,241,347,348,349,350,351,383,338,323,324,327,317,318,319,320,321,322,312,313,314,315,315,316,307,309,311,k,352,353,354,356,376,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,427,428,429,430,431,432,433,434,435,436,437 | source found but implementation missing |
+| M05-05-01 | Fringe/FCA | Fringe overlap meaning and transit activation | PDF 295,296,297,318,334,431,434,612,683; original 242,243,508,510,919,n,512,620,732,350,351,331,306,307,308,302,354,355,394,444 | source incomplete |
+| M05-05-02 | Fringe/FCA | FCA before-boundary thresholds | PDF 295,296,297,318,334,431,434,612,683; original 242,243,508,510,919,n,512,620,732,350,351,331,306,307,308,302,354,355,394,444 | contradictory |
+| M05-05-03 | Fringe/FCA | FCA after-boundary exceptions | PDF 295,296,297,318,334,431,434,612,683; original 242,243,508,510,919,n,512,620,732,350,351,331,306,307,308,302,354,355,394,444 | source incomplete |
+| M05-05-04 | Fringe/FCA | FCA retrograde handling | PDF 295,296,297,318,334,431,434,612,683; original 242,243,508,510,919,n,512,620,732,350,351,331,306,307,308,302,354,355,394,444 | source incomplete |
+| M05-06-01 | rolling clusters | Rolling clusters and forced members | PDF 340,341,342,343; original 378,m,372,355,356,357,358,359,360,361,369,370,371,373,374,375,381,393,427 | source incomplete |
+| M06-01-01 | Anchor meanings | Ascendant anchor meaning | PDF 517,518,519,520,521,522; original 641,642,624,625,351,337,645,653,375,399,440,441,442,443,444 | source found but implementation missing |
+| M06-01-02 | Anchor meanings | Descendant anchor meaning | PDF 517,518,519,520,521,522; original 641,642,624,625,351,337,645,653,375,399,440,441,442,443,444 | source found but implementation missing |
+| M06-01-03 | Anchor meanings | Midheaven anchor meaning | PDF 517,518,519,520,521,522; original 641,642,624,625,351,337,645,653,375,399,440,441,442,443,444 | source found but implementation missing |
+| M06-01-04 | Anchor meanings | IC anchor meaning | PDF 517,518,519,520,521,522; original 641,642,624,625,351,337,645,653,375,399,440,441,442,443,444 | source found but implementation missing |
+| M06-01-05 | Anchor meanings | Nonagesimal potential | PDF 539,540,541,542,543,544; original not reviewed | source found but implementation missing |
+| M06-01-06 | Anchor meanings | Subnonagesimal potential | PDF 539,540,541,542,543,544; original not reviewed | source found but implementation missing |
+| M06-02-01 | reset/overextension | Invertex reset and re-entry | PDF 530,533,534; original 653 | source found but implementation missing |
+| M06-02-02 | reset/overextension | Vertex overextension and visibility | PDF 524,526,527,528,529; original 653 | source found but implementation missing |
+| M06-03-01 | Axial Flow | Axial Flow loop | PDF 535,536,537; original not reviewed | source found but implementation missing |
+| M06-04-01 | full rulers and contacts | Full participating rulers | PDF 258,259,280,283; original 322,374,382,403 | source found but implementation missing |
+| M06-04-02 | full rulers and contacts | Full participating contacts | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M07-01-01 | Ordered formula meaning | Fortune ordered formula meaning | PDF 547,548,549,550,551,552,554,557,558,559; original not reviewed | source found but implementation missing |
+| M07-01-02 | Ordered formula meaning | Spirit ordered formula meaning | PDF 547,548,549,550,551,552,553,554,555,556,557,558,559; original not reviewed | source found but implementation missing |
+| M07-01-03 | Ordered formula meaning | Love ordered formula meaning | PDF 547,548,549,550,551,552,554,557,558,559; original not reviewed | source found but implementation missing |
+| M07-02-01 | operand condition | Ordered operand conditions | PDF 258,259,280,283,547,548,549,550,551,552,554,557,558,559; original 322,374,382,403 | source found but implementation missing |
+| M07-03-01 | exact activation | Exact Part activation convention | PDF 547,548,549,550,551,552,554,557,558,559; original not reviewed | source incomplete |
+| M07-04-01 | trigger versus expression | Trigger process | PDF 547,548,549,550,551,552,554,557,558,559; original not reviewed | source found but implementation missing |
+| M07-04-02 | trigger versus expression | Point expression | PDF 547,548,549,550,551,552,554,557,558,559; original not reviewed | source found but implementation missing |
+| M08-01-01 | Node integration/order | Mean and true node integration | PDF 327,479,495,496; original 342,401,402 | source found but implementation missing |
+| M08-01-02 | Node integration/order | Node interpretive ordering | PDF 327,479,495,496; original 342,401,402 | source found but implementation missing |
+| M08-02-01 | distinct Lilith meanings | Mean Lilith meaning | PDF 505,506,507; original 617,618,619,611,612,612,613,614,615,616,621,386,399,401,402 | source found but implementation missing |
+| M08-02-02 | distinct Lilith meanings | Osculating Lilith meaning | PDF 505,506,507; original 617,618,619,611,612,612,613,614,615,616,621,386,399,401,402 | source found but implementation missing |
+| M08-03-01 | arc filters | Lilith arc filter | PDF 507,508,512; original 617,618,619,614,616,620,623,624 | source incomplete |
+| M08-03-02 | arc filters | Sophia arc filter | PDF 507,508,512; original 617,618,619,614,616,620,623,624 | source incomplete |
+| M08-04-01 | missing Sophia construction | Mean Sophia construction | PDF 508,512; original 617,618,619,612,612,620,621,622,623,624 | source found but implementation missing |
+| M08-04-02 | missing Sophia construction | Osculating Sophia construction | PDF 508,512; original 617,618,619,612,612,620,621,622,623,624 | source found but implementation missing |
+| M09-01-01 | North/south context | North declination meaning | PDF 304,305,306; original 613,440,442 | source found but implementation missing |
+| M09-01-02 | North/south context | South declination meaning | PDF 304,305,306; original 613,440,442 | source found but implementation missing |
+| M09-02-01 | approved parallel tolerance | Approved parallel tolerance | PDF 304,305,306; original 613,440,442 | source incomplete |
+| M09-03-01 | OOB interpretation | Out-of-bounds interpretation | PDF 304,305,306; original 613,440,442 | source found but implementation missing |
+| M10-01-01 | FREE Theory | FREE Theory house relationships | PDF 383,384,391,392,411,412,415,416,417; original 460,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,461 | source found but implementation missing |
+| M10-02-01 | Vantage | Vantage and reverse perspective | PDF 322,324,327,383,416; original 363,364,500,504,341,342,336,323,328,358,359,360,361,362,365,366,367,368,369,428,448,449,451,452,453,454,456 | source found but implementation missing |
+| M10-03-01 | threading/triggers | Threading relationships | PDF 295,297,319,321,322,324,344,345,383,384,391,392,411,412,415,416,417,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,460,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,461 | source found but implementation missing |
+| M10-03-02 | threading/triggers | Trigger selection | PDF 295,297,319,321,322,324,344,345,383,384,391,392,411,412,415,416,417,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,460,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,461 | source found but implementation missing |
+| M10-04-01 | STQ entry | STQ entry and resolution order | PDF 415,416,417; original not reviewed | source found but implementation missing |
+| M10-05-01 | intra-house balancing | Intra-house balancing | PDF 391,392; original 458,459 | source found but implementation missing |
+| M11-01-01 | Chiron plus40 asteroid meaning records | Chiron: structural difference and insecurity | PDF 564,565,566,567,568,576,577,578,628; original 687,688,689,687,688,366,367,368 | source incomplete |
+| M11-01-02 | Chiron plus40 asteroid meaning records | Apophis source meaning | PDF 580,581,582; original not reviewed | source found but implementation missing |
+| M11-01-03 | Chiron plus40 asteroid meaning records | Astraea source meaning | PDF 584,585; original not reviewed | source found but implementation missing |
+| M11-01-04 | Chiron plus40 asteroid meaning records | Bamberga source meaning | PDF 587,588; original not reviewed | source found but implementation missing |
+| M11-01-05 | Chiron plus40 asteroid meaning records | Ceres source meaning | PDF 591,592; original not reviewed | source found but implementation missing |
+| M11-01-06 | Chiron plus40 asteroid meaning records | Cybele source meaning | PDF 595,596; original not reviewed | source found but implementation missing |
+| M11-01-07 | Chiron plus40 asteroid meaning records | Davida source meaning | PDF 599,600; original not reviewed | source found but implementation missing |
+| M11-01-08 | Chiron plus40 asteroid meaning records | Elektra source meaning | PDF 600; original 707,771,708 | source incomplete |
+| M11-01-09 | Chiron plus40 asteroid meaning records | Eris source meaning | PDF 601,602; original 708,709,710 | source found but implementation missing |
+| M11-01-10 | Chiron plus40 asteroid meaning records | Eros source meaning | PDF 603; original 710 | source found but implementation missing |
+| M11-01-11 | Chiron plus40 asteroid meaning records | Eunomia source meaning | PDF 603,604,629; original 711,712,713,772 | contradictory |
+| M11-01-12 | Chiron plus40 asteroid meaning records | Euphrosyne source meaning | PDF 605,606,629; original 713,772,714,715,716 | source found but implementation missing |
+| M11-01-13 | Chiron plus40 asteroid meaning records | Europa source meaning | PDF 606,607,629; original 772,716,717 | source found but implementation missing |
+| M11-01-14 | Chiron plus40 asteroid meaning records | Fama source meaning | PDF 608,609; original 718,719,773 | source found but implementation missing |
+| M11-01-15 | Chiron plus40 asteroid meaning records | Ganymed source meaning | PDF 609,610; original 721,722,723,724,773 | source incomplete |
+| M11-01-16 | Chiron plus40 asteroid meaning records | Gonggong source meaning | PDF 610; original 773,774,725,726 | source incomplete |
+| M11-01-17 | Chiron plus40 asteroid meaning records | Haumea source meaning | PDF 611,629; original 774,726,727,728 | source found but implementation missing |
+| M11-01-18 | Chiron plus40 asteroid meaning records | Hebe source meaning | PDF 611,612,629; original 774,728,729 | source found but implementation missing |
+| M11-01-19 | Chiron plus40 asteroid meaning records | Hygiea source meaning | PDF 630; original 774 | source incomplete |
+| M11-01-20 | Chiron plus40 asteroid meaning records | Icarus source meaning | PDF 611,612; original 774,775,729,730,731 | source found but implementation missing |
+| M11-01-21 | Chiron plus40 asteroid meaning records | Interamnia source meaning | PDF 612,613; original 775,731,732 | source incomplete |
+| M11-01-22 | Chiron plus40 asteroid meaning records | Iris source meaning | PDF 614; original 775,732,733 | source incomplete |
+| M11-01-23 | Chiron plus40 asteroid meaning records | Juno source meaning | PDF 615,616,630; original 737,776,735,736 | source found but implementation missing |
+| M11-01-24 | Chiron plus40 asteroid meaning records | Kleopatra source meaning | PDF 617,618,630; original 738,739,776 | source found but implementation missing |
+| M11-01-25 | Chiron plus40 asteroid meaning records | Makemake source meaning | PDF 618,630; original 740,741,742,743,776 | source incomplete |
+| M11-01-26 | Chiron plus40 asteroid meaning records | Metis source meaning | PDF 630; original 743,744,776,777 | source incomplete |
+| M11-01-27 | Chiron plus40 asteroid meaning records | Minerva source meaning | PDF 618; original 744,745,777,746 | source incomplete |
+| M11-01-28 | Chiron plus40 asteroid meaning records | Nemesis source meaning | PDF 619,620; original 777,746,747,748 | source found but implementation missing |
+| M11-01-29 | Chiron plus40 asteroid meaning records | Nyx source meaning | PDF 621,622,631; original 777,750,751 | source found but implementation missing |
+| M11-01-30 | Chiron plus40 asteroid meaning records | Orcus source meaning | PDF 631; original 751,752 | source incomplete |
+| M11-01-31 | Chiron plus40 asteroid meaning records | Pallas Athene source meaning | PDF 631; original 752,406 | source incomplete |
+| M11-01-32 | Chiron plus40 asteroid meaning records | Pholus source meaning | PDF 621,622,631; original 753,754 | source incomplete |
+| M11-01-33 | Chiron plus40 asteroid meaning records | Psyche source meaning | PDF 623; original 755,754 | source found but implementation missing |
+| M11-01-34 | Chiron plus40 asteroid meaning records | Quaoar source meaning | PDF 623; original 755,756 | source incomplete |
+| M11-01-35 | Chiron plus40 asteroid meaning records | Salacia source meaning | PDF 624; original 756,757,758 | source incomplete |
+| M11-01-36 | Chiron plus40 asteroid meaning records | Sylvia source meaning | PDF 624; original 760,761,762 | source incomplete |
+| M11-01-37 | Chiron plus40 asteroid meaning records | Thisbe source meaning | PDF 625,631; original 762,763 | source found but implementation missing |
+| M11-01-38 | Chiron plus40 asteroid meaning records | Toro source meaning | PDF 625,626,632; original 763,764 | source incomplete |
+| M11-01-39 | Chiron plus40 asteroid meaning records | Varda source meaning | PDF 626,632; original 764,765 | source incomplete |
+| M11-01-40 | Chiron plus40 asteroid meaning records | Varuna source meaning | PDF 627,628; original 765 | source found but implementation missing |
+| M11-01-41 | Chiron plus40 asteroid meaning records | Vesta source meaning | PDF 627,632; original 768 | source incomplete |
+| M11-01-42 | Chiron plus40 asteroid meaning records | Flora dedicated meaning | PDF none; original 720,721,773 | source found but implementation missing |
+| M11-01-43 | Chiron plus40 asteroid meaning records | Nessus dedicated meaning | PDF none; original 777,749,386 | source found but implementation missing |
+| M11-01-44 | Chiron plus40 asteroid meaning records | Ixion dedicated meaning | PDF none; original 775,734,735 | source found but implementation missing |
+| M11-01-45 | Chiron plus40 asteroid meaning records | Sedna dedicated meaning | PDF none; original 758,759,760 | source found but implementation missing |
+| M11-02-01 | fragment recovery | Recover Elektra chapter and figures | PDF 600; original 707,771,708 | source incomplete |
+| M11-02-02 | fragment recovery | Recover Eros chapter and figures | PDF 603; original 710 | source incomplete |
+| M11-02-03 | fragment recovery | Recover Gonggong chapter and figures | PDF 610; original 773,774,725,726 | source incomplete |
+| M11-02-04 | fragment recovery | Recover Iris chapter and figures | PDF 614; original 775,732,733 | source incomplete |
+| M11-02-05 | fragment recovery | Recover Salacia chapter and figures | PDF 624; original 756,757,758 | source incomplete |
+| M11-02-06 | fragment recovery | Recover Sylvia chapter and figures | PDF 624; original 760,761,762 | source incomplete |
+| M11-02-07 | fragment recovery | Recover Hygiea chapter and figures | PDF 630; original 774 | source incomplete |
+| M11-02-08 | fragment recovery | Recover Metis chapter and figures | PDF 630; original 743,744,776,777 | source incomplete |
+| M11-02-09 | fragment recovery | Recover Orcus chapter and figures | PDF 631; original 751,752 | source incomplete |
+| M11-02-10 | fragment recovery | Recover Pallas chapter and figures | PDF 631; original 752,406 | source incomplete |
+| M11-03-01 | full contextual conditions and OOIs | Body-specific full conditions | PDF 179,258,259,280,283,284; original 322,374,382,403,420,426,447,450,461 | source found but implementation missing |
+| M11-03-02 | full contextual conditions and OOIs | Additional-body outgoing OOIs | PDF 295,297,319,321,322,324,344,345,457; original 237,238,239,240,241,242,243,244,245,246,363,364,378,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source incomplete |
+| M12-01-01 | Sky-to-sky condition first | Sky-to-sky condition before overlay | PDF 426,428,485,486,487; original 497,498,499,308 | source found but implementation missing |
+| M12-02-01 | personal overlays | Personal sky overlay | PDF 174,175,331,332,426,428,482; original 244,245,246,497,498,499,494,495,496,501,502,503,504,339,340,310,581,587,522 | source found but implementation missing |
+| M12-03-01 | both directions | Transit sender and natal receiver | PDF 174,175,297,331,332,342,343,426,428,482,522,523,529; original 237,238,239,240,241,244,245,246,378,497,498,499,377,494,495,496,501,502,503,504,343,344,345,346,339,340,310,581,587,645,m,372,522,371,373,374,375,376,379,381,410 | source incomplete |
+| M12-03-02 | both directions | Natal response without physical reverse emission | PDF 174,175,297,331,332,342,343,426,428,482,522,523,529; original 237,238,239,240,241,244,245,246,378,497,498,499,377,494,495,496,501,502,503,504,343,344,345,346,339,340,310,581,587,645,m,372,522,371,373,374,375,376,379,381,410 | source incomplete |
+| M12-04-01 | pass-through | Pass-through without direct contact | PDF 449,451; original 497,498,499,329 | source found but implementation missing |
+| M12-05-01 | WITH versus WHILE | Connected WITH context | PDF 449,450,451; original not reviewed | source found but implementation missing |
+| M12-05-02 | WITH versus WHILE | Concurrent WHILE context | PDF 449,450,451; original not reviewed | source found but implementation missing |
+| M13-01-01 | Vernal profections | Vernal first lived equinox | PDF 123,125,126,127; original not reviewed | source incomplete |
+| M13-02-01 | cycle overlay | Twelve-year cycle overlay | PDF 123,125,126,127; original not reviewed | source incomplete |
+| M13-03-01 | exact boundaries | Timing equality and ingress boundary ownership | PDF 123,125,126,127,299,300,301,302,303; original 257 | source incomplete |
+| M13-03-02 | exact boundaries | Timing longitude wrap | PDF 299,300,301,302,303; original 257 | source incomplete |
+| M13-04-01 | fractional dates | Fractional age-degree dates | PDF 299,300,301,302,303; original 257 | source incomplete |
+| M13-05-01 | retrograde delays | Retrograde activation delays | PDF 299,300,301,302,303; original 257 | source incomplete |
+| M14-01-01 | Progression algorithm | Progression planetary epoch mapping | PDF 430,431,433,434,435; original 491,493,507,508,510,537,489,490,505,506,509,512,353,389 | source incomplete |
+| M14-01-02 | Progression algorithm | Progression angular advancement | PDF 430,431,433,434,435; original 491,493,507,508,510,537,489,490,505,506,509,512,353,389 | source incomplete |
+| M14-01-03 | Progression algorithm | Progression time-scale and year-day units | PDF 430,431,433,434,435; original 491,493,507,508,510,537,489,490,505,506,509,512,353,389 | source incomplete |
+| M14-02-01 | explicit relocation comparison | Explicit natal-versus-relocated comparison | PDF 430,431,433,434,435,634,635,643,645,646,647; original 491,493,507,508,510,537,489,490,505,506,509,511,512,353,389 | source incomplete |
+| M14-03-01 | complete Core Trinity | Three-layer simultaneous context | PDF 430,431,433,434,435; original 491,493,507,508,510,537,489,490,505,506,509,512,353,389 | source incomplete |
+| M15-01-01 | Phase/re-entry conventions | Return phase selection | PDF 426,437,438,441,442,445,446,448; original 500,513,514,339,522 | source incomplete |
+| M15-01-02 | Phase/re-entry conventions | Retrograde re-entry precedence | PDF 426,437,438,441,442,445,446,448; original 500,513,514,339,522 | source incomplete |
+| M15-01-03 | Phase/re-entry conventions | Exact return phase boundary ownership | PDF 426,437,438,441,442,445,446,448; original 500,513,514,339,522 | source incomplete |
+| M15-02-01 | natal linkage | Retain natal linkage in each phase | PDF 426,437,438,441,442,445,446,448; original 500,513,514,339,522 | source incomplete |
+| M15-03-01 | concurrent luminary resonance | Concurrent luminary resonance | PDF 426,428,437,438,441,442,445,446,448,485,486,487; original 497,498,499,500,513,514,339,308,522 | source incomplete |
+| M16-01-01 | Both people's conditions and layers | Person A full condition | PDF 179,283,284,452,454,456,457,458,460; original 544,545,537,366,420,426,447,450,461 | source found but implementation missing |
+| M16-01-02 | Both people's conditions and layers | Person B full condition | PDF 179,283,284,452,454,456,457,458,460; original 544,545,537,366,420,426,447,450,461 | source found but implementation missing |
+| M16-01-03 | Both people's conditions and layers | Person A chart layers | PDF 430,431,433,434,435,452,454,456,457,458,460; original 491,493,507,508,510,544,545,537,489,490,505,506,509,512,353,366,389 | source incomplete |
+| M16-01-04 | Both people's conditions and layers | Person B chart layers | PDF 430,431,433,434,435,452,454,456,457,458,460; original 491,493,507,508,510,544,545,537,489,490,505,506,509,512,353,366,389 | source incomplete |
+| M16-02-01 | asymmetric reach | A-to-B asymmetric reach | PDF 295,297,319,321,322,324,344,345,452,454,456,457,458,460; original 237,238,239,240,241,242,243,244,245,246,363,364,378,544,545,537,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,366,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M16-02-02 | asymmetric reach | B-to-A asymmetric reach | PDF 295,297,319,321,322,324,344,345,452,454,456,457,458,460; original 237,238,239,240,241,242,243,244,245,246,363,364,378,544,545,537,501,502,503,625,383,343,344,335,329,330,332,333,334,324,325,326,327,328,319,321,312,306,310,311,257,279,302,303,304,305,581,587,645,653,822,k,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER,360,361,365,366,370,373,375,380,381,382,384,387,388,390,392,395,398,404,405,407,409,434,448,449,457 | source found but implementation missing |
+| M16-03-01 | both overlays | A into B house overlay | PDF 452,454,456,457,458,460; original 544,545,537,366 | source found but implementation missing |
+| M16-03-02 | both overlays | B into A house overlay | PDF 452,454,456,457,458,460; original 544,545,537,366 | source found but implementation missing |
+| M16-04-01 | verified composites | Composite midpoint construction and wrap | PDF 458,459,460; original 544,545 | source incomplete |
+| M16-04-02 | verified composites | Composite antipodal ambiguity | PDF 458,459,460; original 544,545 | source incomplete |
+| M16-04-03 | verified composites | Composite joint entity meaning | PDF 458,459,460; original 544,545 | source incomplete |
+| M17-01-01 | Relocation workflow | Relocation comparison workflow | PDF 634,635,643,645,646,647; original 506,511,389 | source found but implementation missing |
+| M17-02-01 | Parans in proper frame | Parans horizon frame and simultaneous events | PDF 636,637,638,639,640,643,644; original 822 | source incomplete |
+| M17-03-01 | distance/intensity | Location distance attenuation | PDF 636,637,638,639,640,643,644; original 822 | source incomplete |
+| M17-03-02 | distance/intensity | Location intensity interpretation | PDF 636,637,638,639,640,643,644; original 822 | source incomplete |
+| M17-04-01 | Local Space origins/history | Local Space journey origin | PDF 648,649,650; original 822 | source incomplete |
+| M17-04-02 | Local Space origins/history | Local Space origin history | PDF 648,649,650; original 822 | source incomplete |
+| M18-01-01 | Verified election/horary | Electional context and verified event choice | PDF 461,462,463,464,465,466,467,468,469; original not reviewed | source incomplete |
+| M18-01-02 | Verified election/horary | Horary question origin and scope | PDF 461,462,463,464,465,466,467,468,469; original not reviewed | source incomplete |
+| M18-02-01 | eclipse taxonomy | Source-specific eclipse taxonomy | PDF 490,491,492; original m | source incomplete |
+| M18-03-01 | derivatives | Derivative chart retains natural chart | PDF 684,685; original not reviewed | source found but implementation missing |
+| M18-04-01 | epoch anchoring | Epoch anchoring and versioned hierarchy | PDF 651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669; original not reviewed | source incomplete |
+| M18-05-01 | rectification | Rectification objective and uncertainty | PDF 686,687,688; original not reviewed | source incomplete |
+| M18-06-01 | explicit exclusions | Explicit rejected techniques | PDF 123,284,496,497,547,552,682,683,684; original 331,332,333,325,309,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER | source found but implementation missing |
+| M18-06-02 | explicit exclusions | Explicit unfinished theories | PDF 123,284,496,497,547,552,682,683,684; original 331,332,333,325,309,UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER | source found but implementation missing |

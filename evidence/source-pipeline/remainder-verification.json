@@ -1,0 +1,62 @@
+{
+  "status": "FULL_SNAPSHOT_ACQUIRED_AUTOMATED_LINE_PASS_COMPLETE_TARGETED_REVIEW_ONLY",
+  "date_local": "2026-10-25",
+  "preserved_branch": "codex/methodology-verification-20261024",
+  "preserved_head": "455618c216b7c1809187f2f55b158281feac5496",
+  "this_continuation": {
+    "new_acquisitions": 888,
+    "successful_new_ocr": 887,
+    "failed_new_ocr": 1,
+    "new_targeted_image_reviews": 7,
+    "prior_images_reinspected_and_logged": 2,
+    "new_selected_assertions": 7
+  },
+  "current_totals": {
+    "file_ids": 1029,
+    "acquired": 1029,
+    "exact_source_bytes": 2852689447,
+    "distinct_byte_objects": 1028,
+    "ocr_successful": 1028,
+    "ocr_failed": 1,
+    "targeted_image_reviews": 148,
+    "selected_assertions": 80,
+    "candidate_compared_ocr_lines": 34026,
+    "lexically_fully_matched_candidates": 16394,
+    "lexically_partial_candidates": 3312,
+    "unmatched_candidates_not_proven_omissions": 14320,
+    "targeted_image_checked_ocr_lines": 113,
+    "unchecked_ocr_lines": 33913,
+    "remaining_acquisition": 0,
+    "remaining_targeted_image_reviews": 881,
+    "material_requirement_ids": 207,
+    "report_sections_not_ready": 18
+  },
+  "verification": {
+    "python_passed": 335,
+    "python_failed": 0,
+    "test_evidence": "evidence/source-pipeline/remainder-tests.xml",
+    "existing_warning": "Starlette httpx TestClient deprecation",
+    "line_locators_provenance_verified": "evidence/source-pipeline/line-verification.json",
+    "register_semantic_manifest_requirement_validators": "PASS",
+    "pdf_pages_verified": 692,
+    "thematic_pdf_witness_pages_verified": 300,
+    "pdf_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+    "six_generated_knowledge_files_rebuilt_identically": true,
+    "git_diff_check": "PASS_PREEXISTING_CRLF_WARNINGS_ONLY",
+    "chart_ui_access_diff": "EMPTY",
+    "frontend_tests_rerun_this_continuation": false
+  },
+  "limitations": [
+    "File acquisition completeness applies only to the retained1029-ID snapshot, not to every printed book page or an owner revision freeze.",
+    "Automatic lexical comparisons do not approve OCR, printed headers, diagrams, source authority or personal interpretations.",
+    "113 lines received targeted image checks; full human line/diagram/semantic reconciliation remains unfinished.",
+    "Printed492 remains unlocated. One acquired photo is severely blurred and returned empty OCR.",
+    "Source findings strengthen specifications and resolve drawn-example geometry but retain conflicting wording and values.",
+    "No chart-engine, UI, access, commit, push or deployment changes were made."
+  ],
+  "committed": false,
+  "pushed": false,
+  "deployed": false,
+  "all_source_blockers_resolved": false,
+  "exhaustive_semantic_review_complete": false
+}

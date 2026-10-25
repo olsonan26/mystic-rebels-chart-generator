@@ -1,5 +1,9 @@
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
+Current source-audit checkpoint: [100-image continuation and exact remaining queues](docs/2026-10-25_source-audit-100-image-continuation.md). All1,029 retained IDs are acquired;1,028 have candidate OCR. Targeted review covers312 images and3,500 OCR lines,with128 selected assertions;717 files and30,526 lines remain unchecked at those stages. Older audit counts below are historical. No personal AI answering or unresolved formula activation is enabled.
+
+Knowledge audit continuation: [original-scan findings](docs/2026-10-25_mystic-knowledge-audit-report.md), [all 18 report sections reconciled](docs/MATERIAL_CONTEXT_RECONCILIATION.md), and structured source/requirement manifests under `data/knowledge/`. These are local audit foundations, not a complete interpretation or personal-answer service.
+
 Independent Mystic Rebels web application with a native Swiss Ephemeris calculation API, precise SVG natal/Dual wheels, grouped object selection, a full-precision position model, and Supabase account/saved-chart integration.
 
 Private repository: https://github.com/olsonan26/mystic-rebels-chart-generator
@@ -69,5 +73,7 @@ The current product is a chart generator, not a complete source-grounded persona
 Gradity now solves real station/shadow events with the current engine and retains unassigned exact boundaries or overlapping-shadow conflicts. See `docs/astronomy-followup.md` for independent Mercury/Venus sample comparisons and their limits. `python scripts/methodology_regression.py` checks established point values against the archived engine on the same runtime; the original presentation-only byte-identity script and immutable fixtures remain for historical rollback.
 
 ## Input data and privacy
+
+The interpretation continuation is in `docs/INTERPRETIVE_COVERAGE_AUDIT.md`, with a readable 127-record appendix in `docs/INTERPRETIVE_INVENTORY.md`. `python scripts/knowledge_audit.py check-semantics` validates meaning/exception/example provenance; `profile-gaps --section parts-profile` expands report prerequisites; `concept spark-entry --section profile-foundation` retrieves all cited local witnesses including counterexamples. These are audit tools, not production personal reports. Full original-batch completeness remains unestablished.
 
 The calculator does not persist birth data. Chart responses are `no-store`. Saving a chart is an explicit signed-in action. The source PDF and historical reference directory are excluded from Git and deployment. Geographical search uses GeoNames city centroids in WGS84, with attribution to https://www.geonames.org/ under CC BY 4.0. Users can enter more precise coordinates; a city centroid is not an exact individual birth location.

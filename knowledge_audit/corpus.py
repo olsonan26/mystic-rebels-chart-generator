@@ -23,6 +23,15 @@ def index_pdf(pdf_path, database_path, source_id):
         old = db.execute('SELECT sha256 FROM sources WHERE id=?',(source_id,)).fetchone()
         if old and old[0] != sha:
             raise ValueError('Source changed: assign a new version ID; do not overwrite provenance')
+        if old:
+            indexed = db.execute('SELECT pdf_page,text,text_sha256 FROM pages WHERE source_id=? ORDER BY pdf_page', (source_id,)).fetchall()
+            if len(indexed) != len(reader.pages):
+                raise ValueError('Existing source page accounting is corrupt; preserve it for inspection')
+            for (number, text, text_hash), page in zip(indexed, reader.pages):
+                expected = re.sub(r'\s+', ' ', page.extract_text() or '').strip()
+                if (number < 1 or number > len(reader.pages) or text != expected
+                        or hashlib.sha256(text.encode()).hexdigest() != text_hash):
+                    raise ValueError('Existing source page integrity failed; preserve it for inspection')
         db.execute('INSERT OR REPLACE INTO sources VALUES(?,?,?)',(source_id,sha,len(reader.pages)))
         db.execute('DELETE FROM passages WHERE source_id=?',(source_id,))
         for index,page in enumerate(reader.pages,1):
@@ -34,17 +43,18 @@ def index_pdf(pdf_path, database_path, source_id):
     return {'source_id':source_id,'sha256':sha,'pdf_pages':len(reader.pages),'status':'INDEXED_NOT_RULE_APPROVAL'}
 
 def search(database_path, query, limit=8):
-    if not 1 <= limit <= 50: raise ValueError('limit must be between 1 and 50')
+    if type(limit) is not int or not 1 <= limit <= 50: raise ValueError('limit must be between 1 and 50')
     tokens = re.findall(r'\w+',query,flags=re.UNICODE)
     if not tokens: return []
     # Parameters and escaped FTS tokens: query text is never SQL/instructions.
     match=' AND '.join('"'+token.replace('"','""')+'"' for token in tokens)
-    with sqlite3.connect(database_path) as db:
-        rows=db.execute('''SELECT p.source_id,p.pdf_page,p.text,p.text_sha256,p.review_status,s.sha256
+    uri = Path(database_path).resolve().as_uri() + '?mode=ro'
+    with sqlite3.connect(uri, uri=True) as db:
+        rows=db.execute('''SELECT p.source_id,p.pdf_page,p.text,p.text_sha256,p.review_status,s.sha256,f.text
             FROM passages f JOIN pages p ON p.source_id=f.source_id AND p.pdf_page=f.pdf_page
             JOIN sources s ON s.id=p.source_id WHERE passages MATCH ?
             ORDER BY bm25(passages),p.source_id,p.pdf_page LIMIT ?''',(match,limit)).fetchall()
-    if any(hashlib.sha256(r[2].encode()).hexdigest()!=r[3] for r in rows):
+    if any(hashlib.sha256(r[2].encode()).hexdigest()!=r[3] or r[6] != r[2] for r in rows):
         raise ValueError('Indexed passage integrity failed; rebuild from the immutable source')
     return [{'source_id':r[0],'pdf_page':r[1],'text':r[2],'passage_sha256':r[3],
              'review_status':r[4],'source_sha256':r[5],

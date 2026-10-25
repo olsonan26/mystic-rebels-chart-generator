@@ -1,0 +1,57 @@
+{
+  "date_local": "2026-10-25",
+  "timezone": "America/Denver",
+  "scope": "LOCAL_BOUNDED_SOURCE_PIPELINE_CONTINUATION_NOT_EXHAUSTIVE_BOOK_REVIEW",
+  "branch": "codex/methodology-verification-20261024",
+  "head": "455618c216b7c1809187f2f55b158281feac5496",
+  "counts_evidence": "evidence/source-pipeline/stage-verification.json",
+  "printed_page_denominator": null,
+  "checks": {
+    "python": {
+      "command": ".runtime/python.exe -m pytest astronomy_qa access_qa -q --basetemp=tmp/source-pipeline-release-check --junitxml=evidence/source-pipeline/python-tests.xml",
+      "passed": 330,
+      "failed": 0,
+      "warnings": 1,
+      "warning": "Existing Starlette/httpx TestClient deprecation",
+      "environment": "Local socket access available; workspace basetemp avoids restricted temporary-directory rename errors",
+      "evidence": "evidence/source-pipeline/python-tests.xml"
+    },
+    "frontend": {"command": "npm test", "passed": 33, "files": 6},
+    "production_build": {"command": "npm run build", "status": "PASSED"},
+    "source_register": "PASSED",
+    "source_manifest": "PASSED",
+    "semantic_inventory_and_examples": "PASSED",
+    "requirements": "PASSED_18_SECTIONS_207_REQUIREMENTS",
+    "pdf_witnesses": {
+      "status": "PDF_AND_INDEX_WITNESSES_MATCH",
+      "pdf_pages": 692,
+      "thematic_witness_pages": 300,
+      "sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d"
+    },
+    "concept_retrieval": {"status": "PASSED", "selected_concepts": 11, "atomic_requirement": "M08-04-01", "evidence": "evidence/source-continuation/retrieval-check.json"},
+    "ocr_candidate_retrieval": {"status": "PASSED_WITH_CANDIDATE_LABELS_AND_HASH_CHECKS", "evidence": "evidence/source-pipeline/stage-verification.json"},
+    "regeneration": {
+      "status": "IDENTICAL_HASHES_AFTER_REBUILD",
+      "files": ["data/knowledge/source_manifest.json", "data/knowledge/source_review_updates.json", "data/knowledge/source_review_continuation.json", "data/knowledge/interpretive_inventory.json", "data/knowledge/original_assertions.json", "data/knowledge/material_requirements.json"]
+    },
+    "git_diff_check": "PASSED",
+    "chart_engine_ui_access_diff": "NONE"
+  },
+  "source_fidelity_tests_are_astronomical_correctness": false,
+  "deployed": false,
+  "pushed": false,
+  "committed": false,
+  "branch_switched": false,
+  "live_product_verified": false,
+  "personal_answering_enabled": false,
+  "next_queue": "evidence/source-pipeline/remaining-queue.json",
+  "remaining_file_ids": 888,
+  "all_originals_acquired": false,
+  "all_original_pages_semantically_reviewed": false,
+  "notes": [
+    "Initial original509 OCR pilot preceded bounded OCR; the varied visual pilot was not fully completed before the bounded batch began. Subsequent visual review covered all acquired files, without claiming whole-corpus OCR accuracy.",
+    "95 newly acquired files and two previously acquired Spark images received97 targeted review records;141 files total have candidate OCR and targeted review.",
+    "One pair of different Drive IDs has identical image bytes; the loose root image has a cropped printed header.",
+    "Four source-location gaps closed, but all18 personal-report sections remain unready."
+  ]
+}

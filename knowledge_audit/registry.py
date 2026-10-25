@@ -8,7 +8,12 @@ REGISTER=ROOT/'data/knowledge/capabilities.json'
 def load_registry():
     return json.loads(REGISTER.read_text(encoding='utf-8'))
 
-def approval_errors(rule, by_id):
+def approval_errors(rule, by_id, _visiting=None):
+    visiting = set() if _visiting is None else set(_visiting)
+    identity = rule.get('id', '<candidate>')
+    if identity in visiting:
+        return ['cyclic_approved_dependency:' + identity]
+    visiting.add(identity)
     errors=[]
     if rule.get('source_status') not in ('PRIMARY_RULE_REVIEWED','ENGINEERING_SPECIFIED'):
         errors.append('source_not_reviewed_or_unresolved')
@@ -19,6 +24,9 @@ def approval_errors(rule, by_id):
     for dependency in rule.get('dependencies',[]):
         if dependency not in by_id: errors.append('unknown_dependency:'+dependency)
         elif by_id[dependency].get('answer_use')!='APPROVED': errors.append('unapproved_dependency:'+dependency)
+        else:
+            errors.extend('invalid_dependency:' + dependency + ':' + e
+                          for e in approval_errors(by_id[dependency], by_id, visiting))
     return errors
 
 def validate_registry(registry, check_files=True):

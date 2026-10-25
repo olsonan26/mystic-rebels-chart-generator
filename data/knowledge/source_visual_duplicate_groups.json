@@ -1,0 +1,22 @@
+{
+  "scope": "SELECTED_IMAGE_VERIFIED_SAME_PRINTED_PAGE_NOT_EXHAUSTIVE",
+  "groups": [
+    {
+      "id": "printed315-two-photographs",
+      "printed_header": "315",
+      "basis": "VISUALLY_SAME_LAYOUT_AND_WORDING_DISTINCT_EXACT_BYTES",
+      "files": [
+        {
+          "file_id": "1-OvR9q2Zf3LZAimp-rLguz3LjZhXx42z",
+          "name": "IMG_4748.jpg",
+          "image_sha256": "bd1870b7c41b0a7b484b841a27c16503db1180ec08638a2a565657d9da26669f"
+        },
+        {
+          "file_id": "12_-k0oQftEuZNKiCw-yUbvN3jbxJBFKA",
+          "name": "IMG_4749.jpg",
+          "image_sha256": "104b6499e8bfaba60c152f276e81c52bb63e2080a0f0a8cc74e4ededeb790063"
+        }
+      ]
+    }
+  ]
+}

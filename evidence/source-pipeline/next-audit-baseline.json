@@ -1,0 +1,30 @@
+{
+  "stage_counts": {
+    "file_records": 1029,
+    "newly_acquired": 983,
+    "total_acquired": 1029,
+    "newly_ocr_extracted": 1028,
+    "total_ocr_extracted": 1028,
+    "new_targeted_visual_records": 106,
+    "newly_acquired_images_targeted_reviewed": 102,
+    "prior_acquired_images_reinspected": 4,
+    "total_targeted_visual_records": 148,
+    "targeted_passage_reconciliations": 106,
+    "new_atomic_assertions": 38,
+    "total_atomic_assertions": 80,
+    "remaining_acquisition": 0,
+    "remaining_ocr": 1,
+    "remaining_visual": 881,
+    "exhaustive_semantic_reviews_claimed": 0,
+    "printed_page_denominator": null
+  },
+  "line_counts": {
+    "NO_MATCH_CANDIDATE": 14320,
+    "lines": 34026,
+    "AUTO_PARTIAL_CANDIDATE": 3312,
+    "AUTO_MATCH_CANDIDATE": 16394,
+    "targeted_checked_lines": 113
+  },
+  "annotations": 15,
+  "scope": "BASELINE_BEFORE_NEXT_TARGETED_AUDIT"
+}

@@ -1,0 +1,60 @@
+{
+  "audit_date": "2026-10-24",
+  "timezone": "America/Denver",
+  "baseline_commit": "455618c216b7c1809187f2f55b158281feac5496",
+  "github_verified": {
+    "methodology_branch": "455618c216b7c1809187f2f55b158281feac5496",
+    "main": "e250662ebbf799f00f94c869a68d8bdab1d3f8ea"
+  },
+  "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+  "pdf_pages": 692,
+  "concept_records": 127,
+  "selected_worked_examples": 30,
+  "report_sections": 18,
+  "thematically_mapped_pages": 300,
+  "not_detailed_in_this_pass": 392,
+  "source_byte_and_normalized_page_verification": "PASSED",
+  "visual_review_pdf_pages": [
+    271,
+    273,
+    283,
+    391,
+    535,
+    550,
+    568,
+    603,
+    624,
+    629
+  ],
+  "drive_access": {
+    "root_batches_observed": 8,
+    "loose_root_image": "Page 156",
+    "batch5_paginated_image_searches": 2,
+    "allowed_results_per_page": [
+      0,
+      0
+    ],
+    "continuation_tokens_returned": true,
+    "exhaustive_inventory_claimed": false
+  },
+  "findings_scope": "LOCAL_PDF_INTERPRETIVE_AUDIT_NOT_EXHAUSTIVE_EIGHT_BATCH_COVERAGE",
+  "personal_reports_enabled": false,
+  "deployed": false,
+  "evidence": [
+    "docs/INTERPRETIVE_COVERAGE_AUDIT.md",
+    "docs/INTERPRETIVE_INVENTORY.md",
+    "data/knowledge/interpretive_inventory.json",
+    "data/knowledge/worked_examples.json",
+    "evidence/semantic-audit/page-ledger.json",
+    "evidence/semantic-audit/profile-gaps.json"
+  ],
+  "verification": {
+    "python_tests": 302,
+    "frontend_tests": 33,
+    "production_build": "PASSED",
+    "audit_integrity": "PASSED",
+    "git_diff_check": "PASSED",
+    "runtime_engine_and_ui_diff": "NONE",
+    "sandbox_note": "Asyncio TestClient socketpair blocked in restricted sandbox; identical API probe and full suite passed with local sockets available."
+  }
+}

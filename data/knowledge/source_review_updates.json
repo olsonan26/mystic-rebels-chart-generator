@@ -1,0 +1,733 @@
+{
+  "schema_version": "1.0",
+  "scope": "TARGETED_ORIGINAL_SCAN_RECONCILIATION_NOT_EXHAUSTIVE",
+  "review_date_local": "2026-10-25",
+  "authority": "ORIGINAL_BATCH_PHOTOGRAPHS",
+  "reviews": [
+    [
+      "IMG_4658.jpg",
+      "237",
+      [
+        294
+      ],
+      "PARTIAL_TEXT",
+      "OOI is a one-direction radius; Moon 3 degrees; author anecdotes are claims, not independent validation."
+    ],
+    [
+      "IMG_4659.jpg",
+      "238",
+      [],
+      "OMITTED_TEXT",
+      "Sun alone is assigned the broad 10-degree OOI in this passage; Moon remains 3 degrees."
+    ],
+    [
+      "IMG_4660.jpg",
+      "239",
+      [
+        295,
+        296
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Moon 15:23 reaches 12:23 to 18:23; same-house occupancy alone is not conjunction."
+    ],
+    [
+      "IMG_4661.jpg",
+      "240",
+      [],
+      "OMITTED_TEXT_AND_DIAGRAM",
+      "Mars OOI 4 degrees; Saturn around 7.5 degrees. Preserve the approximate qualifier. Original diagrams show both directional reaches."
+    ],
+    [
+      "IMG_4662.jpg",
+      "241",
+      [
+        296
+      ],
+      "PARTIAL_TEXT_WITH_LOST_DIAGRAM",
+      "Mars 5 and Saturn 10 give one-way nuclear reach within one ecosystem; actual Mars 5:56 and Saturn 15:32 do not reach either nucleus."
+    ],
+    [
+      "IMG_4663.jpg",
+      "242",
+      [],
+      "OMITTED_TEXT_AND_DIAGRAM",
+      "Fringe diagram explicitly spans 8:02 to 9:56 for Mars 5:56 and Saturn 15:32. Transit Moon activates by passing through this interval, not by its own OOI."
+    ],
+    [
+      "IMG_4664.jpg",
+      "243",
+      [
+        296
+      ],
+      "PARTIAL_TEXT",
+      "Fringe is an underlying sequential influence, not a merged conjunction; Lilith at a house cusp adds Delegate context."
+    ],
+    [
+      "IMG_4665.jpg",
+      "244",
+      [
+        297
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Across people do not sum OOIs; Saturn 10 can reach Moon 5 while Moon 5 cannot reach Saturn 10. Response does not imply reverse initiation."
+    ],
+    [
+      "IMG_4666.jpg",
+      "245",
+      [
+        297
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Natal planets do not initiate physical influence on the current sky. Preserve ecosystem and initiation versus response; two perspectives do not imply two active edges."
+    ],
+    [
+      "IMG_4667.jpg",
+      "246",
+      [
+        297
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Chiron 1-degree OOI and a distinct 3-degree semisextile geometric limit interact in a Fringe example. Do not turn a geometric aspect band into every emitter's OOI."
+    ],
+    [
+      "IMG_4799.jpg",
+      "363",
+      [
+        322
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Vantage's three-person analogy requires awareness of the other participants; original includes explanatory figures."
+    ],
+    [
+      "IMG_4800.jpg",
+      "364",
+      [
+        322,
+        324
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Reverse-Vantage examines sender and receiver perspectives while energy still follows a specific direction; includes Energy Flow figure."
+    ],
+    [
+      "IMG_4814.jpg",
+      "378",
+      [
+        343
+      ],
+      "TRANSCRIPTION_ERROR_AND_SOURCE_CONFLICT",
+      "Original states Pluto 1.5 degrees and correctly adds 24:15 to 25:45, with Moon 25:57 outside. Earlier prose says Pluto 24:42. PDF changes the interval to 24:42 to 25:42. Radius arithmetic is not the remaining original conflict; the original starting coordinate is."
+    ],
+    [
+      "IMG_4913.jpg",
+      "460",
+      [],
+      "DIAGRAM_NOT_PRESERVED",
+      "Self/personal houses 12-5 and others/world houses 6-11 form polarities; figure pairs Who/What/Where/When/How/Why across houses."
+    ],
+    [
+      "IMG_4942.jpg",
+      "487",
+      [],
+      "NOT_FULLY_RECONCILED",
+      "Volume-one ending stresses personal agency and introduces volume two. No executable progression rule on this page."
+    ],
+    [
+      "IMG_4943.jpg",
+      "v",
+      [],
+      "VERSION_CONTEXT",
+      "Volume-two Architect's Note says the work was split from a 1043-page original with continuous Arabic numbering. Roman front matter is a distinct identifier, not Arabic page 5."
+    ],
+    [
+      "IMG_4947.jpg",
+      "vi",
+      [],
+      "VERSION_CONTEXT",
+      "Continuation of the volume-two preface; methodological confidence remains an author claim, not software or scientific validation."
+    ],
+    [
+      "IMG_4952.jpg",
+      "491",
+      [],
+      "OMITTED_TEXT",
+      "Progression opening describes roughly one degree of Sun motion per year corresponding to one day, with other bodies at their own relative pace. It explicitly requires simultaneous natal, progressed and relocated charts. Exact year/day units and angles are not specified."
+    ],
+    [
+      "IMG_4954.jpg",
+      "493",
+      [
+        422
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Progression Ascendant-flip anecdotes continue into Transits; relocated chart equals natal if location is unchanged. Anecdotes do not supply an angular algorithm or event fixture."
+    ],
+    [
+      "IMG_4958.jpg",
+      "497",
+      [],
+      "NOT_FULLY_RECONCILED",
+      "Transit sign alignment alone does not aspect an entire natal house; actual contacts to occupants or angles are required. Do not predict medical or life events from the author's anecdote."
+    ],
+    [
+      "IMG_4959.jpg",
+      "498",
+      [
+        426
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Cosmic Dance starts by assessing each current-sky body's own relationships before personal overlays."
+    ],
+    [
+      "IMG_4960.jpg",
+      "499",
+      [
+        426
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Transit condition includes relationships and rulership payloads; source illustrates directional notation and a hand-off without supplying a universal event algorithm."
+    ],
+    [
+      "IMG_4968.jpg",
+      "507",
+      [
+        431
+      ],
+      "TEXT_WITH_LOST_DIAGRAM",
+      "Three-layer diagram is explicitly progressed, natal and relocated; progressed MC 14:50, natal MC 3:25 and relocated MC 10:57. Do not use rounded prose 15 as a precise progression fixture."
+    ],
+    [
+      "IMG_4969.jpg",
+      "508",
+      [
+        431
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Sign spill 1.5 degrees yields 5 percent; decan spill 30 arcminutes and degree spill 3 arcminutes. First/last wording and preview anecdote do not settle full before/after weights or retrograde timing."
+    ],
+    [
+      "IMG_4971.jpg",
+      "510",
+      [
+        434
+      ],
+      "SOURCE_CONFLICT_CONFIRMED",
+      "Original retains Austin MC 10:57 Aquarius Spark/Pisces FCA and Mars 5:56 Pisces Spark/Aries FCA. Mars is four arcminutes before 6, conflicting with stated three-arcminute width; parity contradiction survives."
+    ],
+    [
+      "IMG_5007.jpg",
+      "544",
+      [],
+      "OMITTED_TEXT",
+      "Composite is a midpoint-based new joint entity, distinct from an electional chart of a relationship event. Gemini 21:16 and Pisces 7:24 give Aries 29:20. No antipodal midpoint convention given."
+    ],
+    [
+      "IMG_5009.JPG",
+      "545",
+      [],
+      "OMITTED_TEXT",
+      "Composite reading prioritizes Ascendant/ruler, fourth-house condition/ruler and fifth-house condition/ruler; it concerns the joint entity rather than reciprocal Synastry behavior."
+    ],
+    [
+      "IMG_5084.JPG",
+      "617",
+      [],
+      "OMITTED_TEXT_AND_GLYPH",
+      "Sophia opening distinguishes the source's lunar-orbit-derived Priapus from arbitrary White Moon Selene constructions; upper page finishes a Lilith anecdote."
+    ],
+    [
+      "IMG_5085.JPG",
+      "618",
+      [],
+      "OMITTED_TEXT_AND_GLYPH",
+      "Sophia names emotional gravity, closeness, longing and integration; lunar perigee is the closest point, separate from speculative Selene. Original custom glyph survives only in scan."
+    ],
+    [
+      "IMG_5086.JPG",
+      "619",
+      [],
+      "OMITTED_DEFINITION",
+      "Explicitly places Mean and Osculating Sophia directly opposite matching Mean and Osculating Lilith. Mean meaning is a persistent undercurrent; osculating meaning is immediate/reactive. Retrograde begins a reworking discussion continued on original620."
+    ],
+    [
+      "IMG_5111.jpg",
+      "641",
+      [
+        521,
+        522
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Descendant filters external contact through value and discernment, reciprocity and what one accepts; natal sign/ruler context still required."
+    ],
+    [
+      "IMG_5237.jpg",
+      "642",
+      [
+        521,
+        522
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Descendant marks external relevance and personal admission; a coordinate alone does not implement this meaning."
+    ],
+    [
+      "IMG_5282.jpg",
+      "687",
+      [
+        568
+      ],
+      "TRANSCRIPTION_ERROR_AND_SOURCE_CONFLICT",
+      "Original Michael Jackson diagram shows Chiron 19:18 retrograde in Aquarius, not PDF description14:22. Printed prose calls the Saturn contact sextile."
+    ],
+    [
+      "IMG_5283.jpg",
+      "688",
+      [
+        568
+      ],
+      "SOURCE_CONFLICT_CONFIRMED",
+      "Prose Chiron19 agrees at integer precision with original chart19:18. It calls Saturn contact trine, conflicting with prior original687 sextile. Preserve aspect conflict; do not use biography as a user's known facts."
+    ],
+    [
+      "IMG_5284.JPG",
+      "689",
+      [],
+      "NOT_FULLY_RECONCILED",
+      "Author's Chiron example adds ruler, house and orbital-zone context; birth-era and wound claims do not validate medical or biographical inference."
+    ],
+    [
+      "IMG_5388.JPG",
+      "707",
+      [
+        600
+      ],
+      "OMITTED_CHAPTER_OPENING",
+      "Elektra is coordination of hidden complexity, invisible work and a system of fragments. The PDF retains only a closing fragment, omitting this chapter opening."
+    ],
+    [
+      "IMG_5392.JPG",
+      "711",
+      [
+        603
+      ],
+      "PARTIAL_TEXT",
+      "Eunomia chapter begins with refined resilience and a surviving exposed core; upper portion finishes Eros with a distinct retrograde meaning."
+    ],
+    [
+      "IMG_5393.JPG",
+      "712",
+      [
+        603,
+        604
+      ],
+      "SEMANTIC_TENSION_CONFIRMED",
+      "Eunomia emphasizes essentials surviving loss and explicitly rejects law/fairness/order as its source meaning. This intensifies the tension with original772 rather than resolving it."
+    ],
+    [
+      "IMG_5394.jpg",
+      "713",
+      [
+        604,
+        605
+      ],
+      "PARTIAL_TEXT",
+      "Eunomia's contextual example continues, then Euphrosyne begins: continuity generated by divergence. Separate both bodies on a mixed page."
+    ],
+    [
+      "IMG_5395.JPG",
+      "714",
+      [
+        605,
+        606
+      ],
+      "TEXT_MATCH_TARGETED",
+      "Euphrosyne's divergence includes ruler/retrograde/forced-conjunction context; do not replace full conditions with a keyword."
+    ],
+    [
+      "IMG_5451.JPG",
+      "768",
+      [
+        628
+      ],
+      "PARTIAL_TEXT",
+      "Vesta includes survival, commitment and a distinct retrograde inward-turning meaning, beyond an isolated devotion label."
+    ],
+    [
+      "IMG_5452.JPG",
+      "769",
+      [],
+      "NOT_FULLY_RECONCILED",
+      "Comparative asteroid list opens with Apophis and Astraea; comparison ratings are author assessments, not measured software accuracy."
+    ],
+    [
+      "IMG_5454.JPG",
+      "771",
+      [],
+      "OMITTED_COMPARISON_ENTRIES",
+      "Original comparative list includes Davida, Elektra, Eris and Eros, including Elektra's complexity meaning; do not infer absent entries from PDF truncation."
+    ],
+    [
+      "IMG_5455.JPG",
+      "772",
+      [
+        629
+      ],
+      "SEMANTIC_TENSION_CONFIRMED",
+      "Original comparison explicitly assigns Eunomia functional order while original712 rejects order. Both are in the printed source; no precedence or author erratum established."
+    ]
+  ],
+  "concept_links": {
+    "IMG_4658.jpg": [
+      "directional-context",
+      "spectrum-meanings",
+      "forced-contact"
+    ],
+    "IMG_4659.jpg": [
+      "directional-context",
+      "spectrum-meanings",
+      "forced-contact"
+    ],
+    "IMG_4660.jpg": [
+      "directional-context",
+      "spectrum-meanings",
+      "forced-contact"
+    ],
+    "IMG_4661.jpg": [
+      "directional-context",
+      "spectrum-meanings",
+      "forced-contact"
+    ],
+    "IMG_4662.jpg": [
+      "directional-context",
+      "spectrum-meanings",
+      "forced-contact"
+    ],
+    "IMG_4663.jpg": [
+      "fringe-fca",
+      "directional-context"
+    ],
+    "IMG_4664.jpg": [
+      "fringe-fca",
+      "directional-context"
+    ],
+    "IMG_4665.jpg": [
+      "directional-context",
+      "forced-contact",
+      "natal-transit-order"
+    ],
+    "IMG_4666.jpg": [
+      "directional-context",
+      "forced-contact",
+      "natal-transit-order"
+    ],
+    "IMG_4667.jpg": [
+      "directional-context",
+      "forced-contact",
+      "natal-transit-order"
+    ],
+    "IMG_4799.jpg": [
+      "vantage-resolution",
+      "directional-context"
+    ],
+    "IMG_4800.jpg": [
+      "vantage-resolution",
+      "directional-context"
+    ],
+    "IMG_4814.jpg": [
+      "forced-contact",
+      "clusters",
+      "directional-context"
+    ],
+    "IMG_4913.jpg": [
+      "quadrants",
+      "free-theory",
+      "house-field"
+    ],
+    "IMG_4942.jpg": [
+      "agency"
+    ],
+    "IMG_4952.jpg": [
+      "core-trinity"
+    ],
+    "IMG_4954.jpg": [
+      "core-trinity"
+    ],
+    "IMG_4968.jpg": [
+      "core-trinity"
+    ],
+    "IMG_4958.jpg": [
+      "cosmic-first",
+      "natal-transit-order",
+      "pass-through"
+    ],
+    "IMG_4959.jpg": [
+      "cosmic-first",
+      "natal-transit-order",
+      "pass-through"
+    ],
+    "IMG_4960.jpg": [
+      "cosmic-first",
+      "natal-transit-order",
+      "pass-through"
+    ],
+    "IMG_4969.jpg": [
+      "fringe-fca",
+      "spark-entry",
+      "core-trinity"
+    ],
+    "IMG_4971.jpg": [
+      "fringe-fca",
+      "spark-entry",
+      "core-trinity"
+    ],
+    "IMG_5007.jpg": [
+      "composite",
+      "synastry"
+    ],
+    "IMG_5009.JPG": [
+      "composite",
+      "synastry"
+    ],
+    "IMG_5084.JPG": [
+      "sophia",
+      "lunar-arcs",
+      "lilith"
+    ],
+    "IMG_5085.JPG": [
+      "sophia",
+      "lunar-arcs",
+      "lilith"
+    ],
+    "IMG_5086.JPG": [
+      "sophia",
+      "lunar-arcs",
+      "lilith"
+    ],
+    "IMG_5111.jpg": [
+      "anchors"
+    ],
+    "IMG_5237.jpg": [
+      "anchors"
+    ],
+    "IMG_5282.jpg": [
+      "chiron"
+    ],
+    "IMG_5283.jpg": [
+      "chiron"
+    ],
+    "IMG_5284.JPG": [
+      "chiron"
+    ],
+    "IMG_5388.JPG": [
+      "asteroid-elektra"
+    ],
+    "IMG_5454.JPG": [
+      "asteroid-elektra"
+    ],
+    "IMG_5392.JPG": [
+      "asteroid-eunomia"
+    ],
+    "IMG_5393.JPG": [
+      "asteroid-eunomia"
+    ],
+    "IMG_5394.jpg": [
+      "asteroid-eunomia",
+      "asteroid-euphrosyne"
+    ],
+    "IMG_5455.JPG": [
+      "asteroid-eunomia",
+      "asteroid-euphrosyne",
+      "asteroid-europa"
+    ],
+    "IMG_5395.JPG": [
+      "asteroid-euphrosyne"
+    ],
+    "IMG_5451.JPG": [
+      "asteroid-vesta"
+    ]
+  },
+  "source_questions": [
+    {
+      "id": "spark-parity",
+      "disposition": "contradictory",
+      "concepts": [
+        "spark-entry"
+      ],
+      "finding": "Appendix c expressly specifies odd/even signs and confirms original234. Original557's Virgo Ascendant4:26 Aquarius Spark also distinguishes sign parity from literal house1 parity. Original235 expressly says houses; original510 Mars H4Libra Pisces Spark follows the house candidate. Both branches are now stored with discriminating examples.",
+      "needed": "No explicit erratum or version precedence was located. A single canonical execution policy cannot be attributed to all these passages without an editorial decision.",
+      "historical_finding_before_pipeline": "House parity is the explicit book procedure; conflicting sign-parity examples remain. Original510 preserves the mixed examples. No author erratum establishes precedence.",
+      "continuation_evidence": "data/knowledge/source_review_continuation.json",
+      "historical_finding_before_full_queue": "Original234 explicitly develops sign parity, while original235 explicitly instructs house parity. Original509 and511 preserve examples inconsistent with the house candidate. Original510 and composite546 counterexamples remain linked; no source-issued precedence is established.",
+      "line_reconciliation_status": "NORMATIVE_SIGN_SPEC_RECOVERED_COUNTERWORDING_RETAINED",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#spark-parity"
+    },
+    {
+      "id": "fca-width-and-boundaries",
+      "disposition": "contradictory",
+      "concepts": [
+        "fringe-fca"
+      ],
+      "finding": "Appendix n explicitly specifies roughly5% on each side, recovering the bidirectional scope across signs, houses, degrees and Epochs. Original919 describes a recurring observed5% pattern and gives overlap both before and after epoch transitions. Original508 gives degree width3arcminutes; original510 labels Mars5:56 AriesFCA despite a4arcminute distance to6:00.",
+      "needed": "Approximate glossary language is not an exact replacement threshold. No weighting function, endpoint ownership or explicit correction of the Mars label was located.",
+      "historical_finding_before_pipeline": "Original508 confirms 3 arcminutes at degree scale; original510 still includes Mars5:56, four arcminutes before6. After-boundary and retrograde weighting remain unspecified.",
+      "continuation_evidence": "data/knowledge/source_review_continuation.json",
+      "historical_finding_before_full_queue": "Original508 three-arcminute rule and510 Mars5:56 conflict remain. Original732 now visually confirms Interamnia0:12 Virgo H2 blending H1/H2 from H2. This recovers post-boundary evidence without settling weighting, equality or retrograde rules.",
+      "line_reconciliation_status": "TWO_SIDED_SCOPE_RECOVERED_MARS_EXAMPLE_CONFLICT_RETAINED",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#fca-width-and-boundaries"
+    },
+    {
+      "id": "directional-ooi-catalog",
+      "disposition": "source incomplete",
+      "concepts": [
+        "directional-context",
+        "spectrum-meanings"
+      ],
+      "finding": "Original238-246 recover Sun10, Moon3, Mars4, approximately Saturn7.5 and Chiron1, diagrams and ecosystem distinctions. This is not a complete body/aspect catalog.",
+      "needed": "Complete versioned outgoing catalog, aspect-specific limits and all receiving-point/exact-boundary exceptions."
+    },
+    {
+      "id": "pluto-arithmetic",
+      "disposition": "resolved",
+      "concepts": [
+        "forced-contact"
+      ],
+      "finding": "Original378 adds24:15+1:30=25:45 correctly. PDF343 substitutes24:42->25:42; the reported1-degree arithmetic is a compilation error.",
+      "needed": "No further arithmetic clarification; do not conflate with remaining original coordinate conflict."
+    },
+    {
+      "id": "pluto-original-coordinate",
+      "disposition": "contradictory",
+      "concepts": [
+        "forced-contact"
+      ],
+      "finding": "Original377 has two diagrams using Pluto24:15, and original378 repeats that diagram coordinate and the24:15+1:30=25:45 calculation. Moon25:57 is12arcminutes outside this drawn branch. Prose on377 and378 gives24:42; its1:30 endpoint would be26:12 and would reach the Moon by15arcminutes. Thus the geometry of the drawn example is settled, while the actual intended natal coordinate is not. Original381 supplies a further diagram using24:15; it does not erase competing24:42 prose.",
+      "needed": "The diagrams establish a reproducible source example, not an author-issued correction of the24:42 prose or an independently verified natal chart.",
+      "historical_finding_before_full_queue": "Original378 earlier prose gives24:42, but figure and final arithmetic use24:15; opposite Moon25:57 changes reach depending on the starting coordinate.",
+      "line_reconciliation_status": "DRAWN_EXAMPLE_GEOMETRY_RESOLVED_NATAL_COORDINATE_CONFLICT_RETAINED",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#pluto-original-coordinate"
+    },
+    {
+      "id": "sophia-original-617-619",
+      "disposition": "resolved",
+      "concepts": [
+        "sophia"
+      ],
+      "finding": "All three original pages recovered and visually reviewed. Original619 directly places corresponding mean/osculating points opposite Lilith. Selene substitution is expressly rejected.",
+      "needed": "Source acquisition gap closed; independent numerical fixture/frame/speed comparison still needed before runtime implementation."
+    },
+    {
+      "id": "progression-original-491",
+      "disposition": "resolved",
+      "concepts": [
+        "core-trinity"
+      ],
+      "finding": "Original491 recovered; day-for-year relationship is explicitly described. Prior statement that no such mapping survived applies only to the compilation.",
+      "needed": "Source acquisition gap for491 closed; exact units, angles and location coupling remain unresolved."
+    },
+    {
+      "id": "progression-original-492",
+      "disposition": "inaccessible",
+      "concepts": [
+        "core-trinity"
+      ],
+      "finding": "All1029 retained file IDs have now been acquired. The1028 successful OCR outputs contain no standalone492 token. The manifest contains no IMG_4953 filename. Known originals491 and493 are preserved; original537 additionally supplies both authors' progressed Ascendant signs. The compilation also jumps from original490 prose to original493. None of these observations proves that492 never existed or is absent from every possible folder/version. Header follow-up visually identified372,502,522,617 despite missing OCR header candidates; another image is the unnumbered Connecting the Dots opener. None positively identifies492. Original353 additionally says1/360th speed; retain491 day-for-year wording without fixing year length or time scale.",
+      "needed": "One motion-blurred image has no usable OCR; some image headers are cropped or unrecognized. Printed492 requires a visually identified witness or another original source/version. Numerical progression units and angle rules remain unspecified.",
+      "historical_finding_before_full_queue": "Original492 has not been located or acquired. Missing camera filename4953 does not prove printed492 is absent from every other image.",
+      "line_reconciliation_status": "NOT_LOCATED_IN_ACQUIRED_SNAPSHOT",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#progression-original-492"
+    },
+    {
+      "id": "chiron-jackson-degree",
+      "disposition": "resolved",
+      "concepts": [
+        "chiron"
+      ],
+      "finding": "Original687 figure shows19:18Rx, consistent with rounded original688 prose19. PDF568 description14:22Rx is a transcription error.",
+      "needed": "No further degree-text correction; an independently timed chart fixture is still absent."
+    },
+    {
+      "id": "chiron-saturn-aspect",
+      "disposition": "contradictory",
+      "concepts": [
+        "chiron"
+      ],
+      "finding": "Original687 shows Saturn19:07 Sagittarius and Chiron19:18 AquariusRx, giving a shortest longitude separation of60:11. This supports the687 sextile label. Original688's first sentence says trine. The chart-based branch is recoverable without guessing a birth epoch; the sentence disagreement remains in the source.",
+      "needed": "This is arithmetic from the printed chart, not an independent ephemeris fixture or author-issued erratum.",
+      "historical_finding_before_full_queue": "Original687 says sextile and original688 says trine. This disagreement is in the printed source.",
+      "line_reconciliation_status": "DRAWN_SEXTILE_GEOMETRY_RESOLVED_TRINE_SENTENCE_RETAINED",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#chiron-saturn-aspect"
+    },
+    {
+      "id": "eunomia-two-meanings",
+      "disposition": "contradictory",
+      "concepts": [
+        "asteroid-eunomia"
+      ],
+      "finding": "Original712 explicitly rejects order and describes resilience of the exposed surviving core. Original772 explicitly places Functional Order under We say and distinguishes it from mythological social order. This is not a They say/We say misreading; both are creator-authored claims and both are stored.",
+      "needed": "No explicit precedence or correction was located. Do not infer a combined personal reading from contradictory source meanings.",
+      "historical_finding_before_full_queue": "Original712 explicitly rejects order while original772 assigns functional order. Both witnesses are printed originals; broader scope or precedence is not established.",
+      "line_reconciliation_status": "BOTH_ORIGINAL_MEANINGS_STORED_PRECEDENCE_UNRESOLVED",
+      "line_reconciliation_evidence": "data/knowledge/source_blocker_findings.json#eunomia-two-meanings"
+    },
+    {
+      "id": "asteroid-fragments-and-figures",
+      "disposition": "source incomplete",
+      "concepts": [
+        "asteroid-elektra",
+        "asteroid-gonggong",
+        "asteroid-iris",
+        "asteroid-salacia",
+        "asteroid-sylvia"
+      ],
+      "finding": "Targeted original review now recovers Elektra708 closing, Gonggong725-726, Iris732-733, Salacia756-758 and Sylvia760-762, alongside additional chapters and comparative entries. Original-to-PDF mapping and all-diagram/line-level reconciliation remain incomplete.",
+      "needed": "Acquire and visually reconcile each fragmented chapter, tables and figures; hash and disposition every remaining scan.",
+      "historical_finding_before_pipeline": "Elektra707 opening and771 comparison recovered. Other truncated chapters and the entire diagram inventory are not reconciled.",
+      "continuation_evidence": "data/knowledge/source_review_continuation.json"
+    },
+    {
+      "id": "activation-equality-wrap-retrograde",
+      "disposition": "source incomplete",
+      "concepts": [
+        "age-degree",
+        "parts-mechanics",
+        "returns",
+        "profections",
+        "gradity-context"
+      ],
+      "finding": "Formula arithmetic and actual ephemeris events do not settle interpretive equality, exact activation windows, return re-entry priorities or retrograde delay rules.",
+      "needed": "Technique-specific, source-issued boundary rules and dated worked fixtures; do not reuse a universal orb or conventional astrology default."
+    },
+    {
+      "id": "dedicated-four-meanings-originals",
+      "disposition": "resolved",
+      "concepts": [
+        "asteroid-flora",
+        "asteroid-ixion",
+        "asteroid-nessus",
+        "asteroid-sedna"
+      ],
+      "finding": "Dedicated Flora720-721, Ixion734-735, Nessus749 and Sedna758-760 recovered and visually inspected. Source-location gaps closed; runtime interpretation remains absent.",
+      "needed": "Contextual implementation and meaningful interpretation tests, preserving glossary variants and limitations."
+    },
+    {
+      "id": "anchor-receiver-and-activation",
+      "disposition": "source incomplete",
+      "concepts": [
+        "anchors",
+        "directional-context"
+      ],
+      "finding": "Original625 distinguishes natal association using the emitter OOI from exact transit activation, and says anchors do not emit.",
+      "needed": "Exact-contact numerical tolerance, time scale, complete receiver catalog and independently verified events."
+    },
+    {
+      "id": "lunar-arc-order-and-wrap",
+      "disposition": "source incomplete",
+      "concepts": [
+        "lunar-arcs",
+        "sophia",
+        "lilith"
+      ],
+      "finding": "Original623-624 recovers first-endpoint trajectory and within-arc gradient regardless of OOI. Original620 links osculating Sophia retrograde to matching Lilith.",
+      "needed": "Explicit directed/short-arc selection, wrap and endpoint equality, numerical frame/speed fixtures; no inferred convention."
+    }
+  ],
+  "continuation_review_log": "data/knowledge/source_review_continuation.json"
+}

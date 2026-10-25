@@ -4,3 +4,13 @@
 *.png -text
 *.avif -text
 evidence/astronomy-followup/*.json -text whitespace=cr-at-eol
+# Audit artifacts carry byte hashes; Git must preserve their validated bytes.
+data/knowledge/source_*.json -text whitespace=cr-at-eol
+data/knowledge/original_assertions.json -text whitespace=cr-at-eol
+data/knowledge/original_page_map.json -text whitespace=cr-at-eol
+data/knowledge/interpretive_inventory.json -text whitespace=cr-at-eol
+data/knowledge/material_requirements.json -text whitespace=cr-at-eol
+data/knowledge/worked_examples.json -text whitespace=cr-at-eol
+evidence/source-pipeline/**/*.json -text whitespace=cr-at-eol
+evidence/source-continuation/**/*.json -text whitespace=cr-at-eol
+evidence/semantic-audit/**/*.json -text whitespace=cr-at-eol

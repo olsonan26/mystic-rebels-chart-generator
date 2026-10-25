@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "scope": "SOURCE_AUDIT_FINDINGS_WITH_COMPETING_WITNESSES_NOT_RUNTIME_APPROVAL",
+  "line_annotations": "data/knowledge/source_line_annotations.json",
+  "findings": [
+    {
+      "id": "spark-parity",
+      "concept_ids": [
+        "spark-entry"
+      ],
+      "status": "NORMATIVE_SIGN_SPEC_RECOVERED_COUNTERWORDING_RETAINED",
+      "finding": "Appendix c expressly specifies odd/even signs and confirms original234. Original557's Virgo Ascendant4:26 Aquarius Spark also distinguishes sign parity from literal house1 parity. Original235 expressly says houses; original510 Mars H4Libra Pisces Spark follows the house candidate. Both branches are now stored with discriminating examples.",
+      "assertion_ids": [
+        "spark-lexicon-sign-parity",
+        "spark-virgo-ascendant557",
+        "spark-original-sign-derivation",
+        "spark-original-house-procedure"
+      ],
+      "annotation_ids": [
+        "spark-sign234",
+        "spark-house235",
+        "spark-lexicon-c",
+        "spark-horary557",
+        "fca510-mars"
+      ],
+      "remaining": "No explicit erratum or version precedence was located. A single canonical execution policy cannot be attributed to all these passages without an editorial decision.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "fca-width-and-boundaries",
+      "concept_ids": [
+        "fringe-fca"
+      ],
+      "status": "TWO_SIDED_SCOPE_RECOVERED_MARS_EXAMPLE_CONFLICT_RETAINED",
+      "finding": "Appendix n explicitly specifies roughly5% on each side, recovering the bidirectional scope across signs, houses, degrees and Epochs. Original919 describes a recurring observed5% pattern and gives overlap both before and after epoch transitions. Original508 gives degree width3arcminutes; original510 labels Mars5:56 AriesFCA despite a4arcminute distance to6:00.",
+      "assertion_ids": [
+        "fca-lexicon-both-sides",
+        "fca-epoch-provisional-overlap",
+        "fca-degree-counterexample"
+      ],
+      "annotation_ids": [
+        "fca508-width",
+        "fca510-mars",
+        "fca-lexicon-n",
+        "fca-epoch919"
+      ],
+      "remaining": "Approximate glossary language is not an exact replacement threshold. No weighting function, endpoint ownership or explicit correction of the Mars label was located.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "pluto-original-coordinate",
+      "concept_ids": [
+        "forced-contact"
+      ],
+      "status": "DRAWN_EXAMPLE_GEOMETRY_RESOLVED_NATAL_COORDINATE_CONFLICT_RETAINED",
+      "finding": "Original377 has two diagrams using Pluto24:15, and original378 repeats that diagram coordinate and the24:15+1:30=25:45 calculation. Moon25:57 is12arcminutes outside this drawn branch. Prose on377 and378 gives24:42; its1:30 endpoint would be26:12 and would reach the Moon by15arcminutes. Thus the geometry of the drawn example is settled, while the actual intended natal coordinate is not. Original381 supplies a further diagram using24:15; it does not erase competing24:42 prose.",
+      "assertion_ids": [
+        "pluto377-diagram-branch",
+        "pluto-correct-original-arithmetic",
+        "pluto-original-center-conflict",
+        "pluto381-diagram-corroboration"
+      ],
+      "annotation_ids": [
+        "pluto377-prose",
+        "pluto378-prose",
+        "pattern-audit-1PBiEFavFui7HobdJzQawd6ACuA5UAGYM"
+      ],
+      "diagram_checks": [
+        {
+          "original_page": "377",
+          "image_region": "lower Grand Trine and Orbs of Influence drawings",
+          "pluto": "24:15",
+          "moon": "25:57",
+          "forward_endpoint": "25:45"
+        }
+      ],
+      "remaining": "The diagrams establish a reproducible source example, not an author-issued correction of the24:42 prose or an independently verified natal chart.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "chiron-saturn-aspect",
+      "concept_ids": [
+        "chiron"
+      ],
+      "status": "DRAWN_SEXTILE_GEOMETRY_RESOLVED_TRINE_SENTENCE_RETAINED",
+      "finding": "Original687 shows Saturn19:07 Sagittarius and Chiron19:18 AquariusRx, giving a shortest longitude separation of60:11. This supports the687 sextile label. Original688's first sentence says trine. The chart-based branch is recoverable without guessing a birth epoch; the sentence disagreement remains in the source.",
+      "assertion_ids": [
+        "chiron687-chart-geometry",
+        "chiron-original-aspect-conflict"
+      ],
+      "annotation_ids": [
+        "chiron687-sextile",
+        "chiron688-trine"
+      ],
+      "diagram_checks": [
+        {
+          "original_page": "687",
+          "saturn_sign": "Sagittarius",
+          "saturn_degree": "19:07",
+          "chiron_sign": "Aquarius",
+          "chiron_degree": "19:18",
+          "shortest_separation": "60:11"
+        }
+      ],
+      "remaining": "This is arithmetic from the printed chart, not an independent ephemeris fixture or author-issued erratum.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "eunomia-two-meanings",
+      "concept_ids": [
+        "asteroid-eunomia"
+      ],
+      "status": "BOTH_ORIGINAL_MEANINGS_STORED_PRECEDENCE_UNRESOLVED",
+      "finding": "Original712 explicitly rejects order and describes resilience of the exposed surviving core. Original772 explicitly places Functional Order under We say and distinguishes it from mythological social order. This is not a They say/We say misreading; both are creator-authored claims and both are stored.",
+      "assertion_ids": [
+        "eunomia-surviving-core",
+        "eunomia-functional-order"
+      ],
+      "annotation_ids": [
+        "eunomia712-main",
+        "eunomia772-comparison"
+      ],
+      "remaining": "No explicit precedence or correction was located. Do not infer a combined personal reading from contradictory source meanings.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "progression-original-492",
+      "concept_ids": [
+        "core-trinity"
+      ],
+      "status": "NOT_LOCATED_IN_ACQUIRED_SNAPSHOT",
+      "finding": "All1029 retained file IDs have now been acquired. The1028 successful OCR outputs contain no standalone492 token. The manifest contains no IMG_4953 filename. Known originals491 and493 are preserved; original537 additionally supplies both authors' progressed Ascendant signs. The compilation also jumps from original490 prose to original493. None of these observations proves that492 never existed or is absent from every possible folder/version. Header follow-up visually identified372,502,522,617 despite missing OCR header candidates; another image is the unnumbered Connecting the Dots opener. None positively identifies492. Original353 additionally says1/360th speed; retain491 day-for-year wording without fixing year length or time scale.",
+      "assertion_ids": [
+        "progression-relative-time",
+        "progression537-layer-example",
+        "progression353-speed-wording"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4702-jpg",
+        "directional-audit-img-4808-jpg",
+        "directional-audit-img-4963-jpg",
+        "directional-audit-img-4983-jpg",
+        "directional-audit-img-5084-jpg",
+        "pattern-audit-1pHy8IjXaZhM0RsV74uM8HT3B-YAia9qt"
+      ],
+      "remaining": "One motion-blurred image has no usable OCR; some image headers are cropped or unrecognized. Printed492 requires a visually identified witness or another original source/version. Numerical progression units and angle rules remain unspecified.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "minor-aspect-ooi",
+      "concept_ids": [
+        "spectrum-meanings",
+        "directional-context"
+      ],
+      "status": "SELECTED_ASPECT_BOUNDS_RECOVERED",
+      "finding": "Original383 explicitly gives1degree OOI to15,45,75,105,135,165. Moon radius3 is separately confirmed, and Sun10 in the eclipse example is a different emitter. Original392 additionally gives72Quintile1degreeOOI; other microaspect widths remain unspecified.",
+      "assertion_ids": [
+        "minor-six-one-degree-ooi",
+        "solar-ten-lunar-three-scope",
+        "forced-eclipse-m-emitter-scope",
+        "quintile392-one-degree-ooi"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4819-jpg",
+        "directional-audit-img-5046-jpg",
+        "directional-audit-img-5052-jpg",
+        "directional-audit-img-5665-jpg",
+        "pattern-audit-1VfEBctOPkoz6_gEeGeFDydyuxfj8fuvF"
+      ],
+      "remaining": "Complete per-body catalog and the interaction of aspect caps with emitter reach and equality still require specification.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "handoff-equality-and-phase",
+      "concept_ids": [
+        "handoff",
+        "directional-context"
+      ],
+      "status": "EQUALITY_WITNESSES_AND_CONTEXT_RECOVERED",
+      "finding": "Original334 supplies exact-conjunction equality;336 exact-opposition equality;337-338 show role reversal across opposition. Original335 limits these purpose roles to within ecosystems and has opposite-sign wording inconsistent with its179:55-before-opposition example.",
+      "assertion_ids": [
+        "handoff-exact-conjunction-equality",
+        "handoff-exact-opposition-equality",
+        "handoff-directed-phase-required",
+        "handoff335-opposite-sign-counterwording",
+        "ecosystem-within-between-scope"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4769-jpg",
+        "directional-audit-img-4770-jpg",
+        "directional-audit-img-4771-jpg",
+        "directional-audit-img-4772-jpg",
+        "directional-audit-img-4773-jpg"
+      ],
+      "remaining": "Tolerance, directed-phase conventions under retrograde and complete cross-chart initiation rules remain unapproved.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "spectrum348-coordinate-diagram",
+      "concept_ids": [
+        "spectrum-meanings",
+        "handoff"
+      ],
+      "status": "PRINTED_COORDINATE_ARITHMETIC_CONFLICT_RETAINED",
+      "finding": "Original348 prints Moon25:57Aquarius and Chiron24:42Taurus, yielding88:45; its drawn89:45 differs by1degree. Both remain below90 and support the same illustrated territory.",
+      "assertion_ids": [
+        "spectrum348-diagram-arithmetic"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4783-jpg"
+      ],
+      "remaining": "No author erratum or independent natal ephemeris establishes the intended coordinate or drawn angle.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "territory90-versus180",
+      "concept_ids": [
+        "spectrum-meanings",
+        "handoff"
+      ],
+      "status": "MAIN_TEXT_AND_LEXICON_COUNTERWORDING_RETAINED",
+      "finding": "Originals319-320 divide territory at90Turnover; appendix k calls180Meridian the territory division. Main text separately distinguishes180role hand-off from90Turnover. Original394 also calls90aHand-off,competing with the earlier334terminology distinction.",
+      "assertion_ids": [
+        "turnover89-versus91",
+        "meridian-k-territory-counterwording",
+        "handoff394-ninety-counterwording"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4753-jpg",
+        "directional-audit-img-4754-jpg",
+        "directional-audit-img-5663-jpg",
+        "pattern-audit-1Lu-AVo8YRutW1W45Gg4zDx5ugV4dS0nG"
+      ],
+      "remaining": "Do not silently collapse the named thresholds or impose glossary precedence. Exact90 ownership is unspecified.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "point-internal-alignment-scope",
+      "concept_ids": [
+        "anchors",
+        "vertex",
+        "invertex",
+        "forced-contact"
+      ],
+      "status": "QUALIFIED_INTERNAL_ALIGNMENT_DISTINGUISHED_FROM_EMISSION",
+      "finding": "Original645 has receiver-only anchors even at one-arcsecond offset. Original653 qualifies point-to-point internal alignment as30arcminutes,perhaps1degree,without giving either point outgoing OOI.",
+      "assertion_ids": [
+        "anchor645-one-arcsecond-forced",
+        "anchor653-qualified-internal-alignment"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-5240-jpg",
+        "directional-audit-img-5248-jpg"
+      ],
+      "remaining": "Internal alignment is distinct from exact transit activation; the qualified30minute/1degree alternatives are not a universal point orb.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "lunar-bandwidth-width",
+      "concept_ids": [
+        "directional-context",
+        "spark-entry"
+      ],
+      "status": "INCLUSIVE_LABEL_COUNT_DISTINGUISHED_FROM_RADIUS",
+      "finding": "Original303 explicitly rounds16:09to16;306 calls labels13through19 seven-degree span. The continuous width is6degrees at radius3. Originals304-305 supply qualitative strong/moderate/faint labels.",
+      "assertion_ids": [
+        "lunar-bandwidth-inclusive-labels",
+        "lunar-bandwidth-qualitative-gradient"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-4735-jpg",
+        "directional-audit-img-4736-jpg",
+        "directional-audit-img-4737-jpg",
+        "directional-audit-img-4738-jpg"
+      ],
+      "remaining": "Do not inflate radius to3.5, infer numerical weights or use deliberately rounded examples as exact endpoint fixtures.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "paran-distance-projection",
+      "concept_ids": [
+        "parans",
+        "local-space"
+      ],
+      "status": "SOURCE_APPROXIMATION_RECOVERED",
+      "finding": "Original822 gives111*cos(latitude)*orb as approximate parallel-longitude distance. Roundedcos0.774 and3degree orb produce257.742km,about160.195miles.",
+      "assertion_ids": [
+        "paran822-parallel-distance-example"
+      ],
+      "annotation_ids": [
+        "directional-audit-img-5505-jpg"
+      ],
+      "remaining": "Projection is not a universal perpendicular paran-distance rule or intensity law; curve/frame and independent numeric validation remain required.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "stellium-middle-reach",
+      "concept_ids": [
+        "clusters",
+        "forced-contact"
+      ],
+      "status": "STRICT_DEFINITION_AND_MIDDLE_MOON_CAVEAT_RETAINED",
+      "finding": "371 each-other reach and mutual endpoints coexist with373 TrueStellium despite middleMoon failing to reach back.",
+      "assertion_ids": [
+        "stellium371-three-link-types",
+        "stellium373-middle-moon-caveat",
+        "venus373-five-degree-ooi"
+      ],
+      "annotation_ids": [
+        "pattern-audit-1125F4HyO2boa2ckAe7E8pqbXedhtLQ5h",
+        "pattern-audit-13z6LViVZHoVYRLXqarW7a-6hgoMo07CT"
+      ],
+      "remaining": "Full body radii,receiver exceptions,graph aggregation and caveat precedence remain unspecified.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "mc-sun-square-semisquare",
+      "concept_ids": [
+        "spectrum-meanings",
+        "anchors"
+      ],
+      "status": "COMPETING_90_AND_45_LABELS_RETAINED",
+      "finding": "389 saysMCsquareSun;390 saysMCsemisquareSun for the discussed example.",
+      "assertion_ids": [
+        "mc389-square390-semisquare"
+      ],
+      "annotation_ids": [
+        "pattern-audit-11LF2jYi1QIU7oII_iCsOO_JHS0Fc9Wh2",
+        "pattern-audit-1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv"
+      ],
+      "remaining": "No erratum or independently verified natal chart selects the intended label.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "forced376-subject-wording",
+      "concept_ids": [
+        "forced-contact",
+        "spectrum-meanings"
+      ],
+      "status": "LITERAL_SUBJECT_WORDING_RETAINED",
+      "finding": "376 explicitly hypothetical swap ends withSun not within SunsOOI,an apparent subject error alongsideForcedTrine explanation.",
+      "assertion_ids": [
+        "forced376-hypothetical-swap"
+      ],
+      "annotation_ids": [
+        "pattern-audit-1VG9wtI1CXa1aCF0IcOhfAySvGru5YSFS"
+      ],
+      "remaining": "No corrected author wording located; do not adopt the apparent typo as a physical reach rule.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "microaspect-scope-and-boundary",
+      "concept_ids": [
+        "spectrum-meanings",
+        "directional-context"
+      ],
+      "status": "SELECTED_BOUNDS_AND_OPEN_MICROASPECT_PARAMETERS",
+      "finding": "392 gives72Quintile1degreeOOI;399 labels136degreegeometrySesquisquare;407-411 extend named microaspects without complete width/precedence rules.",
+      "assertion_ids": [
+        "quintile392-one-degree-ooi",
+        "sesquisquare399-boundary-example",
+        "micro407-d140-coordinate-example",
+        "micro410-411-small-angle-terms"
+      ],
+      "annotation_ids": [
+        "pattern-audit-1VfEBctOPkoz6_gEeGeFDydyuxfj8fuvF",
+        "pattern-audit-1tGxWgIE9ES3bz9oV87tGg-LFQZ6l5QJq",
+        "pattern-audit-1Z5J_uh8p-8V8bOxzDcqJaqi6ypURIETc",
+        "pattern-audit-19YSJRD4lU4lg62WswQvV_6bsLJMoEd-r",
+        "pattern-audit-1KRGj8pglEVy2gdOSLnTiX9t8y9X-IEII"
+      ],
+      "remaining": "The boundary example does not establish a universal endpoint policy; D140,Q5,Unicile bounds remain unapproved.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "crossover443-coordinate-frame",
+      "concept_ids": [
+        "quadrants",
+        "anchors",
+        "fringe-fca"
+      ],
+      "status": "SOURCE_FRAME_AND_DIAGRAM_QUALIFICATIONS_RETAINED",
+      "finding": "443 alternates fixed Pisces/Virgo sign starts with12th/6thhousecusps for crossover zones;444 adds qualitative FCA spill.",
+      "assertion_ids": [
+        "crossover443-sign-house-wording"
+      ],
+      "annotation_ids": [
+        "foundation-audit-1xSHfc7ccH49LE-vCxngXV7R2a7FXaoCc",
+        "foundation-audit-1n22Q5XdjDfpM6jxXG8TZjQTupxJvZiOb"
+      ],
+      "remaining": "No universal natal frame,directed arc,wrap,endpoint equality or polar specification follows.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "free449-diagram-vantage",
+      "concept_ids": [
+        "free-theory",
+        "vantage-resolution"
+      ],
+      "status": "SOURCE_FRAME_AND_DIAGRAM_QUALIFICATIONS_RETAINED",
+      "finding": "449 switches prose toH2Vantage/squareH5 but retains base diagramH1glyphs,trineH5 andsquareH4.",
+      "assertion_ids": [
+        "free449-reindexed-prose-base-diagram"
+      ],
+      "annotation_ids": [
+        "foundation-audit-1DO1_JCFNL6Sw5-zlpk9K9uehzbdut_3C"
+      ],
+      "remaining": "Do not interpret retained base-grid glyphs as reindexedH2relations; source redraw remains unlocated.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    }
+  ]
+}

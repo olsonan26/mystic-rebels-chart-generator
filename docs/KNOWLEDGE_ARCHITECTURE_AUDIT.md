@@ -1,5 +1,11 @@
 # Mystic Rebels knowledge foundation audit
 
+Current checkpoint supersedes the historical counts below: [100-image source continuation](2026-10-25_source-audit-100-image-continuation.md),312 targeted images,128 assertions,3,500 checked lines and717 files without targeted review. Acquisition is complete for the retained1,029-ID snapshot; exhaustive knowledge coverage and personal answers remain incomplete.
+
+2026-10-25 update: [original-source continuation](2026-10-25_mystic-knowledge-audit-report.md) records1,029 visible file identities including the loose image,44 targeted original reviews,207 individual missing-context requirements and additional audit integrity repairs. It corrects the historical Sophia/progression acquisition gaps and compiled Pluto/Chiron transcription findings below without enabling dependent calculations or deploying answers. [Every original18-section omission is reconciled](MATERIAL_CONTEXT_RECONCILIATION.md). The remaining text preserves the earlier baseline and deployment history; it is not a new deployment verification.
+
+Continuation: `INTERPRETIVE_COVERAGE_AUDIT.md` extends this baseline with 127 thematic meaning/context/exception records,30 selected worked examples,18 report requirement sections and a 692-page accounting ledger. It adds local audit-only concept retrieval and dependency checks; no production answering or interpretation is enabled. Full eight-batch completeness remains unestablished.
+
 The repository does **not** currently contain, represent, calculate, retrieve and use all important knowledge in the eight source batches. It is a precise chart generator with a deliberately limited method layer. It is not yet the complete personal astrology intelligence ecosystem requested by the owner.
 
 This is an evidence-backed current-state finding, not an estimate of a percentage covered. The eight-batch semantic audit is **in progress**. The complete supplied 692-page compiled PDF has been read, but that PDF omits original pages/diagrams and cannot stand in for a complete review of the photographs.

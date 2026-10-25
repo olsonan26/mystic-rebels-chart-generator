@@ -1,0 +1,2655 @@
+{
+  "scope": "OFFLINE_REPORT_REQUIREMENTS_AUDIT",
+  "personal_answer_generated": false,
+  "source_semantic_coverage_percent": null,
+  "counts": {
+    "concepts": 131,
+    "report_sections": 18,
+    "source_states": {
+      "PASSAGE_REVIEWED": 91,
+      "CONFLICT": 3,
+      "INCOMPLETE": 15,
+      "PRIOR_REVIEW_ONLY": 2,
+      "FRAGMENT": 20
+    }
+  },
+  "sections": [
+    {
+      "id": "profile-foundation",
+      "title": "Personal profile foundation",
+      "concept_ids": [
+        "objective-context",
+        "phsr",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "spark-entry",
+        "articulation",
+        "templates",
+        "agency"
+      ],
+      "rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006"
+      ],
+      "required_chart_facts": [
+        "resolved_birth_time",
+        "houses",
+        "positions"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "objective-context",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "spark-entry",
+        "articulation",
+        "templates",
+        "agency"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006",
+        "N9-007",
+        "N9-008",
+        "N9-020",
+        "N9-021",
+        "N9-027",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-005",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-006",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-020",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-021",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-027",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "spark-entry",
+          "status": "CONFLICT"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "objective-context",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "spark-entry",
+        "articulation",
+        "templates",
+        "agency"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "planet-condition",
+      "title": "Planetary condition and expression",
+      "concept_ids": [
+        "phsr",
+        "block-color",
+        "directional-context",
+        "delegate-condition",
+        "gradity-context",
+        "planet-categories"
+      ],
+      "rule_ids": [
+        "N9-033",
+        "N9-034"
+      ],
+      "required_chart_facts": [
+        "positions",
+        "velocities"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "articulation",
+        "block-color",
+        "retrograde-meaning",
+        "gradity-context",
+        "planet-categories"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N10-GRADITY",
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006",
+        "N9-007",
+        "N9-008",
+        "N9-027",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N10-GRADITY",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "PRIMARY_RULE_REVIEWED",
+          "conflicts": [
+            "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+            "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+          ]
+        },
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-005",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-006",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-027",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "articulation",
+        "block-color",
+        "retrograde-meaning",
+        "gradity-context",
+        "planet-categories"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "house-condition",
+      "title": "Life areas, including empty houses",
+      "concept_ids": [
+        "house-field",
+        "empty-house",
+        "delegate-condition",
+        "retrograded-house",
+        "intra-house",
+        "templates"
+      ],
+      "rule_ids": [
+        "N9-008"
+      ],
+      "required_chart_facts": [
+        "resolved_birth_time",
+        "houses"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "house-field",
+        "directional-context",
+        "delegate-condition",
+        "empty-house",
+        "retrograde-meaning",
+        "retrograded-house",
+        "intra-house",
+        "templates"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N10-GRADITY",
+        "N9-003",
+        "N9-004",
+        "N9-007",
+        "N9-008",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N10-GRADITY",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "PRIMARY_RULE_REVIEWED",
+          "conflicts": [
+            "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+            "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+          ]
+        },
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "house-field",
+        "directional-context",
+        "delegate-condition",
+        "empty-house",
+        "retrograde-meaning",
+        "retrograded-house",
+        "intra-house",
+        "templates"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "retrograde-profile",
+      "title": "Personal retrograde and Delegate context",
+      "concept_ids": [
+        "retrograde-meaning",
+        "gradity-context",
+        "retrograded-house",
+        "double-retrograde"
+      ],
+      "rule_ids": [
+        "N10-GRADITY"
+      ],
+      "required_chart_facts": [
+        "positions",
+        "velocities",
+        "houses"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "retrograde-meaning",
+        "gradity-context",
+        "directional-context",
+        "delegate-condition",
+        "retrograded-house",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "phsr",
+        "double-retrograde"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N10-GRADITY",
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006",
+        "N9-007",
+        "N9-008",
+        "N9-027",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N10-GRADITY",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "PRIMARY_RULE_REVIEWED",
+          "conflicts": [
+            "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+            "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+          ]
+        },
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-005",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-006",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-027",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "retrograde-meaning",
+        "gradity-context",
+        "directional-context",
+        "delegate-condition",
+        "retrograded-house",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "phsr",
+        "double-retrograde"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "relationships-graph",
+      "title": "Directional aspects and combined context",
+      "concept_ids": [
+        "directional-context",
+        "vantage-resolution",
+        "handoff",
+        "forced-contact",
+        "spectrum-meanings",
+        "fringe-fca",
+        "clusters"
+      ],
+      "rule_ids": [
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "required_chart_facts": [
+        "positions",
+        "houses"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "vantage-resolution",
+        "handoff",
+        "forced-contact",
+        "spectrum-meanings",
+        "fringe-fca",
+        "delegate-condition",
+        "clusters"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-022",
+        "N9-023",
+        "N9-024",
+        "N9-025",
+        "N9-026",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-022",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-023",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-024",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-025",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "PLUTO_1_5_DEGREES_VS_WORKED_1_DEGREE"
+          ]
+        },
+        {
+          "id": "N9-026",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "forced-contact",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "fringe-fca",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "clusters",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "vantage-resolution",
+        "handoff",
+        "forced-contact",
+        "spectrum-meanings",
+        "fringe-fca",
+        "delegate-condition",
+        "clusters"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "life-purpose",
+      "title": "Purpose, public expression and reset",
+      "concept_ids": [
+        "anchors",
+        "vertex",
+        "invertex",
+        "axial-flow",
+        "nonagesimals",
+        "delegate-condition"
+      ],
+      "rule_ids": [
+        "N9-009",
+        "N9-010",
+        "N9-011",
+        "N9-012"
+      ],
+      "required_chart_facts": [
+        "resolved_birth_time",
+        "angles"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "delegate-condition",
+        "anchors",
+        "vertex",
+        "invertex",
+        "axial-flow",
+        "nonagesimals"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-009",
+        "N9-010",
+        "N9-011",
+        "N9-012",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-011",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "delegate-condition",
+        "anchors",
+        "vertex",
+        "invertex",
+        "axial-flow",
+        "nonagesimals"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "parts-profile",
+      "title": "Fortune, Spirit and Love",
+      "concept_ids": [
+        "parts-mechanics",
+        "fortune",
+        "spirit",
+        "love"
+      ],
+      "rule_ids": [
+        "N9-014"
+      ],
+      "required_chart_facts": [
+        "resolved_birth_time",
+        "parts"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "delegate-condition",
+        "forced-contact",
+        "parts-mechanics",
+        "fortune",
+        "spirit",
+        "love"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-014",
+        "N9-023",
+        "N9-025",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-014",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-023",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-025",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "PLUTO_1_5_DEGREES_VS_WORKED_1_DEGREE"
+          ]
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "forced-contact",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "delegate-condition",
+        "forced-contact",
+        "parts-mechanics",
+        "fortune",
+        "spirit",
+        "love"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "lunar-context",
+      "title": "Nodes, Lilith and Sophia",
+      "concept_ids": [
+        "nodes",
+        "lilith",
+        "lunar-arcs",
+        "sophia",
+        "void-course"
+      ],
+      "rule_ids": [
+        "N9-033"
+      ],
+      "required_chart_facts": [
+        "positions"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "nodes",
+        "retrograde-meaning",
+        "lilith",
+        "lunar-arcs",
+        "sophia",
+        "void-course"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N10-GRADITY",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N10-GRADITY",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "PRIMARY_RULE_REVIEWED",
+          "conflicts": [
+            "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+            "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+          ]
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "lunar-arcs",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "sophia",
+          "status": "FRAGMENT"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "nodes",
+        "retrograde-meaning",
+        "lilith",
+        "lunar-arcs",
+        "sophia",
+        "void-course"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "declination-profile",
+      "title": "Declination and out-of-bounds context",
+      "concept_ids": [
+        "declination"
+      ],
+      "rule_ids": [
+        "N9-016"
+      ],
+      "required_chart_facts": [
+        "declinations"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "declination"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-016"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-016",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "declination",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "declination"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "pattern-resolution",
+      "title": "Natural relationships and practical resolution",
+      "concept_ids": [
+        "free-theory",
+        "quadrants",
+        "templates",
+        "intra-house",
+        "stq",
+        "block-color",
+        "agency"
+      ],
+      "rule_ids": [],
+      "required_chart_facts": [
+        "houses"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "house-field",
+        "directional-context",
+        "vantage-resolution",
+        "free-theory",
+        "quadrants",
+        "delegate-condition",
+        "templates",
+        "intra-house",
+        "stq",
+        "planet-lexicon",
+        "articulation",
+        "tone-pulse",
+        "phsr",
+        "block-color",
+        "agency"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006",
+        "N9-007",
+        "N9-008",
+        "N9-027",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-005",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-006",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-027",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "house-field",
+        "directional-context",
+        "vantage-resolution",
+        "free-theory",
+        "quadrants",
+        "delegate-condition",
+        "templates",
+        "intra-house",
+        "stq",
+        "planet-lexicon",
+        "articulation",
+        "tone-pulse",
+        "phsr",
+        "block-color",
+        "agency"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "asteroid-detail",
+      "title": "Chiron and additional body detail",
+      "concept_ids": [
+        "chiron",
+        "asteroid-apophis",
+        "asteroid-astraea",
+        "asteroid-bamberga",
+        "asteroid-ceres",
+        "asteroid-cybele",
+        "asteroid-davida",
+        "asteroid-elektra",
+        "asteroid-eris",
+        "asteroid-eros",
+        "asteroid-eunomia",
+        "asteroid-euphrosyne",
+        "asteroid-europa",
+        "asteroid-fama",
+        "asteroid-ganymed",
+        "asteroid-gonggong",
+        "asteroid-haumea",
+        "asteroid-hebe",
+        "asteroid-hygiea",
+        "asteroid-icarus",
+        "asteroid-interamnia",
+        "asteroid-iris",
+        "asteroid-juno",
+        "asteroid-kleopatra",
+        "asteroid-makemake",
+        "asteroid-metis",
+        "asteroid-minerva",
+        "asteroid-nemesis",
+        "asteroid-nyx",
+        "asteroid-orcus",
+        "asteroid-pallas",
+        "asteroid-pholus",
+        "asteroid-psyche",
+        "asteroid-quaoar",
+        "asteroid-salacia",
+        "asteroid-sylvia",
+        "asteroid-thisbe",
+        "asteroid-toro",
+        "asteroid-varda",
+        "asteroid-varuna",
+        "asteroid-vesta",
+        "asteroid-flora",
+        "asteroid-ixion",
+        "asteroid-nessus",
+        "asteroid-sedna"
+      ],
+      "rule_ids": [
+        "N9-033"
+      ],
+      "required_chart_facts": [
+        "positions"
+      ],
+      "contexts": [
+        "natal"
+      ],
+      "transitive_concept_ids": [
+        "chiron",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "asteroid-apophis",
+        "asteroid-astraea",
+        "asteroid-bamberga",
+        "asteroid-ceres",
+        "asteroid-cybele",
+        "asteroid-davida",
+        "asteroid-elektra",
+        "asteroid-eris",
+        "asteroid-eros",
+        "asteroid-eunomia",
+        "asteroid-euphrosyne",
+        "asteroid-europa",
+        "asteroid-fama",
+        "asteroid-ganymed",
+        "asteroid-gonggong",
+        "asteroid-haumea",
+        "asteroid-hebe",
+        "asteroid-hygiea",
+        "asteroid-icarus",
+        "asteroid-interamnia",
+        "asteroid-iris",
+        "asteroid-juno",
+        "asteroid-kleopatra",
+        "asteroid-makemake",
+        "asteroid-metis",
+        "asteroid-minerva",
+        "asteroid-nemesis",
+        "asteroid-nyx",
+        "asteroid-orcus",
+        "asteroid-pallas",
+        "asteroid-pholus",
+        "asteroid-psyche",
+        "asteroid-quaoar",
+        "asteroid-salacia",
+        "asteroid-sylvia",
+        "asteroid-thisbe",
+        "asteroid-toro",
+        "asteroid-varda",
+        "asteroid-varuna",
+        "asteroid-vesta",
+        "asteroid-flora",
+        "asteroid-ixion",
+        "asteroid-nessus",
+        "asteroid-sedna"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-005",
+        "N9-006",
+        "N9-007",
+        "N9-008",
+        "N9-027",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-005",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-006",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-027",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "chiron",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "asteroid-elektra",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-eunomia",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "asteroid-ganymed",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-gonggong",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-hygiea",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-interamnia",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-iris",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-makemake",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-metis",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-minerva",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-orcus",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-pallas",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-pholus",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-quaoar",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-salacia",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-sylvia",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-toro",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-varda",
+          "status": "FRAGMENT"
+        },
+        {
+          "id": "asteroid-vesta",
+          "status": "FRAGMENT"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "chiron",
+        "planet-lexicon",
+        "house-field",
+        "tone-pulse",
+        "directional-context",
+        "delegate-condition",
+        "phsr",
+        "asteroid-apophis",
+        "asteroid-astraea",
+        "asteroid-bamberga",
+        "asteroid-ceres",
+        "asteroid-cybele",
+        "asteroid-davida",
+        "asteroid-elektra",
+        "asteroid-eris",
+        "asteroid-eros",
+        "asteroid-eunomia",
+        "asteroid-euphrosyne",
+        "asteroid-europa",
+        "asteroid-fama",
+        "asteroid-ganymed",
+        "asteroid-gonggong",
+        "asteroid-haumea",
+        "asteroid-hebe",
+        "asteroid-hygiea",
+        "asteroid-icarus",
+        "asteroid-interamnia",
+        "asteroid-iris",
+        "asteroid-juno",
+        "asteroid-kleopatra",
+        "asteroid-makemake",
+        "asteroid-metis",
+        "asteroid-minerva",
+        "asteroid-nemesis",
+        "asteroid-nyx",
+        "asteroid-orcus",
+        "asteroid-pallas",
+        "asteroid-pholus",
+        "asteroid-psyche",
+        "asteroid-quaoar",
+        "asteroid-salacia",
+        "asteroid-sylvia",
+        "asteroid-thisbe",
+        "asteroid-toro",
+        "asteroid-varda",
+        "asteroid-varuna",
+        "asteroid-vesta",
+        "asteroid-flora",
+        "asteroid-ixion",
+        "asteroid-nessus",
+        "asteroid-sedna"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "current-sky",
+      "title": "Current sky and daily context",
+      "concept_ids": [
+        "cosmic-first",
+        "natal-transit-order",
+        "with-while",
+        "pass-through",
+        "gradity-context",
+        "agency"
+      ],
+      "rule_ids": [
+        "N9-029",
+        "N9-030",
+        "N9-033",
+        "N9-034"
+      ],
+      "required_chart_facts": [
+        "transit_chart",
+        "natal_chart"
+      ],
+      "contexts": [
+        "transit"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "natal-transit-order",
+        "cosmic-first",
+        "with-while",
+        "house-field",
+        "pass-through",
+        "retrograde-meaning",
+        "gradity-context",
+        "agency"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N10-GRADITY",
+        "N9-003",
+        "N9-004",
+        "N9-008",
+        "N9-015",
+        "N9-029",
+        "N9-030",
+        "N9-031",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N10-GRADITY",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "PRIMARY_RULE_REVIEWED",
+          "conflicts": [
+            "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+            "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+          ]
+        },
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-015",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-029",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-030",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-031",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "natal-transit-order",
+        "cosmic-first",
+        "with-while",
+        "house-field",
+        "pass-through",
+        "retrograde-meaning",
+        "gradity-context",
+        "agency"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "timing",
+      "title": "Profections and age-degree context",
+      "concept_ids": [
+        "profections",
+        "age-degree",
+        "earth-activation"
+      ],
+      "rule_ids": [
+        "N9-018",
+        "N9-019",
+        "N9-040",
+        "N9-041"
+      ],
+      "required_chart_facts": [
+        "target_date",
+        "birth_chronology"
+      ],
+      "contexts": [
+        "timing"
+      ],
+      "transitive_concept_ids": [
+        "profections",
+        "age-degree",
+        "earth-activation"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-018",
+        "N9-019",
+        "N9-040",
+        "N9-041"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-018",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-019",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-040",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-041",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "profections",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "age-degree",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "earth-activation",
+          "status": "FRAGMENT"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "profections",
+        "age-degree",
+        "earth-activation"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "dynamic-layers",
+      "title": "Progressed/natal/relocated integration",
+      "concept_ids": [
+        "core-trinity",
+        "fringe-fca"
+      ],
+      "rule_ids": [
+        "N9-038",
+        "N9-039"
+      ],
+      "required_chart_facts": [
+        "progressed_chart",
+        "natal_chart",
+        "relocated_chart"
+      ],
+      "contexts": [
+        "dynamic"
+      ],
+      "transitive_concept_ids": [
+        "spark-entry",
+        "fringe-fca",
+        "directional-context",
+        "delegate-condition",
+        "core-trinity"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-020",
+        "N9-021",
+        "N9-022",
+        "N9-024",
+        "N9-028",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036",
+        "N9-038",
+        "N9-039"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-020",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-021",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-022",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-024",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-038",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "DEFINITION_MISSING_FROM_SUPPLIED_PDF",
+          "conflicts": []
+        },
+        {
+          "id": "N9-039",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "spark-entry",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "fringe-fca",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "core-trinity",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "spark-entry",
+        "fringe-fca",
+        "directional-context",
+        "delegate-condition",
+        "core-trinity"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "return-phases",
+      "title": "Phased return and luminary context",
+      "concept_ids": [
+        "returns",
+        "cosmic-first"
+      ],
+      "rule_ids": [
+        "N9-042"
+      ],
+      "required_chart_facts": [
+        "target_date",
+        "return_events"
+      ],
+      "contexts": [
+        "returns"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "spark-entry",
+        "fringe-fca",
+        "delegate-condition",
+        "core-trinity",
+        "returns",
+        "natal-transit-order",
+        "cosmic-first"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-020",
+        "N9-021",
+        "N9-022",
+        "N9-024",
+        "N9-028",
+        "N9-029",
+        "N9-031",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036",
+        "N9-038",
+        "N9-039",
+        "N9-042"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-020",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-021",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-022",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-024",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-029",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-031",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-038",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "DEFINITION_MISSING_FROM_SUPPLIED_PDF",
+          "conflicts": []
+        },
+        {
+          "id": "N9-039",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-042",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "spark-entry",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "fringe-fca",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "core-trinity",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "returns",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "spark-entry",
+        "fringe-fca",
+        "delegate-condition",
+        "core-trinity",
+        "returns",
+        "natal-transit-order",
+        "cosmic-first"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "synastry-profile",
+      "title": "Two-person relationship context",
+      "concept_ids": [
+        "synastry",
+        "composite",
+        "with-while"
+      ],
+      "rule_ids": [
+        "N9-033",
+        "N9-034",
+        "N9-038",
+        "N9-039"
+      ],
+      "required_chart_facts": [
+        "person_a_charts",
+        "person_b_charts"
+      ],
+      "contexts": [
+        "synastry"
+      ],
+      "transitive_concept_ids": [
+        "spark-entry",
+        "fringe-fca",
+        "directional-context",
+        "delegate-condition",
+        "core-trinity",
+        "synastry",
+        "composite",
+        "with-while"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-020",
+        "N9-021",
+        "N9-022",
+        "N9-024",
+        "N9-028",
+        "N9-030",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036",
+        "N9-038",
+        "N9-039"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-020",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-021",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "CONTRADICTED",
+          "conflicts": [
+            "SPARK_HOUSE_VS_SIGN_PARITY",
+            "COMPOSITE_SATURN_MATCHES_NEITHER",
+            "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+          ]
+        },
+        {
+          "id": "N9-022",
+          "implementation": "RESEARCH_HELPER_ONLY",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-024",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-030",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-038",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "DEFINITION_MISSING_FROM_SUPPLIED_PDF",
+          "conflicts": []
+        },
+        {
+          "id": "N9-039",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "spark-entry",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "fringe-fca",
+          "status": "CONFLICT"
+        },
+        {
+          "id": "core-trinity",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "composite",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "spark-entry",
+        "fringe-fca",
+        "directional-context",
+        "delegate-condition",
+        "core-trinity",
+        "synastry",
+        "composite",
+        "with-while"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "locational-profile",
+      "title": "Relocation, Parans and Local Space",
+      "concept_ids": [
+        "relocation",
+        "parans",
+        "local-space",
+        "remote-activation"
+      ],
+      "rule_ids": [
+        "N9-032"
+      ],
+      "required_chart_facts": [
+        "natal_chart",
+        "relocated_chart",
+        "location_history"
+      ],
+      "contexts": [
+        "relocation"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "delegate-condition",
+        "anchors",
+        "relocation",
+        "parans",
+        "local-space",
+        "remote-activation"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-007",
+        "N9-009",
+        "N9-010",
+        "N9-028",
+        "N9-032",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-007",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-028",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-032",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "parans",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "local-space",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "remote-activation",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "delegate-condition",
+        "anchors",
+        "relocation",
+        "parans",
+        "local-space",
+        "remote-activation"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    },
+    {
+      "id": "special-contexts",
+      "title": "Other source techniques and exclusions",
+      "concept_ids": [
+        "election-horary",
+        "eclipse",
+        "epoch-imprint",
+        "exclusions",
+        "derivatives",
+        "rectification"
+      ],
+      "rule_ids": [
+        "N9-043"
+      ],
+      "required_chart_facts": [
+        "question_context"
+      ],
+      "contexts": [
+        "special"
+      ],
+      "transitive_concept_ids": [
+        "directional-context",
+        "natal-transit-order",
+        "cosmic-first",
+        "election-horary",
+        "eclipse",
+        "epoch-imprint",
+        "exclusions",
+        "house-field",
+        "vantage-resolution",
+        "free-theory",
+        "derivatives",
+        "rectification"
+      ],
+      "status": "NOT_READY_FOR_PERSONAL_REPORT",
+      "calculation_rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-008",
+        "N9-029",
+        "N9-031",
+        "N9-033",
+        "N9-034",
+        "N9-035",
+        "N9-036",
+        "N9-043"
+      ],
+      "calculation_or_source_blockers": [
+        {
+          "id": "N9-003",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-004",
+          "implementation": "RUNTIME_IMPLEMENTED",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-008",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-029",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-031",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-033",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-034",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-035",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-036",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        },
+        {
+          "id": "N9-043",
+          "implementation": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+          "source": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+          "conflicts": []
+        }
+      ],
+      "unresolved_meanings": [
+        {
+          "id": "election-horary",
+          "status": "PRIOR_REVIEW_ONLY"
+        },
+        {
+          "id": "eclipse",
+          "status": "INCOMPLETE"
+        },
+        {
+          "id": "epoch-imprint",
+          "status": "PRIOR_REVIEW_ONLY"
+        },
+        {
+          "id": "rectification",
+          "status": "INCOMPLETE"
+        }
+      ],
+      "missing_runtime_interpretations": [
+        "directional-context",
+        "natal-transit-order",
+        "cosmic-first",
+        "election-horary",
+        "eclipse",
+        "epoch-imprint",
+        "exclusions",
+        "house-field",
+        "vantage-resolution",
+        "free-theory",
+        "derivatives",
+        "rectification"
+      ],
+      "missing_runtime_layers": [
+        "applicable_source_retrieval",
+        "chart_context_graph",
+        "evidence_bound_synthesis",
+        "claim_citations_and_evaluation"
+      ],
+      "required_chart_facts_status": "REQUIREMENTS_ONLY_NOT_CHECKED_AGAINST_A_PERSON"
+    }
+  ]
+}

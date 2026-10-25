@@ -1,0 +1,291 @@
+{
+  "status": "LOCAL_STAGES_AND_CANDIDATE_RETRIEVAL_VERIFIED",
+  "baseline": "evidence/source-pipeline/session-baseline.json",
+  "counts_since_baseline": true,
+  "counts": {
+    "file_records": 1029,
+    "newly_acquired": 983,
+    "total_acquired": 1029,
+    "newly_ocr_extracted": 1028,
+    "total_ocr_extracted": 1028,
+    "new_targeted_visual_records": 270,
+    "newly_acquired_images_targeted_reviewed": 266,
+    "prior_acquired_images_reinspected": 4,
+    "total_targeted_visual_records": 312,
+    "targeted_passage_reconciliations": 270,
+    "new_atomic_assertions": 86,
+    "total_atomic_assertions": 128,
+    "remaining_acquisition": 0,
+    "remaining_ocr": 1,
+    "remaining_visual": 717,
+    "exhaustive_semantic_reviews_claimed": 0,
+    "printed_page_denominator": null
+  },
+  "requirement_dispositions": {
+    "source found but implementation missing": 116,
+    "source incomplete": 87,
+    "contradictory": 4
+  },
+  "candidate_searches": [
+    {
+      "query": "Flora",
+      "results": [
+        {
+          "file_id": "1qTZ6ypUn-bIuXGXKgg8wlfazLmBsLU88",
+          "name": "IMG_4332.JPG",
+          "image_sha256": "0487133512d37d873cfcd017dcb828d6ed8036a11b7d7f11db252ab9514b8563",
+          "ocr_sha256": "0f4d45dabb01eab2b12ff3168cfcee09f13e24a0b0f91eadb730c7955c778b89",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "10oUDqlU77U7onw6VMLygGnfBOOMjXY9R",
+          "name": "IMG_5401.JPG",
+          "image_sha256": "0e36345a953bbb0246b1491825fbe448bc8c42921afd16663fc04088df068695",
+          "ocr_sha256": "c73574e474115ca20b2fc942fcd5344c621edd83b891c7f5c7f441a0ecafa261",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1MiskBKsURFGpWS8ldW0z4NzEZiXZjU4n",
+          "name": "IMG_5402.JPG",
+          "image_sha256": "2f564dbc544a39369063b7ab15d11aeb73537d9807af5c5e321e4f139a3493f6",
+          "ocr_sha256": "1591795da7487c24dff7089786a64c2671daa70671a169644e1de379040f9b66",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1L1q-Yi87uBiIgaRpG0wpir9Kz53kLpen",
+          "name": "IMG_5456.JPG",
+          "image_sha256": "d37b04c2c151af8e435246055399b58cbcb745c6e1fb25cdb5abcb4ac49d56e6",
+          "ocr_sha256": "114294f20ccfd811b4d7a5c0cd35c00dc1816236ffc733f541138975559c7e50",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        }
+      ],
+      "expected_original_found": "IMG_5401.JPG",
+      "verified_transcription": false
+    },
+    {
+      "query": "Nessus",
+      "results": [
+        {
+          "file_id": "1xe_z1qknDzdlXmEd-5ijJ1dHY1WZtW0y",
+          "name": "IMG_4333.JPG",
+          "image_sha256": "21116645eb12a253c8f534f00f6afcd0ca915f82efa4f8f35947746c4a56afc0",
+          "ocr_sha256": "ad23e996a6c32bfb95d0c70e554d3dc57e14ceb58291afcd284aa43a614bdccd",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1jHU07G_AwItgFCns2DoScVLYwLAD4wvz",
+          "name": "IMG_4822.jpg",
+          "image_sha256": "ca8d2471bdb1cee45e2ea9a15ff30f2f45c3e238a9fe5bc3e2ad13a4a35f88d5",
+          "ocr_sha256": "648aba543c7e76a227af2cdffe8e96b7a1d2e9938729c1170764723fe0ac4c56",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "198_2HhMBTKwYpBRdFJXkdUIORdx_c7rw",
+          "name": "IMG_4823.jpg",
+          "image_sha256": "e6523d939ab6c386bac55f81905612e3c59a11dfb879068decbfe323515ae5ec",
+          "ocr_sha256": "f44ffc6e52b327a07071ab2772d49f251e56a470ad5f8407a3f8f7667f16e797",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1XBg2nsqCyxdcom3tjZC_3nX8_-fDxLxt",
+          "name": "IMG_5010.JPG",
+          "image_sha256": "dbdf73207ef3c2eb5885ac3a4cfe195e944247b543050eed216a028cf615e644",
+          "ocr_sha256": "43e5dda441e030ade4a238030c947c158c9ddcddbda479e7a8ecf9d672eef26c",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1bvH7jpKL_mzLy1HUOWR6VzMIoOtdYqyU",
+          "name": "IMG_5275.JPG",
+          "image_sha256": "007fd22ea32bfdc7c817d7eb27c5e038d8e4928bf642efc9449337d46b5a8c73",
+          "ocr_sha256": "eec0f066ebe75f05f3feaba0ebd134801a5f51fd47e8557c766fd49dd1309c91",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1EX3NVxvin2VRlP8uo0Kgkc_X27iTH2kc",
+          "name": "IMG_5279.JPG",
+          "image_sha256": "38cf7007b782d75418491f0ee3cc8d868b6004f79893b38485e4d5bbade05349",
+          "ocr_sha256": "89b2e83bdfcb05e797be79694df2ce3d311fbfd572b3eaf88ed84965aba09cbf",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1mDe50j5I-36ZdDkVa9xJ1yNWIuqRtUbD",
+          "name": "IMG_5431.JPG",
+          "image_sha256": "4403d8d7306bf326bca517274318ce23293bd49a4e2555da386c0cf4ecc9880e",
+          "ocr_sha256": "5c52de1d4898045ebe458dec7f03cc9b86bd785e4c9786f12da74853c3038554",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1mndkmiSRBBjNu8kdRrm-ApBTVUYLmp_v",
+          "name": "IMG_5460.JPG",
+          "image_sha256": "bdf38b6c62c5b892706a973ee5583971a626aa1dc6f05d4c14a191f0131613a9",
+          "ocr_sha256": "c8b8da0dbb7e7aa078d9210c123ba192c7fb907a3b5f0bcfec315fb919454fbf",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        }
+      ],
+      "expected_original_found": "IMG_5431.JPG",
+      "verified_transcription": false
+    },
+    {
+      "query": "Sedna",
+      "results": [
+        {
+          "file_id": "1xe_z1qknDzdlXmEd-5ijJ1dHY1WZtW0y",
+          "name": "IMG_4333.JPG",
+          "image_sha256": "21116645eb12a253c8f534f00f6afcd0ca915f82efa4f8f35947746c4a56afc0",
+          "ocr_sha256": "ad23e996a6c32bfb95d0c70e554d3dc57e14ceb58291afcd284aa43a614bdccd",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+          "name": "IMG_5440.JPG",
+          "image_sha256": "834ffa6fd485fddf47e680c59ea7ffce476bc3f7a7cc2231810345859446c73f",
+          "ocr_sha256": "6dd82ef39fdc373c0c875625cb06a1ec54811b5ac2749233e1ead0efc1c36356",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+          "name": "IMG_5441.JPG",
+          "image_sha256": "ec801689d33aef038d628e64d83e91d76dac83f76243ba89c79ab40d8068407b",
+          "ocr_sha256": "ae7387cc05fb2989c745e06699ecaa5bf04716bb9a6a1d86b8c8b9a882244b54",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+          "name": "IMG_5442.jpg",
+          "image_sha256": "e4661e8e463776e5a62d49c386359b713aaa91fe0d1179fe8b0002b1d3d9055b",
+          "ocr_sha256": "be523bbaea4f82c6e99b7aa5d8da0fab7062db32e21ce7b92a151a2a09ed6e4c",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh",
+          "name": "IMG_5462.JPG",
+          "image_sha256": "d094358b1eeeff97adb67a0007340d3a4173ca25dab92eac9ed8dc64542a4a1f",
+          "ocr_sha256": "5a4ae27ed32c00fe2119e112fd20a3574ea844d6a12e74dc8fac66d18f0fb82f",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        }
+      ],
+      "expected_original_found": "IMG_5441.JPG",
+      "verified_transcription": false
+    },
+    {
+      "query": "Sophia",
+      "results": [
+        {
+          "file_id": "1Rl5btYePftpusJsZuNEljaGyIH_z1Nkh",
+          "name": "IMG_4331.JPG",
+          "image_sha256": "0ec5e1db8f5692cf40cf9989d65d227989b142a53e7c1eb505a76342a86d94fc",
+          "ocr_sha256": "a9c621837b19b8c5d557170ceed095095b8a558b4f90e959171d45bdfda0a50a",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "16pXB8vJwDdRecgdNyMpmaxyX5aWnLQvD",
+          "name": "IMG_4362.JPG",
+          "image_sha256": "27f163b949e5b705d20d4d47eac37f0c08093642ff303aeba8eeb59248b26e80",
+          "ocr_sha256": "f019e16d800407e3661fbc34ba5397b9eaabf8425250cf61b6a69a3e4fc25dbc",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1ZqolbeBKMArr6hDVRNflWciXqJ6KbJP2",
+          "name": "IMG_4513.JPG",
+          "image_sha256": "094b1f10266033783e8e866241a2041404b3e6eb8db8a207a0bf2d8b81b8a05f",
+          "ocr_sha256": "24203a2971cc8313d2a775afde2dc3a61741364f805c3dc8f475c76c391263b9",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1Im4rG2y7X2Wk8bhBuU9MSCc6hAA-t6jT",
+          "name": "IMG_5084.JPG",
+          "image_sha256": "e56839cdc635bd3f1473330153344830811ded168354cfd6c970ec12e6661c6a",
+          "ocr_sha256": "be95951ae2535fd0007167f155cc5e2a039d5c11c4f135bb0a304c380ec4f52f",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1-i_eTTDlnAsMeYH_qHFKm5kKRkajVyEB",
+          "name": "IMG_5085.JPG",
+          "image_sha256": "499381b1e9769a46de623baac46443eea6b93346f2f61c3ea1ad835d36607e61",
+          "ocr_sha256": "f766f4d4006b5e9e75f86614a9311aa024339dfdc9327f2cc5afd89b5aa21597",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1JwjPIXwMIVCF2VFpQNynLn1Ia5YWNaWL",
+          "name": "IMG_5086.JPG",
+          "image_sha256": "44594633721af4f0cd2722eed3d7d01be32a4fbd4fb37be68898e60de6c0b129",
+          "ocr_sha256": "ccf20fa2e5d694ddfc17efcafd652e7f0b48c12dba9cdbcbc21b51512ae39d65",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1scIfi1WsEhHp_GF119-FuvBz8uLSgwXk",
+          "name": "IMG_5089.JPG",
+          "image_sha256": "3f9e7dff6cb239343ec5d0ad798194c911f9521090c77a67e0aa7aa22385fae3",
+          "ocr_sha256": "9a58b546c74243204d408245da901d6358e0bc735f5d99579ab717b4d5300852",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1sWgk46z-UueF2pct-Vl8Aze4rZAB3_tq",
+          "name": "IMG_5090.JPG",
+          "image_sha256": "bd47ceec55dd8d0e461176eededfb9e44a3265283c9d9b4c9390dd59ed3b8a20",
+          "ocr_sha256": "e336d31e08ecd129d79c9e67c92e87840fd0e591dcb4593edf92f3ae05884798",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1nF0yOF-rauBcFPPUMuIyBU86XIhsEmVo",
+          "name": "IMG_5091.JPG",
+          "image_sha256": "f75b2c9aeba74331a171551de5358a2b9364eb9d13ea621255bb6e98eb2383e0",
+          "ocr_sha256": "a264267be711a15e2f9ee9d52caa79384b969769fb57693bc2ba7e60533020e5",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+          "name": "IMG_5263.JPG",
+          "image_sha256": "deacb158c0ffb7d8bc5f4845cd2d465bb99cb53bddb19ed432b7c3fcd6163bd0",
+          "ocr_sha256": "db632c1961479373c8aba2cf8a9adf1bcd130455bbeba25e80f1db902839e6ed",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "11BlXP_We_3ZNil0q03SbubrJ6stOLnJq",
+          "name": "IMG_5550.JPG",
+          "image_sha256": "7e83d2f7cc8bb4ca01006e77156d3d1d5850318b154fa1dc19a7ac4f1f7da154",
+          "ocr_sha256": "3d2a747689e37f721eb2e3d8d8eab9457276a4a123869ab7a89c9c4c246549fb",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "18vERV8EMr6IuO-ksnWLUXzBEVUDDS3ax",
+          "name": "IMG_5656.JPG",
+          "image_sha256": "e13858c37d6b7152f6fa93c04dd2d5d90a6b6c5797fe395598c6987d27a5a525",
+          "ocr_sha256": "645a5c4b69c8607c90e249508a83585472232ba307fa432dc03d107758b0c423",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1icOfxJXPZm34WHRj80xiTOGoRwp8-iM9",
+          "name": "IMG_5659.JPG",
+          "image_sha256": "affdfe61d66aaefd50b2c88a7bccc277af6d46e3cd10ba6cc2055482042afc21",
+          "ocr_sha256": "3e4f312431f6ef1ab2d1fffccbb19ae901eb3eaf9e8fb5e48ce6b5d7dd71d796",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1KG2Pz1ctXuJYITwtLxW1Rg9_1UqRnZGc",
+          "name": "IMG_5680.JPG",
+          "image_sha256": "99ac4f53a6f3167dbe597e7fc0e2671509fe36b4dff510eea989caed23c6a1a3",
+          "ocr_sha256": "69d41ebe0596b81d30ec8a5861ef898a6bb5bbfae0f9861c43cbd6cc13a21cfc",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        },
+        {
+          "file_id": "1sJwYpcqMZ4YhWsaxGCfQj1aNT9uUUIdC",
+          "name": "IMG_5685.JPG",
+          "image_sha256": "b8eaf725a50ccffc2a8587103a292d69e129d6d983c0ccd9de1c6d3815c88810",
+          "ocr_sha256": "979e091c645a81b34803b4170a94aeaafd26ca217629b4100a17ff5de7a28d29",
+          "status": "OCR_CANDIDATE_NOT_VERIFIED_TRANSCRIPTION"
+        }
+      ],
+      "expected_original_found": "IMG_5090.JPG",
+      "verified_transcription": false
+    }
+  ],
+  "personal_answers_generated": false,
+  "deployed": false,
+  "ocr_engine": "Windows.Media.Ocr en-US; installed Windows PowerShell5 WinRT; no new package installation",
+  "ocr_pilot_limit": "Initial Spark509 pilot verified extraction; the subsequent bounded batch included diagrams and Roman headings. Broader corpus/rotation/language accuracy is not established.",
+  "retry_observation": "Initial restricted-network acquisition failed with URLError and checkpointed; authorized network retry reused state and succeeded.",
+  "extraction_failures_current": 1,
+  "line_reconciliation": "data/knowledge/source_line_reconciliation.json",
+  "source_fidelity_is_astronomical_correctness": false
+}

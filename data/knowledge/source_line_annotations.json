@@ -1,0 +1,3092 @@
+{
+  "scope": "ANALYST_IMAGE_CHECKS_WITH_OCR_LINE_LOCATORS_NOT_CORRECTED_FULL_TRANSCRIPT",
+  "annotations": [
+    {
+      "id": "spark-sign234",
+      "file_id": "1-2VEig2PpqXaj3So9b7Wh1U8wmyGBM-c",
+      "image_sha256": "9601d49b0a134314a0b6d0ffc51a767e22327435a3dc59af21317e5b94a6acbf",
+      "ocr_output_sha256": "1f90acabcc25f4cd877e352ed990dd4ae75f8d8deea4cbd1a4d6a0e608cfcb41",
+      "printed_header": "234",
+      "line_ranges": [
+        [
+          15,
+          29
+        ]
+      ],
+      "finding": "Sign parity explicitly developed and named as Alchemystic Degree Theory.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "spark-house235",
+      "file_id": "1cY5Ih6NDZDJOMBTwx0pHcB3EoJMakSfR",
+      "image_sha256": "ed3997ae2c87806f2e146c83bdc493a105dcaac3b4b4d6053011d5b067450c3c",
+      "ocr_output_sha256": "8552a9889f00c8d2cbc65b4718ab4bd490039111a3cc5538e6040a3e54eb77f4",
+      "printed_header": "235",
+      "line_ranges": [
+        [
+          22,
+          27
+        ]
+      ],
+      "finding": "Odd/even houses explicitly printed; retain counterwording.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "spark-lexicon-c",
+      "file_id": "18KuFqLKMtER0xTCHLisQjVrkfue48yuP",
+      "image_sha256": "d1d989d6cdbadc0180fde7e77451dcf664f98d7051ced874c8481fb09a321e2e",
+      "ocr_output_sha256": "ec7914edbce1edcbad3b85822436cd0a1d10ac0f4129d55f79fd8d965a233a1b",
+      "printed_header": "c",
+      "line_ranges": [
+        [
+          23,
+          28
+        ]
+      ],
+      "finding": "Lexicon expressly uses odd/even signs; degree glyphs checked on image.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "spark-horary557",
+      "file_id": "1IbY7ZecMcuQ_EoSzJNIxMwp1JVe18GgX",
+      "image_sha256": "99efbe45cbcc65cfd7d261101e36086ed83c43c75789f4e2d8b7abd00852e129",
+      "ocr_output_sha256": "7a0c71a279ec92fda557a1e1d7dffa927a7fb832aad9dffdf21ab7f86ef4f5d3",
+      "printed_header": "557",
+      "line_ranges": [
+        [
+          41,
+          43
+        ]
+      ],
+      "finding": "Virgo rising4:26 is explicitly Aquarius Spark, supporting sign branch.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pluto378-prose",
+      "file_id": "1suk1Ca369m-BaeDOnRY_IAoxBCiYK99f",
+      "image_sha256": "ab8a73d47d97bf1870bbe32c6483ccefe90e3fd17ca1489ecac0550f2984f1c1",
+      "ocr_output_sha256": "281ed5c64d467bf622c81decf11d33a0e9490b1550c8648f866999f2a1fe04e4",
+      "printed_header": "378",
+      "line_ranges": [
+        [
+          21,
+          33
+        ]
+      ],
+      "finding": "Earlier24:42 conflicts with diagram and24:15->25:45 calculation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pluto377-prose",
+      "file_id": "1b437ziWz58LZKtw_t1jg56Dbu112Ul-O",
+      "image_sha256": "5a777fbc65f6f2fa57eb40f2a3f3779c3a876adda04caffd930442e4df7a9da4",
+      "ocr_output_sha256": "37a811e8aaaa27b99fcaa5e9f51926031c6a04658e0d8cebafcec9f3939a32fb",
+      "printed_header": "377",
+      "line_ranges": [
+        [
+          22,
+          23
+        ]
+      ],
+      "finding": "Prose24:42 conflicts with two visually inspected diagrams24:15. Diagram numeric labels were missed by OCR and are recorded separately.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "chiron687-sextile",
+      "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+      "image_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+      "ocr_output_sha256": "2344b415b621b2897c87d00e6d307242b9fcb874d9d6863923477957479e4a2f",
+      "printed_header": "687",
+      "line_ranges": [
+        [
+          33,
+          37
+        ]
+      ],
+      "finding": "Sextile word and Aquarius sign checked. Chart labels19:18 Aquarius and19:07 Sagittarius are separately read from the diagram.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "chiron688-trine",
+      "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+      "image_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+      "ocr_output_sha256": "9be168294c869c49307d47fc64e4320d47a6fcd44e8466a2d53edb55c9662462",
+      "printed_header": "688",
+      "line_ranges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "finding": "Trine wording conflicts with previous chart geometry.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "eunomia712-main",
+      "file_id": "1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+      "image_sha256": "3070d80215980114029d16fe69b877fa390a276246b75a3a615c16f2ef967625",
+      "ocr_output_sha256": "cf8c02ddb2e7bbc825fb6a520e28ef5242d28e0380970a3bbfb6053ea5de359f",
+      "printed_header": "712",
+      "line_ranges": [
+        [
+          2,
+          13
+        ]
+      ],
+      "finding": "Resilience meaning and rejection of order are explicit; retain qualification and negation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "eunomia772-comparison",
+      "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+      "image_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+      "ocr_output_sha256": "020873915643be51b36ed643a7c81e23b2d08bd00b4e659ad564c3b8da19c0e9",
+      "printed_header": "772",
+      "line_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "finding": "Functional Order is under We say, not merely They say; genuine alternate source wording.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "fca508-width",
+      "file_id": "1KRNT79eHwWbIeK1WwUgJ87B14XFFYyP3",
+      "image_sha256": "595f1f7b9785c7fe6a7fce79116246926dce49e8a2907a51304b8173623bcae0",
+      "ocr_output_sha256": "f777722a35ee564f45462860a694b6e85e39793a03531064ae6e3c60e6ddfd84",
+      "printed_header": "508",
+      "line_ranges": [
+        [
+          4,
+          13
+        ]
+      ],
+      "finding": "Five percent and degree-width3arcminutes explicitly checked.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "fca510-mars",
+      "file_id": "10fu6tdeWyuCSz72O0zZGbZiyh82OmzY0",
+      "image_sha256": "6e8de7b770466b79c2e7ed92ef6e475bbc1a21c2d9165c7bcdd4eb02f3bcd11f",
+      "ocr_output_sha256": "1fb9eb6227633ae17d2aed45e850d170e20775d3e35aba659141b161dbe7532f",
+      "printed_header": "510",
+      "line_ranges": [
+        [
+          24,
+          30
+        ]
+      ],
+      "finding": "Mars5:56 H4Libra and Pisces(AriesFCA) checked; OCR misses4H but image supplies it.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "fca-lexicon-n",
+      "file_id": "1KQWeKe9F_wcv3NpTH3kYohFrzNiOT84w",
+      "image_sha256": "81d11a73a7227a9f2cd3111c0f38a08be6b5ad1a8fe986e5390b1be75d101b15",
+      "ocr_output_sha256": "0f70a7338c3a13041bdc99f2fbd062befddd904bfac0657105542ea07ca13249",
+      "printed_header": "n",
+      "line_ranges": [
+        [
+          13,
+          18
+        ]
+      ],
+      "finding": "Roughly5percent on each side explicitly checked; no weight function.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "fca-epoch919",
+      "file_id": "1xfAc7CsKn7Z0H4o1uFTR1NuL8f09viPw",
+      "image_sha256": "49ba5632a0b6e08e875a94ebbd6f2c8ae93e8ff2d2db090e52190595dd8478f0",
+      "ocr_output_sha256": "636b2f0398046e2d63fde761bd4b915b04bbdff20cac3a18d334bb8cb63ef10b",
+      "printed_header": "919",
+      "line_ranges": [
+        [
+          7,
+          20
+        ]
+      ],
+      "finding": "Observational/provisional5percent wording and two-sided epoch overlap checked.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "spark-lexicon-ab",
+      "file_id": "1KG2Pz1ctXuJYITwtLxW1Rg9_1UqRnZGc",
+      "image_sha256": "99ac4f53a6f3167dbe597e7fc0e2671509fe36b4dff510eea989caed23c6a1a3",
+      "ocr_output_sha256": "69d41ebe0596b81d30ec8a5861ef898a6bb5bbfae0f9861c43cbd6cc13a21cfc",
+      "printed_header": "ab",
+      "line_ranges": [
+        [
+          15,
+          19
+        ]
+      ],
+      "finding": "Spark definition does not specify a new parity algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4782-jpg",
+      "file_id": "1Jur3cC61WAZIT1StWlC5ukfytmRuynWd",
+      "image_sha256": "21e13cdd1795e2ad03732ebca27b22dec677918bd43c056ea596dd1ca52f2af8",
+      "ocr_output_sha256": "479460c168e279547e1766cac29d78384adf8a301f1699e69c2f69d63afc45c8",
+      "printed_header": "347",
+      "line_ranges": [
+        [
+          3,
+          26
+        ]
+      ],
+      "finding": "Natal applying/separating imprint is static rather than increasing pressure; author gives spectrum position precedence over elapsed-motion pressure. Preserve the qualified lingering imprint rather than saying motion is wholly irrelevant to natal interpretation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4783-jpg",
+      "file_id": "1ZgHigVf_sJ6HcjOJ2R7Ni8EMeqvYegL7",
+      "image_sha256": "d03bb143a93124ead567fc41606b906e24a9d16a55e3071184f11bcc0fea7ae2",
+      "ocr_output_sha256": "f5dc53a8eb91e366f73dc1825a4ed1a851bdc959b04fa262216ebd9eec18d594",
+      "printed_header": "348",
+      "line_ranges": [
+        [
+          7,
+          28
+        ]
+      ],
+      "finding": "Moon25:57 Aquarius and Chiron24:42 Taurus are printed in both diagram/prose; diagram labels separation89:45, while those coordinates yield88:45. Source still puts the Moon past Turnover in Conjunctive Territory. Preserve the one-degree numerical discrepancy rather than silently correcting the diagram.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4784-jpg",
+      "file_id": "10qExkYZYV-gCGmmJvc_l0EDCEXS37dUn",
+      "image_sha256": "648dd184048c08750aa3fe41868112e08d6f222cb46442f026999a11f2707d86",
+      "ocr_output_sha256": "e9ae305584e521a329193f92e04ca3538f67365e6f7e8a7dbb84543965955a77",
+      "printed_header": "349",
+      "line_ranges": [
+        [
+          5,
+          22
+        ],
+        [
+          30,
+          35
+        ]
+      ],
+      "finding": "Natal interpretation favors spectrum position and static momentum imprint; transit interpretation separately tracks changing application/exactitude/separation. Source explicitly says this square switches Oppositional to Conjunctive Territory after its Turnover; no generic applying/separating intensity may replace that direction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4785-jpg",
+      "file_id": "1gJHLlw0x2s5cpfitJjIJcHvS_dsD8MoA",
+      "image_sha256": "9e572faf49472b9d5bdfdc50eb4688f59e988fac4e2d1095642c9673a431d847",
+      "ocr_output_sha256": "577dbd6fd08cf4a83eaef29a148cb1a617e3c01b21e6fda7f1ccad325384e627",
+      "printed_header": "350",
+      "line_ranges": [
+        [
+          9,
+          37
+        ]
+      ],
+      "finding": "Seven-stage Aspect Arc begins FringeActivation,TrueAspectActivation,ApplyingAspect,PointOfExactitude. Exactitude states neither planet leads; nucleus contact and orb overlap are distinct stages. Drawn prose alone does not define all tolerances or every retrograde re-entry.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4786-jpg",
+      "file_id": "1-OJSgWipXbGmNFKdL_GmpUZaLyuHDZAE",
+      "image_sha256": "c2ca171accb49dc9159f4c6fccafdfbb617c70931d849355a847d3ccf00893cf",
+      "ocr_output_sha256": "e27a8678c83dd449396c065bb5021686893914653d38bf26ef5c65f2fb965b8f",
+      "printed_header": "351",
+      "line_ranges": [
+        [
+          6,
+          33
+        ]
+      ],
+      "finding": "Aspect Arc continues SeparatingAspect,AspectRelease,FringeResidual. Direct points such as nodes/nonagesimal are described as always exact; release exceeds either orb, while residual remains qualitative. Preserve within-ecosystem/transit-forecast context and do not invent residual duration or reuse planetary OOI for point emission.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4819-jpg",
+      "file_id": "1MISKVk53TDyxxF4Bql2ul0PUhlULWSXX",
+      "image_sha256": "181ff73714504a6fc5fe6c7e6d8a7fec7866fab248873fc9f5dce227e59c9c8a",
+      "ocr_output_sha256": "ed6465b4e222dee6e32e9aa76647f12962d030a973b0ee23862198f65b771a75",
+      "printed_header": "383",
+      "line_ranges": [
+        [
+          17,
+          30
+        ]
+      ],
+      "finding": "The listed six minor aspects15,45,75,105,135,165 are each assigned1degree OOI. This closes a selected aspect-specific bound, not all possible minor aspects or per-body radii; equality and interaction with directional emitter limits remain unspecified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4776-jpg",
+      "file_id": "1SCl2cS-M4HJfXoVFW5Hps3rfjEFuPGfd",
+      "image_sha256": "8de2aa0b3f4ec6654537cd7a415970bbd380ae0d6647aa22447de8739b8cc878",
+      "ocr_output_sha256": "b3d850c5e6554457a2ff8925f2af0c64c143a30229d5c5d442c4b78690d7bb1a",
+      "printed_header": "341",
+      "line_ranges": [
+        [
+          19,
+          32
+        ]
+      ],
+      "finding": "180Rule uses film-plane analogy to describe role flip/reset and reintegration of both energies, while separately locating Turnover at90 markers. Do not collapse hand-off and Turnover into one threshold.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4777-jpg",
+      "file_id": "1mQJOu8-wfkzq0EuaJpj6_sb_bVf0YzhA",
+      "image_sha256": "92569d3a054cea486ea552e959a1115e3f91c504bd7815750be6cb2494f799d2",
+      "ocr_output_sha256": "4bba5a0dbe308e661be7c161368ecebd9863df4b0ec3e8e340095d44bc572f81",
+      "printed_header": "342",
+      "line_ranges": [
+        [
+          5,
+          18
+        ],
+        [
+          19,
+          33
+        ]
+      ],
+      "finding": "Direct Opposition is read from each chosen Vantage; author explicitly rejects leaving SouthNode behind while pursuing NorthNode. Houses,signs,rulership and other contacts remain contextual rather than a generic node keyword pair.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4778-jpg",
+      "file_id": "19euFPSm7zi-5jb441jE2ISb7vzBDWBp3",
+      "image_sha256": "adefc5da087ca79460d3342d6fa656ca6f5b950232b26accf14e4ee74d03ae22",
+      "ocr_output_sha256": "4f0d98109b1778b1fab5d10a0f1824e05699df21956d1dec27a17731ceea54af",
+      "printed_header": "343",
+      "line_ranges": [
+        [
+          10,
+          20
+        ]
+      ],
+      "finding": "Indirect opposition example gives Sun21:16 Gemini and NeptuneRx25:48 Sagittarius and calls it Forced. Preserve the coordinates and defer which outgoing OOI reaches which target to source-specific parameters; the paragraph alone does not provide Neptune's radius.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4779-jpg",
+      "file_id": "1Q-oe9BD143xBVLbDRrDKCdH9mNffYQNi",
+      "image_sha256": "97c8c82718d7edbea412d1698b22aa4db17bf1f782722fa583fc5139a99961c1",
+      "ocr_output_sha256": "5a295bccda9d9cd508b0461b6269f429580acb5e6458365164fd84142224f09a",
+      "printed_header": "344",
+      "line_ranges": [
+        [
+          11,
+          35
+        ]
+      ],
+      "finding": "Author selects NeptunePlanet1 and SunPlanet2 for the preceding opposition and permits reactive response without reverse initiation. Neptune's8th-house rulership and5th-house placement are required context; trauma terms remain the author's self-description.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4780-jpg",
+      "file_id": "1c2Lh69p837cgvtxVBcjGoiChf6qfp9yf",
+      "image_sha256": "69945bf141aab97fd576b5b32ccd19bc9120261845918715a1f7414131e5bec4",
+      "ocr_output_sha256": "d5bdb163c16f792ff70810339e09736d6bf038d976eedcfe9732c8cfa1fbfd7e",
+      "printed_header": "345",
+      "line_ranges": [
+        [
+          4,
+          35
+        ]
+      ],
+      "finding": "Page consists of personal illness,career,mental-health and family anecdotes illustrating the previous author example. These are source autobiographical claims, not calculation rules or facts to apply to users.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4781-jpg",
+      "file_id": "1TmuXCUToVdUU4raVpnHqTbEbVGFsUNa0",
+      "image_sha256": "af93f6d80f13276c7c940ead0b439f8ad0661305541d895f93c52a474456bed8",
+      "ocr_output_sha256": "7de3ccc9dd8fa5dce3eb990eda95322aa1823713d062f05d2e875915f916c44b",
+      "printed_header": "346",
+      "line_ranges": [
+        [
+          3,
+          13
+        ],
+        [
+          15,
+          31
+        ]
+      ],
+      "finding": "Author keeps Neptune/Sun opposition distinct rather than fused. Applying/separating discussion mostly concerns transits and rejects importing generic intensity into natal readings without conditions; the answer about natal imprint is explicitly qualified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4770-jpg",
+      "file_id": "1RFbHKcuDz9dJeI1p5WfzgJ09TIwqg3Il",
+      "image_sha256": "b44b2eb3b3f7ae108ec29432db4d363861d231807a38a2c97c5ec785f050a66a",
+      "ocr_output_sha256": "8b77247e53994dc3680b4d65dff1ee291fa43ea32f60450c2544b076cf7ef31b",
+      "printed_header": "335",
+      "line_ranges": [
+        [
+          3,
+          12
+        ],
+        [
+          17,
+          39
+        ]
+      ],
+      "finding": "Within-ecosystem Mars0/Moon1 example assigns MarsPlanet1 and MoonPlanet2 and expressly excludes applying this purpose wording to transits/Synastry. Later179:55-before-opposition passage says29:55 of the opposite sign; for the stated Mars0Aries this would be29:55Virgo before Libra0, so preserve the source sign-wording inconsistency.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4771-jpg",
+      "file_id": "1Y2s4-7WCX6c2Yf6uMczjxYt5b2vR-xQR",
+      "image_sha256": "e77e808a9f3adcdf57ed6ad47b93861c389dafc1ef5435cfa90d671fa9e5d882",
+      "ocr_output_sha256": "d8d1e4f6bb8c4ccde1ec762d2d6db96b235ef87ee0cfe0e4c306eb3537099a40",
+      "printed_header": "336",
+      "line_ranges": [
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          38,
+          41
+        ]
+      ],
+      "finding": "Exact180 diagram and prose require equal compromise from each Vantage; house,sign,aspects and planetary condition of the second energy remain mandatory. Equality is source-described but numerical contact tolerance/time scale is not specified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4772-jpg",
+      "file_id": "1MS5WyjV0j2P4CJdXQyVNj3JcOtMLPKoc",
+      "image_sha256": "fdffaff8bb01e40b964c96fd20e8364df3681da752c554219fa225d0f1e46200",
+      "ocr_output_sha256": "48753f76eb0e031c75d557ceced00c43c899583ba4e44697489a996d529edc71",
+      "printed_header": "337",
+      "line_ranges": [
+        [
+          2,
+          8
+        ],
+        [
+          21,
+          30
+        ]
+      ],
+      "finding": "Naturally opposing pairs explicitly include AC/DC,MC/Subheaven,Vertex/Invertex,nodes and horizon rise/set. Post-hand-off Moon1ofnextsign becomesPlanet1 and MarsPlanet2; drawn179 is the unsigned smaller separation after the180 crossing, requiring directed phase to distinguish the two sides.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4773-jpg",
+      "file_id": "1wEEHX3X41QYG9H1__Tv9fsgsnrUhur-K",
+      "image_sha256": "ced742a4f27a06208409c2b1b44868232a5522d0564b6efdff205fb7d71fbb3a",
+      "ocr_output_sha256": "62d92b770991e355a80dd2edd0438490c00aa4e19a53bf0fdefc3ed205383243",
+      "printed_header": "338",
+      "line_ranges": [
+        [
+          2,
+          19
+        ],
+        [
+          20,
+          38
+        ]
+      ],
+      "finding": "Moon28ofprecedingsign remainsPlanet1 approaching Mars0conjunction. Replacing Mars withSun motivates Full-Moon role reversal; do not confuse unsigned angular separation with the phase/oriented journey.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4774-jpg",
+      "file_id": "1BLquCXbtQ9Xm7e9ZzqpGYuDfCLe6n1hf",
+      "image_sha256": "d1fdd9bc8bbcb2210fc02e8b15c836c51ed60ecf71b88f78b647261bd9cf68b3",
+      "ocr_output_sha256": "ad3d4117f1b0c0eaf3c61f4eaabbbe783bd6262fb4f5325408b77ed2e4792471",
+      "printed_header": "339",
+      "line_ranges": [
+        [
+          7,
+          24
+        ],
+        [
+          25,
+          37
+        ]
+      ],
+      "finding": "Full Moon is the halfway point of the universal synodic cycle, not completion; author explicitly rejects drafting universal New-Moon synodic charts as personal charts. Personal natal contacts and universal sky-to-sky context remain separate.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4775-jpg",
+      "file_id": "19ucpDGEjGojnoNjuSDgRCxDa3v1mrPFO",
+      "image_sha256": "dd2dd9f6529e2267b2715889086fe9a32d29808430a3556cc5876820976ecd2c",
+      "ocr_output_sha256": "85cb51b1a892b77601f249887286744ca13d7e32fb3ed7bbd8ea1320554e185a",
+      "printed_header": "340",
+      "line_ranges": [
+        [
+          2,
+          26
+        ]
+      ],
+      "finding": "Personal Moon-to-natal-Moon contacts are distinguished from universal New-Moon cycles. Conjunction/Opposition hand-offs reset Energy Flow Meridian and are distinct from ordinary applying/separating labels; subsequent return doctrine remains separately required.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4763-jpg",
+      "file_id": "1tZrZWbCs-fFs0RQt05_m9zZh_Agpu0aI",
+      "image_sha256": "7d7d251b0f65ce17476a487212bb0f029939fe47b6bcc22e9f6c7e921cb7df85",
+      "ocr_output_sha256": "d937b829949e4bd54dd22cf5d1227d7f2f436acdfa6e9c60ec832a9d8425ff46",
+      "printed_header": "329",
+      "line_ranges": [
+        [
+          9,
+          25
+        ]
+      ],
+      "finding": "Author distinguishes initiating Activators from responding Receptors and describes a faster body triggering a primed slower-body network. Response does not establish reverse initiation; Priming Matrix is described but deferred for fuller teaching.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4764-jpg",
+      "file_id": "151YG3g9C6M_gCVpomp0fpCL--iSaLXw_",
+      "image_sha256": "f8e2b35a1048d052b235b13adb0e08ef75760dacc7ff6b963c77e9bc4a0adee1",
+      "ocr_output_sha256": "93a1d6af4909471eb46bd89147c94943c39338e57ed5c407405b741afb82d6cf",
+      "printed_header": "330",
+      "line_ranges": [
+        [
+          14,
+          24
+        ],
+        [
+          31,
+          34
+        ]
+      ],
+      "finding": "Source links directional interpretation to forward orbital motion and treats retrograde as geocentric perspective. This source rationale does not replace measured signed apparent longitude speed, nor justify suppressing real retrograde in an engine.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4765-jpg",
+      "file_id": "1s24dkZ1Ij5qORL3JSbDZFAUOU1rRi02M",
+      "image_sha256": "fe806052537ced8c64a079dd6d75ab1c32d5bd3382bd72468a6f4d4b990229c8",
+      "ocr_output_sha256": "6ea8c402ec6ea768828831e88b82be383131a5ecda5971311e868b0fd1176ff2",
+      "printed_header": "331",
+      "line_ranges": [
+        [
+          10,
+          29
+        ]
+      ],
+      "finding": "Resolving Energy passage gives autobiographical/spiritual premise and calls the ecliptic an imaginary Sun-Earth line. Preserve as author rationale; do not turn that wording into an astronomy definition or numerical implementation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4766-jpg",
+      "file_id": "11kgNc5tkp1RxeqImjk4v7oKr9i3E4WNJ",
+      "image_sha256": "ea2f3929694f6c52b6ad287d021781784cfe1d51b1c0322ba19c28a29b0d58bb",
+      "ocr_output_sha256": "e0cb235fa564271089fff445185890786d738a6c9a590fbe4ff3795ed6b0aad8",
+      "printed_header": "332",
+      "line_ranges": [
+        [
+          4,
+          18
+        ],
+        [
+          23,
+          34
+        ]
+      ],
+      "finding": "Apparent daily solar-motion analogy and orbit/spin drawing motivate reverse-perspective interpretation. The counterfactual no-spin narrative is not a progression day/year conversion algorithm or independent verification fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4768-jpg",
+      "file_id": "1UN_eAxp4-Z3ufT8G66s6QH0jf-6qnS3B",
+      "image_sha256": "8d958f1081083797ce5d00a4d9997cf4943c4a071d862c3d8bdc3e6e93d8305a",
+      "ocr_output_sha256": "f346ecf9b46840c0c19c0d986d992f9969e8f5659ad067ea14d5e7167dda7b68",
+      "printed_header": "333",
+      "line_ranges": [
+        [
+          6,
+          9
+        ],
+        [
+          18,
+          35
+        ]
+      ],
+      "finding": "Author reports95percent-or-more discarded theories and presents a rhetorical rotation/orbit analogy. Neither assertion supplies measured accuracy, a rule-validation dataset or missing progression parameters.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4769-jpg",
+      "file_id": "1t3aTg_JSa5UNnOUB6oX6AdzCQlF-uDHJ",
+      "image_sha256": "82935ce9f1068dd5484ce96243ade4812e8d1963f2b29d7d41efa20e83dd8d6c",
+      "ocr_output_sha256": "e0d91eca2c990c90d9531991df951f3a80484edcd8a94f32ae6ed7fd7d99c2fc",
+      "printed_header": "334",
+      "line_ranges": [
+        [
+          10,
+          32
+        ]
+      ],
+      "finding": "Hand-offs are explicitly within Conjunction/Opposition and distinguished from90degree Turnover. Geometry rather than faster/slower identity governs under retrograde. Exact Mars0Aries/Moon0Aries is described as no planet favored, recovering a specific equality witness without a numerical tolerance policy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4757-jpg",
+      "file_id": "1uCeWkMQmkHrZ5ShS-HwGwn39xSGu5fO_",
+      "image_sha256": "33fde6b4c1df27200d78fc410d7f1aa1d4fa4c166c72f61d25e2c212a9e819b5",
+      "ocr_output_sha256": "702904097ef1a61fc5a509b3842b219d63e472a5be3dd09c5b1ab5525f848a0b",
+      "printed_header": "323",
+      "line_ranges": [
+        [
+          6,
+          11
+        ],
+        [
+          21,
+          34
+        ]
+      ],
+      "finding": "Resolution must be repeated per Vantage and reintegrate supporting energy. Trine lies on the oppositional side, carrying ordered1to2to3 momentum; Quincunx is an unmerged hand-off, not literal Opposition.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4758-jpg",
+      "file_id": "10FbU_mlRm9NNdjambks0h4g5Ot2GjlPy",
+      "image_sha256": "7be66e2f0692dce87f9008a823e531525a39b98158ff6c956e446393fbd15284",
+      "ocr_output_sha256": "f9c2d5ecfd471a82c4a57f2a7dcc216ad0a423e11e300d048f03eafc59bbd6c0",
+      "printed_header": "324",
+      "line_ranges": [
+        [
+          6,
+          17
+        ],
+        [
+          19,
+          33
+        ]
+      ],
+      "finding": "Opposition maintains intentional distance and mutual support for exactly opposing nodes; source explicitly rejects generic tug-of-war wording. The JupiterRx/UranusRx anecdote depends on house rulers and privacy context, not a universal diagnosis.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4759-jpg",
+      "file_id": "1LxgzOHwQVlOZjM2oPrBnNWxBzszWXtKu",
+      "image_sha256": "e63254494673335b0ac1ed26141c63a4ac8eda99d7b251b8d7c22129d3e16d94",
+      "ocr_output_sha256": "d1c5937578f5090fbd5d9024b7464fdf34ed29466af490a0f90b3fb88b3f9aab",
+      "printed_header": "325",
+      "line_ranges": [
+        [
+          11,
+          25
+        ],
+        [
+          26,
+          34
+        ]
+      ],
+      "finding": "Energy Flow explicitly requires direction,degrees and order and distinguishes Mars-square-Ascendant from the reverse query. The quoted ChatGPT novelty endorsement is an author-reported conversation, not independent verification or an instruction to this audit.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4760-jpg",
+      "file_id": "1fUamomSgNyFK1OUCg0N7tjyeqkC736eq",
+      "image_sha256": "51c3046f4e8f23776869aad342584cca6322927d638488da13b84edfea7c58cf",
+      "ocr_output_sha256": "4ebd74664b3d4d8c430f3ad0ead0e54b1b0c806af3a4e5590b8330b53b35bb57",
+      "printed_header": "326",
+      "line_ranges": [
+        [
+          13,
+          21
+        ]
+      ],
+      "finding": "Six wheel diagrams place Mars in houses9/10/11 versus3/4/5 relative to Ascendant and distinguish square-to from square-from. Do not reduce all configurations to a single10th-house definition.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4761-jpg",
+      "file_id": "1DJYlST1HmHQm66PHxI-YYxithXKzUr_c",
+      "image_sha256": "21a6f8aebcdf9412ed386a9c91b7eaeb109e0472234f5dbf8e3dc4f758070947",
+      "ocr_output_sha256": "2b73ffd48a7dc92f80847477bdc84a6ed84408036410224262e32cfb3a98c74b",
+      "printed_header": "327",
+      "line_ranges": [
+        [
+          7,
+          18
+        ],
+        [
+          19,
+          29
+        ]
+      ],
+      "finding": "Author states the interpretive resolution maxim Planet1problem/Planet2solution for all aspects, including conjunction, and distinguishes that from perceived blame in ordinary experience. Preserve it as a source interpretation, not fault assigned to a real person.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4762-jpg",
+      "file_id": "115KNB-fn2Fscix48_It1-vJ1fWA0qlrA",
+      "image_sha256": "8e63022ce04cb644e62cc0e80840efce05ffcbe3506f8afcc9a376d52590dcea",
+      "ocr_output_sha256": "049202b1b23c92bbb21d170838c33050d9226937f209ae36c36d9d28f96c39a6",
+      "printed_header": "328",
+      "line_ranges": [
+        [
+          3,
+          14
+        ],
+        [
+          17,
+          31
+        ]
+      ],
+      "finding": "Planet2 Vantage requires ruler,aspects and placement before aligning Planet1. Mars-square-Ascendant and Ascendant-square-Mars have different source roles; retain contextual graph dependencies.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4751-jpg",
+      "file_id": "1oWbTTOr7SuSSKpyWmoxLANwXYJ3kA1BO",
+      "image_sha256": "93b9592f5f1c868286873d6250026b6386b3033d62a2a644c44dc08c2bd23a71",
+      "ocr_output_sha256": "75e00eb2c296bbfe432f64d148c3ccfe74c7239cd9b9bae37d2dc3f4b0bf92f8",
+      "printed_header": "317",
+      "line_ranges": [
+        [
+          4,
+          23
+        ],
+        [
+          26,
+          30
+        ]
+      ],
+      "finding": "Aspect Spectrum traverses0to180 and describes a reversal/reset, correlating Energy Flow with side and Vantage. Wheel arrows and mirrored sectors are source illustrations, not a complete equality/directed-angle algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4752-jpg",
+      "file_id": "1gZCbVdRC3oAf_ndOXFWjDtPMGjx92B_J",
+      "image_sha256": "b9bcec80b686acfe147f8681b416fe8d0074872649eed333a09b8761eb2ed056",
+      "ocr_output_sha256": "2cca00c8e79559ae75fbac8c5755a0f1448d26fb7f25945c247a626b5d64e66a",
+      "printed_header": "318",
+      "line_ranges": [
+        [
+          3,
+          13
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "finding": "Conjunction and Opposition are distinct unification versus distance-integration states. Diagram places90 at central Point of Equality2 between POE1 andPOE3, with together-for-A versus forward-push-for-B arrows; it is not a numeric intensity scale.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4753-jpg",
+      "file_id": "1juwiPpNsBTnqedal-wyeWWBelwKoqVbQ",
+      "image_sha256": "66dcfc70fb6e0bbaa4eb9e4f84d2a6c222da4301cca3755704541e35832b67b7",
+      "ocr_output_sha256": "a093626c2cfc580b77820016ebba4dcb857f0259d17be6f7c45d88ac71188c3f",
+      "printed_header": "319",
+      "line_ranges": [
+        [
+          2,
+          24
+        ]
+      ],
+      "finding": "Ordered conjunction, semi-sextile, sextile and square meanings lead into an explicit distinction between89and91degree square examples. Equal unsigned distance from90 does not imply the same source interpretation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4754-jpg",
+      "file_id": "1M2WnmyCckaXtbipEBgpWO5eyxzYv-eNA",
+      "image_sha256": "64f91165e7663d32f4ba5d16ca0794c76a68ca59970c65f6d8ce2f2e1c37ea89",
+      "ocr_output_sha256": "9b22a342dab5fd9dab71991a5d6ac6635058c5e4abecf2f76a778e9c8fc80d31",
+      "printed_header": "320",
+      "line_ranges": [
+        [
+          17,
+          30
+        ]
+      ],
+      "finding": "Turnover diagram and prose explicitly contrast89 before90 with91 after90: cohesion/integration versus advancing A into B with detachment. The exact90 point is drawn but no computational ownership/tolerance rule is given.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4755-jpg",
+      "file_id": "1nL3DIVwoaTml4iuUXAGmppI4bcPHsuz5",
+      "image_sha256": "df11724264bf8facd29958b92e5577eacf38c385a79a1c9c285753fb11ba6abd",
+      "ocr_output_sha256": "1a69512d362470b2192c91fa9343d1a050e2c384fa32b0b627d53cba5ee62859",
+      "printed_header": "321",
+      "line_ranges": [
+        [
+          8,
+          26
+        ]
+      ],
+      "finding": "T-square example draws opposing nodes13 and SaturnRx15, yielding rounded92and88degree relationships with different ordered purposes. Preserve approximate signs/degrees and retrograde context; no exact event/ephemeris fixture is established.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4756-jpg",
+      "file_id": "1kVYI7JhxJXSk0FkW6WXER3NRwVOe7jD9",
+      "image_sha256": "c07229b83863602934949ed19e1ce1f5348af50ae736621c1ef8ad88c36dcc10",
+      "ocr_output_sha256": "546a504da1cc561c91e2c669d60e184c7035b2f651f1f9eaf5d8d7e6eee0c44e",
+      "printed_header": "322",
+      "line_ranges": [
+        [
+          2,
+          14
+        ],
+        [
+          17,
+          26
+        ]
+      ],
+      "finding": "The author rejects flattening the previous configuration into two squares plus opposition, carrying house/ruler/node and SaturnRx context through ordered synthesis. This is contextual author self-description, not a personal-fact template for users.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4744-jpg",
+      "file_id": "1iHkvK3W0Wp_dLpTZuxmrCCNjiaGBVF7A",
+      "image_sha256": "8bdf41011fcfeabe89085e3d63c343534762a87592b66ff89303d2b015030676",
+      "ocr_output_sha256": "81717f5733271b18e208a003d68e47718b83244ec253b9e1674be57831300741",
+      "printed_header": "312",
+      "line_ranges": [
+        [
+          3,
+          30
+        ]
+      ],
+      "finding": "Sextile60 is an actively engaged partnership that factors the second energy without merging it. Square90 describes ordered first/second tension and requires both; these meanings are not interchangeable polarity labels.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4745-jpg",
+      "file_id": "1SRtwY0GMGy_xmdNEWDX2xY1zUTOTDR2P",
+      "image_sha256": "3807aa752e2d7c78b7ed42c6e3c808e934591c4ae03a81e64120440682ca23bc",
+      "ocr_output_sha256": "b0ec9cd1e58be6889f661493fe4c3177ceda193e05c0fa7c7d3c99d55692b9cc",
+      "printed_header": "313",
+      "line_ranges": [
+        [
+          4,
+          16
+        ],
+        [
+          20,
+          32
+        ]
+      ],
+      "finding": "Square resolution supports the second planet's needs so the first can express without force. Trine120 is uninterrupted flow regardless of matching element or modality, not a guarantee of beneficial outcome; author anecdotes do not establish medical prediction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4747-jpg",
+      "file_id": "1YwN8N5r0Y8K3v_axvqlOwn-H89UB7wER",
+      "image_sha256": "028d4ac365f9bc6e21ce8962d68509572930015fe40bc6343a69b2b726a21f2b",
+      "ocr_output_sha256": "95c9c53e4444cd76538e263ae9b699c2d0377f75f663d142555c6834d6e618a5",
+      "printed_header": "314",
+      "line_ranges": [
+        [
+          11,
+          35
+        ]
+      ],
+      "finding": "Quincunx150 is classified major through30degree multiples despite not dividing360 evenly. It differs from Semi-sextile30 and from Opposition; preserve its ordered incompatibility context instead of harmonically excluding it.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4748-jpg",
+      "file_id": "1-OvR9q2Zf3LZAimp-rLguz3LjZhXx42z",
+      "image_sha256": "bd1870b7c41b0a7b484b841a27c16503db1180ec08638a2a565657d9da26669f",
+      "ocr_output_sha256": "ecebae5cf6f7240f85ce25c2e4b0d72141a13f06090a426edcbe6db30374c994",
+      "printed_header": "315",
+      "line_ranges": [
+        [
+          3,
+          31
+        ]
+      ],
+      "finding": "Quincunx resolution is compartmentalized coexistence rather than merging; Opposition180 requires inclusion and balance while energies remain distinct. This photograph visibly reproduces the same printed315 as IMG_4749, with distinct photo bytes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4749-jpg",
+      "file_id": "12_-k0oQftEuZNKiCw-yUbvN3jbxJBFKA",
+      "image_sha256": "104b6499e8bfaba60c152f276e81c52bb63e2080a0f0a8cc74e4ededeb790063",
+      "ocr_output_sha256": "b27d9d7215636dc51cba697249b6e6fc2602d231ee4c0b2e35715abcdd64e469",
+      "printed_header": "315",
+      "line_ranges": [
+        [
+          4,
+          32
+        ]
+      ],
+      "finding": "Second distinct photograph of printed315 confirms the Quincunx and Opposition wording. This is a visually verified same-page duplication, not an extra book page or independent author version.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4750-jpg",
+      "file_id": "1qSlxdLi8rmrzjwebNSVLHWth90Cue1G0",
+      "image_sha256": "871360f5cf64d9cfd5b365cd9280ed223359f9389c702dce0ecc7c1e7208377b",
+      "ocr_output_sha256": "0f3dda603f72e8b931bdc9f1d48f57bb7f78f72437b383f73287f4e9a387b182",
+      "printed_header": "316",
+      "line_ranges": [
+        [
+          3,
+          10
+        ],
+        [
+          14,
+          31
+        ]
+      ],
+      "finding": "Seven major aspects derive from30degree increments and the spectrum introduction rejects treating the curated list as the entire geometric field. Preserve the author's theory/proof claims as source language, not independent validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4738-jpg",
+      "file_id": "1qN5KcY-bL1g4qwV9Q7FtqLOaiSmOvCHN",
+      "image_sha256": "06ff1b0a8e38a55698d7e436bfdcde87da9a4d556e1fe8af72c16f9389802955",
+      "ocr_output_sha256": "82732cb7c0e3c7fdff82fce792e950a355ca4748568d730a431f89314dbcb2e2",
+      "printed_header": "306",
+      "line_ranges": [
+        [
+          2,
+          12
+        ],
+        [
+          24,
+          28
+        ]
+      ],
+      "finding": "Source calls the13through19 inclusive degree labels a seven-degree span, despite six-degree continuous width; preserve that wording rather than inflating Moon radius. Auric-zone drawing layers foundational zodiac, natal Moon OOI, Saturn construction and Venus transit; it is not a calibrated intensity map.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4739-jpg",
+      "file_id": "1xMgc0Hx2rKMXFao2EzHuTQxI8YPMlFBu",
+      "image_sha256": "93c1bfff5d815cb4812a4cf841586fc3c40e8b03e20a2ae6f00ae95492a34d87",
+      "ocr_output_sha256": "16e027924c5e4cd17d7532704cf29fb425ab923f6614d15b77944813104f136a",
+      "printed_header": "307",
+      "line_ranges": [
+        [
+          2,
+          7
+        ],
+        [
+          22,
+          35
+        ]
+      ],
+      "finding": "Auric Zones combine interacting systems and describe a trine field peaking at120 with roll-off. Neither qualitative sum/amplification prose nor a five-or-six-planets example supplies a numeric aggregation algorithm or permission to ignore aspect-specific bounds.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4740-jpg",
+      "file_id": "1tefJvC9u4uv4j5vXkKiLgONVM2yOrmFA",
+      "image_sha256": "6421c91d2c7e95c76bce2c9b0b0730e30ad8a84c6d85256d80f86ffbc3d094f4",
+      "ocr_output_sha256": "622e9366265a5c835a1466499c1870409856cda79c9da404d03c22736db4be97",
+      "printed_header": "308",
+      "line_ranges": [
+        [
+          10,
+          20
+        ]
+      ],
+      "finding": "Auric-zone context explicitly includes natal wider aspects and network activation, including Quincunx150,Dectile10,Semi-sextile30. Store author interpretation without converting nervous-system/pressure language into personal facts or measurable physiology.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4741-jpg",
+      "file_id": "1sVVvMTO6iK_uqfThrr0UeeB1tS_-Xehs",
+      "image_sha256": "3004fd5d0565e6530546b745da40e49e7e0a2de34484b6b4762f7040030089b3",
+      "ocr_output_sha256": "655fac69e9e551a7fe72ea1d48aecbad5b81b98a5da23537f2b0ce939d172097",
+      "printed_header": "309",
+      "line_ranges": [
+        [
+          14,
+          29
+        ],
+        [
+          31,
+          33
+        ]
+      ],
+      "finding": "Divisibles passage derives150 as fifth multiple of30 from the12th harmonic and explicitly leaves additional theory/aspects outside this book's introductory scope. Do not infer the omitted catalog or adopt unrestricted arbitrary divisors as approved aspects.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4742-jpg",
+      "file_id": "19uGD6TvJeRNAOdhfJZj8g5nEboXaXYXX",
+      "image_sha256": "273891983240a2b0d5e35f63cfe7eb35cad4cc9e619c62770f33c36192979581",
+      "ocr_output_sha256": "ff734b511d40c537dee31854550feabf226d0f6741ebb82a8da2afad2d47b2bb",
+      "printed_header": "310",
+      "line_ranges": [
+        [
+          4,
+          25
+        ],
+        [
+          30,
+          33
+        ]
+      ],
+      "finding": "Within one ecosystem energies work together; between ecosystems they work upon one another. Universal sky forecasts and natal transit overlays are explicitly different scopes; business-scale analogies contain no numeric attenuation law.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4743-jpg",
+      "file_id": "17jnykp9wPWb-YGeVWF0J-D1X7ZbBX9TU",
+      "image_sha256": "a072e7f6bd37924e7513bf8b77c19a2687c71f7f375f43d50bb6f4ae783f62e1",
+      "ocr_output_sha256": "264db57583e25d9edad8bff301b7b80a4d9bbd9b44abbe5d94ba9b138dcf4c9e",
+      "printed_header": "311",
+      "line_ranges": [
+        [
+          3,
+          29
+        ]
+      ],
+      "finding": "Conjunction prose says wider-planet OOI and cross-sign merged focus within its contextual ecosystem; Semi-sextile30 is a major aspect requiring adjustment to the second energy. Do not erase one-way reach or reuse within-ecosystem grouping as symmetric Synastry initiation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4682-jpg",
+      "file_id": "1lPFLnXnw2q2iMBGi2wBLov9-Rb6jl6o5",
+      "image_sha256": "662f92f50e99173ebaa0c00f0cfe7ad8ef03cd546c91017aad1cddb4fdfbfd7d",
+      "ocr_output_sha256": "bdddbe517dd41662cf216542f204e9b8e3b168c5c2c226643bcb030e24f07b8e",
+      "printed_header": "257",
+      "line_ranges": [
+        [
+          4,
+          14
+        ],
+        [
+          22,
+          26
+        ]
+      ],
+      "finding": "Cyclical activation is described as a fluid one-degree-per-year Aries-point journey, with0:30 at six months and0Taurus at the30th birthday; strict mathematical points have no outgoing OOI. Preserve this as a symbolic source mechanism, not a verified physical precession rate or dated activation fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4705-jpg",
+      "file_id": "1OnrnTowzpKGhr2oqp6ak3FsInk57nvvU",
+      "image_sha256": "8e0e90052f61abea8056496dcbe5a3213fdd202d7c4c290ca0f88ccc35683c9f",
+      "ocr_output_sha256": "296e0786418983182c6899e4874b4f051a7227a6a4f55aa0c85751b5af1025ad",
+      "printed_header": "279",
+      "line_ranges": [
+        [
+          7,
+          21
+        ],
+        [
+          29,
+          33
+        ]
+      ],
+      "finding": "Moon12 with3degree OOI reaches9through15 across any sign; source explicitly warns that certain aspects use smaller allowable OOIs. Do not apply a universal radius unchanged to every aspect or round5:56 to6 merely because the introduction calls it closer.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4734-jpg",
+      "file_id": "1awRKJUlLtA1VmCOhg7cMINzBHhBoN4lQ",
+      "image_sha256": "adbd067c17be4d18a4474e81e64f1f52fe8091e4362640d2ba32ff9618b86a39",
+      "ocr_output_sha256": "80c0d278860bd14fd7c913a7a200a65094aa034528838b1a1aeb30b4c17c5254",
+      "printed_header": "302",
+      "line_ranges": [
+        [
+          4,
+          19
+        ],
+        [
+          23,
+          29
+        ]
+      ],
+      "finding": "FCA gradient drawing shows blended cusp/peak blend and roll-off distinct from OOI reach and delegated rulership. Three mechanisms must remain distinct. The hand-drawn slope supplies no numerical weight function.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4735-jpg",
+      "file_id": "1fN-yWdtFcGC7pNnJF2XS1Et3arjAUhfX",
+      "image_sha256": "b7b215baf3ad76cde777008ecc05562a49cf0b6e73d8d4ffa2f6baa824c16030",
+      "ocr_output_sha256": "7df61d97a1b773a23c5a66fcca7e0fa7876c74761d95525ca8618336f96cc331",
+      "printed_header": "303",
+      "line_ranges": [
+        [
+          6,
+          29
+        ],
+        [
+          31,
+          33
+        ]
+      ],
+      "finding": "Moon16:09 is deliberately rounded to16 for a simplified bandwidth example in TaurusH10. Source labels its Spark Aquarius and spans13through19 using plus/minus3. This explicit rounding must not become a precise endpoint fixture or an inferred Spark exception.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4736-jpg",
+      "file_id": "1bVHZm0ajVedc2C71hwXbVT7t9odvRho4",
+      "image_sha256": "a9b81eb489b6fedacedbc48c6449ccdedde6389dcafbb3962fdd16488db4cb9b",
+      "ocr_output_sha256": "7c5694fb9f1d94254bb8ebf970b7a251356ac19a5e4605fac0498eb399836204",
+      "printed_header": "304",
+      "line_ranges": [
+        [
+          3,
+          6
+        ],
+        [
+          11,
+          31
+        ]
+      ],
+      "finding": "Bandwidth lists16Aquarius,17Pisces,18Aries,19Taurus; behind values15Capricorn strong,14Sagittarius moderate,13Scorpio faint. Qualitative gradient and behind/ahead directions are stated, not numerical weights.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4737-jpg",
+      "file_id": "1bisGgBhIr6GYb50faoIcp4RzcvJbAGSM",
+      "image_sha256": "84f10dd081dfed5c3a6337719f9250bbd70f9d6345495cc183d2e2d61f8e86ac",
+      "ocr_output_sha256": "fcb880aab37dd35c3fd6f267c9b2d68a75520c600a0af34529e52c8315ec3a57",
+      "printed_header": "305",
+      "line_ranges": [
+        [
+          5,
+          31
+        ]
+      ],
+      "finding": "Forward bandwidth labels17Pisces strong,18Aries moderate,19Taurus faint and explicitly excludes Libra behind and Gemini ahead. Preserve scope to the illustrated lunar imprint rather than interpreting absence elsewhere in the chart.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5046-jpg",
+      "file_id": "12f5T7AGWyQi2YLUoSI47Go6xX8PpJztf",
+      "image_sha256": "304649e7aa0b1a97cb19dafce561abe1147b7f672926e0af652891d28a4578ae",
+      "ocr_output_sha256": "f896d675d6db092592fe606a064c998b7f360ea64727a85180f5ea7eb65c17b9",
+      "printed_header": "581",
+      "line_ranges": [
+        [
+          3,
+          5
+        ],
+        [
+          26,
+          32
+        ]
+      ],
+      "finding": "Moon radius is explicitly3degrees rather than10. Approximate0.56degree/hour timing and printed12.44hours are illustrative; author says real variable-motion software is required. Do not infer a constant-speed timing fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5052-jpg",
+      "file_id": "1C_ahHjK8kJbg5naNMACvejawkeZAGNwO",
+      "image_sha256": "3815e4b398742dcaed83f8040ae5fb220ef75606773b92e46812e7ae3782339c",
+      "ocr_output_sha256": "b4590530b613d540a291d42cda7fba632df78aa4617f947b4ed196116f789b30",
+      "printed_header": "587",
+      "line_ranges": [
+        [
+          21,
+          36
+        ]
+      ],
+      "finding": "The New Moon alignment example explicitly attributes10degree reach to the Sun, with Forced/True/Hand-off transitions. This is a different emitter from Moon3degree reach, not a license to give the Moon a10degree OOI or claim physical magnetic causation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5240-jpg",
+      "file_id": "1BDoPT9A-xuDtKOOPVkF3i5Uvz1JsftVK",
+      "image_sha256": "59518a08ff84d114d8b8a2539689143e78695aea9ef13201788f01fef5963163",
+      "ocr_output_sha256": "27058a5e8e1e2bc9f69b369c1264e5c4739ce4de3ec2c5d09bb48df4c0be7a0d",
+      "printed_header": "645",
+      "line_ranges": [
+        [
+          20,
+          34
+        ]
+      ],
+      "finding": "Vitality Anchors are mathematical intersection points with no outgoing OOI and do not inherit Sun reach. Image says even0degree00minute01second away remains Forced; OCR drops that distance. This describes one-way planetary contact, not a tolerance for exact point transit activation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5248-jpg",
+      "file_id": "1GQ1ahG-XBSGBzRA4Fi0lM94PI-NvhjsS",
+      "image_sha256": "e44b44ca7b17a42780233ab7024a994f7a72a68aecb758a260f797074be1dc38",
+      "ocr_output_sha256": "580fbeb6f21137cdbec51867f5ce6233e8d270cb30847341c1e2b6d4320289df",
+      "printed_header": "653",
+      "line_ranges": [
+        [
+          9,
+          17
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "finding": "Ascendant/Vertex point-to-point internal alignment is described within30arcminutes, perhaps even up to1degree, while neither emits OOI and later transits activate it. A separate solar sextile from Vertex is Forced. Preserve qualified alternatives rather than selecting a universal point orb.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5505-jpg",
+      "file_id": "1VvyU4vrSDBCgtMX-Ux8XtJbjjrMILRnB",
+      "image_sha256": "ab1e0ea7cc7a0f64e2d06cf198203943f1a83da625456a59764e1540c148dce8",
+      "ocr_output_sha256": "6a15bda61ebc6f893d7901dfae681a6c0ac1b30d63a3a241d111eaa64052f830",
+      "printed_header": "822",
+      "line_ranges": [
+        [
+          4,
+          29
+        ]
+      ],
+      "finding": "Image gives parallel-longitude distance approximately111*cos(latitude)*orb in km. Baltimore39:17 with Moon3degree and roundedcos0.774 gives257.742km or160.195mi. OCR omits the result. This projection example does not establish universal perpendicular paran distance, intensity or a complete radius catalog.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5663-jpg",
+      "file_id": "1RIEIaz2raHLnu74SrZOqe3GZngT3AQz-",
+      "image_sha256": "a432f30d366ed3dd8295681cc0042d4abbb938496ae371016cb1e548c7d8494a",
+      "ocr_output_sha256": "8d16665cf57a97fa80bac4dba4d150cec3d49bf1c8ff41163a72fc78aadc4b3c",
+      "printed_header": "k",
+      "line_ranges": [
+        [
+          8,
+          26
+        ]
+      ],
+      "finding": "Lexicon Meridian explicitly puts the Conjunctive/Oppositional Territory division at180degrees, while originals319-320 use90degree Turnover. Preserve the conflicting terminology separately from180degree role hand-off and do not silently merge the boundaries.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5665-jpg",
+      "file_id": "1E3ianurJQg6J8xWcX4cIZFKQmFhkEsLI",
+      "image_sha256": "7ff7b193491e136f17c3c83f91021637bb1280fdf472ac6b9dc517d76079739d",
+      "ocr_output_sha256": "bc081aefe4e0dea5a8b631822fcd9e14fa65b417f5c93667414c3e1a0706783a",
+      "printed_header": "m",
+      "line_ranges": [
+        [
+          4,
+          19
+        ]
+      ],
+      "finding": "Lexicon Forced Aspect has one-way OOI reach. Forced Eclipse places Node beyond Moon3degrees but within10degrees and attributes reach to Sun. Forced Stellium is a rolling chain of one-way contacts. Do not treat the eclipse example as Moon10degree radius or assume a unique cluster-order algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4702-jpg",
+      "file_id": "19o8lqMEyMD6gmOhcrfOMs2Muu4RClUPw",
+      "image_sha256": "be5d18b11bc02f5a8def1f7fa90bfad1b9c9e696874c1ae64ad07840d485ad80",
+      "ocr_output_sha256": "43d774078654f96dd34d915fc213c0878956d0de940d806a11ac6282351d5a60",
+      "printed_header": "UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER",
+      "line_ranges": [
+        [
+          2,
+          9
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "finding": "Image is Connecting the Dots: Diving into the Aspects chapter opener with no numeric header visible. Rejects judging a person from a planet placement alone. It is not a positively identified492 witness; do not infer its printed number from neighbors.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4808-jpg",
+      "file_id": "1g_tjKL2rOS8LsZwbkgi8KzMHq_hIiA9T",
+      "image_sha256": "40351cc33cc8e5991edde25dd122d84a86ee90457728ddf221d628aacb7fc25c",
+      "ocr_output_sha256": "c1b0bf8cf759d513932fe06758eba660054401e30f25f42d0276893fe5bff865",
+      "printed_header": "372",
+      "line_ranges": [
+        [
+          1,
+          12
+        ],
+        [
+          22,
+          24
+        ]
+      ],
+      "finding": "Image header clearly372 despite OCR omission. Satellitium can contain nonconjunct energies but does not cross house cusps; Stellium requires conjunction-based links including rolling/forced. Rolling conjunction first-to-second-to-third does not require first-to-third contact; exact aggregation remains unspecified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4963-jpg",
+      "file_id": "1FoQUGkZDtce3IewW89JwH6UFUjf1Esh9",
+      "image_sha256": "5e4e2448823f4aae869bba51f773d3e8ce97b3f99edeae03ba1fed99dd295759",
+      "ocr_output_sha256": "b0df27a3c9b1471b2cefff01641e4c39386b3792eb0cae58fd358dc818b20e2a",
+      "printed_header": "502",
+      "line_ranges": [
+        [
+          2,
+          14
+        ],
+        [
+          24,
+          31
+        ]
+      ],
+      "finding": "Reinspection recovers visible502 header omitted by OCR; clean30degree semi-sextile example permits same-house or skipped-house placements within OOI. Transit Moon/natal Sun problem-solution scenario is expressly one possible manifestation, not personal facts or a measured99percent accuracy rate.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-4983-jpg",
+      "file_id": "1HEM7m9sPZEvi7vwGslYc9Oxyc_Nwo4Ls",
+      "image_sha256": "631a3b94d346fd0ad7942d7d78ce58b3c379ceff014fddb81fc2a4af72e1846f",
+      "ocr_output_sha256": "d599c9e6ab6bed65e86dbc0d465d0dcce02437060a7696355e46467031c0525f",
+      "printed_header": "522",
+      "line_ranges": [
+        [
+          7,
+          17
+        ],
+        [
+          22,
+          34
+        ]
+      ],
+      "finding": "Image and OCR identify522, not492. Phased Return is distinguished from Active Transit and thematic house entry; solar Phased Luminary Resonance is introduced separately from Vitality Anchors. The author's March21,2027 date is not an independently verified ephemeris fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "directional-audit-img-5084-jpg",
+      "file_id": "1Im4rG2y7X2Wk8bhBuU9MSCc6hAA-t6jT",
+      "image_sha256": "e56839cdc635bd3f1473330153344830811ded168354cfd6c970ec12e6661c6a",
+      "ocr_output_sha256": "be95951ae2535fd0007167f155cc5e2a039d5c11c4f135bb0a304c380ec4f52f",
+      "printed_header": "617",
+      "line_ranges": [
+        [
+          10,
+          15
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          34,
+          35
+        ]
+      ],
+      "finding": "Reinspection confirms617 header missed by OCR and lunar-orbit-derived Sophia/Priapus naming, rejects substituting arbitrary White Moon Selene and fertility mythology. Header-negative OCR therefore cannot prove a printed page absent; this witness is not492.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1Yzd9vTgEPwBGFSZ-D-EQ4cDWHBSejjJf",
+      "file_id": "1Yzd9vTgEPwBGFSZ-D-EQ4cDWHBSejjJf",
+      "image_sha256": "a52304b3d979353ed2a3eb9856e76a996696d60f652d821fc364eed24639e41a",
+      "ocr_output_sha256": "6be682c2ade9ca83e6fa2c5d9211dbb29268dbf9525b6877702d0488e8871672",
+      "printed_header": "352",
+      "line_ranges": [
+        [
+          16,
+          26
+        ]
+      ],
+      "finding": "Venus14:47 and SaturnRx15:32 are called an Applying Quincunx; diagram labels match the coordinates and source says Saturn retrograde brings them closer. This is a natal illustration with a qualified momentum imprint, not a dated ephemeris fixture or universal speed ordering.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1pHy8IjXaZhM0RsV74uM8HT3B-YAia9qt",
+      "file_id": "1pHy8IjXaZhM0RsV74uM8HT3B-YAia9qt",
+      "image_sha256": "d0ed8daed1151878973cc150567b03c10fe770016516bd192c6062cc0d27398f",
+      "ocr_output_sha256": "2c9151b4e6247d2274459dc516b8192f23f958bf2f4e8c83c40af0b881406bb2",
+      "printed_header": "353",
+      "line_ranges": [
+        [
+          9,
+          23
+        ],
+        [
+          24,
+          34
+        ]
+      ],
+      "finding": "Source explicitly describes moving Progressions with pre/post/pro/retro-gradity and1/360th speed. Preserve alongside printed491 day-for-year wording without silently specifying year length or time scale. Applying favors the preceding aspect and Separating reaches toward the next; neither is a numerical intensity law.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1LgdRSHFeI3MhnaZt9M2hg8P2ucKeh5KX",
+      "file_id": "1LgdRSHFeI3MhnaZt9M2hg8P2ucKeh5KX",
+      "image_sha256": "7be59603ccdb1d94678da35aa98546b9167802432c8887deb41286274033b065",
+      "ocr_output_sha256": "b8af319fc503bb632b5cd52e34d245991e8144c3c6c3b258d24cf470ee4234a9",
+      "printed_header": "354",
+      "line_ranges": [
+        [
+          7,
+          21
+        ]
+      ],
+      "finding": "MercuryRx6:41 is explicitly said not to trine SaturnRx15:32, while a lingering Fringe confluence is described. This denies promoting every qualitative fringe into a true aspect; no numeric fringe limit or intensity function is provided.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1KnXl6_MjwHe5No2PzCnYOU_LO2eSHq7Q",
+      "file_id": "1KnXl6_MjwHe5No2PzCnYOU_LO2eSHq7Q",
+      "image_sha256": "9f95c969a89d0c47443ee06f74d0d7da785470189175a98e83a7274044ac7773",
+      "ocr_output_sha256": "e923a3fb745c570efed05fe37ea5242d7533dc14111bdb0411a9aeab280d6a84",
+      "printed_header": "355",
+      "line_ranges": [
+        [
+          14,
+          28
+        ]
+      ],
+      "finding": "Author distinguishes recognizable unconscious nuances from subconscious wording and criticizes overemphasis on pattern names. Anecdotal revenue/communication examples are source self-reports, not predictions or measurements.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1nQ01fKakwKqq5bIioulm34Q5VNpr3fMc",
+      "file_id": "1nQ01fKakwKqq5bIioulm34Q5VNpr3fMc",
+      "image_sha256": "d74d64df7439e6b13ee192c94fc8b2830fe150ded08a2dec4bdf47c3a8c7b115",
+      "ocr_output_sha256": "9c0945ea8feab0cac3c15292220653dd81d99cac4950870f0efa4d676a4465af",
+      "printed_header": "356",
+      "line_ranges": [
+        [
+          4,
+          32
+        ]
+      ],
+      "finding": "Pattern list and drawings identify Castle,Cradle,Envelope,GrandCross,GrandTrine,Kite,Hexagram and T-square; T-square paragraph rejects a fictitious middle-of-opposition compromise. This is source pattern terminology, not complete orb or detection specifications.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1mF5NYVZx_EOSIB4pnpgJlxgnaY77AoOy",
+      "file_id": "1mF5NYVZx_EOSIB4pnpgJlxgnaY77AoOy",
+      "image_sha256": "bbf12913446daed375d53b7eb5f57bceb65da1c7f632a7a0bb24054415cf2e62",
+      "ocr_output_sha256": "7ef37a02c93780e91a7e2e15a150ffc5ef91a29ad0eabd872f165c4024a21144",
+      "printed_header": "357",
+      "line_ranges": [
+        [
+          3,
+          11
+        ],
+        [
+          23,
+          33
+        ]
+      ],
+      "finding": "Yod defined as two sextile base planets both quincunx apex; named patterns are closed loops without a universal decoding sentence. Twin/Pauli rhetoric is an author analogy, not an independently validated physics argument for personal interpretation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1PTAUrd3w3UZZ5G7JKVXQQe_zouA_Fgw0",
+      "file_id": "1PTAUrd3w3UZZ5G7JKVXQQe_zouA_Fgw0",
+      "image_sha256": "b1fd1954dcb59653a871739852a37ca7911e5034605af6f6179c4b3415be4d9a",
+      "ocr_output_sha256": "4b796b0f8d0008659f8004c48330c1805310c1b42f84dd51a30f13f5abf48936",
+      "printed_header": "358",
+      "line_ranges": [
+        [
+          2,
+          18
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "finding": "Pattern resolution must include planets outside the named shape and work placement by placement using Vantage and Energy Flow. The author explicitly refuses excluding contacts simply because they do not fit a diagram.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1ue0ZbZk_5uPrXD7buuK-z0Q6PQvJYeqK",
+      "file_id": "1ue0ZbZk_5uPrXD7buuK-z0Q6PQvJYeqK",
+      "image_sha256": "f90900328595bb3f7cb4614752045edc2b8ef7317d881d5c763a15274beca43a",
+      "ocr_output_sha256": "947fd5b58e7809db1b1d07610f09112d0f97a36c4482898ba6c4eee3ad88cf48",
+      "printed_header": "359",
+      "line_ranges": [
+        [
+          8,
+          18
+        ],
+        [
+          28,
+          38
+        ]
+      ],
+      "finding": "Yod diagram labels Moon apex with quincunxes to Jupiter and Saturn and sextile between bases; prose rejects automatically merging base energies toward apex. Uses a daisy chain starting from chosen Vantage, without numeric tolerance rules.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1x8JOCi2XHe6DT7emzYUEpJ31anlOxw9z",
+      "file_id": "1x8JOCi2XHe6DT7emzYUEpJ31anlOxw9z",
+      "image_sha256": "fb219e9ba423ceb46b9bfbdedb44ce111a80c38244fa36dc2eaaeb3cd2882516",
+      "ocr_output_sha256": "adc0d4b204830bddfd0ad578d5c5e0565bc69fbd85251b39041db4e8fd895b88",
+      "printed_header": "360",
+      "line_ranges": [
+        [
+          8,
+          21
+        ],
+        [
+          36,
+          40
+        ]
+      ],
+      "finding": "Moon-selected Vantage labels MoonA/Planet1,SaturnB/Planet2,JupiterC/Planet3. Source expressly calls the narrative one possible manifestation excluding additional aspects,rulers,houses and signs; retain that limitation with the diagram.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1WgOlDhIfbFdvcVpVJHDXN3uM2VKe7Br5",
+      "file_id": "1WgOlDhIfbFdvcVpVJHDXN3uM2VKe7Br5",
+      "image_sha256": "09848a7e79388381aa9f92e953b661f1d9c9f0f590c74df29994969b2abeffdf",
+      "ocr_output_sha256": "8e8e87fb432ffc00f2b5b8c2ae01b57985ea894572cfda3070433f98c8d93fef",
+      "printed_header": "361",
+      "line_ranges": [
+        [
+          2,
+          18
+        ],
+        [
+          29,
+          32
+        ]
+      ],
+      "finding": "Choice of starting Vantage depends on the question while Energy Flow remains the same; source rejects a universally reusable one-paragraph Yod resolution. Giving/receiving are based on zodiacal order, not arbitrary reorientation of edges.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1fdVqa_3s7xcwyrfetSJomZ-4juJMFmJX",
+      "file_id": "1fdVqa_3s7xcwyrfetSJomZ-4juJMFmJX",
+      "image_sha256": "4ae7cb242436b0b8b983942f3a64a2c79e6a1890d15e99ba72917f80428f18c7",
+      "ocr_output_sha256": "cd919b3267f77210ad1d067e3967228768b78be57b9bd7be4b72f3d76b6a4e6a",
+      "printed_header": "362",
+      "line_ranges": [
+        [
+          6,
+          15
+        ]
+      ],
+      "finding": "Visible header362 corrects OCR62. Source says energy does not give backwards or receive from ahead, including retrogrades, followed by a perspective analogy; this does not license changing measured retrograde speeds or actual chart geometry.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1Asx2UsRGeRK77ekolMQjXn3q17Pf8NT3",
+      "file_id": "1Asx2UsRGeRK77ekolMQjXn3q17Pf8NT3",
+      "image_sha256": "1ac9ff431487558559cd5fbe0411aa8a5384f9eb1a7eacf8dedeee8659acb7ef",
+      "ocr_output_sha256": "fcd2ec4b87518216b9cf7be8094998bd9710ce7b004e4a2ddb6089c2eeb387d3",
+      "printed_header": "365",
+      "line_ranges": [
+        [
+          2,
+          9
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          44,
+          47
+        ]
+      ],
+      "finding": "Reverse-Vantage separates sender and receiver experiences in one-way contact; example introduces7th-house Chiron trining11th-house Moon. Diagram context is retained without assigning personal facts to a user or treating response as reverse initiation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1onct5ax70odZMYzQDG5F_r-HAKb7pWg2",
+      "file_id": "1onct5ax70odZMYzQDG5F_r-HAKb7pWg2",
+      "image_sha256": "c2d0835755450a02db490f783653c71d8f80d4b6fd08ec87a5ebfb00de0c4354",
+      "ocr_output_sha256": "2bb180dfac909ff571a47f355dbb8ad421a6ab795d8c0ea7961f63e71482530e",
+      "printed_header": "366",
+      "line_ranges": [
+        [
+          7,
+          20
+        ]
+      ],
+      "finding": "Example places Chiron in AriesH7 and MoonLeoH11; source explicitly rejects natal-only Synastry and requires progressions,relocations,transits and activations. These contextual dependencies do not supply executable algorithms for those layers.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1yGklTpTbKtV607OBaVJprkmscNvdZNz2",
+      "file_id": "1yGklTpTbKtV607OBaVJprkmscNvdZNz2",
+      "image_sha256": "0c77f49eb2bf3bb50a6731fd49fa55f0a4a4aedbc3790e5be0f520d44e239dc8",
+      "ocr_output_sha256": "c77c34ec4f72dd5c3cff7610bef22891e77ac7e4a93147ef8d93ab48f2ce51bc",
+      "printed_header": "367",
+      "line_ranges": [
+        [
+          10,
+          18
+        ],
+        [
+          31,
+          33
+        ]
+      ],
+      "finding": "Reverse-Vantage distinguishes Moon receiving from Chiron delivering. Family childbirth/medical narrative is an author-reported example requiring other contacts and rulers, not a medical prediction or a universal meaning.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1qT8qj6-Q89GotFsQwupt_bPJvYbztJWH",
+      "file_id": "1qT8qj6-Q89GotFsQwupt_bPJvYbztJWH",
+      "image_sha256": "c5a5f3e877d40e9f4ea4e48e932a6115dbf2874b849996052b2d7019a92e7fc7",
+      "ocr_output_sha256": "fb3b960132b776527a00b1ad6e4fad63b68ed0b02df61df1807aa0e81d38ebca",
+      "printed_header": "368",
+      "line_ranges": [
+        [
+          3,
+          4
+        ],
+        [
+          20,
+          30
+        ]
+      ],
+      "finding": "Source explicitly requires both Chiron affecting Moon and Moon being affected by Chiron. Reverse-Vantage changes interpretive viewpoint, without creating a second initiating contact; personal family projections remain source anecdotes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1_pUOAcNTzhBJLlQkaP3067MMuuagdT73",
+      "file_id": "1_pUOAcNTzhBJLlQkaP3067MMuuagdT73",
+      "image_sha256": "35940bd1026ee5975cd51f0212655000ba8c579e4c0efe430608709e88d27318",
+      "ocr_output_sha256": "239f2b6b9287bb4cff4ff637023b98ac7aff0a561eb808bef87d545b629801ba",
+      "printed_header": "369",
+      "line_ranges": [
+        [
+          3,
+          4
+        ],
+        [
+          9,
+          31
+        ]
+      ],
+      "finding": "Same Yod reindexed from Saturn gives SaturnA,JupiterB,MoonC; arrows retain Moon-to-Saturn-to-Jupiter-to-Moon sequence. Selecting a different Vantage changes question/context, not physical contact geometry.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1GIgqSsn4tI7AErNhbjX5o-jBIu_OTPD_",
+      "file_id": "1GIgqSsn4tI7AErNhbjX5o-jBIu_OTPD_",
+      "image_sha256": "7292310b29691ded65652d33a0665fbda733b9b8f33084c58445c7e3d0a0faa4",
+      "ocr_output_sha256": "63b4ca969b1524736da1da57c3c5a017a6a578ac8f10d8c07cb95cfdb4ea2fb3",
+      "printed_header": "370",
+      "line_ranges": [
+        [
+          7,
+          29
+        ]
+      ],
+      "finding": "Source permits asteroids and cross-cusp conjunction clusters and rejects same-house membership alone as enough.4/15/27degree example is unconnected,4/5/7 is qualified likely connected, contingent on actual OOIs.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1125F4HyO2boa2ckAe7E8pqbXedhtLQ5h",
+      "file_id": "1125F4HyO2boa2ckAe7E8pqbXedhtLQ5h",
+      "image_sha256": "87cd6e7cc6c7f300960adcd7c57491fc0129cfd98447d80311f0390cffd8a850",
+      "ocr_output_sha256": "885db16ea234e114ed973718b14586e838275015cee066a8ecb00fac30e8c6b6",
+      "printed_header": "371",
+      "line_ranges": [
+        [
+          6,
+          31
+        ]
+      ],
+      "finding": "True Stellium definition says three-plus energies within each others OOIs and explicitly mutual first/last reach; Rolling uses mutual adjacent conjunctions without mutual endpoints; Forced allows one-way links. Printed373 retains True label despite nonmutual middle Moon, so the strict all-pairs wording requires qualification rather than silent selection.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+      "file_id": "13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+      "image_sha256": "76724ee305064f38fcb92cd0dbd9861ccb5a217e4754687f3a2b6f06e6588261",
+      "ocr_output_sha256": "4653282fec10503d60125a0b8b6581e76756d71034affcfdd7b5e0d45bd33d96",
+      "printed_header": "373",
+      "line_ranges": [
+        [
+          9,
+          13
+        ],
+        [
+          21,
+          36
+        ]
+      ],
+      "finding": "Diagrams label Venus10/Saturn14True,10/16Forced,10/19Rolling. Prose supplies Venus5degreeOOI and mutual endpoint criterion, but says a middleMoon14 failing to reachVenus10 leaves StelliumTrue with a caveat. Preserve this against371 each-other wording; no universal clique classification is established.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-13aeiC6sVb2wYEFqMUH7CBjm7OejUi7ev",
+      "file_id": "13aeiC6sVb2wYEFqMUH7CBjm7OejUi7ev",
+      "image_sha256": "b7075e70d7437a3dbd2dd63105e9c78eed460c33587addc912e72d23cb913578",
+      "ocr_output_sha256": "45dd334ea668211ab53dba8f77caf16fb03691d34f13d65618e2760f2fbc50cb",
+      "printed_header": "374",
+      "line_ranges": [
+        [
+          2,
+          25
+        ]
+      ],
+      "finding": "Venus10/Saturn16 calledForced; Venus10/Sun12/Saturn19 calledRolling through middle reach. Major includes a ruling planet; Minor lacks one. Complete per-body radius,receiver and middle-point caveats still apply.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1b-B-nyjU5Rb4HgVr6Y4qcMyVv-eZwzv5",
+      "file_id": "1b-B-nyjU5Rb4HgVr6Y4qcMyVv-eZwzv5",
+      "image_sha256": "417f271a5a4e88951cde57a38bae44560f85b11ae8fe8a3531fa61e38169004f",
+      "ocr_output_sha256": "68d2c9b8071bcbbc1a2ca13b7cf3f8fbf9ffd019972e5bb91d4c3a0d0fe02407",
+      "printed_header": "375",
+      "line_ranges": [
+        [
+          3,
+          8
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          18,
+          34
+        ]
+      ],
+      "finding": "Source calls Juno/Subheaven/BlackMoonLilith within1degree a MinorStellium; this must coexist with receiver-only mathematical points. ForcedTrine diagram/prose separately gives Moon3 andSun10,Sun21:16,Moon25:57;4:41 beyond lunar reach yet within solar reach. No outgoing point orb is licensed.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1VG9wtI1CXa1aCF0IcOhfAySvGru5YSFS",
+      "file_id": "1VG9wtI1CXa1aCF0IcOhfAySvGru5YSFS",
+      "image_sha256": "34786b0823f6b753c56d5e4048bf0a34b550ad92231b2b83843f8f993c7bfa39",
+      "ocr_output_sha256": "01c93a7bc2676f5c4388373548b47f2e9fa678037700471feb3fa17443cd0c57",
+      "printed_header": "376",
+      "line_ranges": [
+        [
+          22,
+          36
+        ]
+      ],
+      "finding": "Explicitly hypothetical swap putsSun25:57 andMoon21:16 and changes Separating toApplying while retaining ForcedTrine. Final printed sentence says Sun not within SunsOOI,an apparent subject typo; preserve literal wording without silently treating it as a corrected formula.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1grwh7aTxtr29rROghTfn1uwFBEPZg_iL",
+      "file_id": "1grwh7aTxtr29rROghTfn1uwFBEPZg_iL",
+      "image_sha256": "982c35f5fc60e24f90eca123016c295046fe067593e86097c1573c3d870e2950",
+      "ocr_output_sha256": "83a7d2aa0adf39e94ceb248494de9777bf00ab956da51652539f8bbd686b4972",
+      "printed_header": "379",
+      "line_ranges": [
+        [
+          9,
+          13
+        ],
+        [
+          27,
+          39
+        ]
+      ],
+      "finding": "PlutoRx/Moon continuation describes author work and emotional anecdotes, including a paraphrased manager quotation. These claims are interpretive self-reports and do not resolve377/378 coordinate conflict or establish predictive accuracy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1QVGgyjU0pDxFQEdSU1orV58vS_KLNJFq",
+      "file_id": "1QVGgyjU0pDxFQEdSU1orV58vS_KLNJFq",
+      "image_sha256": "67f06a0501f2f91fee3e3b533378165900d02aa2007ab4d3fb563d8d7413eda5",
+      "ocr_output_sha256": "f6b11443cf228963d1b0f154ed5da8247b7ec1d557f774cf5ecf08dfd20b258b",
+      "printed_header": "380",
+      "line_ranges": [
+        [
+          6,
+          17
+        ],
+        [
+          21,
+          28
+        ]
+      ],
+      "finding": "Ordering contrastsMars17/Venus18 withVenus17/Mars18 and attributes difference to zodiacal order, not degree-symbol meaning. A quoted ChatGPT novelty claim is author rhetoric,not external verification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1PBiEFavFui7HobdJzQawd6ACuA5UAGYM",
+      "file_id": "1PBiEFavFui7HobdJzQawd6ACuA5UAGYM",
+      "image_sha256": "7566165365d9c274716498c7d30a6fde2e9c65c30d3397c433875ea9e521cc04",
+      "ocr_output_sha256": "d948aa989d432feca25bb914e497d20d42058721d261e0a3f79fbd46134884eb",
+      "printed_header": "381",
+      "line_ranges": [
+        [
+          5,
+          24
+        ],
+        [
+          31,
+          35
+        ]
+      ],
+      "finding": "Ordering distinguishes act-then-value from value-then-act; arcminute versus3degree timing remains qualitative. Diagram visibly labelsMars5:56,SaturnRx15:32,PlutoRx24:15 and calls same-house groupingSatellitium,notStellium. This supports the24:15 drawn branch without erasing377/378prose24:42.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1-ltcovUPF0ySDFsY5nUI04_IwmFIMVRv",
+      "file_id": "1-ltcovUPF0ySDFsY5nUI04_IwmFIMVRv",
+      "image_sha256": "5a1eb8fc307a470630d8e9cd4563173c1091c1a254f34936a7cf191462870fbb",
+      "ocr_output_sha256": "51cef32f38008b264fa0f85905048da596fbf9644c3255e3acbb916b95012751",
+      "printed_header": "382",
+      "line_ranges": [
+        [
+          12,
+          29
+        ]
+      ],
+      "finding": "Driving/errand anecdote ordersMars9th-ruler action,SaturnRx6th-ruler details,PlutoRx4th-ruler comfort. Store as author's illustrative narrative dependent on rulers,not a deterministic behavior rule or timing fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1SROy38SQTRwC22FMlZRl8brqniPZnK_X",
+      "file_id": "1SROy38SQTRwC22FMlZRl8brqniPZnK_X",
+      "image_sha256": "aad3e5313d3f8cf58c97f0bc180735fb018adb4b888fc83497d217bb7812f540",
+      "ocr_output_sha256": "587e8131f3bc8d1d991a442f2ef6ba31bf53de56cb57622f37bc232ec677cc2a",
+      "printed_header": "384",
+      "line_ranges": [
+        [
+          14,
+          34
+        ]
+      ],
+      "finding": "15degreeAdjunction is distinguished from conjunction and placed beyond solar OOI. Planet2moves toward independence whilePlanet1still expects shared focus; the language is interpretive,not a new radius or clinical codependency inference.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1tNoNsMS65UPwlvT-NeiC9sP-9lC2XTDo",
+      "file_id": "1tNoNsMS65UPwlvT-NeiC9sP-9lC2XTDo",
+      "image_sha256": "b87ddd78111419fc221cffbc36c1df03864d5a7bc1585c3219162dfadac06d00",
+      "ocr_output_sha256": "f7e78d09486282ca2718eed55b23e8c9c5923cbede9fbb2d9a1d0e25b301a58b",
+      "printed_header": "385",
+      "line_ranges": [
+        [
+          11,
+          12
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "finding": "Adjunction examples printMercuryRx6:41/Sun21:16 inH11 andSaturnRx15:32H3/JupiterRx0:47H4. Fractional deviations are compatible with preceding1degreebound; exact signs and remaining chart context are required before using arithmetic as fixtures.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1jHU07G_AwItgFCns2DoScVLYwLAD4wvz",
+      "file_id": "1jHU07G_AwItgFCns2DoScVLYwLAD4wvz",
+      "image_sha256": "ca8d2471bdb1cee45e2ea9a15ff30f2f45c3e238a9fe5bc3e2ad13a4a35f88d5",
+      "ocr_output_sha256": "648aba543c7e76a227af2cdffe8e96b7a1d2e9938729c1170764723fe0ac4c56",
+      "printed_header": "386",
+      "line_ranges": [
+        [
+          5,
+          7
+        ],
+        [
+          22,
+          29
+        ]
+      ],
+      "finding": "Adjunction examples printMeanBML29:06H5/SouthNode13:28H6 andNessus27:30H12/Ascendant13:06H1; latter prose specifiesCancer/Leo. ShortestCancer27:30-toLeo13:06distance15:36 deviates36arcminutes. No outgoing Ascendant orb or personal trauma conclusion follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-198_2HhMBTKwYpBRdFJXkdUIORdx_c7rw",
+      "file_id": "198_2HhMBTKwYpBRdFJXkdUIORdx_c7rw",
+      "image_sha256": "e6523d939ab6c386bac55f81905612e3c59a11dfb879068decbfe323515ae5ec",
+      "ocr_output_sha256": "f44ffc6e52b327a07071ab2772d49f251e56a470ad5f8407a3f8f7667f16e797",
+      "printed_header": "387",
+      "line_ranges": [
+        [
+          16,
+          32
+        ]
+      ],
+      "finding": "Adjunction explicitly describes Planet1still servingPlanet2despite separation from fusion and asks intentional integration. The preceding author's healing/trauma claims remain source interpretation,not empirical treatment evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1agBTuZ_kOOzz09i8jkBEO95iQ2PJX7yZ",
+      "file_id": "1agBTuZ_kOOzz09i8jkBEO95iQ2PJX7yZ",
+      "image_sha256": "580ec9cfc2b0744289a7093a2eb4ad073c5ba63fa1e2bbd1e870f0c215decd85",
+      "ocr_output_sha256": "5045d55d09d50825ddc37707e13ebcff1baa1fb11672386d3315e096ad9955c4",
+      "printed_header": "388",
+      "line_ranges": [
+        [
+          20,
+          35
+        ]
+      ],
+      "finding": "45degreeSemi-square/Octile sits between30and60 and is explicitly not a miniature90square. Planet1must recognizePlanet2as contributing to its process; no numeric pressure scale or weighting is supplied.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-11LF2jYi1QIU7oII_iCsOO_JHS0Fc9Wh2",
+      "file_id": "11LF2jYi1QIU7oII_iCsOO_JHS0Fc9Wh2",
+      "image_sha256": "47f1ab00e3ed3c0c92e4f45d2ec40146e20d9706fee9630594374ca996f50fbf",
+      "ocr_output_sha256": "f7ab30edcbb53318471023f90ab6aa1bac36be3611ec7ddec6318575c2bad521",
+      "printed_header": "389",
+      "line_ranges": [
+        [
+          11,
+          17
+        ],
+        [
+          27,
+          30
+        ]
+      ],
+      "finding": "Minor aspects are said to occur inProgressed,Relocated,Synastry,Electional andNatal charts. This page saysMidheavensquareSun while390calls itSemi-square,so preserve the90versus45wording discrepancy rather than silently standardizing the example.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv",
+      "file_id": "1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv",
+      "image_sha256": "6531021a1dae8df2d02873973be3db312520b68e7f208189902dd4a6cb294493",
+      "ocr_output_sha256": "b21136a9315e8f33d99338fe295455774c9ce9c77039d8864e38ebaaca99a86d",
+      "printed_header": "390",
+      "line_ranges": [
+        [
+          16,
+          29
+        ]
+      ],
+      "finding": "Saturn-to-Uranus semi-square described as recalibration/cooperative disruption. Page explicitly callsMC-to-SunSemi-square,competing with389squarewording; no independent chart calculation selects intended term here.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1BTnYxsDKldckJBOZyRPZLc6LDeJaeOHP",
+      "file_id": "1BTnYxsDKldckJBOZyRPZLc6LDeJaeOHP",
+      "image_sha256": "083004f4d4ef36cefc613d8852e678e33911cbbfb64ecc0b9dc96be5a4c1e3c4",
+      "ocr_output_sha256": "fb9a04cccd0aa5308e9e9593f90b23f17357925b0f0b17a78fb2f3176aab98a5",
+      "printed_header": "391",
+      "line_ranges": [
+        [
+          14,
+          30
+        ]
+      ],
+      "finding": "Author recounts abandoning conventional report/video formats and public-image anxiety tied toMC/Ascendantruler/BML. These autobiographical claims add context,not chart-engine specifications or predictive accuracy evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1VfEBctOPkoz6_gEeGeFDydyuxfj8fuvF",
+      "file_id": "1VfEBctOPkoz6_gEeGeFDydyuxfj8fuvF",
+      "image_sha256": "7aee4612fa60afcd41df2ac6d238971f461d8085014876a0ca3cd2cd2f101718",
+      "ocr_output_sha256": "51e2e8e7c76430c5ef94b5a7cb784ccc6bd1fc915bdc8fef16b7411176356cc9",
+      "printed_header": "392",
+      "line_ranges": [
+        [
+          9,
+          12
+        ],
+        [
+          18,
+          35
+        ]
+      ],
+      "finding": "75degreePresquare sits between60and90 and is distinguished from72degreeQuintile; source expressly assignsQuintile1degreeOOI while declining detailed treatment. Author acknowledges no personalPresquareexample; do not blend72and75or invent72meaningcoverage.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-19HIDlVnaOW4jqkTJ027dawokuEFAfvUG",
+      "file_id": "19HIDlVnaOW4jqkTJ027dawokuEFAfvUG",
+      "image_sha256": "d115b537e6877b41a615548df6c07374c7520e88c55e99f486703cd596c45ed6",
+      "ocr_output_sha256": "282bdbd18ccff9336527c6489949a2815756a0ecf123348259f963d19f22b786",
+      "printed_header": "393",
+      "line_ranges": [
+        [
+          7,
+          27
+        ]
+      ],
+      "finding": "CombinedHarmonics includes layered12th/24th divisions while72/144belong to distinct5thharmonic;18/24/36are mentioned as other divisors,not a fully specified permitted-aspect catalog. Source expressly leaves deeper treatment outside this book.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1Lu-AVo8YRutW1W45Gg4zDx5ugV4dS0nG",
+      "file_id": "1Lu-AVo8YRutW1W45Gg4zDx5ugV4dS0nG",
+      "image_sha256": "6543be040cda38164e166cf2604441a1588057cd1d88923c58b4c196ab9eab65",
+      "ocr_output_sha256": "94d09e43b11c519b86cc3f2f0b3c79f8fd77367f17512dba841b72d9bfae52a3",
+      "printed_header": "394",
+      "line_ranges": [
+        [
+          19,
+          31
+        ]
+      ],
+      "finding": "Source defers fullFCA/Presquareexample explanation and calls105Postsquare beyond90Hand-offintoOppositionalterritory. Preserve literal90Hand-offwording against334Hand-off/Turnover distinction and appendixk180division; no universal terminology precedence follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1KZzrsggotg5-7xysau7qz__N_DucoXoA",
+      "file_id": "1KZzrsggotg5-7xysau7qz__N_DucoXoA",
+      "image_sha256": "ecd05b60a169b14261c5b298200d4bb9b8ed7e3b236cd6886ec455a351dc5b05",
+      "ocr_output_sha256": "4b27b0543deba7604ec26550222713dc88c27da1e0bff3d87ba133618beff2d1",
+      "printed_header": "395",
+      "line_ranges": [
+        [
+          8,
+          20
+        ]
+      ],
+      "finding": "Sun21:16GeminiH11/Mars5:56LibraH3 yield104:40 separation,20arcminutes from105Postsquare. Source labelsSunasAscendantruler and interpretsPlanet1supportingPlanet2afterSquare; arithmetic validates printed example only,not natal ephemeris or psychological claims.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1YkTBkAwwj9rjSZ_SFsNS5gE8gwLKe3Jn",
+      "file_id": "1YkTBkAwwj9rjSZ_SFsNS5gE8gwLKe3Jn",
+      "image_sha256": "5fc06b3b9fa970dacde32332cf8a939163c4b604eb83793d7c4e32e39b6527e3",
+      "ocr_output_sha256": "7a4b5e9d4659ef197229d4440f8375cc56b2e725b329d7cb050c54a808cbb0f5",
+      "printed_header": "396",
+      "line_ranges": [
+        [
+          9,
+          23
+        ],
+        [
+          33,
+          38
+        ]
+      ],
+      "finding": "Postsquare narrative illustrates author overpreparation,delegation and overexplaining through creative/work anecdotes. It supplies no extra numerical aspect parameter or measured predictive evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1aaJSZakal2V9X0QTjStj6qL78qBZf4Lg",
+      "file_id": "1aaJSZakal2V9X0QTjStj6qL78qBZf4Lg",
+      "image_sha256": "693b33639e8fe8199da5de54bc96017801cd3e79cf0cf8a08ce950b8c27758bf",
+      "ocr_output_sha256": "d10d34d22f511e15d2d5fc3a97cf445a40d78e53f67b1f7addfeb089b34fae63",
+      "printed_header": "397",
+      "line_ranges": [
+        [
+          15,
+          24
+        ],
+        [
+          25,
+          33
+        ]
+      ],
+      "finding": "Author describes communication changes and delayed accident response as self-observation attributed toPostsquare. Preserve as autobiography,not diagnosis,predictive safety claim or causal validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1ldsOvNR0uOPhh7wanXsXSOC4nP5ZCeLz",
+      "file_id": "1ldsOvNR0uOPhh7wanXsXSOC4nP5ZCeLz",
+      "image_sha256": "ffcd7fac0022be114a7ce3cd6b85077dbad05e6b2a8c3e01b1982033374842b1",
+      "ocr_output_sha256": "7aebcb7017a237353804c6f3c969ba7b59bdbb7b8c665b0d7cb92e52facb7e8c",
+      "printed_header": "398",
+      "line_ranges": [
+        [
+          22,
+          35
+        ]
+      ],
+      "finding": "135Sesquisquare is beyondTrine;Planet1expects prior cooperation whilePlanet2diverges. Source distinguishes misalignment from hostility; no numeric intensity or inference of rejection is warranted.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1tGxWgIE9ES3bz9oV87tGg-LFQZ6l5QJq",
+      "file_id": "1tGxWgIE9ES3bz9oV87tGg-LFQZ6l5QJq",
+      "image_sha256": "7433987ea9659f6f40fd16caa07213000fe84bdc7f131fdd2d3dfbb28fcd9419",
+      "ocr_output_sha256": "02ea84948ec14761a8fadf24133ef016bf27920df233d477406c08efe02a29c5",
+      "printed_header": "399",
+      "line_ranges": [
+        [
+          10,
+          13
+        ]
+      ],
+      "finding": "PrintedAscendant13:06LeoandMeanBML29:06Sagittariusyield136:00,exactly1degreefrom135Sesquisquare. Example witnesses a source-labeled boundary case,not a universal floating-point endpoint or outgoing Ascendant orb; personal abuse/self-blame narrative is author-specific.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1AyoSMG02-0TnR49jS20CyT7JuNC4L67P",
+      "file_id": "1AyoSMG02-0TnR49jS20CyT7JuNC4L67P",
+      "image_sha256": "6b0a82d1d9b00cf6f06ffefd625f0eaf27746e89ad0e5cdf215c978ebacda41d",
+      "ocr_output_sha256": "c51e6316ea5b5e3ab64724572b80864f8569a7c6ee6f95992e3b9e942c1e67f1",
+      "printed_header": "400",
+      "line_ranges": [
+        [
+          5,
+          13
+        ],
+        [
+          21,
+          31
+        ]
+      ],
+      "finding": "165Adposition is sourcepreferredname adjacenttoOpposition; references toJohndro/Tyl describe other interpretations. These are source-reported comparisons,not independently checked historical attributions or imported obsession rules.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1oD139RDTpNC9aYWtsSXXuZYYdWgLs79j",
+      "file_id": "1oD139RDTpNC9aYWtsSXXuZYYdWgLs79j",
+      "image_sha256": "44004525aec27d9be094f1becf4d8d326d92c5177928973915422e567828e586",
+      "ocr_output_sha256": "6d9c1cd991fda9b93c96173fb1a9b1bfc3c754ce1bc0a4da0d5ef891cd0af707",
+      "printed_header": "401",
+      "line_ranges": [
+        [
+          4,
+          27
+        ]
+      ],
+      "finding": "165Adposition sitsbetween150and180;Planet1stillassumesseparationwhilePlanet2leansintobalance. NorthNodeCancerH12-toMeanBMLSagittariusH5example must retain lunar-point and later-context qualifications,no numeric integration law.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1aosgEA4qbuoVo0vyVN8hPFitm0e6pDZ_",
+      "file_id": "1aosgEA4qbuoVo0vyVN8hPFitm0e6pDZ_",
+      "image_sha256": "47dfdb347dad3745e5fa25522f2a4d58928dc4ac4a31e41a35f06779f2fb19e3",
+      "ocr_output_sha256": "de1e580b1d63a3b785bee0a7f0c92d29c99ffe455d1f7d969615d9cd2d26f885",
+      "printed_header": "402",
+      "line_ranges": [
+        [
+          11,
+          25
+        ]
+      ],
+      "finding": "NorthNode/Lilithsourceexample asks simultaneous oppositionalintegration and explicitly identifiesbothasMoon-derivedpoints. This meaning example doesnot grant outgoingOOItoreceiver-onlypoints or erase opposing-nodecontext.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1WSpex3o8Cl4Hdkxnk9ccv-joTuA8DbP9",
+      "file_id": "1WSpex3o8Cl4Hdkxnk9ccv-joTuA8DbP9",
+      "image_sha256": "b806e6be5e5a78ad00f013eebfdd9ba63a1566d3d157e1882436bb1c3a8760c4",
+      "ocr_output_sha256": "95780dbcc4e06cd781477663069c8aa3ad9e37e3efba48456b0db787a808f2f1",
+      "printed_header": "403",
+      "line_ranges": [
+        [
+          19,
+          25
+        ]
+      ],
+      "finding": "Adoptivemotherexample placesMCPiscesH10adposingSunLeoH3;SunactsasH3rulerwithotherconjoinedrulersandMercurycontext. No degrees or birthfixtureareprovidedhere; do not infer exact distance or clinically profileanotherperson.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1Xz4cyIuXMD2adrgvp0chmvJljg52xAmG",
+      "file_id": "1Xz4cyIuXMD2adrgvp0chmvJljg52xAmG",
+      "image_sha256": "d929c9f1130d5dfccae01bb08d6d63744ed2de2ae719dd2cebc3795a02a039ca",
+      "ocr_output_sha256": "8b361cb531997cd961f2652b841fa1c3e3a1804e1d2e061d93debf08a65783ba",
+      "printed_header": "404",
+      "line_ranges": [
+        [
+          25,
+          35
+        ]
+      ],
+      "finding": "Source proposes integer divisions and every1degree aspect as a theoretical premise. Retain this as author theory,not a complete permitted-aspect catalog or authorization to implement all integer angles; widths and conditions remain separately required.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1lZbTD1MWSP4G5zYgDLs6YwKgBv3Css9U",
+      "file_id": "1lZbTD1MWSP4G5zYgDLs6YwKgBv3Css9U",
+      "image_sha256": "3bf13a78ade4f0a40a4e92de4ad2aa263d2d4e2d05060252242240705feb371f",
+      "ocr_output_sha256": "557d02dbb2fb3bb4a3ab52f45566daa37af13c15930f4e6be5af1ef70aa2fcf0",
+      "printed_header": "405",
+      "line_ranges": [
+        [
+          8,
+          11
+        ],
+        [
+          18,
+          36
+        ]
+      ],
+      "finding": "Source introduces microharmonic multiples10through180 and labels Dectile10 asD10,followed by20Secundadectile. These illustrative extensions lack complete OOI catalog,endpoints and rules,so do not promote every theoretical division to approved execution.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1QbJHv9owaVWw7-4YmpxNsRNHIXHmg7uI",
+      "file_id": "1QbJHv9owaVWw7-4YmpxNsRNHIXHmg7uI",
+      "image_sha256": "207f1ebb2e0ae49ef4e2fada5102fbfecd06a1b4d94d00dc7f7907f122b2edd1",
+      "ocr_output_sha256": "36ce4131476f062bc51f15c1343b769624754bf507dff484b0033d2f02d39a39",
+      "printed_header": "406",
+      "line_ranges": [
+        [
+          2,
+          21
+        ]
+      ],
+      "finding": "D20 borrows D10 simultaneous-link context but describes accidental togetherness with discord before30Semi-sextile. PallasLibraH3/PlutoRx same-house example says about20degrees,no exact Pallas coordinate; author sabotage anecdotes supply no exact fixture.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1Z5J_uh8p-8V8bOxzDcqJaqi6ypURIETc",
+      "file_id": "1Z5J_uh8p-8V8bOxzDcqJaqi6ypURIETc",
+      "image_sha256": "c6c3fe1c2d51b2741319a4ac532b4d379e85b1323be9d1529736e8bc1c6902cf",
+      "ocr_output_sha256": "ae06f32fab4b78e212a8beac0e3c172815893413333dfa1d04c0114cec37ca4a",
+      "printed_header": "407",
+      "line_ranges": [
+        [
+          13,
+          34
+        ]
+      ],
+      "finding": "D140 is distinct from135Sesquisquare and144Biquintile; Mars5:56Libra/Moon25:57Aquarius gives140:01 as printed. This exact coordinate arithmetic does not supply D140orb or justify copying the383six-aspect1degree bound to every microaspect.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-18LHkTsNRipFBsN13-j2s-V-eS9JLNtHK",
+      "file_id": "18LHkTsNRipFBsN13-j2s-V-eS9JLNtHK",
+      "image_sha256": "a46d3f9b9ddad41a85e20e6e09fd74ada52ff354b80618ca6bc0beb70392c438",
+      "ocr_output_sha256": "434f08b460a389e31035cd0ce6f2e7e7bb183abeeaab3746b3ae8bdd96606238",
+      "printed_header": "408",
+      "line_ranges": [
+        [
+          2,
+          15
+        ]
+      ],
+      "finding": "Page separately identifies MercuryRxGeminiH11 Biquintile JupiterRxScorpioH4,then returns toMars-to-MoonD140. Do not merge the two body pairs or confuse144harmonic context with140degree example; behavioral narrative is author-specific.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1QVkYJGD2mTz9bnYFKJy1jOZb-BMaqHCO",
+      "file_id": "1QVkYJGD2mTz9bnYFKJy1jOZb-BMaqHCO",
+      "image_sha256": "bd467b545739a03529d2624f1d06fb10bff35346ab0010d033ce43a4cfd2144e",
+      "ocr_output_sha256": "cb39d0f94e85f73a6ece979ea8920c0ebd3e360e3b72ebdb294a78d9c5cf0310",
+      "printed_header": "409",
+      "line_ranges": [
+        [
+          23,
+          37
+        ]
+      ],
+      "finding": "Author describes D140 as quiet undercurrent and explicitly distinguishes140from144 because144doesnotcontain10Dectile traits. Retain source compositional interpretation without inferring numeric aggregation or user empathy traits.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-19YSJRD4lU4lg62WswQvV_6bsLJMoEd-r",
+      "file_id": "19YSJRD4lU4lg62WswQvV_6bsLJMoEd-r",
+      "image_sha256": "74db9a4c52835ea2515c48892174684cde0bff984fcdbf1af1a58bcf4b2a03d5",
+      "ocr_output_sha256": "4da5188b1d9e7d48264434f3868ba342b5e083d7238f79a2a486178865c907e4",
+      "printed_header": "410",
+      "line_ranges": [
+        [
+          9,
+          13
+        ],
+        [
+          15,
+          35
+        ]
+      ],
+      "finding": "Source names5degreeQuinticile Q5 and10degreeQ10 alsoD10;72degreeQuintile is a distinct divisor. Discussion explicitly places9-10degree contacts within solar conjunction reach,so microaspect labels need not erase an emitter's conjunction association. No Q5orb or precedence is specified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1KRGj8pglEVy2gdOSLnTiX9t8y9X-IEII",
+      "file_id": "1KRGj8pglEVy2gdOSLnTiX9t8y9X-IEII",
+      "image_sha256": "8de2cdae63039066d4ee9d41acf4988038552dc365c4f1c0d39d81cdac5dd204",
+      "ocr_output_sha256": "1f95df49ec5011b9001cd347b4fb9ccaaddec472080322272acd68dc69b012a7",
+      "printed_header": "411",
+      "line_ranges": [
+        [
+          2,
+          15
+        ],
+        [
+          22,
+          26
+        ]
+      ],
+      "finding": "Every5degree multiple is described as containing Quinticile context;1degree is namedUnicile. This is a theoretical layered meaning,not a complete orb,intensity or detection specification; author scientific/uniqueness claims are not independent validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1f1nkm_Ra6hmnrbyzDR6O2xyPcG33B3h-",
+      "file_id": "1f1nkm_Ra6hmnrbyzDR6O2xyPcG33B3h-",
+      "image_sha256": "6630531cb7aeb64e58457cfe4b46024d9b67dd9e982df2fcc6910f7d2b82efe3",
+      "ocr_output_sha256": "9798844d2f5858c270037ebca8897afa9e03278fbf5b15a7e8ca30e4976a99e3",
+      "printed_header": "415",
+      "line_ranges": [
+        [
+          5,
+          20
+        ]
+      ],
+      "finding": "Visible415header and UnderTheHood opener distinguish Templates from rejected Archetypes. Filename adjacency after411 doesnot prove412-414absent; source theoretical framing doesnot establish a completed template schema.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1-NWtbWVtsMiyymHIv_5aetzPz0xNaoha",
+      "file_id": "1-NWtbWVtsMiyymHIv_5aetzPz0xNaoha",
+      "image_sha256": "8177ab0babdf6040ce68b318b3268b4686533ccbc6204c64b53f57c1513d6be3",
+      "ocr_output_sha256": "9acc21f708a0c2e124c391bdba55c27ecd997b6a830f5f736ad7b1436bdb2ccb",
+      "printed_header": "416",
+      "line_ranges": [
+        [
+          3,
+          21
+        ]
+      ],
+      "finding": "Source rejects boxing signs/houses into one archetypal role and emphasizes interconnected context. Claims about Jung and energetic truth remain author views rather than independently verified history or psychology.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1wHe_sSiCKwSeS0XVIDFCJknV_5FFcr3p",
+      "file_id": "1wHe_sSiCKwSeS0XVIDFCJknV_5FFcr3p",
+      "image_sha256": "d722ab3edaeea7663e29bfe1cef4c83f9b7719943baf5520c34c6c114684d9d3",
+      "ocr_output_sha256": "aeed78259c03a2ea57e22a5c262c44fa568ce9cb1106e08ac1f7374555520d79",
+      "printed_header": "417",
+      "line_ranges": [
+        [
+          11,
+          25
+        ]
+      ],
+      "finding": "Page presents three competing4th/10thparent assignments as views the author rejects; attribution must remain distinct from the author's own doctrine. It explicitly raises confirmation bias from one personal chart.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1VXGJXfwneL9u1QsdVwqqVPymvS7pL9oF",
+      "file_id": "1VXGJXfwneL9u1QsdVwqqVPymvS7pL9oF",
+      "image_sha256": "e8fc45f284847dd9f602c130634b2f08c70b95d7d5713413c68993aa526db86d",
+      "ocr_output_sha256": "e5de97d1b589f81d4cff514fbd73f1e1633712c3d5f00c9cf17fcf629a2a26c1",
+      "printed_header": "418",
+      "line_ranges": [
+        [
+          3,
+          11
+        ]
+      ],
+      "finding": "Author statesSunfather andMoonmother with natural4thhouse link and rejects importing10thhousefather. Subsequent parent-issue claims remain interpretive source assertions,not facts inferred about a user's family.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-18m0sz1rGjGZSfDKNstDsFwNTojWsdTHm",
+      "file_id": "18m0sz1rGjGZSfDKNstDsFwNTojWsdTHm",
+      "image_sha256": "3bd3f57d2ab674b0d1d2ab3cc927621b645726a3673e8e17ff57eb3dc951e3be",
+      "ocr_output_sha256": "dc17cb9103167cb4fc09a8a5856d477a614f7af1738009bb526e0c92abc8f206",
+      "printed_header": "419",
+      "line_ranges": [
+        [
+          11,
+          13
+        ],
+        [
+          18,
+          22
+        ]
+      ],
+      "finding": "Author expressly assignsfather to5thhouse and10thto parents as authority/discipline,not a specific parent. FREE expands FoundationalRelationshipofEnergeticExpression; these are source conventions,not empirical family conclusions or newly approved formulas.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "pattern-audit-1qJ4kRAjaCaEWV3DRix0yYO-PkwPYZoAk",
+      "file_id": "1qJ4kRAjaCaEWV3DRix0yYO-PkwPYZoAk",
+      "image_sha256": "83233ff8112bfac52fa857b1a89c222eea90393fda76b06c5f4f6db69d11c5e4",
+      "ocr_output_sha256": "8123ac66700bfab637b47fc27c6e463c606db87d01febee5784725331cab6b4c",
+      "printed_header": "420",
+      "line_ranges": [
+        [
+          8,
+          16
+        ],
+        [
+          22,
+          30
+        ]
+      ],
+      "finding": "FREE Theory supplies claimed connection-grid context afterPHSRandaspects. Page calls energy power derived from resources and describes potential energy; preserve as author wording,not a validated physical derivation of astrology or executable law.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1YVyxURYrd2z9UaKLqy5iWMCSPOECktsh",
+      "file_id": "1YVyxURYrd2z9UaKLqy5iWMCSPOECktsh",
+      "image_sha256": "38de8a93c81fa5f6f94ab93ab295a9f6c1e8c56170d996f7a78e9adab8a21faf",
+      "ocr_output_sha256": "d3b2d3034c5a191ccdfdb0889d910ead12f30ab8dca2fec76ceea3ad85c6c79b",
+      "printed_header": "421",
+      "line_ranges": [
+        [
+          25,
+          32
+        ]
+      ],
+      "finding": "Page gives energy as ability to do work and emphasizes conscious activation/free will,then explicitly announces liberties in the use of potential/kinetic terminology. Preserve as source framing,not a physical proof or evidence of blame for personal hardship.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1TBnH7IbZWhf8mJgDFVtjGk-KfG-6HTG4",
+      "file_id": "1TBnH7IbZWhf8mJgDFVtjGk-KfG-6HTG4",
+      "image_sha256": "3b19834e7a14a6700d6611e5bdc60ec3ac8f8a4a3024e6456c069844f20fc492",
+      "ocr_output_sha256": "42aa0fa6ccd26911c99ef39879f4905069af901e032d378f941ca9269ff3c86e",
+      "printed_header": "422",
+      "line_ranges": [
+        [
+          2,
+          19
+        ]
+      ],
+      "finding": "Author expressly says potential means low kinetic/higher potential and that science/symbolic senses are deliberately blurred. Also says elevated vibration is not always best; business examples do not establish measurable frequencies or universal advice.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1tW9KaKjRQHz3Dx829uFzlv_WoZ9PA8Jk",
+      "file_id": "1tW9KaKjRQHz3Dx829uFzlv_WoZ9PA8Jk",
+      "image_sha256": "5569709d42c9d716fbdaf459c5c17cfd6427bea69d362261d60ef355f14808fd",
+      "ocr_output_sha256": "604a95ec1d4a254d0653552477c151c78a76eae6cb5f4a99a90846a3ff6e354b",
+      "printed_header": "423",
+      "line_ranges": [
+        [
+          17,
+          26
+        ],
+        [
+          28,
+          34
+        ]
+      ],
+      "finding": "Employee-negotiation and sports examples illustrate asserted context-dependent competition/aggression; closing explicitly denies12thhousepublicscope. These are author examples,not individual employment guidance or empirical efficacy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1aD326JO8n-mUbcHNQtn88-GVje-p7ho7",
+      "file_id": "1aD326JO8n-mUbcHNQtn88-GVje-p7ho7",
+      "image_sha256": "743e4ba3b4440a9ddda48049a8eac313c4089f799473b19c0965d6097370e1ef",
+      "ocr_output_sha256": "47554e84d84f200115fd4b9c10bb83bbd9efd72f879c777eafc56c896a64c433",
+      "printed_header": "424",
+      "line_ranges": [
+        [
+          17,
+          30
+        ]
+      ],
+      "finding": "Modality teaching cycle startsMutable,thenCardinal,thenFixed: identifyshift,initiateaction,preservestructure. This source conceptual starting point doesnot change geometric sign order or measured planetary motion.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1YA2OFrbjOMO_Azi-8lF2AilF6O5h1pta",
+      "file_id": "1YA2OFrbjOMO_Azi-8lF2AilF6O5h1pta",
+      "image_sha256": "224130238ebb28c43f4f4af8cf1bc378b820b142d121719e43c13de3717f5bd1",
+      "ocr_output_sha256": "a5cf40f72fd20ddda0738700c13e65febc13ba065c5d66c84d2162a2f8a537cf",
+      "printed_header": "425",
+      "line_ranges": [
+        [
+          3,
+          12
+        ],
+        [
+          16,
+          28
+        ]
+      ],
+      "finding": "Source links12th-to5thQuincunx and1st-to5thTrine as conceptual birth framing. It explicitly calls nonlinear-time/birth-prediction belief unproven; fire/earth/air/water are sourceenergy/solidity/thought/emotion categories,not causal validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1cz1G1bel0xjyfCW-RursSbcVYUWiaBtn",
+      "file_id": "1cz1G1bel0xjyfCW-RursSbcVYUWiaBtn",
+      "image_sha256": "c4c17c84b6f5db8958572e372e3e5099596322872d21afbdc14d852e5e91fa8b",
+      "ocr_output_sha256": "b9fb9a594388ed4dcd14d17bee3afbf27b6f720c4ebbb21395566e34d5472911",
+      "printed_header": "426",
+      "line_ranges": [
+        [
+          5,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          21,
+          36
+        ]
+      ],
+      "finding": "EarthBuild,AirConnect,WaterDive complete FireActABCDmnemonic; elements supply context within relationships rather than isolated roles. These qualitative categories provide no numeric scoring or user personality facts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1VzMHdtlEUBV0VR-bCV32_c4hnIqDWzIJ",
+      "file_id": "1VzMHdtlEUBV0VR-bCV32_c4hnIqDWzIJ",
+      "image_sha256": "209f09f009a8aa70f310e2a44c3d789f03e6cabf6d5da1ce763a49cb9ae0e3e2",
+      "ocr_output_sha256": "98562a39b4bd0d0c51879bc21d74d51320f2576c7e8ff2ad9c424cb92015b5ca",
+      "printed_header": "427",
+      "line_ranges": [
+        [
+          11,
+          30
+        ]
+      ],
+      "finding": "GrandTrine/Decan discussion sequences stages within each element and explicitly warns easy flow can bring hardship. Do not translate a trine or same-element pattern into guaranteed benefit.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1VwzSaveEjoEz-HIpoDH1dgdTerZ6eocz",
+      "file_id": "1VwzSaveEjoEz-HIpoDH1dgdTerZ6eocz",
+      "image_sha256": "101d06e9711879c8ae65634500c974fa5f74d44b1561d1e659ea7c57aa39991d",
+      "ocr_output_sha256": "fb001ddc205e74a609a4f50c4bc9b6a3230f0d72595c1e1173090bfae29681ed",
+      "printed_header": "428",
+      "line_ranges": [
+        [
+          5,
+          18
+        ],
+        [
+          20,
+          30
+        ]
+      ],
+      "finding": "GrandTrine needs contextual integration and both send/receiveVantages; Square/GrandCross concern modalities and change and source again namesSquareTurnover. Neither strength analogy nor perpetualmotion wording is a quantitative physical law.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-19wsN8AGR9QnkxWfBQWDzUD_i8hAqcYNV",
+      "file_id": "19wsN8AGR9QnkxWfBQWDzUD_i8hAqcYNV",
+      "image_sha256": "a7c872a2b67481e8fcd47edf0cfeefa77237bae2827260c58dbbe82974097833",
+      "ocr_output_sha256": "e82491a900d4fd58c73ac364eb3ab0158d184702fe3b2ea306439ae58b44332a",
+      "printed_header": "429",
+      "line_ranges": [
+        [
+          18,
+          30
+        ]
+      ],
+      "finding": "MutableSquareForging cycle isGemini-Virgo-Sagittarius-Pisces-return; source saysPisces arguably starts and one may enter anywhere,choosingGemini for teaching. Avoid claiming a uniquely prescribed starting node.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1LFIJ9QwUl0vFvtUxsveNB9YDToblE4_2",
+      "file_id": "1LFIJ9QwUl0vFvtUxsveNB9YDToblE4_2",
+      "image_sha256": "15c912314f7dc14f7935ea309b527e43b658f87a2b19ad991c8ee23ca85efdbf",
+      "ocr_output_sha256": "70a87408e80a045ab07156d5f9da6ccef59498e0fbf64305b73c943934dfaf45",
+      "printed_header": "430",
+      "line_ranges": [
+        [
+          3,
+          11
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          30,
+          34
+        ]
+      ],
+      "finding": "Mutable ordered pairs contrastGemini/Virgo thoughtutility,Virgo/Sagittarius analysisgrowth,Sagittarius/Pisces knowledgeunknown,Pisces/Gemini dreamcommunication. Interpretive dependencies do not prescribe generic conflict for every real person with those signs.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1iUFxpD6SgpMuaHfoLqDDNHaN9tTNije6",
+      "file_id": "1iUFxpD6SgpMuaHfoLqDDNHaN9tTNije6",
+      "image_sha256": "c5ff4f861f99726fc6018e43aba60f11f850fefed97896ab450376935e669073",
+      "ocr_output_sha256": "45300d85c4494e518ac1200393b8e30708509e7bc351c0421dc87bc603add45b",
+      "printed_header": "431",
+      "line_ranges": [
+        [
+          7,
+          24
+        ],
+        [
+          25,
+          33
+        ]
+      ],
+      "finding": "Cardinal cycleAries-Cancer-Libra-Capricorn-return requires mutual recognition instead of one-sided control; Aries/Cancer andCancer/Libra meanings are ordered source examples,no detection or weighting parameter.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1WstEhYSD6iMHJ4Teby1NJc1FM6kcU-Mc",
+      "file_id": "1WstEhYSD6iMHJ4Teby1NJc1FM6kcU-Mc",
+      "image_sha256": "00c1c39a60bdfb7caa7700559f1ab767ea435daaec9ee9ecfc36f2e4f907906c",
+      "ocr_output_sha256": "cfc4bd476dc3d360eedcb4918c8a5c917a8301ff8f7990cb561ffc98b2dbf4cd",
+      "printed_header": "432",
+      "line_ranges": [
+        [
+          2,
+          19
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "finding": "Libra/Capricorn andCapricorn/Aries completeCardinalcycle; Fixed cycleTaurus-Leo-Scorpio-Aquarius concerns constructive tension. Literal alignment-isnt-for wording is retained as prose,not silently corrected into a numeric rule.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1V5YPj56hrGoR7dhrHGo8wdHfL5Bn8vn1",
+      "file_id": "1V5YPj56hrGoR7dhrHGo8wdHfL5Bn8vn1",
+      "image_sha256": "a7f3f54f4b3943a7100b07d05e46deb07ac4fdbbae82f76f93f5988a06883a17",
+      "ocr_output_sha256": "cb33cfc5d9967e0510687f0e1442b30f67c036ed80cc03a8e9e255b370ecba15",
+      "printed_header": "433",
+      "line_ranges": [
+        [
+          5,
+          33
+        ]
+      ],
+      "finding": "Fixed pair explanations completeLeo/Scorpio,Scorpio/Aquarius,Aquarius/Taurus cycle. Last foundation-pattern sentence continues434; this is not a license to reject out-of-sign aspects.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1Eh4cH1TPu9dcIZpi44veIEvp4vlwYMVB",
+      "file_id": "1Eh4cH1TPu9dcIZpi44veIEvp4vlwYMVB",
+      "image_sha256": "72b5c6156dbd5b9f9694bf1b1d9753deeab7cce8390a6658c74e61a34b3c4b5b",
+      "ocr_output_sha256": "fcf76830a5f7996aa8a5abe10356502b620c6e1e43c81ce736c9c03a6cef02f5",
+      "printed_header": "434",
+      "line_ranges": [
+        [
+          2,
+          17
+        ]
+      ],
+      "finding": "Author explicitly says OOI can move planets outside clean modality pattern while aspects remain geometrically valid; aspect existence is not contingent on element/modality. Foundational grid and actual planetary contact are separate scopes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1b1B02NTP_WTtCuFavTw8692F-3xr4azb",
+      "file_id": "1b1B02NTP_WTtCuFavTw8692F-3xr4azb",
+      "image_sha256": "d5dab2f6c83d5ca2877f01bdc8878bc8584c692e5b96aedd7b93bfcebd646430",
+      "ocr_output_sha256": "8571ffc6fb89fb80211e49e8e09eb0bd5479764416542067d1772ce75ffffb3f",
+      "printed_header": "435",
+      "line_ranges": [
+        [
+          3,
+          20
+        ],
+        [
+          22,
+          30
+        ]
+      ],
+      "finding": "Image header435 is readable though OCRdropsit. Air/Earth andEarth/Fire finish ordered element square cycle; house1-to4 and6-to9 are contextual grid illustrations,not proof of actual planetary square or user hardship.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1WhgfbC290oFf67UR9qDPm1xUwCZzA6Qf",
+      "file_id": "1WhgfbC290oFf67UR9qDPm1xUwCZzA6Qf",
+      "image_sha256": "da782a60b615a7d6a80a6d82b3506b568c5a6d92e3007c084381890784465704",
+      "ocr_output_sha256": "d39a639f4a3e8057e6d0270b568209336dcf47f45787170f4900ec017f748c66",
+      "printed_header": "436",
+      "line_ranges": [
+        [
+          6,
+          17
+        ],
+        [
+          18,
+          34
+        ]
+      ],
+      "finding": "House11-to2 and12-to3 illustrate innovation/value and inspiration/thought; closing again namesSquareForgeTurnover. These source grid relations supply no event timing,amplitude or exception precedence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1RQhSFIk12FvQYYiIlGP9rRkTJmghctCm",
+      "file_id": "1RQhSFIk12FvQYYiIlGP9rRkTJmghctCm",
+      "image_sha256": "9bd4266211679804685ad5b719e6e33bdc9b7f793ba562972d7b63614ecadabe",
+      "ocr_output_sha256": "1d3cadc944956d39dafde8372e6e7fe46654140c0167a3206381ac955c87dbc5",
+      "printed_header": "437",
+      "line_ranges": [
+        [
+          6,
+          23
+        ]
+      ],
+      "finding": "Fire/Air andEarth/Water can appear inOppositionorSextile. Same-modality wording belongs to foundational pattern context and must retain434OOI/out-of-sign qualification; element pairing alone cannot classify actual aspects.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1gYZ43-wpEuvCy1cwUxzbK5r4a7Xrja2Q",
+      "file_id": "1gYZ43-wpEuvCy1cwUxzbK5r4a7Xrja2Q",
+      "image_sha256": "c049d0e86b4994619a42d93a85dcd834cfb969f738ea20503ab330d85b76d8e5",
+      "ocr_output_sha256": "b4f17c56abbdd93aa406aed350dc8fdb6f6feed409ffd3814792c6e20368ccc5",
+      "printed_header": "438",
+      "line_ranges": [
+        [
+          7,
+          26
+        ]
+      ],
+      "finding": "Diagram1-3Self,4-6Personal,7-9Others,10-12World is explicitly the model being rejected. Preserve attribution so retrieval doesnot present the pictured old grouping as the author's accepted quadrant scheme.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1kx_SVNSmHwde5ybHkfyHtoDyskA39_08",
+      "file_id": "1kx_SVNSmHwde5ybHkfyHtoDyskA39_08",
+      "image_sha256": "bd8fd6c7335901f78e6df8072527e226b782849337a882417d09c7c47f7ff08d",
+      "ocr_output_sha256": "e29e973b20370e0ba2067184959e8fd6f656703cae2d12dc2ab82bb1a8624af9",
+      "printed_header": "439",
+      "line_ranges": [
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          39
+        ]
+      ],
+      "finding": "Accepted house groups are12/1/2Self,3/4/5Personal,6/7/8Others,9/10/11World; diagram arrows and prose checked. Each triad isCadent/Angular/Succedent;12th is personal spiritual/creative context,not collective by this source.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-17v-DKS5WZ6M8zVTxnYzjLwkvTBdBPz-e",
+      "file_id": "17v-DKS5WZ6M8zVTxnYzjLwkvTBdBPz-e",
+      "image_sha256": "845ac694f12c2a3373681f500f9f2783598c53986ca541373ef3b8ab84a3a5d5",
+      "ocr_output_sha256": "620062c5c70129f71caebe9f55ebdc03c09222ed365a9328109f4999849d7cb9",
+      "printed_header": "440",
+      "line_ranges": [
+        [
+          4,
+          22
+        ],
+        [
+          23,
+          28
+        ]
+      ],
+      "finding": "Source separates cardinal-sign temporalZodiacQuadrants fromVitalityQuadrantsIC-toAC-toMC-toDC-toIC and says internalized path reverses order. These are distinct from439house triads; apparent-motion metaphor supplies no exact angular interpolation or event algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-10ThEL6XzfE6mkJQGlw5mVc3QvevFb2JK",
+      "file_id": "10ThEL6XzfE6mkJQGlw5mVc3QvevFb2JK",
+      "image_sha256": "bbb1e4656a7d71eb7a8d9267b1edbaf285f2ed3c1d422c96f620aad6ae029929",
+      "ocr_output_sha256": "0fbb0ddf6d37cf67f2c4fcc8759997716ecd5e5faa4fec05ecd5fabeaeddce8d",
+      "printed_header": "441",
+      "line_ranges": [
+        [
+          6,
+          24
+        ],
+        [
+          29,
+          36
+        ]
+      ],
+      "finding": "VitalityQuadrants trackanchorflow whileAngularTriads groupself/private/others/world. Self12-2,Personal3-5 include4mother/5father,Others6-8; source family/trauma rhetoric is not a clinical conclusion.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1Q_MK5Qb7ee_2_w86Jhbl6LFqphKV0jCo",
+      "file_id": "1Q_MK5Qb7ee_2_w86Jhbl6LFqphKV0jCo",
+      "image_sha256": "036db114a2e44c5febf2e47fab81ec63aed417577c6fa22ad5fe4fb1225b2bb4",
+      "ocr_output_sha256": "c405f781886875cc3dee685db34c762a47aee6b973f5f3667f5f0010875d9650",
+      "printed_header": "442",
+      "line_ranges": [
+        [
+          7,
+          22
+        ],
+        [
+          30,
+          37
+        ]
+      ],
+      "finding": "WorldTriad9-11 is explicitly separated fromSelf/Personal12-5 andOthers/World6-11. Source names6th/12thcusps as an axis different fromAC/DC and attributesdeclinationcontext; no numeric projection is provided.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1xSHfc7ccH49LE-vCxngXV7R2a7FXaoCc",
+      "file_id": "1xSHfc7ccH49LE-vCxngXV7R2a7FXaoCc",
+      "image_sha256": "64c6142663a9874768d90c5746242d799fc3f86e1d0778b494bc86a199fc5275",
+      "ocr_output_sha256": "95429cc1f86135f3e3800d66547eb3b9c884e2e9d0f88ca57e57c1753a65c144",
+      "printed_header": "443",
+      "line_ranges": [
+        [
+          4,
+          13
+        ],
+        [
+          16,
+          33
+        ]
+      ],
+      "finding": "Crossoverdiagram and prose first nameAC-to-startPisces/DC-to-startVirgo,thenACZthrough12thcusp/DCZthrough6thcusp. Preserve fixed-sign and house-frame wording separately; equivalence for arbitrary natal rising signs is not established. Directed arc,wrap and equality remain unspecified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1n22Q5XdjDfpM6jxXG8TZjQTupxJvZiOb",
+      "file_id": "1n22Q5XdjDfpM6jxXG8TZjQTupxJvZiOb",
+      "image_sha256": "346afc8174fded2c0afa710fff2423b6844e7e0d0ff962d600b8c1a1bce58027",
+      "ocr_output_sha256": "013bb3e677bd3a1451640da1984e060494373910be50c6ba8ffe889f25e993d4",
+      "printed_header": "444",
+      "line_ranges": [
+        [
+          10,
+          20
+        ]
+      ],
+      "finding": "EmergenceArcACside/SubmergenceArcDCside described withFCAspill6thinto5thand12thinto11th. This supplies qualitative scope,not endpoint weights or a resolution of443sign-versus-house-frame ambiguity.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1ZkJbHDxozCNj01GkSkjsuDV_BHvgaILC",
+      "file_id": "1ZkJbHDxozCNj01GkSkjsuDV_BHvgaILC",
+      "image_sha256": "7a07104cf6abf416755c9c68b70a5c471765b6dfd63db77b60e4edb2f815039e",
+      "ocr_output_sha256": "03515a83a063932fc5a50d25fefda1c8b5215d6fe25c052061c8021e116d6956",
+      "printed_header": "445",
+      "line_ranges": [
+        [
+          18,
+          30
+        ]
+      ],
+      "finding": "Source rejects equating low with bad and uses speed,waterstate and everyday-rate analogies. Preserve the422explicit symbolic-terminology qualification; no measured astrological vibration scale or health guidance follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1uHpYvW1rGGT-hjBxyocLOmlRUcgmSsHX",
+      "file_id": "1uHpYvW1rGGT-hjBxyocLOmlRUcgmSsHX",
+      "image_sha256": "6da14d219c25a30bead847549ddc87c6a2889ea72d23475077621b3d39d56ba7",
+      "ocr_output_sha256": "602b218189d8caa1e6eeb4aa8773a9abbcbac7402821525c9c4efd2687cb2516",
+      "printed_header": "446",
+      "line_ranges": [
+        [
+          13,
+          26
+        ],
+        [
+          28,
+          33
+        ]
+      ],
+      "finding": "Cellular-frequency analogy supports context-dependent use of energy;FREEintroduction explicitly removes planets,asteroids,signsandpoints to studyblankfoundation. RFclaims are source analogy,not independently verified telecom specifications or proof of astrology.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-11RBOMmi9oSIqZn3prTEKwCNfUsT_PvyA",
+      "file_id": "11RBOMmi9oSIqZn3prTEKwCNfUsT_PvyA",
+      "image_sha256": "1cb36c0cd3467ee0b61b39e79747f382b9b7099ce6f80f9633c42a033ec3d055",
+      "ocr_output_sha256": "8c435f7e5d82af9d672a81387833d87e45b2c24af465ec0ac8b457a6ddb3d081",
+      "printed_header": "447",
+      "line_ranges": [
+        [
+          7,
+          18
+        ]
+      ],
+      "finding": "Diagram uses naturalAriesH1throughPiscesH12 grid with majoraspectglyphs relativeH1; prose expressly says innerwheelisnotuserzodiacsigns. Preserve theauthor's ecliptic-line wording as source analogy,not an astronomy definition.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1zhRUc7xgxbJO16biJf0XO7YrdSdn5Bjh",
+      "file_id": "1zhRUc7xgxbJO16biJf0XO7YrdSdn5Bjh",
+      "image_sha256": "650efdba7d5e11018add06f22bb869ab1f544cd561dcf49c4b325904f749ecfb",
+      "ocr_output_sha256": "920a60a01cb416f1376e63310a0d6c1083146e820a2de8a9eb63ab0cd722dc55",
+      "printed_header": "448",
+      "line_ranges": [
+        [
+          9,
+          29
+        ]
+      ],
+      "finding": "Foundationalwhole-house30degreeincrements distinguishtoH2/H3/H4/H5/H6/H7 fromfromH8/H9/H10/H11/H12 afteropposition. Apply perchosenVantage; this grid doesnot replace exact planetary longitudes or turn every same-house pair into an actual conjunction.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1DO1_JCFNL6Sw5-zlpk9K9uehzbdut_3C",
+      "file_id": "1DO1_JCFNL6Sw5-zlpk9K9uehzbdut_3C",
+      "image_sha256": "52675eb24e399d28dcf78f2d3b50c2a034f759ac73a3deef4ae4c72b63590760",
+      "ocr_output_sha256": "8992226c77f303e99171d56b5b3c99903b720eff904c3169eeb234667e00b213",
+      "printed_header": "449",
+      "line_ranges": [
+        [
+          10,
+          17
+        ]
+      ],
+      "finding": "Visible449header correctsOCR44. Prose changesVantagetoH2andsayssquaretoH5; diagram retains H1-centeredglyphs from447,includingH5trine/H4square. Preserve basegrid versus reindexed-prose distinction rather than treating displayedglyphs as updatedH2relations.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-18gFxxv6Wsu5FyyafPP5cu1sMmZKrI4ad",
+      "file_id": "18gFxxv6Wsu5FyyafPP5cu1sMmZKrI4ad",
+      "image_sha256": "e79620a1401d0e86f5e50078d4901e289827da636d3d38d4524cdb0a0cc15b34",
+      "ocr_output_sha256": "368f8e703caa38f68b5aa3b68c5dfcc2daf8564513bce120ea43cb2bb05e2889",
+      "printed_header": "450",
+      "line_ranges": [
+        [
+          3,
+          17
+        ],
+        [
+          18,
+          38
+        ]
+      ],
+      "finding": "Numbered zodiacal-order narrative movesvalue,thought,safety,paternalexpression,habits,relationships,depth,experience,structure,innovation,meaning. These are simplified thematic stages,not mandated biographical facts or age timing.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-19Cs4C4UtC9TIU6Xz9qtJfS9-usz8UGBU",
+      "file_id": "19Cs4C4UtC9TIU6Xz9qtJfS9-usz8UGBU",
+      "image_sha256": "152c39a437d7191677b7108dded26a3db471ecd6cec58472b6c2bb1859c7ae48",
+      "ocr_output_sha256": "c477f0686c1c78869d9c70ec3fdd533abde5fef95f864476b30ca2d4832ec6c5",
+      "printed_header": "451",
+      "line_ranges": [
+        [
+          7,
+          14
+        ],
+        [
+          15,
+          33
+        ]
+      ],
+      "finding": "Explicitly fixedfootballtopic andH1Vantage illustratesconjunction/30/60/90/120/150 relations toH1-6. Source examples depend on this chosen goal and do not verify sports performance or injury predictions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1lKk-FT_8aq5_t5g9GfaeVu2d015Y0wmk",
+      "file_id": "1lKk-FT_8aq5_t5g9GfaeVu2d015Y0wmk",
+      "image_sha256": "64aab654a356bbbc83245fdb731831bd1c129765c24f051bb0b28645bb4a7331",
+      "ocr_output_sha256": "874b3cb37498c53eaab017f0c946616734c1c92a11ed26bdc581e9d2783d49e1",
+      "printed_header": "452",
+      "line_ranges": [
+        [
+          2,
+          26
+        ],
+        [
+          27,
+          29
+        ]
+      ],
+      "finding": "FootballanalogycontinuesH7opposition,H8quincunx,H9trine,H10square,H11sextile,H12semisextile; author explicitly disclaims sports expertise. Keep source analogy separate from physical-health or coaching evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1Ra7yzw-Goy3BtM6jEP3kU2iB_D5z2bG7",
+      "file_id": "1Ra7yzw-Goy3BtM6jEP3kU2iB_D5z2bG7",
+      "image_sha256": "dc713757be094cade80b7fff8cf21d9aa716c123208d1143e4ea70800a84d370",
+      "ocr_output_sha256": "16cf90faa10c0ea30a75db3cb2e13f81202880b88cdb3c34607f62af303e3f5a",
+      "printed_header": "453",
+      "line_ranges": [
+        [
+          3,
+          13
+        ],
+        [
+          14,
+          31
+        ]
+      ],
+      "finding": "RandomizedContextmeansswitchingfoundationalVantagetoH4,not randomizing a real natalchart. ListreindexesH4conjunction,H5semi-sextile,H6sextile,H7square,H8trine,H9quincunx; family anecdotes are contextbound examples.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1ULXPQYq1tu45RR7SUtm7Pz2xTFhOCh95",
+      "file_id": "1ULXPQYq1tu45RR7SUtm7Pz2xTFhOCh95",
+      "image_sha256": "a98ec21ad18c48840ab08d5dbb5f4656c7c652318964dbbae9c90e8915d4a4b3",
+      "ocr_output_sha256": "9a22bc1bc55d189dbe8bc91fe886e1ad2eceb079657d8f8041e67de6c76c3a46",
+      "printed_header": "454",
+      "line_ranges": [
+        [
+          7,
+          34
+        ]
+      ],
+      "finding": "H4VantagecontinuesH10opposition,H11quincunx,H12trine,H1square,H2sextile,H3semisextile. Interpretive home/mood/food narratives do not establish diagnostic or individual family facts.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-12Rl8NDHJsdJBTRjpqo9hLbA18F7ZxaM1",
+      "file_id": "12Rl8NDHJsdJBTRjpqo9hLbA18F7ZxaM1",
+      "image_sha256": "13ebc534b42cd501f31e11982e14b1841b1ffc73305a8f520468061c5cda0196",
+      "ocr_output_sha256": "82794bbe0449b950fdf586c2c50dd83f456d7ff23596b647daaf084b77226418",
+      "printed_header": "455",
+      "line_ranges": [
+        [
+          4,
+          23
+        ],
+        [
+          30,
+          35
+        ]
+      ],
+      "finding": "Hostingexample combines several housepairings; source then acknowledges different behavior within the author's ownfamily and switches toH6Vantage. This explicitly contextualizes the preceding narrative instead of making it universal.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1GEb9A3vZj98WQKC4TQFpZoWYgNETzpjH",
+      "file_id": "1GEb9A3vZj98WQKC4TQFpZoWYgNETzpjH",
+      "image_sha256": "893d7c5a82280904d4b5186d83a91be9643839e244e92190c5dd278c417909a8",
+      "ocr_output_sha256": "c5df2107ca85a53c4ab6fd0d4b50949e2adf481129b56e6e26335577cfcb3fb9",
+      "printed_header": "456",
+      "line_ranges": [
+        [
+          3,
+          33
+        ]
+      ],
+      "finding": "H6VantagecontinuesH7semi-sextile,H8sextile,H9square,H10trine,H11quincunx,H12opposition,H1quincunx. Health/trauma/obsession language is source interpretation,not diagnosis or validation of outcomes.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1r0gtuYHA-xZBo1dPCCh8R_rQ1VOadHya",
+      "file_id": "1r0gtuYHA-xZBo1dPCCh8R_rQ1VOadHya",
+      "image_sha256": "1f1dcd55afeae855fcb22a94634e7c1bb6518044f9f7e1ca2ff3ea68e26e3de6",
+      "ocr_output_sha256": "ecd1f451ac78f57b6b897e858467f76275b87f9ce037874f35638ad648252e99",
+      "printed_header": "457",
+      "line_ranges": [
+        [
+          4,
+          15
+        ],
+        [
+          25,
+          32
+        ]
+      ],
+      "finding": "H6VantagefinishesH3square,H4sextile,H5semi-sextile; balance is stated to apply to all aspects. Square resolution combines considering both equally withPlanet1supportingPlanet2directionally; no numerical equality or intensity rule follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1aYy9mDi9XK1O8cRGNl0KtxqKXVR0EaMt",
+      "file_id": "1aYy9mDi9XK1O8cRGNl0KtxqKXVR0EaMt",
+      "image_sha256": "f6b6530f59bbac8d363579f2822bf17aa327f865330d7e059b3b16f9c873fe2c",
+      "ocr_output_sha256": "28f8a1365b640cd6626ad099d4198f1637fac9ae8fcdf8525936727c50590522",
+      "printed_header": "458",
+      "line_ranges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "finding": "Intra-housebalancing integratesdifferentthemeswithinonehouse;5thhouseexample includesromance,risk,purpose,parenting. This source says balancing is required withinConjunction and doesnot guarantee parentaldepressionortraumareactivation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1uSePMLc_u2OUw-H9IvA-vmypK91Gn6Al",
+      "file_id": "1uSePMLc_u2OUw-H9IvA-vmypK91Gn6Al",
+      "image_sha256": "b12b2af286ca240d268d45b5b2f6a314e09527a5f37010e5bdd86ecc279a6bf5",
+      "ocr_output_sha256": "1dfc56d8e66451185f55d45ab184abcabd0a89cd253acd045bffe1537a3c0176",
+      "printed_header": "459",
+      "line_ranges": [
+        [
+          7,
+          21
+        ],
+        [
+          27,
+          33
+        ]
+      ],
+      "finding": "Inter-houseH1/H7balance is distinguished from intra-house competingthemes; source rejects substituting an opposite sign as automatic cure forLibraSaturn12degrees. Preserve the actual placement and conditions.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    },
+    {
+      "id": "foundation-audit-1cr_mYxHq4RlmokRwtB30oxMsfAY8LBGM",
+      "file_id": "1cr_mYxHq4RlmokRwtB30oxMsfAY8LBGM",
+      "image_sha256": "613042698fdb525dad41ddfddc6ef2502851f76366d3c366fd66635b47bb2eff",
+      "ocr_output_sha256": "8e67ed9591230dead0793d0d7615158a05e150956af5671fb170be8c0403c5bb",
+      "printed_header": "461",
+      "line_ranges": [
+        [
+          5,
+          13
+        ],
+        [
+          21,
+          30
+        ]
+      ],
+      "finding": "Six axes mapWho1/7,What2/8,Where3/9,When4/10,How5/11,Why6/12; opposition integrates without merging. TheWhen/solsticedeclination analogy supplies no progression-time conversion or event forecast algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL"
+    }
+  ]
+}
