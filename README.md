@@ -1,14 +1,14 @@
-Current source-audit checkpoint: [150 additional image reviews](docs/2026-10-25_source-audit-deeper-continuation.md). 462 targeted images; 170 assertions; 4,977 checked OCR locators; 567 files and 29,049 locators remain. All 18 report sections remain unready.
-
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
-Current source-audit checkpoint: [100-image continuation and exact remaining queues](docs/2026-10-25_source-audit-100-image-continuation.md). All1,029 retained IDs are acquired;1,028 have candidate OCR. Targeted review covers312 images and3,500 OCR lines,with128 selected assertions;717 files and30,526 lines remain unchecked at those stages. Older audit counts below are historical. No personal AI answering or unresolved formula activation is enabled.
+**Looking for meanings or report knowledge? Start with [REPORT_KNOWLEDGE_START_HERE.md](REPORT_KNOWLEDGE_START_HERE.md).** Read branch `codex/methodology-verification-20261024`; the default `main` snapshot predates the interpretation audit. [Open the knowledge branch on GitHub](https://github.com/olsonan26/mystic-rebels-chart-generator/tree/codex/methodology-verification-20261024).
 
-Knowledge audit continuation: [original-scan findings](docs/2026-10-25_mystic-knowledge-audit-report.md), [all 18 report sections reconciled](docs/MATERIAL_CONTEXT_RECONCILIATION.md), and structured source/requirement manifests under `data/knowledge/`. These are local audit foundations, not a complete interpretation or personal-answer service.
+Saved knowledge: **131 concepts, 250 selected assertions, 207 report requirements and 49 findings**, with contextual vocabulary for planets, houses, sign/decan/degree layers, cusps, asteroids and aspects. [The machine manifest](data/knowledge/report_knowledge_manifest.json) points to a complete bulk export and seven smaller topic packets for external ingestion. Preserve exceptions, citations, dependencies, conflicts and approval gates. This is partial source-grounded knowledge; all 18 report sections remain unready for personal reports.
+
+Current source-audit checkpoint: [closing chapters, BTR and lexicon](docs/2026-10-25_source-audit-closing-btr-continuation.md). **712 targeted images; 250 assertions; 9,837 checked OCR locators; 317 images and 24,189 locators remain**. [The master knowledge path](docs/PROFILE_REPORT_KNOWLEDGE_PATH.md) indexes all retained work. Counts in older documents are historical. This export adds no runtime interpretations or deployment.
 
 Independent Mystic Rebels web application with a native Swiss Ephemeris calculation API, precise SVG natal/Dual wheels, grouped object selection, a full-precision position model, and Supabase account/saved-chart integration.
 
-Private repository: https://github.com/olsonan26/mystic-rebels-chart-generator
+Repository: https://github.com/olsonan26/mystic-rebels-chart-generator
 
 ## Run the installed application on this Windows machine
 

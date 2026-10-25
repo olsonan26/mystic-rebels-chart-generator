@@ -1,0 +1,169 @@
+{
+  "status": "VERIFIED_BRANCH_DISCOVERY_AND_LOSSLESS_PORTABLE_KNOWLEDGE",
+  "date_local": "2026-10-25",
+  "repository": "olsonan26/mystic-rebels-chart-generator",
+  "live_github_metadata": {
+    "default_branch": "main",
+    "branches": [
+      "main",
+      "codex/dual-wheel-refinement",
+      "codex/phase10-source-faithful-position-gradeity-20261024",
+      "codex/methodology-verification-20261024"
+    ],
+    "required_ref": "codex/methodology-verification-20261024",
+    "remote_ref_before": "c97fdc30a1a2a46e6963ed5a58d103be0890c966",
+    "sun_vocabulary_on_remote_audit_branch_verified_via_connector": true
+  },
+  "main_snapshot": {
+    "commit": "e250662ebbf799f00f94c869a68d8bdab1d3f8ea",
+    "file_count": 227,
+    "commit_count": 1
+  },
+  "canonical_source_json_payloads_changed": false,
+  "unchanged_canonical_authorities": {
+    "concepts": {
+      "path": "data/knowledge/interpretive_inventory.json",
+      "sha256": "81e8c56f4f5e5f489ed4399cfe2f198a99c4116f7d88de782d407a2812720a49",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "assertions": {
+      "path": "data/knowledge/original_assertions.json",
+      "sha256": "4a1ec759caadbe1b8124128b7b50380771f4652b7031e112717d8b13202c1356",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "requirements": {
+      "path": "data/knowledge/material_requirements.json",
+      "sha256": "53173f46b6247db811a86b4c074203ecae72372cad26cebcf9173949ba39023f",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "findings": {
+      "path": "data/knowledge/source_blocker_findings.json",
+      "sha256": "e3356690c12089459aefdb2fbafccf12b0476fe08aaae37bf225f292248174d9",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "capabilities": {
+      "path": "data/knowledge/capabilities.json",
+      "sha256": "011d9ee1ad317116c4ff6d67b3fb59b8378f096b504f1c57eb404b6ba5da8e4c",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "worked_examples": {
+      "path": "data/knowledge/worked_examples.json",
+      "sha256": "20496ea286bc4414d68aba617082003609e05f856011846973965291957f2c7d",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "annotations": {
+      "path": "data/knowledge/source_line_annotations.json",
+      "sha256": "ceaf635cd19d75f9704942940b6079d320cd60924ded35af7537272319daa77d",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "initial_original_reviews": {
+      "path": "data/knowledge/source_review_updates.json",
+      "sha256": "116a77b283966429d4fc44c02dae7da885b5a852330bb7f4ccc0a0a69ed768ce",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "continuation_original_reviews": {
+      "path": "data/knowledge/source_review_continuation.json",
+      "sha256": "642be34dbab279e732a63f13bd0e7296ae65838d891ac304a268d5eea00cfd77",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    }
+  },
+  "counts": {
+    "concepts": 131,
+    "assertions": 250,
+    "requirements": 207,
+    "findings": 49,
+    "capabilities": 44,
+    "worked_examples": 30,
+    "annotations": 589,
+    "initial_review_records": 44,
+    "continuation_review_records": 670,
+    "report_sections": 18,
+    "ready_report_sections": 0
+  },
+  "bundle": {
+    "path": "data/knowledge/report_knowledge_bundle.json",
+    "sha256": "2e1adee65df93f63f197f00c5c15aa6d3d9af62cca0a72ecef1cb92aecb8b7ad"
+  },
+  "topic_packets": {
+    "planets": {
+      "path": "data/knowledge/report_topics/planets.json",
+      "bytes": 468426,
+      "sha256": "b9d6c91b34df825df0245b89c3c44db3d98131af5570bd2b6594437f5eec36bc",
+      "concepts": 58,
+      "assertions": 202,
+      "findings": 43
+    },
+    "houses": {
+      "path": "data/knowledge/report_topics/houses.json",
+      "bytes": 466987,
+      "sha256": "d9ff02e05a4e863a57735ed8aa44a9ac4a4b07c26ddd990758d9d7808921a92b",
+      "concepts": 61,
+      "assertions": 200,
+      "findings": 43
+    },
+    "sign_degree_decan_context": {
+      "path": "data/knowledge/report_topics/sign_degree_decan_context.json",
+      "bytes": 451534,
+      "sha256": "a06b0e1d0c16fba8cf41d2c998f87b4418619918c5aea3bb08ed932cee7bb69b",
+      "concepts": 48,
+      "assertions": 199,
+      "findings": 43
+    },
+    "cusps": {
+      "path": "data/knowledge/report_topics/cusps.json",
+      "bytes": 451479,
+      "sha256": "b9d916d1716f2aeae882297e50ddb118909612c540774b457f6504e303a8de6a",
+      "concepts": 48,
+      "assertions": 199,
+      "findings": 43
+    },
+    "aspects": {
+      "path": "data/knowledge/report_topics/aspects.json",
+      "bytes": 451617,
+      "sha256": "9930f5aefa25de7d07946f1ee39dd69d988d5d0b694756e14ab42c6dbbfe840e",
+      "concepts": 48,
+      "assertions": 199,
+      "findings": 43
+    },
+    "asteroids": {
+      "path": "data/knowledge/report_topics/asteroids.json",
+      "bytes": 561800,
+      "sha256": "9359cffb6f5793b7424dae2ca8fb2d6bcd04fc5ce4d0008de035416294a5553d",
+      "concepts": 93,
+      "assertions": 227,
+      "findings": 47
+    },
+    "report_context": {
+      "path": "data/knowledge/report_topics/report_context.json",
+      "bytes": 451540,
+      "sha256": "78abf7f4c922d2878797e6da5e9ad888733b26014d5571ad841910deafc9d360",
+      "concepts": 48,
+      "assertions": 199,
+      "findings": 43
+    }
+  },
+  "tests": {
+    "path": "evidence/source-pipeline/report-knowledge-export-tests.xml",
+    "sha256": "6d105943cf290caa742d0339f71b6039e685acf43b03f414ac32db74a12fb0f5",
+    "passed": 5,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "scope": "Export identity, source restrictions, dependency/conflict preservation, stale-output rejection, deterministic regeneration and cross-platform newline portability; no empirical report accuracy claim."
+  },
+  "local_links_verified": 386,
+  "complete_master_index_records": 711,
+  "protected_norfolk_paths_unchanged": {
+    "data/locations-manifest.json": "665cabc4d9d54a5bbcefa3c12c493fed0771655bff63aa9c8b4670308e4f4f8a",
+    "data/locations.json.gz": "e394c4b82e2df3768905b9b34c6e05c815e9253edbfba90eefc4b0662e8aea03",
+    "mystic_rebels/api.py": "c6d7601416534a5b4c30b1978e1168fc2ebdeef77a107919bcf9d92108b0bf9c",
+    "scripts/provision_locations.py": "ccb08ec762a9dd5cd21d14d9714100ea05721ee2f77d23093ff365622b1b4294",
+    "astronomy_qa/test_locations.py": "693ca1009375c69d64950e86c366d2c392ad980b51f0061836f12c881c7e6235"
+  },
+  "application_or_deployment_changes": false,
+  "private_originals_pdf_ocr_indexes_published": false,
+  "personal_answer_approved": false,
+  "master_sha256": "a3d086444b1dcf557a815b47882f23cd1f61d672694fd5a64697c790690a8f80",
+  "guide_sha256": "168d1cbdb574307904e61b7ff3302622a3533daa2bffd5a36e1c3048ae211c1f",
+  "publication_proof_scope": "Pre-publication verification; confirm remote ref and manifest after pushing this commit."
+}

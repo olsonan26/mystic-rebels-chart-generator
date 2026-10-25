@@ -1,3 +1,9 @@
+## Latest knowledge-discovery update
+
+Start external repository readers with [REPORT_KNOWLEDGE_START_HERE.md](../REPORT_KNOWLEDGE_START_HERE.md) and `data/knowledge/report_knowledge_manifest.json`. The default main snapshot is the227-file/one-commit calculation tool; the required knowledge ref is codex/methodology-verification-20261024. The user explicitly asked to make the report knowledge available on GitHub, and the destination/repo access was verified. Current remote publication is verified separately; older pending-push notes below describe their checkpoints. Do not change main or deploy. Regenerate and check `scripts/export_report_knowledge.py` after any canonical source changes. Existing report-readiness gates and the separate Norfolk worktree remain unchanged.
+
+---
+
 # Latest checkpoint: closing chapters, BTR and lexicon
 
 Read [the latest continuation](2026-10-25_source-audit-closing-btr-continuation.md), [master report knowledge path](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/closing-next-verification.json` before historical checkpoints below. Current:712 targeted images,250 assertions,589 annotations,49 findings,317 pending images; all18 report sections unready. Next image: IMG_5675.JPG. Source/audit gates remain unchanged. Preserve the separate uncommitted Norfolk fix in data/locations-manifest.json, data/locations.json.gz, mystic_rebels/api.py, scripts/provision_locations.py and astronomy_qa/test_locations.py; hashes are in closing-next-preservation.json. Do not stage these with audit work. Push remains pending approval after prior automatic review rejection. No deployment.

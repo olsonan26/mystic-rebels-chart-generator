@@ -13,6 +13,8 @@ Snapshot: 25 October 2026, extending baseline commit `e8a199aad131c219407737483e
 - [All retained documentation, evidence and commits](#all-retained-documentation-evidence-and-commits)
 - [Continuing from this path](#continuing-from-this-path)
 
+External repository readers: use [REPORT_KNOWLEDGE_START_HERE.md](../REPORT_KNOWLEDGE_START_HERE.md) and [the portable knowledge manifest](../data/knowledge/report_knowledge_manifest.json). The required GitHub ref is `codex/methodology-verification-20261024`; default `main` has the earlier calculation-only snapshot. The export retains existing source summaries and all restrictions; it adds no report approval.
+
 ## Current retained knowledge and authorities
 
 The audit builds a reusable, source-bound knowledge layer. Personal reports, source-cited narrative generation and personal question answering remain absent. All 18 report sections remain unready. Source acquisition, OCR, targeted image review, passage reconciliation, calculation validation and approval for personal use are separate gates.
@@ -955,7 +957,7 @@ Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/sourc
 
 The retained release history includes the Gradity/knowledge-control foundation and later audit-data promotion to the existing production project. The source-audit production receipt records deployed source commit `e323507b671f419e882d9a6138790db230051684`, deployment `dpl_CNxKZhzbK2zM8z1qaXWYTHTGnGMv`, exact committed-byte verification of 17 knowledge files, preserved password access and unchanged sampled chart output. That deployed audit snapshot contained 462 targeted image reviews and 170 assertions.
 
-The Parts/asteroid, locational, Epochs, closing/BTR and lexicon audits increased saved totals to 712 targeted images and 250 assertions. These audits have no deployment approval. Publication is verified through c97fdc3; e8a199a and the current continuation remain local after the prior automatic push-review rejection. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
+The Parts/asteroid, locational, Epochs, closing/BTR and lexicon audits increased saved totals to 712 targeted images and 250 assertions. These audits have no deployment approval. The preceding audit checkpoint verified publication through c97fdc3 while e8a199a and c27cb2b remained local after automatic push review. The later report-knowledge discovery work carries explicit publication scope and verifies the knowledge branch separately. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
 
 Use [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_source-audit-production-release.md), [evidence/source-pipeline/production-deployment-2026-10-25.json](../evidence/source-pipeline/production-deployment-2026-10-25.json), [evidence/source-pipeline/deployment-file-integrity.json](../evidence/source-pipeline/deployment-file-integrity.json) and [docs/SITE_ACCESS.md](../docs/SITE_ACCESS.md) for the historical release/access evidence. Saved chart storage configuration or migration files do not establish independently verified live storage. Earlier release and verification records remain indexed below.
 
@@ -1317,7 +1319,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>source-pipeline: all 64 tracked evidence artifacts</summary>
+<summary>source-pipeline: all 66 tracked evidence artifacts</summary>
 
 - [evidence/source-pipeline/axis-audit-import.json](../evidence/source-pipeline/axis-audit-import.json)
 - [evidence/source-pipeline/checkpoint-audit-tests.xml](../evidence/source-pipeline/checkpoint-audit-tests.xml)
@@ -1379,10 +1381,13 @@ The following inventories cover tracked documentation and evidence reachable in 
 - [evidence/source-pipeline/remainder-tests.xml](../evidence/source-pipeline/remainder-tests.xml)
 - [evidence/source-pipeline/remainder-verification.json](../evidence/source-pipeline/remainder-verification.json)
 - [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json)
+- [evidence/source-pipeline/report-knowledge-discovery-verification.json](../evidence/source-pipeline/report-knowledge-discovery-verification.json)
+- [evidence/source-pipeline/report-knowledge-export-tests.xml](../evidence/source-pipeline/report-knowledge-export-tests.xml)
 - [evidence/source-pipeline/session-baseline.json](../evidence/source-pipeline/session-baseline.json)
 - [evidence/source-pipeline/stage-verification.json](../evidence/source-pipeline/stage-verification.json)
 - [evidence/source-pipeline/verification.json](../evidence/source-pipeline/verification.json)
 - [evidence/source-pipeline/verified-saved-checkpoint.json](../evidence/source-pipeline/verified-saved-checkpoint.json)
+
 </details>
 
 <details>
@@ -1404,7 +1409,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>All 34 reachable commits through the pre-batch baseline</summary>
+<summary>All 35 reachable commits through the pre-export baseline</summary>
 
 | Commit | Commit date | Saved change |
 |---|---|---|
@@ -1442,6 +1447,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 | 486f78836b8bd623b72f7816a8b06c2f68b7f1ad | 2026-10-25 | Document complete retained profile report knowledge history |
 | c97fdc30a1a2a46e6963ed5a58d103be0890c966 | 2026-10-25 | Audit 50 Local Space travel and epoch source images |
 | e8a199aad131c219407737483e2d4b71c74c73af | 2026-10-25 | Audit 50 Era Phase and interpretation-limit source images |
+| c27cb2bac9e409266a84207399efaf5222b3cfe7 | 2026-10-25 | Audit 50 closing chapter rectification and lexicon source images |
 
 </details>
 
