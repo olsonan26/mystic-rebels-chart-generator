@@ -432,6 +432,27 @@
           "original_printed_page": "651",
           "content_sha256": "dc0ffe846143b34b382f55de07a118f6258f852927889ba2012d250d441e3f16",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1Trs9xFsIQrTbU4D4XxP9jRHqHgZnzYDX",
+          "name": "IMG_5295.JPG",
+          "original_printed_page": "700",
+          "content_sha256": "73fe5dddda8bf39fe0504d5ee07e0152ec9a6a8c0965e7ede1f5a00baf09473e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1UBA6TxwrRzNeKcZ_CfKHyrpjykLbTXSZ",
+          "name": "IMG_5297.JPG",
+          "original_printed_page": "702",
+          "content_sha256": "562efe6fa8ed34ee1610e8c13fd016ac9e03bfe3bc060e6d320884d6891d0b5e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1hiiiPkOpWfTZQijF2JNwRJW2YGuDd4oy",
+          "name": "IMG_5301.JPG",
+          "original_printed_page": "706",
+          "content_sha256": "1d7e3f0c31d00b16a1b6258dfa16093926f90dcda1f41297e25bf12d86aa24fb",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -2182,6 +2203,97 @@
           "original_printed_page": "368",
           "content_sha256": "c5a5f3e877d40e9f4ea4e48e932a6115dbf2874b849996052b2d7019a92e7fc7",
           "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1kOQ0QQk6iQsTSETzBBHdVuLAYzypJG1z",
+          "name": "IMG_5277.JPG",
+          "original_printed_page": "682",
+          "content_sha256": "a1e0788d724fb4afa8b8621c44453791b544eaadabb2d80d8f3c3ae0808b9b0d",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+          "name": "IMG_5278.JPG",
+          "original_printed_page": "683",
+          "content_sha256": "134b26f1d8cb99365a3e4c60827f26c8a2c0509069fb0a3cdb413d2002478104",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1EX3NVxvin2VRlP8uo0Kgkc_X27iTH2kc",
+          "name": "IMG_5279.JPG",
+          "original_printed_page": "684",
+          "content_sha256": "38cf7007b782d75418491f0ee3cc8d868b6004f79893b38485e4d5bbade05349",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+          "name": "IMG_5280.jpg",
+          "original_printed_page": "685",
+          "content_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+          "name": "IMG_5281.JPG",
+          "original_printed_page": "686",
+          "content_sha256": "67e7b277900b95d2f2167fdd909ff778679c5c8d147a6d5c2e17a4a68fa1efff",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1wF31P9L5awrEno05yK4f6rV2UqyqgjKS",
+          "name": "IMG_5285.JPG",
+          "original_printed_page": "690",
+          "content_sha256": "226156ee1ff6654707106bf19a03a46adb2b136cab4b9e8e8d4e29ba5aa8c0af",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1VVZl-f_o79Fv20axub4brkwCpZv-ob8y",
+          "name": "IMG_5286.JPG",
+          "original_printed_page": "691",
+          "content_sha256": "e1382c7978b8686c8f6328ee39153b7579b2841c2c14e35cd4608a6b09e2e126",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+          "name": "IMG_5287.JPG",
+          "original_printed_page": "692",
+          "content_sha256": "385f5b0f917914922ea298ed3cfc3ba644ac6d800956c6f5fbcac43e32ae90c5",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn",
+          "name": "IMG_5288.JPG",
+          "original_printed_page": "693",
+          "content_sha256": "55101afd22cc5cdbfbcd19801411ab914733d9172341da3fa083c58857ae97b5",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1lonpYdesLX58OaH_2yO__2usXCuxt0s7",
+          "name": "IMG_5289.JPG",
+          "original_printed_page": "694",
+          "content_sha256": "77605ec5c5195c5b29641b7d069455a30b2ad18b5312b741834b25feda25e294",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1yG9acGSXYBmj77vtHoZ-tt8XrLuxfJpe",
+          "name": "IMG_5290.JPG",
+          "original_printed_page": "695",
+          "content_sha256": "858635b8ea554a7a23d2315f229019d44604ae7056dc091a5d42a9945500acf9",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "16e2PcvHRAXqiPFrMffV5-XQMH5XpEfWt",
+          "name": "IMG_5291.JPG",
+          "original_printed_page": "696",
+          "content_sha256": "d5bbbb91ad52990bb166c70c3a6caa0391fa9c62f8039c35b7962e0963286b47",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+          "name": "IMG_5453.JPG",
+          "original_printed_page": "770",
+          "content_sha256": "3f067aa598cc91d5d7344bc74ea18214c5f15d724646aab8f7504723ccdb1a7a",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -2189,10 +2301,13 @@
       "original_atomic_assertion_ids": [
         "chiron-original-degree",
         "chiron-original-aspect-conflict",
-        "chiron687-chart-geometry"
+        "chiron687-chart-geometry",
+        "chiron685-jupiter-path-conflict",
+        "chiron693-crossing-date-scope"
       ],
       "original_line_finding_ids": [
-        "chiron-saturn-aspect"
+        "chiron-saturn-aspect",
+        "chiron685-orbit-wording"
       ]
     },
     {
@@ -3270,6 +3385,20 @@
           "name": "IMG_5255.JPG",
           "original_printed_page": "660",
           "content_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+          "name": "IMG_5274.JPG",
+          "original_printed_page": "679",
+          "content_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+          "name": "IMG_5276.JPG",
+          "original_printed_page": "681",
+          "content_sha256": "678c0a5073fe2e9d580931b63956ad1ab61b1b24dc4bfcd1b146229c24b54d5a",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
@@ -6876,6 +7005,13 @@
           "original_printed_page": "660",
           "content_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh",
+          "name": "IMG_5462.JPG",
+          "original_printed_page": "779",
+          "content_sha256": "d094358b1eeeff97adb67a0007340d3a4173ca25dab92eac9ed8dc64542a4a1f",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -6894,13 +7030,15 @@
         "ecosystem-within-between-scope",
         "solar-ten-lunar-three-scope",
         "resolution-planet2-context",
-        "venus373-five-degree-ooi"
+        "venus373-five-degree-ooi",
+        "sedna779-alternate-label"
       ],
       "original_line_finding_ids": [
         "minor-aspect-ooi",
         "handoff-equality-and-phase",
         "lunar-bandwidth-width",
-        "microaspect-scope-and-boundary"
+        "microaspect-scope-and-boundary",
+        "sedna758-779-label-context"
       ]
     },
     {
@@ -7323,6 +7461,27 @@
           "name": "IMG_5246.JPG",
           "original_printed_page": "651",
           "content_sha256": "dc0ffe846143b34b382f55de07a118f6258f852927889ba2012d250d441e3f16",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1Trs9xFsIQrTbU4D4XxP9jRHqHgZnzYDX",
+          "name": "IMG_5295.JPG",
+          "original_printed_page": "700",
+          "content_sha256": "73fe5dddda8bf39fe0504d5ee07e0152ec9a6a8c0965e7ede1f5a00baf09473e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1UBA6TxwrRzNeKcZ_CfKHyrpjykLbTXSZ",
+          "name": "IMG_5297.JPG",
+          "original_printed_page": "702",
+          "content_sha256": "562efe6fa8ed34ee1610e8c13fd016ac9e03bfe3bc060e6d320884d6891d0b5e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1hiiiPkOpWfTZQijF2JNwRJW2YGuDd4oy",
+          "name": "IMG_5301.JPG",
+          "original_printed_page": "706",
+          "content_sha256": "1d7e3f0c31d00b16a1b6258dfa16093926f90dcda1f41297e25bf12d86aa24fb",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
@@ -8355,6 +8514,27 @@
           "name": "IMG_5260.JPG",
           "original_printed_page": "665",
           "content_sha256": "079cbf665567ad691fcf93dfa8ccc24a6b9c99c10cb3ceebe40a1a9a3d4d238f",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3",
+          "name": "IMG_5261.JPG",
+          "original_printed_page": "666",
+          "content_sha256": "943dac4136607af2cbd0f3ed910823133530f05724307bff949e666cbd8c40ed",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+          "name": "IMG_5262.JPG",
+          "original_printed_page": "667",
+          "content_sha256": "cb9377b7c03b90bebb10e59f0575b3f27b493bc4d61ff6b62560ea9b1da4f8c2",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+          "name": "IMG_5263.JPG",
+          "original_printed_page": "668",
+          "content_sha256": "deacb158c0ffb7d8bc5f4845cd2d465bb99cb53bddb19ed432b7c3fcd6163bd0",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
@@ -14250,6 +14430,41 @@
           "original_printed_page": "665",
           "content_sha256": "079cbf665567ad691fcf93dfa8ccc24a6b9c99c10cb3ceebe40a1a9a3d4d238f",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3",
+          "name": "IMG_5261.JPG",
+          "original_printed_page": "666",
+          "content_sha256": "943dac4136607af2cbd0f3ed910823133530f05724307bff949e666cbd8c40ed",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+          "name": "IMG_5262.JPG",
+          "original_printed_page": "667",
+          "content_sha256": "cb9377b7c03b90bebb10e59f0575b3f27b493bc4d61ff6b62560ea9b1da4f8c2",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+          "name": "IMG_5263.JPG",
+          "original_printed_page": "668",
+          "content_sha256": "deacb158c0ffb7d8bc5f4845cd2d465bb99cb53bddb19ed432b7c3fcd6163bd0",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1BL2arS32DsGFqTdp82yufuyrBRA-U2--",
+          "name": "IMG_5467.JPG",
+          "original_printed_page": "785",
+          "content_sha256": "0988c7db546197a5b917e427f648484e6d166cfa1b2de431d31c8432d22f3e2e",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1PEkEOfbPH8MyKPnNcOBFuWSJvlsPiSrp",
+          "name": "IMG_5468.JPG",
+          "original_printed_page": "786",
+          "content_sha256": "0faedd03c38a807bc3ca4f24c7520e41f9acea25660884024ea1aef4675bf5e6",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -14275,7 +14490,8 @@
         "venus373-five-degree-ooi",
         "synodic598-locale-versus-sight",
         "mc628-distinct-from-zenith",
-        "anchors636-horizon-versus-east"
+        "anchors636-horizon-versus-east",
+        "relocation786-no-best-line"
       ],
       "original_line_finding_ids": [
         "minor-aspect-ooi",
@@ -15466,6 +15682,27 @@
           "original_printed_page": "660",
           "content_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+          "name": "IMG_5262.JPG",
+          "original_printed_page": "667",
+          "content_sha256": "cb9377b7c03b90bebb10e59f0575b3f27b493bc4d61ff6b62560ea9b1da4f8c2",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+          "name": "IMG_5274.JPG",
+          "original_printed_page": "679",
+          "content_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+          "name": "IMG_5276.JPG",
+          "original_printed_page": "681",
+          "content_sha256": "678c0a5073fe2e9d580931b63956ad1ab61b1b24dc4bfcd1b146229c24b54d5a",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -15733,6 +15970,27 @@
           "original_printed_page": "608",
           "content_sha256": "fc739a7a7f2478b42614149d7707468b6daa495f09947b8ef3c1c3917f2f13f3",
           "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Trs9xFsIQrTbU4D4XxP9jRHqHgZnzYDX",
+          "name": "IMG_5295.JPG",
+          "original_printed_page": "700",
+          "content_sha256": "73fe5dddda8bf39fe0504d5ee07e0152ec9a6a8c0965e7ede1f5a00baf09473e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1UBA6TxwrRzNeKcZ_CfKHyrpjykLbTXSZ",
+          "name": "IMG_5297.JPG",
+          "original_printed_page": "702",
+          "content_sha256": "562efe6fa8ed34ee1610e8c13fd016ac9e03bfe3bc060e6d320884d6891d0b5e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1hiiiPkOpWfTZQijF2JNwRJW2YGuDd4oy",
+          "name": "IMG_5301.JPG",
+          "original_printed_page": "706",
+          "content_sha256": "1d7e3f0c31d00b16a1b6258dfa16093926f90dcda1f41297e25bf12d86aa24fb",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -17021,6 +17279,27 @@
           "original_printed_page": "660",
           "content_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
           "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1PV2vU44Ayv7AMP4qdhvzF2wqcbBt05Xr",
+          "name": "IMG_5272.JPG",
+          "original_printed_page": "677",
+          "content_sha256": "840eb7bc398642b0dd3cf872d3b16f4e3191aef25eaedbb12da1be5beb72f0e4",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+          "name": "IMG_5274.JPG",
+          "original_printed_page": "679",
+          "content_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+          "name": "IMG_5276.JPG",
+          "original_printed_page": "681",
+          "content_sha256": "678c0a5073fe2e9d580931b63956ad1ab61b1b24dc4bfcd1b146229c24b54d5a",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
         }
       ],
       "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
@@ -17080,10 +17359,979 @@
         "notation524-528-transit",
         "eclipse596-lunar-sun-moon-reference"
       ]
+    },
+    {
+      "concept": "parts-mechanics",
+      "section": "parts-profile",
+      "use": "AUDIT_ONLY_NOT_PERSONAL_ADVICE",
+      "personal_answer_generated": false,
+      "pdf_witness_pages": [
+        258,
+        259,
+        280,
+        283,
+        295,
+        297,
+        319,
+        321,
+        322,
+        324,
+        342,
+        343,
+        344,
+        345,
+        457,
+        522,
+        523,
+        529,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        554,
+        557,
+        558,
+        559
+      ],
+      "original_scans": [
+        {
+          "file_id": "1KewFiwgRWZQMOqqv1Y-6bxR2HT59I473",
+          "name": "IMG_4658.jpg",
+          "original_printed_page": "237",
+          "content_sha256": "116946f30e15b6fe9c5d861af029809947e0436a98558c174846cb8d95651e03",
+          "reconciliation_status": "PARTIAL_TEXT"
+        },
+        {
+          "file_id": "1gy-LonrFjRd98A-he2SgLq-LejlksR4l",
+          "name": "IMG_4659.jpg",
+          "original_printed_page": "238",
+          "content_sha256": "f36b2c59a86a09b449e43225c014d47b245389b2466e90d3cec2a1a8e1f01e93",
+          "reconciliation_status": "OMITTED_TEXT"
+        },
+        {
+          "file_id": "1DEJQlVjrQk0nJP8mT_WarlSIKeIKa9_I",
+          "name": "IMG_4660.jpg",
+          "original_printed_page": "239",
+          "content_sha256": "4568320c72258187cf897aed046169b6ca00635e8faf99ebb08c68af74bcb80f",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+          "name": "IMG_4661.jpg",
+          "original_printed_page": "240",
+          "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+          "reconciliation_status": "OMITTED_TEXT_AND_DIAGRAM"
+        },
+        {
+          "file_id": "1nek0n2UHTNbFYYoPJ63vkBf80VcHP1no",
+          "name": "IMG_4662.jpg",
+          "original_printed_page": "241",
+          "content_sha256": "06b261ba3c2c01ca7425dcc54b80880fa8dce3f06a5e6367bba58d05218de6e6",
+          "reconciliation_status": "PARTIAL_TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "1AGuRE-D0MSkImSdyzctOsSKut6OxZT12",
+          "name": "IMG_4663.jpg",
+          "original_printed_page": "242",
+          "content_sha256": "8538def45b28e9f702e12eeb4094f74f07e6b047d1e751e9fb5e1225793910e2",
+          "reconciliation_status": "OMITTED_TEXT_AND_DIAGRAM"
+        },
+        {
+          "file_id": "1w1Im29SpHE3mDAUInaMChTg8YlrhdMJA",
+          "name": "IMG_4664.jpg",
+          "original_printed_page": "243",
+          "content_sha256": "5875b2391fa9c0e9a14a3b8c84dcf700216398a2bd78a839db1944aa6d830ab5",
+          "reconciliation_status": "PARTIAL_TEXT"
+        },
+        {
+          "file_id": "1p8EJRt9Fqkz_8sNpTzBti9jTxMt0-oWw",
+          "name": "IMG_4665.jpg",
+          "original_printed_page": "244",
+          "content_sha256": "cba86e90537ba2b95ba5040834be88118b8de3e4f6314ff455ee476d0e996952",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "13TUQXGBSIsXiO006Tk5B-ieRo6VxjPfB",
+          "name": "IMG_4666.jpg",
+          "original_printed_page": "245",
+          "content_sha256": "47f73e2674e7b5fe0b04bc795656de0d3bda0a4a0ece1c32fc4060606c3af642",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "1yvqdstZEW0yvqdRTTP32mBDyxUxB62Ej",
+          "name": "IMG_4667.jpg",
+          "original_printed_page": "246",
+          "content_sha256": "003df58b1a2412358a4456953db55e823047df99f4e785880613e91b9d09404d",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "1fN8wLBpRlXQb3dP-nJ8mPibjwL55J9bG",
+          "name": "IMG_4799.jpg",
+          "original_printed_page": "363",
+          "content_sha256": "b1af1abb7eda8a69ca11dc103fc2ec7404a2c8d2e452d07e6bce28645284a5cd",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "194UsasNazGYgH43LTBj2-ETxTD2EOUDZ",
+          "name": "IMG_4800.jpg",
+          "original_printed_page": "364",
+          "content_sha256": "a6c154faad0d396c855f6adef8d2dfbde25e9966ce5f51e28a89b1e187d73c19",
+          "reconciliation_status": "TEXT_WITH_LOST_DIAGRAM"
+        },
+        {
+          "file_id": "1suk1Ca369m-BaeDOnRY_IAoxBCiYK99f",
+          "name": "IMG_4814.jpg",
+          "original_printed_page": "378",
+          "content_sha256": "ab8a73d47d97bf1870bbe32c6483ccefe90e3fd17ca1489ecac0550f2984f1c1",
+          "reconciliation_status": "TRANSCRIPTION_ERROR_AND_SOURCE_CONFLICT"
+        },
+        {
+          "file_id": "1b437ziWz58LZKtw_t1jg56Dbu112Ul-O",
+          "name": "IMG_4813.jpg",
+          "original_printed_page": "377",
+          "content_sha256": "5a777fbc65f6f2fa57eb40f2a3f3779c3a876adda04caffd930442e4df7a9da4",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1WtNw12O8wX4vHanMBZ-Tf5Sk9QKVD5Y1",
+          "name": "IMG_4957.jpg",
+          "original_printed_page": "496",
+          "content_sha256": "f5ed40cf09c83db5d0ef9e74a3e42d924b9ac7ff72140904a694672de8675e95",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1ZPuKl6g7Bb0WhtImAlnNpsLl9k-W34VX",
+          "name": "IMG_4962.jpg",
+          "original_printed_page": "501",
+          "content_sha256": "885b00169b1dc63e038a7d32771c765c9ab25c6caee160a8806b0d5fe02c798f",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1FoQUGkZDtce3IewW89JwH6UFUjf1Esh9",
+          "name": "IMG_4963.jpg",
+          "original_printed_page": "502",
+          "content_sha256": "5e4e2448823f4aae869bba51f773d3e8ce97b3f99edeae03ba1fed99dd295759",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1G66MclE-HywwkLQYhFsZUYy79hwfu3M1",
+          "name": "IMG_4964.jpg",
+          "original_printed_page": "503",
+          "content_sha256": "e86a29c85221bc69c80d342481c383d1db2e99426bede175e909e3975466da7e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "10GRylqxqQZ_vqCyb5CsrS2uZI3vBM7Y2",
+          "name": "IMG_5092.JPG",
+          "original_printed_page": "625",
+          "content_sha256": "24d57326c89462a0da6e727229c06b790dd4b9f1facc6ed6ec6b01aa3bbd69b2",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1MISKVk53TDyxxF4Bql2ul0PUhlULWSXX",
+          "name": "IMG_4819.jpg",
+          "original_printed_page": "383",
+          "content_sha256": "181ff73714504a6fc5fe6c7e6d8a7fec7866fab248873fc9f5dce227e59c9c8a",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "19euFPSm7zi-5jb441jE2ISb7vzBDWBp3",
+          "name": "IMG_4778.jpg",
+          "original_printed_page": "343",
+          "content_sha256": "adefc5da087ca79460d3342d6fa656ca6f5b950232b26accf14e4ee74d03ae22",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Q-oe9BD143xBVLbDRrDKCdH9mNffYQNi",
+          "name": "IMG_4779.jpg",
+          "original_printed_page": "344",
+          "content_sha256": "97c8c82718d7edbea412d1698b22aa4db17bf1f782722fa583fc5139a99961c1",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1c2Lh69p837cgvtxVBcjGoiChf6qfp9yf",
+          "name": "IMG_4780.jpg",
+          "original_printed_page": "345",
+          "content_sha256": "69945bf141aab97fd576b5b32ccd19bc9120261845918715a1f7414131e5bec4",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1TmuXCUToVdUU4raVpnHqTbEbVGFsUNa0",
+          "name": "IMG_4781.jpg",
+          "original_printed_page": "346",
+          "content_sha256": "af93f6d80f13276c7c940ead0b439f8ad0661305541d895f93c52a474456bed8",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1RFbHKcuDz9dJeI1p5WfzgJ09TIwqg3Il",
+          "name": "IMG_4770.jpg",
+          "original_printed_page": "335",
+          "content_sha256": "b44b2eb3b3f7ae108ec29432db4d363861d231807a38a2c97c5ec785f050a66a",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1tZrZWbCs-fFs0RQt05_m9zZh_Agpu0aI",
+          "name": "IMG_4763.jpg",
+          "original_printed_page": "329",
+          "content_sha256": "7d7d251b0f65ce17476a487212bb0f029939fe47b6bcc22e9f6c7e921cb7df85",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "151YG3g9C6M_gCVpomp0fpCL--iSaLXw_",
+          "name": "IMG_4764.jpg",
+          "original_printed_page": "330",
+          "content_sha256": "f8e2b35a1048d052b235b13adb0e08ef75760dacc7ff6b963c77e9bc4a0adee1",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "11kgNc5tkp1RxeqImjk4v7oKr9i3E4WNJ",
+          "name": "IMG_4766.jpg",
+          "original_printed_page": "332",
+          "content_sha256": "ea2f3929694f6c52b6ad287d021781784cfe1d51b1c0322ba19c28a29b0d58bb",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1UN_eAxp4-Z3ufT8G66s6QH0jf-6qnS3B",
+          "name": "IMG_4768.jpg",
+          "original_printed_page": "333",
+          "content_sha256": "8d958f1081083797ce5d00a4d9997cf4943c4a071d862c3d8bdc3e6e93d8305a",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1t3aTg_JSa5UNnOUB6oX6AdzCQlF-uDHJ",
+          "name": "IMG_4769.jpg",
+          "original_printed_page": "334",
+          "content_sha256": "82935ce9f1068dd5484ce96243ade4812e8d1963f2b29d7d41efa20e83dd8d6c",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "10FbU_mlRm9NNdjambks0h4g5Ot2GjlPy",
+          "name": "IMG_4758.jpg",
+          "original_printed_page": "324",
+          "content_sha256": "7be66e2f0692dce87f9008a823e531525a39b98158ff6c956e446393fbd15284",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1LxgzOHwQVlOZjM2oPrBnNWxBzszWXtKu",
+          "name": "IMG_4759.jpg",
+          "original_printed_page": "325",
+          "content_sha256": "e63254494673335b0ac1ed26141c63a4ac8eda99d7b251b8d7c22129d3e16d94",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1fUamomSgNyFK1OUCg0N7tjyeqkC736eq",
+          "name": "IMG_4760.jpg",
+          "original_printed_page": "326",
+          "content_sha256": "51c3046f4e8f23776869aad342584cca6322927d638488da13b84edfea7c58cf",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1DJYlST1HmHQm66PHxI-YYxithXKzUr_c",
+          "name": "IMG_4761.jpg",
+          "original_printed_page": "327",
+          "content_sha256": "21a6f8aebcdf9412ed386a9c91b7eaeb109e0472234f5dbf8e3dc4f758070947",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "115KNB-fn2Fscix48_It1-vJ1fWA0qlrA",
+          "name": "IMG_4762.jpg",
+          "original_printed_page": "328",
+          "content_sha256": "8e63022ce04cb644e62cc0e80840efce05ffcbe3506f8afcc9a376d52590dcea",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1juwiPpNsBTnqedal-wyeWWBelwKoqVbQ",
+          "name": "IMG_4753.jpg",
+          "original_printed_page": "319",
+          "content_sha256": "66dcfc70fb6e0bbaa4eb9e4f84d2a6c222da4301cca3755704541e35832b67b7",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1nL3DIVwoaTml4iuUXAGmppI4bcPHsuz5",
+          "name": "IMG_4755.jpg",
+          "original_printed_page": "321",
+          "content_sha256": "df11724264bf8facd29958b92e5577eacf38c385a79a1c9c285753fb11ba6abd",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1kVYI7JhxJXSk0FkW6WXER3NRwVOe7jD9",
+          "name": "IMG_4756.jpg",
+          "original_printed_page": "322",
+          "content_sha256": "c07229b83863602934949ed19e1ce1f5348af50ae736621c1ef8ad88c36dcc10",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1iHkvK3W0Wp_dLpTZuxmrCCNjiaGBVF7A",
+          "name": "IMG_4744.jpg",
+          "original_printed_page": "312",
+          "content_sha256": "8bdf41011fcfeabe89085e3d63c343534762a87592b66ff89303d2b015030676",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1qN5KcY-bL1g4qwV9Q7FtqLOaiSmOvCHN",
+          "name": "IMG_4738.jpg",
+          "original_printed_page": "306",
+          "content_sha256": "06ff1b0a8e38a55698d7e436bfdcde87da9a4d556e1fe8af72c16f9389802955",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "19uGD6TvJeRNAOdhfJZj8g5nEboXaXYXX",
+          "name": "IMG_4742.jpg",
+          "original_printed_page": "310",
+          "content_sha256": "273891983240a2b0d5e35f63cfe7eb35cad4cc9e619c62770f33c36192979581",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "17jnykp9wPWb-YGeVWF0J-D1X7ZbBX9TU",
+          "name": "IMG_4743.jpg",
+          "original_printed_page": "311",
+          "content_sha256": "a072e7f6bd37924e7513bf8b77c19a2687c71f7f375f43d50bb6f4ae783f62e1",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1lPFLnXnw2q2iMBGi2wBLov9-Rb6jl6o5",
+          "name": "IMG_4682.jpg",
+          "original_printed_page": "257",
+          "content_sha256": "662f92f50e99173ebaa0c00f0cfe7ad8ef03cd546c91017aad1cddb4fdfbfd7d",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1OnrnTowzpKGhr2oqp6ak3FsInk57nvvU",
+          "name": "IMG_4705.jpg",
+          "original_printed_page": "279",
+          "content_sha256": "8e0e90052f61abea8056496dcbe5a3213fdd202d7c4c290ca0f88ccc35683c9f",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1awRKJUlLtA1VmCOhg7cMINzBHhBoN4lQ",
+          "name": "IMG_4734.jpg",
+          "original_printed_page": "302",
+          "content_sha256": "adbd067c17be4d18a4474e81e64f1f52fe8091e4362640d2ba32ff9618b86a39",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1fN-yWdtFcGC7pNnJF2XS1Et3arjAUhfX",
+          "name": "IMG_4735.jpg",
+          "original_printed_page": "303",
+          "content_sha256": "b7b215baf3ad76cde777008ecc05562a49cf0b6e73d8d4ffa2f6baa824c16030",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1bVHZm0ajVedc2C71hwXbVT7t9odvRho4",
+          "name": "IMG_4736.jpg",
+          "original_printed_page": "304",
+          "content_sha256": "a9b81eb489b6fedacedbc48c6449ccdedde6389dcafbb3962fdd16488db4cb9b",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1bisGgBhIr6GYb50faoIcp4RzcvJbAGSM",
+          "name": "IMG_4737.jpg",
+          "original_printed_page": "305",
+          "content_sha256": "84f10dd081dfed5c3a6337719f9250bbd70f9d6345495cc183d2e2d61f8e86ac",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "12f5T7AGWyQi2YLUoSI47Go6xX8PpJztf",
+          "name": "IMG_5046.JPG",
+          "original_printed_page": "581",
+          "content_sha256": "304649e7aa0b1a97cb19dafce561abe1147b7f672926e0af652891d28a4578ae",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1C_ahHjK8kJbg5naNMACvejawkeZAGNwO",
+          "name": "IMG_5052.JPG",
+          "original_printed_page": "587",
+          "content_sha256": "3815e4b398742dcaed83f8040ae5fb220ef75606773b92e46812e7ae3782339c",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1BDoPT9A-xuDtKOOPVkF3i5Uvz1JsftVK",
+          "name": "IMG_5240.JPG",
+          "original_printed_page": "645",
+          "content_sha256": "59518a08ff84d114d8b8a2539689143e78695aea9ef13201788f01fef5963163",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1GQ1ahG-XBSGBzRA4Fi0lM94PI-NvhjsS",
+          "name": "IMG_5248.JPG",
+          "original_printed_page": "653",
+          "content_sha256": "e44b44ca7b17a42780233ab7024a994f7a72a68aecb758a260f797074be1dc38",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1VvyU4vrSDBCgtMX-Ux8XtJbjjrMILRnB",
+          "name": "IMG_5505.JPG",
+          "original_printed_page": "822",
+          "content_sha256": "ab1e0ea7cc7a0f64e2d06cf198203943f1a83da625456a59764e1540c148dce8",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1RIEIaz2raHLnu74SrZOqe3GZngT3AQz-",
+          "name": "IMG_5663.JPG",
+          "original_printed_page": "k",
+          "content_sha256": "a432f30d366ed3dd8295681cc0042d4abbb938496ae371016cb1e548c7d8494a",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1E3ianurJQg6J8xWcX4cIZFKQmFhkEsLI",
+          "name": "IMG_5665.JPG",
+          "original_printed_page": "m",
+          "content_sha256": "7ff7b193491e136f17c3c83f91021637bb1280fdf472ac6b9dc517d76079739d",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "19o8lqMEyMD6gmOhcrfOMs2Muu4RClUPw",
+          "name": "IMG_4702.jpg",
+          "original_printed_page": "UNKNOWN_CHAPTER_OPENER_NO_NUMERIC_HEADER",
+          "content_sha256": "be5d18b11bc02f5a8def1f7fa90bfad1b9c9e696874c1ae64ad07840d485ad80",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1g_tjKL2rOS8LsZwbkgi8KzMHq_hIiA9T",
+          "name": "IMG_4808.jpg",
+          "original_printed_page": "372",
+          "content_sha256": "40351cc33cc8e5991edde25dd122d84a86ee90457728ddf221d628aacb7fc25c",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1x8JOCi2XHe6DT7emzYUEpJ31anlOxw9z",
+          "name": "IMG_4796.jpg",
+          "original_printed_page": "360",
+          "content_sha256": "fb219e9ba423ceb46b9bfbdedb44ce111a80c38244fa36dc2eaaeb3cd2882516",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1WgOlDhIfbFdvcVpVJHDXN3uM2VKe7Br5",
+          "name": "IMG_4797.jpg",
+          "original_printed_page": "361",
+          "content_sha256": "09848a7e79388381aa9f92e953b661f1d9c9f0f590c74df29994969b2abeffdf",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Asx2UsRGeRK77ekolMQjXn3q17Pf8NT3",
+          "name": "IMG_4801.jpg",
+          "original_printed_page": "365",
+          "content_sha256": "1ac9ff431487558559cd5fbe0411aa8a5384f9eb1a7eacf8dedeee8659acb7ef",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1GIgqSsn4tI7AErNhbjX5o-jBIu_OTPD_",
+          "name": "IMG_4806.jpg",
+          "original_printed_page": "370",
+          "content_sha256": "7292310b29691ded65652d33a0665fbda733b9b8f33084c58445c7e3d0a0faa4",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1125F4HyO2boa2ckAe7E8pqbXedhtLQ5h",
+          "name": "IMG_4807.jpg",
+          "original_printed_page": "371",
+          "content_sha256": "87cd6e7cc6c7f300960adcd7c57491fc0129cfd98447d80311f0390cffd8a850",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+          "name": "IMG_4809.jpg",
+          "original_printed_page": "373",
+          "content_sha256": "76724ee305064f38fcb92cd0dbd9861ccb5a217e4754687f3a2b6f06e6588261",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "13aeiC6sVb2wYEFqMUH7CBjm7OejUi7ev",
+          "name": "IMG_4810.jpg",
+          "original_printed_page": "374",
+          "content_sha256": "b7075e70d7437a3dbd2dd63105e9c78eed460c33587addc912e72d23cb913578",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1b-B-nyjU5Rb4HgVr6Y4qcMyVv-eZwzv5",
+          "name": "IMG_4811.jpg",
+          "original_printed_page": "375",
+          "content_sha256": "417f271a5a4e88951cde57a38bae44560f85b11ae8fe8a3531fa61e38169004f",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1VG9wtI1CXa1aCF0IcOhfAySvGru5YSFS",
+          "name": "IMG_4812.jpg",
+          "original_printed_page": "376",
+          "content_sha256": "34786b0823f6b753c56d5e4048bf0a34b550ad92231b2b83843f8f993c7bfa39",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1grwh7aTxtr29rROghTfn1uwFBEPZg_iL",
+          "name": "IMG_4815.jpg",
+          "original_printed_page": "379",
+          "content_sha256": "982c35f5fc60e24f90eca123016c295046fe067593e86097c1573c3d870e2950",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1QVGgyjU0pDxFQEdSU1orV58vS_KLNJFq",
+          "name": "IMG_4816.jpg",
+          "original_printed_page": "380",
+          "content_sha256": "67f06a0501f2f91fee3e3b533378165900d02aa2007ab4d3fb563d8d7413eda5",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1PBiEFavFui7HobdJzQawd6ACuA5UAGYM",
+          "name": "IMG_4817.jpg",
+          "original_printed_page": "381",
+          "content_sha256": "7566165365d9c274716498c7d30a6fde2e9c65c30d3397c433875ea9e521cc04",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1-ltcovUPF0ySDFsY5nUI04_IwmFIMVRv",
+          "name": "IMG_4818.jpg",
+          "original_printed_page": "382",
+          "content_sha256": "5a1eb8fc307a470630d8e9cd4563173c1091c1a254f34936a7cf191462870fbb",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1SROy38SQTRwC22FMlZRl8brqniPZnK_X",
+          "name": "IMG_4820.jpg",
+          "original_printed_page": "384",
+          "content_sha256": "aad3e5313d3f8cf58c97f0bc180735fb018adb4b888fc83497d217bb7812f540",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "198_2HhMBTKwYpBRdFJXkdUIORdx_c7rw",
+          "name": "IMG_4823.jpg",
+          "original_printed_page": "387",
+          "content_sha256": "e6523d939ab6c386bac55f81905612e3c59a11dfb879068decbfe323515ae5ec",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1agBTuZ_kOOzz09i8jkBEO95iQ2PJX7yZ",
+          "name": "IMG_4824.jpg",
+          "original_printed_page": "388",
+          "content_sha256": "580ec9cfc2b0744289a7093a2eb4ad073c5ba63fa1e2bbd1e870f0c215decd85",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv",
+          "name": "IMG_4826.jpg",
+          "original_printed_page": "390",
+          "content_sha256": "6531021a1dae8df2d02873973be3db312520b68e7f208189902dd4a6cb294493",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1VfEBctOPkoz6_gEeGeFDydyuxfj8fuvF",
+          "name": "IMG_4829.jpg",
+          "original_printed_page": "392",
+          "content_sha256": "7aee4612fa60afcd41df2ac6d238971f461d8085014876a0ca3cd2cd2f101718",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1KZzrsggotg5-7xysau7qz__N_DucoXoA",
+          "name": "IMG_4832.jpg",
+          "original_printed_page": "395",
+          "content_sha256": "ecd05b60a169b14261c5b298200d4bb9b8ed7e3b236cd6886ec455a351dc5b05",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1ldsOvNR0uOPhh7wanXsXSOC4nP5ZCeLz",
+          "name": "IMG_4835.jpg",
+          "original_printed_page": "398",
+          "content_sha256": "ffcd7fac0022be114a7ce3cd6b85077dbad05e6b2a8c3e01b1982033374842b1",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1WSpex3o8Cl4Hdkxnk9ccv-joTuA8DbP9",
+          "name": "IMG_4840.jpg",
+          "original_printed_page": "403",
+          "content_sha256": "b806e6be5e5a78ad00f013eebfdd9ba63a1566d3d157e1882436bb1c3a8760c4",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Xz4cyIuXMD2adrgvp0chmvJljg52xAmG",
+          "name": "IMG_4841.jpg",
+          "original_printed_page": "404",
+          "content_sha256": "d929c9f1130d5dfccae01bb08d6d63744ed2de2ae719dd2cebc3795a02a039ca",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1lZbTD1MWSP4G5zYgDLs6YwKgBv3Css9U",
+          "name": "IMG_4842.jpg",
+          "original_printed_page": "405",
+          "content_sha256": "3bf13a78ade4f0a40a4e92de4ad2aa263d2d4e2d05060252242240705feb371f",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Z5J_uh8p-8V8bOxzDcqJaqi6ypURIETc",
+          "name": "IMG_4844.jpg",
+          "original_printed_page": "407",
+          "content_sha256": "c6c3fe1c2d51b2741319a4ac532b4d379e85b1323be9d1529736e8bc1c6902cf",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1QVkYJGD2mTz9bnYFKJy1jOZb-BMaqHCO",
+          "name": "IMG_4846.jpg",
+          "original_printed_page": "409",
+          "content_sha256": "bd467b545739a03529d2624f1d06fb10bff35346ab0010d033ce43a4cfd2144e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "19YSJRD4lU4lg62WswQvV_6bsLJMoEd-r",
+          "name": "IMG_4847.jpg",
+          "original_printed_page": "410",
+          "content_sha256": "74db9a4c52835ea2515c48892174684cde0bff984fcdbf1af1a58bcf4b2a03d5",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Eh4cH1TPu9dcIZpi44veIEvp4vlwYMVB",
+          "name": "IMG_4868.jpg",
+          "original_printed_page": "434",
+          "content_sha256": "72b5c6156dbd5b9f9694bf1b1d9753deeab7cce8390a6658c74e61a34b3c4b5b",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1zhRUc7xgxbJO16biJf0XO7YrdSdn5Bjh",
+          "name": "IMG_4882.jpg",
+          "original_printed_page": "448",
+          "content_sha256": "650efdba7d5e11018add06f22bb869ab1f544cd561dcf49c4b325904f749ecfb",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1DO1_JCFNL6Sw5-zlpk9K9uehzbdut_3C",
+          "name": "IMG_4883.jpg",
+          "original_printed_page": "449",
+          "content_sha256": "52675eb24e399d28dcf78f2d3b50c2a034f759ac73a3deef4ae4c72b63590760",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1r0gtuYHA-xZBo1dPCCh8R_rQ1VOadHya",
+          "name": "IMG_4891.jpg",
+          "original_printed_page": "457",
+          "content_sha256": "1f1dcd55afeae855fcb22a94634e7c1bb6518044f9f7e1ca2ff3ea68e26e3de6",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "12RQWvwNYQ4LSzno1EIkzsIzXMNtI9MrF",
+          "name": "IMG_4920.jpg",
+          "original_printed_page": "467",
+          "content_sha256": "99ca4887964e872688f4fc40d1291c8d6425b7440a443c8b83e4ae89b002c1f8",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Z24wdZKuAEZmDuepc2wfWn4Vc8hcyPVH",
+          "name": "IMG_4924.jpg",
+          "original_printed_page": "470",
+          "content_sha256": "ecf5163b6a2af838a6613fa9851d20d4302f0a4a281c3f68c3ea0f142820e9ea",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1IMHqD06ErthGTz81WV0b0h-WABd65bZL",
+          "name": "IMG_4926.jpg",
+          "original_printed_page": "472",
+          "content_sha256": "abcd1c426317d44122fa7f9ad1c5f719a821f25bf0dd674db42f642750817e26",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "16X_vBAGPCFUDewnpWY2k9w54ffO9x_NA",
+          "name": "IMG_4990.JPG",
+          "original_printed_page": "529",
+          "content_sha256": "0855304a279ca16bcf95f13450bc5b4331cdde66def21277164cf3768159aba0",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1dOX5IAGR3WbBd0TkbYXeIqmUNti5-zdU",
+          "name": "IMG_4991.jpg",
+          "original_printed_page": "530",
+          "content_sha256": "0ef4c1c6e72ff6931cfe3099f1943daa08dc9f622a4589f2a6e08db7954c6ba5",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1Kfo6Aih_Qfk9-lZ9pseGWjJ10kX3UZtQ",
+          "name": "IMG_4992.jpg",
+          "original_printed_page": "531",
+          "content_sha256": "9b59b667efa4fe89a250af248885aa766ada7e2654d84dde0deb35c797de47ff",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "10oOlJj-RZ0k9zivCB8w3Y6Aqhrs3Ei9h",
+          "name": "IMG_4995.JPG",
+          "original_printed_page": "533",
+          "content_sha256": "c1b518109fdf13c4aadb9a4419d18eebbe2198fe73cd87e45514734cc08fdf3a",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1lytT1c7OdTFMoi3ypZQf1urZ1UHw-6up",
+          "name": "IMG_5002.JPG",
+          "original_printed_page": "539",
+          "content_sha256": "0228a17da71f028d1d1261d3d8db962a80b2637848190c3ca30cda6885956660",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1lcy5hHvK_8L0PSro2oaLyNkWWhbwTdjO",
+          "name": "IMG_5004.JPG",
+          "original_printed_page": "541",
+          "content_sha256": "efbb49cb8d32a05df4a8b3f0aa0abb97f6476f27f79da6cf6e91dd4d1d92ba1e",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1eaTjc04BH2MgWDxk-K2cUIRWxfj2TLp7",
+          "name": "IMG_5005.jpg",
+          "original_printed_page": "542",
+          "content_sha256": "97824c084bc689aea44e8c3f4b30c8c18ae63f53314aa0584739aeb5377e68ff",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1hw4XAPGx99mIXV30i_xrHf-E4UJT71EK",
+          "name": "IMG_5006.JPG",
+          "original_printed_page": "543",
+          "content_sha256": "b48999a76730b42400ae9b7b7396aa342099aef9cfed41881514d42c801a0875",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1XBg2nsqCyxdcom3tjZC_3nX8_-fDxLxt",
+          "name": "IMG_5010.JPG",
+          "original_printed_page": "546",
+          "content_sha256": "dbdf73207ef3c2eb5885ac3a4cfe195e944247b543050eed216a028cf615e644",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1ny7ZEdbjBwFmn7jd1qi3DW_CUCLjYjeU",
+          "name": "IMG_5016.JPG",
+          "original_printed_page": "552",
+          "content_sha256": "707f0d725372b64c0cb5178da1bcfddb573fb593a39cbe886d2c05d1870ac694",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1hZpqwoDpdb0auuXyCf8D7CJtrp-_V9Do",
+          "name": "IMG_5017.JPG",
+          "original_printed_page": "553",
+          "content_sha256": "de810f5e9363e0d030a99ccb18a7f32e2d0217b7a19e6aae23ff10b7078bade6",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1jJXoNHG1CAoIznJxV5DBW6u5XPpDpPs4",
+          "name": "IMG_5018.jpg",
+          "original_printed_page": "554",
+          "content_sha256": "2fba54d92baf8fddea36e78035b83fccb5635f05376d65df821f474d2d3dd9ce",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "15vMIXyXQnUOSwY06Yw-2Ue3y3eg0r_kC",
+          "name": "IMG_5022.jpg",
+          "original_printed_page": "558",
+          "content_sha256": "e1c06bafe0e327e638be34399e20943c7c2470ded11117acf06b5664ad0dabc2",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1I6TtM_5kUKayniXA71LxbTy_7APPaYPd",
+          "name": "IMG_5047.JPG",
+          "original_printed_page": "582",
+          "content_sha256": "9c28e8c7298221a723ef8fd197d44d5af8210f7e904f61a4bd951fcb44693758",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1ewqorCWWDEjO0HhhhW1QlCzJRnN6oNoo",
+          "name": "IMG_5054.JPG",
+          "original_printed_page": "589",
+          "content_sha256": "30c3771ba2ae60cf3a0cb3d2855280f285e313e99962ae7e7c0b7809ae5dd1be",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "10dL974qlof4uHaDVER1Dqj57oXJrnjPP",
+          "name": "IMG_5055.JPG",
+          "original_printed_page": "590",
+          "content_sha256": "746e36f7b6099ae30a3698aeb1f2727043b2c12bc6962387e27e0cd80cc56de2",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1wjbAOgPwT105o77F3Nd9uSbA0JkRqzxS",
+          "name": "IMG_5068.JPG",
+          "original_printed_page": "603",
+          "content_sha256": "95a0eea4bd25168c402a70a55cb925b3f612a404b2474a0a1c15ec534d8ff62e",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1uNDA1GSzzeMrCnFL4-AdXNQBzMDuGnL6",
+          "name": "IMG_5075.JPG",
+          "original_printed_page": "609",
+          "content_sha256": "3b5e659e95c28428a964d780616b9915d52d96fd624a8ef8e9156372d3be956f",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1ULu5GOKAid5LF5dxCV2KuXMyK5YCguFT",
+          "name": "IMG_5103.JPG",
+          "original_printed_page": "634",
+          "content_sha256": "4547a8a41817a13a4fc08cf70cb1dcaf3a004a49f0562eb0da1f1339b90d5f53",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1A8yLQ0fd91GEsZ1ThIBrdZUe9b-SiHOi",
+          "name": "IMG_5110.jpg",
+          "original_printed_page": "640",
+          "content_sha256": "0b1c23ef49e72a89f4dd8755513cc73d3ffa88d884b82e34b90b420954657000",
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH"
+        },
+        {
+          "file_id": "1ubcIfNVLbga_v6CiUrY5xDdGWfDwUUZy",
+          "name": "IMG_5238.JPG",
+          "original_printed_page": "643",
+          "content_sha256": "d71a8ff5cad4ba3110bb3b1e0cf112a71577e8f06d86778e6956955e4e6e9f6e",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1SECByGulXaJkYkPRpkeJ28L9yCjjHSxJ",
+          "name": "IMG_5239.JPG",
+          "original_printed_page": "644",
+          "content_sha256": "7460269764aafdba6224e12fecfceb20e0fbff6380b3adae3176b29597496ee5",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1qx_En198sm2enzk_erVGlnMTUv0AzlzV",
+          "name": "IMG_5250.JPG",
+          "original_printed_page": "655",
+          "content_sha256": "db897203ef807d09d9fec5edb6c2cfaf898331a836535b98b849821ceea405d4",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xU72-izB6PLSWmitGCiN_reNdYaE_60W",
+          "name": "IMG_5255.JPG",
+          "original_printed_page": "660",
+          "content_sha256": "33493be0ab54780c6579e663b063ee59938308f71abe8906a93a1992c15265df",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+          "name": "IMG_5263.JPG",
+          "original_printed_page": "668",
+          "content_sha256": "deacb158c0ffb7d8bc5f4845cd2d465bb99cb53bddb19ed432b7c3fcd6163bd0",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1uCNgcsHHQfWrL2tqhEmoRtUeSlzwoXgY",
+          "name": "IMG_5264.JPG",
+          "original_printed_page": "669",
+          "content_sha256": "5a50c1a59c0abc870fc247e628014c28c79d3a6146f0ea34fb7c946f7d77b663",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1HQO3JnEqmS8lqpGgnNVSmt9lY4Ff6feK",
+          "name": "IMG_5265.JPG",
+          "original_printed_page": "670",
+          "content_sha256": "6068f6c42f9402618d072b4bd04a9a74896851161e758d9472afad0f10a016da",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1wFO9BzmMYbn-nGfbQTvMzzHTdnj6DFmq",
+          "name": "IMG_5266.jpg",
+          "original_printed_page": "671",
+          "content_sha256": "7af04a2c0b21a44a34e2b84f7c842deb09487859794f8793629bf491b99368e0",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1Gdok50i3ErW7OqIfdx_z9HTQWJC9AHZb",
+          "name": "IMG_5267.JPG",
+          "original_printed_page": "672",
+          "content_sha256": "8f757e8d5514491b89a65fba2496520ac1cc98f76dac504fda645a6a8562a418",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "12WOiKVHciVjaEtqLOsT6bi7ak1c4ebtl",
+          "name": "IMG_5268.JPG",
+          "original_printed_page": "673",
+          "content_sha256": "5611731bad183062138cdfea8f37228a0886e06117a6ad7249f41e03570a3d2f",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+          "name": "IMG_5269.JPG",
+          "original_printed_page": "674",
+          "content_sha256": "f1ce70f03f659f505d34b3be3d7fa54772cf2dfc2adfc88749881439cadc153d",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1V3NETrZcXBq718ZPxGZDtN9oTQj07sPj",
+          "name": "IMG_5270.jpg",
+          "original_printed_page": "675",
+          "content_sha256": "133a537bdfcdfcf80adbf753ce167a63675d4ba77562168a90b78979646feb93",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1jx3oYKVB69M2z1YTW6zO0ZYfK5rczUyM",
+          "name": "IMG_5271.JPG",
+          "original_printed_page": "676",
+          "content_sha256": "1163680134d0d11557fab3b849bbd0ab5eea18a09f0698380c58285ffa2c5e71",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1OENqN3UpPIcBefGabCZXHeGY0FRj_y0v",
+          "name": "IMG_5273.JPG",
+          "original_printed_page": "678",
+          "content_sha256": "bfe63b5abea648525694532088cc1e83fd0aa8d6cbc249ec06ecdfad48833977",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+          "name": "IMG_5274.JPG",
+          "original_printed_page": "679",
+          "content_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1bvH7jpKL_mzLy1HUOWR6VzMIoOtdYqyU",
+          "name": "IMG_5275.JPG",
+          "original_printed_page": "680",
+          "content_sha256": "007fd22ea32bfdc7c817d7eb27c5e038d8e4928bf642efc9449337d46b5a8c73",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        },
+        {
+          "file_id": "1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+          "name": "IMG_5276.JPG",
+          "original_printed_page": "681",
+          "content_sha256": "678c0a5073fe2e9d580931b63956ad1ab61b1b24dc4bfcd1b146229c24b54d5a",
+          "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT"
+        }
+      ],
+      "compiled_source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+      "witness_policy": "RETAIN_COMPILATION_AND_ORIGINAL_COUNTEREVIDENCE_SEPARATELY",
+      "original_atomic_assertion_ids": [
+        "ooi-radius-not-diameter",
+        "ooi-sun-ten",
+        "ooi-moon-three",
+        "ooi-mars-four",
+        "ooi-saturn-approximate",
+        "ooi-chiron-one",
+        "same-house-not-conjunction",
+        "one-way-response",
+        "no-cross-ecosystem-radius-sum",
+        "pluto-correct-original-arithmetic",
+        "pluto-original-center-conflict",
+        "pluto377-diagram-branch",
+        "receiver-anchor-natal-emitter-radius",
+        "lunar-bandwidth-inclusive-labels",
+        "ecosystem-within-between-scope",
+        "solar-ten-lunar-three-scope",
+        "forced-eclipse-m-emitter-scope",
+        "resolution-planet2-context",
+        "venus373-five-degree-ooi",
+        "forced375-solar-lunar-trine",
+        "forced376-hypothetical-swap",
+        "pluto381-diagram-corroboration",
+        "parts670-day-only",
+        "parts673-receiver-exactitude",
+        "parts679-two-stage-expression"
+      ],
+      "original_line_finding_ids": [
+        "pluto-original-coordinate",
+        "minor-aspect-ooi",
+        "handoff-equality-and-phase",
+        "point-internal-alignment-scope",
+        "lunar-bandwidth-width",
+        "stellium-middle-reach",
+        "forced376-subject-wording",
+        "microaspect-scope-and-boundary",
+        "pluto528-transit-order-labels",
+        "spirit674-signed-wrap"
+      ]
     }
   ],
   "named_findings_retrieved": [
     "chiron-saturn-aspect",
+    "chiron685-orbit-wording",
     "crossover443-coordinate-frame",
     "eclipse596-lunar-sun-moon-reference",
     "eclipse596-southern-solar-node",
@@ -17104,8 +18352,10 @@
     "point-internal-alignment-scope",
     "progression-original-492",
     "retro576-stage-subject-and-prograde",
+    "sedna758-779-label-context",
     "spark-parity",
     "spectrum348-coordinate-diagram",
+    "spirit674-signed-wrap",
     "stellium-middle-reach",
     "synastry543-asymmetric-reach",
     "territory90-versus180"

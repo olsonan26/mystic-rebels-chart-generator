@@ -245,18 +245,23 @@
         "forced-contact"
       ],
       "status": "QUALIFIED_INTERNAL_ALIGNMENT_DISTINGUISHED_FROM_EMISSION",
-      "finding": "Original645 has receiver-only anchors even at one-arcsecond offset. Original653 qualifies point-to-point internal alignment as30arcminutes,perhaps1degree,without giving either point outgoing OOI. Originals 652/656 also say planet or point can aspect another persons Vertex/Invertex; 657 uses Vertex-to-Sun wording. Cross-ecosystem point emission remains unspecified.",
+      "finding": "Original645 has receiver-only anchors even at one-arcsecond offset. Original653 qualifies point-to-point internal alignment as30arcminutes,perhaps1degree,without giving either point outgoing OOI. Originals 652/656 also say planet or point can aspect another persons Vertex/Invertex; 657 uses Vertex-to-Sun wording. Cross-ecosystem point emission remains unspecified.667 uses from Subnonagesimal/Descendant in synastry;673 says Parts do not emit and676 distinguishes natal scope from exact activation. Scope must remain explicit.",
       "assertion_ids": [
         "anchor645-one-arcsecond-forced",
         "anchor653-qualified-internal-alignment",
-        "vertex652-point-synastry-wording"
+        "vertex652-point-synastry-wording",
+        "nona667-point-from-wording",
+        "parts673-receiver-exactitude"
       ],
       "annotation_ids": [
         "directional-audit-img-5240-jpg",
         "directional-audit-img-5248-jpg",
         "lunar-depth-audit-1JH5dw3Sz4jIl9Gx1yhS4t8awxoUMX2bK",
         "lunar-depth-audit-1P0jsgI-8KlJ3rRC_hzmZREjodATYcQZA",
-        "lunar-depth-audit-1Cwrw1LREqlxslTZja0JaVqUA7Vi-jhjk"
+        "lunar-depth-audit-1Cwrw1LREqlxslTZja0JaVqUA7Vi-jhjk",
+        "oct25-next-audit-1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+        "oct25-next-audit-12WOiKVHciVjaEtqLOsT6bi7ak1c4ebtl",
+        "oct25-next-audit-1jx3oYKVB69M2z1YTW6zO0ZYfK5rczUyM"
       ],
       "remaining": "Internal alignment is distinct from exact transit activation; the qualified30minute/1degree alternatives are not a universal point orb.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
@@ -544,6 +549,62 @@
         "lunar-depth-audit-1uNDA1GSzzeMrCnFL4-AdXNQBzMDuGnL6"
       ],
       "remaining": "Retrieve the later qualification with earlier general wording; numerical ephemeris/model fixtures and symbolic interpretation remain separate.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "spirit674-signed-wrap",
+      "concept_ids": [
+        "spirit",
+        "parts-mechanics"
+      ],
+      "status": "PRINTED_SIGN_ERROR_RETAINED_WITH_DERIVED_ARITHMETIC",
+      "finding": "674 prints111+360=249 after deriving-111.675 labels trueSpirit8:25Sagittarius versus rounded9degrees.",
+      "assertion_ids": [
+        "spirit674-negative-wrap-error"
+      ],
+      "annotation_ids": [
+        "oct25-next-audit-1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+        "oct25-next-audit-1V3NETrZcXBq718ZPxGZDtN9oTQj07sPj"
+      ],
+      "remaining": "Preserve the printed missing minus; exact inputs and independent numerical fixture remain required.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "chiron685-orbit-wording",
+      "concept_ids": [
+        "chiron"
+      ],
+      "status": "SAME_PAGE_JUPITER_SCOPE_AND_CROSS_PAGE_DATE_TENSION",
+      "finding": "685 says inside Jupiter orbit then never reaches Jupiter path; diagram1979/1999 and692-693 prose1992/1999-2000 remain distinct.",
+      "assertion_ids": [
+        "chiron685-jupiter-path-conflict",
+        "chiron693-crossing-date-scope"
+      ],
+      "annotation_ids": [
+        "oct25-next-audit-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+        "oct25-next-audit-1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+        "oct25-next-audit-14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn"
+      ],
+      "remaining": "Author clarification and independently defined orbital/frame calculation required; schematic crossing is not a3D encounter.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "sedna758-779-label-context",
+      "concept_ids": [
+        "asteroid-sedna"
+      ],
+      "status": "DEDICATED_CHAPTER_AND_TABLE_LABELS_BOTH_RETAINED",
+      "finding": "758 The Distant Consequence with759-760 long-cause context differs from779 Extreme Isolation/Survival at orbital exile.",
+      "assertion_ids": [
+        "sedna779-alternate-label"
+      ],
+      "annotation_ids": [
+        "oct25-deep-1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+        "oct25-deep-1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+        "oct25-deep-1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+        "oct25-next-audit-1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh"
+      ],
+      "remaining": "Variation may be abbreviation or different emphasis; do not silently replace dedicated meaning or claim full equivalence.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]

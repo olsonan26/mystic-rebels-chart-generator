@@ -1,3 +1,13 @@
+## Current verified continuation: 50 additional images and five reinspections
+
+Read [2026-10-25_source-audit-parts-asteroids-continuation.md](2026-10-25_source-audit-parts-asteroids-continuation.md) and `evidence/source-pipeline/oct25-next-verification.json` first. This supersedes older local counts: **1,029 acquired IDs; 1,028 successful OCR outputs; 512 targeted images; 182 selected assertions; 386 annotations; 5,859 checked of 34,026 OCR locators; 29 named findings.** Remaining: **517 files and 28,167 unchecked locators**. This continuation added 50 new image reviews, five reinspections, 12 assertions and 882 checked locators, with no acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements).
+
+Preserve the Spirit674 missing-minus equation, Chiron685 Jupiter-path/date tension, Sedna758/779 label variation and all earlier counterevidence. Next exact file: **IMG_5469.JPG**, ID **1BjRDtWspXE4ZO54Dy9ED4ZTQw9iX2hrb**; its printed header is uninspected. Begin at pending locator 1 after viewing the image; exact pending/numeric locators are retained in the verification and line queue. No successful acquisition/OCR needs repeating.
+
+No deployment or application/UI/access/formula changes were made. The audit branch automatic-deployment guard remains disabled. Validated audit-only changes may be committed and pushed to the existing branch. Historical prohibitions/counts below do not override this checkpoint or the user's current authorized scope. No answering layer or personal interpretation is approved.
+
+---
+
 ## Current verified continuation: 150 additional images
 
 Read [2026-10-25_source-audit-deeper-continuation.md](2026-10-25_source-audit-deeper-continuation.md) and evidence/source-pipeline/continuation-deeper-verification.json first. Current totals: 1,029 acquired IDs; 1,028 successful OCR outputs; 462 targeted images; 170 selected assertions; 331 annotations; 4,977 checked of 34,026 OCR locators; 26 named findings; 567 files and 29,049 locators remain. This continuation added 150 new image reviews, 42 assertions and 1,477 line checks, without acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements). Earlier counts/results below are historical. Next exact ID: 1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3 (IMG_5261.JPG); inspect its image before asserting a printed header. No unresolved formula or answering layer is enabled.

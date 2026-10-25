@@ -3439,6 +3439,9 @@
           "reflow_footer": 563,
           "page_text_sha256": "192eac257d42b7d2884ef5bc965907e36c48f1248fbf5365dd032c1db6bf4da0"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "spirit674-signed-wrap"
       ]
     },
     {
@@ -3535,6 +3538,9 @@
           "reflow_footer": 560,
           "page_text_sha256": "7c568b8c27e0ad744ce7f64f4fe2d90744fe36f1ccd5787a257ed6aef4f93266"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "spirit674-signed-wrap"
       ]
     },
     {
@@ -3654,7 +3660,8 @@
       ],
       "original_scan_update": "Original687 diagram shows19:18Rx, resolving the PDF14:22 transcription discrepancy. Original687 sextile versus688 trine remains contradictory.",
       "line_reconciliation_finding_ids": [
-        "chiron-saturn-aspect"
+        "chiron-saturn-aspect",
+        "chiron685-orbit-wording"
       ]
     },
     {
@@ -5692,7 +5699,10 @@
       "runtime_interpretation": "ABSENT",
       "answer_use": "NOT_APPROVED",
       "witnesses": [],
-      "witness_scope": "ORIGINAL_ONLY_NO_DEDICATED_COMPILED_MEANING"
+      "witness_scope": "ORIGINAL_ONLY_NO_DEDICATED_COMPILED_MEANING",
+      "line_reconciliation_finding_ids": [
+        "sedna758-779-label-context"
+      ]
     }
   ],
   "report_sections": [

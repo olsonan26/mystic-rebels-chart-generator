@@ -40,6 +40,7 @@ def main():
         ('retrograde-meaning', 'retrograde-profile'),
         ('eclipse', 'special-contexts'),
         ('returns', 'return-phases'),
+        ('parts-mechanics', 'parts-profile'),
     ]
     packets = []
     for concept, section in selected:

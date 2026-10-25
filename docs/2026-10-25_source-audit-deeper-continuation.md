@@ -1,3 +1,13 @@
+## Current verified continuation: 50 additional images and five reinspections
+
+Read [2026-10-25_source-audit-parts-asteroids-continuation.md](2026-10-25_source-audit-parts-asteroids-continuation.md) and `evidence/source-pipeline/oct25-next-verification.json` first. This supersedes older local counts: **1,029 acquired IDs; 1,028 successful OCR outputs; 512 targeted images; 182 selected assertions; 386 annotations; 5,859 checked of 34,026 OCR locators; 29 named findings.** Remaining: **517 files and 28,167 unchecked locators**. This continuation added 50 new image reviews, five reinspections, 12 assertions and 882 checked locators, with no acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements).
+
+Preserve the Spirit674 missing-minus equation, Chiron685 Jupiter-path/date tension, Sedna758/779 label variation and all earlier counterevidence. Next exact file: **IMG_5469.JPG**, ID **1BjRDtWspXE4ZO54Dy9ED4ZTQw9iX2hrb**; its printed header is uninspected. Begin at pending locator 1 after viewing the image; exact pending/numeric locators are retained in the verification and line queue. No successful acquisition/OCR needs repeating.
+
+No deployment or application/UI/access/formula changes were made. The audit branch automatic-deployment guard remains disabled. Validated audit-only changes may be committed and pushed to the existing branch. Historical prohibitions/counts below do not override this checkpoint or the user's current authorized scope. No answering layer or personal interpretation is approved.
+
+---
+
 # Source audit: 150 additional images after the 100-image checkpoint
 
 This checkpoint supersedes the earlier 312-image checkpoint. The source audit remains incomplete. The 462 targeted images have selected passages or diagrams inspected; they have not received exhaustive semantic approval. No answering layer, chart formula, UI, access control or deployment was changed.

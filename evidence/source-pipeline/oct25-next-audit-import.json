@@ -1,0 +1,1176 @@
+{
+  "scope": "50_PREVIOUSLY_UNREVIEWED_IDS_FROM_EXACT_FILE_AND_LINE_QUEUES",
+  "baseline": "evidence/source-pipeline/continuation-deeper-verification.json",
+  "new_targeted_images": 50,
+  "reinspections": 5,
+  "new_annotations": 50,
+  "new_acquisitions": 0,
+  "new_ocr": 0,
+  "exhaustive_semantic_signoff": false,
+  "inspections": [
+    {
+      "id": "oct25-next-audit-1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3",
+      "file_id": "1s5nQxujY3JxHuCHdzXfoVvnheB9RJ6a3",
+      "image_sha256": "943dac4136607af2cbd0f3ed910823133530f05724307bff949e666cbd8c40ed",
+      "ocr_output_sha256": "f41326543c40a32b65725c9a1e6d9c0c2355e4cd68a86429f704b0f3b6c0b39b",
+      "printed_header": "666",
+      "line_ranges": [
+        [
+          6,
+          13
+        ],
+        [
+          33,
+          36
+        ]
+      ],
+      "finding": "Author attributes relationship episode to Jupiter transiting Subnonagesimal and square to transit Neptune Rx; separately calls Subnonagesimal square Descendant. Anecdotal timing has no exact timestamp or independent outcome verification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5261.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "anchors"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+      "file_id": "1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+      "image_sha256": "cb9377b7c03b90bebb10e59f0575b3f27b493bc4d61ff6b62560ea9b1da4f8c2",
+      "ocr_output_sha256": "9b3685c930ac5a7bdc057bded45788d68ca4b4e61c18c2ad4a3b1a15b845cae7",
+      "printed_header": "667",
+      "line_ranges": [
+        [
+          9,
+          15
+        ],
+        [
+          20,
+          37
+        ]
+      ],
+      "finding": "Mercury 13:11 Pisces example uses Quincunx to Ascendant, Trine from Subnonagesimal, Semi-sextile from Descendant and Sextile to Nonagesimal. Preserve outgoing from point wording alongside receiver-only anchors; this supplies no outgoing point OOI.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5262.JPG",
+      "concept_ids": [
+        "nonagesimals",
+        "synastry",
+        "anchors"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+      "file_id": "1tT-xL98FJqwtfcGSf6lVXR0rVG05fRCj",
+      "image_sha256": "deacb158c0ffb7d8bc5f4845cd2d465bb99cb53bddb19ed432b7c3fcd6163bd0",
+      "ocr_output_sha256": "db632c1961479373c8aba2cf8a9adf1bcd130455bbeba25e80f1db902839e6ed",
+      "printed_header": "668",
+      "line_ranges": [
+        [
+          26,
+          32
+        ]
+      ],
+      "finding": "Mathematical-point introduction distinguishes crossings and boundary points, citing Parans, anchors, out-of-bounds, Sophia and Lilith. This is rationale, not a complete point calculation or empirical validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5263.JPG",
+      "concept_ids": [
+        "parts-mechanics",
+        "anchors"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1uCNgcsHHQfWrL2tqhEmoRtUeSlzwoXgY",
+      "file_id": "1uCNgcsHHQfWrL2tqhEmoRtUeSlzwoXgY",
+      "image_sha256": "5a50c1a59c0abc870fc247e628014c28c79d3a6146f0ea34fb7c946f7d77b663",
+      "ocr_output_sha256": "b99fb83c70c03ff141458ddf0dd7b5788a4aae6e15768d7d744cbbe7ca6a6531",
+      "printed_header": "669",
+      "line_ranges": [
+        [
+          14,
+          25
+        ],
+        [
+          30,
+          34
+        ]
+      ],
+      "finding": "Lots are described as projecting a planetary separation arc from Ascendant; author rejects fate/destiny framing in favor of tension, modulation and direction. Historical and efficacy claims remain source claims.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5264.JPG",
+      "concept_ids": [
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1HQO3JnEqmS8lqpGgnNVSmt9lY4Ff6feK",
+      "file_id": "1HQO3JnEqmS8lqpGgnNVSmt9lY4Ff6feK",
+      "image_sha256": "6068f6c42f9402618d072b4bd04a9a74896851161e758d9472afad0f10a016da",
+      "ocr_output_sha256": "f8744f2de811c1402fd008ffee0839dadcd9b43ff09a5b26f9dbb434b58144e0",
+      "printed_header": "670",
+      "line_ranges": [
+        [
+          15,
+          30
+        ]
+      ],
+      "finding": "Explicitly rejects Day and Night Chart reversal and says all day charts; warns software may reverse Fortune and Spirit when Sun below Ascendant-Descendant. Preserve author's convention without asserting other conventions astronomically invalid.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5265.JPG",
+      "concept_ids": [
+        "fortune",
+        "spirit",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1wFO9BzmMYbn-nGfbQTvMzzHTdnj6DFmq",
+      "file_id": "1wFO9BzmMYbn-nGfbQTvMzzHTdnj6DFmq",
+      "image_sha256": "7af04a2c0b21a44a34e2b84f7c842deb09487859794f8793629bf491b99368e0",
+      "ocr_output_sha256": "cc5da2e75da3eb0365185af34c740b94a6789ebd433f54ffd4a86ecbb5098fbf",
+      "printed_header": "671",
+      "line_ranges": [
+        [
+          2,
+          21
+        ],
+        [
+          35,
+          40
+        ]
+      ],
+      "finding": "Fortune formula Ascendant plus Moon minus Sun; full-circle Aries-zero longitude and wrap described. Rounded 133+325-81=377 then 377-360=17; actual diagram/prose gives 17:47 Aries, explicitly rounded example. Exact minutes cannot be reconstructed from rounded operands.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5266.jpg",
+      "concept_ids": [
+        "fortune",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1Gdok50i3ErW7OqIfdx_z9HTQWJC9AHZb",
+      "file_id": "1Gdok50i3ErW7OqIfdx_z9HTQWJC9AHZb",
+      "image_sha256": "8f757e8d5514491b89a65fba2496520ac1cc98f76dac504fda645a6a8562a418",
+      "ocr_output_sha256": "ce82495c52e9d251b154aed5350414d2e2602e9e04420ee50ba573f499831617",
+      "printed_header": "672",
+      "line_ranges": [
+        [
+          12,
+          33
+        ]
+      ],
+      "finding": "Addition is interpreted as outward/direct motion and subtraction as inward retrograde-like underpinning; author says the person's specific placements carry context. Symbolic subtraction is not physical retrograde motion or an approved weighting algorithm.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5267.JPG",
+      "concept_ids": [
+        "fortune",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-12WOiKVHciVjaEtqLOsT6bi7ak1c4ebtl",
+      "file_id": "12WOiKVHciVjaEtqLOsT6bi7ak1c4ebtl",
+      "image_sha256": "5611731bad183062138cdfea8f37228a0886e06117a6ad7249f41e03570a3d2f",
+      "ocr_output_sha256": "6d08da41414446c6e3fcd511ff3d2e72b4ec1feed76da0cb1106c2197e5c31b7",
+      "printed_header": "673",
+      "line_ranges": [
+        [
+          10,
+          20
+        ]
+      ],
+      "finding": "Explicit only/exclusively exactitude activation, Parts do not emit and react to transit triggers. Bank example contextualizes natal opposition separately; no universal point emission orb follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5268.JPG",
+      "concept_ids": [
+        "fortune",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+      "file_id": "1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+      "image_sha256": "f1ce70f03f659f505d34b3be3d7fa54772cf2dfc2adfc88749881439cadc153d",
+      "ocr_output_sha256": "f41b52ef1d644892a5db96cccf82af0dc94c413b7a8a9a83f6bcc67eb6205db5",
+      "printed_header": "674",
+      "line_ranges": [
+        [
+          5,
+          11
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "finding": "Day-only Spirit formula Ascendant+Sun-Moon. Derives 133+81-325=-111 but next printed line reads 111+360=249, missing minus sign; preserve printed error separately from correct -111+360=249. Page also says each house is30degrees; do not silently substitute sign wording.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5269.JPG",
+      "concept_ids": [
+        "spirit",
+        "fortune",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1V3NETrZcXBq718ZPxGZDtN9oTQj07sPj",
+      "file_id": "1V3NETrZcXBq718ZPxGZDtN9oTQj07sPj",
+      "image_sha256": "133a537bdfcdfcf80adbf753ce167a63675d4ba77562168a90b78979646feb93",
+      "ocr_output_sha256": "bcaaa3773de6752cab58275bba12c69a7c097ac7da9f83deedebbdd6127145c2",
+      "printed_header": "675",
+      "line_ranges": [
+        [
+          2,
+          3
+        ],
+        [
+          13,
+          25
+        ]
+      ],
+      "finding": "Rounded Spirit249degrees becomes9Sagittarius while true prose and diagram placement8:25Sagittarius H5 is explicit. Ruler retrograde Jupiter H4Scorpio and Moon as inward support are author-specific example context, not universal personal truth.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5270.jpg",
+      "concept_ids": [
+        "spirit",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1jx3oYKVB69M2z1YTW6zO0ZYfK5rczUyM",
+      "file_id": "1jx3oYKVB69M2z1YTW6zO0ZYfK5rczUyM",
+      "image_sha256": "1163680134d0d11557fab3b849bbd0ab5eea18a09f0698380c58285ffa2c5e71",
+      "ocr_output_sha256": "4b3d125e1a1890b0e79f6652c06a3da725976ca6a8db9641de840a9b98b3b998",
+      "printed_header": "676",
+      "line_ranges": [
+        [
+          14,
+          28
+        ]
+      ],
+      "finding": "Pseudo-T-square: natal H5Spirit square transit H8Saturn square natal H11MercuryRx. Mercury does not activate Spirit merely by natal oppositional scope; transit Saturn hits Spirit degree exactly. Association and activation must remain distinct.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5271.JPG",
+      "concept_ids": [
+        "spirit",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1PV2vU44Ayv7AMP4qdhvzF2wqcbBt05Xr",
+      "file_id": "1PV2vU44Ayv7AMP4qdhvzF2wqcbBt05Xr",
+      "image_sha256": "840eb7bc398642b0dd3cf872d3b16f4e3191aef25eaedbb12da1be5beb72f0e4",
+      "ocr_output_sha256": "0d5c659e82b9b794395a3d96183f8947ffc40c1bf8ca56876bb794c2f492ef82",
+      "printed_header": "677",
+      "line_ranges": [
+        [
+          6,
+          18
+        ],
+        [
+          27,
+          33
+        ]
+      ],
+      "finding": "Author compares Saturn activation in1994 and February2024 but explicitly notes different other planets and progressions and different outcome. Anecdote is not repeat-event prediction or a validated recurrence rule.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5272.JPG",
+      "concept_ids": [
+        "spirit",
+        "returns"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1OENqN3UpPIcBefGabCZXHeGY0FRj_y0v",
+      "file_id": "1OENqN3UpPIcBefGabCZXHeGY0FRj_y0v",
+      "image_sha256": "bfe63b5abea648525694532088cc1e83fd0aa8d6cbc249ec06ecdfad48833977",
+      "ocr_output_sha256": "58b4cd28476658dbca376ada7603ef97819d6aa2e36b71bcc1804d2aa0758f31",
+      "printed_header": "678",
+      "line_ranges": [
+        [
+          14,
+          29
+        ]
+      ],
+      "finding": "Author admits not testing all Parts; Love is Ascendant+Venus-Sun and conventional affection label is questioned. Venus contextual values and inward Sun underpinning are retained without claiming all formulas validated.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5273.JPG",
+      "concept_ids": [
+        "love",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+      "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+      "image_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+      "ocr_output_sha256": "b877f0b051dfd4dfb14e9e6e2b49d07653fb8f3444928cf061d32514194bfdf6",
+      "printed_header": "679",
+      "line_ranges": [
+        [
+          2,
+          15
+        ]
+      ],
+      "finding": "Example Love6:37Cancer, Aries degree,H12. Distinguishes how formula triggers from expression by sign/degree/house and warns against reading formula terms as ordinary natal placements. This example does not settle sign/house Spark conflict.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5274.JPG",
+      "concept_ids": [
+        "love",
+        "parts-mechanics",
+        "spark-entry"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1bvH7jpKL_mzLy1HUOWR6VzMIoOtdYqyU",
+      "file_id": "1bvH7jpKL_mzLy1HUOWR6VzMIoOtdYqyU",
+      "image_sha256": "007fd22ea32bfdc7c817d7eb27c5e038d8e4928bf642efc9449337d46b5a8c73",
+      "ocr_output_sha256": "eec0f066ebe75f05f3feaba0ebd134801a5f51fd47e8557c766fd49dd1309c91",
+      "printed_header": "680",
+      "line_ranges": [
+        [
+          14,
+          23
+        ],
+        [
+          31,
+          36
+        ]
+      ],
+      "finding": "Author concedes most activations insignificant, claims faster planets give fleeting effects, and rejects fortune/destiny framing. Additional Asc+Moon-Mars point3:06 continues next page; anecdotes are not controlled validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5275.JPG",
+      "concept_ids": [
+        "love",
+        "parts-mechanics"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+      "file_id": "1xpo5pIISYcARUrRMX8MOztHIuBqhIvcN",
+      "image_sha256": "678c0a5073fe2e9d580931b63956ad1ab61b1b24dc4bfcd1b146229c24b54d5a",
+      "ocr_output_sha256": "7d8c3cf6008c578ad991022d9345044de9c08e394583a05495766182da92d577",
+      "printed_header": "681",
+      "line_ranges": [
+        [
+          2,
+          11
+        ],
+        [
+          26,
+          33
+        ]
+      ],
+      "finding": "Asc+Moon-Mars example continues at3:06Capricorn H6 with Capricorn Spark and Pluto ChristmasEve2009 anecdote. Planet rulers are primary and asteroids supplementary in author's analogy. Preserve sign/house/degree context without selecting parity branch.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5276.JPG",
+      "concept_ids": [
+        "parts-mechanics",
+        "spark-entry",
+        "planet-categories"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1kOQ0QQk6iQsTSETzBBHdVuLAYzypJG1z",
+      "file_id": "1kOQ0QQk6iQsTSETzBBHdVuLAYzypJG1z",
+      "image_sha256": "a1e0788d724fb4afa8b8621c44453791b544eaadabb2d80d8f3c3ae0808b9b0d",
+      "ocr_output_sha256": "beefae6a1c7444e00b77930ea8665a47ef73e4effc4987c085e3c21ddc1f477b",
+      "printed_header": "682",
+      "line_ranges": [
+        [
+          2,
+          12
+        ],
+        [
+          25,
+          31
+        ]
+      ],
+      "finding": "Author places Hygiea discussion in earlier PHSR and rejects myth-name substitution for mechanics before Chiron chapter. Visibility and precision claims do not empirically establish interpretive meaning.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5277.JPG",
+      "concept_ids": [
+        "planet-categories",
+        "asteroid-hygiea",
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+      "file_id": "1rKzpqHOP9UDB6YKikngVmTs19JEaMaUl",
+      "image_sha256": "134b26f1d8cb99365a3e4c60827f26c8a2c0509069fb0a3cdb413d2002478104",
+      "ocr_output_sha256": "d8b2de4652ed961d554bfe52d9fc4d1ec33b6cdd7da2208d78b1a03aee03f90e",
+      "printed_header": "683",
+      "line_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "finding": "Header2060 and Fractured Structures label visually checked; emphatic negation of Wounded Healer retained. It is the author's interpretive position, not independently established healing/medical evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5278.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1EX3NVxvin2VRlP8uo0Kgkc_X27iTH2kc",
+      "file_id": "1EX3NVxvin2VRlP8uo0Kgkc_X27iTH2kc",
+      "image_sha256": "38cf7007b782d75418491f0ee3cc8d868b6004f79893b38485e4d5bbade05349",
+      "ocr_output_sha256": "89b2e83bdfcb05e797be79694df2ce3d311fbfd572b3eaf88ed84965aba09cbf",
+      "printed_header": "684",
+      "line_ranges": [
+        [
+          26,
+          33
+        ]
+      ],
+      "finding": "ADS discussion calls for observing motion, orbit and repeated interactions rather than importing mythological meanings. This is methodological rhetoric, not supplied controlled observations or numerical specification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5279.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+      "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+      "image_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+      "ocr_output_sha256": "ae9965ae9cf8dfe1304905cf8410c36bcf45486fb16cd4f1231f3c11e3a0f433",
+      "printed_header": "685",
+      "line_ranges": [
+        [
+          8,
+          23
+        ],
+        [
+          31,
+          36
+        ]
+      ],
+      "finding": "Prose says Chiron dips inside Saturn and Jupiter orbits, but lower passage says never reaches Jupiter path either; preserve both. Orbit diagram labels1979 and1999; prose18500EarthDay, two Saturn crossings. Diagram is schematic, not verified ephemeris or 3D orbit intersection evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5280.jpg",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+      "file_id": "1jWGIAg-BIRh7DqzsFZ3knecUkxWNZudb",
+      "image_sha256": "67e7b277900b95d2f2167fdd909ff778679c5c8d147a6d5c2e17a4a68fa1efff",
+      "ocr_output_sha256": "08a1766e2a5635b604bdd3328062d6257932976a1addae0df0803d88a003fc8f",
+      "printed_header": "686",
+      "line_ranges": [
+        [
+          3,
+          20
+        ]
+      ],
+      "finding": "Approach toward Uranus and unstable ring material are used to infer authenticity/invention and social fit. Preserve as ADS analogies rather than verified causal personality rules or physical ring validation.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5281.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1wF31P9L5awrEno05yK4f6rV2UqyqgjKS",
+      "file_id": "1wF31P9L5awrEno05yK4f6rV2UqyqgjKS",
+      "image_sha256": "226156ee1ff6654707106bf19a03a46adb2b136cab4b9e8e8d4e29ba5aa8c0af",
+      "ocr_output_sha256": "4444526020b4e4af9592f89ce832282e4fb34d78213ff817820315b7812879c2",
+      "printed_header": "690",
+      "line_ranges": [
+        [
+          16,
+          34
+        ]
+      ],
+      "finding": "Ashley example Chiron H11Gemini with ruler Mercury H8Pisces links community expression and research context. Descriptions of another person's fears, motives and strengths are author attributions, not independently verified mental states or a generic report template.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5285.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1VVZl-f_o79Fv20axub4brkwCpZv-ob8y",
+      "file_id": "1VVZl-f_o79Fv20axub4brkwCpZv-ob8y",
+      "image_sha256": "e1382c7978b8686c8f6328ee39153b7579b2841c2c14e35cd4608a6b09e2e126",
+      "ocr_output_sha256": "0cea3eea8efea9906e2bda06288feefb0f718f0cbb3a5491d05947275751e792",
+      "printed_header": "691",
+      "line_ranges": [
+        [
+          3,
+          15
+        ]
+      ],
+      "finding": "Continuation describes healing as accepting selective audience and compares proximity to Saturn symbolically. No numeric proximity threshold or demonstrated treatment efficacy is supplied; personal attribution remains source-only.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5286.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+      "file_id": "1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+      "image_sha256": "385f5b0f917914922ea298ed3cfc3ba644ac6d800956c6f5fbcac43e32ae90c5",
+      "ocr_output_sha256": "c56203560dc29d5400b5d3e78d7e3fe34e392a5b99bd15d4ca3ba5190b41aaea",
+      "printed_header": "692",
+      "line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "finding": "Public-figure example concludes with author-described leadership/healing theme. Preserve as attributed interpretation; it supplies neither empirical validation nor a universal rule for private-person reports.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5287.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn",
+      "file_id": "14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn",
+      "image_sha256": "55101afd22cc5cdbfbcd19801411ab914733d9172341da3fa083c58857ae97b5",
+      "ocr_output_sha256": "3a0011b84b90792301c78e6c599e26365c2bc03ab72c9410b0e4b32c9991135d",
+      "printed_header": "693",
+      "line_ranges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "finding": "Header693 and opening explicitly locate claimed Saturn-orbit crossing in1992Leo and1999/2000Sagittarius. Compare schematic685 label1979 without silently reconciling dates; independent ephemeris/frame verification remains required.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5288.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1lonpYdesLX58OaH_2yO__2usXCuxt0s7",
+      "file_id": "1lonpYdesLX58OaH_2yO__2usXCuxt0s7",
+      "image_sha256": "77605ec5c5195c5b29641b7d069455a30b2ad18b5312b741834b25feda25e294",
+      "ocr_output_sha256": "b5d6ba81390cbdf2c3fe80bf04ff9e76c54e20173611068458ccd94d81671926",
+      "printed_header": "694",
+      "line_ranges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "finding": "Header694 and opening continue retrospective cultural examples including The Sims/year2000. These are illustrative author-selected associations, not measured effects or predictive validation. Parenting section on same page is not approved medical evidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5289.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1yG9acGSXYBmj77vtHoZ-tt8XrLuxfJpe",
+      "file_id": "1yG9acGSXYBmj77vtHoZ-tt8XrLuxfJpe",
+      "image_sha256": "858635b8ea554a7a23d2315f229019d44604ae7056dc091a5d42a9945500acf9",
+      "ocr_output_sha256": "802fadc71ff7787d667b5ad7869e2827a4854db80c34c08aa718e91034e65377",
+      "printed_header": "695",
+      "line_ranges": [
+        [
+          9,
+          23
+        ]
+      ],
+      "finding": "Parenting anecdote attributes family estrangement to transit Chiron over Moon H9 and later reconciliation to reviewing charts. Child agency explicitly limited; retrospective story is not causal or clinical proof. Seizure-prediction claim on page remains unverified and cannot authorize medical output.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5290.JPG",
+      "concept_ids": [
+        "chiron"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-16e2PcvHRAXqiPFrMffV5-XQMH5XpEfWt",
+      "file_id": "16e2PcvHRAXqiPFrMffV5-XQMH5XpEfWt",
+      "image_sha256": "d5bbbb91ad52990bb166c70c3a6caa0391fa9c62f8039c35b7962e0963286b47",
+      "ocr_output_sha256": "6c1eb084c751f863081dde62944f4bfd0dbd561b84af16c466aa4b31823c08a2",
+      "printed_header": "696",
+      "line_ranges": [
+        [
+          17,
+          35
+        ]
+      ],
+      "finding": "Apophis99942 heading Destabilizing Truth; eccentric near-Earth orbit is mapped to collapse of already-unstable constructs. Keep author-derived meaning separate from physical collision prediction or a validated personality rule.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5291.JPG",
+      "concept_ids": [
+        "chiron",
+        "asteroid-apophis"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1rUcEovOUnq8VWLppupb7TiRA7y6vkNof",
+      "file_id": "1rUcEovOUnq8VWLppupb7TiRA7y6vkNof",
+      "image_sha256": "4e5cfd9cf3f38b5f9693a5ac1be533a5d6606bffc29d4e160f3fc06146a6bae2",
+      "ocr_output_sha256": "1e0482a50262ba91d8e5398f5ba55256aa075be0dfd478eb5966a5e7c71099a1",
+      "printed_header": "697",
+      "line_ranges": [
+        [
+          5,
+          17
+        ]
+      ],
+      "finding": "Author says Apophis reveals existing weakness rather than causing downfall from nowhere; example Taurus H10 conjunctMC locates public/career context. No personal or institutional collapse prediction is approved.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5292.JPG",
+      "concept_ids": [
+        "asteroid-apophis"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1nVRWUUKKm1ImVujDT1NgupptZwYKNLhn",
+      "file_id": "1nVRWUUKKm1ImVujDT1NgupptZwYKNLhn",
+      "image_sha256": "6c30448a0f5264bec63cb9e3c7fdd1cbd3d9e9559f44dbfd69006e80cf25be8c",
+      "ocr_output_sha256": "1398889cc04c4707391c5bb0b19777803c46bd8671bc8b15fbe587ffb16d9631",
+      "printed_header": "698",
+      "line_ranges": [
+        [
+          17,
+          34
+        ]
+      ],
+      "finding": "Apophis correction-through-collapse closes; Astraea5 Continuity Resurfacing expressly distinguishes return of continuity from Ceres beginnings. Example Gemini H11/MercuryRxH11. Numeric physical claims require separate verification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5293.JPG",
+      "concept_ids": [
+        "asteroid-apophis",
+        "asteroid-astraea"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1WqVaeP-yhfRVZfF1ppCL0UwgtB7duP-E",
+      "file_id": "1WqVaeP-yhfRVZfF1ppCL0UwgtB7duP-E",
+      "image_sha256": "677d6b93478edeefe47135339a8346bdef963630086c21d0a395d677ca0023d6",
+      "ocr_output_sha256": "01af04f3a737a451e347e3db5e24bee748ccf10ff897f58c6cdb5d0bd7799596",
+      "printed_header": "699",
+      "line_ranges": [
+        [
+          19,
+          36
+        ]
+      ],
+      "finding": "Bamberga324 Sudden Illumination, approximately229km and2.68AU with22year brightness claim. Source uses episodic visibility as revelation metaphor; this is not a demonstrated22year personal event cycle.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5294.jpg",
+      "concept_ids": [
+        "asteroid-astraea",
+        "asteroid-bamberga"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1Trs9xFsIQrTbU4D4XxP9jRHqHgZnzYDX",
+      "file_id": "1Trs9xFsIQrTbU4D4XxP9jRHqHgZnzYDX",
+      "image_sha256": "73fe5dddda8bf39fe0504d5ee07e0152ec9a6a8c0965e7ede1f5a00baf09473e",
+      "ocr_output_sha256": "aa64ff3c07e1f8a779212a0e7c98946f7b6adc8a25895f9e66d776bbb48e792e",
+      "printed_header": "700",
+      "line_ranges": [
+        [
+          4,
+          23
+        ]
+      ],
+      "finding": "Bamberga retrograde example H7Aquarius with rulersRxH5 turns flare inward and relationships prompt reworking self/purpose. Preserve contextual sequence and author anecdotes; no generic relationship outcome follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5295.JPG",
+      "concept_ids": [
+        "asteroid-bamberga",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1Ka-yjzLGVMwJEEBEG_7xRSXWYq6ivpRG",
+      "file_id": "1Ka-yjzLGVMwJEEBEG_7xRSXWYq6ivpRG",
+      "image_sha256": "f64565307b1b9c7e0318d13a8022850f4c2e2f8ed006ccb5b2666c34d74107e1",
+      "ocr_output_sha256": "440378566a6b0c91dcdd5411627f4f9f4e7355f674eed9995edbca43546b3ed1",
+      "printed_header": "701",
+      "line_ranges": [
+        [
+          4,
+          19
+        ],
+        [
+          25,
+          28
+        ]
+      ],
+      "finding": "Ceres1 Sustenance and Survival relates nourishment/release and growth/grief to ADS. Printed about4degree tilt explicitly marked symbolically in prose; physical properties and psychological inference require distinct verification.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5296.JPG",
+      "concept_ids": [
+        "asteroid-ceres"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1UBA6TxwrRzNeKcZ_CfKHyrpjykLbTXSZ",
+      "file_id": "1UBA6TxwrRzNeKcZ_CfKHyrpjykLbTXSZ",
+      "image_sha256": "562efe6fa8ed34ee1610e8c13fd016ac9e03bfe3bc060e6d320884d6891d0b5e",
+      "ocr_output_sha256": "c72a2e6f4d70395900c61823c431fb7024f074271529f1de7032513447b97829",
+      "printed_header": "702",
+      "line_ranges": [
+        [
+          5,
+          27
+        ]
+      ],
+      "finding": "Ceres functions include sustenance, severance and honoring emptiness; retrograde care is described as self-sourced and revisiting scarcity. These source descriptions do not diagnose abandonment or establish childhood deprivation for any user.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5297.JPG",
+      "concept_ids": [
+        "asteroid-ceres",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1VwfWT7bl8Lnu_1ejTtxHLWei6yqSNgUU",
+      "file_id": "1VwfWT7bl8Lnu_1ejTtxHLWei6yqSNgUU",
+      "image_sha256": "f097daf537261b60686fb0285425c9adc5422a722637dce55e332581a30f70e8",
+      "ocr_output_sha256": "bfa5de25b2c87a5180cdab612cb738b16270c69ebecec7e10fc0197a48abed9e",
+      "printed_header": "703",
+      "line_ranges": [
+        [
+          27,
+          35
+        ]
+      ],
+      "finding": "Cybele65 Threshold Transitions begins after Ceres autobiographical continuation; image shows approximately3.44AU omitted in OCR. Outer-belt/Jupiter boundary is ADS rationale, not verified orbital stability or an actionable threshold formula.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5298.JPG",
+      "concept_ids": [
+        "asteroid-ceres",
+        "asteroid-cybele"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1OLlAifQ0xftmKaUSslyxqepZj3HpQDEl",
+      "file_id": "1OLlAifQ0xftmKaUSslyxqepZj3HpQDEl",
+      "image_sha256": "b9a8bd4c58df811580f0882eda01c71348a4de0e938e88f982d76bd6d5cfc10d",
+      "ocr_output_sha256": "cf495d74dedc559f6c91675892a392f3560ca3ed887b23d3c4bada4ea52fc460",
+      "printed_header": "704",
+      "line_ranges": [
+        [
+          6,
+          24
+        ]
+      ],
+      "finding": "Cybele dark surface and transition region interpreted as internalizing and threshold identity; author example conjunct JupiterRxH4Scorpio. Do not promote surface albedo analogy to empirically supported behavior.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5299.JPG",
+      "concept_ids": [
+        "asteroid-cybele"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1_EpQ5uPSy0w_G146GDM6lLp7lakNJv6S",
+      "file_id": "1_EpQ5uPSy0w_G146GDM6lLp7lakNJv6S",
+      "image_sha256": "ba72a9c54539f61e04eb908b7639a1b56f2ff0101d38c14314df890329b83ee7",
+      "ocr_output_sha256": "981399a097a0c49e73e8fa16a48f25563d1fb19cf3d98c99caf7431d02ba7804",
+      "printed_header": "705",
+      "line_ranges": [
+        [
+          19,
+          35
+        ]
+      ],
+      "finding": "Davida511 Observation Before Action:3.17AU,almost16degree tilt,eccentricity0.19 are used to infer perspective/restraint. Preserve numeric glyphs and author analogies; no numerical trigger algorithm is specified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5300.jpg",
+      "concept_ids": [
+        "asteroid-cybele",
+        "asteroid-davida"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1hiiiPkOpWfTZQijF2JNwRJW2YGuDd4oy",
+      "file_id": "1hiiiPkOpWfTZQijF2JNwRJW2YGuDd4oy",
+      "image_sha256": "1d7e3f0c31d00b16a1b6258dfa16093926f90dcda1f41297e25bf12d86aa24fb",
+      "ocr_output_sha256": "14aa2f4a1e2ee429a09be143e3d0179add90db6aff39138391cb7f3a121d542b",
+      "printed_header": "706",
+      "line_ranges": [
+        [
+          2,
+          21
+        ]
+      ],
+      "finding": "Davida just-over5hour spin and5.64year orbit are contrasted as vigilance versus timing. Author H4ScorpioRx example turns process inward; physical cycles are not validated event periods or personality measures.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5301.JPG",
+      "concept_ids": [
+        "asteroid-davida",
+        "retrograde-meaning"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1FpfJK6cO5Uwt1AjTP34t3jIeFR1Bdoat",
+      "file_id": "1FpfJK6cO5Uwt1AjTP34t3jIeFR1Bdoat",
+      "image_sha256": "bc63a4a18f176d4afc8f1421c9df2de66fad7083151e06ab9e2a87d500376dd4",
+      "ocr_output_sha256": "e21f3ce735266e11805fa93b88a49a1f714f2291b5378384961859543e7c54b3",
+      "printed_header": "707",
+      "line_ranges": [
+        [
+          6,
+          25
+        ]
+      ],
+      "finding": "Elektra130 Center of Complexity: three moons and system fragments are mapped to coordination/invisible labor; author H12Cancer through MoonH7Aquarius example. Physical description and attributed meaning remain separately unverified.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5302.JPG",
+      "concept_ids": [
+        "asteroid-davida",
+        "asteroid-elektra"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1I8H381A5_9olyM_l55cy0wR5Um714lcc",
+      "file_id": "1I8H381A5_9olyM_l55cy0wR5Um714lcc",
+      "image_sha256": "cc19fa8db3cabb496219a45eb92abdbfedc212d25c6eaef2dc7d789148e6d286",
+      "ocr_output_sha256": "19c987e2e4f58e4cb8d84d256b6704a5184c5e51a14916c8c88d4f55572babaf",
+      "printed_header": "766",
+      "line_ranges": [
+        [
+          16,
+          28
+        ]
+      ],
+      "finding": "Varuna describes buried balance/truth and inward retrograde process; author Gemini16:35H11 explicitly Pregrade and Leo degree. This example retains degree/house context but cannot settle Spark parity or phase endpoints.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5449.JPG",
+      "concept_ids": [
+        "asteroid-varuna",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1KH8yG4U7Aootwx95dWVnopcfkZF5Gbst",
+      "file_id": "1KH8yG4U7Aootwx95dWVnopcfkZF5Gbst",
+      "image_sha256": "4d290debcacff20c94a949ea7f77dc88660dfb8f48be62cc1e74f226364fda96",
+      "ocr_output_sha256": "8ff12ed908823b345708b92f69df7751443f493fc9ba76050190b3a12da130f3",
+      "printed_header": "767",
+      "line_ranges": [
+        [
+          16,
+          35
+        ]
+      ],
+      "finding": "Pregrade Varuna example emphasizes recognizing early imperfections and choosing response; Vesta4 Eternal Flame begins as protected inner endurance and differentiated structure. Narrative is not a computed phase-boundary definition or outcome guarantee.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5450.JPG",
+      "concept_ids": [
+        "asteroid-varuna",
+        "asteroid-vesta",
+        "gradity-context"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+      "file_id": "1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+      "image_sha256": "3f067aa598cc91d5d7344bc74ea18214c5f15d724646aab8f7504723ccdb1a7a",
+      "ocr_output_sha256": "e5bda7b3aad2fe6b80b3f84bc46329260d35372fe37afe19c2e11ac0e4919526",
+      "printed_header": "770",
+      "line_ranges": [
+        [
+          3,
+          33
+        ]
+      ],
+      "finding": "Comparison table says Bamberga Sudden Illumination,Ceres Provision and Survival,Chiron Fractured Structure,Cybele The Threshold. Accuracy6/10,8/10,2/10 are author judgments, not validation rates; preserve these alternate labels alongside dedicated chapters.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5453.JPG",
+      "concept_ids": [
+        "asteroid-bamberga",
+        "asteroid-ceres",
+        "chiron",
+        "asteroid-cybele",
+        "planet-categories"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1-NbollFjOw2z7OijrusSGLYosvkqbQSM",
+      "file_id": "1-NbollFjOw2z7OijrusSGLYosvkqbQSM",
+      "image_sha256": "98314ae79247214444ef38f0e482a1e57fcaaea2203755e5e5695f64d01f5f15",
+      "ocr_output_sha256": "1fcfc66321c69d8ac394679cdef6ba6311f64fb51c6625a71ffec16cc32406b3",
+      "printed_header": "778",
+      "line_ranges": [
+        [
+          3,
+          29
+        ]
+      ],
+      "finding": "Table gives Nyx Threshold of Doubt,Orcus Binding Agreements,Pallas Pattern Recognition,Pholus Cascade Trigger with subjective2/10,8/10,8/10,9/10 ratings. No measured predictive accuracy is established; Psyche row continues next page.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5461.JPG",
+      "concept_ids": [
+        "asteroid-nyx",
+        "asteroid-orcus",
+        "asteroid-pallas",
+        "asteroid-pholus",
+        "asteroid-psyche"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh",
+      "file_id": "1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh",
+      "image_sha256": "d094358b1eeeff97adb67a0007340d3a4173ca25dab92eac9ed8dc64542a4a1f",
+      "ocr_output_sha256": "5a4ae27ed32c00fe2119e112fd20a3574ea844d6a12e74dc8fac66d18f0fb82f",
+      "printed_header": "779",
+      "line_ranges": [
+        [
+          2,
+          29
+        ]
+      ],
+      "finding": "Table Psyche Core Material,Quaoar Anchor in the Fog,Salacia Shared Gravity,Sedna Extreme Isolation,Sylvia Fragmentary Cohesion. Sedna label differs from dedicated758-760 Delayed Consequence; preserve both and investigate context without replacement. Ratings are author judgments.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5462.JPG",
+      "concept_ids": [
+        "asteroid-psyche",
+        "asteroid-quaoar",
+        "asteroid-salacia",
+        "asteroid-sedna",
+        "asteroid-sylvia"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1u5nd_U-gw9wGDpKgX1YV9FCZpwm35yzD",
+      "file_id": "1u5nd_U-gw9wGDpKgX1YV9FCZpwm35yzD",
+      "image_sha256": "ab348b9e7f0da382b78039f785bb4f076d38455797f6694fa21690bbf0e679d7",
+      "ocr_output_sha256": "e9353e52bdd1f6231e15b79114db99addbe2e6716c6e3c83aeaddef9ffcebeba",
+      "printed_header": "780",
+      "line_ranges": [
+        [
+          4,
+          34
+        ]
+      ],
+      "finding": "Table Thisbe Silent Presence,Toro Resonant Return,Varda Hidden Sovereignty; Varuna row starts with conventional description and continues781. Keep row continuation distinct so next page Expansive Order attaches to Varuna, not Vesta.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5463.JPG",
+      "concept_ids": [
+        "asteroid-thisbe",
+        "asteroid-toro",
+        "asteroid-varda",
+        "asteroid-varuna"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1MLX35-iuE5bnAQzizYc0RAykb_XlonKz",
+      "file_id": "1MLX35-iuE5bnAQzizYc0RAykb_XlonKz",
+      "image_sha256": "a3f4bea0e5226f16d92fd9fc30d6250187dd73547f0bd5428677c2ae552a3f8e",
+      "ocr_output_sha256": "184795da1a8864b613579a4519f9d6b9c26b8b0ff860934ea1be1f60788106e5",
+      "printed_header": "781",
+      "line_ranges": [
+        [
+          2,
+          17
+        ]
+      ],
+      "finding": "Table continuation gives Varuna Expansive Order6/10 and Vesta Sacred Devotion9/10. Scoring explicitly based on pattern honesty:1-2 myth-only/off,3-6 word-right/frame-wrong,7-9 close. These are subjective correspondence grades, not empirical accuracy or software confidence.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5464.jpg",
+      "concept_ids": [
+        "asteroid-varuna",
+        "asteroid-vesta",
+        "planet-categories"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-12okCll9RwJud7rLk8irMlufTSVMCdYRC",
+      "file_id": "12okCll9RwJud7rLk8irMlufTSVMCdYRC",
+      "image_sha256": "f938319a922ccd2d2d60a2cceceb28e82dc0a9472b8578d3bac9aed15a7564d7",
+      "ocr_output_sha256": "15debefb60026de219417aacb91595fe8d960cf0faa5344c0754fd5aedf970b9",
+      "printed_header": "782",
+      "line_ranges": [
+        [
+          2,
+          12
+        ]
+      ],
+      "finding": "Author emphasizes birth-time precision and choices among opportunities; says one degree matters and rejects rounded/guessed birth windows. No tolerance model or rectification algorithm is supplied; keep rhetoric separate from certified accuracy.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5465.JPG",
+      "concept_ids": [
+        "agency",
+        "planet-categories",
+        "rectification"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-16fmHOuNVGWeK9hSNOMjnjYGXN30KXB5s",
+      "file_id": "16fmHOuNVGWeK9hSNOMjnjYGXN30KXB5s",
+      "image_sha256": "b8e62cba73757dfa306585e0f780cd2ffaf393fdf82d665938231bddee738308",
+      "ocr_output_sha256": "c33df20ccad964f410ddd1543d9d5e3327ca42612deddade0663b0d2ff556144",
+      "printed_header": "783",
+      "line_ranges": [
+        [
+          2,
+          7
+        ]
+      ],
+      "finding": "Chapter closes with choices within available energies and asteroids as additional context. No deterministic personal prediction or complete interpretation weighting follows from the closing rhetoric.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5466.JPG",
+      "concept_ids": [
+        "agency",
+        "planet-categories"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1BL2arS32DsGFqTdp82yufuyrBRA-U2--",
+      "file_id": "1BL2arS32DsGFqTdp82yufuyrBRA-U2--",
+      "image_sha256": "0988c7db546197a5b917e427f648484e6d166cfa1b2de431d31c8432d22f3e2e",
+      "ocr_output_sha256": "cfeea547a1003bc24375b5f09181df5c9a528b3b401b6e0c1a6dd562a9ed5d22",
+      "printed_header": "785",
+      "line_ranges": [
+        [
+          7,
+          20
+        ]
+      ],
+      "finding": "Locational introduction distinguishes natal core and flexible outer layer; claims physical travel or working with people elsewhere can engage locations. No distance threshold or complete remote activation algorithm here.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5467.JPG",
+      "concept_ids": [
+        "relocation",
+        "remote-activation",
+        "agency"
+      ]
+    },
+    {
+      "id": "oct25-next-audit-1PEkEOfbPH8MyKPnNcOBFuWSJvlsPiSrp",
+      "file_id": "1PEkEOfbPH8MyKPnNcOBFuWSJvlsPiSrp",
+      "image_sha256": "0faedd03c38a807bc3ca4f24c7520e41f9acea25660884024ea1aef4675bf5e6",
+      "ocr_output_sha256": "a30d04df385d1d5b3883e639e3af1678e58288af7d9ae5d1becb815e9cb54c25",
+      "printed_header": "786",
+      "line_ranges": [
+        [
+          19,
+          33
+        ]
+      ],
+      "finding": "Author rejects a universally best planet line or universal good/bad planet ranking and reduction to conjunction lines. Preserve individualized source context without adding generic travel recommendations or legal conclusions from naming commentary.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5468.JPG",
+      "concept_ids": [
+        "relocation",
+        "local-space"
+      ]
+    }
+  ],
+  "new_atomic_assertions": 12,
+  "assertion_ids": [
+    "parts670-day-only",
+    "fortune671-rounded-wrap",
+    "parts673-receiver-exactitude",
+    "spirit674-negative-wrap-error",
+    "parts679-two-stage-expression",
+    "nona667-point-from-wording",
+    "chiron685-jupiter-path-conflict",
+    "chiron693-crossing-date-scope",
+    "asteroid781-subjective-ratings",
+    "sedna779-alternate-label",
+    "varuna766-pregrade-example",
+    "relocation786-no-best-line"
+  ],
+  "reinspection_annotations": [
+    {
+      "id": "oct25-deep-1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+      "file_id": "1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+      "image_sha256": "834ffa6fd485fddf47e680c59ea7ffce476bc3f7a7cc2231810345859446c73f",
+      "ocr_output_sha256": "6dd82ef39fdc373c0c875625cb06a1ec54811b5ac2749233e1ead0efc1c36356",
+      "printed_header": "758",
+      "line_ranges": [
+        [
+          5,
+          17
+        ],
+        [
+          28,
+          35
+        ]
+      ],
+      "finding": "Reinspection confirms exact heading The Distant Consequence, approximately11,400year glyph and beyond-Neptune perihelion wording. Compare779 Extreme Isolation label without replacing the dedicated long-cause/delayed-consequence context. Physical claims and efficacy are not independently validated.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5440.JPG"
+    },
+    {
+      "id": "oct25-deep-1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+      "file_id": "1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+      "image_sha256": "ec801689d33aef038d628e64d83e91d76dac83f76243ba89c79ab40d8068407b",
+      "ocr_output_sha256": "ae7387cc05fb2989c745e06699ecaa5bf04716bb9a6a1d86b8c8b9a882244b54",
+      "printed_header": "759",
+      "line_ranges": [
+        [
+          10,
+          20
+        ]
+      ],
+      "finding": "Reinspection confirms7:23Taurus H10 and conjunctMC wording; no dated ephemeris fixture or exact conjunction orb supplied. Preserve degree/minute glyphs and public-path anecdotal scope.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5441.JPG"
+    },
+    {
+      "id": "oct25-deep-1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+      "file_id": "1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+      "image_sha256": "e4661e8e463776e5a62d49c386359b713aaa91fe0d1179fe8b0002b1d3d9055b",
+      "ocr_output_sha256": "be523bbaea4f82c6e99b7aa5d8da0fab7062db32e21ce7b92a151a2a09ed6e4c",
+      "printed_header": "760",
+      "line_ranges": [
+        [
+          2,
+          8
+        ]
+      ],
+      "finding": "Sedna closing explicitly says consequence not prevention; Sylvia87 Fragmentary Cohesion starts separately. Preserve chapter boundary and do not infer an intervention or prediction method.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5442.jpg"
+    },
+    {
+      "id": "oct25-deep-1OZjxg2K2sVuSBFZ4RF8opw0nEqeW9ihD",
+      "file_id": "1OZjxg2K2sVuSBFZ4RF8opw0nEqeW9ihD",
+      "image_sha256": "9c6d35b1bebe701819856b0627351638e1342efa2a24ae442eccc57bfeaedcd9",
+      "ocr_output_sha256": "c42a8f4b2d54cb9de7107896058be336c01c3df5ca65f4d81e2edcc2d38e02b5",
+      "printed_header": "662",
+      "line_ranges": [
+        [
+          9,
+          15
+        ],
+        [
+          25,
+          32
+        ]
+      ],
+      "finding": "Reinspection confirms90degree Nona relation, explicit notMC/notZenith negations and Venus14:47 versus Nona13:06. Difference1:41 is derived arithmetic, not an exact conjunction or emission orb.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5257.JPG"
+    },
+    {
+      "id": "oct25-deep-1ciMSpdgaJwP7xNqi6DkCk4SNzcBvKJRN",
+      "file_id": "1ciMSpdgaJwP7xNqi6DkCk4SNzcBvKJRN",
+      "image_sha256": "079cbf665567ad691fcf93dfa8ccc24a6b9c99c10cb3ceebe40a1a9a3d4d238f",
+      "ocr_output_sha256": "7672d4a157b65437df31546982aa1f208deb0f16781047b005dc855a0ae620dc",
+      "printed_header": "665",
+      "line_ranges": [
+        [
+          3,
+          10
+        ],
+        [
+          12,
+          17
+        ]
+      ],
+      "finding": "Reinspection confirms CeresRx13:36 versus Subnona13:06,30arcminutes halfdegree. Venus14:47 opposite Ceres13:36 is1:11 from exact opposition; natal association must remain separate from exact transit trigger and no universal30minute point orb follows.",
+      "status": "TARGETED_IMAGE_CHECK_NOT_FULL_PAGE_APPROVAL",
+      "name": "IMG_5260.JPG"
+    }
+  ]
+}

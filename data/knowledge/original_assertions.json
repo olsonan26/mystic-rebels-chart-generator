@@ -5418,6 +5418,423 @@
       "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
       "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
       "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parts670-day-only",
+      "concept_id": "parts-mechanics",
+      "kind": "explicit_convention",
+      "proposition": "Originals670/674 explicitly use Day formulas irrespective of birth time, rejecting Fortune/Spirit night reversal.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Author convention only; independent formula/time/frame tests still required."
+      ],
+      "requires_concepts": [
+        "fortune",
+        "spirit"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1HQO3JnEqmS8lqpGgnNVSmt9lY4Ff6feK",
+          "name": "IMG_5265.JPG",
+          "content_sha256": "6068f6c42f9402618d072b4bd04a9a74896851161e758d9472afad0f10a016da",
+          "original_printed_pages": [
+            "670"
+          ]
+        },
+        {
+          "file_id": "1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+          "name": "IMG_5269.JPG",
+          "content_sha256": "f1ce70f03f659f505d34b3be3d7fa54772cf2dfc2adfc88749881439cadc153d",
+          "original_printed_pages": [
+            "674"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "fortune671-rounded-wrap",
+      "concept_id": "fortune",
+      "kind": "worked_formula_precision",
+      "proposition": "Original671 gives AC+Moon-Sun; rounded133+325-81=377,wrapped17Aries versus actual17:47Aries.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Rounded operands do not recover exact minutes or an independently verified natal fixture."
+      ],
+      "requires_concepts": [
+        "parts-mechanics"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1wFO9BzmMYbn-nGfbQTvMzzHTdnj6DFmq",
+          "name": "IMG_5266.jpg",
+          "content_sha256": "7af04a2c0b21a44a34e2b84f7c842deb09487859794f8793629bf491b99368e0",
+          "original_printed_pages": [
+            "671"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parts673-receiver-exactitude",
+      "concept_id": "parts-mechanics",
+      "kind": "explicit_activation_exclusion",
+      "proposition": "Original673 says Parts do not emit and only react at exactitude;676 distinguishes natal Mercury oppositional scope from Saturn exact transit activation of Spirit.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Natal association is not a transit trigger. No outgoing Part OOI or birth-time-independent exact timing is approved."
+      ],
+      "requires_concepts": [
+        "fortune",
+        "spirit",
+        "forced-contact"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12WOiKVHciVjaEtqLOsT6bi7ak1c4ebtl",
+          "name": "IMG_5268.JPG",
+          "content_sha256": "5611731bad183062138cdfea8f37228a0886e06117a6ad7249f41e03570a3d2f",
+          "original_printed_pages": [
+            "673"
+          ]
+        },
+        {
+          "file_id": "1jx3oYKVB69M2z1YTW6zO0ZYfK5rczUyM",
+          "name": "IMG_5271.JPG",
+          "content_sha256": "1163680134d0d11557fab3b849bbd0ab5eea18a09f0698380c58285ffa2c5e71",
+          "original_printed_pages": [
+            "676"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "spirit674-negative-wrap-error",
+      "concept_id": "spirit",
+      "kind": "printed_arithmetic_counterevidence",
+      "proposition": "Original674 derives133+81-325=-111 but prints111+360=249; correct signed operation is -111+360=249. Original675 distinguishes rounded9Sagittarius from true8:25Sagittarius.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep printed equation and derived arithmetic distinct; no silent source correction, exact fixture, or night reversal."
+      ],
+      "requires_concepts": [
+        "parts-mechanics"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1m1YaXGXhTgc31ZxisLjX3h85yfXdppxT",
+          "name": "IMG_5269.JPG",
+          "content_sha256": "f1ce70f03f659f505d34b3be3d7fa54772cf2dfc2adfc88749881439cadc153d",
+          "original_printed_pages": [
+            "674"
+          ]
+        },
+        {
+          "file_id": "1V3NETrZcXBq718ZPxGZDtN9oTQj07sPj",
+          "name": "IMG_5270.jpg",
+          "content_sha256": "133a537bdfcdfcf80adbf753ce167a63675d4ba77562168a90b78979646feb93",
+          "original_printed_pages": [
+            "675"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parts679-two-stage-expression",
+      "concept_id": "parts-mechanics",
+      "kind": "explicit_context_partition",
+      "proposition": "Originals678-679 give Love=AC+Venus-Sun, admit not testing all Parts and separate formula trigger mechanics from resulting sign/degree/house expression.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not use formula labels as generic meanings or claim every combination validated."
+      ],
+      "requires_concepts": [
+        "love"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1OENqN3UpPIcBefGabCZXHeGY0FRj_y0v",
+          "name": "IMG_5273.JPG",
+          "content_sha256": "bfe63b5abea648525694532088cc1e83fd0aa8d6cbc249ec06ecdfad48833977",
+          "original_printed_pages": [
+            "678"
+          ]
+        },
+        {
+          "file_id": "1X1eKj_hsiMSEhhs-mj7Km_TzI1ampFCr",
+          "name": "IMG_5274.JPG",
+          "content_sha256": "66dbcb00f8a6ffec2fa841c6b7596bc47e2647f24de7cfa727a5c8f865af5c82",
+          "original_printed_pages": [
+            "679"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "nona667-point-from-wording",
+      "concept_id": "nonagesimals",
+      "kind": "point_scope_counterwording",
+      "proposition": "Original667 lists Mercury13:11Pisces Quincunx to Ascendant,Trine from Subnonagesimal,Semi-sextile from Descendant,Sextile to Nonagesimal.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain from-point wording with receiver-only and qualified internal-alignment witnesses; no outgoing point OOI is defined."
+      ],
+      "requires_concepts": [
+        "anchors",
+        "synastry"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1adrYYXe45vvqREdte7gxQMdDB_BzKYVC",
+          "name": "IMG_5262.JPG",
+          "content_sha256": "cb9377b7c03b90bebb10e59f0575b3f27b493bc4d61ff6b62560ea9b1da4f8c2",
+          "original_printed_pages": [
+            "667"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "chiron685-jupiter-path-conflict",
+      "concept_id": "chiron",
+      "kind": "same_page_competing_orbit_wording",
+      "proposition": "Original685 says dips inside Saturn and Jupiter orbits but later says Chiron never reaches Jupiter path either. Diagram labels1979 and1999 while692-693 later names1992 and1999/2000 for Saturn crossing.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve both descriptions and date labels. Schematic paths are not verified3D intersections or ephemeris fixtures."
+      ],
+      "requires_concepts": [
+        "planet-categories"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+          "name": "IMG_5280.jpg",
+          "content_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+          "original_printed_pages": [
+            "685"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "chiron693-crossing-date-scope",
+      "concept_id": "chiron",
+      "kind": "cross_page_date_counterevidence",
+      "proposition": "Originals692-693 name mid1992 and late1999/early2000 Saturn-path crossings,Leo andSagittarius respectively;685 diagram labels1979/1999.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No date can silently replace another; exact definition,frame and numerical orbital verification remain unresolved."
+      ],
+      "requires_concepts": [
+        "planet-categories"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+          "name": "IMG_5287.JPG",
+          "content_sha256": "385f5b0f917914922ea298ed3cfc3ba644ac6d800956c6f5fbcac43e32ae90c5",
+          "original_printed_pages": [
+            "692"
+          ]
+        },
+        {
+          "file_id": "14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn",
+          "name": "IMG_5288.JPG",
+          "content_sha256": "55101afd22cc5cdbfbcd19801411ab914733d9172341da3fa083c58857ae97b5",
+          "original_printed_pages": [
+            "693"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "asteroid781-subjective-ratings",
+      "concept_id": "planet-categories",
+      "kind": "explicit_score_scope",
+      "proposition": "Original781 defines table accuracy scoring by pattern honesty:1-2myth-only/off,3-6word-right/frame-wrong,7-9close.770 gives body-specific scores.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "These are author comparison judgments, not empirical predictive accuracy, confidence or regression pass rates."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JIYX--LDJ3IqAZcrcK7C7Ipmhmz51B4a",
+          "name": "IMG_5453.JPG",
+          "content_sha256": "3f067aa598cc91d5d7344bc74ea18214c5f15d724646aab8f7504723ccdb1a7a",
+          "original_printed_pages": [
+            "770"
+          ]
+        },
+        {
+          "file_id": "1MLX35-iuE5bnAQzizYc0RAykb_XlonKz",
+          "name": "IMG_5464.jpg",
+          "content_sha256": "a3f4bea0e5226f16d92fd9fc30d6250187dd73547f0bd5428677c2ae552a3f8e",
+          "original_printed_pages": [
+            "781"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sedna779-alternate-label",
+      "concept_id": "asteroid-sedna",
+      "kind": "chapter_table_context_variation",
+      "proposition": "Dedicated758 names Sedna The Distant Consequence and759-760 elaborate delayed long-term causes;779 table says Extreme Isolation,Survival at orbital exile.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep both labels/context; do not assert equivalent full meaning or contradiction resolved. No life history,karma forecast or efficacy is established."
+      ],
+      "requires_concepts": [
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1329enTPNl4kMEu9IGuNNrDuKA-3BJlx6",
+          "name": "IMG_5440.JPG",
+          "content_sha256": "834ffa6fd485fddf47e680c59ea7ffce476bc3f7a7cc2231810345859446c73f",
+          "original_printed_pages": [
+            "758"
+          ]
+        },
+        {
+          "file_id": "1UahCXbHLBp4ErScrDk7K7n047nhpci-_",
+          "name": "IMG_5441.JPG",
+          "content_sha256": "ec801689d33aef038d628e64d83e91d76dac83f76243ba89c79ab40d8068407b",
+          "original_printed_pages": [
+            "759"
+          ]
+        },
+        {
+          "file_id": "1lFoA7ZuXHhMlFupk7LbaUtNCsprDwQ2e",
+          "name": "IMG_5442.jpg",
+          "content_sha256": "e4661e8e463776e5a62d49c386359b713aaa91fe0d1179fe8b0002b1d3d9055b",
+          "original_printed_pages": [
+            "760"
+          ]
+        },
+        {
+          "file_id": "1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh",
+          "name": "IMG_5462.JPG",
+          "content_sha256": "d094358b1eeeff97adb67a0007340d3a4173ca25dab92eac9ed8dc64542a4a1f",
+          "original_printed_pages": [
+            "779"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "varuna766-pregrade-example",
+      "concept_id": "asteroid-varuna",
+      "kind": "scoped_degree_phase_example",
+      "proposition": "Original766 gives Varuna16:35Gemini H11,Pregrade,Leo degree;767 interprets noticing imperfection while allowing revision.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Example cannot establish complete Pregrade boundary algorithm or resolve all Spark sign/house conflicts."
+      ],
+      "requires_concepts": [
+        "gradity-context",
+        "spark-entry"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1I8H381A5_9olyM_l55cy0wR5Um714lcc",
+          "name": "IMG_5449.JPG",
+          "content_sha256": "cc19fa8db3cabb496219a45eb92abdbfedc212d25c6eaef2dc7d789148e6d286",
+          "original_printed_pages": [
+            "766"
+          ]
+        },
+        {
+          "file_id": "1KH8yG4U7Aootwx95dWVnopcfkZF5Gbst",
+          "name": "IMG_5450.JPG",
+          "content_sha256": "4d290debcacff20c94a949ea7f77dc88660dfb8f48be62cc1e74f226364fda96",
+          "original_printed_pages": [
+            "767"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation786-no-best-line",
+      "concept_id": "relocation",
+      "kind": "explicit_ranking_exclusion",
+      "proposition": "Originals785-786 retain natal core with locational outer layer and reject universally best planet lines or generic benefic/malefic ranking.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No distance threshold,activation solver or individualized travel recommendation follows."
+      ],
+      "requires_concepts": [
+        "remote-activation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1BL2arS32DsGFqTdp82yufuyrBRA-U2--",
+          "name": "IMG_5467.JPG",
+          "content_sha256": "0988c7db546197a5b917e427f648484e6d166cfa1b2de431d31c8432d22f3e2e",
+          "original_printed_pages": [
+            "785"
+          ]
+        },
+        {
+          "file_id": "1PEkEOfbPH8MyKPnNcOBFuWSJvlsPiSrp",
+          "name": "IMG_5468.JPG",
+          "content_sha256": "0faedd03c38a807bc3ca4f24c7520e41f9acea25660884024ea1aef4675bf5e6",
+          "original_printed_pages": [
+            "786"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
     }
   ]
 }
