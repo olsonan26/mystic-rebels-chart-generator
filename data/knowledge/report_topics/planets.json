@@ -10,12 +10,15 @@
     "empirical_accuracy_validated": false,
     "private_originals_pdf_ocr_indexes_included": false,
     "canonical_json_is_authority": true,
+    "source_reference_use_allowed": true,
+    "eligible_chart_vocabulary_annotations_allowed": true,
+    "personal_interpretation_approval_is_separate": true,
     "rules": [
       "Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.",
       "Preserve every applicable original assertion and contradictory witness; never rank conflicts away.",
       "Resolve report-section transitive dependencies and required chart facts before synthesis.",
       "Source vocabulary and exact calculations do not establish empirical outcome accuracy.",
-      "Respect NOT_APPROVED, non-executable, incomplete, contradictory and unready statuses.",
+      "NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.",
       "An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.",
       "Do not fill missing vocabulary or rules from generic astrology or a model prior.",
       "A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media."

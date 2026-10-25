@@ -1,0 +1,9 @@
+{
+  "chart_context": "natal",
+  "placements": [
+    {"body": "Moon", "sign": "Cancer", "house": 7},
+    {"body": "Juno", "sign": "Taurus", "house": 10},
+    {"body": "Chiron", "sign": "Aries", "house": 5},
+    {"body": "Eunomia", "sign": "Virgo", "house": 4}
+  ]
+}

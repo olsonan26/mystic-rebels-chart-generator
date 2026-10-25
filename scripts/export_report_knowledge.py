@@ -6,9 +6,12 @@ adds interpretations, or includes private source images, PDF, OCR or indexes.
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from knowledge_audit.report_components import usage_catalog
 BRANCH = 'codex/methodology-verification-20261024'
 REPOSITORY = 'https://github.com/olsonan26/mystic-rebels-chart-generator'
 SOURCES = {
@@ -61,12 +64,15 @@ def build():
         personal_answer_approved=False, empirical_accuracy_validated=False,
         private_originals_pdf_ocr_indexes_included=False,
         canonical_json_is_authority=True,
+        source_reference_use_allowed=True,
+        eligible_chart_vocabulary_annotations_allowed=True,
+        personal_interpretation_approval_is_separate=True,
         rules=[
             'Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.',
             'Preserve every applicable original assertion and contradictory witness; never rank conflicts away.',
             'Resolve report-section transitive dependencies and required chart facts before synthesis.',
             'Source vocabulary and exact calculations do not establish empirical outcome accuracy.',
-            'Respect NOT_APPROVED, non-executable, incomplete, contradictory and unready statuses.',
+            'NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.',
             'An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.',
             'Do not fill missing vocabulary or rules from generic astrology or a model prior.',
             'A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media.',
@@ -89,6 +95,9 @@ def build():
             outstanding='Unreviewed images, failed OCR and unresolved semantic/numerical conflicts remain; consult the current audit checkpoint and exact queues for counts.',
             implementation='Report synthesis and the chart-context graph remain absent; all 18 report sections are unready.'),
         authorities=authorities, documents=documents)
+    catalog=usage_catalog(documents['concepts'],documents['assertions'],documents['findings'])
+    catalog_path='data/knowledge/report_component_use.json'
+    catalog_bytes=encode(catalog)
     bundle_path='data/knowledge/report_knowledge_bundle.json'
     manifest=dict(schema_version='1.0',contract=contract,counts=counts,topic_routes=routes,
         bundle=dict(path=bundle_path,sha256=hashlib.sha256(encode(bundle)).hexdigest()),
@@ -98,7 +107,11 @@ def build():
         source_checkpoint='evidence/source-pipeline/closing-next-verification.json',
         rebuild_command='python scripts/export_report_knowledge.py',
         check_command='python scripts/export_report_knowledge.py --check')
-    outputs={bundle_path:encode(bundle)}
+    manifest['component_use']=dict(path=catalog_path,sha256=hashlib.sha256(catalog_bytes).hexdigest(),
+        counts=catalog['counts'],source_reference_use_allowed=True,
+        annotation_command='python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown',
+        personal_report_approved=False)
+    outputs={bundle_path:encode(bundle),catalog_path:catalog_bytes}
     by_id={r['id']:r for r in records}
     manifest['topic_packets']={}
     for topic, initial in routes.items():

@@ -1,0 +1,604 @@
+{
+  "scope": "CITED_NATAL_CHART_VOCABULARY_ANNOTATIONS",
+  "status": "ANNOTATIONS_WITH_EXPLICIT_GAPS",
+  "annotations": [
+    {
+      "chart_fact": {
+        "body": "Moon",
+        "sign": "Cancer",
+        "house": 7
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "meaning-moon",
+          "source_text": "Safety, emotional relationship, familiarity, memory, nurturing and personal needs.",
+          "wording": "In this source: Safety, emotional relationship, familiarity, memory, nurturing and personal needs.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 193,
+              "reflow_footer": 197,
+              "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 232,
+              "reflow_footer": 236,
+              "page_text_sha256": "ea8dcdcb48a158a3541d5ca59a50df9a09bd0a3ae4f276a91ec0870178734d64"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "moon582-four-related-layers",
+              "proposition": "Original582requiresH4,H4delegate,CancerhouseandMoonforlunarRelatedEnergies;583extendsrelatedcontexttoallrulingplanets/houses/signsandcosmicCancerconditions.",
+              "file_id": "1I6TtM_5kUKayniXA71LxbTy_7APPaYPd",
+              "name": "IMG_5047.JPG",
+              "content_sha256": "9c28e8c7298221a723ef8fd197d44d5af8210f7e904f61a4bd951fcb44693758",
+              "original_printed_pages": [
+                "582"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "moon582-four-related-layers",
+              "proposition": "Original582requiresH4,H4delegate,CancerhouseandMoonforlunarRelatedEnergies;583extendsrelatedcontexttoallrulingplanets/houses/signsandcosmicCancerconditions.",
+              "file_id": "1dB6a7ZzyjoRnQx006HwHGZCi84PQhT31",
+              "name": "IMG_5048.JPG",
+              "content_sha256": "d8263317655b8d6994b111a13c05c5a10e7984f294ac0db4a457ac4446823400",
+              "original_printed_pages": [
+                "583"
+              ]
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "planet-lexicon"
+          ],
+          "findings": [],
+          "report_gap": "No contextual Moon meaning record is consumed by the chart/report runtime."
+        },
+        {
+          "concept_id": "field-07",
+          "source_text": "The source life-area sequence includes: Relating, exchange, outward value and design.",
+          "wording": "In this source: The source life-area sequence includes: Relating, exchange, outward value and design.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        }
+      ],
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Juno",
+        "sign": "Taurus",
+        "house": 10
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "asteroid-juno",
+          "source_text": "Conditions of commitment across work, family or partners; revisiting commitment in the Rx example.",
+          "wording": "In this source: Conditions of commitment across work, family or partners; revisiting commitment in the Rx example.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 615,
+              "reflow_footer": 619,
+              "page_text_sha256": "5a80cee4bd2c5b391d52c372a5c7b9def41d5e42f615482e99a1c862c1dae047"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 616,
+              "reflow_footer": 620,
+              "page_text_sha256": "ae0f70a028bc60b965779ca3a983112350aa461d7c66747363e22a38cf801fa4"
+            },
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 630,
+              "reflow_footer": 634,
+              "page_text_sha256": "3948f7f4538c5eddcbc6db03b7b447dccf7d9858fdfbfb7157338859e504c42d"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1lNUpt3qyDiTzdLfb6PcZRwCpKWDcEHaU",
+              "name": "IMG_5416.JPG",
+              "content_sha256": "247b51374702ceaefa711453859c6d08b65c41431ee664d21895b6bb7e17e9b2",
+              "original_printed_pages": [
+                "735"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1hFGbk9rqtbKhAvjoIPIkBOKJMGrk5Mfm",
+              "name": "IMG_5417.JPG",
+              "content_sha256": "735af7621888451e363ea502d3a6636f0083b9cae839089d852eb84e9b865225",
+              "original_printed_pages": [
+                "736"
+              ]
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "juno-excludes-infidelity-tracking",
+              "proposition": "Juno describes conditions and scope for commitment rather than a partner identity or infidelity tracker.",
+              "file_id": "1KRCsen0JmGVXWM8CVqp3_vSLjfidkBGW",
+              "name": "IMG_5418.JPG",
+              "content_sha256": "4e3a8378cb0d62f57220e3ae8157fbd7472702914e3679defb73bf6209da2df3",
+              "original_printed_pages": [
+                "737"
+              ]
+            }
+          ],
+          "exceptions": [
+            "Do not infer a complete OOI, event algorithm or personal history from this meaning."
+          ],
+          "dependencies": [
+            "phsr"
+          ],
+          "findings": [],
+          "report_gap": "Numerical catalog inclusion, if available, does not supply this contextual meaning to reports."
+        },
+        {
+          "concept_id": "field-10",
+          "source_text": "The source life-area sequence includes: Structure, accomplishment, public responsibility and reputation.",
+          "wording": "In this source: The source life-area sequence includes: Structure, accomplishment, public responsibility and reputation.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        }
+      ],
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Chiron",
+        "sign": "Aries",
+        "house": 5
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "field-05",
+          "source_text": "The source life-area sequence includes: Expression, play, purpose, romance and children.",
+          "wording": "In this source: The source life-area sequence includes: Expression, play, purpose, romance and children.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            },
+            {
+              "kind": "ORIGINAL_ASSERTION_WITNESS",
+              "assertion_id": "father419-fifth-authority-tenth",
+              "proposition": "Original419 assigns father to5thhouse and10thhouse to parents as authority/discipline rather than a specific parent.",
+              "file_id": "18m0sz1rGjGZSfDKNstDsFwNTojWsdTHm",
+              "name": "IMG_4853.jpg",
+              "content_sha256": "3bd3f57d2ab674b0d1d2ab3cc927621b645726a3673e8e17ff57eb3dc951e3be",
+              "original_printed_pages": [
+                "419"
+              ]
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        }
+      ],
+      "combined_personal_interpretation": null
+    },
+    {
+      "chart_fact": {
+        "body": "Eunomia",
+        "sign": "Virgo",
+        "house": 4
+      },
+      "fact_provenance": "CALLER_SUPPLIED_NOT_RECALCULATED_OR_INDEPENDENTLY_VERIFIED",
+      "source_vocabulary": [
+        {
+          "concept_id": "field-04",
+          "source_text": "The source life-area sequence includes: Personal safety, nurturing, home and emotional roots.",
+          "wording": "In this source: The source life-area sequence includes: Personal safety, nurturing, home and emotional roots.",
+          "citations": [
+            {
+              "kind": "COMPILED_PDF",
+              "source_id": "pure-reflow-9d5fb55c",
+              "pdf_page": 384,
+              "reflow_footer": 388,
+              "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+            }
+          ],
+          "exceptions": [],
+          "dependencies": [
+            "house-field"
+          ],
+          "findings": [],
+          "report_gap": "No house-theme synthesis with occupied planets, actual sign and Delegate condition."
+        }
+      ],
+      "combined_personal_interpretation": null
+    }
+  ],
+  "gaps": [
+    {
+      "body": "Moon",
+      "kind": "SIGN_VOCABULARY_NOT_COMPLETE",
+      "sign": "Cancer",
+      "detail": "Sign preserved as a chart fact; no sign interpretation or sign/body synthesis generated."
+    },
+    {
+      "body": "Juno",
+      "kind": "SIGN_VOCABULARY_NOT_COMPLETE",
+      "sign": "Taurus",
+      "detail": "Sign preserved as a chart fact; no sign interpretation or sign/body synthesis generated."
+    },
+    {
+      "body": "Chiron",
+      "concept_id": "chiron",
+      "kind": "INCOMPLETE_REFERENCE_ONLY",
+      "detail": "Chiron position exists; its author-specific meaning and context do not.",
+      "findings": [
+        {
+          "id": "chiron-saturn-aspect",
+          "concept_ids": [
+            "chiron"
+          ],
+          "status": "DRAWN_SEXTILE_GEOMETRY_RESOLVED_TRINE_SENTENCE_RETAINED",
+          "finding": "Original687 shows Saturn19:07 Sagittarius and Chiron19:18 AquariusRx, giving a shortest longitude separation of60:11. This supports the687 sextile label. Original688's first sentence says trine. The chart-based branch is recoverable without guessing a birth epoch; the sentence disagreement remains in the source.",
+          "assertion_ids": [
+            "chiron687-chart-geometry",
+            "chiron-original-aspect-conflict"
+          ],
+          "annotation_ids": [
+            "chiron687-sextile",
+            "chiron688-trine"
+          ],
+          "diagram_checks": [
+            {
+              "original_page": "687",
+              "saturn_sign": "Sagittarius",
+              "saturn_degree": "19:07",
+              "chiron_sign": "Aquarius",
+              "chiron_degree": "19:18",
+              "shortest_separation": "60:11"
+            }
+          ],
+          "remaining": "This is arithmetic from the printed chart, not an independent ephemeris fixture or author-issued erratum.",
+          "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+        },
+        {
+          "id": "chiron685-orbit-wording",
+          "concept_ids": [
+            "chiron"
+          ],
+          "status": "SAME_PAGE_JUPITER_SCOPE_AND_CROSS_PAGE_DATE_TENSION",
+          "finding": "685 says inside Jupiter orbit then never reaches Jupiter path; diagram1979/1999 and692-693 prose1992/1999-2000 remain distinct.",
+          "assertion_ids": [
+            "chiron685-jupiter-path-conflict",
+            "chiron693-crossing-date-scope"
+          ],
+          "annotation_ids": [
+            "oct25-next-audit-1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+            "oct25-next-audit-1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+            "oct25-next-audit-14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn"
+          ],
+          "remaining": "Author clarification and independently defined orbital/frame calculation required; schematic crossing is not a3D encounter.",
+          "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+        }
+      ],
+      "reference_meaning": "The source rejects the automatic wounded-healer narrative and emphasizes comparison, ill-fitting structures, and finding an individual way.",
+      "reference_citations": [
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 564,
+          "reflow_footer": 568,
+          "page_text_sha256": "7fc5b0011ff849f66c4c53310b8933a2b3a9da5c362ca8de9735e7bdc8f856c1"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 565,
+          "reflow_footer": 569,
+          "page_text_sha256": "fd683f76174a80ea94a461b23056d4d072eb5ef5a22acc82538876cfe70e9f94"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 566,
+          "reflow_footer": 570,
+          "page_text_sha256": "3fb8d471c2413c8dc661def23f4e48d252f8fbbf03cc792acfd22b97fda8216c"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 567,
+          "reflow_footer": 571,
+          "page_text_sha256": "e6d7c566189b63ee6b007917c63267e2ed185f573a9f7ed47709f7aab6b67340"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 568,
+          "reflow_footer": 572,
+          "page_text_sha256": "88d4cff9e41092f01bb9c3ebf3cc90ff6e7667c13ab0ad1f272d5472bf107ffc"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 576,
+          "reflow_footer": 580,
+          "page_text_sha256": "9a75f44dc00a94bfc52c7ee5102d3e8f5c75cb44eb1625c2f54aecca021f0ea5"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 577,
+          "reflow_footer": 581,
+          "page_text_sha256": "d6df00a715d027cd05a05dcb6620a678debe9ad1aa1e70ff38d171c9eb15c82c"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 578,
+          "reflow_footer": 582,
+          "page_text_sha256": "d069a4f45937cb7fa5966a7b7828baf659ce89a81460cdd2dbcfb0fb021f6001"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 628,
+          "reflow_footer": 632,
+          "page_text_sha256": "2843bad6730c965dd526883cac6a534ce26084da90d5906b0fc1e0f3f26a9d4d"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron-original-degree",
+          "proposition": "Original diagram19:18Rx agrees with rounded prose19; the compiled14:22 description is wrong.",
+          "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+          "content_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+          "original_printed_pages": [
+            "687"
+          ],
+          "name": "IMG_5282.jpg"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron-original-degree",
+          "proposition": "Original diagram19:18Rx agrees with rounded prose19; the compiled14:22 description is wrong.",
+          "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+          "content_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+          "original_printed_pages": [
+            "688"
+          ],
+          "name": "IMG_5283.jpg"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron-original-aspect-conflict",
+          "proposition": "The original calls the Saturn relationship sextile on687 and trine on688.",
+          "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+          "content_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+          "original_printed_pages": [
+            "687"
+          ],
+          "name": "IMG_5282.jpg"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron-original-aspect-conflict",
+          "proposition": "The original calls the Saturn relationship sextile on687 and trine on688.",
+          "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+          "content_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+          "original_printed_pages": [
+            "688"
+          ],
+          "name": "IMG_5283.jpg"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron687-chart-geometry",
+          "proposition": "Inspected687 chart shows Saturn19:07 Sagittarius and Chiron19:18 Aquarius: shortest separation60:11, supporting the687 sextile label.",
+          "file_id": "1uKD9hPDb-iqXZ1BZibFONGyTEF7016Ku",
+          "name": "IMG_5282.jpg",
+          "content_sha256": "378a85be7d7d10f0af6e104d89063d6e00befcf16ededbf8fdafb92dd669c18b",
+          "original_printed_pages": [
+            "687"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron687-chart-geometry",
+          "proposition": "Inspected687 chart shows Saturn19:07 Sagittarius and Chiron19:18 Aquarius: shortest separation60:11, supporting the687 sextile label.",
+          "file_id": "1JGA8LWu2DVCpi4gJ7MSKaGZHUvmltibU",
+          "name": "IMG_5283.jpg",
+          "content_sha256": "3c1eecfd24c8c4629918f0a78c667d6c05ec1caff8fe75d543b5a2f011876d77",
+          "original_printed_pages": [
+            "688"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron685-jupiter-path-conflict",
+          "proposition": "Original685 says dips inside Saturn and Jupiter orbits but later says Chiron never reaches Jupiter path either. Diagram labels1979 and1999 while692-693 later names1992 and1999/2000 for Saturn crossing.",
+          "file_id": "1Y3H_7w0M1TVjQYRmkYrZ_UTYvjxjWYYT",
+          "name": "IMG_5280.jpg",
+          "content_sha256": "c6b8adf1e848968d01363ec9657e2003ca431cd77c04960280b8f782133302f7",
+          "original_printed_pages": [
+            "685"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron693-crossing-date-scope",
+          "proposition": "Originals692-693 name mid1992 and late1999/early2000 Saturn-path crossings,Leo andSagittarius respectively;685 diagram labels1979/1999.",
+          "file_id": "1xsRNbpubG4fLC2Y4nNMEEUkguJb4VNGe",
+          "name": "IMG_5287.JPG",
+          "content_sha256": "385f5b0f917914922ea298ed3cfc3ba644ac6d800956c6f5fbcac43e32ae90c5",
+          "original_printed_pages": [
+            "692"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "chiron693-crossing-date-scope",
+          "proposition": "Originals692-693 name mid1992 and late1999/early2000 Saturn-path crossings,Leo andSagittarius respectively;685 diagram labels1979/1999.",
+          "file_id": "14INQZNo6H7hwfJ-0mu-1bqUX1QyO9yHn",
+          "name": "IMG_5288.JPG",
+          "content_sha256": "55101afd22cc5cdbfbcd19801411ab914733d9172341da3fa083c58857ae97b5",
+          "original_printed_pages": [
+            "693"
+          ]
+        }
+      ],
+      "reference_exceptions": [
+        "The source explicitly marks original page686 missing.",
+        "Michael Jackson example conflicts on 14:22 versus19 degrees and Saturn sextile versus trine.",
+        "Parenting anecdotes do not establish a user's medical condition or history."
+      ],
+      "note": "Reference only; no single resolved chart interpretation has been selected."
+    },
+    {
+      "body": "Chiron",
+      "kind": "SIGN_VOCABULARY_NOT_COMPLETE",
+      "sign": "Aries",
+      "detail": "Sign preserved as a chart fact; no sign interpretation or sign/body synthesis generated."
+    },
+    {
+      "body": "Eunomia",
+      "concept_id": "asteroid-eunomia",
+      "kind": "CONFLICT_REFERENCE_ONLY",
+      "detail": "Numerical catalog inclusion, if available, does not supply this contextual meaning to reports.",
+      "findings": [
+        {
+          "id": "eunomia-two-meanings",
+          "concept_ids": [
+            "asteroid-eunomia"
+          ],
+          "status": "BOTH_ORIGINAL_MEANINGS_STORED_PRECEDENCE_UNRESOLVED",
+          "finding": "Original712 explicitly rejects order and describes resilience of the exposed surviving core. Original772 explicitly places Functional Order under We say and distinguishes it from mythological social order. This is not a They say/We say misreading; both are creator-authored claims and both are stored.",
+          "assertion_ids": [
+            "eunomia-surviving-core",
+            "eunomia-functional-order"
+          ],
+          "annotation_ids": [
+            "eunomia712-main",
+            "eunomia772-comparison"
+          ],
+          "remaining": "No explicit precedence or correction was located. Do not infer a combined personal reading from contradictory source meanings.",
+          "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+        }
+      ],
+      "reference_meaning": "Main passage describes exposed resilient core after loss; comparison table instead labels functional order.",
+      "reference_citations": [
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 603,
+          "reflow_footer": 607,
+          "page_text_sha256": "c63c90434b4a5bedff0c7986b48a4c2b0b55a08a00a59189f995b1ff2176674a"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 604,
+          "reflow_footer": 608,
+          "page_text_sha256": "5328671db0a9ba6bd3e6edb5f96ed053c74b17eb80c959f3c95ee25c583122f5"
+        },
+        {
+          "kind": "COMPILED_PDF",
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 629,
+          "reflow_footer": 633,
+          "page_text_sha256": "fa398a4e69dab10b610c3bca10ef5c1716be24ac2c6156364ec337202a5687ca"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "eunomia-surviving-core",
+          "proposition": "The main chapter describes an exposed resilient core surviving loss and explicitly rejects order/fairness as its meaning.",
+          "file_id": "14SIgxmry-zj8gjw5QPXjsNwXoytyLjKx",
+          "content_sha256": "764ddd45da4fdee3d474c24caaec4750ca17449362cfd057b0ec7c48136794bb",
+          "original_printed_pages": [
+            "711"
+          ],
+          "name": "IMG_5392.JPG"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "eunomia-surviving-core",
+          "proposition": "The main chapter describes an exposed resilient core surviving loss and explicitly rejects order/fairness as its meaning.",
+          "file_id": "1SV6x2TU2sJ6XKqA9AbwgNvQ2z39Lsjr2",
+          "content_sha256": "3070d80215980114029d16fe69b877fa390a276246b75a3a615c16f2ef967625",
+          "original_printed_pages": [
+            "712"
+          ],
+          "name": "IMG_5393.JPG"
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "eunomia-functional-order",
+          "proposition": "The comparative entry assigns Eunomia functional order and systems working by design.",
+          "file_id": "1MOC4SfJEwtBYZn2JFzVoiOdno8coPjRV",
+          "content_sha256": "c598b66910a1439e72f869afa3ec90a34d56951b0e8a5323d95a9b27d1f68f08",
+          "original_printed_pages": [
+            "772"
+          ],
+          "name": "IMG_5455.JPG"
+        }
+      ],
+      "reference_exceptions": [
+        "Do not infer a complete OOI, event algorithm or personal history from this meaning.",
+        "Do not silently merge the main passage and comparative-table definitions; original scans must settle scope."
+      ],
+      "note": "Reference only; no single resolved chart interpretation has been selected."
+    },
+    {
+      "body": "Eunomia",
+      "kind": "SIGN_VOCABULARY_NOT_COMPLETE",
+      "sign": "Virgo",
+      "detail": "Sign preserved as a chart fact; no sign interpretation or sign/body synthesis generated."
+    }
+  ],
+  "personal_report_generated": false,
+  "personal_traits_inferred": false,
+  "astronomical_input_verified": false,
+  "empirical_accuracy_validated": false,
+  "synthesis_limit": "These are separate source meanings attached to supplied placements, not a combined interpretation of a person."
+}

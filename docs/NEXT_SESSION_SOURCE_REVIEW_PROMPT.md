@@ -1,3 +1,9 @@
+## Latest component-use update
+
+The user asked to make supported meanings usable by an external report-building agent. See [REPORT_COMPONENT_USE.md](REPORT_COMPONENT_USE.md), `data/knowledge/report_component_use.json` and `scripts/annotate_chart_sources.py`. The annotation mode supports47 cited vocabulary components, while preserving19 incomplete,3 conflicting and62 context/technique reference records. Canonical source statuses and all18 complete-report readiness gates remain unchanged. No personal traits, missing sign meanings or unresolved formulas are invented. Regenerate/check the catalog through `scripts/export_report_knowledge.py` after each audit. Preserve the separate Norfolk worktree and no-deployment boundary.
+
+---
+
 ## Latest knowledge-discovery update
 
 Start external repository readers with [REPORT_KNOWLEDGE_START_HERE.md](../REPORT_KNOWLEDGE_START_HERE.md) and `data/knowledge/report_knowledge_manifest.json`. The default main snapshot is the227-file/one-commit calculation tool; the required knowledge ref is codex/methodology-verification-20261024. The user explicitly asked to make the report knowledge available on GitHub, and the destination/repo access was verified. Current remote publication is verified separately; older pending-push notes below describe their checkpoints. Do not change main or deploy. Regenerate and check `scripts/export_report_knowledge.py` after any canonical source changes. Existing report-readiness gates and the separate Norfolk worktree remain unchanged.

@@ -1,0 +1,66 @@
+{
+  "status": "VERIFIED_USABLE_SOURCE_COMPONENT_CONTRACT_AND_ANNOTATION_CLI",
+  "starting_commit": "ae1706dece36b32292e6e0cfb72dc9f5566adf7c",
+  "required_branch": "codex/methodology-verification-20261024",
+  "counts": {
+    "total_components": 131,
+    "annotation_available": 47,
+    "statuses": {
+      "CONTEXT_OR_TECHNIQUE_REFERENCE_ONLY": 62,
+      "CITED_VOCABULARY_ANNOTATION_AVAILABLE": 47,
+      "CONFLICT_REFERENCE_ONLY": 3,
+      "INCOMPLETE_REFERENCE_ONLY": 19
+    }
+  },
+  "canonical_source_records_unchanged": true,
+  "personal_answer_and_complete_report_flags_unchanged": true,
+  "source_reference_use_explicit": true,
+  "annotation_mode": "CITED_NATAL_CHART_VOCABULARY_ANNOTATIONS",
+  "input_facts_independently_validated": false,
+  "personal_report_or_traits_generated": false,
+  "sign_dictionary_completed": false,
+  "conflicting_definitions_resolved": false,
+  "private_source_media_published": false,
+  "product_api_or_ui_changed": false,
+  "deployed": false,
+  "tests": {
+    "path": "evidence/source-pipeline/report-component-use-tests.xml",
+    "sha256": "88135a903071b4b53be03c87a317331dacb65e0d9134e8d0f70b65f85838c317",
+    "passed": 21,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "demonstration": {
+    "input": "examples/report-source-input.json",
+    "json": "evidence/source-pipeline/report-component-demo.json",
+    "markdown": "evidence/source-pipeline/report-component-demo.md",
+    "caller_supplied_illustrative_facts_not_personal_birth_data": true
+  },
+  "component_catalog": {
+    "path": "data/knowledge/report_component_use.json",
+    "sha256": "dec96c0e60bf09c692aebe620d35551a1e315a26899f1a978990d23dec9832e4",
+    "counts": {
+      "total_components": 131,
+      "annotation_available": 47,
+      "statuses": {
+        "CONTEXT_OR_TECHNIQUE_REFERENCE_ONLY": 62,
+        "CITED_VOCABULARY_ANNOTATION_AVAILABLE": 47,
+        "CONFLICT_REFERENCE_ONLY": 3,
+        "INCOMPLETE_REFERENCE_ONLY": 19
+      }
+    },
+    "source_reference_use_allowed": true,
+    "annotation_command": "python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown",
+    "personal_report_approved": false
+  },
+  "local_links_verified": 400,
+  "protected_existing_norfolk_worktree_sha256": {
+    "data/locations-manifest.json": "665cabc4d9d54a5bbcefa3c12c493fed0771655bff63aa9c8b4670308e4f4f8a",
+    "data/locations.json.gz": "e394c4b82e2df3768905b9b34c6e05c815e9253edbfba90eefc4b0662e8aea03",
+    "mystic_rebels/api.py": "c6d7601416534a5b4c30b1978e1168fc2ebdeef77a107919bcf9d92108b0bf9c",
+    "scripts/provision_locations.py": "ccb08ec762a9dd5cd21d14d9714100ea05721ee2f77d23093ff365622b1b4294",
+    "astronomy_qa/test_locations.py": "693ca1009375c69d64950e86c366d2c392ad980b51f0061836f12c881c7e6235"
+  },
+  "master_sha256": "4b1bb330bf139a8f82d625adc31e76d508aa154c0744c971836f3ded40e49891"
+}

@@ -10,12 +10,15 @@
     "empirical_accuracy_validated": false,
     "private_originals_pdf_ocr_indexes_included": false,
     "canonical_json_is_authority": true,
+    "source_reference_use_allowed": true,
+    "eligible_chart_vocabulary_annotations_allowed": true,
+    "personal_interpretation_approval_is_separate": true,
     "rules": [
       "Read meaning_summary together with exceptions, dependencies, witnesses and linked findings.",
       "Preserve every applicable original assertion and contradictory witness; never rank conflicts away.",
       "Resolve report-section transitive dependencies and required chart facts before synthesis.",
       "Source vocabulary and exact calculations do not establish empirical outcome accuracy.",
-      "Respect NOT_APPROVED, non-executable, incomplete, contradictory and unready statuses.",
+      "NOT_APPROVED blocks unvalidated personal interpretation, not attributed source reading or eligible vocabulary annotations. Use the component-use catalog; never override execution or complete-report gates.",
       "An author anecdote is not a fact about a report user; do not invent personal history or health conclusions.",
       "Do not fill missing vocabulary or rules from generic astrology or a model prior.",
       "A GitHub-only export retains reviewed text and citation metadata, not independently inspectable source media."
@@ -140,7 +143,7 @@
   },
   "bundle": {
     "path": "data/knowledge/report_knowledge_bundle.json",
-    "sha256": "bc25f47fa0b9b9c63f19168d4ebaf60b06e3ab2871d68bd844a06afd794b0eea"
+    "sha256": "025d9800ad82062c69041568d28c91e1dfd476f3e0754d5886554b80f27ddd74"
   },
   "authorities": {
     "concepts": {
@@ -194,59 +197,76 @@
   "source_checkpoint": "evidence/source-pipeline/closing-next-verification.json",
   "rebuild_command": "python scripts/export_report_knowledge.py",
   "check_command": "python scripts/export_report_knowledge.py --check",
+  "component_use": {
+    "path": "data/knowledge/report_component_use.json",
+    "sha256": "dec96c0e60bf09c692aebe620d35551a1e315a26899f1a978990d23dec9832e4",
+    "counts": {
+      "total_components": 131,
+      "annotation_available": 47,
+      "statuses": {
+        "CONTEXT_OR_TECHNIQUE_REFERENCE_ONLY": 62,
+        "CITED_VOCABULARY_ANNOTATION_AVAILABLE": 47,
+        "CONFLICT_REFERENCE_ONLY": 3,
+        "INCOMPLETE_REFERENCE_ONLY": 19
+      }
+    },
+    "source_reference_use_allowed": true,
+    "annotation_command": "python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown",
+    "personal_report_approved": false
+  },
   "topic_packets": {
     "planets": {
       "path": "data/knowledge/report_topics/planets.json",
-      "bytes": 468426,
-      "sha256": "310f8d6cfda98e2e021646a858cec210f7b22e44076e04aaeb4f9f54ba2ffe17",
+      "bytes": 468704,
+      "sha256": "d486e1cf0c38086456b9886b4106629221233b2d38212f11cd8299a6803914cd",
       "concepts": 58,
       "assertions": 202,
       "findings": 43
     },
     "houses": {
       "path": "data/knowledge/report_topics/houses.json",
-      "bytes": 466987,
-      "sha256": "c0cd1936e4e2e0db051d4432e71d342321059564d27ddfaf54e1b08c70dbbef8",
+      "bytes": 467265,
+      "sha256": "86fd76d95b7ad8cd4640fab77ea146c5923658dd5fee764f9aff60e94b82c5f2",
       "concepts": 61,
       "assertions": 200,
       "findings": 43
     },
     "sign_degree_decan_context": {
       "path": "data/knowledge/report_topics/sign_degree_decan_context.json",
-      "bytes": 451534,
-      "sha256": "4a8d8055018da3489940916be548cb913bae865b524fae990450221de4e90cb5",
+      "bytes": 451812,
+      "sha256": "0bba12661fbd78986b1c3feac540e0c2c01a5521073df5b6a009524c00ee9856",
       "concepts": 48,
       "assertions": 199,
       "findings": 43
     },
     "cusps": {
       "path": "data/knowledge/report_topics/cusps.json",
-      "bytes": 451479,
-      "sha256": "af6fc7d2c4773067a9f45d11e1b134820f1d521c3d55b3759675ee5b295c9055",
+      "bytes": 451757,
+      "sha256": "8092752bf99cd0015e3b60c15667ada12d414c2102c65a1a7eeb4b7f36d470ce",
       "concepts": 48,
       "assertions": 199,
       "findings": 43
     },
     "aspects": {
       "path": "data/knowledge/report_topics/aspects.json",
-      "bytes": 451617,
-      "sha256": "b447b9317be099ce0677b871317cddf8276965083d6c352f510e0207a804dba8",
+      "bytes": 451895,
+      "sha256": "4d0c40951b68812adb4cdb21a5ab3d46c8d2fe742c18535efb0143dc4c6b7c4d",
       "concepts": 48,
       "assertions": 199,
       "findings": 43
     },
     "asteroids": {
       "path": "data/knowledge/report_topics/asteroids.json",
-      "bytes": 561800,
-      "sha256": "22825c9e6c7f98d04c3c70077d70ab56788de4c9f398d1dbd9e5b0b31ff568f8",
+      "bytes": 562078,
+      "sha256": "8203f85bc9f8331a9a97a2c962db15b93c9bc419359f495f037cf2dd38052cc0",
       "concepts": 93,
       "assertions": 227,
       "findings": 47
     },
     "report_context": {
       "path": "data/knowledge/report_topics/report_context.json",
-      "bytes": 451540,
-      "sha256": "1a611a5c9f0c8e8067cfd89be3f959ac6d7bd49238ce206740644854ac845eff",
+      "bytes": 451818,
+      "sha256": "d4d9b7a4fbb56cb12a7b423e44cb8fcb0558a7d48f7ade0df4db47c23d7ece1f",
       "concepts": 48,
       "assertions": 199,
       "findings": 43

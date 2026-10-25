@@ -15,6 +15,8 @@ Snapshot: 25 October 2026, extending baseline commit `e8a199aad131c219407737483e
 
 External repository readers: use [REPORT_KNOWLEDGE_START_HERE.md](../REPORT_KNOWLEDGE_START_HERE.md) and [the portable knowledge manifest](../data/knowledge/report_knowledge_manifest.json). The required GitHub ref is `codex/methodology-verification-20261024`; default `main` has the earlier calculation-only snapshot. The export retains existing source summaries and all restrictions; it adds no report approval.
 
+For practical source use, [REPORT_COMPONENT_USE.md](REPORT_COMPONENT_USE.md) defines47 eligible cited vocabulary annotations plus reference-only incomplete/conflicting/context records. This does not approve complete personal reports or unresolved formulas. The CLI and per-component use catalog retain all source gates rather than turning the global report flag into a ban on source reading.
+
 ## Current retained knowledge and authorities
 
 The audit builds a reusable, source-bound knowledge layer. Personal reports, source-cited narrative generation and personal question answering remain absent. All 18 report sections remain unready. Source acquisition, OCR, targeted image review, passage reconciliation, calculation validation and approval for personal use are separate gates.
@@ -974,7 +976,7 @@ Use [evidence/source-pipeline/profile-report-knowledge-readiness.json](../eviden
 The following inventories cover tracked documentation and evidence reachable in this repository at the snapshot commit. Historical artifacts are preserved as evidence of their own checkpoint; later authorities control current counts and dispositions. The source files, tests and scripts referenced by those documents remain part of the repository.
 
 <details>
-<summary>All 25 other tracked project documents</summary>
+<summary>All 26 other tracked project documents</summary>
 
 - [docs/2026-10-25_full-queue-line-reconciliation.md](../docs/2026-10-25_full-queue-line-reconciliation.md)
 - [docs/2026-10-25_mystic-knowledge-audit-report.md](../docs/2026-10-25_mystic-knowledge-audit-report.md)
@@ -997,10 +999,12 @@ The following inventories cover tracked documentation and evidence reachable in 
 - [docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md](../docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md)
 - [docs/PHASE10_SOURCE_GATES.md](../docs/PHASE10_SOURCE_GATES.md)
 - [docs/PRECISION.md](../docs/PRECISION.md)
+- [docs/REPORT_COMPONENT_USE.md](../docs/REPORT_COMPONENT_USE.md)
 - [docs/SITE_ACCESS.md](../docs/SITE_ACCESS.md)
 - [docs/SOURCE_REVIEW_PIPELINE.md](../docs/SOURCE_REVIEW_PIPELINE.md)
 - [docs/WHEEL_REFINEMENT.md](../docs/WHEEL_REFINEMENT.md)
 - [docs/astronomy-followup.md](../docs/astronomy-followup.md)
+
 </details>
 
 <details>
@@ -1319,7 +1323,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>source-pipeline: all 66 tracked evidence artifacts</summary>
+<summary>source-pipeline: all 70 tracked evidence artifacts</summary>
 
 - [evidence/source-pipeline/axis-audit-import.json](../evidence/source-pipeline/axis-audit-import.json)
 - [evidence/source-pipeline/checkpoint-audit-tests.xml](../evidence/source-pipeline/checkpoint-audit-tests.xml)
@@ -1381,6 +1385,10 @@ The following inventories cover tracked documentation and evidence reachable in 
 - [evidence/source-pipeline/remainder-tests.xml](../evidence/source-pipeline/remainder-tests.xml)
 - [evidence/source-pipeline/remainder-verification.json](../evidence/source-pipeline/remainder-verification.json)
 - [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json)
+- [evidence/source-pipeline/report-component-demo.json](../evidence/source-pipeline/report-component-demo.json)
+- [evidence/source-pipeline/report-component-demo.md](../evidence/source-pipeline/report-component-demo.md)
+- [evidence/source-pipeline/report-component-use-tests.xml](../evidence/source-pipeline/report-component-use-tests.xml)
+- [evidence/source-pipeline/report-component-use-verification.json](../evidence/source-pipeline/report-component-use-verification.json)
 - [evidence/source-pipeline/report-knowledge-discovery-verification.json](../evidence/source-pipeline/report-knowledge-discovery-verification.json)
 - [evidence/source-pipeline/report-knowledge-export-tests.xml](../evidence/source-pipeline/report-knowledge-export-tests.xml)
 - [evidence/source-pipeline/session-baseline.json](../evidence/source-pipeline/session-baseline.json)
@@ -1409,9 +1417,9 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>All 35 reachable commits through the pre-export baseline</summary>
+<summary>All 37 reachable commits through the pre-component baseline</summary>
 
-| Commit | Commit date | Saved change |
+| Commit | Date | Change |
 |---|---|---|
 | e250662ebbf799f00f94c869a68d8bdab1d3f8ea | 2026-10-24 | Build Mystic Rebels chart generator with validated Swiss Ephemeris engine |
 | 19a292ef501edb34d447f51beb490455566fee08 | 2026-10-24 | Refine Dual wheel presentation with exact markers and numerical rollback proof |
@@ -1448,6 +1456,8 @@ The following inventories cover tracked documentation and evidence reachable in 
 | c97fdc30a1a2a46e6963ed5a58d103be0890c966 | 2026-10-25 | Audit 50 Local Space travel and epoch source images |
 | e8a199aad131c219407737483e2d4b71c74c73af | 2026-10-25 | Audit 50 Era Phase and interpretation-limit source images |
 | c27cb2bac9e409266a84207399efaf5222b3cfe7 | 2026-10-25 | Audit 50 closing chapter rectification and lexicon source images |
+| c31ac77c5cec13bbd1e7ffa8fd906da22d4cdbcc | 2026-10-25 | Expose audited report knowledge with branch guide and portable exports |
+| ae1706dece36b32292e6e0cfb72dc9f5566adf7c | 2026-10-25 | Trace published report requirements against committed product code |
 
 </details>
 
