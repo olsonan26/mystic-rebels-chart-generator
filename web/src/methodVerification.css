@@ -1,0 +1,39 @@
+.inspector:has(.gradity-details) {
+  flex-wrap: wrap;
+}
+.gradity-details {
+  flex-basis: 100%;
+  min-width: 0;
+  color: #765d81;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.gradity-details summary,
+.method-verification summary {
+  cursor: pointer;
+  color: #795185;
+}
+.gradity-details pre {
+  margin-top: 10px;
+  padding: 12px;
+  background: #f6f0f9;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.method-verification {
+  margin-block: 14px;
+}
+.calculation-details .method-verification dl {
+  display: block;
+}
+.method-verification dl > div {
+  padding-block: 10px;
+  border-top: 1px solid #e9e1ee;
+}
+.method-verification dt {
+  font-weight: 600;
+}
+.method-verification dd p {
+  margin-block: 4px;
+}

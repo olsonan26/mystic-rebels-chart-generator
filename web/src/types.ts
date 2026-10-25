@@ -33,6 +33,20 @@ export type Point = ObjectEntry & {
   motion_status?: "Direct" | "Retrograde" | "Stationary" | "Unknown";
   gradity_phase?: "Prograde" | "Pregrade" | "Retrograde" | "Postgrade" | null;
   gradity_source_status?: "EXPLICIT" | "VERIFIED_EXAMPLE" | "DERIVED" | "UNKNOWN";
+  gradity?: {
+    phase: "Prograde" | "Pregrade" | "Retrograde" | "Postgrade" | null;
+    status: "VERIFIED" | "UNAVAILABLE" | "BOUNDARY" | "NOT_APPLICABLE";
+    reason: string;
+    events?: Record<string, unknown>[];
+    verification_scope?: string;
+    source?: {
+      pdf_pages?: number[];
+      reflow_pages?: number[];
+      original_printed_pages?: number[];
+      [key: string]: unknown;
+    };
+    [key: string]: unknown;
+  };
   sign: string;
   sign_index: number;
   degree_in_sign: number;

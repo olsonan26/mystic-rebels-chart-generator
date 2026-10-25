@@ -1,0 +1,5238 @@
+{
+  "source": {
+    "path": "reference/source_pdf/PURE_ASTROLOGY_Nadia_Complete.pdf",
+    "sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+    "bytes": 1375464,
+    "pdf_pages": 692,
+    "extracted_characters": 1014743,
+    "embedded_images": 6,
+    "numbering": "PDF page1-based; reflow footer generallyPDF+4; embedded original source page independent",
+    "full_supplied_pdf_semantic_review_complete": true,
+    "original_book_complete_coverage_claimed": false
+  },
+  "review_coverage": [
+    {
+      "worker": "feature_trace",
+      "pdf_range": [
+        1,
+        230
+      ],
+      "status": "SEMANTIC_REVIEW_COMPLETE"
+    },
+    {
+      "worker": "methodology_review",
+      "pdf_range": [
+        231,
+        460
+      ],
+      "status": "SEMANTIC_REVIEW_COMPLETE"
+    },
+    {
+      "worker": "astronomy_audit",
+      "pdf_range": [
+        461,
+        580
+      ],
+      "status": "SEMANTIC_REVIEW_COMPLETE"
+    },
+    {
+      "worker": "methodology_review",
+      "pdf_range": [
+        581,
+        692
+      ],
+      "status": "SEMANTIC_REVIEW_COMPLETE"
+    }
+  ],
+  "visual_review_pdf_pages": [
+    203,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    343,
+    421,
+    422,
+    431,
+    434,
+    458,
+    475,
+    476,
+    477,
+    499,
+    500,
+    502,
+    508
+  ],
+  "findings": [
+    {
+      "id": "gradity-four-event-loop",
+      "status": "SOURCE_EXPLICIT_CALCULATION_REQUIRES_INDEPENDENT_TESTS",
+      "pdf_pages": [
+        203,
+        476,
+        477
+      ],
+      "original_printed_pages": [
+        143,
+        569,
+        570
+      ],
+      "reflow_footers": [
+        207,
+        480,
+        481
+      ],
+      "rule": "Positive motion alone does not establish Prograde; find pre-shadow crossing, Rx station, D station, post-shadow exit. Source exact equality ownership unspecified."
+    },
+    {
+      "id": "spark-conflict",
+      "status": "CONTRADICTED",
+      "pdf_pages": [
+        292,
+        293,
+        433,
+        434,
+        435,
+        458
+      ],
+      "original_printed_pages": [
+        234,
+        235,
+        236,
+        509,
+        510,
+        511,
+        512,
+        546
+      ],
+      "rule": "House and astronomical sign parity disagree across source text and examples. Composite Saturn Libra28 H2 labelled Pisces matches neither."
+    },
+    {
+      "id": "fca-widths",
+      "status": "FORMULA_SUPPORTED_INTERPRETATION_CONTRADICTED",
+      "pdf_pages": [
+        431,
+        434
+      ],
+      "original_printed_pages": [
+        507,
+        508,
+        510
+      ],
+      "rule": "5% widths sign1.5 degree,decan0.5 degree,degree0.05 degree; source Mars5:56 AriesFCA claim fails literal3 arcminute condition."
+    },
+    {
+      "id": "directional-aspect-catalog",
+      "status": "INCOMPLETE_AND_CONTRADICTED",
+      "pdf_pages": [
+        295,
+        297,
+        343,
+        457
+      ],
+      "original_printed_pages": [
+        239,
+        245,
+        246,
+        378,
+        543
+      ],
+      "rule": "Moon3 and Chiron1 direct. Pluto1.5 conflicts with24:42->25:42 arithmetic. Universal outgoing catalog and directed spectrum missing."
+    },
+    {
+      "id": "sophia",
+      "status": "MISSING_PRIMARY_DEFINITION",
+      "pdf_pages": [
+        504,
+        508,
+        509,
+        512
+      ],
+      "original_printed_pages": [
+        614,
+        620,
+        621,
+        622,
+        623
+      ],
+      "missing_original_pages": [
+        617,
+        618,
+        619
+      ],
+      "rule": "Mean and Osculating Priapus examples survive, defining section absent. Interpolated points rejected in source. Physical apside calculation is separate from source naming."
+    },
+    {
+      "id": "progressions",
+      "status": "MISSING_CALCULATION_PROCEDURE",
+      "pdf_pages": [
+        254,
+        255,
+        421,
+        422,
+        430,
+        431,
+        433
+      ],
+      "original_printed_pages": [
+        182,
+        183,
+        184,
+        490,
+        493,
+        506,
+        507,
+        509
+      ],
+      "missing_original_pages": [
+        491,
+        492
+      ],
+      "rule": "No explicit day/year epoch mapping or progressed angular calculation."
+    },
+    {
+      "id": "oob",
+      "status": "SOURCE_FORMULA_SUPPORTED",
+      "pdf_pages": [
+        305
+      ],
+      "reflow_footers": [
+        309
+      ],
+      "original_printed_pages": [
+        267
+      ],
+      "rule": "Absolute declination greater than23.44degree; fixed interpretive source threshold distinct from true astronomical obliquity."
+    },
+    {
+      "id": "source-omission",
+      "status": "RENDER_CONFIRMED",
+      "pdf_pages": [
+        421,
+        422,
+        499,
+        500,
+        501,
+        502,
+        503,
+        508
+      ],
+      "rule": "ReportLab reflow has heading-only diagram pages and source jumps; complete-named file does not guarantee complete original coverage."
+    },
+    {
+      "id": "post-boundary-fca-examples",
+      "status": "EXAMPLES_SUPPORTED_COMPLETE_METHOD_INCOMPLETE",
+      "pdf_pages": [
+        612,
+        683
+      ],
+      "reflow_footers": [
+        616,
+        687
+      ],
+      "original_printed_pages": [
+        732,
+        956
+      ],
+      "rule": "Interamnia0:12Virgo and0Aries calledFCA; approaching-only diagnostic explicitly partial, after-boundary weighting and exceptions unspecified."
+    },
+    {
+      "id": "node-direction-claim",
+      "status": "PHYSICAL_CLAIM_NOT_AUTHORITATIVE",
+      "pdf_pages": [
+        479
+      ],
+      "reflow_footers": [
+        483
+      ],
+      "original_printed_pages": [
+        571,
+        572
+      ],
+      "rule": "Do not impose always-retrograde source claim on actual true/osculating node speed."
+    },
+    {
+      "id": "point-to-point-aspect-tolerance",
+      "status": "AMBIGUOUS",
+      "pdf_pages": [
+        529
+      ],
+      "reflow_footers": [
+        533
+      ],
+      "original_printed_pages": [
+        653
+      ],
+      "rule": "Source gives30arcminutes or perhaps1degree for point-to-point contacts, no settled numeric tolerance."
+    },
+    {
+      "id": "chiron-worked-example-value",
+      "status": "CONTRADICTED",
+      "pdf_pages": [
+        568
+      ],
+      "reflow_footers": [
+        572
+      ],
+      "original_printed_pages": [
+        687,
+        688
+      ],
+      "rule": "MichaelJackson Chiron diagram14:22Rx versus prose19degree is an inconsistent source numerical fixture."
+    }
+  ],
+  "page_inventory": [
+    {
+      "pdf_page": 1,
+      "reflow_footer": 5,
+      "characters": 1993,
+      "text_sha256": "f57800a43bd0ce27b5d5e2a03ee245a9638f64c944fca5b64d22ecbaa767c6dc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 2,
+      "reflow_footer": 6,
+      "characters": 2403,
+      "text_sha256": "e831fa0730f42346fc796060609057aff3fce2e864f49fcf9a3abb6d563d4a33",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 3,
+      "reflow_footer": 7,
+      "characters": 1440,
+      "text_sha256": "2c2737a4a4975b7047e4ef0f320414ff8df8f4ba8ec1e0d733b954a231b4a8fb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 4,
+      "reflow_footer": 8,
+      "characters": 2233,
+      "text_sha256": "4e7cf09e2dcad380a27611b368a6ae72799883533f6207c83f36c90adc69d631",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 5,
+      "reflow_footer": 9,
+      "characters": 2939,
+      "text_sha256": "4382758b9a37c3871c3c3968b9414e48c7c438718b1984fcf2eb9c535c171179",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 6,
+      "reflow_footer": 10,
+      "characters": 2887,
+      "text_sha256": "f981811447b98def83954be3226f2d253935843c8ec60717a49392d4e6ec49ab",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 7,
+      "reflow_footer": 11,
+      "characters": 1816,
+      "text_sha256": "78713c4e8d84415bec761ac2b2c84cac9dd6d081032f105c03776a436e6828a3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 8,
+      "reflow_footer": 12,
+      "characters": 102,
+      "text_sha256": "af73ff370bd0fdacc9d36ebea1474f971b356b66724e628b080e1d820412aaa7",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 9,
+      "reflow_footer": 13,
+      "characters": 244,
+      "text_sha256": "a48fbde86902a381d1bc17ea1e1103524b65c42f4323f2c4efe4c29982a613d0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 10,
+      "reflow_footer": 14,
+      "characters": 545,
+      "text_sha256": "c4b4f6efd65554362fe9f1419b2923444fdcbf8f2165b28303c7ef442f34b411",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 11,
+      "reflow_footer": 15,
+      "characters": 758,
+      "text_sha256": "5021db48a19cac0ceddb74b5a682ae7c5a142d713016a6da99b5f5def37db859",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 12,
+      "reflow_footer": 16,
+      "characters": 213,
+      "text_sha256": "b9492d98770353f760c22eaa07e4c59b29f6ca4e02ff43a12d7536cc7116413b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 13,
+      "reflow_footer": 17,
+      "characters": 555,
+      "text_sha256": "0bd594c2b3b0643d51e67c9f02d17203d1d31dc06d8b553d8bc5e435e5710228",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 14,
+      "reflow_footer": 18,
+      "characters": 744,
+      "text_sha256": "396b1bf24e2d9a85110a0352a3646ac8fdbd3b9a7bdc7802abc01a3b89851970",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 15,
+      "reflow_footer": 19,
+      "characters": 391,
+      "text_sha256": "505e69c8a0d8f2ec8f42d8337809abe975719dd3f4043aeb40ae15f18abdcc20",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 16,
+      "reflow_footer": 20,
+      "characters": 533,
+      "text_sha256": "99b55b33c215d976c903bc8acf8581475be12914e86a107fef48beb1fc08aedd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 17,
+      "reflow_footer": 21,
+      "characters": 856,
+      "text_sha256": "ef3bdf71e73199b9b98195ae350c88f8c6e0c479e0e376d198fea7b3941f287e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 18,
+      "reflow_footer": 22,
+      "characters": 862,
+      "text_sha256": "d0a75ec7268a9896d3ef98dff743e73bab4e78e2d360681bf84074d25e809cd1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 19,
+      "reflow_footer": 23,
+      "characters": 879,
+      "text_sha256": "4b73b8b1d68033f6455e721112f61a8c37dfdbaa84ba224f608d8a67d7c94c59",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 20,
+      "reflow_footer": 24,
+      "characters": 266,
+      "text_sha256": "9785ea3f7581a1b1fe2dd900780cb22ae03ee41af0a2d35ed7f902012367c003",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 21,
+      "reflow_footer": 25,
+      "characters": 702,
+      "text_sha256": "b570aa5551602e7844d9879e5242420039aa62751a925307faa7d7002b1853ae",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 22,
+      "reflow_footer": 26,
+      "characters": 395,
+      "text_sha256": "895c5c4fa3ce7bd7fa35cfe33e3b098f738eac92c09072c80328a65eebfbfa69",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 23,
+      "reflow_footer": 27,
+      "characters": 57,
+      "text_sha256": "2e03a02c04053e3b0eb313249c6e5acc7a3cabbe21c1e751d03bcc9e847d144a",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 24,
+      "reflow_footer": 28,
+      "characters": 29,
+      "text_sha256": "f4207f39792c2a61bc740461f3bfaa016a0551e35ae154ff5d0e51cc6f2642f7",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 25,
+      "reflow_footer": 29,
+      "characters": 1168,
+      "text_sha256": "e652056d65a932dea53336054879cbf7b9ef8992f6091718fdea6dbdb58d195a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 26,
+      "reflow_footer": 30,
+      "characters": 1093,
+      "text_sha256": "98c93ffb54e22afd21a56c96483472f9896cf1fae634c207429dc274f69b6c55",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 27,
+      "reflow_footer": 31,
+      "characters": 1258,
+      "text_sha256": "5859b6f29f144ad29411933411952cca3950c065311e71137db8b68ff2d14d4d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 28,
+      "reflow_footer": 32,
+      "characters": 808,
+      "text_sha256": "9fc23bbcd1a95dbf49576e0e3013eba8229c7f9f5df9d75a1f78ed1f7ddecfce",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 29,
+      "reflow_footer": 33,
+      "characters": 1060,
+      "text_sha256": "1a9f16d37f4822bb1515b6becb1c6eae9f036283b32cbbf2ca4764518ed23a82",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 30,
+      "reflow_footer": 34,
+      "characters": 813,
+      "text_sha256": "661d68e6fe19484c7c217c2625b69be2c2c2e9f5faf9549bd73fd45064fbf641",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 31,
+      "reflow_footer": 35,
+      "characters": 623,
+      "text_sha256": "e95cda86ee27a10909986a0c9bafe29ad80935cbc6e377195395103160c05353",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 32,
+      "reflow_footer": 36,
+      "characters": 655,
+      "text_sha256": "0cbbffcfed2896cfc25a1dc8d12b7fdc6965c2fdc2ab5f514800e98f471f60b2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 33,
+      "reflow_footer": 37,
+      "characters": 923,
+      "text_sha256": "9b61c20479e825b162d859482ceb87b144953199349c905d56d2551cda2a7f49",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 34,
+      "reflow_footer": 38,
+      "characters": 556,
+      "text_sha256": "b875af3ddf2feeeade51708408d39cb8d622e88022b505fb0bb953d9db0e5f60",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 35,
+      "reflow_footer": 39,
+      "characters": 58,
+      "text_sha256": "dd7a01c41a61d44afaa47206efd025dcf5430afb49f512b648898d375605febe",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 36,
+      "reflow_footer": 40,
+      "characters": 39,
+      "text_sha256": "5f768b5444a49a630e9921469161775a24575cac8ef784a78d58bbabb4864f1c",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 37,
+      "reflow_footer": 41,
+      "characters": 2360,
+      "text_sha256": "ff92d12bb17b92c67c2da60cd50694d8ef7fa5df35d6d2adba876d66b4dd2592",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 38,
+      "reflow_footer": 42,
+      "characters": 2791,
+      "text_sha256": "7c89927f8f9dc14dd357b917d8c91aa19f913d3a254ed39e77c7b2c51304f3f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 39,
+      "reflow_footer": 43,
+      "characters": 2253,
+      "text_sha256": "92937778decfbb8388e3c0627789a48ea54d8f942b118c41cb2d8faf97e18230",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 40,
+      "reflow_footer": 44,
+      "characters": 2769,
+      "text_sha256": "c3d0a5877e0f87305baf4f9e6acad77403106be99d2b6f8fcf79ce4ecb9512c6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 41,
+      "reflow_footer": 45,
+      "characters": 3135,
+      "text_sha256": "47baa58d7884025263d931aea678c2211d5d1ca9da722c815872251f53f1e497",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 42,
+      "reflow_footer": 46,
+      "characters": 2774,
+      "text_sha256": "65433670106a325a44c86f79f7979a6a26eff4c1adfd05c2c98407e50d9dca3f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 43,
+      "reflow_footer": 47,
+      "characters": 1691,
+      "text_sha256": "b706e3afa561522258dda5ffea7281ca3cd8e1a4618adf78f82c8f18f90a5f51",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 44,
+      "reflow_footer": 48,
+      "characters": 93,
+      "text_sha256": "df4ef2515798f02e7ee595309174df5f46a4f5167c3bc9473d88e6f9fe9614ad",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 45,
+      "reflow_footer": 49,
+      "characters": 2381,
+      "text_sha256": "c70c9f37828142af28af79cd61971433bed36432c026c0f5362bcabe27266347",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 46,
+      "reflow_footer": 50,
+      "characters": 2918,
+      "text_sha256": "909755136f12fdf37f5c1d9e162bc734e7c0c5a3a7c468791dc4b04f292e5d19",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 47,
+      "reflow_footer": 51,
+      "characters": 2400,
+      "text_sha256": "c96c1391b1ac64da103c608141daa021646a3222b7090b32d2f917ebe7388ed7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 48,
+      "reflow_footer": 52,
+      "characters": 2551,
+      "text_sha256": "e78b7b80e60c36d1349aa1ed0e8dade0ed29bcf626efc13190fa8b8ebafc924b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 49,
+      "reflow_footer": 53,
+      "characters": 1966,
+      "text_sha256": "179c360c0c444183b6a7108fd6e2ede7e1dadf47676f29ac70feccdc2d31f192",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 50,
+      "reflow_footer": 54,
+      "characters": 2236,
+      "text_sha256": "cb75d02ee56ed0352ac460373b67a8dcface234bd80d756e9e4bc942a53204a9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 51,
+      "reflow_footer": 55,
+      "characters": 2478,
+      "text_sha256": "ebb46a7714f52e674a9eccb4b36dab17d9642e21a7c6b69eaad6b11b9e6d28b9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 52,
+      "reflow_footer": 56,
+      "characters": 709,
+      "text_sha256": "1c6cc371319090d78ff955eb6e4cde94e7045d632237ebe9324fd7a7f3e0bbfe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 53,
+      "reflow_footer": 57,
+      "characters": 2243,
+      "text_sha256": "18fc10fac0e5e25ec8108174f6965bad8fb076daaf1d19aedb3f71885e64b47f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 54,
+      "reflow_footer": 58,
+      "characters": 439,
+      "text_sha256": "0401c7bdc883e783be6147082a05584ee7f5f59fbb7d96f10d64130f73a56250",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 55,
+      "reflow_footer": 59,
+      "characters": 146,
+      "text_sha256": "eb999e5528f0e4e21ed0e31be0fe67c983127e165eee86e758462eddad423e8f",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 56,
+      "reflow_footer": 60,
+      "characters": 2112,
+      "text_sha256": "d5ae6158c5c9058f14722a55769d24d88f61dc1b1860124f5e3a7ebbc02b2ad0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 57,
+      "reflow_footer": 61,
+      "characters": 1185,
+      "text_sha256": "bf8a50aea0bb2f3dcc8edccd287ad3c77c831bba89be9945a501a666a85947a6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 58,
+      "reflow_footer": 62,
+      "characters": 1963,
+      "text_sha256": "73673e09525a61fec0407a2dbe2df38b319308abc0131f9658a7005d4a5208a7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 59,
+      "reflow_footer": 63,
+      "characters": 2473,
+      "text_sha256": "27d37fc571b6652724c9a7b4a932c354c84b2cf784a26b2a8eaa514eb03b9f9c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 60,
+      "reflow_footer": 64,
+      "characters": 2113,
+      "text_sha256": "ffb1ff45a6fddd719f15464598bf086365160f8017d5b008a832619fa15b2171",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 61,
+      "reflow_footer": 65,
+      "characters": 2160,
+      "text_sha256": "07408d33ed861f06c07412a9b7c51fc298390dbe6cee7a50a5de981bb7b3cebb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 62,
+      "reflow_footer": 66,
+      "characters": 433,
+      "text_sha256": "c7e2d3ed03f9f400aef0fc01d16a8cec25a88ea1160b22a36bce2c4572e909cc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 63,
+      "reflow_footer": 67,
+      "characters": 1467,
+      "text_sha256": "6f8e8c991b17c2d7aa94ee14c22543d7db28abec153a7d6a5a3a3dbe14e058a5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 64,
+      "reflow_footer": 68,
+      "characters": 2622,
+      "text_sha256": "c6fbbc9736f8a2234dd15a4088a539e1b6468d79958afff87e44ffed8b813ec1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 65,
+      "reflow_footer": 69,
+      "characters": 979,
+      "text_sha256": "946503038ecbd050fd58182257c3d56fbb093e1a0665122ad5a2203add6829ac",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 66,
+      "reflow_footer": 70,
+      "characters": 819,
+      "text_sha256": "0e019c771e42ea0924e287f5a760594349ca22623a8f9dddb4d47a604062e47f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 67,
+      "reflow_footer": 71,
+      "characters": 2416,
+      "text_sha256": "746e159f8cfb08106df22180d48832f5e7f4aa4779a365a40d231590fcadb26b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 68,
+      "reflow_footer": 72,
+      "characters": 2174,
+      "text_sha256": "5726bebf9f772daa9b744256bb0a6eaa104b70a918d364c4df5bcb8811f94c04",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 69,
+      "reflow_footer": 73,
+      "characters": 2257,
+      "text_sha256": "33fcd1295819faa0d5d0a585f1335be7ec605a276862b783c2b73ceddbff8f2a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 70,
+      "reflow_footer": 74,
+      "characters": 2170,
+      "text_sha256": "aff87c5ba99c7f46271680592033b107a19985872e045a925e78890952b584a2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 71,
+      "reflow_footer": 75,
+      "characters": 36,
+      "text_sha256": "bb8186d95bd58b63be64c42ce44edc85a45e343651921ccd87ecce4363672752",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 72,
+      "reflow_footer": 76,
+      "characters": 2368,
+      "text_sha256": "40fc688330087f0662ff6ddee01c7693a80f3996a54587271b665071de8e42d1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 73,
+      "reflow_footer": 77,
+      "characters": 1858,
+      "text_sha256": "b58e20f2f84224dfa6163c30371c620d0810513acf8eafe4fd5c790a7f8fb3c1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 74,
+      "reflow_footer": 78,
+      "characters": 1601,
+      "text_sha256": "362a2f6e442c0534a0fad6f532f1d8f802d4ed982c4865bcd82f158d93dcb069",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 75,
+      "reflow_footer": 79,
+      "characters": 1148,
+      "text_sha256": "78712df13c1aa042c83e17f94d3d2e9b1d8aaf8e866f88e401adb7a827f63612",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 76,
+      "reflow_footer": 80,
+      "characters": 494,
+      "text_sha256": "a466382d8a7b73edb8ed777f1e33432406368433ebaed480f3efc5c52ee26e46",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 77,
+      "reflow_footer": 81,
+      "characters": 2490,
+      "text_sha256": "79d1972721a8fa70ab641fe7531dd29395f0b3ef67a70e072c58904dbfda2e27",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 78,
+      "reflow_footer": 82,
+      "characters": 1375,
+      "text_sha256": "22dd0d10c41e90048500b2df8a9f11adda1b117ba78d4e5f8b52e51b66a82461",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 79,
+      "reflow_footer": 83,
+      "characters": 1994,
+      "text_sha256": "6088fb65a4fded76a79ef2aec340d927511cbffee56e9b183fa640710538e02b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 80,
+      "reflow_footer": 84,
+      "characters": 1898,
+      "text_sha256": "703fa4d8ce4db0edda68e1325f9ed5b0e49f5fbc3c9195190f2cd588746245f6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 81,
+      "reflow_footer": 85,
+      "characters": 1738,
+      "text_sha256": "effb8dc81ea1e350428096617e607dad292a6d4ece8533c3e205ed4b703ec111",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 82,
+      "reflow_footer": 86,
+      "characters": 2186,
+      "text_sha256": "43d32d80d05eec6e20d800f9a00ba5faa03a0b500f7b258e747b1476a33ecacf",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 83,
+      "reflow_footer": 87,
+      "characters": 1749,
+      "text_sha256": "c8d17084ff2a72cc4d1d483539f54502859a23668b01276adc59081ede529145",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 84,
+      "reflow_footer": 88,
+      "characters": 1648,
+      "text_sha256": "456d4a0fc552040b167be0db61582bd059610666190d83d766c1586010efeef2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 85,
+      "reflow_footer": 89,
+      "characters": 2227,
+      "text_sha256": "e51a400408246c30c7ead54f3a4dfb01fac4abaa59c04fb5f2e6e040613aee28",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 86,
+      "reflow_footer": 90,
+      "characters": 1321,
+      "text_sha256": "6c1407a8339758d2a41f5b1407f6eba65d107e004a6ea2139566c1156b5fb92a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 87,
+      "reflow_footer": 91,
+      "characters": 381,
+      "text_sha256": "d0d99a3a6f261040ba1182e592286171050a265ba05e0cd5befd655f1619ec1f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 88,
+      "reflow_footer": 92,
+      "characters": 2106,
+      "text_sha256": "921ea21b67ac91e0604eb9ef6243b8b1cce187586b2bf32073d75aed1c837784",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 89,
+      "reflow_footer": 93,
+      "characters": 1965,
+      "text_sha256": "2a39d194c067c33867ed2e6bcd58af61c7f99ba991eaf2264eaef1a3d79c560f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 90,
+      "reflow_footer": 94,
+      "characters": 1882,
+      "text_sha256": "e5e1012c619bd923edde6b2c04dfcc840c40aae768a69d39d0ac38fcdceba194",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 91,
+      "reflow_footer": 95,
+      "characters": 1478,
+      "text_sha256": "1b856333a63154d686e79504887523a4c17b77096190af376177b6a882cde63a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 92,
+      "reflow_footer": 96,
+      "characters": 2391,
+      "text_sha256": "5da5b142b55f5b715260f1ddaa63aa34268fcfb712862da04839be5aed4456f2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 93,
+      "reflow_footer": 97,
+      "characters": 1415,
+      "text_sha256": "8396ab423be5d5b81ea0807fbba989ad896f8196ada207bd44152b065534e214",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 94,
+      "reflow_footer": 98,
+      "characters": 2252,
+      "text_sha256": "78e966029ab6ad7e5f5e38f2b5d108715a98a9ec12704e8c1cc210c52a2be18d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 95,
+      "reflow_footer": 99,
+      "characters": 1031,
+      "text_sha256": "31bea1e8a9d6946775b495b84bfa7f015ac5d53ba09e18f9362734d752145c6c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 96,
+      "reflow_footer": 100,
+      "characters": 2434,
+      "text_sha256": "7c475b9dc059784a2ee72fe853f4630eae6c8723c17c543c8ac119fa63a04f37",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 97,
+      "reflow_footer": 101,
+      "characters": 1677,
+      "text_sha256": "d2076cce17d7d874018245a0a48673b1e1baf8729b662e46791873759bbbdc8b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 98,
+      "reflow_footer": 102,
+      "characters": 2251,
+      "text_sha256": "d16d7c5b84bee03a5f126bde94edad3d91a911af7b3db81841ddd18e856c32c7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 99,
+      "reflow_footer": 103,
+      "characters": 1072,
+      "text_sha256": "0a60f7b65050b491462525aefde44e9a43cc2267bbe47f95a08c73efc7d20df4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 100,
+      "reflow_footer": 104,
+      "characters": 578,
+      "text_sha256": "d15d8317f0fe4c1c4b14c42f1e4e7ae1c7f2fab913d5f842ae859dc2167bd97d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 101,
+      "reflow_footer": 105,
+      "characters": 1599,
+      "text_sha256": "fac4d6714c93569a09a33b78d48d034d4dc2fd5f7dbfbd27c02f86d59cc7f252",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 102,
+      "reflow_footer": 106,
+      "characters": 43,
+      "text_sha256": "dddfcdfce84909068771af22907a00290bd3ddec5eca61b559f9bd3590b7e1f3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 103,
+      "reflow_footer": 107,
+      "characters": 49,
+      "text_sha256": "73904eadc85d9f81505c4e3a48cba0df609b7681b1c7808b5d3a236e0dfed441",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 104,
+      "reflow_footer": 108,
+      "characters": 89,
+      "text_sha256": "b7f0937bd6751fc66011187a62a7463890596b6ecd8b8288c47d6140eed0bf65",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 105,
+      "reflow_footer": 109,
+      "characters": 98,
+      "text_sha256": "d9a15dfacdcfec92e496bcdc6fb05a907abb691fe167d3387b8ab1adcdcc3e1e",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 106,
+      "reflow_footer": 110,
+      "characters": 82,
+      "text_sha256": "4e8c3f53b3f9b6b93c464940bd38d0325e3fc4409b62abf0e096a1a2a8f2ffaa",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 107,
+      "reflow_footer": 111,
+      "characters": 1957,
+      "text_sha256": "ae48959035a8cf69e9878f472e1764dfe15ff51cd5cb40425cfe3d57d76880bc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 108,
+      "reflow_footer": 112,
+      "characters": 2594,
+      "text_sha256": "4c366200d83ef4a5e5aa1089b3b04e4cb7d62fe57e31429774aa7771536fc17a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 109,
+      "reflow_footer": 113,
+      "characters": 1639,
+      "text_sha256": "1ced3f0cd82eeb8814ff1e633b1fefb059ef646800cef0bf8966f9e3d6c17cc7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 110,
+      "reflow_footer": 114,
+      "characters": 682,
+      "text_sha256": "817b182a2bd14203c8dc8fce198de6e897a241c4eca8f8788b6e5079514e2ade",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 111,
+      "reflow_footer": 115,
+      "characters": 646,
+      "text_sha256": "c0dd737dc9696ba9e63211237748c9ef65aa321767cfcff5cec2697fc7828f4b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 112,
+      "reflow_footer": 116,
+      "characters": 1995,
+      "text_sha256": "9a5db807f8e6e9dd91c39826f4e0468f99800b20650678357063edf37bfcd6b4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 113,
+      "reflow_footer": 117,
+      "characters": 1978,
+      "text_sha256": "8a3fc7f28b46cf2bd0505483ef5df654170332a19124c1cb0555fe8658572613",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 114,
+      "reflow_footer": 118,
+      "characters": 149,
+      "text_sha256": "25782caa5af2c4044970f5558f6eee83dc52b90eda52d9a8e99bd1adc3bbf997",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 115,
+      "reflow_footer": 119,
+      "characters": 2227,
+      "text_sha256": "fed303e52cdb009ca8d7c42f9a38f6848c628b2a8fe21d54988664250ac6c177",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 116,
+      "reflow_footer": 120,
+      "characters": 1265,
+      "text_sha256": "213675c15d800bcdcbe908bb3526174c768c605bfe256d6744ba88d15e3d63ed",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 117,
+      "reflow_footer": 121,
+      "characters": 1301,
+      "text_sha256": "591bb845662d71112f35418b869dcd54854ab46536a1503b17872596e9d80d05",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 118,
+      "reflow_footer": 122,
+      "characters": 2673,
+      "text_sha256": "bc86be519b4b3d0c802f42b4ff2663099057fe77d66eef8b1f959a0eb4891f79",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 119,
+      "reflow_footer": 123,
+      "characters": 381,
+      "text_sha256": "4ffe9c9b0ef6878faeab264ccd95805e6aced1a6bb686ccb35af0e4260311cf2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 120,
+      "reflow_footer": 124,
+      "characters": 2241,
+      "text_sha256": "acb4dac442a11d81c9dc4e73b498c48249951f6796fb3570b1a5b3a820534bdb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 121,
+      "reflow_footer": 125,
+      "characters": 1611,
+      "text_sha256": "72c2d8a4e96ae7b82ccb1a179b37916c6278fab5a0a6bc8696db4fb5a9a00197",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 122,
+      "reflow_footer": 126,
+      "characters": 2092,
+      "text_sha256": "b172c86f174aa32c4c9a5d1af5e003b7887b763285b00926fd2fff797098ae80",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 123,
+      "reflow_footer": 127,
+      "characters": 2021,
+      "text_sha256": "a86d0e331f25d3f62e8d797969addd210a21743edbff3f0c583c4a6d5fa2273a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 124,
+      "reflow_footer": 128,
+      "characters": 2069,
+      "text_sha256": "1ee6cf5b3a98fbb7f4e711d3b790c3f9cbe6fc94554a8661e5a1cbc0203841fa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 125,
+      "reflow_footer": 129,
+      "characters": 1309,
+      "text_sha256": "fbc48e0fbadd1e3cb54046f9f992b457298d11ceadad899d7455fd945bd53c9e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 126,
+      "reflow_footer": 130,
+      "characters": 969,
+      "text_sha256": "caf7729e1dbce0930452ffe02bd14acccfba9c6653a8e8797f96a06712a3388c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 127,
+      "reflow_footer": 131,
+      "characters": 2195,
+      "text_sha256": "5e72d6ebaea04f430d119c1367bf4634f6c20b190a14c01853e940f640fe6a14",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 128,
+      "reflow_footer": 132,
+      "characters": 1969,
+      "text_sha256": "2bd3c7c7120deffc7df9f7b64e55ae164b794f84e1eaad4fc739534ca12d41c6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 129,
+      "reflow_footer": 133,
+      "characters": 1246,
+      "text_sha256": "bdbeda3a679289d027656fcb2dc079f1911524b5ac2f5efa4bfc90bc7c771732",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 130,
+      "reflow_footer": 134,
+      "characters": 2449,
+      "text_sha256": "c803910637b781fec0d7554a423b0647d686fda2c4a65080afe6db45d6578ca2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 131,
+      "reflow_footer": 135,
+      "characters": 1635,
+      "text_sha256": "018b8216c50d5e93f786b55180d3c29ff16edc21b0dd6e1fe187e9aea0aff83c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 132,
+      "reflow_footer": 136,
+      "characters": 1184,
+      "text_sha256": "bf484c8c87762edf0b3eb17cbe20f1e00b592623dc4d14518179e5024c70a46b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 133,
+      "reflow_footer": 137,
+      "characters": 31,
+      "text_sha256": "752bdeb1ab69823370e7fba666beff02032251c3bcc4177aaedcca5072b89720",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 134,
+      "reflow_footer": 138,
+      "characters": 698,
+      "text_sha256": "734ea4301d946888fd6a3b44aace89b58c3ec21db0f5ec049d98b3a5a381b333",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 135,
+      "reflow_footer": 139,
+      "characters": 2067,
+      "text_sha256": "13f6b1bfe7538e3185324713c382cd6be2caa17fc778c351549c1f8d6da57e6e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 136,
+      "reflow_footer": 140,
+      "characters": 588,
+      "text_sha256": "fc63db6708e936b198f472af79731f044ab8bcf765e9dd5e01ceff868b33902d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 137,
+      "reflow_footer": 141,
+      "characters": 46,
+      "text_sha256": "ba40f60d267b98631cb3125d62c76fb97c569adbf9dffdff5365aba796e28f44",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 138,
+      "reflow_footer": 142,
+      "characters": 37,
+      "text_sha256": "8b61759e8a8772a953628f3e9621b29b6027e1c5f81addf5889f38fc938af9bf",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 139,
+      "reflow_footer": 143,
+      "characters": 1026,
+      "text_sha256": "a6185650a630a54c16ef6073529a4e84eb2ff96fa4b123e6c06d8a70796945d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 140,
+      "reflow_footer": 144,
+      "characters": 1403,
+      "text_sha256": "a6dbf981271773e09b13fd8ad03d3be706b0ce576561a9fe1156cb1dc90ba8e9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 141,
+      "reflow_footer": 145,
+      "characters": 2443,
+      "text_sha256": "adbdf6a3516d94d0510a85d5636dc1f215e525168ac2a1293926d45968a870f5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 142,
+      "reflow_footer": 146,
+      "characters": 1567,
+      "text_sha256": "f7d036f0bb6fc5846b3347a2c05cab5af1cb03eadd596da054f314d1887eeac9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 143,
+      "reflow_footer": 147,
+      "characters": 141,
+      "text_sha256": "58e5d33b8a5b71035ab0a844738a36c6d9bd442c2a87c464bd2b179c106b2f3a",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 144,
+      "reflow_footer": 148,
+      "characters": 1834,
+      "text_sha256": "a42f2ab94e258e06454dc1421c84caefc353ae0f409847b6c7442ef5a0614128",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 145,
+      "reflow_footer": 149,
+      "characters": 1996,
+      "text_sha256": "002ecd0bfa1c2b44e1013e026fec61f32b763f18367dea0d9ee2c31efdd9248b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 146,
+      "reflow_footer": 150,
+      "characters": 940,
+      "text_sha256": "307a6782fe1180012f000d44e941f24b9b243e31cbaef9577820a902dc4ea3fa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 147,
+      "reflow_footer": 151,
+      "characters": 2157,
+      "text_sha256": "248180a8e73966648b30e43d4a12d49e7b79a7e052cbd6e3c739b2c47dee577e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 148,
+      "reflow_footer": 152,
+      "characters": 1731,
+      "text_sha256": "36b2d4bb8f85cff35822e17e3c5821d9e0c544af18a362d2047ad01da26e0edc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 149,
+      "reflow_footer": 153,
+      "characters": 1940,
+      "text_sha256": "d6131d5ac3dc23245f04ef5e1598ce17769c1c883d632b21b17f16eff3a1848c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 150,
+      "reflow_footer": 154,
+      "characters": 576,
+      "text_sha256": "85b997ff56c7c85392be021f78efd9c0f2c076dd7e62171952f6928afbb24cd3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 151,
+      "reflow_footer": 155,
+      "characters": 81,
+      "text_sha256": "38283ce4255f9dd22905204219cae5f88891d51cdbe6d3fe6ea04d7da43cda24",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 152,
+      "reflow_footer": 156,
+      "characters": 2089,
+      "text_sha256": "2fd1690acfc9d67081a4adab28df1e4c974d9342541dc2bb6d72fcd2d9de9df7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 153,
+      "reflow_footer": 157,
+      "characters": 268,
+      "text_sha256": "ffd76617c44550d2bdb1fbadfe150d0b9bd106a4f676837a6d6c87d13a2e3434",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 154,
+      "reflow_footer": 158,
+      "characters": 1957,
+      "text_sha256": "cd817900de18f4f192f001ee482e46ba988e736fbd8cebab60507a7446b78b71",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 155,
+      "reflow_footer": 159,
+      "characters": 1360,
+      "text_sha256": "b93e551e35a1432f18d554e2d9467a9cee510d7c41a22540ff3c32360f568340",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 156,
+      "reflow_footer": 160,
+      "characters": 1488,
+      "text_sha256": "2e3edfd33235795e226ccf0bc1120a9922ee34829987d67db1b37a371676f9b8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 157,
+      "reflow_footer": 161,
+      "characters": 1252,
+      "text_sha256": "a83f20faaf1da8a803a069dee22b14988c8caf02daae41530488752819f525b7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 158,
+      "reflow_footer": 162,
+      "characters": 473,
+      "text_sha256": "e2cb4e3576e92e42c9a1ac70bb139622621bae7e13e98850eb1d8149e573421d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 159,
+      "reflow_footer": 163,
+      "characters": 1194,
+      "text_sha256": "3bf76f8722d510f9daa3d386775aff1926197e002c3eb3a5f7d1268c2fb42de9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 160,
+      "reflow_footer": 164,
+      "characters": 329,
+      "text_sha256": "f3997f6d6da40d8246f3e54f7d6d800b1decf4ea767232ab3cf78e2c2564836c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 161,
+      "reflow_footer": 165,
+      "characters": 1509,
+      "text_sha256": "887a432760f9cbbd545307bdbbface2f6c373a28500a18f376367ae7cd250de4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 162,
+      "reflow_footer": 166,
+      "characters": 1258,
+      "text_sha256": "e6811292104030d0971197111e225fde4688bcbbb822e10e144d289a71c5e8ee",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 163,
+      "reflow_footer": 167,
+      "characters": 36,
+      "text_sha256": "a77bd7a8a7d79e72af6a3cfc6f5e086ac4f59a1f6cc561e18eadd699c6804a97",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 164,
+      "reflow_footer": 168,
+      "characters": 111,
+      "text_sha256": "3c969b16ce862e2ac612dca03852d092dfb8ecce49da891f462e0ce24644bdcc",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 165,
+      "reflow_footer": 169,
+      "characters": 27,
+      "text_sha256": "20eddfd1da736270a7f99c8f05ed805b127e2ceafd7df7b0a118d7888f7ba2d0",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 166,
+      "reflow_footer": 170,
+      "characters": 1973,
+      "text_sha256": "f1319f62ab9fe5080ebd0ff099eaaa723056b4312b12726fd30b00e5b9cec1fc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 167,
+      "reflow_footer": 171,
+      "characters": 1020,
+      "text_sha256": "ea1a78182f769c70328a6333cd1bee323ad8503e335b842ad5b061c0fa48338a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 168,
+      "reflow_footer": 172,
+      "characters": 755,
+      "text_sha256": "a0de4e4f0bfd192cd5a1e7c9b38b2f2b1612ba6c1ad40fc6856dfeec2fb6360c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 169,
+      "reflow_footer": 173,
+      "characters": 1558,
+      "text_sha256": "75adb0cd6e0197feced4a11d285b9165e6e639a03b25f6afc351ae42c3d8af5a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 170,
+      "reflow_footer": 174,
+      "characters": 247,
+      "text_sha256": "f38007886cf3ecd05230c456a1c5580c5aab68149e20e675b6a8e5c0e33a9a8c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 171,
+      "reflow_footer": 175,
+      "characters": 1619,
+      "text_sha256": "0aa3cf38794a6d8f50e92fe9a352233a021fa029baac778bae5db1624265660f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 172,
+      "reflow_footer": 176,
+      "characters": 1153,
+      "text_sha256": "2f3862da99f51b7bc0d163e862db8fa390d402b3d782ce5eed091cfe5517b74e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 173,
+      "reflow_footer": 177,
+      "characters": 50,
+      "text_sha256": "204f9e24b1be6ca7bf68bb4343259b1468bf2251d7c69799fee83edcbf2b17cc",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 174,
+      "reflow_footer": 178,
+      "characters": 1053,
+      "text_sha256": "ae31aa7be95ed6060c371c382587dd7acce2653f77946c122fe9f0a924b02856",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 175,
+      "reflow_footer": 179,
+      "characters": 560,
+      "text_sha256": "31a60d2b1d513ef68a9039e48aeede7bf82a208bb2e8a155de88db9a3969cb69",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 176,
+      "reflow_footer": 180,
+      "characters": 1915,
+      "text_sha256": "51cbc429a1dede174760715a17d4df8583c280a7e078c2a79cb496a00ae6bb4b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 177,
+      "reflow_footer": 181,
+      "characters": 1931,
+      "text_sha256": "26f3074a14adcbfb69d2f765ef813dedfc18456433399d66174b529022950240",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 178,
+      "reflow_footer": 182,
+      "characters": 48,
+      "text_sha256": "7cd6c1e0f3b4d44d29adb928ed6e6f1019ffca76299b2637ce9c2667ad4795b3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 179,
+      "reflow_footer": 183,
+      "characters": 1185,
+      "text_sha256": "a31703dab5c2b9aa0481ce0c1ab14cc1472f20033fa9d123518f1b8187abe45b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 180,
+      "reflow_footer": 184,
+      "characters": 2267,
+      "text_sha256": "2b0246d077908733865abaa12865b3c452ef4b8cc3625aeb7d89d14c24d26b6c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 181,
+      "reflow_footer": 185,
+      "characters": 2168,
+      "text_sha256": "8794412c3ffdb623e17fdbfad8e79b6129f5ab151731eaf6d501a7bf5db2c6ba",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 182,
+      "reflow_footer": 186,
+      "characters": 338,
+      "text_sha256": "bec7e6a94c6932614ddbc052e46096c851668494f99b5e1e4d79a964a667f064",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 183,
+      "reflow_footer": 187,
+      "characters": 40,
+      "text_sha256": "13ac7df3fee5562b407cf6a6b80b1b7bdf42ec81c91eade6040ac8b5fcc456d7",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 184,
+      "reflow_footer": 188,
+      "characters": 29,
+      "text_sha256": "7633bcdd4a209dfbe9908b56448d4b7eeff05f7a198f5538941ed521f1df31ff",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 185,
+      "reflow_footer": 189,
+      "characters": 1097,
+      "text_sha256": "004eaee7d5eafdeaa3e0d74e3558d626a3922dbdbb254af977886826be12a036",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 186,
+      "reflow_footer": 190,
+      "characters": 1977,
+      "text_sha256": "b2ca5f45b8bb6845a8e8701951642e4c4a2b74cf44cf35a2e2c9eaaf2202b892",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 187,
+      "reflow_footer": 191,
+      "characters": 1589,
+      "text_sha256": "6e0887e4de03169a40c5c26fbde4659476f0c69a4cd41e72976ec8bbc11ee0b6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 188,
+      "reflow_footer": 192,
+      "characters": 801,
+      "text_sha256": "eba15f6b45015e03240f7f9d0c3842a53cf9de3ce2ab5bcdab4017316a8b379c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 189,
+      "reflow_footer": 193,
+      "characters": 2240,
+      "text_sha256": "203f6557e7bace178d91da9afcc90db217ffc31bca1a1147ca072f6e7f911727",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 190,
+      "reflow_footer": 194,
+      "characters": 1014,
+      "text_sha256": "0663fdb124dbf379813a9703f2460c2bb7972533382c0ed59e780af04479d786",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 191,
+      "reflow_footer": 195,
+      "characters": 2014,
+      "text_sha256": "aacc7aaf6db8f76e0a4b69f274d293a07c5f996a362a56d4502987b5a210c3bc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 192,
+      "reflow_footer": 196,
+      "characters": 1017,
+      "text_sha256": "ee49de73d3b837a7293554332c1d31425d614a73f9d7b4d58e82e2322d8ce624",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 193,
+      "reflow_footer": 197,
+      "characters": 2316,
+      "text_sha256": "155bcd5d64cdcdafbbc6ae648bfb523931e2c7b60108eecfe82c79204ef92ac5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 194,
+      "reflow_footer": 198,
+      "characters": 310,
+      "text_sha256": "2d48152157a514c12f2bad8200a6bdbcd42a1df737fd80dda9f07c7a7090e9ca",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 195,
+      "reflow_footer": 199,
+      "characters": 1445,
+      "text_sha256": "3e54dd08be1550ee5d64b9187f95b92e6bf85e85893ec5929f3c17979f150928",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 196,
+      "reflow_footer": 200,
+      "characters": 140,
+      "text_sha256": "c72339380f79b64cf01108f4400f21f9fb84ae9bc0f2826f461f77207b5d78de",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 197,
+      "reflow_footer": 201,
+      "characters": 31,
+      "text_sha256": "37f6e3b3136f4497592e716aab1b41c5519a0e7f2874601885bfd32d0f518be3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 198,
+      "reflow_footer": 202,
+      "characters": 1200,
+      "text_sha256": "097087c4b05c0a5c7f625861bec56aaf9b9136226d2da8fe568c0f171b98f82f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 199,
+      "reflow_footer": 203,
+      "characters": 533,
+      "text_sha256": "4d46917f45d6495e288b068f95899adcbe4e2cff680b915d76c2e9cc22869b52",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 200,
+      "reflow_footer": 204,
+      "characters": 1733,
+      "text_sha256": "8f6ba01321f2dfed51b68560739cd06316044ac98dda8505c3f36c70da092529",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 201,
+      "reflow_footer": 205,
+      "characters": 1858,
+      "text_sha256": "1e40c1592ed2991b04440d918b35fab1605510bd656bcfd1b4e05bfc787dc65b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 202,
+      "reflow_footer": 206,
+      "characters": 1972,
+      "text_sha256": "9e021574d0497fec65a102ef5f221438dcd141d7c5e97c9f16b89b9f42936c22",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 203,
+      "reflow_footer": 207,
+      "characters": 1940,
+      "text_sha256": "b10bb9df14a9a9cd61c55ebf33ddaf134f2be9f914c6fcf957ce085e92903a40",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 204,
+      "reflow_footer": 208,
+      "characters": 2563,
+      "text_sha256": "049c8816d65efa3472627dc2eeb7988a490bc70781d3dbd8ccd630c3fe26486e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 205,
+      "reflow_footer": 209,
+      "characters": 1285,
+      "text_sha256": "fb3e0aa3e94380164143b655be4fba1049c3b11a75fe95342f64fad1789691eb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 206,
+      "reflow_footer": 210,
+      "characters": 961,
+      "text_sha256": "23b1ff2ba0d9f1bea4c2ebee91ad97d7ae108063dd7c37490190b5f2ec7e8978",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 207,
+      "reflow_footer": 211,
+      "characters": 341,
+      "text_sha256": "3c239d05214fc319aeddaf49cf11f00790fd0ba1d6822c00b8c06c77a6670e54",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 208,
+      "reflow_footer": 212,
+      "characters": 1964,
+      "text_sha256": "4ab12b064345b9c397567b59be0dee077f9d4a3f77138b7f24dfe0f8810cfc22",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 209,
+      "reflow_footer": 213,
+      "characters": 2166,
+      "text_sha256": "284138b4d16eb03cf9b8b2454684a7fcceeb196fe4e58a422d4ee8c3919eb4c7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 210,
+      "reflow_footer": 214,
+      "characters": 2152,
+      "text_sha256": "5f70469ad9b57137aab58151d192296ead8a2769a4e21ea39b6bc452e3fd6198",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 211,
+      "reflow_footer": 215,
+      "characters": 1336,
+      "text_sha256": "6816ee5266186b60569a411dc6a6052a1ffb4d7ace909ba38f27ba417e74097a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 212,
+      "reflow_footer": 216,
+      "characters": 664,
+      "text_sha256": "0c3767343a55b4df2d235ed3601467a487b64e09c3733d93cc3632cf2e5f50ce",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 213,
+      "reflow_footer": 217,
+      "characters": 1987,
+      "text_sha256": "704e00e38db471e9f2c77e2757792792e70be267c5f37631940444dbfc7d9616",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 214,
+      "reflow_footer": 218,
+      "characters": 1977,
+      "text_sha256": "6d390aac0e090d2966d8ba1eaf3d167aebb851c4c4c9585d3fc1cd11d05631fd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 215,
+      "reflow_footer": 219,
+      "characters": 1912,
+      "text_sha256": "d05bff6d3db4a6055554bbe5808897410747bf505f4641b6085a5e29ef27c543",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 216,
+      "reflow_footer": 220,
+      "characters": 2030,
+      "text_sha256": "5f5b3207d0629ccf8da6396ed83da657897f4cba336e6b5917cadad27585c642",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 217,
+      "reflow_footer": 221,
+      "characters": 1745,
+      "text_sha256": "680364baf02affe0e95efde408cfe04990de78ac9f4c45be71c029e512c37b2b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 218,
+      "reflow_footer": 222,
+      "characters": 1542,
+      "text_sha256": "871187069665f5ef6242df0a7d575a1f5b2c22fb794ae2c73b3415c372b23d55",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 219,
+      "reflow_footer": 223,
+      "characters": 304,
+      "text_sha256": "2647283d9ee1d22ee69004470d7b62e7c306a5fa6ee3b88f27a000e0c73791d2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 220,
+      "reflow_footer": 224,
+      "characters": 2012,
+      "text_sha256": "cfdcc74c80b39fcd94a0d5fabf62ee02c8420bb3a8a68a10add9392335088672",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 221,
+      "reflow_footer": 225,
+      "characters": 1860,
+      "text_sha256": "311b1ac1779100f38ca1db519ce0dbed8ca097d3b9ed30ad08f39d75edfb6e8c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 222,
+      "reflow_footer": 226,
+      "characters": 2002,
+      "text_sha256": "6debb02cc47777bf18a4752923bcf911845b0ac36174e5c737b46bef3da31496",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 223,
+      "reflow_footer": 227,
+      "characters": 2065,
+      "text_sha256": "9faba2c8ab2d69cd5e1d9f982bbf75336a4dbf85a7a72adf263ce5a46812ae5a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 224,
+      "reflow_footer": 228,
+      "characters": 1856,
+      "text_sha256": "2b3f1ee97e958630ed16e11b95e4b25b5583e54807a223ecd48653678fbfddbe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 225,
+      "reflow_footer": 229,
+      "characters": 1849,
+      "text_sha256": "2670da4796590ad93ffc5848b2d95d2f98bd332dd36e2e11f846a8d3d0792e7c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 226,
+      "reflow_footer": 230,
+      "characters": 1897,
+      "text_sha256": "c5bcfdc6652a4c4755f77309566b1beee66ee4678d6e2b3eda825f1bfef023ea",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 227,
+      "reflow_footer": 231,
+      "characters": 2269,
+      "text_sha256": "9d25a8025ee1af2ba4adb7c36cab69466bc4f1870f83ced2ee382131896d29b1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 228,
+      "reflow_footer": 232,
+      "characters": 2163,
+      "text_sha256": "6b0f743604e1c6e0b17ae049cb41af1e5f8426c8ac014d82c922fc7bfbe5052b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 229,
+      "reflow_footer": 233,
+      "characters": 1722,
+      "text_sha256": "ea854f27a753a4aa4cc4b9a223f0815924fb2ea1660e0536f152e79cca596a4a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 230,
+      "reflow_footer": 234,
+      "characters": 1044,
+      "text_sha256": "165743580ba0201112708675b13bd56d192f51e43f1e0cd83ea9212d9ffc72da",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 231,
+      "reflow_footer": 235,
+      "characters": 291,
+      "text_sha256": "d7795d06564fac1484f36d651f797e1b92686da4488d7bc1144bcf28762ebca1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 232,
+      "reflow_footer": 236,
+      "characters": 2035,
+      "text_sha256": "4da5f3e9f0a86edd87d0aa610d6a6e208771fd4e4c9257dca1d13109f842bff1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 233,
+      "reflow_footer": 237,
+      "characters": 1883,
+      "text_sha256": "d56ea2c067f99cbc87142a217a53625e392a4a0917f8806c069b97d2eeff13a8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 234,
+      "reflow_footer": 238,
+      "characters": 2171,
+      "text_sha256": "1422e65ffd1c1d45f669c27ea03a5633a4cd8fdd3c369d90cf7dd940fd31638c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 235,
+      "reflow_footer": 239,
+      "characters": 1987,
+      "text_sha256": "54d9c6da07d87923b0100e20c62e148652b0760ca7d0ffa76e3b46ceca0ca6fa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 236,
+      "reflow_footer": 240,
+      "characters": 258,
+      "text_sha256": "5d113356dcbafa32de2289608549c7fa8b37cdb5554304db4165c81b38e8c167",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 237,
+      "reflow_footer": 241,
+      "characters": 2153,
+      "text_sha256": "dbb7cd133b6304a463d0d9cd5830ea19811617013036e2dc01076f54c8d185bd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 238,
+      "reflow_footer": 242,
+      "characters": 1416,
+      "text_sha256": "33313bfdbb1507836e6fcda527cce22123024765e6b4645d11d5fcc05794295c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 239,
+      "reflow_footer": 243,
+      "characters": 72,
+      "text_sha256": "10c25de56ebf6b3df3d0cbaa2c8d0519ced4f1cd6f9ba05e694229b10d9483ba",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 240,
+      "reflow_footer": 244,
+      "characters": 83,
+      "text_sha256": "bd069447fb150a62f73cde8fb262ded5b28dc28e6efaf9c215ee3bf36236a263",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 241,
+      "reflow_footer": 245,
+      "characters": 55,
+      "text_sha256": "2018283ad4326f75cf8c21214153b66b01f0e1f80ef395d188b9134fedebcb57",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 242,
+      "reflow_footer": 246,
+      "characters": 37,
+      "text_sha256": "da12ff422f1d95f7b3721c219888497fa368b337190e4cb06d0eb16b8adb4bd3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 243,
+      "reflow_footer": 247,
+      "characters": 114,
+      "text_sha256": "131902723fdb4e6356b34a17f1491ed681760c8342b9d401e6ed82d416020bff",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 244,
+      "reflow_footer": 248,
+      "characters": 1836,
+      "text_sha256": "5e836df0bab4a9b9b11a79164b50c637e444843b656e6cbe9790c9277e9ebb14",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 245,
+      "reflow_footer": 249,
+      "characters": 1415,
+      "text_sha256": "602c2f887f553a04f7f790b8afb1c7cec22176a14dbef1c6382df4be5345093a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 246,
+      "reflow_footer": 250,
+      "characters": 1585,
+      "text_sha256": "199aeb9038054bf55f5a37705db7cc3c589cc9ca6aa2edab4a2377b5a7e400ab",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 247,
+      "reflow_footer": 251,
+      "characters": 795,
+      "text_sha256": "78f1e66563ef739520e8098497a092aeb53bde25ce942f9ed5a3c444124eee95",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 248,
+      "reflow_footer": 252,
+      "characters": 533,
+      "text_sha256": "a2700fd9975e270ae8dcd27189a8a579f315bd7dde6f94770fe7b48d7285fb62",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 249,
+      "reflow_footer": 253,
+      "characters": 69,
+      "text_sha256": "23344fc7c22858e5fbf69071266c73fe75b17e5aa2768cadac5ae860e8b57b01",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 250,
+      "reflow_footer": 254,
+      "characters": 1826,
+      "text_sha256": "fa5a86e7e44836d653f1e2c9762540b6b664e8a02d8d0b75978493df2a07e71a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 251,
+      "reflow_footer": 255,
+      "characters": 482,
+      "text_sha256": "3c7b9727944d36d8f77e28860ea6cc6e1ad881d76c64a9da1b8447887df398c0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 252,
+      "reflow_footer": 256,
+      "characters": 44,
+      "text_sha256": "67b12cb3fea3d96de68f5763bff2ea8748f859de124a93fdf89fbd550e7f0e02",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 253,
+      "reflow_footer": 257,
+      "characters": 2047,
+      "text_sha256": "0fea58c43ebe18577bba9834778aa038a03df8e155fd6df4f0424ec4b9d72d41",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 254,
+      "reflow_footer": 258,
+      "characters": 2150,
+      "text_sha256": "20607920b4a7ce0c3532129878064751629bc7dd3ec20ebe33efa59774dbf26c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 255,
+      "reflow_footer": 259,
+      "characters": 2278,
+      "text_sha256": "6caf635f1aa1d10ca55148d9120459819f9920cbc96f03f8dd05b6ca7da537c9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 256,
+      "reflow_footer": 260,
+      "characters": 242,
+      "text_sha256": "4f81f3ad4c2ff5f519c382dd1809b2cda9ab32cd11061e092e50653fc6df6cf2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 257,
+      "reflow_footer": 261,
+      "characters": 1204,
+      "text_sha256": "d18879297bdab42177d3b23911995504234a638b7b1c8b98d7ee1cee60b41887",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 258,
+      "reflow_footer": 262,
+      "characters": 1389,
+      "text_sha256": "53d1bb74bb9776f0636e5940994180528126a05cce0ab4bb94ace96e4509e817",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 259,
+      "reflow_footer": 263,
+      "characters": 2249,
+      "text_sha256": "cee87e8e67e9c46923215679129c0c9381f149667be4e96d1d30b507dc349433",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 260,
+      "reflow_footer": 264,
+      "characters": 655,
+      "text_sha256": "fb12314321cb98044eac960257fd10b60313eaa6df6583d35a5007e7bbd1515e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 261,
+      "reflow_footer": 265,
+      "characters": 2077,
+      "text_sha256": "bbb3fe7127e18d2e32d4c952018c4e21f25dd7137e534baa7789a10dec721b6d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 262,
+      "reflow_footer": 266,
+      "characters": 900,
+      "text_sha256": "886f13e333efadece0ac5067f7ef4ece59e2b4991d91dc4ad541ab96f17cb720",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 263,
+      "reflow_footer": 267,
+      "characters": 48,
+      "text_sha256": "6c498fea66fe301c0076a9ce512d7db25522ca0877b1487476dce194d70bb590",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 264,
+      "reflow_footer": 268,
+      "characters": 27,
+      "text_sha256": "c9d20c0781d63aee58454b0bee5da3f5feb7a5e391fcc27e56994eee7327eff8",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 265,
+      "reflow_footer": 269,
+      "characters": 749,
+      "text_sha256": "59c0e70b1a82d9da1c9f195bdd73a29f8707452e1eb683c3fbcc8deaca6589fd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 266,
+      "reflow_footer": 270,
+      "characters": 335,
+      "text_sha256": "acec6ee7889824c22f4205a4eee132853f865e3b5f8710fe583b58493e9232ba",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 267,
+      "reflow_footer": 271,
+      "characters": 1211,
+      "text_sha256": "a1967d1cc3c3678771ec5b525ba7a8d1aa977e89597a64d3ee7bcc1e8f9ba004",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 268,
+      "reflow_footer": 272,
+      "characters": 1131,
+      "text_sha256": "a48e27d8dcd33fe83e3ca7336b780660d494a1834f6705651c20bddaefa9b0f7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 269,
+      "reflow_footer": 273,
+      "characters": 350,
+      "text_sha256": "59659349c3e44dc6e65054de7877e56e1216a3523c76a315a1f413bec27d1b8e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 270,
+      "reflow_footer": 274,
+      "characters": 988,
+      "text_sha256": "4cc069d5b0314523b79e7bdb92ead32e4442ecb23271dcfc2594b0863ebdc391",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 271,
+      "reflow_footer": 275,
+      "characters": 2114,
+      "text_sha256": "7f56cd9bb128c2dd75fa8ff6169e8e0d889f4cabcbdf26af6e0fefaaeddee7db",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 272,
+      "reflow_footer": 276,
+      "characters": 1108,
+      "text_sha256": "3141693e00e963c409fa4a954ef79e7050158efb24607b0b386a3fe067a9a313",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 273,
+      "reflow_footer": 277,
+      "characters": 1747,
+      "text_sha256": "d32b6685c4375b19a6497f20591e845df915158ed814852a4b96dc4934089317",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 274,
+      "reflow_footer": 278,
+      "characters": 2057,
+      "text_sha256": "603cab0e63bd78dad8e37932307be530e046849a65ef3db3f7acfd9374bbe81f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 275,
+      "reflow_footer": 279,
+      "characters": 2912,
+      "text_sha256": "fb6b68b708c6d132d43b8a259cde50b0d455a8b37fc1131ebc1d74474b4a8c87",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 276,
+      "reflow_footer": 280,
+      "characters": 2535,
+      "text_sha256": "9766d1638984bee21a426cd5cf8b562c685a39c26b3880a19f863fac4cfe682d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 277,
+      "reflow_footer": 281,
+      "characters": 2908,
+      "text_sha256": "714edbbf3476db58c4ec9366ba12e7b3748a82e3f1d925483211c08e9a202658",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 278,
+      "reflow_footer": 282,
+      "characters": 2286,
+      "text_sha256": "4f75357831b869a6eea97c798de37b4f7c6cac9ff9aa2a6ddee502fce43c6cf2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 279,
+      "reflow_footer": 283,
+      "characters": 2552,
+      "text_sha256": "517830754f3305b00a137c2962bc4db07dd3c56013789a28478a8cce1d17f062",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 280,
+      "reflow_footer": 284,
+      "characters": 910,
+      "text_sha256": "be705fc3e88c675e065552a862848d6011a95cfcdc2db94b5e8f117159ccfca1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 281,
+      "reflow_footer": 285,
+      "characters": 1910,
+      "text_sha256": "179d9141cedd3e83113d393e37ee625e64dc3a6ac177826a211cc920cb38af53",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 282,
+      "reflow_footer": 286,
+      "characters": 2464,
+      "text_sha256": "23259bd0dba92dd199293876bd07e0f2855177713383fbdafbabbf88fc0885f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 283,
+      "reflow_footer": 287,
+      "characters": 1959,
+      "text_sha256": "988cfb9ac6b410f0a8c1a2da05208b085469d9fd7a36177a848ab360ec997436",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 284,
+      "reflow_footer": 288,
+      "characters": 1644,
+      "text_sha256": "06198ba9ce6ff6c2b4a51cd34bc4576f90cfeedfaa3009994374c0936b731cfc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 285,
+      "reflow_footer": 289,
+      "characters": 2070,
+      "text_sha256": "4033b875b8218edeb863d64f790d57837f0e938f7b7b2aec6de60971f0da8157",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 286,
+      "reflow_footer": 290,
+      "characters": 1396,
+      "text_sha256": "fdb1cc7a8245b94280bef2ee60dacab3560ee64d375cea3e778ca71d5dd57bd4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 287,
+      "reflow_footer": 291,
+      "characters": 1943,
+      "text_sha256": "2c88d51a21acc088cde887770ec8a2917d49e4d613873a8b53db670d76bdbd8c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 288,
+      "reflow_footer": 292,
+      "characters": 1320,
+      "text_sha256": "1ce9456b76c30fe680b44d5ca47157e3ff083d94b3cd64ead1fa64ab5c59b513",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 289,
+      "reflow_footer": 293,
+      "characters": 2350,
+      "text_sha256": "016a097cacf1eef093c78da7c78966e01a04bcf600f2f97de1e2de01d824b401",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 290,
+      "reflow_footer": 294,
+      "characters": 1748,
+      "text_sha256": "6f96364b92442bc42b8a7124889f79ea6282b866fb2d549449bee1f3a19d37a7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 291,
+      "reflow_footer": 295,
+      "characters": 2649,
+      "text_sha256": "df248f8546b3f78018e0cbd1f6b9c930c17fade5f4c996858fcf64488a713d61",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 292,
+      "reflow_footer": 296,
+      "characters": 2549,
+      "text_sha256": "49efb324cca8f2c55e07648bf76869aa90cfa299963762d43730523fdfc5d89a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 293,
+      "reflow_footer": 297,
+      "characters": 1935,
+      "text_sha256": "942943cdd3a94ad7cdc64237467ba33aa1ea11592509a20f374d608cd53f2f0a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 294,
+      "reflow_footer": 298,
+      "characters": 630,
+      "text_sha256": "e6abb283e6d15673df9caaf6e9355464700cd5dc245150c87b6f96c22f48c1f0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 295,
+      "reflow_footer": 299,
+      "characters": 783,
+      "text_sha256": "7d22f0c92fa15eaf2900d909bdf86b1acaadf10d8e47ea7023dcd3d33249f5be",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 296,
+      "reflow_footer": 300,
+      "characters": 1094,
+      "text_sha256": "c9362a0dfacd35a32cc408d050e16f9eb4d52311be2011afbae7b4ca5b3792a9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 297,
+      "reflow_footer": 301,
+      "characters": 2009,
+      "text_sha256": "2fc73e53ae8187364331286a9d3653d39a5a8d7930c7d9247a133dccda6ddbc0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 298,
+      "reflow_footer": 302,
+      "characters": 234,
+      "text_sha256": "c01b9b0e7b509139f9c08369fc417e3cc18f364d6b7bf58a2b3a2342f956f6cb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 299,
+      "reflow_footer": 303,
+      "characters": 2137,
+      "text_sha256": "cbfca6d1279da4de41858afffef624a7a1268a7f248c082834b4cf5b9f9e733f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 300,
+      "reflow_footer": 304,
+      "characters": 2308,
+      "text_sha256": "75ec72409b9b80969da9179913712d365bb302c9fb8b5cd409ac405315285d04",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 301,
+      "reflow_footer": 305,
+      "characters": 2543,
+      "text_sha256": "0bfd0054704b1f2ad7a4fb3eab3b5330b46f398bea81f7cc55b27f8941f6985f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 302,
+      "reflow_footer": 306,
+      "characters": 2362,
+      "text_sha256": "f9ee8cd050c1a238ca34de0a13441fadd64cdd3423cfb238777f3f589c5968d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 303,
+      "reflow_footer": 307,
+      "characters": 2969,
+      "text_sha256": "8ab2609852748e3b9db41a48ae1bc38bd6e2baf1b2c289f79dcf865aec699de4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 304,
+      "reflow_footer": 308,
+      "characters": 1770,
+      "text_sha256": "8642b383d4b7523957255a8d781e3c2abf349d812a4816854ad9f8aa359af663",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 305,
+      "reflow_footer": 309,
+      "characters": 2306,
+      "text_sha256": "5c845642a25e6f580aadc62c157e081ddbfde2510bc200c544b01acbe665e062",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 306,
+      "reflow_footer": 310,
+      "characters": 2410,
+      "text_sha256": "2e339c6e6f365d2eb35e9255fd9e0c7efb46aa81cabe84ecc19e27c52fb168ba",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 307,
+      "reflow_footer": 311,
+      "characters": 2071,
+      "text_sha256": "dd231d9b68e0325d965c2b765abafbcb9d36882cbf8fd5f710c41055dde2275f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 308,
+      "reflow_footer": 312,
+      "characters": 1782,
+      "text_sha256": "477e73e0eb575dcb04626ed12bdc41c6615a69e7dbffc7eb128ab86b3bd6413f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 309,
+      "reflow_footer": 313,
+      "characters": 1445,
+      "text_sha256": "2fbd388517c78af6e8d68a66cb74b7d6fa01ddcb26bb722915e10de81f7f7a0d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 310,
+      "reflow_footer": 314,
+      "characters": 1919,
+      "text_sha256": "f07c509c4c3810f437b1b246e198fff6d7466be4a8abf4c735f88e60863762c5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 311,
+      "reflow_footer": 315,
+      "characters": 359,
+      "text_sha256": "57cd292ada4465bb18249dcfa89961990a2d8474adaa6da0748f1fc16eb30ddb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 312,
+      "reflow_footer": 316,
+      "characters": 1117,
+      "text_sha256": "218fdcdb069764be23b1ba08e77fcdd9a68c27469c6bd9a546e46cd41c89fa18",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 313,
+      "reflow_footer": 317,
+      "characters": 1657,
+      "text_sha256": "879e7f7b3517de31608f1eb0143cc183b8a36b40ae17c9a2eb4987f0a398ac69",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 314,
+      "reflow_footer": 318,
+      "characters": 721,
+      "text_sha256": "2565f03cbfbe81835af120f0e91cef87a8a515b1a7a01ad1b01067243fda191f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 315,
+      "reflow_footer": 319,
+      "characters": 1923,
+      "text_sha256": "e2dfb3033f17c884c40b2251e58b7144c5eb7f36082c2163615191fb9024944f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 316,
+      "reflow_footer": 320,
+      "characters": 1213,
+      "text_sha256": "a9751172337a9e3574dcb7a42bbd3122301e731f3be9df5ff700d9566e23cbf4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 317,
+      "reflow_footer": 321,
+      "characters": 131,
+      "text_sha256": "d2997f559645c940c2b6e57eac2d18ecacd87fd133d19cc5a47947c42d93f2a3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 318,
+      "reflow_footer": 322,
+      "characters": 2002,
+      "text_sha256": "19c8b3405bc654dca98d1e6c567383b23e907b6a8510df69c8e74e656889d47c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 319,
+      "reflow_footer": 323,
+      "characters": 2419,
+      "text_sha256": "746b803c2a1180c8ba378118c9d0592dffaf0ee0e31400c01dde3aa4c0aaac6a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 320,
+      "reflow_footer": 324,
+      "characters": 1419,
+      "text_sha256": "08fe045a78b0275ac8b74ed442c1761131ecf7a4c7a0241f28797ba5ebeb5e4f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 321,
+      "reflow_footer": 325,
+      "characters": 1564,
+      "text_sha256": "d34435adfb4bd3f28b3b2214bfda539ed8f72db424117e4853095625f8f4ccd1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 322,
+      "reflow_footer": 326,
+      "characters": 1645,
+      "text_sha256": "ac32def52908332e3a62ceada4784319e538b94ee50a075bf17a8acc1e16b4bf",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 323,
+      "reflow_footer": 327,
+      "characters": 1779,
+      "text_sha256": "7b4bd417ed638f408c2779177e5b9bcf583c5e324e92d76b56e3aa1181ab1ee9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 324,
+      "reflow_footer": 328,
+      "characters": 2293,
+      "text_sha256": "5764b270d0fa970b658b3f5b578d4742136fb22498a47c2d04ea077044525159",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 325,
+      "reflow_footer": 329,
+      "characters": 1692,
+      "text_sha256": "8604be34436b78a145f3fe2b99608e0894b0e1dcadabc054ee7b0194abd92635",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 326,
+      "reflow_footer": 330,
+      "characters": 779,
+      "text_sha256": "e24b086e2a46800d322f57cc7d8ad9097cb2d160cb39107620b637c4d82d810a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 327,
+      "reflow_footer": 331,
+      "characters": 2363,
+      "text_sha256": "a2c3bb659841afe0410b010b171a10f19a3659e3945bf0cc55e25635670eb3ca",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 328,
+      "reflow_footer": 332,
+      "characters": 1177,
+      "text_sha256": "6894a0f20ee208fe8ab6e18d0e435ac4338d66a50421a89dc727cd67652589cb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 329,
+      "reflow_footer": 333,
+      "characters": 2176,
+      "text_sha256": "f4190f4179044f85c2ff6e8d4747d36246dabdc196d8052cc74ca7164f2971ec",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 330,
+      "reflow_footer": 334,
+      "characters": 346,
+      "text_sha256": "846cc9a7185d03243451c38b7c908d66e75c51c9ba2cb210d5e4f4d0e1220d6e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 331,
+      "reflow_footer": 335,
+      "characters": 1010,
+      "text_sha256": "f5a2590ceabc5333017746b6995ce5db38189f24b52f54f2682ec3fc67b1c5db",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 332,
+      "reflow_footer": 336,
+      "characters": 2226,
+      "text_sha256": "2a30b1b7e47c3244a3759539c15a8084ba1448438be0d74d9ddd16b665b49dc6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 333,
+      "reflow_footer": 337,
+      "characters": 1015,
+      "text_sha256": "22cffd8736526b1dae728504a4ebd8fcecb7e4fbeda835100912dcb01b06506c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 334,
+      "reflow_footer": 338,
+      "characters": 2007,
+      "text_sha256": "bdf39de7e8fe671ddf260fdcbd693d40ac7b2893bcf4de89701e6b67c99b4db4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 335,
+      "reflow_footer": 339,
+      "characters": 786,
+      "text_sha256": "a21da56140a3ba4fd3fbd4b572655d38888e9d0262746f527f8326688a1e4f3b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 336,
+      "reflow_footer": 340,
+      "characters": 1767,
+      "text_sha256": "e39728bdf069d3b7ba1343ca62edda189661b4e2ae414f234601466210f1380f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 337,
+      "reflow_footer": 341,
+      "characters": 2119,
+      "text_sha256": "59cc1b3a8c775a424f1f6ec18ddee1d39f4cd38c85260ed37becf02a33e3e93c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 338,
+      "reflow_footer": 342,
+      "characters": 1989,
+      "text_sha256": "5d763bf829a5ed7421ae9ae6043485bcea9e2da65e08b692f5dca0f3799fc7fb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 339,
+      "reflow_footer": 343,
+      "characters": 1213,
+      "text_sha256": "bb43febdfe07348b90f6d09c5467a02ccd7cc7ab576aa44d0f748f505449f3f2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 340,
+      "reflow_footer": 344,
+      "characters": 1689,
+      "text_sha256": "71af6e56b5f8715f6ab951d2ec46383c9da72fb19bf349a998db6da62c5a8231",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 341,
+      "reflow_footer": 345,
+      "characters": 1036,
+      "text_sha256": "2f7def8af16000f8189386237f42c525db700d30a75a15ad0975874f44554584",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 342,
+      "reflow_footer": 346,
+      "characters": 1609,
+      "text_sha256": "91666aec593682274280f1603bb8bd6d6cefa21ea8670b285031479679b426c2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 343,
+      "reflow_footer": 347,
+      "characters": 1796,
+      "text_sha256": "c8dcb0a3f7e73fbfddf1d35287a5440cb11fd38b20f79b441a12456cf1fe30aa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 344,
+      "reflow_footer": 348,
+      "characters": 1940,
+      "text_sha256": "b64c352c5d2ec0237683bfbf99b60a88a431f38e9ed03b502c1221a065a9643f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 345,
+      "reflow_footer": 349,
+      "characters": 2308,
+      "text_sha256": "e8f8ded21b297c266b5e9476066f63808b07bc27e4df4c3e30e177bf2a494428",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 346,
+      "reflow_footer": 350,
+      "characters": 307,
+      "text_sha256": "f9212ac33e63d744457d59b94207a6fa5bb01161213385a816a4a6b373a6619c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 347,
+      "reflow_footer": 351,
+      "characters": 2298,
+      "text_sha256": "6e433eb14e410bc57c2ae972cc906d5d89bac07bff9cf4bc11b9bc888e935d28",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 348,
+      "reflow_footer": 352,
+      "characters": 1235,
+      "text_sha256": "fcd4f163d5055812bba1f920b5521baf33e0e8f54e5f8c6014bdb7b7d72182e7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 349,
+      "reflow_footer": 353,
+      "characters": 2318,
+      "text_sha256": "8cbf46e30cc57ad1c74c652b5ecf7a155e874fa31bfc92a0a372413800f8dcbc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 350,
+      "reflow_footer": 354,
+      "characters": 1179,
+      "text_sha256": "ff7bf0d62cd213fd5fb635ebacbb7d0ed8b33ac858b8c5acca67fdee9e374c2e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 351,
+      "reflow_footer": 355,
+      "characters": 1625,
+      "text_sha256": "327c242a771a638cff803a96c9c2907d9d6c8c692bed77188dcebb1c058a322c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 352,
+      "reflow_footer": 356,
+      "characters": 2030,
+      "text_sha256": "8a3816fc748219e464f064b53fe367231878c4718249862bca91b6126be7a4d2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 353,
+      "reflow_footer": 357,
+      "characters": 1502,
+      "text_sha256": "94f4ee26cc74ec0ec98a93f98a1b218a0d16b979c5f71da6fbadf00b34caf42f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 354,
+      "reflow_footer": 358,
+      "characters": 1842,
+      "text_sha256": "7ff1150885c91e5bd51d7a6a2d09f9adda79824ecdad9e3618780bd1f8b4416e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 355,
+      "reflow_footer": 359,
+      "characters": 2184,
+      "text_sha256": "ef49941081eb08085880a0d5f748c61517331831500ec7b778a436208b278d1e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 356,
+      "reflow_footer": 360,
+      "characters": 375,
+      "text_sha256": "4288a192e43da3b84efc52f35d466a25522f2ec9a0891c3c62c9cff86a49a707",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 357,
+      "reflow_footer": 361,
+      "characters": 2283,
+      "text_sha256": "6016d9c91f5e3a56c7bceabc561c968fe3076894ebbc5a9e7878b760b623a464",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 358,
+      "reflow_footer": 362,
+      "characters": 2083,
+      "text_sha256": "b00d71bed35937de07a5fc0853aaeab3fc3c82b988946e5a48d40521be1787a2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 359,
+      "reflow_footer": 363,
+      "characters": 1047,
+      "text_sha256": "fc34718a8aa24fa0920109a3e16b4a3e0100bf03fe2e83bb59b8158ed83da73f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 360,
+      "reflow_footer": 364,
+      "characters": 1738,
+      "text_sha256": "38b64853c9d8ac7cb3da8ab04c78a53d1324c0225b22d5e99ddcc99c7e51f2d3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 361,
+      "reflow_footer": 365,
+      "characters": 1951,
+      "text_sha256": "bfdffd195922a1908ae0d3e1c5dfcd8a6535c7b4d9f0eca5a9b21a0562543ea6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 362,
+      "reflow_footer": 366,
+      "characters": 51,
+      "text_sha256": "91ada4cab37843aa2667ab7f6265b3db86c7ff76e0036d30682f1d1f0aa9856d",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 363,
+      "reflow_footer": 367,
+      "characters": 2124,
+      "text_sha256": "1f3317ab2c5c08c5321fc71b603a067a82d2a2adc0da0fdaa183c0660361f8b2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 364,
+      "reflow_footer": 368,
+      "characters": 873,
+      "text_sha256": "28c6e18892e3265643e8e1ffb8aa4be4c804f36cef63fedfe032b0e8733f9a8b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 365,
+      "reflow_footer": 369,
+      "characters": 375,
+      "text_sha256": "7f98b98890419d62f7ceb8495efd20affb5a0bac772a3c13a1da96a880d550f6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 366,
+      "reflow_footer": 370,
+      "characters": 2035,
+      "text_sha256": "091e60fc39a2d91eba8196a8088da5d8787fdd477d1103db6890e668d39750e9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 367,
+      "reflow_footer": 371,
+      "characters": 942,
+      "text_sha256": "6d68f452f180634b4317bda4c0f6ba1eb78a6316660f36ea7c952a531cdeaaff",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 368,
+      "reflow_footer": 372,
+      "characters": 851,
+      "text_sha256": "27bc8e5ea0cfdd0767119a33958158fc4f2d76f6629458a7c519b886e550243d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 369,
+      "reflow_footer": 373,
+      "characters": 2506,
+      "text_sha256": "45a834dc1c897a135d207b32f77d6c4d398c0e3c240756aebd0e0ee0d8d6c68e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 370,
+      "reflow_footer": 374,
+      "characters": 2760,
+      "text_sha256": "e8c1b1b2edfcdc14161402d1e50cb70417fdea2856e47cdb263cb1ab15777317",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 371,
+      "reflow_footer": 375,
+      "characters": 421,
+      "text_sha256": "aa03a34e9b82d70568fd349e0169a4c49225aabf2d0c7f78a29e14e5c475af44",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 372,
+      "reflow_footer": 376,
+      "characters": 1627,
+      "text_sha256": "f2a2b6d33a8cc3760b20284e2675891b9da15e2b3405a7211280b7561541d8ee",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 373,
+      "reflow_footer": 377,
+      "characters": 564,
+      "text_sha256": "4a78b3c488f9bb207b1ef84fa1db0b6f06d88d32a2f589a919a1f0799bcd7156",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 374,
+      "reflow_footer": 378,
+      "characters": 1955,
+      "text_sha256": "d9c2e77395c1b756a50156077ac94de7a299f0aba68ac35ff768c7307bc975dc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 375,
+      "reflow_footer": 379,
+      "characters": 1221,
+      "text_sha256": "4c3856014d57d5ce80cabd9b5cbb858cd00a6a8dfc12cca681216d889bb4e788",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 376,
+      "reflow_footer": 380,
+      "characters": 1759,
+      "text_sha256": "759286f4f33a815db41c7657850b7f27f848d3085352810850260f1bca42ee81",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 377,
+      "reflow_footer": 381,
+      "characters": 2260,
+      "text_sha256": "a3c001703401e8a6fd11cdc0ae3614f7909c2e15b875d59b6ed0086e7b42e462",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 378,
+      "reflow_footer": 382,
+      "characters": 466,
+      "text_sha256": "fd111f428bce46fbab40f35d17b92c15323b4a618011b6de4253576c83a49c6a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 379,
+      "reflow_footer": 383,
+      "characters": 1176,
+      "text_sha256": "50b26a6a8da39ae77f17f2e5982fb3fb72cba63e211ee9f1179526a4fbbef084",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 380,
+      "reflow_footer": 384,
+      "characters": 748,
+      "text_sha256": "8061d547ebc8dc6fb7f85d68ee619a7d4668e7355ae1d602924436e09ee30748",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 381,
+      "reflow_footer": 385,
+      "characters": 1979,
+      "text_sha256": "374481dd4e5c60415bcd88fd8fe3bbd6e8281d4f8bd6c7168c501ac557700f6c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 382,
+      "reflow_footer": 386,
+      "characters": 1069,
+      "text_sha256": "215b1db5a9508afaf18983c94fb735430b7229413c6e5def6ecbfc600b68a6fe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 383,
+      "reflow_footer": 387,
+      "characters": 1734,
+      "text_sha256": "db9d14debe4aa74fdf1dc09f96a532f1176849decb6d4ecc45acb49d8a9ff23a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 384,
+      "reflow_footer": 388,
+      "characters": 2663,
+      "text_sha256": "917b72db31f4eed981a3bb76c50c5c719e451600388cb3c11f566de288ea1bd1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 385,
+      "reflow_footer": 389,
+      "characters": 761,
+      "text_sha256": "5f62a0cdd9962e3ed833e08a896e89d2c83fd96c8b3056ee99c2b5c283ac5f79",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 386,
+      "reflow_footer": 390,
+      "characters": 40,
+      "text_sha256": "382d4de37a6720fb51e6076e5af8d934b2c51e9ad2adcb23e3ebe3ea704a5948",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 387,
+      "reflow_footer": 391,
+      "characters": 2089,
+      "text_sha256": "2ae1662220631275d09cb791f2c9d3acda23046580c23ab61a39fb091c29cfba",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 388,
+      "reflow_footer": 392,
+      "characters": 2591,
+      "text_sha256": "e065c665daa027b40d6c989ebc2603efb171ae2d03971c06b773c47d9c9a42be",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 389,
+      "reflow_footer": 393,
+      "characters": 374,
+      "text_sha256": "768bf39f764debe2e814a0c56f892fa90011be679bba199629df04a3c639419d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 390,
+      "reflow_footer": 394,
+      "characters": 1798,
+      "text_sha256": "e02a49098d8bd894e9885873d3ca6b65ab9d9c36dc4fafe88a13381633546548",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 391,
+      "reflow_footer": 395,
+      "characters": 2283,
+      "text_sha256": "86be188312ddfa6ef06f9c4910a933f9782cb30006d1f867b277c34611cc7b56",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 392,
+      "reflow_footer": 396,
+      "characters": 485,
+      "text_sha256": "ce35e854e07090ebf8f58f926b4618ba7469ee252e44d42b1e6acfb9d1bbb8b2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 393,
+      "reflow_footer": 397,
+      "characters": 41,
+      "text_sha256": "8a169aaa0ecbf9d8f643c965a651cd7c410fd4440bd3ac8f801307870ae9d171",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 394,
+      "reflow_footer": 398,
+      "characters": 33,
+      "text_sha256": "c10bb8ebdf226049c74d2403a45dabc548828ab3a3877b60d574bf8b658ffe95",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 395,
+      "reflow_footer": 399,
+      "characters": 32,
+      "text_sha256": "5b97f28a02f1a84f1e6cd799308b7aafc7702c9c808dd305614d8062dc94dfe7",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 396,
+      "reflow_footer": 400,
+      "characters": 31,
+      "text_sha256": "a3ef72848201ad385279571362c565f8419158bcb1a69f1fe81b6d838ef8578e",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 397,
+      "reflow_footer": 401,
+      "characters": 32,
+      "text_sha256": "e16360dd597a96d3e7005ff88b2b0b0aa2689f8d9c5fef93d2a46caae38200eb",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 398,
+      "reflow_footer": 402,
+      "characters": 33,
+      "text_sha256": "3fcb7661ca376edf2186781ddd32646d1b1577ccb2478b841697b5166a268d28",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 399,
+      "reflow_footer": 403,
+      "characters": 32,
+      "text_sha256": "24dbc0d6fe61cbbfc28f25a1b4a9bfe3c3493ca0cd70ede0ddee7081f52ce4ad",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 400,
+      "reflow_footer": 404,
+      "characters": 33,
+      "text_sha256": "e7246b2e25997d1393575179afb77e5085fde03f5ca23af61dc24d711206975b",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 401,
+      "reflow_footer": 405,
+      "characters": 32,
+      "text_sha256": "ff6746c2d2464193d5a382bb18863f564599a57ae734c3ed5b47ca3d8446f830",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 402,
+      "reflow_footer": 406,
+      "characters": 30,
+      "text_sha256": "94bedf2de547c89b01cc7a77eb1d13bb1fba05b063f578ffcb9afe827048bd36",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 403,
+      "reflow_footer": 407,
+      "characters": 30,
+      "text_sha256": "f2861ef954b811e2beec12e2577d988e3947eb289a43382b36b61791326b19e3",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 404,
+      "reflow_footer": 408,
+      "characters": 1787,
+      "text_sha256": "6389d543489f0e58684bb78ccc2d82a35f6c267c2e92b044014941f157cec721",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 405,
+      "reflow_footer": 409,
+      "characters": 2078,
+      "text_sha256": "584ee64a25c058452c0d683c53483a985163e19af483047a3a61d26d9e95212e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 406,
+      "reflow_footer": 410,
+      "characters": 1130,
+      "text_sha256": "b8f2f4909026b340fbf56b2d021728b6400c92c328d3b479a88a316042eea41f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 407,
+      "reflow_footer": 411,
+      "characters": 2207,
+      "text_sha256": "fafe9ca6058fa71f127fd29496518325b39f2d4d69e2a72a99ff05c7189f9851",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 408,
+      "reflow_footer": 412,
+      "characters": 2099,
+      "text_sha256": "e07954beb0ef060bcb68db1cfab03e53b46190a580254ad6696b906a1c58c60a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 409,
+      "reflow_footer": 413,
+      "characters": 2704,
+      "text_sha256": "65e32b1c18547ca536671e245fbeffe8ac8459b97889931185f69f1415ca0dae",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 410,
+      "reflow_footer": 414,
+      "characters": 768,
+      "text_sha256": "11a104a1a1ebcf12d131cb60f76a71c2de87d5fc837512d478f9427bee9f2278",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 411,
+      "reflow_footer": 415,
+      "characters": 531,
+      "text_sha256": "ffb9dea02d58e4edfd1e1ec82f06098cff77b15d0688d6cb6191605badcb6016",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 412,
+      "reflow_footer": 416,
+      "characters": 1496,
+      "text_sha256": "8596d4b39c9e5ce85ff3e2678090f62e9c63895b7a30713853eee04a870a1f4a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 413,
+      "reflow_footer": 417,
+      "characters": 2399,
+      "text_sha256": "d9cbbf49b943c8c70510ae7484dea63c81629d3fc7682875f0dc853482c0f790",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 414,
+      "reflow_footer": 418,
+      "characters": 1422,
+      "text_sha256": "79c93418ee3afa19f8de9bd65c323ec63c1138faa6075df32d9db22e758955ca",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 415,
+      "reflow_footer": 419,
+      "characters": 1961,
+      "text_sha256": "3cfe03102e8dd333e722e214a1ecfa0383c974c167d78a267866ecb7b3134653",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 416,
+      "reflow_footer": 420,
+      "characters": 2695,
+      "text_sha256": "2c9a2122b97ead5ecc2d0eaca30c4bc9c722e528ad38a169b36d25c412111bd3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 417,
+      "reflow_footer": 421,
+      "characters": 1624,
+      "text_sha256": "267f18b65910f21173d23aae801919d67f4643be126e1a20df8c49ca749bd09d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 418,
+      "reflow_footer": 422,
+      "characters": 39,
+      "text_sha256": "5dd220fb06349f6c2e2e2337faaff2a49ed01d626ad311a6c24b1edf85aa4ff5",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 419,
+      "reflow_footer": 423,
+      "characters": 44,
+      "text_sha256": "0515ab63a1d9061bcd4503f6a29dda655c0027c0cf0e2dc69e583362eadbe2fd",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 420,
+      "reflow_footer": 424,
+      "characters": 1929,
+      "text_sha256": "31ef2f87bd0eb6d25418bec75915beeec9876253f9d1fa13700e2329d1477c44",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 421,
+      "reflow_footer": 425,
+      "characters": 872,
+      "text_sha256": "33c7cb47d9147d7c454f750009fbab30915504b913fa2faf530bb5cea3953bad",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 422,
+      "reflow_footer": 426,
+      "characters": 2029,
+      "text_sha256": "25595ee190df64915796b53345160de255bcfc65f55df641e0f21e97184623da",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 423,
+      "reflow_footer": 427,
+      "characters": 2351,
+      "text_sha256": "c3e140b0f31088af6fdea2ab28173c6acd71e8e6bb9f6faba8cfb30611194a92",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 424,
+      "reflow_footer": 428,
+      "characters": 2834,
+      "text_sha256": "71be77e1c5b8b1b243b9fa3d03c975fbc87bb00cd798412763a19712e08d9a17",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 425,
+      "reflow_footer": 429,
+      "characters": 2558,
+      "text_sha256": "5ca5f057ea911f346082297b451792958396a1c3b771d243fe0ef566055812f5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 426,
+      "reflow_footer": 430,
+      "characters": 796,
+      "text_sha256": "c09f50bebe37fb033c922a11112b6710c5012df24e11098f9f19b8b83aeb5e4d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 427,
+      "reflow_footer": 431,
+      "characters": 1288,
+      "text_sha256": "f85533a31a56fe031ca42f616357199d1faf6f63bd0ef61a680bff9a5238e161",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 428,
+      "reflow_footer": 432,
+      "characters": 2012,
+      "text_sha256": "4ed0271d8b8d43f4407bd391197906c739a17c1916a930fc30e123b8021b6268",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 429,
+      "reflow_footer": 433,
+      "characters": 2592,
+      "text_sha256": "c44471aa1b83dce12dcff152aabd91466815f55485745c235ed3873818a5b7f0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 430,
+      "reflow_footer": 434,
+      "characters": 1123,
+      "text_sha256": "50a95ecf500bd3d842e54c8a02a6402da0b95446b7924613eb8e5d342eed77ba",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 431,
+      "reflow_footer": 435,
+      "characters": 1655,
+      "text_sha256": "0937bd0ccb83786f33934c818003a1ecf1d4a16c07baa92f9b6a995e4ddde48d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 432,
+      "reflow_footer": 436,
+      "characters": 881,
+      "text_sha256": "ade35f240d4514239f64421d72b86ff43cfc4151f3430db54153e02e44f505af",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 433,
+      "reflow_footer": 437,
+      "characters": 2189,
+      "text_sha256": "9e4d2a50a9765c0c70864b712a0dfe43fa03d89bd5ed326f983f359bcb75b47d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 434,
+      "reflow_footer": 438,
+      "characters": 742,
+      "text_sha256": "1045a8f96c3b6a81f58f1acdc9e35945a1c89fe4b3561f7b39ee4c6cc9ebbfd4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 435,
+      "reflow_footer": 439,
+      "characters": 2109,
+      "text_sha256": "4ddd4dd7fd9c3f5421e679ff059a78f74ed543e37bf2c6fffa1bb9d7e3047589",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 436,
+      "reflow_footer": 440,
+      "characters": 2666,
+      "text_sha256": "8670cd39a5c37be65943040b79372e89506f48206bf73d805b575cda37c024f7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 437,
+      "reflow_footer": 441,
+      "characters": 828,
+      "text_sha256": "82ca3a889eec6b51acf4958e1330cb56961aa6792f5aa963d6c9ad14969823f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 438,
+      "reflow_footer": 442,
+      "characters": 1909,
+      "text_sha256": "496502c32c38a3b4344925ca2257d35e8fd3a593f3541ef7597a804d59909ebe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 439,
+      "reflow_footer": 443,
+      "characters": 823,
+      "text_sha256": "1b64584f5f96898e127bfc83dcae9c5ad903dc79f092420c8609865449be9ad3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 440,
+      "reflow_footer": 444,
+      "characters": 2471,
+      "text_sha256": "51bfc1c7a01dc88cdb83f0f130dd6dc18c81e640a588bf75045790863cf8a036",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 441,
+      "reflow_footer": 445,
+      "characters": 2683,
+      "text_sha256": "69564c0fc515c2c812a9d3b9921b95b2fe19e62600b509f05263b644eeadfd04",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 442,
+      "reflow_footer": 446,
+      "characters": 1072,
+      "text_sha256": "ceb21fd69c286020e4c004c186ad3110fd1916b1c6d5baf85249e30b01bc72d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 443,
+      "reflow_footer": 447,
+      "characters": 2229,
+      "text_sha256": "f2ce8dda3f31394477a013ccf6d09f70f87523245ca3ed871b38074bf0e895d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 444,
+      "reflow_footer": 448,
+      "characters": 1270,
+      "text_sha256": "318d4293c46a503a78a2b8f5e417448a6b9fa25ef1c2aafa313e56191cad7504",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 445,
+      "reflow_footer": 449,
+      "characters": 748,
+      "text_sha256": "8bbe3f2f35352eefcf638ee6aa7821ea8bf2af991b46bd22ae0ea0d3c96ccd8d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 446,
+      "reflow_footer": 450,
+      "characters": 2184,
+      "text_sha256": "eec4beefc2f6deee8ffab5f2bb66c0e0ce037078c8f01521fe79c0b075432ab1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 447,
+      "reflow_footer": 451,
+      "characters": 1074,
+      "text_sha256": "42af111b4cbcefca653a713940e39814243b6ff24fdccacc79ddff6f629e1a55",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 448,
+      "reflow_footer": 452,
+      "characters": 1173,
+      "text_sha256": "df40e64b5776ed93ad78739f3824f0b7ef5805dce34d13c7b1a3ae36bb8d2f2b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 449,
+      "reflow_footer": 453,
+      "characters": 1236,
+      "text_sha256": "87884c0323711be628b53d25845ad561a49705f347a7a4693addbc7a7b457551",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 450,
+      "reflow_footer": 454,
+      "characters": 994,
+      "text_sha256": "b57823541894f6eb017b66e0b01003487d03a28bf007176c52270d2005782b89",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 451,
+      "reflow_footer": 455,
+      "characters": 1671,
+      "text_sha256": "ed8a9dd6dc9f6ad554f85f523fdf40d030b5cdb5bc97b6dd2a8213dfec3db25b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 452,
+      "reflow_footer": 456,
+      "characters": 1540,
+      "text_sha256": "43d440c6671afe12006dd300069f67be7ce935b619e4a99658409db613ee6b28",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 453,
+      "reflow_footer": 457,
+      "characters": 2532,
+      "text_sha256": "ae0bc8675f199a8d771f36220bdb1f6bbc12e35152ba229bbc15ac52c6563042",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 454,
+      "reflow_footer": 458,
+      "characters": 1996,
+      "text_sha256": "5a378ea1529b8e418dfda937a9f16e9b399f1d3299801aa00312e864c2ed4aa6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 455,
+      "reflow_footer": 459,
+      "characters": 166,
+      "text_sha256": "1a0775fcda1483e2745aa36d50b20648fefbf5097ccb3a1852a8288f75993aa9",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 456,
+      "reflow_footer": 460,
+      "characters": 2129,
+      "text_sha256": "fcf4975de2b33a6bb736d4175889cb104fa4e0edf1898e2fb2556fa87b48560b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 457,
+      "reflow_footer": 461,
+      "characters": 2104,
+      "text_sha256": "29da848d6e2b1c015fd9e370f67711876fd53b2e21edfe61190878caebd9619a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 458,
+      "reflow_footer": 462,
+      "characters": 3450,
+      "text_sha256": "1eed8ac2e71b0fcceed436693aa546f26b677638ff3ead12cccad95b8a9efc17",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 459,
+      "reflow_footer": 463,
+      "characters": 2986,
+      "text_sha256": "587cc1f01f2264d35c3fbc8ded8ce4965564d9eb8504e91f7c5da5d5b8355918",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 460,
+      "reflow_footer": 464,
+      "characters": 342,
+      "text_sha256": "f603323873a88a574d748cf4e2077e703cf6b4f235a5ce6c5efdcdac1829e8c0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 461,
+      "reflow_footer": 465,
+      "characters": 2079,
+      "text_sha256": "ff429f9598df10d63c9782e32f7875e5a50fac0809310f82fd8ce0ecf66d988f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 462,
+      "reflow_footer": 466,
+      "characters": 2481,
+      "text_sha256": "6343ec5dd4663eace832adf9077e8d177cf254edd8f187086706d697f7ac1872",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 463,
+      "reflow_footer": 467,
+      "characters": 1572,
+      "text_sha256": "d8634a19379ff0449720c22545059a217617a2293a2b9ba27ca6e21603cc15dc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 464,
+      "reflow_footer": 468,
+      "characters": 2302,
+      "text_sha256": "47d4e2bff6707e12d514ac9cbaa788d44e289a569f862779a6c608a07172e8f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 465,
+      "reflow_footer": 469,
+      "characters": 533,
+      "text_sha256": "a2c7e1d2dc8d534a7d7298feba94c909c148dc32cbf739634d04e2ceb994a757",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 466,
+      "reflow_footer": 470,
+      "characters": 2093,
+      "text_sha256": "05e89c1aa7bb50d31e1033894d3fc377a80cc00b59f0eb63ac273a6cb09c6592",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 467,
+      "reflow_footer": 471,
+      "characters": 424,
+      "text_sha256": "1a7ec23e701af580327a7138303566855bfc8230f43efaf43462d94f6dd196b1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 468,
+      "reflow_footer": 472,
+      "characters": 2055,
+      "text_sha256": "0b459521c4221b42b0cb1d1f1f633c60bd94b31314b8f0420c425a133a135ca0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 469,
+      "reflow_footer": 473,
+      "characters": 528,
+      "text_sha256": "1810bb3cd116c224c23db13a9ea360f806c88a400585d3920877c6fd945957b7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 470,
+      "reflow_footer": 474,
+      "characters": 1194,
+      "text_sha256": "b8cef788dc690f2c4a00ebd742427e7de0f6e8dce586544285733fe1232cad2c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 471,
+      "reflow_footer": 475,
+      "characters": 936,
+      "text_sha256": "1c97d704c16ae0659938f1586537c29570c56389d5f0e377e3be4660e330e1d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 472,
+      "reflow_footer": 476,
+      "characters": 36,
+      "text_sha256": "68e7e54ffdbd63a260a266ff4bbcfc28934585534f5729d8dd1e8cddb4ccc3a7",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 473,
+      "reflow_footer": 477,
+      "characters": 38,
+      "text_sha256": "9c3a67cb0c5f9452c58b86a4ce59d5c76dccb6d6e8bc03e2cba1e793def90177",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 474,
+      "reflow_footer": 478,
+      "characters": 40,
+      "text_sha256": "bd6e7612d3d283fd70fc4e1b9edb10778ae3028c9a81e8ed9e23d5f929223ab6",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 475,
+      "reflow_footer": 479,
+      "characters": 53,
+      "text_sha256": "3163547c84052f8ec6620f73bf4b13668922ef641437cb2bcc799d1d88122e3b",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 476,
+      "reflow_footer": 480,
+      "characters": 1187,
+      "text_sha256": "8261e85b0450c2cc8d454c7c339c43e2a0bbce21e48b626566329f4dc28aa95b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 477,
+      "reflow_footer": 481,
+      "characters": 1625,
+      "text_sha256": "54ad16ddd0efea030ccd101130f590b247c022b6925b9a564d12a1a14321c373",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 478,
+      "reflow_footer": 482,
+      "characters": 945,
+      "text_sha256": "333d26f30ba91f23af22a1ee4f26769eff0da55b63b1e02b9e1e775ceefba266",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 479,
+      "reflow_footer": 483,
+      "characters": 1666,
+      "text_sha256": "5d0cfa1de420b0acc4be1c3b5eafb279795716558318217be21aa02a2f0e270e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 480,
+      "reflow_footer": 484,
+      "characters": 1224,
+      "text_sha256": "57f59d207783514c718d5bfd2874ea7acf1dd28c5f4e0988cc800ec025c13de4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 481,
+      "reflow_footer": 485,
+      "characters": 1357,
+      "text_sha256": "f95ce2ce60886badab87446931da84d1ff197f72d39ef8ced7349f72a8480f92",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 482,
+      "reflow_footer": 486,
+      "characters": 1811,
+      "text_sha256": "4cf4087155e9e3a89d822f273ca66e181638fbdf94c077127bebe53a52756066",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 483,
+      "reflow_footer": 487,
+      "characters": 1614,
+      "text_sha256": "c85b3db8672bc9756610441dbccd070f75b073b015d4063c66a0c30710caecf1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 484,
+      "reflow_footer": 488,
+      "characters": 797,
+      "text_sha256": "1f3e6330d15ff6576014689b3c1a82dd814174f34175d6231de0a709c54e2617",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 485,
+      "reflow_footer": 489,
+      "characters": 2203,
+      "text_sha256": "ce32912ee5277efe59b5942831863bbc6c265c2743ae4599c8e73fd59fe1e883",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 486,
+      "reflow_footer": 490,
+      "characters": 2973,
+      "text_sha256": "8dea6a8878f5cf6c4cd06eff331f413e8cbf77a0732c418351fe2abab6c5806d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 487,
+      "reflow_footer": 491,
+      "characters": 1566,
+      "text_sha256": "86e18e290418cedab681d93af51ad36b3faba7e15c358fde8ee52b99302239e3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 488,
+      "reflow_footer": 492,
+      "characters": 1720,
+      "text_sha256": "1b3589202b73e6c59a4c30e968a3db9a27c0bafa7ba8af77ff9ca4302e289759",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 489,
+      "reflow_footer": 493,
+      "characters": 2276,
+      "text_sha256": "77ae32467b35504862b3d71d57d62d82052a5d2ffd58d8ea816702e68e25749d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 490,
+      "reflow_footer": 494,
+      "characters": 2323,
+      "text_sha256": "2f9fa50cca0b846f50e21127427a9a8222c1658d0f4a110eedd542ab62fa4974",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 491,
+      "reflow_footer": 495,
+      "characters": 247,
+      "text_sha256": "060d277aa1b6300bf2c1559a7d36b7edeab709abbbe67959830b831fcf414aa0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 492,
+      "reflow_footer": 496,
+      "characters": 2034,
+      "text_sha256": "5bdb8d0c8184d6e3675ede6048a500562cad8f4c14b6cfe36935986adea08177",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 493,
+      "reflow_footer": 497,
+      "characters": 2709,
+      "text_sha256": "acddb3d22f9fba7a3117642f58738e161a6802e8784fbc087d0ead339bb6ce8e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 494,
+      "reflow_footer": 498,
+      "characters": 523,
+      "text_sha256": "e193f639fdde3e54cdd1465f73f2ba3fa81dbd39fee67f8b8e3e067027fa69d7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 495,
+      "reflow_footer": 499,
+      "characters": 2360,
+      "text_sha256": "3c8393f3057f07616e2628d0c868d859718797cc6895c1599fbc6201acf311bb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 496,
+      "reflow_footer": 500,
+      "characters": 1538,
+      "text_sha256": "251a84997c92d1403c08db4930685096f0db1d48c8fb71d2c7713356c759c642",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 497,
+      "reflow_footer": 501,
+      "characters": 597,
+      "text_sha256": "0af0c6048aeea99c66a1d99ef5dfc0b7fdd2c912fee8ccbb5bf05db19217e092",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 498,
+      "reflow_footer": 502,
+      "characters": 868,
+      "text_sha256": "7b1c8f9d445458dbb9ccc6034f4a230f459626424d64b6538273e4f5067792e4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 499,
+      "reflow_footer": 503,
+      "characters": 36,
+      "text_sha256": "ee7d8890345e3e8d256ddb546122a2b69b1f14b84818e7e1ed1a0d4818f39dbc",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 500,
+      "reflow_footer": 504,
+      "characters": 31,
+      "text_sha256": "4c79ba7d138bc881dff3a243c1c342ea503f704c47a89f2c8f8a3db7c411a23c",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 501,
+      "reflow_footer": 505,
+      "characters": 29,
+      "text_sha256": "bd32297a03211edca150a3e1556cb9a633e088650d185904d36596990ad7393b",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 502,
+      "reflow_footer": 506,
+      "characters": 30,
+      "text_sha256": "25e4f2eb708a17248ece759b41a801651d1385363b594dd1357bedc5a559ee38",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 503,
+      "reflow_footer": 507,
+      "characters": 29,
+      "text_sha256": "baf5e4896728a242dbd1af093af27650a7b9ad9f1f8615e7e04bdea7b378c45a",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 504,
+      "reflow_footer": 508,
+      "characters": 1985,
+      "text_sha256": "a4d4c2431d92db6fa02ef93e8ba3dab3743269e60c849a3cc4b96599f3d6d602",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 505,
+      "reflow_footer": 509,
+      "characters": 834,
+      "text_sha256": "f87c2bdec2eac11dc4c2e27d235b65b986c3b8a7ba0b736054b2ad63b7e85281",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 506,
+      "reflow_footer": 510,
+      "characters": 400,
+      "text_sha256": "4914a3586f32d910eeb073f0418e5dce15c3f58b2a5f95eea47c11c9ab62cba9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 507,
+      "reflow_footer": 511,
+      "characters": 1473,
+      "text_sha256": "89d5d5a71b101b63e8702084dff0df856712c863d9d880754c3a76e981eee2fd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 508,
+      "reflow_footer": 512,
+      "characters": 2286,
+      "text_sha256": "c2ac1e7363cf8c0677967b6e7b742a2c2fb0e27e8e4a7148924344805a6d3d67",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 509,
+      "reflow_footer": 513,
+      "characters": 2308,
+      "text_sha256": "9481a5481ae4ff6c818a5645051c5271aa6a3a91682716e7ae8ac3cc00f4c912",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 510,
+      "reflow_footer": 514,
+      "characters": 2199,
+      "text_sha256": "1a025ab17b79f8eb234da78e30c97eecbe64d417e80e240164ae11b6f0e253d4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 511,
+      "reflow_footer": 515,
+      "characters": 1131,
+      "text_sha256": "0bfe6941d03edd5d05e532df155bd9f01effd6f3f995eecfe9eacc8caed8dc70",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 512,
+      "reflow_footer": 516,
+      "characters": 871,
+      "text_sha256": "d61f7af1cea5a5d900fa338535b353857ebeebefe7277a8206a459129c3ec8af",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 513,
+      "reflow_footer": 517,
+      "characters": 234,
+      "text_sha256": "0215310d841e162d9213338ee70a6118c409b708a65156faba0968adde5acb0b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 514,
+      "reflow_footer": 518,
+      "characters": 58,
+      "text_sha256": "c3974caaaec9212b48e53b22530686f97b1150ab27cdd5e8465c04f75ad64384",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 515,
+      "reflow_footer": 519,
+      "characters": 39,
+      "text_sha256": "bcd1008c3d4cbd2f97698457dbe531fd66e4f1b6977db05ccc280e24c91ca32a",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 516,
+      "reflow_footer": 520,
+      "characters": 71,
+      "text_sha256": "f6404df6c02ff47a4637903b4b7b27635325c0dbb30e7d5f38148024298f497a",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 517,
+      "reflow_footer": 521,
+      "characters": 2116,
+      "text_sha256": "0b6f3d716e2c275a79799fb66021bb5033d302d2570d313a822e477f696e7c27",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 518,
+      "reflow_footer": 522,
+      "characters": 2628,
+      "text_sha256": "98e518cac4df210daaf24c4b5e9cce5764917be7b346f269957b85c5a057490a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 519,
+      "reflow_footer": 523,
+      "characters": 1695,
+      "text_sha256": "9ac4b7c2350cbc90178ce12734b19fe2eaa9a124d822740f63554ef897bd57ad",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 520,
+      "reflow_footer": 524,
+      "characters": 1139,
+      "text_sha256": "47fa01e33f65232e467f6cb9ed1524fd9d2267abdfbad32b387cacfe0130ee6a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 521,
+      "reflow_footer": 525,
+      "characters": 1655,
+      "text_sha256": "c94e2042564d83c1972490711a34f075465b13d21cd467d6bf4dca7833972027",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 522,
+      "reflow_footer": 526,
+      "characters": 2196,
+      "text_sha256": "cca9af421f3220a4855dd9e7301debfda84b18a6d599f15bec9679fd2237be17",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 523,
+      "reflow_footer": 527,
+      "characters": 2088,
+      "text_sha256": "fff2d48460d710ebe1cbcb3bcdd8cc71c16013cb794d285cd8046fb1f6a32f62",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 524,
+      "reflow_footer": 528,
+      "characters": 2497,
+      "text_sha256": "329cba93e76777f0a6d2fa52a6615660cca6cb1385b6c8988982dba990deef03",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 525,
+      "reflow_footer": 529,
+      "characters": 2324,
+      "text_sha256": "2616f7c244de434c7f8da64d3502f3848f56aaf7f986a262556c9025eca57317",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 526,
+      "reflow_footer": 530,
+      "characters": 2100,
+      "text_sha256": "57a637a8e5dd5ef342c9443dcd97def5949217fb1508aa8532435fc0297fb9e1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 527,
+      "reflow_footer": 531,
+      "characters": 2697,
+      "text_sha256": "96a60abbc5b4f8a95f4ed944af292b9a0021bd57e38a01f9d17a948c182155e9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 528,
+      "reflow_footer": 532,
+      "characters": 936,
+      "text_sha256": "c59c64f0a2d3960acfc501cb9c9fc0c705ee45ae73d3f46b013cd9153824030a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 529,
+      "reflow_footer": 533,
+      "characters": 1701,
+      "text_sha256": "aaa1ccc23b541cc761238eceb6383bd830c2dfbeb1164000bcea25a03381b058",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 530,
+      "reflow_footer": 534,
+      "characters": 2030,
+      "text_sha256": "601ec1d9fe5debdaa9e16bb5cb760b26d5b6fa551be060129d198ec43a4b1cf2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 531,
+      "reflow_footer": 535,
+      "characters": 86,
+      "text_sha256": "d74abd27be364664c9f9203d69f9e1d81f2a2e9d5d894fbbb5d1532530ace7ec",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 532,
+      "reflow_footer": 536,
+      "characters": 2042,
+      "text_sha256": "8a5c3aba1c066ca0f2f760a5f75a106cb99e9e6a1d08220008e381ea2181b829",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 533,
+      "reflow_footer": 537,
+      "characters": 1798,
+      "text_sha256": "3d2950e05aef0010c4f248747fab502b0c0720b597c44c097fa2b76a5a238fd9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 534,
+      "reflow_footer": 538,
+      "characters": 861,
+      "text_sha256": "e0f194d5db4c9b1185f12788eb577f543f4bacfdb2f448db89ef2e3f90a529a9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 535,
+      "reflow_footer": 539,
+      "characters": 1579,
+      "text_sha256": "3252eaabda6d92a48d0d401f0731c355dcef0b19cce4e228cebdbd23233f2cb2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 536,
+      "reflow_footer": 540,
+      "characters": 326,
+      "text_sha256": "450072097ba188e6ca93598b5e4b211a7556b20c55b47ede5ac115a01e8cb19e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 537,
+      "reflow_footer": 541,
+      "characters": 2301,
+      "text_sha256": "5127f32e016778d3e451681a24d90d596456eb247aa2858dbfa76d9126e0e623",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 538,
+      "reflow_footer": 542,
+      "characters": 2444,
+      "text_sha256": "43ca93f85db78fc9c521f59dd0a6c6f0215e515e7cc47fb0732fd080b89fb472",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 539,
+      "reflow_footer": 543,
+      "characters": 2519,
+      "text_sha256": "30ea470d35bcc780a7eac5f2685f0a06f1bf37d093c2b6b5fa1caa00bc83d9cb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 540,
+      "reflow_footer": 544,
+      "characters": 1620,
+      "text_sha256": "c8ffb0ccdbcafc5274ee415c202ed6b7a35be7e58ced8d50d5150aee7a8680f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 541,
+      "reflow_footer": 545,
+      "characters": 1734,
+      "text_sha256": "2fe4ec3381349b181580aa6b9d491b54aac4223e57480e06918d171b4eb57ec7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 542,
+      "reflow_footer": 546,
+      "characters": 2475,
+      "text_sha256": "a6c932ebc2987703c9d4feab625b8bda2ebc489ed56b9bb467fda71d0d38029e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 543,
+      "reflow_footer": 547,
+      "characters": 2668,
+      "text_sha256": "aef655ffb95decec71663b5cfcb6a5c855ef07ce7917d1771c0543169424c909",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 544,
+      "reflow_footer": 548,
+      "characters": 1893,
+      "text_sha256": "dae29d269f8ed860578f8dfb0b7c45a0952173ea562750b492900acda8db6dc2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 545,
+      "reflow_footer": 549,
+      "characters": 1895,
+      "text_sha256": "492c97c062fb4ec7c3d7669dc2ac292273bd9a2569c36ba90b154cf4c91ef8dd",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 546,
+      "reflow_footer": 550,
+      "characters": 2116,
+      "text_sha256": "c1a1035fafcd86417c9d50e9098def3c760a1eba0cb9280c4973d36d37ea507a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 547,
+      "reflow_footer": 551,
+      "characters": 1846,
+      "text_sha256": "009f977243176aedea5f65366beeecce4df2b914322f9bd488754e432453b160",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 548,
+      "reflow_footer": 552,
+      "characters": 1577,
+      "text_sha256": "72148bee9463b7615efd3da79cc6cd93583ac0a43d36b877c845ab33756c3af8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 549,
+      "reflow_footer": 553,
+      "characters": 2134,
+      "text_sha256": "5637522cd7ae01603637c711ad3a69785cb53ee1e352535619478b575d4b12c4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 550,
+      "reflow_footer": 554,
+      "characters": 1530,
+      "text_sha256": "52d563a5d2b2583ba511302a446b876b9d5ede4109e7c98ccd49801cc7b1defa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 551,
+      "reflow_footer": 555,
+      "characters": 541,
+      "text_sha256": "553b2510a2a3e80ce2ef5874af1e0187a790ad3ec6480fb1e5490f5ec35ee494",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 552,
+      "reflow_footer": 556,
+      "characters": 1168,
+      "text_sha256": "11bb14d3c18e91bc7dbbfd4cab0142131f68a8f0ea4657990012a63680f3c842",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 553,
+      "reflow_footer": 557,
+      "characters": 1471,
+      "text_sha256": "68553b3e1373a20ffce912b01733b177b82c069397a3fad4ab3816f305e84343",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 554,
+      "reflow_footer": 558,
+      "characters": 2127,
+      "text_sha256": "648aacd38f5d398aec42f71b8b546e845de30233e57e10364b13ecefa92c17be",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 555,
+      "reflow_footer": 559,
+      "characters": 1674,
+      "text_sha256": "cd5680ac486e0db75c7b7fed4533ff6797f220f3171a6ab076deb95c4152a67b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 556,
+      "reflow_footer": 560,
+      "characters": 451,
+      "text_sha256": "f84ba52b01ebaf945f2db883149e202300379b55cdb0acc52434a37f062a8295",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 557,
+      "reflow_footer": 561,
+      "characters": 1533,
+      "text_sha256": "99f7e14e404208093dc91ac4b57a03b325de271426cd6ba96a7c7407b03f6afa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 558,
+      "reflow_footer": 562,
+      "characters": 1663,
+      "text_sha256": "236a0f485fbffd4b42a79edbc4a2d6f97362ae3942ba9b0e5edbf9943b6139a3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 559,
+      "reflow_footer": 563,
+      "characters": 2525,
+      "text_sha256": "fd4f2a66689ce9d4a21f8c877502023f58a2d5e57d46e6e7011b23f49c3be602",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 560,
+      "reflow_footer": 564,
+      "characters": 2212,
+      "text_sha256": "6aaeb13723b47b5affcd6799f6c5d0cb2707ecc2048a0742c3a79a90ea3d0c09",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 561,
+      "reflow_footer": 565,
+      "characters": 830,
+      "text_sha256": "4280e10b86c20edce52300f54fd0a5b9ca2869594c52a78cf7f8699369e3d833",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 562,
+      "reflow_footer": 566,
+      "characters": 32,
+      "text_sha256": "707771bedf76052abcfc156331ee3223391345641a02ae94eb80d89f91cd477c",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 563,
+      "reflow_footer": 567,
+      "characters": 32,
+      "text_sha256": "28c97bafb4fbb2dc2f791a3e9ff5a1b29903152f23e25cbabf6cdbe240cfef5d",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 564,
+      "reflow_footer": 568,
+      "characters": 1162,
+      "text_sha256": "e48190e6118c288cd6f477e445aaaa0def406495d4a81b74a87bc04fa91ab427",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 565,
+      "reflow_footer": 569,
+      "characters": 1807,
+      "text_sha256": "42f31293c9f0546000b0329a98d5b736150497dc31964077086d71e6e5768625",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 566,
+      "reflow_footer": 570,
+      "characters": 1508,
+      "text_sha256": "c9c1e261e23e45208ce49d6963ad46b29de6d3b726b53b650ee62858307e9b3d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 567,
+      "reflow_footer": 571,
+      "characters": 141,
+      "text_sha256": "1248428d7387fb3c7d7d98cc6f1e8a93ae58c2dbc0620c6b725303108b614322",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 568,
+      "reflow_footer": 572,
+      "characters": 1617,
+      "text_sha256": "dccef3f0fe12008bda4ab329d5ec161c8fc7fcd12a1fa8dabdb767004764f397",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 569,
+      "reflow_footer": 573,
+      "characters": 792,
+      "text_sha256": "9ed75bbade93295ac4f2243f1101d13d08cf2a269a8735ba9eaa71ec00ba99d0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 570,
+      "reflow_footer": 574,
+      "characters": 2203,
+      "text_sha256": "043c2dc5d8df3ae8450afcd3289676a13558baa36486e56091487280e6869d9e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 571,
+      "reflow_footer": 575,
+      "characters": 1628,
+      "text_sha256": "a0cc717d4bed475ce371d793a04f6d7d7478c45efd81eae1b232e00dbd401def",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 572,
+      "reflow_footer": 576,
+      "characters": 1960,
+      "text_sha256": "13d2cf20cedcd09852465e67b0a103dc45fcfac2adee8cf31f779fec57ef180a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 573,
+      "reflow_footer": 577,
+      "characters": 1759,
+      "text_sha256": "14401ab208f5f1ecdab6626f5bfada3914d626b4999a776781fbfd9e21ccc53d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 574,
+      "reflow_footer": 578,
+      "characters": 2251,
+      "text_sha256": "a9fe2ef3217c4ca70e959f75606dbf7cd77c01aade3b98df373fe29ca12257fe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 575,
+      "reflow_footer": 579,
+      "characters": 998,
+      "text_sha256": "519199b959c948dba57cc3966a930738a773f864e277f4fea64c204de7afe75b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 576,
+      "reflow_footer": 580,
+      "characters": 789,
+      "text_sha256": "b980ed3c98b0142bc6a510cff3346384c44674be0063177ed7bfe8256323cb12",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 577,
+      "reflow_footer": 581,
+      "characters": 1613,
+      "text_sha256": "619f9a7d946e100d90da6bd77c4b0fbc63914e84d2a639615966c2b1d99f019d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 578,
+      "reflow_footer": 582,
+      "characters": 1055,
+      "text_sha256": "c67df95b0786c855c426fff2237c9728ed51657b68033e70546ee64df186fb57",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 579,
+      "reflow_footer": 583,
+      "characters": 34,
+      "text_sha256": "8dde0af745c23a816bc5b9b8c08d43482580fa30db4cd8facb76a46902cdffaf",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 580,
+      "reflow_footer": 584,
+      "characters": 1160,
+      "text_sha256": "94aa536877ac2054093b3c2f33456bbadce0e7dfcfd05227392a619c297bab94",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 581,
+      "reflow_footer": 585,
+      "characters": 2071,
+      "text_sha256": "07b0eebba721a679cbeba80aa568dc97152c0ed9e76d7c536f930eb2e21ebd86",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 582,
+      "reflow_footer": 586,
+      "characters": 1059,
+      "text_sha256": "9c94db7f3edafca8a3d257d199f5eb9a3d95441a229477648d503e1158214d0a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 583,
+      "reflow_footer": 587,
+      "characters": 32,
+      "text_sha256": "df286cae7dedcc82feb2f61289f9145bf7d756e86e16a1590dba0f16e02329f2",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 584,
+      "reflow_footer": 588,
+      "characters": 832,
+      "text_sha256": "5d79aec529e594ca6f8098f56fdf32431ae5f92886e1b45f09936695baa26cb3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 585,
+      "reflow_footer": 589,
+      "characters": 1113,
+      "text_sha256": "cf20665ff0f7baf782c36340b4c2e10ebd52b9aaae7b3e1312771cdfe24c09a0",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 586,
+      "reflow_footer": 590,
+      "characters": 34,
+      "text_sha256": "9dc505271da0cc8d34a8d3c0655ac81ad474601b08322fb814420d2aa15dccee",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 587,
+      "reflow_footer": 591,
+      "characters": 2438,
+      "text_sha256": "b6a987aa080c681a3aa67e7a41ee4ae0796690b57836b5d03361348bb630cef1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 588,
+      "reflow_footer": 592,
+      "characters": 822,
+      "text_sha256": "6db9e1c9e29025df7adb488296b5b5ad73697f389d8f805f6c41fc6ffc4a1121",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 589,
+      "reflow_footer": 593,
+      "characters": 124,
+      "text_sha256": "305cde3bb2c6d04e37fc9eca81d83c97e43f3506f6e4b338437d3f9786b754f8",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 590,
+      "reflow_footer": 594,
+      "characters": 24,
+      "text_sha256": "c986bd2641aa5efacdaa9042d909426a4aca1400dfd67724df2027ec81335f22",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 591,
+      "reflow_footer": 595,
+      "characters": 2046,
+      "text_sha256": "81fa7057890f5fa8cbf956386385906bab05a9927d08b86f46293687b4754ce6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 592,
+      "reflow_footer": 596,
+      "characters": 1469,
+      "text_sha256": "ab81cc278059a0131db34c7ec0ac658c6beb34a40987139a26b15154e382671e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 593,
+      "reflow_footer": 597,
+      "characters": 1513,
+      "text_sha256": "b0141a63ffe7db3a0b9b5fcba2c3460249c5a7c0760137a9843691f1c2b5864e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 594,
+      "reflow_footer": 598,
+      "characters": 28,
+      "text_sha256": "c88a0bb04f41033d29187521e63c43bec6ed1fb1932609d5ec10f282d277f145",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 595,
+      "reflow_footer": 599,
+      "characters": 2228,
+      "text_sha256": "53e6d4f4b141845c47425b07fdfc6d3bc1e325bf04381f21c0c52b9cef92bd2e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 596,
+      "reflow_footer": 600,
+      "characters": 503,
+      "text_sha256": "7aea111352aed73a66c1e4d1bf14665ad40879a8d4bf7f01b8ce8f324819adea",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 597,
+      "reflow_footer": 601,
+      "characters": 1089,
+      "text_sha256": "3eb91ba299275d5da15ecf5d783d2506d593347bbfeb5202439fcbb8bc9b8e61",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 598,
+      "reflow_footer": 602,
+      "characters": 30,
+      "text_sha256": "d5e35dbf8525f781ffcd63093e6e48eba6bd26793fdd1446bf20421636184c7c",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 599,
+      "reflow_footer": 603,
+      "characters": 2044,
+      "text_sha256": "7c9bc9097b2f9b227751315c126c25dcce85c9c049a3a35dfa8ba5644cf42ee3",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 600,
+      "reflow_footer": 604,
+      "characters": 2234,
+      "text_sha256": "6b5734d2d5705b3ad6c2f382bc5070ff1d4c9fa6e3d269ae9e254f7985383ae5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 601,
+      "reflow_footer": 605,
+      "characters": 1946,
+      "text_sha256": "be2dc48365275435b08fd289666fba9a913e09c431e8c194413ab48e03636444",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 602,
+      "reflow_footer": 606,
+      "characters": 500,
+      "text_sha256": "301effdd06bc4a1842373581d31720f73f4d4200a8d87c2ab78dd7716440ec0e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 603,
+      "reflow_footer": 607,
+      "characters": 2097,
+      "text_sha256": "4e89a94cb99c6655c5314ddd8547c9a71b622c2831aa2139fe62e4b7f4838e8a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 604,
+      "reflow_footer": 608,
+      "characters": 1816,
+      "text_sha256": "9664ab1347badb9c19b8001406a0b56f71888040b6e8f196264a638769cdcd1e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 605,
+      "reflow_footer": 609,
+      "characters": 1848,
+      "text_sha256": "cef5df3c6cb69340960c9001cdd71f4a4a3109a595e13ae7efa0ded236e4d0ee",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 606,
+      "reflow_footer": 610,
+      "characters": 2967,
+      "text_sha256": "359d9e37f0937bc58a3e9f9de591db3643aa0c3c7223aabe5f3d30568bd39e9b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 607,
+      "reflow_footer": 611,
+      "characters": 226,
+      "text_sha256": "9edef5a5894705515329350ce5542be8c4cb204c4b40707d43cedb77caf2c352",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 608,
+      "reflow_footer": 612,
+      "characters": 2405,
+      "text_sha256": "67f123206b6eb4bec5dfc4f584821cb1f474b68886d971a89b10d9664d757cf4",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 609,
+      "reflow_footer": 613,
+      "characters": 2664,
+      "text_sha256": "37690d680539bc2a5e16c31d2820ab4ea468b2136d442f334cf3ae8a235a2c41",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 610,
+      "reflow_footer": 614,
+      "characters": 2019,
+      "text_sha256": "66ebd06fc1f1ca1d8421de2288822f9a97bb82533dfcb1529d91364d28044bb8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 611,
+      "reflow_footer": 615,
+      "characters": 2654,
+      "text_sha256": "001a981555e2eeb5f54c822cbca43e5c10537da33c52f0c1f53d15434467bc97",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 612,
+      "reflow_footer": 616,
+      "characters": 2872,
+      "text_sha256": "3b7f4309e28344ec3061c74cc0872e198b05b1c3b664dc691569e03a9ffc0d22",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 613,
+      "reflow_footer": 617,
+      "characters": 768,
+      "text_sha256": "76950c15a161e4ed529dfd3e1d4cd8464b6a36f2e99dbcc85683b21af33fab1c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 614,
+      "reflow_footer": 618,
+      "characters": 397,
+      "text_sha256": "fee742fc16f4774c41efc2838557c25b062f8d03a1c1ca8a3da754159b171891",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 615,
+      "reflow_footer": 619,
+      "characters": 2152,
+      "text_sha256": "a43b16cde5eb1fdce48a20222211ba7cbbf7dde3e096e28427690ec7e6457581",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 616,
+      "reflow_footer": 620,
+      "characters": 646,
+      "text_sha256": "05cc0741a32e3d30cce3c577f7deba9478077ce7f5b926e0ed3a21f6ddd68302",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 617,
+      "reflow_footer": 621,
+      "characters": 2525,
+      "text_sha256": "d8163dbd4750bf80e83448cf958fa52c28199af97a2f6f8b8507a165ecd4036f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 618,
+      "reflow_footer": 622,
+      "characters": 2492,
+      "text_sha256": "72ca7f0fd7424a233d80731b282d1c62b7d0863ed9dcf51311a55c5bf91f7e74",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 619,
+      "reflow_footer": 623,
+      "characters": 2473,
+      "text_sha256": "c8dad89e04a7048f170d03831b50184dc727240da4be0feaab81272f91e138fe",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 620,
+      "reflow_footer": 624,
+      "characters": 2199,
+      "text_sha256": "8d595a4d7e4030bf754043a91be9e110fd0ebcb5674c1079b91fc76c17cd8dc6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 621,
+      "reflow_footer": 625,
+      "characters": 2335,
+      "text_sha256": "30b779d5b9c14b997432176c974b21c0cf70a5863987ebc926bd18b830137a8e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 622,
+      "reflow_footer": 626,
+      "characters": 196,
+      "text_sha256": "27f7f3c97b784f90b3bd9b0933864ea481adf16e1d88b9d869a4d53f6f78edf9",
+      "heading_only_or_low_text": true
+    },
+    {
+      "pdf_page": 623,
+      "reflow_footer": 627,
+      "characters": 2110,
+      "text_sha256": "14ae3c43813fcf7d89af8d7a58f28251fef032512355140223f2802fefe32146",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 624,
+      "reflow_footer": 628,
+      "characters": 202,
+      "text_sha256": "35b74ffd24677a4bc48d7d52bc8ad4508c3d513bae726d2e1287d1ca536c170d",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 625,
+      "reflow_footer": 629,
+      "characters": 2690,
+      "text_sha256": "e0d7e5efc2e1c63c439dd0aef3d7e53961027bdb3bd22a7faefe28a6c87a4600",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 626,
+      "reflow_footer": 630,
+      "characters": 1760,
+      "text_sha256": "0fb76af8a6def68daf981439f1425d3990e93a3dfa7e07d54267c581e8be9b02",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 627,
+      "reflow_footer": 631,
+      "characters": 2130,
+      "text_sha256": "bf07e9653f49643bd4ffae7efda91f4691e17928c1042d2a51e4f97899e6225f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 628,
+      "reflow_footer": 632,
+      "characters": 2147,
+      "text_sha256": "9d29c36ea5f22d4df8700cf3584d4410ddf27eeb10d24ca057a0147c71b418ec",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 629,
+      "reflow_footer": 633,
+      "characters": 1781,
+      "text_sha256": "3712228bab8281714f79a5f3a5017942c0ca2b8d4c2c4cdf82af4f80c9142ff7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 630,
+      "reflow_footer": 634,
+      "characters": 1598,
+      "text_sha256": "bebedae5c881766f59960e8da312f520f51921155e974646a97929189e0722af",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 631,
+      "reflow_footer": 635,
+      "characters": 1548,
+      "text_sha256": "c20c074e6475496530a23d884cd78410207b57fd438b79312e8138b2ca3e0bb2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 632,
+      "reflow_footer": 636,
+      "characters": 1672,
+      "text_sha256": "226164d0c6644909c380222703cf263c0bc7d99b78dd6906b7d7d56930725f5f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 633,
+      "reflow_footer": 637,
+      "characters": 2644,
+      "text_sha256": "9b9e65dc72b87a169e30aed4c0e594b064bba0d7d43536695db0f49225cd9283",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 634,
+      "reflow_footer": 638,
+      "characters": 1771,
+      "text_sha256": "d6fdf40a8205b06351f6fcf5a0938b883dbd7cc4b47059c5ad8142075422128f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 635,
+      "reflow_footer": 639,
+      "characters": 2019,
+      "text_sha256": "695ef8ab56dd72024d50e290fd210b86be20b0379ae87948b07634903f622e74",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 636,
+      "reflow_footer": 640,
+      "characters": 2265,
+      "text_sha256": "8e3993fd1d78e784362ae18937e82659bfda3cd206552b47079fdfaa86667315",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 637,
+      "reflow_footer": 641,
+      "characters": 1912,
+      "text_sha256": "2668fab6acd4f8b050170e8facd1c6f9fd9ef7563b3fa2d86cca67480ff0add8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 638,
+      "reflow_footer": 642,
+      "characters": 2694,
+      "text_sha256": "bf8f6fed6fc7bb5e34768e3fc338ebf56611ec0be3b3fc1baae0360744d4376a",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 639,
+      "reflow_footer": 643,
+      "characters": 1901,
+      "text_sha256": "c5ca5152dcdbcc8fc49f292c4b5fcdba6f487dfeb8fb3fc6a3f5ec6069f92aac",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 640,
+      "reflow_footer": 644,
+      "characters": 2282,
+      "text_sha256": "ccc4a6a3e72a12905fab3d6317d66fd6884de3168f209f4136bab7b497d369dc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 641,
+      "reflow_footer": 645,
+      "characters": 2885,
+      "text_sha256": "f1423c58012e5f30349a15de943691f71c19225ea6125c66ef81a039d3b2d448",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 642,
+      "reflow_footer": 646,
+      "characters": 1843,
+      "text_sha256": "6a5a08259635dc98ba5c6d0a66606b3149db4d6d5d3f7bf3663c070fe6eed291",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 643,
+      "reflow_footer": 647,
+      "characters": 2413,
+      "text_sha256": "801d9c2d1ccb1feec79cc99b5e86327dc7b6715d9dd26172740f727307ed032b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 644,
+      "reflow_footer": 648,
+      "characters": 2066,
+      "text_sha256": "6c4e1d9025dfa003a8a42f48379793bd73a8731b652f47463643a7e3f6144d80",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 645,
+      "reflow_footer": 649,
+      "characters": 2459,
+      "text_sha256": "00e5bd525c0e969afec5e6b3d5c9865603ffb1c405b34fbd30fe5e323995cbbc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 646,
+      "reflow_footer": 650,
+      "characters": 2423,
+      "text_sha256": "ea61662b3482303bbef9c565c800fc972076981cbc47e09c8a8bd1898c64d7eb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 647,
+      "reflow_footer": 651,
+      "characters": 2473,
+      "text_sha256": "e6f112c9e3f4d323471f83fa55bed26b9770fb2669cd935b7c54e446d855f175",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 648,
+      "reflow_footer": 652,
+      "characters": 1936,
+      "text_sha256": "0aea399ebaac1cb6ce554a3f7df3a31d96e3f1b764081fe25f2db3180913c44c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 649,
+      "reflow_footer": 653,
+      "characters": 1786,
+      "text_sha256": "21cb23ca0837ac744cb474a065a29261420931a413e1eb77acff1385cadc4224",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 650,
+      "reflow_footer": 654,
+      "characters": 2521,
+      "text_sha256": "2f27e1a57713ad7f5de778d1de2ef717a0001f6c189a713dbd46fd76b5ee92f9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 651,
+      "reflow_footer": 655,
+      "characters": 2124,
+      "text_sha256": "795c3361b856f3b3d8bee85b7c7ee272a657f6d33fd058a98cd8de3fc2478348",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 652,
+      "reflow_footer": 656,
+      "characters": 2669,
+      "text_sha256": "ec189521c76ef62de0db45b8b1590c748996ae5817bb5946c4f49fbb226e204e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 653,
+      "reflow_footer": 657,
+      "characters": 2042,
+      "text_sha256": "47d05c1d40e79529cd6feb4d0c149355c0d80431f9391912930d5cd56eef5651",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 654,
+      "reflow_footer": 658,
+      "characters": 1533,
+      "text_sha256": "f87c8e2184b34143bacf68382418ec52b0e3a7454d3940cb1c5bf09a434cd56b",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 655,
+      "reflow_footer": 659,
+      "characters": 790,
+      "text_sha256": "0d7c763bfd3d3c265beae105875d27ce361228ce80a16a836108a14b8efad633",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 656,
+      "reflow_footer": 660,
+      "characters": 1922,
+      "text_sha256": "1837cbba1f2ef4813118f310f1b081dd68faf2163f50d61510a085c1671ee559",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 657,
+      "reflow_footer": 661,
+      "characters": 1661,
+      "text_sha256": "70545a05e826e7f5906986177f0af76c97a131c53fee26ebb9a400339da14eb6",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 658,
+      "reflow_footer": 662,
+      "characters": 2495,
+      "text_sha256": "41084bf1135efdb6ebb78fbd69657ff91f1c9eec627916718403e9273cc65884",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 659,
+      "reflow_footer": 663,
+      "characters": 1711,
+      "text_sha256": "d0ae0f461fc6f4350d6a47036f17dfbb1b53af60c3403f52f23ab9f744132e3f",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 660,
+      "reflow_footer": 664,
+      "characters": 2420,
+      "text_sha256": "da03fe2c37fac1772e6b9477b6329441c1d245ead4999388b49231b7f9b1b062",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 661,
+      "reflow_footer": 665,
+      "characters": 486,
+      "text_sha256": "425be2a65ee6f9b12f8747e40a099d2707351a6621c3772a9df61eae9bd70fa5",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 662,
+      "reflow_footer": 666,
+      "characters": 1777,
+      "text_sha256": "e93fca7760d8bd3553869e1206c11eeeac6d20ec17b577c7afb91d02085d24bb",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 663,
+      "reflow_footer": 667,
+      "characters": 1915,
+      "text_sha256": "2173ace2c791e2d064c29e53a87cfb6cc6c99a6f7f327d8cabbfee92c7d43add",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 664,
+      "reflow_footer": 668,
+      "characters": 1828,
+      "text_sha256": "4fb2a24636732847ca94e7170a3b1633aabe0c23265cd636cc9670b8fd018ac7",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 665,
+      "reflow_footer": 669,
+      "characters": 3173,
+      "text_sha256": "fc936faba3223c17682ebbf08376a00e38a02759fa06510650ba0ae6a0b9dd17",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 666,
+      "reflow_footer": 670,
+      "characters": 426,
+      "text_sha256": "b83077e3c197308afbd2a33616b5e64e7e03d08e135181c5e8fbab72e5ce85d9",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 667,
+      "reflow_footer": 671,
+      "characters": 2267,
+      "text_sha256": "b09dabe2bc68b9787f8e2668d30a31a8426cc1c13a07d16ffa95bb079b0fa8dc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 668,
+      "reflow_footer": 672,
+      "characters": 336,
+      "text_sha256": "a8aed18e2a3fb48956933191fdfee0d8fd946d0adde8c08d9640e7b0c4710ef1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 669,
+      "reflow_footer": 673,
+      "characters": 1584,
+      "text_sha256": "bcf62b4f141908a747cc01cc674ce96d61889614bbd98c68127265632293663e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 670,
+      "reflow_footer": 674,
+      "characters": 1733,
+      "text_sha256": "229646842dbb4d364d95916bb3160b1d51d6a47d26d4c011c2bba863fa259559",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 671,
+      "reflow_footer": 675,
+      "characters": 2989,
+      "text_sha256": "59747d34e6de5eb1e4602691c94b84251e33d4660b58e0c033314c6e9c666da1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 672,
+      "reflow_footer": 676,
+      "characters": 2279,
+      "text_sha256": "9c44dab2b1b9c4b80bd6277601b8d2190b9443a0a87a7f746ec633ebe045e714",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 673,
+      "reflow_footer": 677,
+      "characters": 593,
+      "text_sha256": "018c07885f413c389ba42da7fbef6190737354d5b70727d4f3c70f323f2bcb26",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 674,
+      "reflow_footer": 678,
+      "characters": 1870,
+      "text_sha256": "938f06155b533e9c4b9eb75c45f88471d556d505b154722cfaf979509d50e0ea",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 675,
+      "reflow_footer": 679,
+      "characters": 2133,
+      "text_sha256": "1d96cbf54007443431601fa766349c7ee24ebffda2ca7cb24f6d10a6399533f2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 676,
+      "reflow_footer": 680,
+      "characters": 1276,
+      "text_sha256": "c0689c923fd662a2be342ea960b4079d67ba7396e1f2eca8f2e542f41092e1d2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 677,
+      "reflow_footer": 681,
+      "characters": 2196,
+      "text_sha256": "6b54d224bfd70ae19a59a9904ee2ce5e1a5d60649f8fcf4ae397075117b30e3e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 678,
+      "reflow_footer": 682,
+      "characters": 1103,
+      "text_sha256": "294425bcf1e9b7cd0c53103d21d09bcad6ecb15084787fae46add08a9641818e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 679,
+      "reflow_footer": 683,
+      "characters": 1203,
+      "text_sha256": "45c1dc442bb07c68ce43f9ec00550c7c99baf85ea80d9d23a3291f64d33ffbb8",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 680,
+      "reflow_footer": 684,
+      "characters": 1820,
+      "text_sha256": "597ae24556af86685a3a98e55016b56e0f8f25e9753c9493330660d7f8c7f06c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 681,
+      "reflow_footer": 685,
+      "characters": 1542,
+      "text_sha256": "ee70c1d674d2794f5a72b8d902445748fce91b80d96aa69f0af82c1767658f1c",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 682,
+      "reflow_footer": 686,
+      "characters": 1642,
+      "text_sha256": "6d78611cb6d848113a5ebd465ca146224d0bdb602cffef6e3cfedc5929dff490",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 683,
+      "reflow_footer": 687,
+      "characters": 2342,
+      "text_sha256": "cefc84cd4e57c8e7ccd8a1c1fb2b83c4343d83caf15da04c89f10ff7cdedd59e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 684,
+      "reflow_footer": 688,
+      "characters": 2473,
+      "text_sha256": "5d519c4c1e92b5b897aeead6d644d5370ef3458851e4ffd0b385791972011497",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 685,
+      "reflow_footer": 689,
+      "characters": 437,
+      "text_sha256": "a51052ddadca313f66ca4fc91d1e548dcdbe75835d37110782fd0452ef428b85",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 686,
+      "reflow_footer": 690,
+      "characters": 2461,
+      "text_sha256": "0ea7d1d650fd29f2bc4236183f8f64052380b8071e4e796c2a53defa90ba612e",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 687,
+      "reflow_footer": 691,
+      "characters": 2073,
+      "text_sha256": "3314829be50a728efe670ce060ec78a1cea258b72344b3433ed0a3b36490fffa",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 688,
+      "reflow_footer": 692,
+      "characters": 1502,
+      "text_sha256": "7bee54e274d572111bb0db4ff95aac289ff279c234e1948603644c4ef827d6fc",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 689,
+      "reflow_footer": 693,
+      "characters": 1793,
+      "text_sha256": "8a461dcdcc5ac27a5bf006a003711e3e26759b345731f3bc06fdeee85bb5e6be",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 690,
+      "reflow_footer": 694,
+      "characters": 2117,
+      "text_sha256": "7f5024a495e2d8bf1295b4a4a6652c3309b5ba2efacf0e1bc64c2ddb461f04b1",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 691,
+      "reflow_footer": 695,
+      "characters": 846,
+      "text_sha256": "94f22b263b60e83498466ea780cad71bf7bd88aca684ebe1f00b80ab3fa2ddd2",
+      "heading_only_or_low_text": false
+    },
+    {
+      "pdf_page": 692,
+      "reflow_footer": 696,
+      "characters": 788,
+      "text_sha256": "f3707ab9f28b40b43d32515fd6f1705d6ef8970f575e46a41e7737dbb563e0f7",
+      "heading_only_or_low_text": false
+    }
+  ],
+  "limitations": [
+    "No scientific validation of interpretations is implied.",
+    "Missing original photographs were not recreated from secondary research.",
+    "Full-file extraction does not imply complete semantic review; confirmed ranges are separately recorded."
+  ],
+  "spark_examples": [
+    {
+      "label": "Progressed Midheaven",
+      "degree_within_sign": 14.833333333333334,
+      "house": 10,
+      "astronomical_sign_ordinal": 3,
+      "source_spark": "Gemini",
+      "house_candidate": "Sagittarius",
+      "sign_candidate": "Gemini",
+      "pdf_page": 433,
+      "reflow_footer": 437,
+      "original_printed_page": 509
+    },
+    {
+      "label": "Progressed Mercury",
+      "degree_within_sign": 2.466666666666667,
+      "house": 12,
+      "astronomical_sign_ordinal": 5,
+      "source_spark": "Gemini",
+      "house_candidate": "Sagittarius",
+      "sign_candidate": "Gemini",
+      "pdf_page": 433,
+      "reflow_footer": 437,
+      "original_printed_page": 509
+    },
+    {
+      "label": "Austin Midheaven",
+      "degree_within_sign": 10.95,
+      "house": 10,
+      "astronomical_sign_ordinal": 1,
+      "source_spark": "Aquarius",
+      "house_candidate": "Leo",
+      "sign_candidate": "Aquarius",
+      "pdf_page": 434,
+      "reflow_footer": 438,
+      "original_printed_page": 510
+    },
+    {
+      "label": "Austin Mars",
+      "degree_within_sign": 5.933333333333334,
+      "house": 4,
+      "astronomical_sign_ordinal": 7,
+      "source_spark": "Pisces",
+      "house_candidate": "Pisces",
+      "sign_candidate": "Virgo",
+      "pdf_page": 434,
+      "reflow_footer": 438,
+      "original_printed_page": 510
+    },
+    {
+      "label": "Los Angeles Midheaven",
+      "degree_within_sign": 18.65,
+      "house": 9,
+      "astronomical_sign_ordinal": 12,
+      "source_spark": "Aries",
+      "house_candidate": "Libra",
+      "sign_candidate": "Aries",
+      "pdf_page": 435,
+      "reflow_footer": 439,
+      "original_printed_page": 511
+    },
+    {
+      "label": "Composite Ascendant",
+      "degree_within_sign": 20,
+      "house": 1,
+      "astronomical_sign_ordinal": 6,
+      "source_spark": "Gemini",
+      "house_candidate": "Sagittarius",
+      "sign_candidate": "Gemini",
+      "pdf_page": 458,
+      "reflow_footer": 462,
+      "original_printed_page": 546
+    },
+    {
+      "label": "Composite Saturn",
+      "degree_within_sign": 28,
+      "house": 2,
+      "astronomical_sign_ordinal": 7,
+      "source_spark": "Pisces",
+      "house_candidate": "Aquarius",
+      "sign_candidate": "Leo",
+      "pdf_page": 458,
+      "reflow_footer": 462,
+      "original_printed_page": 546,
+      "visual_confirmation": true,
+      "matches_neither_candidate": true
+    },
+    {
+      "label": "Composite Jupiter",
+      "degree_within_sign": 6,
+      "house": 4,
+      "astronomical_sign_ordinal": 9,
+      "source_spark": "Libra",
+      "house_candidate": "Aries",
+      "sign_candidate": "Libra",
+      "pdf_page": 458,
+      "reflow_footer": 462,
+      "original_printed_page": 546
+    }
+  ]
+}

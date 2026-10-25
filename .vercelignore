@@ -7,6 +7,7 @@ node_modules
 .git
 astronomy_qa
 access_qa
+tmp
 middleware.test.ts
 CODEX_START_HERE.md
 README_FIRST.md

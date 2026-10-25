@@ -1,8 +1,10 @@
-# NADIA — Phase 10 source gates and Gradity-specific book review
+# Mystic Rebels — Phase 10 source gates and Gradity-specific book review
+
+Updated by the methodology follow-up. This document originally described the frontend-only Phase 10 baseline; the follow-up now calculates station and shadow-crossing events for supported planets. See `FEATURE_VERIFICATION_MATRIX.md`, `METHODOLOGY_SOURCE_REVIEW.md` and `astronomy-followup.md` for the actual current scope and independent sample results.
 
 ## Source priority and scope
 
-The currently deployed chart's astronomical backend, unrounded longitudes, Whole Sign houses, True Placements, JSON export and named PURE ASTROLOGY transformations are **not changed** in this branch. This is a frontend presentation and research-contract refinement. The GitHub base branch is `codex/dual-wheel-refinement`, not the older `main`. No source PDF or author page photography is added to this repo.
+The chart's astronomical backend, unrounded longitudes, Whole Sign houses, True Placements, JSON export and established Alchemystic Astrology transformations are **not changed**. The Phase 10 source branch built on `codex/dual-wheel-refinement`; this follow-up preserves those newer additions rather than restarting from the older `main`. No source PDF or author page photography is added to the release.
 
 ## Position and sign layers
 
@@ -10,11 +12,11 @@ The numeric `Position` column projects `formatPosition(longitude, precision).spl
 
 ## Gradity — newly verified directly from PURE ASTROLOGY
 
-- **Printed p207, Retrograde Planets:** exactly four Gradities are **Prograde**, **Pregrade**, **Retrograde**, **Postgrade**. Stations are turning/inertial conditions, **not** fifth/sixth Gradities.
-- **Printed pp479–480, Totally Retro:** stationary directional changes are *Inertial Points*; a day on each side is highlighted qualitatively, **not** a numerical station speed tolerance.
-- **Printed p569, Retrograde Imprint Theory:** Pregrade begins after passing the *degree where upcoming retrograde will end*; Retrograde revisits previously traversed degrees; Postgrade ends at the *degree where retrograde began*.
+- **PDF203 / reflow footer207 / original printed143, Retrograde Planets:** exactly four Gradities are **Prograde**, **Pregrade**, **Retrograde**, **Postgrade**. The former printed207 citation confused the generated footer with the original printed page.
+- **PDF476 / reflow footer480, original printed identifier not visible:** stationary directional changes are *Inertial Points*; a day on each side is highlighted qualitatively, **not** a numerical station speed tolerance. Stations are not fifth/sixth Gradities.
+- **PDF477 / reflow footer481 / original printed569–570, Retrograde Imprint Theory:** Pregrade begins after passing the *degree where upcoming retrograde will end*; Retrograde revisits previously traversed degrees; Postgrade ends at the *degree where retrograde began*.
 - The astronomical speed sign supports observed Direct or Retrograde motion. Exact zero supports a mathematical instant `Stationary`; no arbitrary near-zero threshold is source-established.
-- **Pregrade/Postgrade** cannot be assigned until the actual four timing events have been calculated and validated; a signed speed alone is insufficient. The research-only event-based classifier returns `null` at undecided exact boundaries. For forward motion outside a verified loop the chart displays `Unverified`, not a fabricated `Prograde`.
+- **Pregrade/Postgrade** require the actual station and shadow-crossing events; a signed speed alone is insufficient. The follow-up solves those events for Mercury through Pluto, supplies reproducible event metadata and uses them in the interface. The phase remains null at undecided exact boundaries, unsupported bodies and incomplete searches. Prograde is assigned only when the surrounding events establish a location outside their shadow intervals. Independent astronomy is sampled, as recorded in `astronomy-followup.md`.
 
 ## Phase 10 explicitly permitted versus blocked
 
@@ -39,7 +41,7 @@ The numeric `Position` column projects `formatPosition(longitude, precision).spl
 - Exact numerical `longitude_deg` remains stable for chart markers, table-row data attributes and exported chart JSON.
 - Core / expanded / research all-object density is controlled by existing sparse/balanced/detailed/all modes, not silently dropping selected markers.
 - Every label is within 24° of its exact marker; if the available track slots fill, the marker stays and the annotation is omitted. Labels have deterministic priority, then longitude ordering.
-- Motion and Gradity are separate columns and chart inspector properties. Unsupported phase claims remain `Unverified`.
+- Motion and Gradity are separate columns and chart inspector properties. Unsupported forward phase claims remain `Unverified`; non-applicable points use a dash. The follow-up's explicit method status, exact event-boundary state and evidence are available from Calculation details and the object inspector.
 
 ## Release caveat
 

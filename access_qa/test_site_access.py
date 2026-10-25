@@ -32,6 +32,7 @@ def test_no_password_blocks_page_and_direct_api(client):
     assert client.get('/').status_code == 303
     assert client.get('/api/charts').status_code == 401
     assert client.get('/api/index.py').status_code == 401
+    assert client.get('/api/methodology').status_code == 401
     assert client.get('/assets/app.js').status_code == 303
 
 

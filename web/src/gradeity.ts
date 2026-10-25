@@ -1,6 +1,7 @@
 import type { Point } from "./types";
 
-/** PURE ASTROLOGY p207, p569: four Gradities; stationary Inertial Points
+/** Source PDF203 / reflow207 / original143; PDF477 / original569:
+ * four Gradities; stationary Inertial Points
  * are motion transitions, NOT fifth and sixth Gradity phases.
  */
 export type MotionStatus = "Direct" | "Retrograde" | "Stationary" | "Unknown";
@@ -25,7 +26,34 @@ export function observedGradity(point: Pick<Point, "speed_longitude_deg_per_day"
   return motionStatus(point) === "Retrograde" ? "Retrograde" : null;
 }
 
-/** Optional verified event inputs for future Gradeity timing. Station instants
+/** Render the same scoped method result in the inspector and position table.
+ * Saved charts from before the event solver can establish observed retrograde
+ * motion only; their forward motion must not invent an uncomputed loop phase.
+ */
+export function gradityDisplay(point: Pick<Point, "group" | "gradity" | "speed_longitude_deg_per_day" | "retrograde">) {
+  if (!["Planets", "Asteroids", "Minor bodies"].includes(point.group) || point.gradity?.status === "NOT_APPLICABLE") {
+    return { label: "—", reason: point.gradity?.reason || "Planetary Gradity does not apply to this mathematical point." };
+  }
+  const result = point.gradity;
+  if (result?.status === "VERIFIED" && ["Prograde", "Pregrade", "Retrograde", "Postgrade"].includes(result.phase ?? "")) {
+    return { label: result.phase!, reason: result.reason };
+  }
+  if (result?.status === "BOUNDARY") {
+    return { label: "Boundary", reason: result.reason || "The exact station or crossing has no source-established phase assignment." };
+  }
+  if (result?.status === "UNAVAILABLE" && observedGradity(point) === "Retrograde") {
+    return { label: "Retrograde", reason: `Observed retrograde from signed motion; full station/crossing classification is unavailable. ${result.reason}` };
+  }
+  if (result) {
+    return { label: "Unverified", reason: result.reason || "The required station and crossing events have not been established." };
+  }
+  const observed = observedGradity(point);
+  return observed
+    ? { label: observed, reason: "Observed retrograde motion; this older chart has no computed station or crossing events." }
+    : { label: "Unverified", reason: "This older chart has no computed station or crossing events. Recalculate it to check Gradity." };
+}
+
+/** Retained standalone classifier for externally verified event inputs. Station instants
  * and boundary crossings must be independently solved before supplying them.
  * At an exact boundary the author's equality convention is undetermined.
  */

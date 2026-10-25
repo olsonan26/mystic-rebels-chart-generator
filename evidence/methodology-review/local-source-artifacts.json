@@ -1,0 +1,138 @@
+{
+  "artifacts": [
+    {
+      "name": "Astrology book 972 pages.pdf",
+      "byte_size": 5659841,
+      "sha256": "a821e6e585aa027d1d2a1a6dc0b6814a1169ebc6d8d75e1212e91dff72737a69",
+      "status": "SECONDARY_LOCAL_ARTIFACT_NOT_IMPORTED_OR_APPROVED"
+    },
+    {
+      "name": "PURE_ASTROLOGY_Nadia_Canonical_Source_v1.pdf",
+      "byte_size": 1168489,
+      "sha256": "4d0e91a71ecd900375309f1fc7657e5b92a72055ad8c1af1c7aa723673bd5d34",
+      "status": "SECONDARY_LOCAL_ARTIFACT_NOT_IMPORTED_OR_APPROVED"
+    },
+    {
+      "name": "astrology-source-corpus.txt.gz",
+      "byte_size": 556088,
+      "sha256": "aad8e3c1f44bcfaf8c60385bd34f0aae7686a491643959708f9a4274e1c0129b",
+      "status": "SECONDARY_LOCAL_ARTIFACT_NOT_IMPORTED_OR_APPROVED"
+    },
+    {
+      "name": "NADIA_PRIVATE_SOURCE_ENGINEERING_V1.0.zip",
+      "byte_size": 985797,
+      "sha256": "45030c4c47e7f66acbf23f2bc0dbf4370097a95accc97bb2fde4782eb020a3af",
+      "status": "SECONDARY_LOCAL_ARTIFACT_NOT_IMPORTED_OR_APPROVED"
+    }
+  ],
+  "archive_vault_structure": [
+    {
+      "path": "source-vault/NADIA_CALCULATION_RULE_REGISTRY_v1.0.json",
+      "record_count": null,
+      "top_level_type": "dict",
+      "fields": [
+        "registry_version",
+        "generated_for",
+        "confidentiality",
+        "authority_policy",
+        "status_vocabulary",
+        "rules",
+        "known_current_code_conflicts",
+        "next_primary_source_targets",
+        "source_library",
+        "last_audit_date"
+      ]
+    },
+    {
+      "path": "source-vault/astrology_reference.json",
+      "record_count": 82,
+      "top_level_type": "list",
+      "fields": [
+        "life_areas",
+        "aspect_nature",
+        "modality",
+        "shadow_expression",
+        "keywords",
+        "challenges",
+        "calculation_formula",
+        "in_house_rule",
+        "growth_direction",
+        "dignities",
+        "degree_end",
+        "ruling_planet",
+        "natural_house",
+        "aspect_orb",
+        "orbital_period",
+        "core_meaning",
+        "traditional_ruler",
+        "degree_start",
+        "aspect_angle",
+        "report_section",
+        "natural_sign",
+        "body_rulership",
+        "key",
+        "order",
+        "element",
+        "polarity",
+        "worked_example",
+        "edge_cases",
+        "source_page_ids",
+        "short_definition",
+        "calculation_steps",
+        "in_sign_rule",
+        "verified",
+        "source_document_ids",
+        "retrograde_meaning",
+        "review_state",
+        "glyph",
+        "calculation_inputs",
+        "interpretation_template",
+        "strengths",
+        "name",
+        "ref_type",
+        "id",
+        "created_date",
+        "updated_date",
+        "created_by_id",
+        "is_sample"
+      ]
+    },
+    {
+      "path": "source-vault/charts_and_reports.json",
+      "record_count": null,
+      "top_level_type": "dict",
+      "fields": [
+        "natal_charts",
+        "profile_reports"
+      ]
+    },
+    {
+      "path": "source-vault/knowledge_items.json",
+      "record_count": 3927,
+      "top_level_type": "list",
+      "fields": [
+        "knowledge_type",
+        "title",
+        "summary",
+        "detailed_explanation",
+        "steps",
+        "examples",
+        "tags",
+        "domain"
+      ]
+    }
+  ],
+  "retained_primary_scans": [
+    {
+      "file": "IMG_4656.jpg",
+      "byte_size": 2918322,
+      "sha256": "ed3997ae2c87806f2e146c83bdc493a105dcaac3b4b4d6053011d5b067450c3c"
+    },
+    {
+      "file": "IMG_4657.jpg",
+      "byte_size": 2894781,
+      "sha256": "d8363d5427257ad4074a2358a4b7b37cb32de9a4c5f915d4a31ed210deb30344"
+    }
+  ],
+  "warning": "Local archive record counts are not primary-source coverage or runtime capability evidence."
+}

@@ -38,6 +38,17 @@ def config():return {'supabase_url':os.environ.get('SUPABASE_URL',''),'supabase_
 @app.get('/api/catalog')
 def catalog():return object_catalog()
 
+@app.get('/api/methodology')
+def methodology():
+    # Metadata only. Copyright source text and the private research search index
+    # are not served by this endpoint or added to the function bundle.
+    from knowledge_audit.registry import load_registry,validate_registry,coverage
+    registry=load_registry();validate_registry(registry,check_files=False)
+    return {'product':registry['product'],'schema_version':registry['schema_version'],
+            'audit_status':registry['audit_status'],'coverage':coverage(registry),
+            'intelligence_layers':registry['intelligence_layers'],
+            'rules':registry['rules']}
+
 @app.post('/api/charts')
 def chart(data:BirthInput):return calculate(data)
 

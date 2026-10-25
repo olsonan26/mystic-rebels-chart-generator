@@ -1,0 +1,10 @@
+{
+  "baseline_commit": "9f8bcd9e5e85dd21faaa6a2e72fd94d3d2d81ae7",
+  "cases": 6,
+  "established_points_exact": 410,
+  "angles_cusps_times_configuration_exact": true,
+  "newly_supported_points": [],
+  "same_runtime_archived_engine_comparison": true,
+  "frozen_snapshot_cross_platform_differences": 0,
+  "baseline_sha256": "6694342286cbf67341ed58e15865bb05f3ccf1548b8cc0e648f3ea786feadff6"
+}

@@ -22,7 +22,8 @@ import { LegacyWheel } from "./LegacyWheel";
 import PlasmaOrb from "./PlasmaOrb";
 import { matchesPoint, type Density, type Orientation } from "./wheelLayout";
 import { formatPosition, formatDegreeOnly } from "./geometry";
-import { motionStatus, observedGradity } from "./gradeity";
+import { motionStatus, gradityDisplay } from "./gradeity";
+import { GradityDetails, MethodVerification } from "./MethodVerification";
 import { initializeStorage } from "./storage";
 import Account from "./Account";
 
@@ -1049,14 +1050,15 @@ export default function App() {
                     ["Astronomical Sign / Tone", selected.tone],
                     ["Pulse", selected.pulse],
                     ["Motion status", motionStatus(selected)],
-                    ["Gradity (research)", observedGradity(selected) ?? "Unverified"],
+                    ["Gradity", gradityDisplay(selected).label],
                   ].map(([key, value]) => (
-                    <div key={key}>
+                    <div key={key} title={key === "Gradity" ? gradityDisplay(selected).reason : undefined}>
                       <small>{key}</small>
                       <strong>{value}</strong>
                     </div>
                   ))}
                 </div>
+                <GradityDetails point={selected} />
               </section>
             )}
             {chart?.warnings.map((w) => (
@@ -1078,7 +1080,7 @@ export default function App() {
               <div className="positions-header">
                 <div>
                   <h2>Planetary positions</h2>
-                  <p>Numeric Position is the degree within the astronomical sign shown separately as Tone. The exact unrounded longitude is unchanged. Gradity is research-only until station/boundary events are independently verified.</p>
+                  <p>Numeric Position is the degree within the astronomical sign shown separately as Tone. Gradity uses computed station and boundary events where verified; inspect an object for its method and event details.</p>
                 </div>
                 <div className="search-input">
                   <Search size={15} />
@@ -1156,10 +1158,8 @@ export default function App() {
                           <td>{p.field ?? "—"}</td>
                           <td>{p.house ?? "—"}</td>
                           <td>{motionStatus(p)}</td>
-                          <td title="Only a source-supported observed retrograde is classified. Pregrade/Postgrade require verified station and boundary events.">
-                            {["Planets", "Asteroids", "Minor bodies"].includes(p.group)
-                              ? observedGradity(p) ?? "Unverified"
-                              : "—"}
+                          <td title={gradityDisplay(p).reason}>
+                            {gradityDisplay(p).label}
                           </td>
                           {tableView === "placements" ? (
                             <td>{p.pulse}</td>
@@ -1231,6 +1231,7 @@ export default function App() {
                     Unrounded positions and reproducibility metadata are
                     included in the JSON export.
                   </p>
+                  <MethodVerification rules={chart.rules} />
                   <button
                     className="text-button"
                     onClick={() => window.print()}

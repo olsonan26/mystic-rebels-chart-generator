@@ -1,0 +1,15 @@
+{
+  "source": "reference/source_pdf/PURE_ASTROLOGY_Nadia_Complete.pdf",
+  "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+  "confirmed_semantic_read_pdf_pages": [[1, 230]],
+  "read_method": "Full page-bounded extracted text read in sequential chunks. Truncated outputs were repaired by rereading pages 15-24 and 49-58. This records semantic review, separate from extraction of all PDF bytes.",
+  "additional_focused_full_pages": [473, 474, 475, 476, 477],
+  "visually_rendered_pdf_pages": [102, 103, 104, 105, 106, 203, 206, 207],
+  "private_visual_artifact": "tmp/pdfs/feature-review/early-review-sheet.png",
+  "numbering_findings": [
+    {"pdf_page": 203, "reflow_footer": 207, "original_printed_page": 143, "finding": "Four Gradities are listed. Original printed page is 143, not the reflow footer207."},
+    {"pdf_page_range": [102, 106], "finding": "Diagram fragments are genuinely isolated captions in the reflowed file; visual inspection did not recover a hidden ecliptic diagram."},
+    {"pdf_page_range": [123, 132], "original_printed_page_range": [88, 97], "finding": "Equinox-based profection counting and qualitative spillover are described; this does not repair missing progression epoch or Spark parity rules."}
+  ],
+  "scope": "Source-faithful implementation review, not independent astronomical evidence or scientific validation of interpretation. PDF physical anecdotes do not override astronomical references or user requirements."
+}

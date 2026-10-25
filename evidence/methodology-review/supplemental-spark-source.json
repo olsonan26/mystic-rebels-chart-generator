@@ -1,0 +1,11 @@
+{
+  "id": "1m6MFoG8NsmpSZP0X-7VJbcrQYQ1PffVETGfRPSIny_w",
+  "title": "\"You Are Not Your Sign\" ",
+  "url": "https://docs.google.com/document/d/1m6MFoG8NsmpSZP0X-7VJbcrQYQ1PffVETGfRPSIny_w/edit",
+  "modified_time": "2026-05-28T21:27:34.125Z",
+  "text_character_count": 85263,
+  "status": "SUPPLEMENTAL_APP_SPEC_NOT_CONFIRMED_AS_BOOK_ERRATUM",
+  "formula": "(floor(degree_in_sign) + (6 if astronomical sign even else 0)) modulo 12",
+  "section": "SPARK CALCULATION / compute_spark",
+  "conflicts_with": "Original printed page235 house-parity procedure"
+}

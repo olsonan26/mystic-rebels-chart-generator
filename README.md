@@ -60,6 +60,14 @@ Apply `supabase/migrations/20261024100237_mystic_rebels_charts.sql` to the inten
 
 Keep deployments authenticated until numerical acceptance and the Swiss Ephemeris release license are resolved. The official vendor requires choosing its AGPL-compatible or professional licensing route before distribution/public service activation. This private development repository does not imply a purchased professional license. See `docs/PRECISION.md` for actual measured numerical agreement and release limitations.
 
+## Knowledge foundation and method verification
+
+The current product is a chart generator, not a complete source-grounded personal-answering system. See `docs/KNOWLEDGE_ARCHITECTURE_AUDIT.md` for the eight-batch audit status, actual runtime gaps, source conflicts and implemented evidence controls. `data/knowledge/capabilities.json` separates historical readiness, implementation, retrieval and personal-answer approval; `/api/methodology` returns metadata through the existing access boundary.
+
+`python scripts/knowledge_audit.py check` validates that register without claiming full source coverage. A private local source index can be built with `python scripts/knowledge_audit.py index-pdf reference/source_pdf/PURE_ASTROLOGY_Nadia_Complete.pdf --source-id pure-reflow-9d5fb55c`; `python scripts/knowledge_audit.py search "odd numbered houses"` returns page/hash witnesses. The index stays in ignored `reference/` and is not deployed. Search hits are not approved interpretations.
+
+Gradity now solves real station/shadow events with the current engine and retains unassigned exact boundaries or overlapping-shadow conflicts. See `docs/astronomy-followup.md` for independent Mercury/Venus sample comparisons and their limits. `python scripts/methodology_regression.py` checks established point values against the archived engine on the same runtime; the original presentation-only byte-identity script and immutable fixtures remain for historical rollback.
+
 ## Input data and privacy
 
 The calculator does not persist birth data. Chart responses are `no-store`. Saving a chart is an explicit signed-in action. The source PDF and historical reference directory are excluded from Git and deployment. Geographical search uses GeoNames city centroids in WGS84, with attribution to https://www.geonames.org/ under CC BY 4.0. Users can enter more precise coordinates; a city centroid is not an exact individual birth location.

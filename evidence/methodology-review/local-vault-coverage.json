@@ -1,0 +1,52 @@
+{
+  "archive_sha256": "45030c4c47e7f66acbf23f2bc0dbf4370097a95accc97bb2fde4782eb020a3af",
+  "knowledge_items": {
+    "count": 3927,
+    "types": {
+      "concept": 1243,
+      "method": 257,
+      "framework": 133,
+      "definition": 805,
+      "rule": 617,
+      "checklist": 31,
+      "formula": 56,
+      "process": 101,
+      "warning": 264,
+      "example": 158,
+      "visual_explanation": 18,
+      "case_study": 214,
+      "fact": 6,
+      "theory": 2,
+      "criticism": 1,
+      "interpretation": 6,
+      "mechanism": 2,
+      "comparison": 2,
+      "list": 3,
+      "principle": 2,
+      "quote": 4,
+      "observation": 1,
+      "classification": 1
+    },
+    "records_with_any_source_link_field": 0,
+    "used_by_current_runtime": false
+  },
+  "astrology_reference": {
+    "count": 82,
+    "with_source_page_ids": 73,
+    "with_source_document_ids": 73,
+    "sample_records": 0,
+    "used_by_current_runtime": false
+  },
+  "archived_rules": {
+    "count": 94,
+    "statuses": {
+      "CONFIRMED": 71,
+      "CONFLICT_RESOLVED": 8,
+      "SOURCE_INCOMPLETE": 9,
+      "PROVISIONAL_FALLBACK": 5,
+      "DESCRIPTIVE_ONLY": 1
+    },
+    "used_by_current_runtime": false
+  },
+  "scope": "Static audit of separate older local artifact; not a complete source-batch audit; historical statuses are not approvals."
+}

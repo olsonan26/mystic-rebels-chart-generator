@@ -9,6 +9,7 @@ from .chronology import resolve_local
 from .errors import ChartError
 from .models import BirthInput
 from .placements import derive,dms,norm
+from .gradity import calculate_gradity
 
 RULES={
     'whole_sign':{'id':'N9-003','version':'1','status':'READY','evidence':'book:Whole Sign house model'},
@@ -21,6 +22,7 @@ RULES={
     'spark':{'id':'N9-020/021','version':'1','status':'BLOCKED','reason':'Contradictory parity definitions'},
     'aspects':{'id':'N9-033/034','version':'1','status':'BLOCKED','reason':'Incomplete per-object orbital reach and directional rules'},
     'progressions':{'id':'N9-038','version':'1','status':'BLOCKED','reason':'Unverified calculation procedure'},
+    'gradity':{'id':'N10-GRADITY','version':'1','status':'VERIFIED_FOR_SUPPORTED_PLANETS','evidence':'PDF 203 (reflow 207, original 143); PDF 476 (reflow 480, original number absent); PDF 477 (reflow 481, original 569-570); evidence/astronomy-followup/mercury-2024-independent-events.json and venus-2025-independent-events.json','scope':'Documented four-phase formula; Mercury through Pluto station/shadow solver; independent astronomy sampled on Mercury April 2024 and Venus March-April 2025 only. Exact boundaries and competing overlapping shadows remain unassigned; interpretation is not scientifically validated.'},
 }
 
 def object_catalog():
@@ -83,6 +85,9 @@ def calculate(request:BirthInput):
                     value={'longitude_deg':norm(longitude),'retrograde':None,'provenance':{'algorithm':'fixed-parts-no-sect-reversal-v1','backend':'DERIVED','parent_points':['Ascendant','Sun','Moon','Venus'],'rule':RULES['parts']}}
                 else:raise ChartError('OBJECT_NOT_SUPPORTED','Calculation method is not available.')
                 value={**value,'available':True,**derive(value['longitude_deg'],ac),'display_dms':dms(value['longitude_deg']),'input_fingerprint':fingerprint,'placement_provenance':{key:RULES[key] for key in ('whole_sign','true_placement','tone','pulse','ruler')},'outgoing_emission':False if row['group'] in ('Angles','Parts','Lunar points') else None}
+                value['gradity'] = ({'phase':None,'status':'NOT_APPLICABLE','reason':'A mathematical point has no physical retrograde loop.','events':[]}
+                                     if row['group'] in ('Angles','Parts','Lunar points')
+                                     else calculate_gradity(id,jd,utc))
                 points.append({**base,**value})
             except ChartError as exc:points.append({**base,'available':False,'longitude_deg':None,'error':exc.record()})
     if unknown_time:warnings.append({'code':'TIME_UNKNOWN','message':'Positions use explicitly labelled local noon as a reference epoch. Birth positions vary during the day; houses, angles and house-derived placements are unavailable.'})

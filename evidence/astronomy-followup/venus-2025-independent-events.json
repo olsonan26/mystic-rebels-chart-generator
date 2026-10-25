@@ -1,0 +1,147 @@
+{
+  "provider": "NASA JPL Horizons + independent ERFA IAU2006/2000A coordinate rotation",
+  "retrieved_at_utc": "2026-10-25T04:32:08.603114+00:00",
+  "object": "Venus",
+  "scope": "One 2025 Venus cycle, not a universal error guarantee or predictive validation",
+  "reference_conventions": {
+    "center": "500@399 Earth geocenter",
+    "target": "299 Venus body center",
+    "time": "Horizons UT labels are UTC post1962; ERFA UTC->TAI->TT rotation epoch",
+    "q45": "ICRF apparent RA/DEC with down-leg light-time, solar deflection, stellar aberration; AIRLESS",
+    "rotation": "ERFA ecm06 ICRS->IAU2006 mean ecliptic/equinox of date; nut06a delta psi added for true equinox",
+    "production": "Swiss SWIEPH|SPEED=258 tropical geocentric apparent ecliptic/equinox of date; unchanged",
+    "residual_models": "Swiss long-term precession versus IAU2006 and provider light-deflection differences retained",
+    "q31_diagnostic": "Horizons native IAU76/80 longitude recorded separately, not falsely treated as identical frame",
+    "solver": "Fifth-degree polynomial over 73 JPL samples at10-minute spacing within12h windows; root of first derivative for stations, repeated longitude for crossings; fourth-degree refit checks stability"
+  },
+  "authoritative_references": [
+    "https://ssd.jpl.nasa.gov/horizons/manual.html#observer-table",
+    "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+    "https://www.astro.com/swisseph/swephprg.htm",
+    "https://github.com/liberfa/erfa"
+  ],
+  "raw_inputs": {
+    "station_retrograde": {
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%272025-03-01+19%3A00%27&STOP_TIME=%272025-03-02+07%3A00%27&STEP_SIZE=%2710m%27&TIME_TYPE=%27UT%27&QUANTITIES=%2731%2C45%2C46%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&CSV_FORMAT=%27YES%27&REF_SYSTEM=%27ICRF%27&APPARENT=%27AIRLESS%27&CAL_FORMAT=%27JD%27&TIME_DIGITS=%27FRACSEC%27&OBJ_DATA=%27YES%27",
+      "raw_response": "evidence/astronomy-followup/venus-2025-station_retrograde.json",
+      "samples": 73,
+      "sha256": "e44e0eab296136b4e7f9bd889a64226ea7b5b61728452c38dc40b3de8f3f6306"
+    },
+    "station_direct": {
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%272025-04-12+19%3A00%27&STOP_TIME=%272025-04-13+07%3A00%27&STEP_SIZE=%2710m%27&TIME_TYPE=%27UT%27&QUANTITIES=%2731%2C45%2C46%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&CSV_FORMAT=%27YES%27&REF_SYSTEM=%27ICRF%27&APPARENT=%27AIRLESS%27&CAL_FORMAT=%27JD%27&TIME_DIGITS=%27FRACSEC%27&OBJ_DATA=%27YES%27",
+      "raw_response": "evidence/astronomy-followup/venus-2025-station_direct.json",
+      "samples": 73,
+      "sha256": "06e900d74a4eb7a9f64d8075edfdd695b8465733f9833994bcfb626730616b6f"
+    },
+    "pregrade_entry": {
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%272025-01-28+07%3A00%27&STOP_TIME=%272025-01-28+19%3A00%27&STEP_SIZE=%2710m%27&TIME_TYPE=%27UT%27&QUANTITIES=%2731%2C45%2C46%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&CSV_FORMAT=%27YES%27&REF_SYSTEM=%27ICRF%27&APPARENT=%27AIRLESS%27&CAL_FORMAT=%27JD%27&TIME_DIGITS=%27FRACSEC%27&OBJ_DATA=%27YES%27",
+      "raw_response": "evidence/astronomy-followup/venus-2025-pregrade_entry.json",
+      "samples": 73,
+      "sha256": "0e044bfde4cc5a397e34bdd3834b5fea4abbe3b22b607450a3da96bda7d9e008"
+    },
+    "postgrade_exit": {
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%272025-05-16+00%3A00%27&STOP_TIME=%272025-05-16+12%3A00%27&STEP_SIZE=%2710m%27&TIME_TYPE=%27UT%27&QUANTITIES=%2731%2C45%2C46%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&CSV_FORMAT=%27YES%27&REF_SYSTEM=%27ICRF%27&APPARENT=%27AIRLESS%27&CAL_FORMAT=%27JD%27&TIME_DIGITS=%27FRACSEC%27&OBJ_DATA=%27YES%27",
+      "raw_response": "evidence/astronomy-followup/venus-2025-postgrade_exit.json",
+      "samples": 73,
+      "sha256": "bb0e97d3744534cc5ae51b1e26bcc62b81a53c627dfc306fc202488106c089d5"
+    }
+  },
+  "events": {
+    "station_retrograde": {
+      "jd_utc": 2460736.5250806347,
+      "utc": "2025-03-02T00:36:06.966842+00:00",
+      "longitude_deg": 10.835728376835444,
+      "fit_max_residual_arcsec": 2.352914663106276e-06,
+      "independent_refit_delta_seconds": 0.004506111145019531,
+      "swiss_at_reference_event": {
+        "longitude_deg": 10.835728612362193,
+        "speed_deg_day": 4.3283631844009104e-07,
+        "returned_flags": 258
+      },
+      "production_event": {
+        "kind": "station_retrograde",
+        "utc": "2025-03-02T00:36:07.839Z",
+        "jd_ut1": 2460736.5250930525,
+        "longitude_deg": 10.835728611906811,
+        "speed_longitude_deg_per_day": 2.3732949575538984e-08,
+        "target_longitude_deg": null,
+        "root_bracket_tolerance_seconds": 0.1,
+        "time_residual_seconds": 0.872158
+      }
+    },
+    "station_direct": {
+      "jd_utc": 2460778.543282258,
+      "utc": "2025-04-13T01:02:19.587079+00:00",
+      "longitude_deg": 354.6248993072362,
+      "fit_max_residual_arcsec": 1.993771547859069e-06,
+      "independent_refit_delta_seconds": 0.0012472271919250488,
+      "swiss_at_reference_event": {
+        "longitude_deg": 354.6248993417714,
+        "speed_deg_day": 1.1987718553943372e-06,
+        "returned_flags": 258
+      },
+      "production_event": {
+        "kind": "station_direct",
+        "utc": "2025-04-13T01:02:17.005Z",
+        "jd_ut1": 2460778.543254826,
+        "longitude_deg": 354.62489934173357,
+        "speed_longitude_deg_per_day": 9.848287846456092e-09,
+        "target_longitude_deg": null,
+        "root_bracket_tolerance_seconds": 0.1,
+        "time_residual_seconds": -2.582079
+      }
+    },
+    "pregrade_entry": {
+      "jd_utc": 2460704.057374043,
+      "utc": "2025-01-28T13:22:37.117309+00:00",
+      "target_longitude_deg": 354.6248993072362,
+      "fit_max_residual_arcsec": 2.9404191081994213e-06,
+      "independent_refit_delta_seconds": 0.0,
+      "swiss_at_reference_event": {
+        "longitude_deg": 354.6248989194352,
+        "speed_deg_day": 0.8427177736310737,
+        "returned_flags": 258
+      },
+      "production_event": {
+        "kind": "pregrade_entry",
+        "utc": "2025-01-28T13:22:37.125Z",
+        "jd_ut1": 2460704.0573763587,
+        "longitude_deg": 354.6248990030228,
+        "speed_longitude_deg_per_day": 0.842717773804751,
+        "target_longitude_deg": 354.62489934173357,
+        "root_bracket_tolerance_seconds": 0.1,
+        "time_residual_seconds": 0.007691
+      }
+    },
+    "postgrade_exit": {
+      "jd_utc": 2460811.7525830665,
+      "utc": "2025-05-16T06:03:43.176943+00:00",
+      "target_longitude_deg": 10.835728376835444,
+      "fit_max_residual_arcsec": 2.7413207703830267e-06,
+      "independent_refit_delta_seconds": 0.0,
+      "swiss_at_reference_event": {
+        "longitude_deg": 10.835728325884723,
+        "speed_deg_day": 0.8152474197094361,
+        "returned_flags": 258
+      },
+      "production_event": {
+        "kind": "postgrade_exit",
+        "utc": "2025-05-16T06:03:43.198Z",
+        "jd_ut1": 2460811.752585862,
+        "longitude_deg": 10.835728525565182,
+        "speed_longitude_deg_per_day": 0.8152474171670951,
+        "target_longitude_deg": 10.835728611906811,
+        "root_bracket_tolerance_seconds": 0.1,
+        "time_residual_seconds": 0.021057
+      }
+    }
+  },
+  "matched_max_longitude_residual_arcsec": 0.0015027387462396291,
+  "unmatched_q31_max_longitude_residual_arcsec": 0.046816642134217545,
+  "max_event_time_residual_seconds": 2.582079,
+  "tolerances": {
+    "matched_longitude_arcsec": 0.02,
+    "event_time_seconds": 10,
+    "rationale": "Allows IAU2006/Swiss long-term precession, apparent-model differences and sampled-fit uncertainty; measured residuals and refit stability reported separately"
+  }
+}

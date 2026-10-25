@@ -16,7 +16,8 @@ jobs:
           cache: npm
       - run: python -m pip install -r requirements-qa.txt
       - run: python -m pytest astronomy_qa access_qa -q --junitxml=evidence/ci-astronomy.xml
-      - run: python scripts/wheel_regression.py
+      - run: python scripts/methodology_regression.py
+      - run: python scripts/knowledge_audit.py check
       - run: npm ci
       - run: npm test
       - run: npm run build
@@ -27,6 +28,8 @@ jobs:
           path: |
             evidence/ci-astronomy.xml
             evidence/independent-astronomy.json
+            evidence/methodology-followup/regression.json
+            evidence/astronomy-followup/
             data/ephemeris-manifest.json
             evidence/wheel-refinement/numerical-regression.json
             evidence/wheel-refinement/cross-platform-comparison.json

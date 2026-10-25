@@ -1,0 +1,973 @@
+{
+  "schema_version": "1.0",
+  "product": "Mystic Rebels / Alchemystic Astrology",
+  "baseline_commit": "9059304b31d241fee2cb08fb4e46aad32f9bf228",
+  "audit_status": "IN_PROGRESS_NOT_FULL_SOURCE_COVERAGE",
+  "source_inventory": {
+    "batches": [
+      {
+        "name": "BATCH 8",
+        "id": "1eZwt0up0lnelRJgLwoPrddo2UaCfGL-4",
+        "known_files": 100,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": true
+      },
+      {
+        "name": "BATCH 7",
+        "id": "1BOjRT4L8GkHuHW-8NyZ04P6H8ZjuF3GI",
+        "known_files": 66,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": false
+      },
+      {
+        "name": "BATCH 6",
+        "id": "19e_ZVjlup-MnQ8D4fwfLaF-1A2tpVFcc",
+        "known_files": 100,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": true
+      },
+      {
+        "name": "BATCH 5",
+        "id": "1KrjDEhCHOMxSO_3FXJEPqZ6VcPY3HBdm",
+        "known_files": 100,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": true
+      },
+      {
+        "name": "BATCH 4",
+        "id": "1GdywYmMidweelKbXdpaGQO2dQ1Skj2C_",
+        "known_files": 31,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": false
+      },
+      {
+        "name": "BATCH 3",
+        "id": "1pFrr7ZfO5YSLGkb7hKSLccyh4wc79489",
+        "known_files": 73,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": false
+      },
+      {
+        "name": "BATCH 2",
+        "id": "1WJIznVgUaHs09Z5Yd-VN0W1LmPcmbZau",
+        "known_files": 66,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": false
+      },
+      {
+        "name": "BATCH 1",
+        "id": "1KFHHBSS4wgnY81QldwA3BAdlbNLS9MZb",
+        "known_files": 56,
+        "enumeration_complete": false,
+        "semantic_review_complete": false,
+        "listing_limit_warning": false
+      }
+    ],
+    "compiled_pdf_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+    "compiled_pdf_pages": 692,
+    "compiled_pdf_review_complete": true,
+    "compiled_pdf_is_complete_scan_set": false
+  },
+  "intelligence_layers": {
+    "runtime_source_retrieval": "ABSENT",
+    "local_page_retrieval": "IMPLEMENTED_RESEARCH_ONLY",
+    "personal_question_answering": "ABSENT",
+    "life_context_memory": "ABSENT",
+    "source_cited_narrative": "ABSENT",
+    "chart_calculation": "IMPLEMENTED",
+    "source_to_rule_coverage": "INCOMPLETE"
+  },
+  "rules": [
+    {
+      "id": "N9-001",
+      "name": "UTC/timezone chronology",
+      "historical_tier": "READY",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/chronology.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Birth-record uncertainty remains separate",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-002",
+      "name": "Geocentric tropical planetary positions",
+      "historical_tier": "READY",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_horizons.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Configure and freeze ephemeris file/backend",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-003",
+      "name": "Whole Sign houses",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/placements.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Exact boundaries have unique entered sign",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-004",
+      "name": "True Placement",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/placements.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Do not modify astronomical position",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-005",
+      "name": "Tone",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/placements.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Do not substitute house energy",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-006",
+      "name": "Elemental decans and Pulse",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/placements.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "10/20 degree boundaries exact",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-007",
+      "name": "Modern planetary rulers",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/placements.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No traditional-only substitution",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-008",
+      "name": "Whole Sign house ruling",
+      "historical_tier": "READY",
+      "historical_source_status": "DERIVED",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Delegate chains treated separately",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-009",
+      "name": "Ascendant and Descendant",
+      "historical_tier": "READY",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Latitude/clock accuracy",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-010",
+      "name": "MC IC independent points",
+      "historical_tier": "READY",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "MC not clamped to H10",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-011",
+      "name": "Nonagesimal and Subnonagesimal",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Independent of true MC and IC",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-012",
+      "name": "Vertex Invertex",
+      "historical_tier": "READY",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Extreme latitudes QA",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-013",
+      "name": "Arcsecond grade internal position",
+      "historical_tier": "READY",
+      "historical_source_status": "MATHEMATICAL",
+      "source_status": "ENGINEERING_SPECIFIED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Birth-time uncertainty not erased",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-014",
+      "name": "Parts Fortune Spirit Love",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/service.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No day-night reversal, activation separate",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-015",
+      "name": "Natal transit pass-through house",
+      "historical_tier": "READY",
+      "historical_source_status": "MATHEMATICAL",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No implied prediction",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-016",
+      "name": "Out-of-bounds declination threshold",
+      "historical_tier": "READY",
+      "historical_source_status": "EXPLICIT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/astronomy.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_core.py"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Author fixed threshold",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-017",
+      "name": "Dual Wheel visualization",
+      "historical_tier": "READY",
+      "historical_source_status": "SOURCE_STRUCTURE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "web/src/Wheel.tsx"
+      ],
+      "verification_tests": [
+        "web/src/wheelLayout.test.tsx"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Visual styling is engineering choice",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-018",
+      "name": "Vernal-equinox profections",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "DERIVED",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Pre/post-FCA blend undefined",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-019",
+      "name": "30-year cyclic age activations",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "VERIFIED_EXAMPLE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RESEARCH_HELPER_ONLY",
+      "implementation_files": [
+        "web/src/phase10Research.ts"
+      ],
+      "verification_tests": [
+        "web/src/phase10Research.test.ts"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Fractional years and timestamps unknown",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-020",
+      "name": "Spark house parity H",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "CONTRADICTED",
+      "source_status": "CONTRADICTED",
+      "implementation_status": "RESEARCH_HELPER_ONLY",
+      "implementation_files": [
+        "web/src/phase10Research.ts"
+      ],
+      "verification_tests": [
+        "web/src/phase10Research.test.ts"
+      ],
+      "witnesses": [
+        {
+          "drive_file_id": "1cY5Ih6NDZDJOMBTwx0pHcB3EoJMakSfR",
+          "original_printed_page": 235,
+          "pdf_page": 293,
+          "reflow_footer": 297,
+          "verified_visually": true
+        },
+        {
+          "pdf_page": 433,
+          "original_printed_page": 509
+        },
+        {
+          "pdf_page": 434,
+          "original_printed_page": 510
+        },
+        {
+          "pdf_page": 458,
+          "original_printed_page": 546
+        },
+        {
+          "drive_file_id": "1m6MFoG8NsmpSZP0X-7VJbcrQYQ1PffVETGfRPSIny_w",
+          "title": "You Are Not Your Sign - Technical Specification v2",
+          "section": "compute_spark",
+          "procedure": "astronomical-sign parity",
+          "authority_status": "SUPPLEMENTAL_APP_SPEC_NOT_CONFIRMED_AS_BOOK_ERRATUM"
+        }
+      ],
+      "conflicts": [
+        "SPARK_HOUSE_VS_SIGN_PARITY",
+        "COMPOSITE_SATURN_MATCHES_NEITHER",
+        "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+      ],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Conflicts later progressed and relocated examples",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT",
+      "explicit_written_procedure": "house parity: (floor(degree_within_sign)+(6 if house even else 0)) modulo 12; Aries index 0"
+    },
+    {
+      "id": "N9-021",
+      "name": "Spark sign parity Z",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "CONTRADICTED",
+      "source_status": "CONTRADICTED",
+      "implementation_status": "RESEARCH_HELPER_ONLY",
+      "implementation_files": [
+        "web/src/phase10Research.ts"
+      ],
+      "verification_tests": [
+        "web/src/phase10Research.test.ts"
+      ],
+      "witnesses": [
+        {
+          "drive_file_id": "1cY5Ih6NDZDJOMBTwx0pHcB3EoJMakSfR",
+          "original_printed_page": 235,
+          "pdf_page": 293,
+          "reflow_footer": 297,
+          "verified_visually": true
+        },
+        {
+          "pdf_page": 433,
+          "original_printed_page": 509
+        },
+        {
+          "pdf_page": 434,
+          "original_printed_page": 510
+        },
+        {
+          "pdf_page": 458,
+          "original_printed_page": 546
+        },
+        {
+          "drive_file_id": "1m6MFoG8NsmpSZP0X-7VJbcrQYQ1PffVETGfRPSIny_w",
+          "title": "You Are Not Your Sign - Technical Specification v2",
+          "section": "compute_spark",
+          "procedure": "astronomical-sign parity",
+          "authority_status": "SUPPLEMENTAL_APP_SPEC_NOT_CONFIRMED_AS_BOOK_ERRATUM"
+        }
+      ],
+      "conflicts": [
+        "SPARK_HOUSE_VS_SIGN_PARITY",
+        "COMPOSITE_SATURN_MATCHES_NEITHER",
+        "BOOK_HOUSE_PROCEDURE_VS_SUPPLEMENTAL_APP_SIGN_PROCEDURE"
+      ],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Austin Mars contradicts",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT",
+      "explicit_written_procedure": "house parity: (floor(degree_within_sign)+(6 if house even else 0)) modulo 12; Aries index 0"
+    },
+    {
+      "id": "N9-022",
+      "name": "Fusion Cusp distances",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "EXPLICIT_NUMERIC",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "RESEARCH_HELPER_ONLY",
+      "implementation_files": [
+        "web/src/phase10Research.ts"
+      ],
+      "verification_tests": [
+        "web/src/phase10Research.test.ts"
+      ],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No numeric blending weights",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-023",
+      "name": "Mars Saturn directed conjunctions",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "VERIFIED_EXAMPLE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Complete radii not available",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-024",
+      "name": "Fringe overlap for conjunction",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "VERIFIED_EXAMPLE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "General aspect fringe geometry remains unresolved",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-025",
+      "name": "Pluto 1.5 radius",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "EXPLICIT_PRIOR_AUDIT",
+      "source_status": "CONTRADICTED",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [
+        {
+          "pdf_page": 343,
+          "original_printed_page": 378
+        }
+      ],
+      "conflicts": [
+        "PLUTO_1_5_DEGREES_VS_WORKED_1_DEGREE"
+      ],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Diagram coordinates contradictory",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-026",
+      "name": "Rolling conjunction clusters",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "SOURCE_CONCEPT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Missing complete orbital rules",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-027",
+      "name": "PHSR plus wording",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "SOURCE_CONCEPT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Complete aspect stage not possible",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-028",
+      "name": "Base, Delegates and Ruler chains",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "SOURCE_CONCEPT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Cannot claim full source reading",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-029",
+      "name": "Universal Cosmic Dance first",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "SOURCE_ORDER",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Needs missing aspect thresholds",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-030",
+      "name": "WITH versus WHILE",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "SOURCE_CONCEPT",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Aspect graph incomplete",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-031",
+      "name": "Applying and separating dynamics",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "MATHEMATICAL",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Natal snapshot not continuing timer",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-032",
+      "name": "Relocation angles and Whole Signs",
+      "historical_tier": "LIMITED",
+      "historical_source_status": "ENGINEERING",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Source interpretive scope unresolved",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-033",
+      "name": "Full planet and asteroid OOI catalog",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "UNKNOWN",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Values deliberately null",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-034",
+      "name": "Aspect Spectrum all angles",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No conventional aspect orbs",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-035",
+      "name": "180 Rule handoffs and Vantage",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No full energy flow",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-036",
+      "name": "Advanced directional Energy Flow",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Cannot trust interpretive graph",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-037",
+      "name": "Advanced interpretation narratives",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No automatic event predictions",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-038",
+      "name": "Exact progressed charts",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "UNKNOWN",
+      "source_status": "DEFINITION_MISSING_FROM_SUPPLIED_PDF",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [
+        {
+          "pdf_page": 421,
+          "missing_original_printed_pages": [
+            491,
+            492
+          ]
+        }
+      ],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Do not assume conventional progressions",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-039",
+      "name": "Core Trinity synthesis",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "No integrated analysis",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-040",
+      "name": "Fractional age-degree dates",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "UNKNOWN",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Keep approximate age only",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-041",
+      "name": "Pre-activation and retrograde timing",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Do not invent timing",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-042",
+      "name": "Phased planetary returns",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Chart timestamps possible but no phase interpretation",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N9-043",
+      "name": "Eclipse special conditions",
+      "historical_tier": "BLOCKED",
+      "historical_source_status": "INCOMPLETE",
+      "source_status": "SECONDARY_REGISTER_NEEDS_PRIMARY_MAPPING",
+      "implementation_status": "NOT_IMPLEMENTED_AS_PRODUCT_WORKFLOW",
+      "implementation_files": [],
+      "verification_tests": [],
+      "witnesses": [],
+      "conflicts": [],
+      "dependencies": [],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "limitation": "Do not reuse as planet OOIs",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT"
+    },
+    {
+      "id": "N10-GRADITY",
+      "name": "Event-based four-phase Gradity",
+      "source_status": "PRIMARY_RULE_REVIEWED",
+      "implementation_status": "RUNTIME_IMPLEMENTED",
+      "implementation_files": [
+        "mystic_rebels/gradity.py",
+        "mystic_rebels/service.py"
+      ],
+      "verification_tests": [
+        "astronomy_qa/test_gradity.py",
+        "astronomy_qa/test_horizons_gradity.py"
+      ],
+      "witnesses": [
+        {
+          "pdf_page": 203,
+          "reflow_footer": 207,
+          "original_printed_page": 143
+        },
+        {
+          "pdf_page": 477,
+          "reflow_footer": 481,
+          "original_printed_pages": [
+            569,
+            570
+          ]
+        }
+      ],
+      "conflicts": [
+        "EXACT_BOUNDARY_EQUALITY_UNSPECIFIED",
+        "OVERLAPPING_SHADOW_PRECEDENCE_UNSPECIFIED"
+      ],
+      "dependencies": [
+        "N9-001",
+        "N9-002"
+      ],
+      "answer_use": "NOT_APPROVED_FOR_PERSONAL_ANSWERS",
+      "astronomy_test_scope": "Mercury 2024 and Venus 2025; 584 JPL/ERFA samples, 8 events; not all epochs or planets",
+      "retrieval_status": "NOT_RETRIEVED_BY_PRODUCT",
+      "limitation": "Event metadata supported for Mercury through Pluto; boundaries/overlaps remain unassigned. No interpretation validation."
+    }
+  ]
+}
