@@ -1,0 +1,63 @@
+{
+  "status": "VERIFIED_REGENERATION_AND_VALIDATORS",
+  "regeneration": {
+    "before": {
+      "source_manifest": "9cd67d2ecc6171ca53cb955d2883c9c2b99aeecd0a870548d13aa01caaecbe2e",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "a68c40a7f9995be580733565f3cea28ce58d220c504907ba726f6ccf38450c43",
+      "interpretive_inventory": "49cb8322391c81403cc8c1b801171c01a544f942c5339e82693369effaf70a80",
+      "original_assertions": "6e247b435e0757882dd158278fabce5527d52a80b1fdaa99a89ffcfa1ff5a503",
+      "material_requirements": "7dd056d4bb329597d5f27c85cc058b3fccbefbcad8ad2af86edba4fe19464ace"
+    },
+    "after": {
+      "source_manifest": "9cd67d2ecc6171ca53cb955d2883c9c2b99aeecd0a870548d13aa01caaecbe2e",
+      "source_review_updates": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "source_review_continuation": "a68c40a7f9995be580733565f3cea28ce58d220c504907ba726f6ccf38450c43",
+      "interpretive_inventory": "49cb8322391c81403cc8c1b801171c01a544f942c5339e82693369effaf70a80",
+      "original_assertions": "6e247b435e0757882dd158278fabce5527d52a80b1fdaa99a89ffcfa1ff5a503",
+      "material_requirements": "7dd056d4bb329597d5f27c85cc058b3fccbefbcad8ad2af86edba4fe19464ace"
+    },
+    "identical": true
+  },
+  "validators": {
+    "check": {
+      "batch_count": 8,
+      "enumeration_complete": false,
+      "known_file_lower_bound": 1028,
+      "source_semantic_coverage_percent": null,
+      "coverage_percent_reason": "No complete eight-batch page/concept denominator or verified scan-to-rule mapping yet.",
+      "runtime_rules": 16,
+      "registered_rules": 44,
+      "complete_intelligence_claim_allowed": false
+    },
+    "check-semantics": {
+      "concepts": 131,
+      "report_sections": 18,
+      "source_states": {
+        "PASSAGE_REVIEWED": 91,
+        "CONFLICT": 3,
+        "INCOMPLETE": 15,
+        "PRIOR_REVIEW_ONLY": 2,
+        "FRAGMENT": 20
+      },
+      "status": "VALID_AUDIT_NOT_REPORT_APPROVAL"
+    },
+    "check-sources": {
+      "status": "VALID_VISIBLE_SNAPSHOT_NOT_PAGE_COVERAGE",
+      "file_records": 1029,
+      "printed_page_denominator": null
+    },
+    "check-requirements": {
+      "status": "VALID_RECONCILIATION_NOT_REPORT_APPROVAL",
+      "sections": 18,
+      "requirements": 207
+    },
+    "pdf_witnesses": {
+      "status": "PDF_AND_INDEX_WITNESSES_MATCH",
+      "pdf_pages": 692,
+      "concept_witness_pages": 300,
+      "source_sha256": "9d5fb55cf6d4f2134ed780c2694503d2dde42bdad68add60ff35acef0237161d",
+      "complete_semantic_coverage_claimed": false
+    }
+  }
+}

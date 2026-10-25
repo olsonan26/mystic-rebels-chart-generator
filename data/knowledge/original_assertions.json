@@ -5835,6 +5835,598 @@
       "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
       "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
       "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation791-fullchart-purpose",
+      "concept_id": "relocation",
+      "kind": "explicit_report_context",
+      "proposition": "Originals790-791 require line planet Delegate condition,whole relocated chart,natal assessment within DCA and reason for moving; no universal best place or Jupiter/Venus guarantee.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "A report needs declared goals plus natal/relocated facts. Source fidelity does not validate personal effects."
+      ],
+      "requires_concepts": [
+        "delegate-condition",
+        "agency"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zwNr4u9w9LwXb8Q4a2A3fIthWcOKO9O6",
+          "name": "IMG_5472.JPG",
+          "content_sha256": "487c57f6fcd5459e95fe1937bf580444fa9b110d0ef07699234005211068a76f",
+          "original_printed_pages": [
+            "790"
+          ]
+        },
+        {
+          "file_id": "14rwjb8mnDRFw40P3LzdsmW8fEI9MvQ3x",
+          "name": "IMG_5473.JPG",
+          "content_sha256": "05bf59b30cd4861c0e0a2f595e0779adfd84fc4cfddadd87d16fc6294934eeea",
+          "original_printed_pages": [
+            "791"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation788-zodio-mundo",
+      "concept_id": "relocation",
+      "kind": "coordinate_frame_scope",
+      "proposition": "Originals788-789 and823 distinguish Zodio ecliptic projections for relocated-chart lines from Mundo sky angularity for Parans/LocalSpace; Pluto/Jupiter map contrast is used as example.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not silently substitute projected longitude for spatial angularity; numerical frame fixtures and exact comparison inputs remain required."
+      ],
+      "requires_concepts": [
+        "parans"
+      ],
+      "witnesses": [
+        {
+          "file_id": "14c7YI-bxy9Ume4XBE1zuheidQrdjSP-i",
+          "name": "IMG_5470.jpg",
+          "content_sha256": "45ccd7314756cf0aad739ac3240f35ed2f5dd8c081e088e2ca8129d73b01cb48",
+          "original_printed_pages": [
+            "788"
+          ]
+        },
+        {
+          "file_id": "1I5SAw0yd29E3QTCHTP6JNvX-ej1mbMzZ",
+          "name": "IMG_5471.JPG",
+          "content_sha256": "caafd469b0c6a5fb98a5072dc4443a8949a73055550943452d982c2c26230b5c",
+          "original_printed_pages": [
+            "789"
+          ]
+        },
+        {
+          "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
+          "name": "IMG_5506.JPG",
+          "content_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
+          "original_printed_pages": [
+            "823"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans796-sky-versus-zodiac",
+      "concept_id": "parans",
+      "kind": "explicit_geometric_exclusion",
+      "proposition": "Originals796-797 separate sky HorizonRising,Setting,Apex,Subapex from zodiacAC/DC/MC/IC conjunctions and supply HR/HS/AP/SA notation.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Not all culmination points are zenith/nadir or visible; source directional/solar-exposure prose is not an independently verified horizon model."
+      ],
+      "requires_concepts": [
+        "anchors",
+        "declination"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1VSrOMlw-es61Cvrrqv11rw2weFFex_nk",
+          "name": "IMG_5478.JPG",
+          "content_sha256": "e55cc54bc9c3d8411c08611efc882f03f171a210a260fe75ca1646e2f0979f86",
+          "original_printed_pages": [
+            "796"
+          ]
+        },
+        {
+          "file_id": "19f2Icm-vLrEL9kqo2ZSeg29JbUObJHdr",
+          "name": "IMG_5479.jpg",
+          "content_sha256": "7c50af7231c3b353b4e223a33b5a5d0d7f65871a10fc1116485b6cea64e9f1b3",
+          "original_printed_pages": [
+            "797"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans799-offset-screenshot",
+      "concept_id": "parans",
+      "kind": "worked_alignment_limit",
+      "proposition": "Original799 calls screenshot approximate nearHawaii:Venus above eastern horizon,Pluto below western horizon;800 calls portrayal topocentric rather than ecliptic.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No exact timestamp/location/zero-altitude simultaneity fixture or distance/time attenuation law follows from the screenshot."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zZCGqhyO2Df9H95iIbEjbJANvHX0sSoR",
+          "name": "IMG_5481.JPG",
+          "content_sha256": "126f56baeba78e146b7c2a201bb87d0f27800758b8d4021b0063d5e80aa36053",
+          "original_printed_pages": [
+            "799"
+          ]
+        },
+        {
+          "file_id": "1jG-P7DEmpyX8RZ_owN9sgr02e6Vg4_Tv",
+          "name": "IMG_5482.jpg",
+          "content_sha256": "6cfae8279bcf529faaa9629aff4f7a8441fb421c14be33344acb80a19982193b",
+          "original_printed_pages": [
+            "800"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans805-chart-before-sky",
+      "concept_id": "parans",
+      "kind": "explicit_context_order",
+      "proposition": "Originals805/807 require chart assessment before Parans and retain relocated signs/houses while distinguishing sky crossing calculation from zodiacal degrees.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Same described sky pairing can have different house context; do not use point role alone as complete personal meaning."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NleAQYZxKuP7fRhkN0rzb_fana0mgIAQ",
+          "name": "IMG_5488.JPG",
+          "content_sha256": "1286ddf4754142705cce8c0a24b9246d25f1127cd0c4b6e1ad145d72b9207fe6",
+          "original_printed_pages": [
+            "805"
+          ]
+        },
+        {
+          "file_id": "1Gprr7TM0wEWHAVQIMMTQND7_PZYb_LEq",
+          "name": "IMG_5490.JPG",
+          "content_sha256": "3f7190b8b1503248f4d6263e12c5c32baa7bb02e6f8d9f16e284e834bb3c391f",
+          "original_printed_pages": [
+            "807"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans808-imprint-time-scope",
+      "concept_id": "parans",
+      "kind": "unresolved_epoch_window",
+      "proposition": "Original808 says natal Paran imprint persists with relocated Parans layered over it,then describes first breath and angular moment at birth; lists SunHR/MoonAP and NeptuneHR/SaturnAP while acknowledging Sun/Neptune natal opposition.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Instantaneous birth-sky versus diurnal angular-event window is not explicitly specified. Do not force all listed pairs into simultaneous natal zero-altitude contacts."
+      ],
+      "requires_concepts": [
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1YJ0MU11vpGnAMBIYDog4YE9fteYTUj0J",
+          "name": "IMG_5491.JPG",
+          "content_sha256": "bbf0d2e0b11bd39cb90e255695f9e591fa62436e2c395992d93eb1f290ee4f0a",
+          "original_printed_pages": [
+            "808"
+          ]
+        },
+        {
+          "file_id": "1cIJuww6Ek577QLNm5yrYUo5NjqDQ9ulX",
+          "name": "IMG_5495.JPG",
+          "content_sha256": "ae2ffe5d9edee789473400c4f127ab1441bd1bafed6b44751967fe25e1cc9a91",
+          "original_printed_pages": [
+            "812"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans813-field-tone-path",
+      "concept_id": "parans",
+      "kind": "worked_context_chain",
+      "proposition": "Original813 chains CapricornField to AriesTone,rulerMars to CancerField/LibraTone,then MarsParan ApexZonePublicView.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Worked author example supports retaining operand/ruler/house context,not a complete weighting algorithm or an empirically validated personal claim."
+      ],
+      "requires_concepts": [
+        "phsr",
+        "delegate-condition"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zqT3Ah1CHWdVT6EWElsItXHuiJ5gZLRA",
+          "name": "IMG_5496.JPG",
+          "content_sha256": "f547a3adf58e5597bb75c36a10cd3da0f8b5b2c3254f856c52070ffa55cc29bc",
+          "original_printed_pages": [
+            "813"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans817-unproven-spectrum",
+      "concept_id": "parans",
+      "kind": "explicit_research_limit",
+      "proposition": "Originals798/817 defer SkyQuadrants,Parallels and VisibilitySpectrum;817 explicitly calls its0/90/180/270 and45/135proposals unproven theories and leaves Paran-window/inclination questions open.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Save as proposed research only. No implemented threshold,continuous arc mapping or operational interpretation is approved."
+      ],
+      "requires_concepts": [
+        "spectrum-meanings"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FpK9VvRT41QSFfYbrA-EFs4qUG8cNsMZ",
+          "name": "IMG_5480.JPG",
+          "content_sha256": "344bf2e00ffbfe96fe006f09510c84fb3e709a11f8594952db08a5e66dc69c9c",
+          "original_printed_pages": [
+            "798"
+          ]
+        },
+        {
+          "file_id": "18eBezoHzVReZvYFyH4qbr6KS2_VhQZ9L",
+          "name": "IMG_5500.JPG",
+          "content_sha256": "fdc4228fdfb742a89ab5c45e9afb374a830a4818bb9b29c1d3fca4a0ee764615",
+          "original_printed_pages": [
+            "817"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "remote818-paris-two-roles",
+      "concept_id": "parans",
+      "kind": "ambiguous_same_time_sky_roles",
+      "proposition": "Original818 says Venus is at HorizonSetting andSubapex at the same time nearParis within remote activation anecdote.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Exact event/location window and meaning of same time are unspecified; do not invent a simultaneous event fixture or silently choose one role."
+      ],
+      "requires_concepts": [
+        "remote-activation",
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
+          "name": "IMG_5501.JPG",
+          "content_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
+          "original_printed_pages": [
+            "818"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "remote818-method-scope",
+      "concept_id": "remote-activation",
+      "kind": "authored_scope_not_efficacy",
+      "proposition": "Originals818-820 claim remote activation using picture,object,person or thought and include country-based anecdotes and possible unintentional exposure.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is author belief,not empirical remote efficacy. Do not generalize character,compatibility or experience from nationality or infer personal histories."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
+          "name": "IMG_5501.JPG",
+          "content_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
+          "original_printed_pages": [
+            "818"
+          ]
+        },
+        {
+          "file_id": "1x6lAwP9gtG4RQSYgxg4zGWYVlhlLCLqe",
+          "name": "IMG_5502.jpg",
+          "content_sha256": "09553a614161d41c3e83d4c959249415d883c000726a869c6727324c48c91603",
+          "original_printed_pages": [
+            "819"
+          ]
+        },
+        {
+          "file_id": "1vdtOBvVjlEa5p25E6Apnj1udbVezrOFJ",
+          "name": "IMG_5503.jpg",
+          "content_sha256": "a6f7006f1aa13e9559fe082734319e15180c684bbcbb24b7d0ea34c78f8c0987",
+          "original_printed_pages": [
+            "820"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation823-ratio-approximation",
+      "concept_id": "relocation",
+      "kind": "worked_distance_arithmetic",
+      "proposition": "Original821 prints C(phi)=2piRcos(phi);823 gives Jupiter8degreeOOI427.22mile reach,140mile offset32.77percent and2.63degree offset32.875percent.824 keeps order-dependent SaturnIC context.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "140/427.22 is approximately32.770percent;2.63/8=32.875percent. Approximate agreement is not exact equality or proof of a universal ecliptic-to-ground mapping."
+      ],
+      "requires_concepts": [
+        "parans",
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1y_RIIHNnewzs-3FVUGkhsMfF7sB4Q__K",
+          "name": "IMG_5504.jpg",
+          "content_sha256": "9228522526399fa804ae0153dcb2721895423e1de3b821865990c29b1f495b66",
+          "original_printed_pages": [
+            "821"
+          ]
+        },
+        {
+          "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
+          "name": "IMG_5506.JPG",
+          "content_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
+          "original_printed_pages": [
+            "823"
+          ]
+        },
+        {
+          "file_id": "1eklX5lg_SDqnIEDp4xkZLHnoJ7qVFp7q",
+          "name": "IMG_5507.JPG",
+          "content_sha256": "627dce41187d1c5c49522198ccbfd5079127787ebdb4c271d3a7ed6f6cca5a74",
+          "original_printed_pages": [
+            "824"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation825-natal-relocated-aspects",
+      "concept_id": "spectrum-meanings",
+      "kind": "explicit_chart_scope_qualification",
+      "proposition": "Original825 distinguishes natalMC/Sunsemi-square from LA relocatedMCsquareSun and corrects displayedSun-squareMC to MC-squareSun.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain389square and390semi-square wording;825 adds scope context but is not an erratum or independently verified longitude fixture."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "anchors"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
+          "name": "IMG_5508.jpg",
+          "content_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
+          "original_printed_pages": [
+            "825"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation826-nonconjunction-lines",
+      "concept_id": "directional-context",
+      "kind": "explicit_ordered_aspect_set",
+      "proposition": "Originals825-827 distinguish ACsquareMars from MarssquareAC and include Mercurysemi-sextileAC plusDCquincunxMercury as additional lines.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No personal injury,income or relationship outcome follows automatically; keep full relocated context and one-way order."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
+          "name": "IMG_5508.jpg",
+          "content_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
+          "original_printed_pages": [
+            "825"
+          ]
+        },
+        {
+          "file_id": "1AjRF09sIW5dV8Gk0gslE2tOOy-CFFaLa",
+          "name": "IMG_5509.JPG",
+          "content_sha256": "51dbd442a17756c74fc1d46926793c566db5b80214eb0b454bd332bd67218d73",
+          "original_printed_pages": [
+            "826"
+          ]
+        },
+        {
+          "file_id": "1py9V1PE3J-OjcWN0oyfbxAZg6SLKoDGk",
+          "name": "IMG_5510.JPG",
+          "content_sha256": "c84c7ed239412b3c9992fb4136a1054e30f0d477ef0665dc3fe4efa731b72599",
+          "original_printed_pages": [
+            "827"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local828-physical-versus-online",
+      "concept_id": "local-space",
+      "kind": "scope_counterexample_retained",
+      "proposition": "Original828 qualifies physical travel as necessary and says LocalSpace cannot be remotely activated;833 describes finding a partner online along the Moon line before meeting.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Physical travel exclusion and online anecdote must coexist; author did not supply a reconciled activation rule or date/location evidence."
+      ],
+      "requires_concepts": [
+        "remote-activation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+          "name": "IMG_5511.JPG",
+          "content_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
+          "original_printed_pages": [
+            "828"
+          ]
+        },
+        {
+          "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
+          "name": "IMG_5516.JPG",
+          "content_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
+          "original_printed_pages": [
+            "833"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local829-azimuth-reorigin",
+      "concept_id": "local-space",
+      "kind": "explicit_origin_and_frame",
+      "proposition": "Originals828-830 define physical directional azimuth vectors,trueNorth0clockwise,east90,south180;require recalculation from new location and preserve natal imprint separately.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "New-origin epoch/time,point altitude,route geometry and circumpolar handling need specification; do not just translate natal map or replace natal imprint."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+          "name": "IMG_5511.JPG",
+          "content_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
+          "original_printed_pages": [
+            "828"
+          ]
+        },
+        {
+          "file_id": "1LPPrPecdhP7qGUnZsSzabyD5WtXqi3ev",
+          "name": "IMG_5512.JPG",
+          "content_sha256": "342280dd06ea9d7aa1ce91962cda09580b47128b96c0e19bad3d9295778e466a",
+          "original_printed_pages": [
+            "829"
+          ]
+        },
+        {
+          "file_id": "1r4b7PprjsFl-5EdpbKIYt4MYqq3LSA33",
+          "name": "IMG_5513.jpg",
+          "content_sha256": "b075b89cce7a6640fafe31b85f961ef8cbc3432e5aff20e397f62819aa919ef8",
+          "original_printed_pages": [
+            "830"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local835-output-receipt",
+      "concept_id": "local-space",
+      "kind": "explicit_directional_roles",
+      "proposition": "Originals833-835 describe standardLocalSpace vector as projected output and opposite direction as received context;SaturnRx example combines house/ruler condition and distinguishes Jacksonville from WestPalmBeach/BocaRaton.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Closed-loop is an authored interpretation,not measured physical influence or validated accident forecast. Exact vector origin,epoch and tolerance remain unresolved."
+      ],
+      "requires_concepts": [
+        "directional-context",
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
+          "name": "IMG_5516.JPG",
+          "content_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
+          "original_printed_pages": [
+            "833"
+          ]
+        },
+        {
+          "file_id": "1SEpneMQGa9HM85zCA38w2ViJ3P-8mrlt",
+          "name": "IMG_5517.JPG",
+          "content_sha256": "f07d818c77f5bee445d5ea6fbb2b2ce908a9a7c58c81839dd2fdf4a8291d497f",
+          "original_printed_pages": [
+            "834"
+          ]
+        },
+        {
+          "file_id": "1eL8lD3PFuBHi77_01-oVm95YX6HwZwPn",
+          "name": "IMG_5518.JPG",
+          "content_sha256": "7633c2b8a80e3de280c227fedbc6b339d4dc9657ca61675b725988f770704d1c",
+          "original_printed_pages": [
+            "835"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
     }
   ]
 }

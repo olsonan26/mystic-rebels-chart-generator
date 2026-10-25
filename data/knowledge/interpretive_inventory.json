@@ -5157,7 +5157,10 @@
         }
       ],
       "line_reconciliation_finding_ids": [
-        "paran-distance-projection"
+        "paran-distance-projection",
+        "parans808-event-window",
+        "parans817-unproven-spectrum",
+        "paris818-dual-sky-role"
       ]
     },
     {
@@ -5200,7 +5203,8 @@
         }
       ],
       "line_reconciliation_finding_ids": [
-        "paran-distance-projection"
+        "paran-distance-projection",
+        "local828-physical-online-scope"
       ]
     },
     {
@@ -5229,6 +5233,9 @@
           "reflow_footer": 649,
           "page_text_sha256": "c646f6ce1453c45cf881f1f1cfe8a707c17a8445e5ac03ca6e7b7231751e984b"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "paris818-dual-sky-role"
       ]
     },
     {

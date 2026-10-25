@@ -1,0 +1,38 @@
+{
+  "scope": "DURABLE_REPORT_INGREDIENTS_AND_PRIVATE_ASSET_PRESENCE_NOT_REPORT_APPROVAL",
+  "date_local": "2026-10-25",
+  "private_original_image_files_present": 1029,
+  "private_successful_ocr_files_present": 1028,
+  "private_ocr_failure_count": 1,
+  "private_indexes_present": {
+    "knowledge-index.sqlite": true,
+    "original-candidates.sqlite": true
+  },
+  "concept_records": 131,
+  "selected_assertions": 198,
+  "assertions_with_original_witnesses": 198,
+  "personal_answer_approved_assertions": 0,
+  "requirements": 207,
+  "report_sections": 18,
+  "ready_report_sections": 0,
+  "authorities_sha256": {
+    "data/knowledge/interpretive_inventory.json": "49cb8322391c81403cc8c1b801171c01a544f942c5339e82693369effaf70a80",
+    "data/knowledge/material_requirements.json": "7dd056d4bb329597d5f27c85cc058b3fccbefbcad8ad2af86edba4fe19464ace",
+    "data/knowledge/original_assertions.json": "6e247b435e0757882dd158278fabce5527d52a80b1fdaa99a89ffcfa1ff5a503",
+    "data/knowledge/source_manifest.json": "9cd67d2ecc6171ca53cb955d2883c9c2b99aeecd0a870548d13aa01caaecbe2e",
+    "data/knowledge/source_line_annotations.json": "2592b03b396a43ba0d83ee055a7484c77f9edaecd323f49722d79dd6124db46a",
+    "data/knowledge/source_blocker_findings.json": "8df84f935bbb2d78477c07354c3235e08750c63dbf0aacf4f284f674dc9a20ff"
+  },
+  "source_hash_validation": "See current line,source and pipeline validators; asset presence explicitly checked here.",
+  "fresh_checkout_contains_private_originals_ocr_indexes": false,
+  "independent_private_asset_backup_verified": false,
+  "raw_sources_published": false,
+  "report_engine_implemented_by_this_audit": false,
+  "remaining_steps": [
+    "source and conflict reconciliation",
+    "independent numerical validation",
+    "chart context dependency graph",
+    "cited bounded report synthesis",
+    "report evaluation and workflow verification"
+  ]
+}

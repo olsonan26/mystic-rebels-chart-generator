@@ -1,3 +1,13 @@
+## Current verified continuation: locational audit, 50 additional images
+
+Read [2026-10-25_source-audit-locational-continuation.md](2026-10-25_source-audit-locational-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/locational-next-verification.json` first. Current local totals supersede older counts: **1,029 acquired IDs; 1,028 successful OCR outputs; 562 targeted images; 198 selected assertions; 439 annotations; 6,842 checked of 34,026 OCR locators; 33 named findings.** Remaining: **467 files and 27,184 unchecked locators**. This batch added 50 new image reviews, three reinspections, 16 assertions and 983 checked locators; zero acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements).
+
+Preserve new Paran event-window, unproven Visibility Spectrum, Paris dual-role and Local Space physical/online scope findings alongside all earlier counterevidence. Distinct photographs of printed801 are retained separately, as are printed315 photographs. Next file **IMG_5520.JPG**, ID **1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4**: inspect image before assigning its printed header; start at pending locator1 and exact saved line queue.
+
+The knowledge path preserves source IDs/hashes, context, exceptions, dependencies, report requirements and retrieval evidence. Full originals/OCR/indexes remain private in ignored `reference/`; a new checkout requires private-asset restoration and hash verification. No answering layer, personal report, formula approval or deployment is added. Validated audit-only changes may be committed/pushed to the existing branch while preserving its automatic-deployment guard. Historical instructions/counts below do not override this checkpoint or the user's current scope.
+
+---
+
 # Source audit continuation: Parts, Chiron and asteroid context
 
 This checkpoint supersedes the 462-image checkpoint for local audit progress. The deployed source snapshot remains unchanged. This continuation inspected 50 previously unreviewed images and reinspected five previously targeted images; acquisition and OCR were not repeated. These are selected passage checks, not exhaustive page or semantic approval.

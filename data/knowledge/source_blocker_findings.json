@@ -294,12 +294,16 @@
         "local-space"
       ],
       "status": "SOURCE_APPROXIMATION_RECOVERED",
-      "finding": "Original822 gives111*cos(latitude)*orb as approximate parallel-longitude distance. Roundedcos0.774 and3degree orb produce257.742km,about160.195miles.",
+      "finding": "Original822 gives111*cos(latitude)*orb as approximate parallel-longitude distance. Roundedcos0.774 and3degree orb produce257.742km,about160.195miles.821cosinecircumference and823Jupiter8degree/427.22mile example retained;140/427.22about32.770percent differs from2.63/8=32.875percent. Agreement is approximate.",
       "assertion_ids": [
-        "paran822-parallel-distance-example"
+        "paran822-parallel-distance-example",
+        "relocation823-ratio-approximation"
       ],
       "annotation_ids": [
-        "directional-audit-img-5505-jpg"
+        "directional-audit-img-5505-jpg",
+        "locational-deep-1VvyU4vrSDBCgtMX-Ux8XtJbjjrMILRnB",
+        "locational-next-audit-1y_RIIHNnewzs-3FVUGkhsMfF7sB4Q__K",
+        "locational-next-audit-1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv"
       ],
       "remaining": "Projection is not a universal perpendicular paran-distance rule or intensity law; curve/frame and independent numeric validation remain required.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
@@ -331,13 +335,17 @@
         "anchors"
       ],
       "status": "COMPETING_90_AND_45_LABELS_RETAINED",
-      "finding": "389 saysMCsquareSun;390 saysMCsemisquareSun for the discussed example.",
+      "finding": "389 saysMCsquareSun;390 saysMCsemisquareSun for the discussed example.825 explicitly contrasts natal semi-square andLA relocatedsquare;reinspection retains389unqualifiedsquare and390semi-square wording. New scope context is not a declared erratum.",
       "assertion_ids": [
-        "mc389-square390-semisquare"
+        "mc389-square390-semisquare",
+        "relocation825-natal-relocated-aspects"
       ],
       "annotation_ids": [
         "pattern-audit-11LF2jYi1QIU7oII_iCsOO_JHS0Fc9Wh2",
-        "pattern-audit-1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv"
+        "pattern-audit-1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv",
+        "locational-deep-11LF2jYi1QIU7oII_iCsOO_JHS0Fc9Wh2",
+        "locational-deep-1oIEyVaGVxt-tQRPn9_FzDbyQK1AuJNwv",
+        "locational-next-audit-1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB"
       ],
       "remaining": "No erratum or independently verified natal chart selects the intended label.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
@@ -605,6 +613,74 @@
         "oct25-next-audit-1U_mxoFRO8qe0A02Bkds2e4mLAgCgfzQh"
       ],
       "remaining": "Variation may be abbreviation or different emphasis; do not silently replace dedicated meaning or claim full equivalence.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "parans808-event-window",
+      "concept_ids": [
+        "parans"
+      ],
+      "status": "BIRTH_INSTANT_AND_DIURNAL_EVENT_WINDOW_UNRESOLVED",
+      "finding": "808 describes firstbreath and angularmomentatbirth while listing twoHR/AP pairs andSun/Neptune natalopposition.",
+      "assertion_ids": [
+        "parans808-imprint-time-scope"
+      ],
+      "annotation_ids": [
+        "locational-next-audit-1YJ0MU11vpGnAMBIYDog4YE9fteYTUj0J",
+        "locational-next-audit-1cIJuww6Ek577QLNm5yrYUo5NjqDQ9ulX"
+      ],
+      "remaining": "Require explicit selection epoch,event window and exactness conventions; no simultaneous birth-contact reconstruction approved.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "parans817-unproven-spectrum",
+      "concept_ids": [
+        "parans"
+      ],
+      "status": "AUTHOR_EXPLICITLY_MARKS_FUTURE_RESEARCH",
+      "finding": "798/817 defer SkyQuadrants/Parallels and call VisibilitySpectrum unproven;Paran window remains a question.",
+      "assertion_ids": [
+        "parans817-unproven-spectrum"
+      ],
+      "annotation_ids": [
+        "locational-next-audit-1FpK9VvRT41QSFfYbrA-EFs4qUG8cNsMZ",
+        "locational-next-audit-18eBezoHzVReZvYFyH4qbr6KS2_VhQZ9L"
+      ],
+      "remaining": "No general arc/tolerance mapping or operational rule may be attributed to these proposals.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "paris818-dual-sky-role",
+      "concept_ids": [
+        "parans",
+        "remote-activation"
+      ],
+      "status": "SAME_TIME_ROLE_WORDING_UNRESOLVED",
+      "finding": "818 saysVenusHS andSA atsame time nearParis;exact location/event window unspecified.",
+      "assertion_ids": [
+        "remote818-paris-two-roles"
+      ],
+      "annotation_ids": [
+        "locational-next-audit-12b6-VJ9i182kKZcPVyDub0D-sMektOni"
+      ],
+      "remaining": "Preserve both roles without converting to same-instant numerical fixture; obtain author clarification.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "local828-physical-online-scope",
+      "concept_ids": [
+        "local-space"
+      ],
+      "status": "PHYSICAL_TRAVEL_EXCLUSION_AND_ONLINE_ANECDOTE_RETAINED",
+      "finding": "828 saysphysicaltravelneeded,noRemoteActivation;833 describes onlinefirstcontact alongMoonline.",
+      "assertion_ids": [
+        "local828-physical-versus-online"
+      ],
+      "annotation_ids": [
+        "locational-next-audit-1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+        "locational-next-audit-1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL"
+      ],
+      "remaining": "Clarify what contact/exposure counts; no remote-vector efficacy or resolved rule claimed.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]

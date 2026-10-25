@@ -13418,6 +13418,1362 @@
       "duplicate_content_status": "NO_DUPLICATE_CLAIM",
       "visible_page_count": 1,
       "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1BjRDtWspXE4ZO54Dy9ED4ZTQw9iX2hrb",
+      "name": "IMG_5469.JPG",
+      "content_sha256": "244b1cd8adb0f4bdd0e9ee3e4d05a15642dff02a0c3c3485f94518373fce3f2a",
+      "printed_page_ids": [
+        "787"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "delegate-condition"
+      ],
+      "summary": "Author rejects universal VenusMC soulmate promise and says MC conjunction also entails IC opposition; individual Venus/Chiron condition matters. East/west-line preference is criticized without numerical boundary derivation or independent efficacy proof.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14c7YI-bxy9Ume4XBE1zuheidQrdjSP-i",
+      "name": "IMG_5470.jpg",
+      "content_sha256": "45ccd7314756cf0aad739ac3240f35ed2f5dd8c081e088e2ca8129d73b01cb48",
+      "printed_page_ids": [
+        "788"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "directional-context"
+      ],
+      "summary": "Relocated conjunction/opposition ordering is required for Energy Flow. Two Pluto/Jupiter map excerpts contrast Mundo on left and Zodio ecliptic longitude on right; author prefers latter here. Diagram comparison is not independent projection/frame verification.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1I5SAw0yd29E3QTCHTP6JNvX-ej1mbMzZ",
+      "name": "IMG_5471.JPG",
+      "content_sha256": "caafd469b0c6a5fb98a5072dc4443a8949a73055550943452d982c2c26230b5c",
+      "printed_page_ids": [
+        "789"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "parans"
+      ],
+      "summary": "Explicitly favors Zodio for relocation but calls Mundo relevant for Parans. Every aspect creates another line; conjunction intensity is not importance and living on a line is not required. Map is reference only; full relocated chart assessment required.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1zwNr4u9w9LwXb8Q4a2A3fIthWcOKO9O6",
+      "name": "IMG_5472.JPG",
+      "content_sha256": "487c57f6fcd5459e95fe1937bf580444fa9b110d0ef07699234005211068a76f",
+      "printed_page_ids": [
+        "790"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "delegate-condition",
+        "retrograde-meaning"
+      ],
+      "summary": "A line's planet is a Delegate with natal condition; author Jupiter example combines Rx,IC,ruler chains,Scorpio and forced relation to Pluto. Adverse childhood anecdote does not establish causal chart effects or universal Jupiter outcomes.",
+      "pdf_pages": [
+        633,
+        634
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 634,
+          "overlap": 0.6509,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 633,
+          "overlap": 0.3208,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14rwjb8mnDRFw40P3LzdsmW8fEI9MvQ3x",
+      "name": "IMG_5473.JPG",
+      "content_sha256": "05bf59b30cd4861c0e0a2f595e0779adfd84fc4cfddadd87d16fc6294934eeea",
+      "printed_page_ids": [
+        "791"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "agency"
+      ],
+      "summary": "Assess whole relocated chart then integrate natal assessment within DCA; reason for moving and desired change matter. Source rejects universal best place and says moving cannot automatically resolve natal conditions. No validated location ranking follows.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1TKybWp0JGQOz4WBAywjRl8Ok5JL6VDeO",
+      "name": "IMG_5474.JPG",
+      "content_sha256": "aa344ca7492d4621e68bfcbe8bb4ec1e9eda9d012a10ace3c9955d1a1a208376",
+      "printed_page_ids": [
+        "792"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "anchors"
+      ],
+      "summary": "Author compares MC H10TaurusBaltimore,H9PiscesLosAngeles,H9AriesTampa,H10AriesAustin; MC describes visibility rather than simply career. Outer-layer houses/anchors and new aspects matter; coordinates/times are not supplied here as numerical fixtures.",
+      "pdf_pages": [
+        634,
+        635
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 634,
+          "overlap": 0.3936,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 635,
+          "overlap": 0.3218,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1vi6JhvQGBZjVAuf19k_JBWk0mJs1pAWN",
+      "name": "IMG_5475.jpg",
+      "content_sha256": "d4ba706cca39956b9802cf3c6a4c97c2b7828026f3e91ba465b5c0be8468d009",
+      "printed_page_ids": [
+        "793"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "synastry",
+        "composite",
+        "agency"
+      ],
+      "summary": "Return-to-LA anecdote distinguishes solo from family relocation, invoking synastry/composites and current activation differences. Familiar geography does not imply repeated outcome; self-reported experiences are not diagnoses for report subjects.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "11qoiZct0DoVCgQBU4FcFBSCMzOh0-xaM",
+      "name": "IMG_5476.JPG",
+      "content_sha256": "0b9b5c0aa40ea9a8fa1a7b3b6d47ddc3789753d6562a875b95028c3598deb693",
+      "printed_page_ids": [
+        "794"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "declination",
+        "relocation"
+      ],
+      "summary": "Parans introduction distinguishes planet declination from observer-dependent visibility and geometric location. Printed declination will be constant is retained within context; do not treat this as a timeless ephemeris constant or conflate declination sign with above local horizon.",
+      "pdf_pages": [
+        635
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 635,
+          "overlap": 0.7019,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ehXmaePZ6fZEUzFGWxe-mi7vrTPlu7Xj",
+      "name": "IMG_5477.JPG",
+      "content_sha256": "8747d8854f421ef9afe9febec494a57de76a6e980b7c044457d3d926486570d3",
+      "printed_page_ids": [
+        "795"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "declination"
+      ],
+      "summary": "Positive/negative declination is assigned outward/inward symbolism; Parans defined as simultaneous key sky-angle crossings at a location. Author says exactitude orb software is future work and crossing means concurrent thresholds, not literal planet intersection. No event tolerance formula given.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1VSrOMlw-es61Cvrrqv11rw2weFFex_nk",
+      "name": "IMG_5478.JPG",
+      "content_sha256": "e55cc54bc9c3d8411c08611efc882f03f171a210a260fe75ca1646e2f0979f86",
+      "printed_page_ids": [
+        "796"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "anchors"
+      ],
+      "summary": "Author explicitly separates VenusHR/PlutoHS from zodiacal AC/DC conjunction and MarsAP/MoonSA from MC/IC conjunction. Prose says south-to-north rising and north-to-south setting; preserve as source wording, not universally verified horizon trajectories.",
+      "pdf_pages": [
+        636
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 636,
+          "overlap": 0.8585,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "19f2Icm-vLrEL9kqo2ZSeg29JbUObJHdr",
+      "name": "IMG_5479.jpg",
+      "content_sha256": "7c50af7231c3b353b4e223a33b5a5d0d7f65871a10fc1116485b6cea64e9f1b3",
+      "printed_page_ids": [
+        "797"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "anchors"
+      ],
+      "summary": "Terminology HR eastern rising,HS western setting,AP upper meridian,SA lower meridian replaces AC/DC/MC/IC for Sky Points. Prose's full solar exposure and beneath feet descriptions require geometric qualification; culminations are not automatically zenith/nadir or daylight.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1FpK9VvRT41QSFfYbrA-EFs4qUG8cNsMZ",
+      "name": "IMG_5480.JPG",
+      "content_sha256": "344bf2e00ffbfe96fe006f09510c84fb3e709a11f8594952db08a5e66dc69c9c",
+      "printed_page_ids": [
+        "798"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "quadrants"
+      ],
+      "summary": "Four Sky Quadrants HR-AP,AP-HS,HS-SA,SA-HR and45degree parallel/contra-parallel examples introduced but explicitly not developed in this book. Preserve deferred specification; no invented equal-arc spatial solver or complete timing algorithm.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1zZCGqhyO2Df9H95iIbEjbJANvHX0sSoR",
+      "name": "IMG_5481.JPG",
+      "content_sha256": "126f56baeba78e146b7c2a201bb87d0f27800758b8d4021b0063d5e80aa36053",
+      "printed_page_ids": [
+        "799"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation"
+      ],
+      "summary": "Author adds longitude/altitude/distance and about15degreesperhour to weaker/slower remote Paran claim. Screenshot describes Venus above east horizon and Pluto below west, not exact simultaneous zero-altitude fixture. Declared near-Hawaii point is approximate and no distance/time attenuation law supplied.",
+      "pdf_pages": [
+        636,
+        637
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 637,
+          "overlap": 0.4984,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 636,
+          "overlap": 0.2958,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1jG-P7DEmpyX8RZ_owN9sgr02e6Vg4_Tv",
+      "name": "IMG_5482.jpg",
+      "content_sha256": "6cfae8279bcf529faaa9629aff4f7a8441fb421c14be33344acb80a19982193b",
+      "printed_page_ids": [
+        "800"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "summary": "Azimuth/topocentric portrayal explicitly distinguished from ecliptic; non-ruling bodies/asteroids proposed for additional Parans. Venus meaning still requires relocated sign/house and Chiron ruler context. Future software promise is not an implemented catalog or validated solver.",
+      "pdf_pages": [
+        637,
+        638
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 637,
+          "overlap": 0.6221,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 638,
+          "overlap": 0.2481,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1XGWfA6ChFo1g-CwSEh24naDsPhIoS6Uy",
+      "name": "IMG_5483.JPG",
+      "content_sha256": "20840f1436c4205b54bef30062940ab003d169fa4ea009bb5d6ecb5e6849e0d1",
+      "printed_page_ids": [
+        "801"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "chiron"
+      ],
+      "summary": "Printed801 says MC square Sun and PlutoRxLibraHS is not Descendant. Author's intimate career narrative is example context only; duplicate printed801 also photographed in IMG5484 under a distinct file ID and hash, not a new printed page.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1pLvu9I1CINU4KcloPX9YAxtdGphiEk6m",
+      "name": "IMG_5484.JPG",
+      "content_sha256": "5e3d343fec3ebe7e23b602eb5dc3732213b1a968a3d89b5c822d94558c9a2f34",
+      "printed_page_ids": [
+        "801"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "chiron"
+      ],
+      "summary": "Second distinct photograph of printed801 confirms MC square Sun and PlutoRxLibraHS not Descendant wording. Preserve both file identities; same printed content does not create two distinct printed pages or independent outcome evidence.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1Y8NpdWNJeL76H41FWNXeMx2pRwA95A6z",
+      "name": "IMG_5485.JPG",
+      "content_sha256": "b24e4b75f236875e2aa198e9ee5e305425fc7dc985a0b22a5966a8622706ead2",
+      "printed_page_ids": [
+        "802"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "chiron",
+        "delegate-condition"
+      ],
+      "summary": "Venus as Chiron ruler is used to explain author's unconventional creative work after relocation. Occupational anecdotes remain source claims; do not infer intimate histories or guaranteed financial results for users.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1rXjgVCtcp0CC5F-ASNp1lvA1keYXs2ra",
+      "name": "IMG_5486.JPG",
+      "content_sha256": "e0d934b3dfa6ff0c22e268dcf5daf104cad7a5d329ff8d4fd6d84df568a21532",
+      "printed_page_ids": [
+        "803"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "retrograde-meaning"
+      ],
+      "summary": "Source expressly says different aspects,Venus withoutChiron or Pluto with different motion/sign would differ; PlutoRxH4Libra and SaturnRxH4 as H7ruler retain combined context. Anecdotes do not define an executable reading template.",
+      "pdf_pages": [
+        638
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 638,
+          "overlap": 0.7457,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1pTPld1BE37Gli1tQAZT07NyTId9FlFhm",
+      "name": "IMG_5487.JPG",
+      "content_sha256": "2f22b17e9927ed3d0921f9319fd3d5b3e94e3ba1c59952ad9bd80b6df059cf5c",
+      "printed_page_ids": [
+        "804"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "meaning-mars",
+        "meaning-moon"
+      ],
+      "summary": "Hypothetical MarsAP/MoonSA interpreted as simultaneous public/private processes, explicitly not sequential. Both planets and opposite sky roles matter; no assertion that natal longitudes oppose or either planet is zenith/nadir follows.",
+      "pdf_pages": [
+        638,
+        639
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 639,
+          "overlap": 0.352,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 638,
+          "overlap": 0.3147,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1NleAQYZxKuP7fRhkN0rzb_fana0mgIAQ",
+      "name": "IMG_5488.JPG",
+      "content_sha256": "1286ddf4754142705cce8c0a24b9246d25f1127cd0c4b6e1ad145d72b9207fe6",
+      "printed_page_ids": [
+        "805"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation"
+      ],
+      "summary": "Parans are read after chart assessment and are not calculated through zodiac degrees; sign/house still change expression. Author JupiterRxAP/NorthNodeHS example contrasts TampaLeoRising with AustinCancerRising. No full calculation conventions supplied.",
+      "pdf_pages": [
+        639,
+        640
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 639,
+          "overlap": 0.5312,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 640,
+          "overlap": 0.2404,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1IEyG-H4hocJM74V1Wat5MrO1Rwo-RrwT",
+      "name": "IMG_5489.JPG",
+      "content_sha256": "0a7db3fc50dbb251d6040c89b76961c61d50d55d170e18e1aaf8db465ad59ba8",
+      "printed_page_ids": [
+        "806"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "retrograde-meaning"
+      ],
+      "summary": "Tampa JupiterRxScorpio example makes private teaching visible and references1996Orlando competition as retrospective parallel. Date/event anecdote is not a reproducible Paran fixture or proof of recurrence.",
+      "pdf_pages": [
+        640
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 640,
+          "overlap": 0.7253,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1Gprr7TM0wEWHAVQIMMTQND7_PZYb_LEq",
+      "name": "IMG_5490.JPG",
+      "content_sha256": "3f7190b8b1503248f4d6263e12c5c32baa7bb02e6f8d9f16e284e834bb3c391f",
+      "printed_page_ids": [
+        "807"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation"
+      ],
+      "summary": "Austin example changes Jupiter toH5 and NodeH1 while described angular geometry persists; east/west movement changes relocated wheel expression. Declared latitude-based visibility and zodiacal positioning remain distinct, with no exact tolerance/model supplied.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1YJ0MU11vpGnAMBIYDog4YE9fteYTUj0J",
+      "name": "IMG_5491.JPG",
+      "content_sha256": "bbf0d2e0b11bd39cb90e255695f9e591fa62436e2c395992d93eb1f290ee4f0a",
+      "printed_page_ids": [
+        "808"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "epoch-imprint"
+      ],
+      "summary": "Paran Imprint Theory explicitly layers new parans over natal imprint rather than replacing it. Prose calls first-breath/birth moment and lists SunHR/MoonAP plus NeptuneHR/SaturnAP while Sun and Neptune natal opposition is acknowledged. Exact-epoch versus diurnal-window selection remains unspecified; preserve all wording without forcing simultaneous natal contacts.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1XJIqmtc5JKiEoE7832ntyeczlC-LIoog",
+      "name": "IMG_5492.JPG",
+      "content_sha256": "638772cb5ce571f73f1f9f34502f274b0539334b37990be58f1a713f9c9d25a8",
+      "printed_page_ids": [
+        "809"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "retrograde-meaning",
+        "delegate-condition"
+      ],
+      "summary": "Author SaturnRxAP example H3Libra rulingH6 explains public visibility of internally processed structure; autobiographical school/identity narrative remains attributed source context, not evidence about any report subject's childhood or mental state.",
+      "pdf_pages": [
+        641
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 641,
+          "overlap": 0.6271,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1erkaa8rghwZEM1LmjJBMf3vL1TfjamSi",
+      "name": "IMG_5493.JPG",
+      "content_sha256": "fef051c90df333b6c9c2612fb0e955b60861fad4a6168e79008140ae90dc0bbc",
+      "printed_page_ids": [
+        "810"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "summary": "Tampa familiarH5Neptune/H3Saturn context contrasts new relocatedNeptuneRxH6 rulingH9; HR role is combined with work/routine/creative story. Birth imprint, relocation and narrator experience must retain separate scope; no universal productivity or diagnosis rule.",
+      "pdf_pages": [
+        641
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 641,
+          "overlap": 0.6523,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1qkdGxN7oewAUUpxKMsub7ChN3ZuWy-lT",
+      "name": "IMG_5494.JPG",
+      "content_sha256": "c37dbd69b5a6b72943433f0b616441b00334ccb21c4a724e11d405c0a12225dd",
+      "printed_page_ids": [
+        "811"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "summary": "Header811 inspected despite OCR from facing-page sliver. SaturnRxAP nowH4/rulerH7 exemplifies private chart themes visible through Parans. Same page illustrates differing partner outcomes; no automatic accusation,relationship forecast or generic adverse claim follows.",
+      "pdf_pages": [
+        642
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 642,
+          "overlap": 0.5238,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1cIJuww6Ek577QLNm5yrYUo5NjqDQ9ulX",
+      "name": "IMG_5495.JPG",
+      "content_sha256": "ae2ffe5d9edee789473400c4f127ab1441bd1bafed6b44751967fe25e1cc9a91",
+      "printed_page_ids": [
+        "812"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "epoch-imprint",
+        "relocation"
+      ],
+      "summary": "Natal Parans remain echoes after move; new location adds SunHS/MarsAP rather than replacing natal imprint. Author adds latitude difference and GeminiH12Sun rulingH2 context; no quantitative imprint attenuation or city activation boundary is supplied.",
+      "pdf_pages": [
+        642,
+        643
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 643,
+          "overlap": 0.4818,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 642,
+          "overlap": 0.3061,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1zqT3Ah1CHWdVT6EWElsItXHuiJ5gZLRA",
+      "name": "IMG_5496.JPG",
+      "content_sha256": "f547a3adf58e5597bb75c36a10cd3da0f8b5b2c3254f856c52070ffa55cc29bc",
+      "printed_page_ids": [
+        "813"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "phsr",
+        "relocation"
+      ],
+      "summary": "MarsAP example explicitly chains CapricornField to AriesTone, rulerMars to CancerField/LibraTone,then ApexPublicView. This is a worked report-context path, not standalone Mars keyword text; no complete general weighting algorithm follows.",
+      "pdf_pages": [
+        643
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 643,
+          "overlap": 0.6997,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1da2Wm8yTSvghjil_Tad0lRjUKq3RYhhT",
+      "name": "IMG_5497.JPG",
+      "content_sha256": "8dbb7ef0061cdf97fbcc5ce61bf538610247c084edb3a8b65591cc0ede3ddf84",
+      "printed_page_ids": [
+        "814"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "agency"
+      ],
+      "summary": "Empty Parans section calls HR/HS/AP/SA functional sky positions and says planet occupancy enters visible activation. Read with815-816 opposite-function context; occupancy does not prove all four points physically visible or zenith/nadir aligned.",
+      "pdf_pages": [
+        644
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 644,
+          "overlap": 0.7838,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "135RO8fqHXBTl5yFO9SWks4wnQ28TAHmU",
+      "name": "IMG_5498.JPG",
+      "content_sha256": "6423e7684b8181e3a03b31b8c333b1b5cf427bf6e9848633225e0ce3caae3a46",
+      "printed_page_ids": [
+        "815"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "anchors"
+      ],
+      "summary": "Opposite Sky Point functions persist even when unoccupied; HR/HS expression is a self/other and outward/inward loop. Source compares anchors but earlier796 distinguishes geometric systems. No invented body or outgoing empty-point orb is warranted.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1kuWq7xAjkhmwrQQ_VjmGVAbsQPmzkJJr",
+      "name": "IMG_5499.JPG",
+      "content_sha256": "6d72ea8779ac8dfc459f6a738a80e6294023e9374ff33019b83c303a1b7ca44e",
+      "printed_page_ids": [
+        "816"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "anchors"
+      ],
+      "summary": "AP/SA model makes upper visibility and lower anchoring complementary even with emptyAP; source explicitly says SA is not IC. Retain contextual metaphor separately from physical altitude,zenith/nadir or actual lunar/solar visibility claims.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "18eBezoHzVReZvYFyH4qbr6KS2_VhQZ9L",
+      "name": "IMG_5500.JPG",
+      "content_sha256": "fdc4228fdfb742a89ab5c45e9afb374a830a4818bb9b29c1d3fca4a0ee764615",
+      "printed_page_ids": [
+        "817"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "spectrum-meanings"
+      ],
+      "summary": "Visibility Spectrum0HR,90AP,180HS,270SA and45/135midway proposals explicitly unproven theories/future research. Paran window and inclination are questions, not supplied numerical tolerances or operational report rules.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
+      "name": "IMG_5501.JPG",
+      "content_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
+      "printed_page_ids": [
+        "818"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "remote-activation",
+        "relocation",
+        "parans"
+      ],
+      "summary": "RemoteActivation claim uses picture/object/person without travel. Paris example calls VenusHS andSA at same time nearParis; preserve ambiguous event/location window rather than assume identical instant. Nationality preferences are author's anecdotes, not facts about groups or report-subject traits.",
+      "pdf_pages": [
+        644,
+        645
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 645,
+          "overlap": 0.6029,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 644,
+          "overlap": 0.2441,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1x6lAwP9gtG4RQSYgxg4zGWYVlhlLCLqe",
+      "name": "IMG_5502.jpg",
+      "content_sha256": "09553a614161d41c3e83d4c959249415d883c000726a869c6727324c48c91603",
+      "printed_page_ids": [
+        "819"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "remote-activation",
+        "relocation",
+        "parans"
+      ],
+      "summary": "India collaboration example combines relocatedSagittariusRising,ruler chains and PlutoAP/NodeHS plus JupiterAP/NodeHS. Country-sized location and missing timestamps are not numerical fixture; no nationality-based character inference or guaranteed project outcome.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1vdtOBvVjlEa5p25E6Apnj1udbVezrOFJ",
+      "name": "IMG_5503.jpg",
+      "content_sha256": "a6f7006f1aa13e9559fe082734319e15180c684bbcbb24b7d0ea34c78f8c0987",
+      "printed_page_ids": [
+        "820"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "remote-activation",
+        "relocation"
+      ],
+      "summary": "Author says remote activation can be unintentional; Distance of Effect rejects fixed400-700mile reach and describes longitude-degree shrinkage away from equator. Source interpretation is not measured remote efficacy or a complete geodetic/OOI projection formula.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1y_RIIHNnewzs-3FVUGkhsMfF7sB4Q__K",
+      "name": "IMG_5504.jpg",
+      "content_sha256": "9228522526399fa804ae0153dcb2721895423e1de3b821865990c29b1f495b66",
+      "printed_page_ids": [
+        "821"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "relocation"
+      ],
+      "summary": "Image prints C(phi)=2piRcos(phi), lost in OCR line6-7; discusses latitude-dependent longitude distance and prefers relocated angular checks over fixed miles. Spherical parallel approximation is not a complete ellipsoidal geodesic or universal angular-orb distance conversion; map is illustrative.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
+      "name": "IMG_5506.JPG",
+      "content_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
+      "printed_page_ids": [
+        "823"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "parans",
+        "forced-contact"
+      ],
+      "summary": "Jupiter8degreeOOI,0:47Scorpio example prints427.22miles each side,140mileoffset32.77percent versus2.63degrees32.875percent. Ratios are approximate not equal; source reserves Mundo for Parans/LocalSpace and Zodio for ecliptic. SaturnIC forced-order context continues824.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1eklX5lg_SDqnIEDp4xkZLHnoJ7qVFp7q",
+      "name": "IMG_5507.JPG",
+      "content_sha256": "627dce41187d1c5c49522198ccbfd5079127787ebdb4c271d3a7ed6f6cca5a74",
+      "printed_page_ids": [
+        "824"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "directional-context",
+        "forced-contact"
+      ],
+      "summary": "Saturn/IC order changes described inner/outer response when moving west; source repeats no need to live on a line. Minor lines are non-conjunction exactitude markers; any aspect can qualify. No complete boundary or exact-equality order convention is supplied here.",
+      "pdf_pages": [
+        645
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 645,
+          "overlap": 0.6882,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
+      "name": "IMG_5508.jpg",
+      "content_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
+      "printed_page_ids": [
+        "825"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "directional-context",
+        "spectrum-meanings"
+      ],
+      "summary": "Author corrects displayed Mars-squareAC and Sun-squareMC to AC-squareMars and MC-squareSun for LA. Natal MC/Sun semi-square explicitly distinguished from relocated square; may explain earlier scope tension but no numeric chart fixture is verified.",
+      "pdf_pages": [
+        646
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 646,
+          "overlap": 0.9709,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1AjRF09sIW5dV8Gk0gslE2tOOy-CFFaLa",
+      "name": "IMG_5509.JPG",
+      "content_sha256": "51dbd442a17756c74fc1d46926793c566db5b80214eb0b454bd332bd67218d73",
+      "printed_page_ids": [
+        "826"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "directional-context"
+      ],
+      "summary": "Additional lines Mercury semi-sextileAC andDC quincunxMercury with30/150degree glyphs and relocatedMercuryH12Gemini rulingH3. Complete aspect set/context required; narrator's injury/financial anecdotes are not causal medical or money promises.",
+      "pdf_pages": [
+        646,
+        647
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 646,
+          "overlap": 0.3944,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 647,
+          "overlap": 0.3167,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1py9V1PE3J-OjcWN0oyfbxAZg6SLKoDGk",
+      "name": "IMG_5510.JPG",
+      "content_sha256": "c84c7ed239412b3c9992fb4136a1054e30f0d477ef0665dc3fe4efa731b72599",
+      "printed_page_ids": [
+        "827"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "directional-context",
+        "agency"
+      ],
+      "summary": "DC-quincunxMercury context involves others' contributions alongside personal motivations; source says fullchart needed beyond map minor lines. Retrospective business/social anecdotes are not universal relationship forecasts.",
+      "pdf_pages": [
+        647
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 647,
+          "overlap": 0.8297,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+      "name": "IMG_5511.JPG",
+      "content_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
+      "printed_page_ids": [
+        "828"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation",
+        "remote-activation"
+      ],
+      "summary": "LocalSpace uses azimuth vectors rather than zodiac/house system; house meaning enters through relocated chart. Author qualifies that physical travel is needed and remote activation does not apply as with global lines. Anchor vectors retained separately; no solver implemented.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1LPPrPecdhP7qGUnZsSzabyD5WtXqi3ev",
+      "name": "IMG_5512.JPG",
+      "content_sha256": "342280dd06ea9d7aa1ce91962cda09580b47128b96c0e19bad3d9295778e466a",
+      "printed_page_ids": [
+        "829"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation"
+      ],
+      "summary": "Azimuth defined clockwise from trueNorth0,east90,south180. Venus natalH3/H10 versus TexasH4/H11 ruler roles illustrate layering; source says directional overlay not predictive influence. Mathematical points' altitude/azimuth conventions need explicit independent treatment.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1r4b7PprjsFl-5EdpbKIYt4MYqq3LSA33",
+      "name": "IMG_5513.jpg",
+      "content_sha256": "b075b89cce7a6640fafe31b85f961ef8cbc3432e5aff20e397f62819aa919ef8",
+      "printed_page_ids": [
+        "830"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "epoch-imprint",
+        "relocation"
+      ],
+      "summary": "Explicit recalculation required when location changes; do not merely drag natalpin. Exact birthplace matters; natal LocalSpaceImprint directions remain marked but no longer local directions from new origin. Time/epoch choice for recalculation still not explicit.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1p6HnRMIc_onDrpOE-ZxdYlnhGtXXSmoe",
+      "name": "IMG_5514.JPG",
+      "content_sha256": "c4b7504176c451400eb5bcd093f62388851fc12eff4eddee757b1cd01a026c2e",
+      "printed_page_ids": [
+        "831"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "epoch-imprint"
+      ],
+      "summary": "Author lists HarlingenMoon,TampaSaturnOpposition,LasVegasSunOpposition,LANeptune and gives MoonH7Aquarius/ruler chain context. Travel anecdotes do not establish measured line distances or an out-of-sample predictive relationship.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1MPKckJOOPRyZDwNR05vskrsWcxr71yu5",
+      "name": "IMG_5515.JPG",
+      "content_sha256": "8ba97a290cc754df1e542fadfa52e12d0c6135f6d754cc7c00ae30dbb5c6ff98",
+      "printed_page_ids": [
+        "832"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation",
+        "natal-transit-order"
+      ],
+      "summary": "Moon line example explicitly retains UranusRx with but not conjunct NeptuneRx/MeanBML,Chiron square and transits for why that moment. Interpretive line context cannot replace transit timing or establish illness/injury causation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
+      "name": "IMG_5516.JPG",
+      "content_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
+      "printed_page_ids": [
+        "833"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "directional-context"
+      ],
+      "summary": "LocalSpace distinguished as projected outward energy; Oppositional direction introduced as mirrored circuit. Online first contact anecdote must remain alongside828 physical-travel-only qualification rather than silently establishing remote-vector efficacy.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1SEpneMQGa9HM85zCA38w2ViJ3P-8mrlt",
+      "name": "IMG_5517.JPG",
+      "content_sha256": "f07d818c77f5bee445d5ea6fbb2b2ce908a9a7c58c81839dd2fdf4a8291d497f",
+      "printed_page_ids": [
+        "834"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "retrograde-meaning"
+      ],
+      "summary": "Oppositionals define output one direction and receipt from opposite, with SaturnRxH3Libra rulingH6 context and Jacksonville2006 example. Need geometric direction,origin,epoch and tolerance before execution; closed-loop metaphor is not measured influence.",
+      "pdf_pages": [
+        648
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 648,
+          "overlap": 0.7454,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1eL8lD3PFuBHi77_01-oVm95YX6HwZwPn",
+      "name": "IMG_5518.JPG",
+      "content_sha256": "7633c2b8a80e3de280c227fedbc6b339d4dc9657ca61675b725988f770704d1c",
+      "printed_page_ids": [
+        "835"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "directional-context"
+      ],
+      "summary": "Explicit standard vector sender versus oppositional vector receiver; Jacksonville training distinguished from WestPalmBeach move/BocaRaton work. Retain actual anecdote location distinctions and no auto travel/accident prediction.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1jOyhtoYTQWhXqXHYRL7r2NoKXQDMQbVb",
+      "name": "IMG_5519.JPG",
+      "content_sha256": "6c286425414efdc78170b1174a2b4ac830be7cada63b0a7a5042e35b108a7f69",
+      "printed_page_ids": [
+        "836"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "directional-context"
+      ],
+      "summary": "Author frames intimate anecdote as receiving an oppositional Moon encounter, with H7aesthetics,H5Leo/hair andScorpio symbolism. Save attribution and contextual limits; do not infer report subjects' intimate grooming,preferences or experiences from it.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
     }
   ],
   "assertions": [
@@ -18084,6 +19440,598 @@
           "content_sha256": "0faedd03c38a807bc3ca4f24c7520e41f9acea25660884024ea1aef4675bf5e6",
           "original_printed_pages": [
             "786"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation791-fullchart-purpose",
+      "concept_id": "relocation",
+      "kind": "explicit_report_context",
+      "proposition": "Originals790-791 require line planet Delegate condition,whole relocated chart,natal assessment within DCA and reason for moving; no universal best place or Jupiter/Venus guarantee.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "A report needs declared goals plus natal/relocated facts. Source fidelity does not validate personal effects."
+      ],
+      "requires_concepts": [
+        "delegate-condition",
+        "agency"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zwNr4u9w9LwXb8Q4a2A3fIthWcOKO9O6",
+          "name": "IMG_5472.JPG",
+          "content_sha256": "487c57f6fcd5459e95fe1937bf580444fa9b110d0ef07699234005211068a76f",
+          "original_printed_pages": [
+            "790"
+          ]
+        },
+        {
+          "file_id": "14rwjb8mnDRFw40P3LzdsmW8fEI9MvQ3x",
+          "name": "IMG_5473.JPG",
+          "content_sha256": "05bf59b30cd4861c0e0a2f595e0779adfd84fc4cfddadd87d16fc6294934eeea",
+          "original_printed_pages": [
+            "791"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation788-zodio-mundo",
+      "concept_id": "relocation",
+      "kind": "coordinate_frame_scope",
+      "proposition": "Originals788-789 and823 distinguish Zodio ecliptic projections for relocated-chart lines from Mundo sky angularity for Parans/LocalSpace; Pluto/Jupiter map contrast is used as example.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not silently substitute projected longitude for spatial angularity; numerical frame fixtures and exact comparison inputs remain required."
+      ],
+      "requires_concepts": [
+        "parans"
+      ],
+      "witnesses": [
+        {
+          "file_id": "14c7YI-bxy9Ume4XBE1zuheidQrdjSP-i",
+          "name": "IMG_5470.jpg",
+          "content_sha256": "45ccd7314756cf0aad739ac3240f35ed2f5dd8c081e088e2ca8129d73b01cb48",
+          "original_printed_pages": [
+            "788"
+          ]
+        },
+        {
+          "file_id": "1I5SAw0yd29E3QTCHTP6JNvX-ej1mbMzZ",
+          "name": "IMG_5471.JPG",
+          "content_sha256": "caafd469b0c6a5fb98a5072dc4443a8949a73055550943452d982c2c26230b5c",
+          "original_printed_pages": [
+            "789"
+          ]
+        },
+        {
+          "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
+          "name": "IMG_5506.JPG",
+          "content_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
+          "original_printed_pages": [
+            "823"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans796-sky-versus-zodiac",
+      "concept_id": "parans",
+      "kind": "explicit_geometric_exclusion",
+      "proposition": "Originals796-797 separate sky HorizonRising,Setting,Apex,Subapex from zodiacAC/DC/MC/IC conjunctions and supply HR/HS/AP/SA notation.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Not all culmination points are zenith/nadir or visible; source directional/solar-exposure prose is not an independently verified horizon model."
+      ],
+      "requires_concepts": [
+        "anchors",
+        "declination"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1VSrOMlw-es61Cvrrqv11rw2weFFex_nk",
+          "name": "IMG_5478.JPG",
+          "content_sha256": "e55cc54bc9c3d8411c08611efc882f03f171a210a260fe75ca1646e2f0979f86",
+          "original_printed_pages": [
+            "796"
+          ]
+        },
+        {
+          "file_id": "19f2Icm-vLrEL9kqo2ZSeg29JbUObJHdr",
+          "name": "IMG_5479.jpg",
+          "content_sha256": "7c50af7231c3b353b4e223a33b5a5d0d7f65871a10fc1116485b6cea64e9f1b3",
+          "original_printed_pages": [
+            "797"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans799-offset-screenshot",
+      "concept_id": "parans",
+      "kind": "worked_alignment_limit",
+      "proposition": "Original799 calls screenshot approximate nearHawaii:Venus above eastern horizon,Pluto below western horizon;800 calls portrayal topocentric rather than ecliptic.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No exact timestamp/location/zero-altitude simultaneity fixture or distance/time attenuation law follows from the screenshot."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zZCGqhyO2Df9H95iIbEjbJANvHX0sSoR",
+          "name": "IMG_5481.JPG",
+          "content_sha256": "126f56baeba78e146b7c2a201bb87d0f27800758b8d4021b0063d5e80aa36053",
+          "original_printed_pages": [
+            "799"
+          ]
+        },
+        {
+          "file_id": "1jG-P7DEmpyX8RZ_owN9sgr02e6Vg4_Tv",
+          "name": "IMG_5482.jpg",
+          "content_sha256": "6cfae8279bcf529faaa9629aff4f7a8441fb421c14be33344acb80a19982193b",
+          "original_printed_pages": [
+            "800"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans805-chart-before-sky",
+      "concept_id": "parans",
+      "kind": "explicit_context_order",
+      "proposition": "Originals805/807 require chart assessment before Parans and retain relocated signs/houses while distinguishing sky crossing calculation from zodiacal degrees.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Same described sky pairing can have different house context; do not use point role alone as complete personal meaning."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NleAQYZxKuP7fRhkN0rzb_fana0mgIAQ",
+          "name": "IMG_5488.JPG",
+          "content_sha256": "1286ddf4754142705cce8c0a24b9246d25f1127cd0c4b6e1ad145d72b9207fe6",
+          "original_printed_pages": [
+            "805"
+          ]
+        },
+        {
+          "file_id": "1Gprr7TM0wEWHAVQIMMTQND7_PZYb_LEq",
+          "name": "IMG_5490.JPG",
+          "content_sha256": "3f7190b8b1503248f4d6263e12c5c32baa7bb02e6f8d9f16e284e834bb3c391f",
+          "original_printed_pages": [
+            "807"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans808-imprint-time-scope",
+      "concept_id": "parans",
+      "kind": "unresolved_epoch_window",
+      "proposition": "Original808 says natal Paran imprint persists with relocated Parans layered over it,then describes first breath and angular moment at birth; lists SunHR/MoonAP and NeptuneHR/SaturnAP while acknowledging Sun/Neptune natal opposition.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Instantaneous birth-sky versus diurnal angular-event window is not explicitly specified. Do not force all listed pairs into simultaneous natal zero-altitude contacts."
+      ],
+      "requires_concepts": [
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1YJ0MU11vpGnAMBIYDog4YE9fteYTUj0J",
+          "name": "IMG_5491.JPG",
+          "content_sha256": "bbf0d2e0b11bd39cb90e255695f9e591fa62436e2c395992d93eb1f290ee4f0a",
+          "original_printed_pages": [
+            "808"
+          ]
+        },
+        {
+          "file_id": "1cIJuww6Ek577QLNm5yrYUo5NjqDQ9ulX",
+          "name": "IMG_5495.JPG",
+          "content_sha256": "ae2ffe5d9edee789473400c4f127ab1441bd1bafed6b44751967fe25e1cc9a91",
+          "original_printed_pages": [
+            "812"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans813-field-tone-path",
+      "concept_id": "parans",
+      "kind": "worked_context_chain",
+      "proposition": "Original813 chains CapricornField to AriesTone,rulerMars to CancerField/LibraTone,then MarsParan ApexZonePublicView.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Worked author example supports retaining operand/ruler/house context,not a complete weighting algorithm or an empirically validated personal claim."
+      ],
+      "requires_concepts": [
+        "phsr",
+        "delegate-condition"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1zqT3Ah1CHWdVT6EWElsItXHuiJ5gZLRA",
+          "name": "IMG_5496.JPG",
+          "content_sha256": "f547a3adf58e5597bb75c36a10cd3da0f8b5b2c3254f856c52070ffa55cc29bc",
+          "original_printed_pages": [
+            "813"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "parans817-unproven-spectrum",
+      "concept_id": "parans",
+      "kind": "explicit_research_limit",
+      "proposition": "Originals798/817 defer SkyQuadrants,Parallels and VisibilitySpectrum;817 explicitly calls its0/90/180/270 and45/135proposals unproven theories and leaves Paran-window/inclination questions open.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Save as proposed research only. No implemented threshold,continuous arc mapping or operational interpretation is approved."
+      ],
+      "requires_concepts": [
+        "spectrum-meanings"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FpK9VvRT41QSFfYbrA-EFs4qUG8cNsMZ",
+          "name": "IMG_5480.JPG",
+          "content_sha256": "344bf2e00ffbfe96fe006f09510c84fb3e709a11f8594952db08a5e66dc69c9c",
+          "original_printed_pages": [
+            "798"
+          ]
+        },
+        {
+          "file_id": "18eBezoHzVReZvYFyH4qbr6KS2_VhQZ9L",
+          "name": "IMG_5500.JPG",
+          "content_sha256": "fdc4228fdfb742a89ab5c45e9afb374a830a4818bb9b29c1d3fca4a0ee764615",
+          "original_printed_pages": [
+            "817"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "remote818-paris-two-roles",
+      "concept_id": "parans",
+      "kind": "ambiguous_same_time_sky_roles",
+      "proposition": "Original818 says Venus is at HorizonSetting andSubapex at the same time nearParis within remote activation anecdote.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Exact event/location window and meaning of same time are unspecified; do not invent a simultaneous event fixture or silently choose one role."
+      ],
+      "requires_concepts": [
+        "remote-activation",
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
+          "name": "IMG_5501.JPG",
+          "content_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
+          "original_printed_pages": [
+            "818"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "remote818-method-scope",
+      "concept_id": "remote-activation",
+      "kind": "authored_scope_not_efficacy",
+      "proposition": "Originals818-820 claim remote activation using picture,object,person or thought and include country-based anecdotes and possible unintentional exposure.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is author belief,not empirical remote efficacy. Do not generalize character,compatibility or experience from nationality or infer personal histories."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
+          "name": "IMG_5501.JPG",
+          "content_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
+          "original_printed_pages": [
+            "818"
+          ]
+        },
+        {
+          "file_id": "1x6lAwP9gtG4RQSYgxg4zGWYVlhlLCLqe",
+          "name": "IMG_5502.jpg",
+          "content_sha256": "09553a614161d41c3e83d4c959249415d883c000726a869c6727324c48c91603",
+          "original_printed_pages": [
+            "819"
+          ]
+        },
+        {
+          "file_id": "1vdtOBvVjlEa5p25E6Apnj1udbVezrOFJ",
+          "name": "IMG_5503.jpg",
+          "content_sha256": "a6f7006f1aa13e9559fe082734319e15180c684bbcbb24b7d0ea34c78f8c0987",
+          "original_printed_pages": [
+            "820"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation823-ratio-approximation",
+      "concept_id": "relocation",
+      "kind": "worked_distance_arithmetic",
+      "proposition": "Original821 prints C(phi)=2piRcos(phi);823 gives Jupiter8degreeOOI427.22mile reach,140mile offset32.77percent and2.63degree offset32.875percent.824 keeps order-dependent SaturnIC context.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "140/427.22 is approximately32.770percent;2.63/8=32.875percent. Approximate agreement is not exact equality or proof of a universal ecliptic-to-ground mapping."
+      ],
+      "requires_concepts": [
+        "parans",
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1y_RIIHNnewzs-3FVUGkhsMfF7sB4Q__K",
+          "name": "IMG_5504.jpg",
+          "content_sha256": "9228522526399fa804ae0153dcb2721895423e1de3b821865990c29b1f495b66",
+          "original_printed_pages": [
+            "821"
+          ]
+        },
+        {
+          "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
+          "name": "IMG_5506.JPG",
+          "content_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
+          "original_printed_pages": [
+            "823"
+          ]
+        },
+        {
+          "file_id": "1eklX5lg_SDqnIEDp4xkZLHnoJ7qVFp7q",
+          "name": "IMG_5507.JPG",
+          "content_sha256": "627dce41187d1c5c49522198ccbfd5079127787ebdb4c271d3a7ed6f6cca5a74",
+          "original_printed_pages": [
+            "824"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation825-natal-relocated-aspects",
+      "concept_id": "spectrum-meanings",
+      "kind": "explicit_chart_scope_qualification",
+      "proposition": "Original825 distinguishes natalMC/Sunsemi-square from LA relocatedMCsquareSun and corrects displayedSun-squareMC to MC-squareSun.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain389square and390semi-square wording;825 adds scope context but is not an erratum or independently verified longitude fixture."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "anchors"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
+          "name": "IMG_5508.jpg",
+          "content_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
+          "original_printed_pages": [
+            "825"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "relocation826-nonconjunction-lines",
+      "concept_id": "directional-context",
+      "kind": "explicit_ordered_aspect_set",
+      "proposition": "Originals825-827 distinguish ACsquareMars from MarssquareAC and include Mercurysemi-sextileAC plusDCquincunxMercury as additional lines.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No personal injury,income or relationship outcome follows automatically; keep full relocated context and one-way order."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
+          "name": "IMG_5508.jpg",
+          "content_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
+          "original_printed_pages": [
+            "825"
+          ]
+        },
+        {
+          "file_id": "1AjRF09sIW5dV8Gk0gslE2tOOy-CFFaLa",
+          "name": "IMG_5509.JPG",
+          "content_sha256": "51dbd442a17756c74fc1d46926793c566db5b80214eb0b454bd332bd67218d73",
+          "original_printed_pages": [
+            "826"
+          ]
+        },
+        {
+          "file_id": "1py9V1PE3J-OjcWN0oyfbxAZg6SLKoDGk",
+          "name": "IMG_5510.JPG",
+          "content_sha256": "c84c7ed239412b3c9992fb4136a1054e30f0d477ef0665dc3fe4efa731b72599",
+          "original_printed_pages": [
+            "827"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local828-physical-versus-online",
+      "concept_id": "local-space",
+      "kind": "scope_counterexample_retained",
+      "proposition": "Original828 qualifies physical travel as necessary and says LocalSpace cannot be remotely activated;833 describes finding a partner online along the Moon line before meeting.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Physical travel exclusion and online anecdote must coexist; author did not supply a reconciled activation rule or date/location evidence."
+      ],
+      "requires_concepts": [
+        "remote-activation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+          "name": "IMG_5511.JPG",
+          "content_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
+          "original_printed_pages": [
+            "828"
+          ]
+        },
+        {
+          "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
+          "name": "IMG_5516.JPG",
+          "content_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
+          "original_printed_pages": [
+            "833"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local829-azimuth-reorigin",
+      "concept_id": "local-space",
+      "kind": "explicit_origin_and_frame",
+      "proposition": "Originals828-830 define physical directional azimuth vectors,trueNorth0clockwise,east90,south180;require recalculation from new location and preserve natal imprint separately.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "New-origin epoch/time,point altitude,route geometry and circumpolar handling need specification; do not just translate natal map or replace natal imprint."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
+          "name": "IMG_5511.JPG",
+          "content_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
+          "original_printed_pages": [
+            "828"
+          ]
+        },
+        {
+          "file_id": "1LPPrPecdhP7qGUnZsSzabyD5WtXqi3ev",
+          "name": "IMG_5512.JPG",
+          "content_sha256": "342280dd06ea9d7aa1ce91962cda09580b47128b96c0e19bad3d9295778e466a",
+          "original_printed_pages": [
+            "829"
+          ]
+        },
+        {
+          "file_id": "1r4b7PprjsFl-5EdpbKIYt4MYqq3LSA33",
+          "name": "IMG_5513.jpg",
+          "content_sha256": "b075b89cce7a6640fafe31b85f961ef8cbc3432e5aff20e397f62819aa919ef8",
+          "original_printed_pages": [
+            "830"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local835-output-receipt",
+      "concept_id": "local-space",
+      "kind": "explicit_directional_roles",
+      "proposition": "Originals833-835 describe standardLocalSpace vector as projected output and opposite direction as received context;SaturnRx example combines house/ruler condition and distinguishes Jacksonville from WestPalmBeach/BocaRaton.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Closed-loop is an authored interpretation,not measured physical influence or validated accident forecast. Exact vector origin,epoch and tolerance remain unresolved."
+      ],
+      "requires_concepts": [
+        "directional-context",
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
+          "name": "IMG_5516.JPG",
+          "content_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
+          "original_printed_pages": [
+            "833"
+          ]
+        },
+        {
+          "file_id": "1SEpneMQGa9HM85zCA38w2ViJ3P-8mrlt",
+          "name": "IMG_5517.JPG",
+          "content_sha256": "f07d818c77f5bee445d5ea6fbb2b2ce908a9a7c58c81839dd2fdf4a8291d497f",
+          "original_printed_pages": [
+            "834"
+          ]
+        },
+        {
+          "file_id": "1eL8lD3PFuBHi77_01-oVm95YX6HwZwPn",
+          "name": "IMG_5518.JPG",
+          "content_sha256": "7633c2b8a80e3de280c227fedbc6b339d4dc9657ca61675b725988f770704d1c",
+          "original_printed_pages": [
+            "835"
           ]
         }
       ],

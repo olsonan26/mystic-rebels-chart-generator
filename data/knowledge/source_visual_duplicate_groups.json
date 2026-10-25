@@ -17,6 +17,23 @@
           "image_sha256": "104b6499e8bfaba60c152f276e81c52bb63e2080a0f0a8cc74e4ededeb790063"
         }
       ]
+    },
+    {
+      "id": "printed801-two-photographs",
+      "printed_header": "801",
+      "basis": "VISUALLY_SAME_LAYOUT_AND_WORDING_DISTINCT_EXACT_BYTES",
+      "files": [
+        {
+          "file_id": "1XGWfA6ChFo1g-CwSEh24naDsPhIoS6Uy",
+          "name": "IMG_5483.JPG",
+          "image_sha256": "20840f1436c4205b54bef30062940ab003d169fa4ea009bb5d6ecb5e6849e0d1"
+        },
+        {
+          "file_id": "1pLvu9I1CINU4KcloPX9YAxtdGphiEk6m",
+          "name": "IMG_5484.JPG",
+          "image_sha256": "5e3d343fec3ebe7e23b602eb5dc3732213b1a968a3d89b5c822d94558c9a2f34"
+        }
+      ]
     }
   ]
 }

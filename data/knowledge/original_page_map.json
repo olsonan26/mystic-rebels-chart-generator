@@ -14693,433 +14693,774 @@
       "file_id": "1BjRDtWspXE4ZO54Dy9ED4ZTQw9iX2hrb",
       "name": "IMG_5469.JPG",
       "image_sha256": "244b1cd8adb0f4bdd0e9ee3e4d05a15642dff02a0c3c3485f94518373fce3f2a",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "787"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "14c7YI-bxy9Ume4XBE1zuheidQrdjSP-i",
       "name": "IMG_5470.jpg",
       "image_sha256": "45ccd7314756cf0aad739ac3240f35ed2f5dd8c081e088e2ca8129d73b01cb48",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "788"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1I5SAw0yd29E3QTCHTP6JNvX-ej1mbMzZ",
       "name": "IMG_5471.JPG",
       "image_sha256": "caafd469b0c6a5fb98a5072dc4443a8949a73055550943452d982c2c26230b5c",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "789"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "parans"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1zwNr4u9w9LwXb8Q4a2A3fIthWcOKO9O6",
       "name": "IMG_5472.JPG",
       "image_sha256": "487c57f6fcd5459e95fe1937bf580444fa9b110d0ef07699234005211068a76f",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "790"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "delegate-condition",
+        "retrograde-meaning"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 633,
+          "reflow_footer": 637,
+          "page_text_sha256": "505c0ac682269b299c048371213357c78dfb8aecced89dcbf7d9e9473a7cc3c0"
+        },
+        {
+          "pdf_page": 634,
+          "reflow_footer": 638,
+          "page_text_sha256": "3d41cf408515305b60f41a5e7bcc48bcf8072b875b23e87998d8f91257b3480d"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "14rwjb8mnDRFw40P3LzdsmW8fEI9MvQ3x",
       "name": "IMG_5473.JPG",
       "image_sha256": "05bf59b30cd4861c0e0a2f595e0779adfd84fc4cfddadd87d16fc6294934eeea",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "791"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1TKybWp0JGQOz4WBAywjRl8Ok5JL6VDeO",
       "name": "IMG_5474.JPG",
       "image_sha256": "aa344ca7492d4621e68bfcbe8bb4ec1e9eda9d012a10ace3c9955d1a1a208376",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "792"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "anchors"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 634,
+          "reflow_footer": 638,
+          "page_text_sha256": "3d41cf408515305b60f41a5e7bcc48bcf8072b875b23e87998d8f91257b3480d"
+        },
+        {
+          "pdf_page": 635,
+          "reflow_footer": 639,
+          "page_text_sha256": "38f555a75ae0f02341f8eebfab20217abed3dc2fc43f15e01b1483fd57a0c375"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1vi6JhvQGBZjVAuf19k_JBWk0mJs1pAWN",
       "name": "IMG_5475.jpg",
       "image_sha256": "d4ba706cca39956b9802cf3c6a4c97c2b7828026f3e91ba465b5c0be8468d009",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "793"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "synastry",
+        "composite",
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "11qoiZct0DoVCgQBU4FcFBSCMzOh0-xaM",
       "name": "IMG_5476.JPG",
       "image_sha256": "0b9b5c0aa40ea9a8fa1a7b3b6d47ddc3789753d6562a875b95028c3598deb693",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "794"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "declination",
+        "relocation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 635,
+          "reflow_footer": 639,
+          "page_text_sha256": "38f555a75ae0f02341f8eebfab20217abed3dc2fc43f15e01b1483fd57a0c375"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1ehXmaePZ6fZEUzFGWxe-mi7vrTPlu7Xj",
       "name": "IMG_5477.JPG",
       "image_sha256": "8747d8854f421ef9afe9febec494a57de76a6e980b7c044457d3d926486570d3",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "795"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "declination"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1VSrOMlw-es61Cvrrqv11rw2weFFex_nk",
       "name": "IMG_5478.JPG",
       "image_sha256": "e55cc54bc9c3d8411c08611efc882f03f171a210a260fe75ca1646e2f0979f86",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "796"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "anchors"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 636,
+          "reflow_footer": 640,
+          "page_text_sha256": "f3738adb9947f89d3c8cb91d07029a80e235fa476c2953c9b13341c93b6de6dd"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "19f2Icm-vLrEL9kqo2ZSeg29JbUObJHdr",
       "name": "IMG_5479.jpg",
       "image_sha256": "7c50af7231c3b353b4e223a33b5a5d0d7f65871a10fc1116485b6cea64e9f1b3",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "797"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "anchors"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1FpK9VvRT41QSFfYbrA-EFs4qUG8cNsMZ",
       "name": "IMG_5480.JPG",
       "image_sha256": "344bf2e00ffbfe96fe006f09510c84fb3e709a11f8594952db08a5e66dc69c9c",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "798"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "quadrants"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1zZCGqhyO2Df9H95iIbEjbJANvHX0sSoR",
       "name": "IMG_5481.JPG",
       "image_sha256": "126f56baeba78e146b7c2a201bb87d0f27800758b8d4021b0063d5e80aa36053",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "799"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 636,
+          "reflow_footer": 640,
+          "page_text_sha256": "f3738adb9947f89d3c8cb91d07029a80e235fa476c2953c9b13341c93b6de6dd"
+        },
+        {
+          "pdf_page": 637,
+          "reflow_footer": 641,
+          "page_text_sha256": "ad1cddd15be223692cda285f87f73358697dad619044ab5d262a9330ce9690eb"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1jG-P7DEmpyX8RZ_owN9sgr02e6Vg4_Tv",
       "name": "IMG_5482.jpg",
       "image_sha256": "6cfae8279bcf529faaa9629aff4f7a8441fb421c14be33344acb80a19982193b",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "800"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 637,
+          "reflow_footer": 641,
+          "page_text_sha256": "ad1cddd15be223692cda285f87f73358697dad619044ab5d262a9330ce9690eb"
+        },
+        {
+          "pdf_page": 638,
+          "reflow_footer": 642,
+          "page_text_sha256": "95c48938dd3a95df5bc8163ad0809ab4a274cd6eacfe1db79f3370b17ec1987b"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1XGWfA6ChFo1g-CwSEh24naDsPhIoS6Uy",
       "name": "IMG_5483.JPG",
       "image_sha256": "20840f1436c4205b54bef30062940ab003d169fa4ea009bb5d6ecb5e6849e0d1",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "801"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "chiron"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1pLvu9I1CINU4KcloPX9YAxtdGphiEk6m",
       "name": "IMG_5484.JPG",
       "image_sha256": "5e3d343fec3ebe7e23b602eb5dc3732213b1a968a3d89b5c822d94558c9a2f34",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "801"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "chiron"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1Y8NpdWNJeL76H41FWNXeMx2pRwA95A6z",
       "name": "IMG_5485.JPG",
       "image_sha256": "b24e4b75f236875e2aa198e9ee5e305425fc7dc985a0b22a5966a8622706ead2",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "802"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "chiron",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1rXjgVCtcp0CC5F-ASNp1lvA1keYXs2ra",
       "name": "IMG_5486.JPG",
       "image_sha256": "e0d934b3dfa6ff0c22e268dcf5daf104cad7a5d329ff8d4fd6d84df568a21532",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "803"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "retrograde-meaning"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 638,
+          "reflow_footer": 642,
+          "page_text_sha256": "95c48938dd3a95df5bc8163ad0809ab4a274cd6eacfe1db79f3370b17ec1987b"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1pTPld1BE37Gli1tQAZT07NyTId9FlFhm",
       "name": "IMG_5487.JPG",
       "image_sha256": "2f22b17e9927ed3d0921f9319fd3d5b3e94e3ba1c59952ad9bd80b6df059cf5c",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "804"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "meaning-mars",
+        "meaning-moon"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 638,
+          "reflow_footer": 642,
+          "page_text_sha256": "95c48938dd3a95df5bc8163ad0809ab4a274cd6eacfe1db79f3370b17ec1987b"
+        },
+        {
+          "pdf_page": 639,
+          "reflow_footer": 643,
+          "page_text_sha256": "e92b1387102e7b7ede95ee2054140c9ee4a138db0b339996fa58fffcc6c18367"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1NleAQYZxKuP7fRhkN0rzb_fana0mgIAQ",
       "name": "IMG_5488.JPG",
       "image_sha256": "1286ddf4754142705cce8c0a24b9246d25f1127cd0c4b6e1ad145d72b9207fe6",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "805"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 639,
+          "reflow_footer": 643,
+          "page_text_sha256": "e92b1387102e7b7ede95ee2054140c9ee4a138db0b339996fa58fffcc6c18367"
+        },
+        {
+          "pdf_page": 640,
+          "reflow_footer": 644,
+          "page_text_sha256": "f95ec92c1175e83d719c483c591646150f9ff9247ff4eeec131a018e35b85ec1"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1IEyG-H4hocJM74V1Wat5MrO1Rwo-RrwT",
       "name": "IMG_5489.JPG",
       "image_sha256": "0a7db3fc50dbb251d6040c89b76961c61d50d55d170e18e1aaf8db465ad59ba8",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "806"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "retrograde-meaning"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 640,
+          "reflow_footer": 644,
+          "page_text_sha256": "f95ec92c1175e83d719c483c591646150f9ff9247ff4eeec131a018e35b85ec1"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1Gprr7TM0wEWHAVQIMMTQND7_PZYb_LEq",
       "name": "IMG_5490.JPG",
       "image_sha256": "3f7190b8b1503248f4d6263e12c5c32baa7bb02e6f8d9f16e284e834bb3c391f",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "807"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1YJ0MU11vpGnAMBIYDog4YE9fteYTUj0J",
       "name": "IMG_5491.JPG",
       "image_sha256": "bbf0d2e0b11bd39cb90e255695f9e591fa62436e2c395992d93eb1f290ee4f0a",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "808"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "epoch-imprint"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1XJIqmtc5JKiEoE7832ntyeczlC-LIoog",
       "name": "IMG_5492.JPG",
       "image_sha256": "638772cb5ce571f73f1f9f34502f274b0539334b37990be58f1a713f9c9d25a8",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "809"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "retrograde-meaning",
+        "delegate-condition"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 641,
+          "reflow_footer": 645,
+          "page_text_sha256": "1ba6ca3bc4b6c71ebd246fb7b9e5b04ee8ff14c5b4775f4392ff4ffa6d4aa962"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1erkaa8rghwZEM1LmjJBMf3vL1TfjamSi",
       "name": "IMG_5493.JPG",
       "image_sha256": "fef051c90df333b6c9c2612fb0e955b60861fad4a6168e79008140ae90dc0bbc",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "810"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 641,
+          "reflow_footer": 645,
+          "page_text_sha256": "1ba6ca3bc4b6c71ebd246fb7b9e5b04ee8ff14c5b4775f4392ff4ffa6d4aa962"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1qkdGxN7oewAUUpxKMsub7ChN3ZuWy-lT",
       "name": "IMG_5494.JPG",
       "image_sha256": "c37dbd69b5a6b72943433f0b616441b00334ccb21c4a724e11d405c0a12225dd",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "811"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation",
+        "delegate-condition"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 642,
+          "reflow_footer": 646,
+          "page_text_sha256": "a9d8b98eab488bf09c5f327d20d2a803190ece7292b71236cf48cdb61fa89cc6"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1cIJuww6Ek577QLNm5yrYUo5NjqDQ9ulX",
       "name": "IMG_5495.JPG",
       "image_sha256": "ae2ffe5d9edee789473400c4f127ab1441bd1bafed6b44751967fe25e1cc9a91",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "812"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "epoch-imprint",
+        "relocation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 642,
+          "reflow_footer": 646,
+          "page_text_sha256": "a9d8b98eab488bf09c5f327d20d2a803190ece7292b71236cf48cdb61fa89cc6"
+        },
+        {
+          "pdf_page": 643,
+          "reflow_footer": 647,
+          "page_text_sha256": "07a385da98328716af262ebbf9a1d4b47a0c30125ed5fefa7da05a35cea24dd0"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1zqT3Ah1CHWdVT6EWElsItXHuiJ5gZLRA",
       "name": "IMG_5496.JPG",
       "image_sha256": "f547a3adf58e5597bb75c36a10cd3da0f8b5b2c3254f856c52070ffa55cc29bc",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "813"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "phsr",
+        "relocation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 643,
+          "reflow_footer": 647,
+          "page_text_sha256": "07a385da98328716af262ebbf9a1d4b47a0c30125ed5fefa7da05a35cea24dd0"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1da2Wm8yTSvghjil_Tad0lRjUKq3RYhhT",
       "name": "IMG_5497.JPG",
       "image_sha256": "8dbb7ef0061cdf97fbcc5ce61bf538610247c084edb3a8b65591cc0ede3ddf84",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "814"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 644,
+          "reflow_footer": 648,
+          "page_text_sha256": "7e19e0fcd7083bb4b6d9b38f132901d9e5345d93d090e486139e0caba54ad545"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "135RO8fqHXBTl5yFO9SWks4wnQ28TAHmU",
       "name": "IMG_5498.JPG",
       "image_sha256": "6423e7684b8181e3a03b31b8c333b1b5cf427bf6e9848633225e0ce3caae3a46",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "815"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "anchors"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1kuWq7xAjkhmwrQQ_VjmGVAbsQPmzkJJr",
       "name": "IMG_5499.JPG",
       "image_sha256": "6d72ea8779ac8dfc459f6a738a80e6294023e9374ff33019b83c303a1b7ca44e",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "816"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "anchors"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "18eBezoHzVReZvYFyH4qbr6KS2_VhQZ9L",
       "name": "IMG_5500.JPG",
       "image_sha256": "fdc4228fdfb742a89ab5c45e9afb374a830a4818bb9b29c1d3fca4a0ee764615",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "817"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "spectrum-meanings"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "12b6-VJ9i182kKZcPVyDub0D-sMektOni",
       "name": "IMG_5501.JPG",
       "image_sha256": "e19dfc075c0a79cab01d80d00d825dc314da52b3105f6d1b921efaef5c82f2ff",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "818"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "remote-activation",
+        "relocation",
+        "parans"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 644,
+          "reflow_footer": 648,
+          "page_text_sha256": "7e19e0fcd7083bb4b6d9b38f132901d9e5345d93d090e486139e0caba54ad545"
+        },
+        {
+          "pdf_page": 645,
+          "reflow_footer": 649,
+          "page_text_sha256": "c646f6ce1453c45cf881f1f1cfe8a707c17a8445e5ac03ca6e7b7231751e984b"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1x6lAwP9gtG4RQSYgxg4zGWYVlhlLCLqe",
       "name": "IMG_5502.jpg",
       "image_sha256": "09553a614161d41c3e83d4c959249415d883c000726a869c6727324c48c91603",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "819"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "remote-activation",
+        "relocation",
+        "parans"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1vdtOBvVjlEa5p25E6Apnj1udbVezrOFJ",
       "name": "IMG_5503.jpg",
       "image_sha256": "a6f7006f1aa13e9559fe082734319e15180c684bbcbb24b7d0ea34c78f8c0987",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "820"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "remote-activation",
+        "relocation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1y_RIIHNnewzs-3FVUGkhsMfF7sB4Q__K",
       "name": "IMG_5504.jpg",
       "image_sha256": "9228522526399fa804ae0153dcb2721895423e1de3b821865990c29b1f495b66",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "821"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "parans",
+        "relocation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1VvyU4vrSDBCgtMX-Ux8XtJbjjrMILRnB",
@@ -15143,169 +15484,281 @@
       "file_id": "1qyYcxZWm-rMDtst-OM3hwzvs4rLnkAhv",
       "name": "IMG_5506.JPG",
       "image_sha256": "1f545b3779ba07f9209e30bc3091a714e743e74d5ba2810950c6650d7d1b2e58",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "823"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "parans",
+        "forced-contact"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1eklX5lg_SDqnIEDp4xkZLHnoJ7qVFp7q",
       "name": "IMG_5507.JPG",
       "image_sha256": "627dce41187d1c5c49522198ccbfd5079127787ebdb4c271d3a7ed6f6cca5a74",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "824"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "directional-context",
+        "forced-contact"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 645,
+          "reflow_footer": 649,
+          "page_text_sha256": "c646f6ce1453c45cf881f1f1cfe8a707c17a8445e5ac03ca6e7b7231751e984b"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1XRVLuK4eMHWejrXm8qHOtOmHSNlSwIIB",
       "name": "IMG_5508.jpg",
       "image_sha256": "e2f603da65460b193e81b170024b019fdfb06653eff3ce4972160e661f7183ee",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "825"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "directional-context",
+        "spectrum-meanings"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 646,
+          "reflow_footer": 650,
+          "page_text_sha256": "cccfdd993ac678679f72009e462defd514f943ec04c55db890d2f6dfcfbab080"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1AjRF09sIW5dV8Gk0gslE2tOOy-CFFaLa",
       "name": "IMG_5509.JPG",
       "image_sha256": "51dbd442a17756c74fc1d46926793c566db5b80214eb0b454bd332bd67218d73",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "826"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "directional-context"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 646,
+          "reflow_footer": 650,
+          "page_text_sha256": "cccfdd993ac678679f72009e462defd514f943ec04c55db890d2f6dfcfbab080"
+        },
+        {
+          "pdf_page": 647,
+          "reflow_footer": 651,
+          "page_text_sha256": "c73ebfb018a347e9c2584dbe82f4594a36615bba780f1f2982c1da729085d974"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1py9V1PE3J-OjcWN0oyfbxAZg6SLKoDGk",
       "name": "IMG_5510.JPG",
       "image_sha256": "c84c7ed239412b3c9992fb4136a1054e30f0d477ef0665dc3fe4efa731b72599",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "827"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "relocation",
+        "directional-context",
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 647,
+          "reflow_footer": 651,
+          "page_text_sha256": "c73ebfb018a347e9c2584dbe82f4594a36615bba780f1f2982c1da729085d974"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1NubdQ1XXcJchlgmiy5-cxkgM2HHhm4_r",
       "name": "IMG_5511.JPG",
       "image_sha256": "a3e526134ec8d99db20d214bdf5d17d1118a0dda3bbfe5296df6c87dae2ec127",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "828"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "relocation",
+        "remote-activation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1LPPrPecdhP7qGUnZsSzabyD5WtXqi3ev",
       "name": "IMG_5512.JPG",
       "image_sha256": "342280dd06ea9d7aa1ce91962cda09580b47128b96c0e19bad3d9295778e466a",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "829"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "relocation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1r4b7PprjsFl-5EdpbKIYt4MYqq3LSA33",
       "name": "IMG_5513.jpg",
       "image_sha256": "b075b89cce7a6640fafe31b85f961ef8cbc3432e5aff20e397f62819aa919ef8",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "830"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "epoch-imprint",
+        "relocation"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1p6HnRMIc_onDrpOE-ZxdYlnhGtXXSmoe",
       "name": "IMG_5514.JPG",
       "image_sha256": "c4b7504176c451400eb5bcd093f62388851fc12eff4eddee757b1cd01a026c2e",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "831"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "epoch-imprint"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1MPKckJOOPRyZDwNR05vskrsWcxr71yu5",
       "name": "IMG_5515.JPG",
       "image_sha256": "8ba97a290cc754df1e542fadfa52e12d0c6135f6d754cc7c00ae30dbb5c6ff98",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "832"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "relocation",
+        "natal-transit-order"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1MUtoSlk8u6-AlVnpRAEp7VZOv2RCZ5XL",
       "name": "IMG_5516.JPG",
       "image_sha256": "7d0a00d43f5a0687d0b39d6edcb32553504bb63f1b9aca76ec288611bc5515ec",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "833"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1SEpneMQGa9HM85zCA38w2ViJ3P-8mrlt",
       "name": "IMG_5517.JPG",
       "image_sha256": "f07d818c77f5bee445d5ea6fbb2b2ce908a9a7c58c81839dd2fdf4a8291d497f",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "834"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "retrograde-meaning"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 648,
+          "reflow_footer": 652,
+          "page_text_sha256": "1af4cdcfc334a8cbcca2eb36027a34fe74882a1b5ebe6619e4dc26c958448892"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1eL8lD3PFuBHi77_01-oVm95YX6HwZwPn",
       "name": "IMG_5518.JPG",
       "image_sha256": "7633c2b8a80e3de280c227fedbc6b339d4dc9657ca61675b725988f770704d1c",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "835"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1jOyhtoYTQWhXqXHYRL7r2NoKXQDMQbVb",
       "name": "IMG_5519.JPG",
       "image_sha256": "6c286425414efdc78170b1174a2b4ac830be7cada63b0a7a5042e35b108a7f69",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "836"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "local-space",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4",

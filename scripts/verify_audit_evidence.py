@@ -36,6 +36,7 @@ def main():
         ('free-theory', 'pattern-resolution'),
         ('intra-house', 'pattern-resolution'),
         ('parans', 'locational-profile'),
+        ('local-space', 'locational-profile'),
         ('synastry', 'synastry-profile'),
         ('retrograde-meaning', 'retrograde-profile'),
         ('eclipse', 'special-contexts'),
