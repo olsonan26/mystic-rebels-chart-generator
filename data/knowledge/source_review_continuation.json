@@ -14774,6 +14774,1273 @@
       "duplicate_content_status": "NO_DUPLICATE_CLAIM",
       "visible_page_count": 1,
       "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4",
+      "name": "IMG_5520.JPG",
+      "content_sha256": "9f39d418b2cd71ef1e4310a7c3902b13dcda3049f26dc4641543a031009dd683",
+      "printed_page_ids": [
+        "837"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation",
+        "epoch-imprint"
+      ],
+      "summary": "New Local Space lines are drawn from each new place as if born there. Lake Havasu is on the Venus line from overnight Barstow, not natal or Sonoma origins; retain relocated Cancer Rising, H4/H11 Venus and Chiron context. Foster-care anecdote is not a causal rule or user history.",
+      "pdf_pages": [
+        649
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 649,
+          "overlap": 0.6232,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1TAJgL5RQd2s8DxBvEuHOdjd0HgVIZQEg",
+      "name": "IMG_5521.JPG",
+      "content_sha256": "e24164c5ffb5c3ff7cc3d1c6526a209e992074d4e5f2747c7cc8ec9c26860d8c",
+      "printed_page_ids": [
+        "838"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation"
+      ],
+      "summary": "Travel method and overnight exploration change recalculated Local Space lines. Sun/Neptune opposition retains natal retrograde and relocated H12/H6 context; variable blending has no supplied weighting, stop-duration or event-epoch specification.",
+      "pdf_pages": [
+        649,
+        650
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 650,
+          "overlap": 0.4282,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 649,
+          "overlap": 0.2683,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ivitRnSjSyXKSbDNUYXLWo7C8NM_M9VI",
+      "name": "IMG_5522.JPG",
+      "content_sha256": "65f0e2403d5b26f25166c68d5f23abb7a3332e464a36b9ae7b428d9e8a10c7aa",
+      "printed_page_ids": [
+        "839"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "local-space",
+        "relocation",
+        "epoch-imprint"
+      ],
+      "summary": "Travel method, new-origin calculation and natal imprint matter; author rejects a best-line/perfect-life shortcut. Sidereal Anchoring is explicitly untested theory using 0h LST/RA language and a 23h56m approximation, not an approved overlay algorithm.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1anDTYlderwpvIyAIcB4f344KPuV6Sd_O",
+      "name": "IMG_5523.JPG",
+      "content_sha256": "bb4d2a7c5396ab0827025922471d4d324f16ce1b73058b16217f83b4f34f7a5d",
+      "printed_page_ids": [
+        "840"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Geographic 30-degree layers, Degrees/Decans and RA0h-to-ecliptic overlays expressly remain conjecture until mathematics and controlled testing. Frame, epoch, Earth-house projection and numerical fixtures remain unspecified.",
+      "pdf_pages": [
+        650
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 650,
+          "overlap": 0.9882,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1FGU83G7-mzHgCAsZ83LGkrAswDqDXExw",
+      "name": "IMG_5524.JPG",
+      "content_sha256": "d0ee19730a3011383f13de63b4242c941423dc577a8b67a6df860e2233d016dc",
+      "printed_page_ids": [
+        "843"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Upright inspection of the rotated original confirms printed843 and introduces Astrological Epochs as Earth-cycle context distinct from tropical natal work. The existing21 OCR locators contain O/CD orientation garbage, not prose; checked locators record unusable transcription, not recovered text or full approval.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1zHqqyL6DXq9Y3sQxe7BtpdlOP2EOqHkD",
+      "name": "IMG_5525.JPG",
+      "content_sha256": "85088312ba7112736b41d6565f39b3778ca84642e1f2fc250d5381d81704a65e",
+      "printed_page_ids": [
+        "844"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Author defines Ages using the sidereal position at vernal equinox and rejects Pluto entering Aquarius or a technology label as its boundary. Current-Pisces and comparative-system judgments remain attributed claims, not independently validated chronology or accuracy.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1R27Owj9egGxf-uBE7BIb8azjOm_LhLLU",
+      "name": "IMG_5526.JPG",
+      "content_sha256": "0e947afe7c7eb65f6b4b163db8a70a2746bed8e4bbdd32ccb6016c3d7dc0bc75",
+      "printed_page_ids": [
+        "845"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "March20,2439 is immediately qualified and promised later dissection. Rounded Age2147-2148 versus common2160 and Great Year a little over25771 are retained as source numbers pending model/rate reconciliation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1S_4UtkAE72r_EFHvcR8MWyDkxAKe31Tt",
+      "name": "IMG_5527.JPG",
+      "content_sha256": "c147216a80b550f7b04a90fd84f15deb3ccc01952c3b16b2a352f5d983b316ef",
+      "printed_page_ids": [
+        "846"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Source juxtaposes rounded25800, estimated25772 and rough26000 Great Year figures. Different approximation levels do not specify a frozen precession model, reference frame or independently validated secular ephemeris.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1LGQtdRVo6iz1zBXopiXZkx_KywE_GH1m",
+      "name": "IMG_5528.JPG",
+      "content_sha256": "ba20ee96a57843e71d201413b4b944df92b61e4a953d2e7cb2b7528c4eb0febf",
+      "printed_page_ids": [
+        "847"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Author distinguishes a fixed geometric sidereal band from changing orientation and acknowledges stellar proper motion. Sirius/Alcyone examples remain source claims, not a validated catalog or complete alignment derivation.",
+      "pdf_pages": [
+        651,
+        652
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 652,
+          "overlap": 0.4368,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 651,
+          "overlap": 0.3132,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1aNXHKWbpQ2p---ZDpdjjDsiZgiXh2k18",
+      "name": "IMG_5529.jpg",
+      "content_sha256": "1e68fc4121608145c4e0fe8ebcca675856f23cfb930007e8e60e4ff97947ee83",
+      "printed_page_ids": [
+        "848"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Diagram distinguishes fixed sidereal, tropical and geocentric zodiacs with a Spica marker. Prose places convergence March20,181CE and official Pisces start182CE; the schematic is not a numerical orientation/obliquity fixture.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1jkUiAUwif1X0gQTQdK3hHAVV2QkfvmkG",
+      "name": "IMG_5530.JPG",
+      "content_sha256": "57e5ace4c658210894ca179f7f7b437922ed8af1e12257ced7974a18293a994c",
+      "printed_page_ids": [
+        "849"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Author contrasts tilt direction with tilt amount and proposes planetary declination implications, with Moon-torque and Mars-obliquity analogies. These are mechanics claims requiring independent verification, not replacement engine coordinates.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1f4PVn-l7Xj8TKWgYiP1XSV4z0Se04Z7g",
+      "name": "IMG_5531.JPG",
+      "content_sha256": "c8c5f1fd4404c3ced88773b2abe2b3302c734bbe0c17880758c90c94e2eff518",
+      "printed_page_ids": [
+        "850"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Author extrapolates declination into13000-year north/south waves and adds70000-100000-year ecliptic and30-million-year galactic cycles. No body/date/frame series or quantitative coupling law validates those proposed influences here.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ieEEIFSFaCnTx3sASegDHlPNhdAlu7ei",
+      "name": "IMG_5532.JPG",
+      "content_sha256": "50829e0e522d54f8d3b8e6582855f827b1528be6dd5b8b5037b75baf91f66c33",
+      "printed_page_ids": [
+        "851"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Source separates tropical planetary-ecosystem assessment from sidereal undertones and quotes22.1-24.5degree/41000-year obliquity. Retain that cited range alongside the later rejection of24.5 and proposed23.66; no scientific approval follows.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1fa6zqD64lJWUe0NZZ9f4-DPMwGEj-PHU",
+      "name": "IMG_5533.JPG",
+      "content_sha256": "4a49c428e589d23b658b56af0b1b05e6044ce724f42f20c37c0b07af5f565c8c",
+      "printed_page_ids": [
+        "852"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "The opposite point about13000 years from Aries is framed as Libra then Virgo;23.44-to22.1 over~12000 years appears alongside41000/25800 periods. Climate-model criticism remains author argument, not audit-confirmed scientific defects.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1CLFj0GrVB7cF7_JQ-gVCtM73omlO9S_a",
+      "name": "IMG_5534.JPG",
+      "content_sha256": "bcd25bd00961c365a8e39ce565ea5eef274fb67f1d34f6cfb98769af10c49d09",
+      "printed_page_ids": [
+        "853"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Author proposes precession and obliquity as one macrocosmic system, with Sun opposition restoring tilt and Cancer/Capricorn at the median. Magnetic, gravitational and pole-role explanations remain hypotheses without executable force/tilt equations.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1DM7aFEZh1ir1P5bK6slxn1Kz89OxA1N-",
+      "name": "IMG_5535.jpg",
+      "content_sha256": "f476c638c858bfcc5772533cd43f32f166f192c315f46a75ae5157056d2a8075",
+      "printed_page_ids": [
+        "854"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "relocation"
+      ],
+      "summary": "Tangent Hypothetical links latitude to perceived day compression/extension, with a4-hour sketch and23.5-ish tropical centering. Subjective day-feel, climate and medical rhetoric is not validated physiology, health advice or chart chronology.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1d0I_bH4IXDDLV32b3Atby9v1-OTjZY-u",
+      "name": "IMG_5536.jpg",
+      "content_sha256": "a25efa5fe68278010eda83845022bc8631ee086b7618c22261af52157997b819",
+      "printed_page_ids": [
+        "855"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Opening prose literally prints23.66percent maximum tilt; the diagram labels23.66degrees Axial Perisol and22.1degrees Axial Aposol. Preserve the unit discrepancy and earlier24.5 range rather than silently correcting units or approving mechanics.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "16EvgrjUDQ45AsLQpGbQ7F8zm-bQ6wWMH",
+      "name": "IMG_5537.JPG",
+      "content_sha256": "1186774c605a9daf8d5bb715ddc80bbbd36ee105a7a2ad8f2ef0647f1af29c7f",
+      "printed_page_ids": [
+        "856"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Source proposes a fixed cosmic axis and Sun magnetizing toward Earth's pole, then qualifies Aries alignment as the tilt-direction vector rather than the pole itself. These qualifications establish neither force strength nor a numerical frame.",
+      "pdf_pages": [
+        652
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 652,
+          "overlap": 0.758,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1PB_xaC-L1ns1ZKiB63Nr3YOSSNLfk_co",
+      "name": "IMG_5538.JPG",
+      "content_sha256": "cf42a0a8e94b5e7e9579ba92235859146e5b69023ec435d7a120bf30330e5128",
+      "printed_page_ids": [
+        "857"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "March20,2439 is explicitly attributed to Lahiri Ayanamsa before critique, distinct from the later Alchemystic2330 anchor. Equinox/calendar statements and accuracy judgments remain source claims.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1u3evMhvF6yrp40pkUS6nZna8SIlvojoH",
+      "name": "IMG_5539.JPG",
+      "content_sha256": "548dc074c179aabc3d250f94542e4cb119d7d51903ce9546d1d9a93a7171be5b",
+      "printed_page_ids": [
+        "858"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Printed39 sidereal options versus1 tropical and99.9percent reading rejection are author/software-snapshot claims without controlled accuracy data. Counts and subjective preference do not establish report reliability.",
+      "pdf_pages": [
+        653
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 653,
+          "overlap": 0.9291,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "11dja-wkiaJY7MfYWF3tvKueeJ4beHWlh",
+      "name": "IMG_5540.JPG",
+      "content_sha256": "49a0c535684fcdc0e49b4504b2309b00bece140671d6f3cb544162063634f4bf",
+      "printed_page_ids": [
+        "859"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Lahiri/Spica passage literally says0Libra Sidereal aligns0Aries Tropical near March21,285CE, then discusses conditional0Aries alignment. Preserve that marker/opposition wording without silently normalizing it into a complete ayanamsa algorithm.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1L6klBr-YyrhX4RystMfpZz1Kh-gHE-bo",
+      "name": "IMG_5541.JPG",
+      "content_sha256": "72273f01edba1f824e4f4a95bbbc9ef755867dcab16cd05994168c544372d66f",
+      "printed_page_ids": [
+        "860"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Fagan-Bradley example cites Aldebaran at15Taurus Tropical,498CE and about24degrees offset. This is an attributed critique with reference-convention questions, not an independently checked definition or runtime-zodiac change.",
+      "pdf_pages": [
+        653,
+        654
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 654,
+          "overlap": 0.6245,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 653,
+          "overlap": 0.2924,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "108BlZfyimsM-ehW5Nugv0IK3Oa0lnY7R",
+      "name": "IMG_5542.JPG",
+      "content_sha256": "cfaa65cdc0ba3414508b0580bc3347c4841d30dd8b463b908423b5f93dd4d5b9",
+      "printed_page_ids": [
+        "861"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Rebuilding Sidereal defines true0Sidereal Aries as a temporal point within a spatial construct and argues that mathematics must map outcomes. The utility argument supplies no validation protocol or approved natal calculation.",
+      "pdf_pages": [
+        654,
+        655
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 655,
+          "overlap": 0.4844,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 654,
+          "overlap": 0.2422,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1bZ9BrpcYcTXKLZiFTibarYISyALn24Aa",
+      "name": "IMG_5543.JPG",
+      "content_sha256": "87ae721fc9b6acd02244dbc027787e810c2cd3aec7c9f1edeec2b753bfa1eabf",
+      "printed_page_ids": [
+        "862"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Author calibrates with historical/cultural shifts and acknowledges20-25 ChatGPT math passes and history sorting errors. Epochs are an environmental canvas, not individual action; repeated AI checking and a peer-review invitation are not independent validation.",
+      "pdf_pages": [
+        656
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 656,
+          "overlap": 0.6742,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1yMpivk18SkwwifXXiItWVcN5YIbxeb2z",
+      "name": "IMG_5544.JPG",
+      "content_sha256": "863a3a9d9f3364b538aec83344c25005605d9d291a5468d2690da09aadee8f76",
+      "printed_page_ids": [
+        "863"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Author uses2001-2004 and2016-2019 cultural windows with FREE Theory's all12 relationships and reports4.5-month misalignment of an earlier Pisces anchor. Retrospective calibration must not become blind prediction or user-specific biography.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+      "name": "IMG_5545.JPG",
+      "content_sha256": "b95feba44f7b38268412f202af7829bddb5f4a3b308dc245db09b5722cee8d79",
+      "printed_page_ids": [
+        "UNKNOWN_CROPPED_HEADER"
+      ],
+      "printed_page_basis": "PARTIAL_CROPPED_UNKNOWN",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Header is partially outside the image; do not infer its page number from sequence. Body moves the anchor to2330.2145547945, March20,2330 at7:30am London Time; NASA/USNO support is claimed without a reproducible witness here. Keep model distinctions and timing margin.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "PARTIALLY_CROPPED_HEADER_BODY_READABLE",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+      "name": "IMG_5546.JPG",
+      "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+      "printed_page_ids": [
+        "865"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Source subtracts2147.6312784 from2330.2145547945 to obtain182.5832763945, labels August1 Gregorian/July30 Julian, then mentions August2. Its2025 delta304.9970907945 and rate50.2976646arcsec/year claim4.260505degrees; preserve arithmetic/date branches and missing timescale/calendar conventions.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC",
+      "name": "IMG_5547.JPG",
+      "content_sha256": "30a636bdfdd8c1dfdc1b6cdb4d1abf2356f337cdfd261369e3626f88bc70c1de",
+      "printed_page_ids": [
+        "866"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Comparison lists Lahiri5:47:27Pisces, Fagan-Bradley4:54:27 and Alchemystic4:15:37.82, rounded4:15:38. Alternate181CE anchoring gives4:14:29 using assumed noon UTC; those differences and the assumed time remain uncertainty.",
+      "pdf_pages": [
+        657
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 657,
+          "overlap": 0.6419,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1QY6CsYhssyFC4hqePv_f4S7mlZEEwtjv",
+      "name": "IMG_5548.JPG",
+      "content_sha256": "4d704dd316cc9a2d7d1be30b5037255daa6dd6aa7b46b4c54cf2380922684193",
+      "printed_page_ids": [
+        "867"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "summary": "Fixed stars are possible confirmation markers with proper motion, not sole anchors. Helial Swing proposes112000-year apsidal precession and January3 perihelion15:52Capricorn/opposite15:52Cancer. Future-software intent is not current point implementation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1eCgsGGNaMGhsdfeXBqcDw3EDxIJU4CP7",
+      "name": "IMG_5549.JPG",
+      "content_sha256": "9d26322800e15eec06bfaf45462c26ae5fb0c5bb7d2d88f8836cf68830ec53f2",
+      "printed_page_ids": [
+        "868"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "relocation"
+      ],
+      "summary": "Helial Swing's interpreted meaning depends on hemisphere and season, contrasting northern winter with southern summer. Holiday and creative-output anecdotes establish neither causal vitality nor personal health/cultural traits.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "11BlXP_We_3ZNil0q03SbubrJ6stOLnJq",
+      "name": "IMG_5550.JPG",
+      "content_sha256": "7e83d2f7cc8bb4ca01006e77156d3d1d5850318b154fa1dc19a7ac4f1f7da154",
+      "printed_page_ids": [
+        "869"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "sophia",
+        "lilith"
+      ],
+      "summary": "Author assigns Black Sun Prometheus to aphelion/empty focus and White Sun Apollo to perihelion, using Lilith/Sophia as analogies. Solar labels are distinct from existing lunar apogee/opposite points and asteroid identities; no coordinate formula is supplied.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1rkOmLURg06pO2hhggD6Gb1JeKInTJWCd",
+      "name": "IMG_5551.JPG",
+      "content_sha256": "4de6c50ef507cd23eb4f1a5aac089792f9c9f1aa42d85705f457f853acdfa898",
+      "printed_page_ids": [
+        "870"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "relocation"
+      ],
+      "summary": "Equatorial examples retain different seasonal expression and frame perihelion/aphelion as overcharged/disconnected. Cultural examples need independent evidence and cannot describe an individual solely by location.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1T0WNLcMCotWNz_mbDAvC8jbem7hLqpJ0",
+      "name": "IMG_5552.JPG",
+      "content_sha256": "97b2bd40aa0b7867a2dbc7ed5fafb1a24ef44ff66be9af8ebfe0e83558116d88",
+      "printed_page_ids": [
+        "871"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "lunar-arcs"
+      ],
+      "summary": "Author calls for further study of planetary distance, contrasts outer-planet Sun conjunction/opposition distance and names Lunar Swing apsidal/nodal precession. The rotating-apsides diagram supplies no complete frame, epoch, point-emission rule or tolerance.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1l0dwv8KsiLVI113ZlmwbGmEOYKm2Elp2",
+      "name": "IMG_5553.JPG",
+      "content_sha256": "835c0bdbf149204e615a7ca23adf8c1bb369c92ca329642dcb723fe2ba26fdea",
+      "printed_page_ids": [
+        "872"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "agency"
+      ],
+      "summary": "Individual uniqueness is contrasted with Sun-sign labels and calendar names with planetary positions; approximate29.53-day lunar month is contrasted with13x28 days. These remarks change neither engine chronology nor report personalization status.",
+      "pdf_pages": [
+        657,
+        658
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 658,
+          "overlap": 0.3837,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 657,
+          "overlap": 0.2401,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1nxa3Ga_fx0n0o9iAyff5t7KJZrVPoIE4",
+      "name": "IMG_5554.JPG",
+      "content_sha256": "8dd818a26a701740f25301b30353c75edb6e26cbc8cfe33b386dca9487577e54",
+      "printed_page_ids": [
+        "873"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "fringe-fca"
+      ],
+      "summary": "Author asks for precise calendar mapping, lists Taurus/Aries/Pisces transitions and Fusion Cusp Areas, and credits Robert Fitzgerald2009. Transition context is preserved without approving a blend width or personal progression timing.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1X8GrT876PGefzca6qs9dkglBfmH1ocGZ",
+      "name": "IMG_5555.JPG",
+      "content_sha256": "8c382ff430a9f13a79772c3bccb2789c805e1e3265201a419a7c62294193ce51",
+      "printed_page_ids": [
+        "874"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Critique compares Industrial Revolution1760-1840, Enlightenment1685-1815 and Renaissance with Age/Era/Phase layers. Alternative cultural classification is retrospective argument, not independent dated validation or proof that another model is wrong.",
+      "pdf_pages": [
+        658
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 658,
+          "overlap": 0.7437,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ayC4YcTdOD9vOXjErcgbDjT9VAYWgqDb",
+      "name": "IMG_5556.JPG",
+      "content_sha256": "7615f5e5b167d3304d75ac8b0da23098dc98dfd23d311aaad69d77b333dfe947",
+      "printed_page_ids": [
+        "875"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Source places Gemini at6261BCE with Leo10556-8409 and Cancer8409-6261 and admits ancient dates are uncertain. Lake Agassiz/Sahara and cultural claims require independent research before factual use; no event forecast follows.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14TPArzp3hXzZFiPaF5DwKuiW4hebCz7H",
+      "name": "IMG_5557.JPG",
+      "content_sha256": "0ecd1f2223c4e9d6d679d3fa9e6cf17306298bebc889c3e8b276282292f72015",
+      "printed_page_ids": [
+        "876"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Source contrasts conventional Taurus4320-2160BCE with its own start around4114BCE, associating material permanence across cultures. Historical examples are selected illustrations, not tested boundaries or personal natal keywords.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1Wg_LA-vTgOuY4amGrKWL_EAeJvdg6E0V",
+      "name": "IMG_5558.JPG",
+      "content_sha256": "b43cdcd1bd28feaff0c17b3ce275abb2b63105417d88e9758bc2d48e60259b74",
+      "printed_page_ids": [
+        "877"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Taurus/Scorpio polarity precedes the Aries section; a1966 joke is followed by explicit1964BCE. Preserve the printed date beside the earlier6261/4114 sequence; warfare and gender rhetoric cannot become report subjects' traits.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1L_EwrU9lXGf5FF92-S9D9mYIr_E4pbUQ",
+      "name": "IMG_5559.JPG",
+      "content_sha256": "041029976559d0ca99cd3e5994902fba0d4fcb44e2786b81c0e825c72500818b",
+      "printed_page_ids": [
+        "878"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Indus migration, chariots and Hittite/Egyptian warfare illustrate Taurus-to-Aries transition. The source itself qualifies the literal Aryan-invasion account; preserve attribution without approving historical claims, ethnic traits or causality.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1XxovRmmb_mtrHSVohrm2-LV1eNuEnAnm",
+      "name": "IMG_5560.JPG",
+      "content_sha256": "6adbc6ef6a35edf53a41e25c2efd221941d2a2392aa49d5cb8749de7e181d1bd",
+      "printed_page_ids": [
+        "879"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "free-theory"
+      ],
+      "summary": "Aries contains Sagittarius/Pisces Eras, and Pisces Age is introduced as182CE with a Yellow Turban184CE example. Keep Age versus Era distinct; an illustrative event is not a numerical boundary fixture.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1vjghcB2sEZ7p2exirnH69XndhYBHWyi8",
+      "name": "IMG_5561.JPG",
+      "content_sha256": "3d689d28ecf5c5d2264ae6a01aff21ac86c54448f3cc20c2d53b5b26bdb01685",
+      "printed_page_ids": [
+        "880"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Yellow Turban and Commodus/Rome narratives are attributed historical examples. Color/sign mapping is explicitly uncertain; ruler psychology and religious descriptions must not become user diagnoses or confident causal claims.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "15Ggfu2LFT5OlhD6DzmhBuNkqU4zal1gY",
+      "name": "IMG_5562.JPG",
+      "content_sha256": "1364b0f051c0efb95417a1204794b1a0c271a9f66f41dc3f94356f60c842621a",
+      "printed_page_ids": [
+        "881"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Pisces Age is explicitly divided into reverse Pulse order Scorpio,Cancer,Pisces with religious-history examples. Preserve the three-decan Age context; it does not reverse personal natal Tone/Pulse calculations or rulers.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1DXtH1QNGZP-levz-aDq6bvoXrs01hJIS",
+      "name": "IMG_5563.JPG",
+      "content_sha256": "3bd0bfa4f37ad4cca4429f6f1ac47c2c03c9820080709b779d93fc23a1b1e493",
+      "printed_page_ids": [
+        "882"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Cancer Decan is illustrated by family, tradition and spiritual institutions with Capricorn opposition, then Cordoba. Collective environmental themes are not the user's religion, family history or disposition; building dates are not verified here.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1qzRxmAHpIbqwkxR01XyF17jUQ_-Cooqs",
+      "name": "IMG_5564.JPG",
+      "content_sha256": "38d044e83caba1b1fefc8be4243c63c2b12d870cc75cd3284d1c70cd795b62de",
+      "printed_page_ids": [
+        "883"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Temple/cathedral examples continue the Cancer Age-Pulse argument. Brihadeeswarar no-shadow/no-binding-material claims are unverified source matter; do not repeat them as validated architectural facts or astrological mechanisms.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1Mkkasw0ZAVwrZbMVrDlI6A41ERiz1B48",
+      "name": "IMG_5565.JPG",
+      "content_sha256": "bac96e1267b4dc63a11205e4fc957b2fe6b7aa7c5a12a4f2bed551b49bfb6e80",
+      "printed_page_ids": [
+        "884"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Milan/StPeter examples precede the final Pisces Pulse; source expressly separates collective conditions from individual energies. Preserve that boundary without inferring religious or architectural causality.",
+      "pdf_pages": [
+        659
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 659,
+          "overlap": 0.8609,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ljz7szZIF0iMBZ9BUNHQUF-VCucUf5J9",
+      "name": "IMG_5566.JPG",
+      "content_sha256": "33180fd08112a8230dd8a125b10626f2f659ad56aece9ebc2412107a38c6b948",
+      "printed_page_ids": [
+        "885"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "objective-context"
+      ],
+      "summary": "Film, virtual reality, spirituality and mass suffering are associated with Pisces, with a Camera Obscura/IbnAlHaytham digression. Preserve attribution; historical superlatives and personal escapism/psychological conclusions are unverified.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1GbANdYv02_HGWD0xYupdEScaybTA5H3D",
+      "name": "IMG_5567.JPG",
+      "content_sha256": "8d7c8785be4d52f30c69427aeba8f47eb4bc629e3de394ad0404c202aff9d240",
+      "printed_page_ids": [
+        "886"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "retrograde-meaning",
+        "tone-pulse"
+      ],
+      "summary": "Precession of the Ages uses reverse/time-retrograde language and contrasts actual planetary orbital retrograde. Age/Pulse reversal does not authorize natal velocity or Gradity station definitions for Age boundaries.",
+      "pdf_pages": [
+        660
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 660,
+          "overlap": 0.82,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+      "name": "IMG_5568.JPG",
+      "content_sha256": "37dfd7d1490158fdf851f61d94390e5d31140c35adcffec7686e731a05376938",
+      "printed_page_ids": [
+        "887"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Page says first Pisces Decan around1616CE, then Pisces Age184CE-2332CE with three~715.88-year Decans. Retain these beside the182/2330 anchor and next-page1614; do not silently harmonize approximate and exact claims.",
+      "pdf_pages": [
+        660,
+        661,
+        662
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 660,
+          "overlap": 0.3815,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 661,
+          "overlap": 0.2308,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 662,
+          "overlap": 0.1508,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1",
+      "name": "IMG_5569.JPG",
+      "content_sha256": "14703bdb64d885771bd38d996f268db926a11ef6728725132e31256d4048d69b",
+      "printed_page_ids": [
+        "888"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "summary": "Headings give Scorpio Decan182-898CE and Cancer Decan898-1614CE, contrasting the preceding184-2332 interval and1616 wording. Historical death estimates and religious narratives remain illustrations, not measured predictive validation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
     }
   ],
   "assertions": [
@@ -20032,6 +21299,530 @@
           "content_sha256": "7633c2b8a80e3de280c227fedbc6b339d4dc9657ca61675b725988f770704d1c",
           "original_printed_pages": [
             "835"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local837-stopover-origin",
+      "concept_id": "local-space",
+      "kind": "origin_context_and_exclusion",
+      "proposition": "The travel example redraws Local Space lines from each new place and uses overnight Barstow for Lake Havasu, while saying passing through or flying would differ.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No stop-duration threshold, origin-selection hierarchy or recalculation epoch is given; an anecdote is not a navigation or outcome guarantee."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4",
+          "name": "IMG_5520.JPG",
+          "content_sha256": "9f39d418b2cd71ef1e4310a7c3902b13dcda3049f26dc4641543a031009dd683",
+          "original_printed_pages": [
+            "837"
+          ]
+        },
+        {
+          "file_id": "1TAJgL5RQd2s8DxBvEuHOdjd0HgVIZQEg",
+          "name": "IMG_5521.JPG",
+          "content_sha256": "e24164c5ffb5c3ff7cc3d1c6526a209e992074d4e5f2747c7cc8ec9c26860d8c",
+          "original_printed_pages": [
+            "838"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sidereal839-explicit-conjecture",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_research_limit",
+      "proposition": "Sidereal Anchoring is expressly untested theory; proposed geographic30degree layers and RA0h-to-ecliptic overlays require mathematics and controlled testing.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not implement an Earth-house overlay or present energetic claims as validated from this proposal."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ivitRnSjSyXKSbDNUYXLWo7C8NM_M9VI",
+          "name": "IMG_5522.JPG",
+          "content_sha256": "65f0e2403d5b26f25166c68d5f23abb7a3332e464a36b9ae7b428d9e8a10c7aa",
+          "original_printed_pages": [
+            "839"
+          ]
+        },
+        {
+          "file_id": "1anDTYlderwpvIyAIcB4f344KPuV6Sd_O",
+          "name": "IMG_5523.JPG",
+          "content_sha256": "bb4d2a7c5396ab0827025922471d4d324f16ce1b73058b16217f83b4f34f7a5d",
+          "original_printed_pages": [
+            "840"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch843-earth-context",
+      "concept_id": "epoch-imprint",
+      "kind": "context_distinction",
+      "proposition": "Astrological Epochs are introduced as Earth-cycle context requiring sidereal assessment, distinct from the geocentric tropical chart assessment used elsewhere.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The rotated original is readable but its retained OCR is unusable orientation text; no complete transcript or independent chronology is claimed."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FGU83G7-mzHgCAsZ83LGkrAswDqDXExw",
+          "name": "IMG_5524.JPG",
+          "content_sha256": "d0ee19730a3011383f13de63b4242c941423dc577a8b67a6df860e2233d016dc",
+          "original_printed_pages": [
+            "843"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch855-tilt-unit-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "source_unit_discrepancy",
+      "proposition": "Original855 prints maximum axial tilt as23.66percent in prose while its diagram marks23.66degrees Axial Perisol and22.1degrees Axial Aposol.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the percent-versus-degree discrepancy; neither the diagram nor the proposed mechanism establishes astronomical correctness."
+      ],
+      "requires_concepts": [
+        "declination"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1d0I_bH4IXDDLV32b3Atby9v1-OTjZY-u",
+          "name": "IMG_5536.jpg",
+          "content_sha256": "a25efa5fe68278010eda83845022bc8631ee086b7618c22261af52157997b819",
+          "original_printed_pages": [
+            "855"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch5545-alchemystic-anchor",
+      "concept_id": "epoch-imprint",
+      "kind": "authored_anchor_specification",
+      "proposition": "IMG5545's cropped-header body chooses Alchemystic Aquarius anchor2330.2145547945, described as March20,2330at7:30am London Time; original865 subtracts2147.6312784 to obtain182.5832763945.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "NASA/USNO attribution is unverified here; year convention,timescale,London-zone semantics and calendar conversion require independent evidence. Do not infer a printed header for IMG5545."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+          "name": "IMG_5545.JPG",
+          "content_sha256": "b95feba44f7b38268412f202af7829bddb5f4a3b308dc245db09b5722cee8d79",
+          "original_printed_pages": [
+            "UNKNOWN_CROPPED_HEADER"
+          ]
+        },
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch865-rate-output-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "internal_arithmetic_discrepancy",
+      "proposition": "Original865 gives delta304.9970907945years and50.2976646arcsec/year but prints4.260505degrees; literal multiplication gives4.26128927132153014575degrees,2.8233767575085247arcsec greater.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This checks only arithmetic on the printed constants,not a physical precession model or a correction approved by the author."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC",
+          "name": "IMG_5547.JPG",
+          "content_sha256": "30a636bdfdd8c1dfdc1b6cdb4d1abf2356f337cdfd261369e3626f88bc70c1de",
+          "original_printed_pages": [
+            "866"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch866-alternate-anchor",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_anchor_and_time_assumption",
+      "proposition": "The source's2025 Alchemystic position is4:15:37.82Pisces, while the alternate March20,181CE anchor gives4:14:29 using assumed12noonUTC for that ancient moment.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve both and the missing precise timestamp; independent calendars,reference frames and variable precession remain unverified."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC",
+          "name": "IMG_5547.JPG",
+          "content_sha256": "30a636bdfdd8c1dfdc1b6cdb4d1abf2356f337cdfd261369e3626f88bc70c1de",
+          "original_printed_pages": [
+            "866"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch869-solar-point-names",
+      "concept_id": "epoch-imprint",
+      "kind": "solar_lunar_identity_distinction",
+      "proposition": "Original869 names aphelion/empty-focus interpretation Black Sun Prometheus and perihelion White Sun Apollo, invoking lunar Lilith/Sophia as analogies.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No full solar-point coordinate construction is supplied; do not reuse lunar Sophia opposition,asteroid identities or infer personal vitality from these labels."
+      ],
+      "requires_concepts": [
+        "lilith",
+        "sophia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "11BlXP_We_3ZNil0q03SbubrJ6stOLnJq",
+          "name": "IMG_5550.JPG",
+          "content_sha256": "7e83d2f7cc8bb4ca01006e77156d3d1d5850318b154fa1dc19a7ac4f1f7da154",
+          "original_printed_pages": [
+            "869"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch871-distance-future-work",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_incomplete_research",
+      "proposition": "Original871 explicitly says planetary-distance effects need further study and distinguishes Lunar Swing apsidal/nodal precession from Helial Swing.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No distance-strength weighting,frame,epoch,emission rule or personal prediction is approved by this discussion."
+      ],
+      "requires_concepts": [
+        "lunar-arcs"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1T0WNLcMCotWNz_mbDAvC8jbem7hLqpJ0",
+          "name": "IMG_5552.JPG",
+          "content_sha256": "97b2bd40aa0b7867a2dbc7ed5fafb1a24ef44ff66be9af8ebfe0e83558116d88",
+          "original_printed_pages": [
+            "871"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch881-reversed-pulses",
+      "concept_id": "epoch-imprint",
+      "kind": "scoped_sequence",
+      "proposition": "The source applies reversed Scorpio-to-Cancer-to-Pisces Pulse order to the Pisces Age and describes three approximately715.88year Decans.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is collective Age context,not permission to reverse personal natal Pulse calculations; printed boundary dates remain contradictory."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "15Ggfu2LFT5OlhD6DzmhBuNkqU4zal1gY",
+          "name": "IMG_5562.JPG",
+          "content_sha256": "1364b0f051c0efb95417a1204794b1a0c271a9f66f41dc3f94356f60c842621a",
+          "original_printed_pages": [
+            "881"
+          ]
+        },
+        {
+          "file_id": "1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+          "name": "IMG_5568.JPG",
+          "content_sha256": "37dfd7d1490158fdf851f61d94390e5d31140c35adcffec7686e731a05376938",
+          "original_printed_pages": [
+            "887"
+          ]
+        },
+        {
+          "file_id": "1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1",
+          "name": "IMG_5569.JPG",
+          "content_sha256": "14703bdb64d885771bd38d996f268db926a11ef6728725132e31256d4048d69b",
+          "original_printed_pages": [
+            "888"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch887-date-counterevidence",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_boundary_dates",
+      "proposition": "Original887 says first Pisces Decan around1616CE and Age184-2332CE;888 headings give Scorpio182-898CE and Cancer898-1614CE;865/IMG5545 use182.5832763945/2330.2145547945 anchors.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not silently choose a date branch or call the mismatch a resolved rounding error; author/version precedence and boundary semantics remain needed."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+          "name": "IMG_5568.JPG",
+          "content_sha256": "37dfd7d1490158fdf851f61d94390e5d31140c35adcffec7686e731a05376938",
+          "original_printed_pages": [
+            "887"
+          ]
+        },
+        {
+          "file_id": "1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1",
+          "name": "IMG_5569.JPG",
+          "content_sha256": "14703bdb64d885771bd38d996f268db926a11ef6728725132e31256d4048d69b",
+          "original_printed_pages": [
+            "888"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch886-retrograde-metaphor",
+      "concept_id": "epoch-imprint",
+      "kind": "scope_exclusion",
+      "proposition": "Original886 compares precession of Ages to time-retrograde while distinguishing the orbital perspective used for true planetary retrograde.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not apply natal longitude velocity,station,Gradity or retrograde-house rules directly to historical Ages."
+      ],
+      "requires_concepts": [
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1GbANdYv02_HGWD0xYupdEScaybTA5H3D",
+          "name": "IMG_5567.JPG",
+          "content_sha256": "8d7c8785be4d52f30c69427aeba8f47eb4bc629e3de394ad0404c202aff9d240",
+          "original_printed_pages": [
+            "886"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch863-free-context",
+      "concept_id": "epoch-imprint",
+      "kind": "interpretive_dependency",
+      "proposition": "The author's cultural-window assessment explicitly uses FREE Theory and relationships of all12 energies,not a Gemini keyword alone.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retrospective film,music and political examples are author-selected calibration material,not independent event or personal-outcome validation."
+      ],
+      "requires_concepts": [
+        "free-theory"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1yMpivk18SkwwifXXiItWVcN5YIbxeb2z",
+          "name": "IMG_5544.JPG",
+          "content_sha256": "863a3a9d9f3364b538aec83344c25005605d9d291a5468d2690da09aadee8f76",
+          "original_printed_pages": [
+            "863"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch862-ai-history-limit",
+      "concept_id": "epoch-imprint",
+      "kind": "methodological_qualification",
+      "proposition": "Original862 acknowledges20-25 ChatGPT calculation passes and historical data sorting errors while describing Epochs as collective environmental context.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Repeated AI agreement and a peer-review invitation are not independent mathematical,historical or predictive verification."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1bZ9BrpcYcTXKLZiFTibarYISyALn24Aa",
+          "name": "IMG_5543.JPG",
+          "content_sha256": "87ae721fc9b6acd02244dbc027787e810c2cd3aec7c9f1edeec2b753bfa1eabf",
+          "original_printed_pages": [
+            "862"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch857-lahiri-model-distinction",
+      "concept_id": "epoch-imprint",
+      "kind": "model_scope_distinction",
+      "proposition": "Original857 attributes March20,2439 to Lahiri before critique; IMG5545 moves the author's own anchor to2330.2145547945.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep compared models and the author's retraction context distinct rather than treating every different model date as the same internal contradiction."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1R27Owj9egGxf-uBE7BIb8azjOm_LhLLU",
+          "name": "IMG_5526.JPG",
+          "content_sha256": "0e947afe7c7eb65f6b4b163db8a70a2746bed8e4bbdd32ccb6016c3d7dc0bc75",
+          "original_printed_pages": [
+            "845"
+          ]
+        },
+        {
+          "file_id": "1PB_xaC-L1ns1ZKiB63Nr3YOSSNLfk_co",
+          "name": "IMG_5538.JPG",
+          "content_sha256": "cf42a0a8e94b5e7e9579ba92235859146e5b69023ec435d7a120bf30330e5128",
+          "original_printed_pages": [
+            "857"
+          ]
+        },
+        {
+          "file_id": "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+          "name": "IMG_5545.JPG",
+          "content_sha256": "b95feba44f7b38268412f202af7829bddb5f4a3b308dc245db09b5722cee8d79",
+          "original_printed_pages": [
+            "UNKNOWN_CROPPED_HEADER"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch865-calendar-counterevidence",
+      "concept_id": "epoch-imprint",
+      "kind": "source_date_discrepancy",
+      "proposition": "Original865 labels182.5832763945 as August1,182CE Gregorian and July30Julian,then refers to an interval ending August2,182CE.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the printed one-day difference; conversion rules,year fractions and actual equinox times require independent verification before an exact boundary is implemented."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
           ]
         }
       ],

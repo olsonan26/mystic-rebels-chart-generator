@@ -6,14 +6,14 @@
     "lines": 34026,
     "AUTO_PARTIAL_CANDIDATE": 3312,
     "AUTO_MATCH_CANDIDATE": 16394,
-    "targeted_checked_lines": 6842
+    "targeted_checked_lines": 7696
   },
-  "annotations": 439,
-  "named_blocker_findings": 33,
+  "annotations": 489,
+  "named_blocker_findings": 38,
   "unreconciled_ocr_files": [
     "1k2vapbXeUl3-rEkgCLMkHHUDAplWztE8"
   ],
   "full_visual_or_semantic_signoff": false,
   "source_blockers_all_resolved": false,
-  "source_line_ledger_sha256": "1103267e997e1e3255c1c93ae37059f89677ae2a0f96bb6bbf5b65d655eac68a"
+  "source_line_ledger_sha256": "1a2aa6480a5ddc3fb1654d0086d3f50a01640fbe66f7034402e6fe3416eb1ee5"
 }

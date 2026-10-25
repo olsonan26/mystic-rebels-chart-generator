@@ -1,0 +1,16 @@
+{
+  "original_assertions": {
+    "prior_records_preserved_exactly": 198,
+    "current_records": 214
+  },
+  "source_line_annotations": {
+    "prior_records_preserved_exactly": 439,
+    "current_records": 489
+  },
+  "source_blocker_findings": {
+    "prior_records_preserved_exactly": 33,
+    "current_records": 38
+  },
+  "review_records_preserved_exactly": 520,
+  "automatic_deployment_disabled": true
+}

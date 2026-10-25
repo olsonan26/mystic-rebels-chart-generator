@@ -682,6 +682,103 @@
       ],
       "remaining": "Clarify what contact/exposure counts; no remote-vector efficacy or resolved rule claimed.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "sidereal839-unproven-anchoring",
+      "concept_ids": [
+        "epoch-imprint",
+        "relocation"
+      ],
+      "status": "EXPLICIT_UNTESTED_CONJECTURE",
+      "finding": "Originals839-840 expressly call Sidereal Anchoring untested conjecture requiring mathematics and controlled testing. RA0h/LST language,geographic30degree sections and Pulse/Spark overlays do not supply a complete Earth-house algorithm.",
+      "assertion_ids": [
+        "sidereal839-explicit-conjecture"
+      ],
+      "annotation_ids": [
+        "post-locational-audit-1ivitRnSjSyXKSbDNUYXLWo7C8NM_M9VI",
+        "post-locational-audit-1anDTYlderwpvIyAIcB4f344KPuV6Sd_O"
+      ],
+      "remaining": "Specify reference frame,epoch,geographic projection and measurable tests before any calculation or meaning is approved; preserve the source research limit.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "local837-stopover-origin-timing",
+      "concept_ids": [
+        "local-space",
+        "relocation"
+      ],
+      "status": "ORIGIN_SEQUENCE_RECOVERED_TIMING_UNSPECIFIED",
+      "finding": "Original837 uses overnight Barstow as the Local Space origin for Lake Havasu rather than natal/Sonoma;838 says passing through or flying would differ and describes changing lines after nightly stops. This deepens829-830 new-origin rules without defining a stopover threshold.",
+      "assertion_ids": [
+        "local837-stopover-origin"
+      ],
+      "annotation_ids": [
+        "post-locational-audit-1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4",
+        "post-locational-audit-1TAJgL5RQd2s8DxBvEuHOdjd0HgVIZQEg"
+      ],
+      "remaining": "Origin selection,required residence/stop duration,event epoch and interaction with preserved natal imprint remain unspecified. Do not infer an arbitrary overnight reset or travel-outcome forecast.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch855-tilt-units-and-mechanics",
+      "concept_ids": [
+        "epoch-imprint",
+        "declination"
+      ],
+      "status": "SOURCE_UNIT_CONFLICT_AND_UNVERIFIED_MECHANICS",
+      "finding": "Original855 prose visibly prints23.66percent maximum tilt while its drawing marks23.66degrees Axial Perisol and22.1degrees Axial Aposol. Earlier851 cites22.1-24.5degrees/41000years;854 rejects24.5;856 proposes fixed cosmic-axis and solar-magnetizing mechanisms. These are source claims,not independent astronomical evidence.",
+      "assertion_ids": [
+        "epoch855-tilt-unit-conflict"
+      ],
+      "annotation_ids": [
+        "post-locational-audit-1ieEEIFSFaCnTx3sASegDHlPNhdAlu7ei",
+        "post-locational-audit-1DM7aFEZh1ir1P5bK6slxn1Kz89OxA1N-",
+        "post-locational-audit-1d0I_bH4IXDDLV32b3Atby9v1-OTjZY-u",
+        "post-locational-audit-16EvgrjUDQ45AsLQpGbQ7F8zm-bQ6wWMH"
+      ],
+      "remaining": "Retain percent/degree branches and source-qualified changes of claim. Author clarification plus independent astronomy/model fixtures are required; do not silently correct units or change ephemeris/obliquity calculations.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch865-rate-and-calendar",
+      "concept_ids": [
+        "epoch-imprint"
+      ],
+      "status": "INTERNAL_ARITHMETIC_AND_DATE_DISCREPANCIES",
+      "finding": "Original865 gives304.9970907945years and50.2976646arcsec/year yet4.260505degrees; literal product is4.26128927132153014575degrees,2.8233767575085247arcsec higher. Its August1,182Gregorian/July30Julian label also differs from its later August2 reference. Original866 retains4:15:37.82versus alternate181CE/noonUTC4:14:29. IMG5545 anchor body is readable but its printed header is cropped; do not manufacture a printed864 witness.",
+      "assertion_ids": [
+        "epoch5545-alchemystic-anchor",
+        "epoch865-rate-output-conflict",
+        "epoch866-alternate-anchor",
+        "epoch865-calendar-counterevidence"
+      ],
+      "annotation_ids": [
+        "post-locational-audit-19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+        "post-locational-audit-1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+        "post-locational-audit-1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC"
+      ],
+      "remaining": "Specify exact year fraction,timescale,calendar and precession model; obtain reproducible primary numerical references for the claimed NASA/USNO support. Arithmetic check does not identify a scientifically correct anchor or authorize a preferred branch.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch887-boundary-dates",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "status": "COMPETING_AGE_AND_DECAN_BOUNDARIES",
+      "finding": "Original887 gives Pisces Age184-2332CE and first Decan around1616CE;888 headings instead give Scorpio182-898CE and Cancer898-1614CE. Originals865 and IMG5545 use182.5832763945/2330.2145547945 anchors. Reversed Scorpio-Cancer-Pisces order is scoped to Ages and does not resolve these competing dates.",
+      "assertion_ids": [
+        "epoch881-reversed-pulses",
+        "epoch887-date-counterevidence"
+      ],
+      "annotation_ids": [
+        "post-locational-audit-1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+        "post-locational-audit-1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+        "post-locational-audit-1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1"
+      ],
+      "remaining": "Retain all date branches,approximation labels,chart context and version precedence questions. No exact Age/Decan selector or personal birth-era imprint is approved.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]
 }

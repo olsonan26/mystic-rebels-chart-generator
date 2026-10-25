@@ -1,0 +1,32 @@
+{
+  "scope": "INTERNAL_DECIMAL_ARITHMETIC_ON_VISUALLY_CHECKED_SOURCE_CONSTANTS_NOT_ASTRONOMICAL_VALIDATION",
+  "source_file_ids": [
+    "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+    "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+    "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC"
+  ],
+  "inputs": {
+    "anchor": "2330.2145547945",
+    "age_years": "2147.6312784",
+    "year_2025": "2025.217464",
+    "delta_years": "304.9970907945",
+    "arcsec_per_year": "50.2976646",
+    "printed_degrees": "4.260505"
+  },
+  "results": {
+    "anchor_minus_age": "182.5832763945",
+    "anchor_minus_2025": "304.9970907945",
+    "degrees_per_year": "0.0139715735",
+    "literal_rate_times_delta_degrees": "4.26128927132153014575",
+    "difference_from_printed_arcsec": "2.82337675750852470000",
+    "printed_degrees_in_arcseconds_within_sign": "15337.818000",
+    "great_year_inferred_as_12_printed_ages": "25771.5753408",
+    "full_delta_fraction_of_inferred_great_year_degrees": "4.260467248666515789370708579"
+  },
+  "limits": [
+    "No live ephemeris,scientific precession model,calendar conversion or NASA/USNO attribution was verified.",
+    "An inferred Great Year from12 printed Ages is a sensitivity comparison,not another supplied authoritative constant.",
+    "Printed4.260505degrees agrees with4:15:37.818DMS;the discrepancy is with the rate/product,not that DMS conversion."
+  ],
+  "personal_answer_approved": false
+}

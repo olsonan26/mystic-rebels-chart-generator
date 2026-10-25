@@ -6427,6 +6427,530 @@
       "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
       "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
       "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "local837-stopover-origin",
+      "concept_id": "local-space",
+      "kind": "origin_context_and_exclusion",
+      "proposition": "The travel example redraws Local Space lines from each new place and uses overnight Barstow for Lake Havasu, while saying passing through or flying would differ.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No stop-duration threshold, origin-selection hierarchy or recalculation epoch is given; an anecdote is not a navigation or outcome guarantee."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FcEvd5j9w9xBfFPUSv_AsbNlYzrlZoT4",
+          "name": "IMG_5520.JPG",
+          "content_sha256": "9f39d418b2cd71ef1e4310a7c3902b13dcda3049f26dc4641543a031009dd683",
+          "original_printed_pages": [
+            "837"
+          ]
+        },
+        {
+          "file_id": "1TAJgL5RQd2s8DxBvEuHOdjd0HgVIZQEg",
+          "name": "IMG_5521.JPG",
+          "content_sha256": "e24164c5ffb5c3ff7cc3d1c6526a209e992074d4e5f2747c7cc8ec9c26860d8c",
+          "original_printed_pages": [
+            "838"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "sidereal839-explicit-conjecture",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_research_limit",
+      "proposition": "Sidereal Anchoring is expressly untested theory; proposed geographic30degree layers and RA0h-to-ecliptic overlays require mathematics and controlled testing.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not implement an Earth-house overlay or present energetic claims as validated from this proposal."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ivitRnSjSyXKSbDNUYXLWo7C8NM_M9VI",
+          "name": "IMG_5522.JPG",
+          "content_sha256": "65f0e2403d5b26f25166c68d5f23abb7a3332e464a36b9ae7b428d9e8a10c7aa",
+          "original_printed_pages": [
+            "839"
+          ]
+        },
+        {
+          "file_id": "1anDTYlderwpvIyAIcB4f344KPuV6Sd_O",
+          "name": "IMG_5523.JPG",
+          "content_sha256": "bb4d2a7c5396ab0827025922471d4d324f16ce1b73058b16217f83b4f34f7a5d",
+          "original_printed_pages": [
+            "840"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch843-earth-context",
+      "concept_id": "epoch-imprint",
+      "kind": "context_distinction",
+      "proposition": "Astrological Epochs are introduced as Earth-cycle context requiring sidereal assessment, distinct from the geocentric tropical chart assessment used elsewhere.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The rotated original is readable but its retained OCR is unusable orientation text; no complete transcript or independent chronology is claimed."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1FGU83G7-mzHgCAsZ83LGkrAswDqDXExw",
+          "name": "IMG_5524.JPG",
+          "content_sha256": "d0ee19730a3011383f13de63b4242c941423dc577a8b67a6df860e2233d016dc",
+          "original_printed_pages": [
+            "843"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch855-tilt-unit-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "source_unit_discrepancy",
+      "proposition": "Original855 prints maximum axial tilt as23.66percent in prose while its diagram marks23.66degrees Axial Perisol and22.1degrees Axial Aposol.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the percent-versus-degree discrepancy; neither the diagram nor the proposed mechanism establishes astronomical correctness."
+      ],
+      "requires_concepts": [
+        "declination"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1d0I_bH4IXDDLV32b3Atby9v1-OTjZY-u",
+          "name": "IMG_5536.jpg",
+          "content_sha256": "a25efa5fe68278010eda83845022bc8631ee086b7618c22261af52157997b819",
+          "original_printed_pages": [
+            "855"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch5545-alchemystic-anchor",
+      "concept_id": "epoch-imprint",
+      "kind": "authored_anchor_specification",
+      "proposition": "IMG5545's cropped-header body chooses Alchemystic Aquarius anchor2330.2145547945, described as March20,2330at7:30am London Time; original865 subtracts2147.6312784 to obtain182.5832763945.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "NASA/USNO attribution is unverified here; year convention,timescale,London-zone semantics and calendar conversion require independent evidence. Do not infer a printed header for IMG5545."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+          "name": "IMG_5545.JPG",
+          "content_sha256": "b95feba44f7b38268412f202af7829bddb5f4a3b308dc245db09b5722cee8d79",
+          "original_printed_pages": [
+            "UNKNOWN_CROPPED_HEADER"
+          ]
+        },
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch865-rate-output-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "internal_arithmetic_discrepancy",
+      "proposition": "Original865 gives delta304.9970907945years and50.2976646arcsec/year but prints4.260505degrees; literal multiplication gives4.26128927132153014575degrees,2.8233767575085247arcsec greater.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This checks only arithmetic on the printed constants,not a physical precession model or a correction approved by the author."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC",
+          "name": "IMG_5547.JPG",
+          "content_sha256": "30a636bdfdd8c1dfdc1b6cdb4d1abf2356f337cdfd261369e3626f88bc70c1de",
+          "original_printed_pages": [
+            "866"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch866-alternate-anchor",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_anchor_and_time_assumption",
+      "proposition": "The source's2025 Alchemystic position is4:15:37.82Pisces, while the alternate March20,181CE anchor gives4:14:29 using assumed12noonUTC for that ancient moment.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve both and the missing precise timestamp; independent calendars,reference frames and variable precession remain unverified."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1-qEJDMxZJT-U6EW3j-FrquoGZmmcyDBC",
+          "name": "IMG_5547.JPG",
+          "content_sha256": "30a636bdfdd8c1dfdc1b6cdb4d1abf2356f337cdfd261369e3626f88bc70c1de",
+          "original_printed_pages": [
+            "866"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch869-solar-point-names",
+      "concept_id": "epoch-imprint",
+      "kind": "solar_lunar_identity_distinction",
+      "proposition": "Original869 names aphelion/empty-focus interpretation Black Sun Prometheus and perihelion White Sun Apollo, invoking lunar Lilith/Sophia as analogies.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No full solar-point coordinate construction is supplied; do not reuse lunar Sophia opposition,asteroid identities or infer personal vitality from these labels."
+      ],
+      "requires_concepts": [
+        "lilith",
+        "sophia"
+      ],
+      "witnesses": [
+        {
+          "file_id": "11BlXP_We_3ZNil0q03SbubrJ6stOLnJq",
+          "name": "IMG_5550.JPG",
+          "content_sha256": "7e83d2f7cc8bb4ca01006e77156d3d1d5850318b154fa1dc19a7ac4f1f7da154",
+          "original_printed_pages": [
+            "869"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch871-distance-future-work",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_incomplete_research",
+      "proposition": "Original871 explicitly says planetary-distance effects need further study and distinguishes Lunar Swing apsidal/nodal precession from Helial Swing.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No distance-strength weighting,frame,epoch,emission rule or personal prediction is approved by this discussion."
+      ],
+      "requires_concepts": [
+        "lunar-arcs"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1T0WNLcMCotWNz_mbDAvC8jbem7hLqpJ0",
+          "name": "IMG_5552.JPG",
+          "content_sha256": "97b2bd40aa0b7867a2dbc7ed5fafb1a24ef44ff66be9af8ebfe0e83558116d88",
+          "original_printed_pages": [
+            "871"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch881-reversed-pulses",
+      "concept_id": "epoch-imprint",
+      "kind": "scoped_sequence",
+      "proposition": "The source applies reversed Scorpio-to-Cancer-to-Pisces Pulse order to the Pisces Age and describes three approximately715.88year Decans.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is collective Age context,not permission to reverse personal natal Pulse calculations; printed boundary dates remain contradictory."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "15Ggfu2LFT5OlhD6DzmhBuNkqU4zal1gY",
+          "name": "IMG_5562.JPG",
+          "content_sha256": "1364b0f051c0efb95417a1204794b1a0c271a9f66f41dc3f94356f60c842621a",
+          "original_printed_pages": [
+            "881"
+          ]
+        },
+        {
+          "file_id": "1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+          "name": "IMG_5568.JPG",
+          "content_sha256": "37dfd7d1490158fdf851f61d94390e5d31140c35adcffec7686e731a05376938",
+          "original_printed_pages": [
+            "887"
+          ]
+        },
+        {
+          "file_id": "1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1",
+          "name": "IMG_5569.JPG",
+          "content_sha256": "14703bdb64d885771bd38d996f268db926a11ef6728725132e31256d4048d69b",
+          "original_printed_pages": [
+            "888"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch887-date-counterevidence",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_boundary_dates",
+      "proposition": "Original887 says first Pisces Decan around1616CE and Age184-2332CE;888 headings give Scorpio182-898CE and Cancer898-1614CE;865/IMG5545 use182.5832763945/2330.2145547945 anchors.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not silently choose a date branch or call the mismatch a resolved rounding error; author/version precedence and boundary semantics remain needed."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        },
+        {
+          "file_id": "1HzgVh8TnSOL4A5OU5tNg0bJc7u_H5NMR",
+          "name": "IMG_5568.JPG",
+          "content_sha256": "37dfd7d1490158fdf851f61d94390e5d31140c35adcffec7686e731a05376938",
+          "original_printed_pages": [
+            "887"
+          ]
+        },
+        {
+          "file_id": "1bVbD-Vcq0LCOItHNecA7Pws9D7T8ZFT1",
+          "name": "IMG_5569.JPG",
+          "content_sha256": "14703bdb64d885771bd38d996f268db926a11ef6728725132e31256d4048d69b",
+          "original_printed_pages": [
+            "888"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch886-retrograde-metaphor",
+      "concept_id": "epoch-imprint",
+      "kind": "scope_exclusion",
+      "proposition": "Original886 compares precession of Ages to time-retrograde while distinguishing the orbital perspective used for true planetary retrograde.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not apply natal longitude velocity,station,Gradity or retrograde-house rules directly to historical Ages."
+      ],
+      "requires_concepts": [
+        "retrograde-meaning"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1GbANdYv02_HGWD0xYupdEScaybTA5H3D",
+          "name": "IMG_5567.JPG",
+          "content_sha256": "8d7c8785be4d52f30c69427aeba8f47eb4bc629e3de394ad0404c202aff9d240",
+          "original_printed_pages": [
+            "886"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch863-free-context",
+      "concept_id": "epoch-imprint",
+      "kind": "interpretive_dependency",
+      "proposition": "The author's cultural-window assessment explicitly uses FREE Theory and relationships of all12 energies,not a Gemini keyword alone.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retrospective film,music and political examples are author-selected calibration material,not independent event or personal-outcome validation."
+      ],
+      "requires_concepts": [
+        "free-theory"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1yMpivk18SkwwifXXiItWVcN5YIbxeb2z",
+          "name": "IMG_5544.JPG",
+          "content_sha256": "863a3a9d9f3364b538aec83344c25005605d9d291a5468d2690da09aadee8f76",
+          "original_printed_pages": [
+            "863"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch862-ai-history-limit",
+      "concept_id": "epoch-imprint",
+      "kind": "methodological_qualification",
+      "proposition": "Original862 acknowledges20-25 ChatGPT calculation passes and historical data sorting errors while describing Epochs as collective environmental context.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Repeated AI agreement and a peer-review invitation are not independent mathematical,historical or predictive verification."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1bZ9BrpcYcTXKLZiFTibarYISyALn24Aa",
+          "name": "IMG_5543.JPG",
+          "content_sha256": "87ae721fc9b6acd02244dbc027787e810c2cd3aec7c9f1edeec2b753bfa1eabf",
+          "original_printed_pages": [
+            "862"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch857-lahiri-model-distinction",
+      "concept_id": "epoch-imprint",
+      "kind": "model_scope_distinction",
+      "proposition": "Original857 attributes March20,2439 to Lahiri before critique; IMG5545 moves the author's own anchor to2330.2145547945.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep compared models and the author's retraction context distinct rather than treating every different model date as the same internal contradiction."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1R27Owj9egGxf-uBE7BIb8azjOm_LhLLU",
+          "name": "IMG_5526.JPG",
+          "content_sha256": "0e947afe7c7eb65f6b4b163db8a70a2746bed8e4bbdd32ccb6016c3d7dc0bc75",
+          "original_printed_pages": [
+            "845"
+          ]
+        },
+        {
+          "file_id": "1PB_xaC-L1ns1ZKiB63Nr3YOSSNLfk_co",
+          "name": "IMG_5538.JPG",
+          "content_sha256": "cf42a0a8e94b5e7e9579ba92235859146e5b69023ec435d7a120bf30330e5128",
+          "original_printed_pages": [
+            "857"
+          ]
+        },
+        {
+          "file_id": "19UlL2szeDXYcf-EcGOU8VOlPVHNy5dGY",
+          "name": "IMG_5545.JPG",
+          "content_sha256": "b95feba44f7b38268412f202af7829bddb5f4a3b308dc245db09b5722cee8d79",
+          "original_printed_pages": [
+            "UNKNOWN_CROPPED_HEADER"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch865-calendar-counterevidence",
+      "concept_id": "epoch-imprint",
+      "kind": "source_date_discrepancy",
+      "proposition": "Original865 labels182.5832763945 as August1,182CE Gregorian and July30Julian,then refers to an interval ending August2,182CE.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the printed one-day difference; conversion rules,year fractions and actual equinox times require independent verification before an exact boundary is implemented."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JQPT6ctVhrdnbGxWptz4l7acxnWQISX7",
+          "name": "IMG_5546.JPG",
+          "content_sha256": "d825fb7dde036a9493ff0434dd48ab9e73b88c9086228c668f777d3451056ad4",
+          "original_printed_pages": [
+            "865"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
     }
   ]
 }

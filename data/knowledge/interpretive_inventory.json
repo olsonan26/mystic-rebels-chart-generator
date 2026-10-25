@@ -915,6 +915,9 @@
           "reflow_footer": 295,
           "page_text_sha256": "e165e8b8d0e287a680b8f7cfeae5523a79c60c8bc3934338a2a7e74b9a0f028c"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "epoch887-boundary-dates"
       ]
     },
     {
@@ -2252,6 +2255,9 @@
           "reflow_footer": 310,
           "page_text_sha256": "aa3a88989794c0311fb2007fa17fbfb8abf09401684bf94fa0fc2c912add98c6"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "epoch855-tilt-units-and-mechanics"
       ]
     },
     {
@@ -5090,6 +5096,10 @@
           "reflow_footer": 651,
           "page_text_sha256": "c73ebfb018a347e9c2584dbe82f4594a36615bba780f1f2982c1da729085d974"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "sidereal839-unproven-anchoring",
+        "local837-stopover-origin-timing"
       ]
     },
     {
@@ -5204,7 +5214,8 @@
       ],
       "line_reconciliation_finding_ids": [
         "paran-distance-projection",
-        "local828-physical-online-scope"
+        "local828-physical-online-scope",
+        "local837-stopover-origin-timing"
       ]
     },
     {
@@ -5371,6 +5382,12 @@
           "reflow_footer": 673,
           "page_text_sha256": "69adc43734c67f07c85f0bfbabc43f4d9f683d422cd4b513c6430a4aa1500eee"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "sidereal839-unproven-anchoring",
+        "epoch855-tilt-units-and-mechanics",
+        "epoch865-rate-and-calendar",
+        "epoch887-boundary-dates"
       ]
     },
     {

@@ -37,6 +37,7 @@ def main():
         ('intra-house', 'pattern-resolution'),
         ('parans', 'locational-profile'),
         ('local-space', 'locational-profile'),
+        ('epoch-imprint', 'special-contexts'),
         ('synastry', 'synastry-profile'),
         ('retrograde-meaning', 'retrograde-profile'),
         ('eclipse', 'special-contexts'),

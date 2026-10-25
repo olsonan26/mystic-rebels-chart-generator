@@ -9,19 +9,19 @@
     "original-candidates.sqlite": true
   },
   "concept_records": 131,
-  "selected_assertions": 198,
-  "assertions_with_original_witnesses": 198,
+  "selected_assertions": 214,
+  "assertions_with_original_witnesses": 214,
   "personal_answer_approved_assertions": 0,
   "requirements": 207,
   "report_sections": 18,
   "ready_report_sections": 0,
   "authorities_sha256": {
-    "data/knowledge/interpretive_inventory.json": "49cb8322391c81403cc8c1b801171c01a544f942c5339e82693369effaf70a80",
-    "data/knowledge/material_requirements.json": "7dd056d4bb329597d5f27c85cc058b3fccbefbcad8ad2af86edba4fe19464ace",
-    "data/knowledge/original_assertions.json": "6e247b435e0757882dd158278fabce5527d52a80b1fdaa99a89ffcfa1ff5a503",
-    "data/knowledge/source_manifest.json": "9cd67d2ecc6171ca53cb955d2883c9c2b99aeecd0a870548d13aa01caaecbe2e",
-    "data/knowledge/source_line_annotations.json": "2592b03b396a43ba0d83ee055a7484c77f9edaecd323f49722d79dd6124db46a",
-    "data/knowledge/source_blocker_findings.json": "8df84f935bbb2d78477c07354c3235e08750c63dbf0aacf4f284f674dc9a20ff"
+    "data/knowledge/interpretive_inventory.json": "bf43010db5f592a161d5e30de154b01bdbdfa5e6f89207e11a953cbfe828f1d8",
+    "data/knowledge/material_requirements.json": "c62ab3cb5435fe812c83b558431762c39c714d11f63a35a3eb48f20a7fa9f292",
+    "data/knowledge/original_assertions.json": "afa9e88392d7249931321e9dd8c8a03b2709623bb41b9acfc27a05ef9cea6b62",
+    "data/knowledge/source_manifest.json": "6f74564420a5203aff0c0d03f2965d359a0c23691eddfd6f87e153ca8393ead3",
+    "data/knowledge/source_line_annotations.json": "f7fa9502886677d84514d8b09343428fc36625873f78c1f3d15b4a71cdf519bf",
+    "data/knowledge/source_blocker_findings.json": "ca0ac975f92eeeaab933e118216485b2ecaa76f1f19085434a5a4b5d6762beca"
   },
   "source_hash_validation": "See current line,source and pipeline validators; asset presence explicitly checked here.",
   "fresh_checkout_contains_private_originals_ocr_indexes": false,
@@ -34,5 +34,6 @@
     "chart context dependency graph",
     "cited bounded report synthesis",
     "report evaluation and workflow verification"
-  ]
+  ],
+  "latest_source_audit_verification": "evidence/source-pipeline/post-locational-verification.json"
 }

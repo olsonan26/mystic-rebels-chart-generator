@@ -1,3 +1,15 @@
+## Current verified continuation: Local Space travel and Astrological Epochs
+
+Read [2026-10-25_source-audit-epochs-continuation.md](2026-10-25_source-audit-epochs-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/post-locational-verification.json` first. Current totals supersede older counts: **1,029 acquired IDs;1,028 successful OCR files;612 targeted images;214 assertions;489 annotations;7,696 checked of34,026 OCR locators;38 named findings**. Remaining: **417 files,26,330 unchecked locators and one failed OCR item**. This batch added50 new image reviews,16 assertions,50 annotations and854 locator checks; no acquisition/OCR. All18 sections remain unready;131 concepts and207 requirements remain.
+
+Preserve stopover-origin timing gaps, explicit Sidereal Anchoring conjecture, tilt percent/degree wording, epoch rate/calendar differences and competing Age/Decan dates alongside all prior findings. Printed843's successful OCR is orientation garbage, not recovered prose. IMG_5545's header is cropped and must remain unknown; do not manufacture printed864 from sequence.
+
+Next file **IMG_5570.JPG**, ID **1fQZxfpTth7R4B-PpvOQ3gfHWoApgOY67**. Image SHA256 `3c162e82f9e9805059dec2626cc0b5547eeaffdc6bf6a3426302bde02e9e34fe`; OCR SHA256 `c5b35a59f81bc3e5e976fd35d8d1cb63bff839bfd885b048acdae9680a7edcf5`. Inspect the original before assigning a printed header; begin at pending locator1 and the exact saved line queue. Earlier batches also remain pending.
+
+Continue50-100 actual-image inspections and selected numeric/diagram checks. Keep canonical declarations, hashes, applicability, exceptions, dependencies, counterevidence and retrieval intact; refresh the complete knowledge path after changes. Do not re-download/re-OCR completed assets or approve personal reports, epoch selectors or unresolved formulas. No chart/UI/access changes or deployment. Validated audit changes may be committed and pushed to the existing branch with its automatic-deployment guard preserved. Historical checkpoints below do not override this state.
+
+---
+
 ## Current verified continuation: locational audit, 50 additional images
 
 Read [2026-10-25_source-audit-locational-continuation.md](2026-10-25_source-audit-locational-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/locational-next-verification.json` first. Current local totals supersede older counts: **1,029 acquired IDs; 1,028 successful OCR outputs; 562 targeted images; 198 selected assertions; 439 annotations; 6,842 checked of 34,026 OCR locators; 33 named findings.** Remaining: **467 files and 27,184 unchecked locators**. This batch added 50 new image reviews, three reinspections, 16 assertions and 983 checked locators; zero acquisition/OCR. All 18 sections remain unready (131 thematic records, 207 requirements).
