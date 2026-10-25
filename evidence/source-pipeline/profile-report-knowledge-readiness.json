@@ -9,19 +9,19 @@
     "original-candidates.sqlite": true
   },
   "concept_records": 131,
-  "selected_assertions": 214,
-  "assertions_with_original_witnesses": 214,
+  "selected_assertions": 230,
+  "assertions_with_original_witnesses": 230,
   "personal_answer_approved_assertions": 0,
   "requirements": 207,
   "report_sections": 18,
   "ready_report_sections": 0,
   "authorities_sha256": {
-    "data/knowledge/interpretive_inventory.json": "bf43010db5f592a161d5e30de154b01bdbdfa5e6f89207e11a953cbfe828f1d8",
-    "data/knowledge/material_requirements.json": "c62ab3cb5435fe812c83b558431762c39c714d11f63a35a3eb48f20a7fa9f292",
-    "data/knowledge/original_assertions.json": "afa9e88392d7249931321e9dd8c8a03b2709623bb41b9acfc27a05ef9cea6b62",
-    "data/knowledge/source_manifest.json": "6f74564420a5203aff0c0d03f2965d359a0c23691eddfd6f87e153ca8393ead3",
-    "data/knowledge/source_line_annotations.json": "f7fa9502886677d84514d8b09343428fc36625873f78c1f3d15b4a71cdf519bf",
-    "data/knowledge/source_blocker_findings.json": "ca0ac975f92eeeaab933e118216485b2ecaa76f1f19085434a5a4b5d6762beca"
+    "data/knowledge/interpretive_inventory.json": "09fc0b12c63c02545fb224ef96544ea12a6fa4524df9ebd4cf065c3d74ec972d",
+    "data/knowledge/material_requirements.json": "dec0e1fbb94ea7976755966c0d5e339a9d60a315dcd2c0e27c78fc3ea183b6b5",
+    "data/knowledge/original_assertions.json": "03764f58d8441a5b9f3a018ca76a789ed25ae534ea317be68beccc2a31595eb5",
+    "data/knowledge/source_manifest.json": "aa4bfdb73d24acb60564cc1d2b885357167f05d66108f4193492da25607eff03",
+    "data/knowledge/source_line_annotations.json": "3e26030c317b91979f90cf27ed19576277c0c36ab10af4170a2995ef27df1791",
+    "data/knowledge/source_blocker_findings.json": "0af564485163718c8332e0b8839be334492956eb734dc809c8ddd2b16c0b5a2a"
   },
   "source_hash_validation": "See current line,source and pipeline validators; asset presence explicitly checked here.",
   "fresh_checkout_contains_private_originals_ocr_indexes": false,
@@ -35,5 +35,5 @@
     "cited bounded report synthesis",
     "report evaluation and workflow verification"
   ],
-  "latest_source_audit_verification": "evidence/source-pipeline/post-locational-verification.json"
+  "latest_source_audit_verification": "evidence/source-pipeline/epochs-next-verification.json"
 }

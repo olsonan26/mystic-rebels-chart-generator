@@ -38,6 +38,7 @@ def main():
         ('parans', 'locational-profile'),
         ('local-space', 'locational-profile'),
         ('epoch-imprint', 'special-contexts'),
+        ('agency', 'profile-foundation'),
         ('synastry', 'synastry-profile'),
         ('retrograde-meaning', 'retrograde-profile'),
         ('eclipse', 'special-contexts'),

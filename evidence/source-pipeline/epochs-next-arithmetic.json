@@ -1,0 +1,45 @@
+{
+  "scope": "INTERNAL_SOURCE_CONSTANT_ARITHMETIC_NOT_ASTRONOMICAL_OR_CALENDAR_APPROVAL",
+  "source_file_id": "1VFWIGLPQLg8xHygz4IQ0s_HQTQ6bR0Y9",
+  "image_sha256": "c63d867a222836be36d3c1ff91b30235b5267b11dae903451fdc34e4cfa0aa24",
+  "printed_page": "891",
+  "anchors_decimal_years": [
+    "182.5832763945",
+    "361.5525495945",
+    "540.5218227945",
+    "719.4910959945",
+    "898.4603691945",
+    "1077.4296423945",
+    "1256.3989155945",
+    "1435.3681887945",
+    "1614.3374619945",
+    "1793.3067351945",
+    "1972.2760083945",
+    "2151.2452815945",
+    "2330.2145547945"
+  ],
+  "consecutive_steps": [
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000",
+    "178.9692732000"
+  ],
+  "era_years": "178.9692732000",
+  "twelve_eras_years": "2147.6312784000",
+  "phase_years": "14.9141061000",
+  "phase_pulse_years": "4.9713687000",
+  "notes": [
+    "Arithmetic verifies equal decimal intervals only;it does not approve Gregorian labels,time standards,reference frame or a physical model.",
+    "Rounded phase labels2002.104/2031.932 are retained separately from conflicting January7,2002/December9,2033 calendar labels.",
+    "No calendar conversion or independent ephemeris was run."
+  ],
+  "personal_answer_approved": false
+}

@@ -6951,6 +6951,547 @@
       "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
       "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
       "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch889-forward-subdivisions",
+      "concept_id": "epoch-imprint",
+      "kind": "scoped_direction_and_division",
+      "proposition": "Each Age contains12 equal forward Aries-through-Pisces Eras, and each Era contains12 Phases just under15years; this differs from backward Age motion.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep Age,Era,Phase and their Pulse layers separate; direction does not resolve the recorded date/rate conflicts."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1fQZxfpTth7R4B-PpvOQ3gfHWoApgOY67",
+          "name": "IMG_5570.JPG",
+          "content_sha256": "3c162e82f9e9805059dec2626cc0b5547eeaffdc6bf6a3426302bde02e9e34fe",
+          "original_printed_pages": [
+            "889"
+          ]
+        },
+        {
+          "file_id": "1Z_EFttX3jsMK_MsN6SxmF-hcSZAsdm3-",
+          "name": "IMG_5571.JPG",
+          "content_sha256": "276f08ff7930712e339ff4c34f180cfc4fb6af9c3933b40f0257fcd6faefadf4",
+          "original_printed_pages": [
+            "890"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch891-era-constants",
+      "concept_id": "epoch-imprint",
+      "kind": "source_table_constants",
+      "proposition": "Printed891 gives Aries182.5832763945,Aquarius1972.2760083945,Pisces2151.2452815945 and next-Age Aries2330.2145547945 as decimal-year anchors,with twelve forward Era entries.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The running header visibly says VESTA(4) despite Epoch table content; do not infer the subject from a running header or assume calendar/timescale conversions are validated."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1VFWIGLPQLg8xHygz4IQ0s_HQTQ6bR0Y9",
+          "name": "IMG_5572.JPG",
+          "content_sha256": "c63d867a222836be36d3c1ff91b30235b5267b11dae903451fdc34e4cfa0aa24",
+          "original_printed_pages": [
+            "891"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch900-gemini-date-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_calendar_labels",
+      "proposition": "Original900 gives GeminiPhase2002.104-2017.018 and BeginsJanuary7,2002;910 and914 explicitly give February8,2002 as the Gemini Phase/first-Decan start.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain both calendar labels and the decimal year; no author erratum or approved boundary selector is established."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1CmJWrLKUSXAm7JKLETPucizcFObjEndQ",
+          "name": "IMG_5581.JPG",
+          "content_sha256": "d5d31972b12b78e78692b1273254538cce318a6c7d736fb95db4943912c17287",
+          "original_printed_pages": [
+            "900"
+          ]
+        },
+        {
+          "file_id": "18l0WlybkiamxeJUVoapoMD8_1XjgXizJ",
+          "name": "IMG_5591.JPG",
+          "content_sha256": "e43a2d8c821370a8a4a29bbcefbe246d6e30ee56572c4bd9d613469991b32dbe",
+          "original_printed_pages": [
+            "910"
+          ]
+        },
+        {
+          "file_id": "1UrozGOdy0EGejXAbDAf2vQYztEInvM1L",
+          "name": "IMG_5595.JPG",
+          "content_sha256": "684bc76ee4cdc4df859aeecece3a13af85637d5b6860aae67018e121551da176",
+          "original_printed_pages": [
+            "914"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch909-leo-date-conflict",
+      "concept_id": "epoch-imprint",
+      "kind": "competing_year_labels",
+      "proposition": "Original909 pairs LeoPhase2031.932-2046.847 with BeginsDecember9,2033;900 ends Cancer at2031.932 and923 ends Cancer's third Decan December7,2031.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the two-year/date difference rather than silently correcting a typographical error; no precise future transition is approved."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1CmJWrLKUSXAm7JKLETPucizcFObjEndQ",
+          "name": "IMG_5581.JPG",
+          "content_sha256": "d5d31972b12b78e78692b1273254538cce318a6c7d736fb95db4943912c17287",
+          "original_printed_pages": [
+            "900"
+          ]
+        },
+        {
+          "file_id": "1kC8s9XD2IpobW3lg2u5CIqEsOXjLTVOp",
+          "name": "IMG_5590.JPG",
+          "content_sha256": "bd8b3b293e93dfcb985241fd6b9a521a3ea2bb263be547cef325507dd0ae3203",
+          "original_printed_pages": [
+            "909"
+          ]
+        },
+        {
+          "file_id": "1ESwkCaVanxNA6TJPBtDKBv_I7a0iZcVe",
+          "name": "IMG_5604.JPG",
+          "content_sha256": "e851a62ec4b7e694aa609339df3153b8ecd0d65e1512d420aac14b6602035312",
+          "original_printed_pages": [
+            "923"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch901-anchor-margin",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_numerical_uncertainty",
+      "proposition": "Original901 retains January7,2017 Cancer start but qualifies its future anchor as possibly off through calendar conversion and Aquarius29:58-29:59 rather than29:59:59.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The author expressly leaves a subtle variance unresolved; precision wording does not establish exact boundary ownership or physical reference fixtures."
+      ],
+      "requires_concepts": [
+        "fringe-fca",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1j00KJr5J57T1ZkiRDJKZ_5rMmjGB34DC",
+          "name": "IMG_5582.JPG",
+          "content_sha256": "452e00516d9ff9577632e6fd51d94e8d91b2b4a4c00d07f084938495150bc09f",
+          "original_printed_pages": [
+            "901"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch908-layered-snapshot",
+      "concept_id": "epoch-imprint",
+      "kind": "dated_source_example",
+      "proposition": "The source's June2025 example nests PiscesAge/PiscesAgePulse,AquariusEra/AquariusEraPulse,CancerPhase/ScorpioPhasePulse,LibraFocal andCapricornSubfocal.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This is a source editing-date snapshot,not a current sky claim; no exact automated selector or user-specific imprint is validated."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1GsrxUkzv7SHkOZrG7r2giWuYBOKKUqEd",
+          "name": "IMG_5589.JPG",
+          "content_sha256": "2aa138c935ae76ed710dd403099453b4f2bd337d9e633a09f32f1fd48a3e0471",
+          "original_printed_pages": [
+            "908"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch910-phase-pulse-sequence",
+      "concept_id": "epoch-imprint",
+      "kind": "scoped_pulse_sequence",
+      "proposition": "Gemini Phase-Pulses run Gemini,Libra,Aquarius;Cancer Phase-Pulses run Cancer,Scorpio,Pisces,with the latter table ending December7,2031.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "These forward same-element Phase sequences remain separate from reverse Scorpio-Cancer-Pisces Age-Pulse order and conflicting calendar labels."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "18l0WlybkiamxeJUVoapoMD8_1XjgXizJ",
+          "name": "IMG_5591.JPG",
+          "content_sha256": "e43a2d8c821370a8a4a29bbcefbe246d6e30ee56572c4bd9d613469991b32dbe",
+          "original_printed_pages": [
+            "910"
+          ]
+        },
+        {
+          "file_id": "1ESwkCaVanxNA6TJPBtDKBv_I7a0iZcVe",
+          "name": "IMG_5604.JPG",
+          "content_sha256": "e851a62ec4b7e694aa609339df3153b8ecd0d65e1512d420aac14b6602035312",
+          "original_printed_pages": [
+            "923"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch914-free-directed-context",
+      "concept_id": "epoch-imprint",
+      "kind": "directional_context_dependency",
+      "proposition": "Phase/Pulse interpretation explicitly retains all FREE Theory relationships: Gemini's Sagittarius opposition,Pisces square-from,Virgo square-to,Aquarius trine-from andLibra trine-to.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not reduce this to a symmetric opposition label or a solitary keyword; preserve hierarchy,energy direction and source limits."
+      ],
+      "requires_concepts": [
+        "free-theory",
+        "directional-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1UrozGOdy0EGejXAbDAf2vQYztEInvM1L",
+          "name": "IMG_5595.JPG",
+          "content_sha256": "684bc76ee4cdc4df859aeecece3a13af85637d5b6860aae67018e121551da176",
+          "original_printed_pages": [
+            "914"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch923-focal-pulse-distinction",
+      "concept_id": "epoch-imprint",
+      "kind": "layer_distinction",
+      "proposition": "Phase Focals are introduced as another division overlapping three Phase-Pulses;the example is AriesPhase/SagittariusFocal March19,1982-June17,1983.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not equate a Focal with a Pulse or natal degree Spark; complete division count,epoch,boundary tolerance and numerical fixtures are not supplied by this passage."
+      ],
+      "requires_concepts": [
+        "tone-pulse"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ESwkCaVanxNA6TJPBtDKBv_I7a0iZcVe",
+          "name": "IMG_5604.JPG",
+          "content_sha256": "e851a62ec4b7e694aa609339df3153b8ecd0d65e1512d420aac14b6602035312",
+          "original_printed_pages": [
+            "923"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch927-subfocal-example",
+      "concept_id": "epoch-imprint",
+      "kind": "source_birth_example",
+      "proposition": "The author places his1982 birth in PiscesAge,AquariusEra,AriesPhase,SagittariusPulse/Focal and says two hours after a CancerSubfocal start forms a Gemini-Cancer FCA hybrid.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This anecdote is not an independent timestamp fixture or a complete universal Subfocal width/activation rule; it describes the author,not the user."
+      ],
+      "requires_concepts": [
+        "fringe-fca"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1eGIBpoluFMyOkIdaP8N9InMAGquhPnG8",
+          "name": "IMG_5608.JPG",
+          "content_sha256": "2d075db9dace9a3fc6e1f8f37a9aa3bb72b78b2d2d69312f8c4656133544f1b8",
+          "original_printed_pages": [
+            "927"
+          ]
+        },
+        {
+          "file_id": "1z90YSsVuSXuuxZyf6tFfMoK_Kpkrf7xn",
+          "name": "IMG_5609.JPG",
+          "content_sha256": "00672a878b30563d85cf42c39931eae4e872c9759f6ed2402bba1d15053a1805",
+          "original_printed_pages": [
+            "928"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch929-not-natal-or-personality",
+      "concept_id": "epoch-imprint",
+      "kind": "explicit_exclusion",
+      "proposition": "Original929 explicitly says Epoch energies are not natal energies,not chart placements and not personality traits;CancerSubfocal does not mean a family situation is good or bad.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve these exclusions alongside the personal-sounding928-929 examples; no user biography,psychological diagnosis or generational stereotype follows."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1QoGZjhNSk52tfDgrKcXX1UGVln9NA48a",
+          "name": "IMG_5610.JPG",
+          "content_sha256": "8adab9f11264b2149efea9c28d3fa79470561e9b2f1aeec0af5cad2abcc3acbc",
+          "original_printed_pages": [
+            "929"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch896-offearth-location",
+      "concept_id": "epoch-imprint",
+      "kind": "observer_convention_incomplete",
+      "proposition": "The source's off-Earth Moonlanding example says use London for UTC time location and calls theJuly20,1969at8:17pm chart CapricornRising.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "A time standard does not itself select an observer; Earth/Lunar frame and event-location convention need explicit specification and independent numerical checks."
+      ],
+      "requires_concepts": [
+        "election-horary"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1No6QI_qyfAe_92dzqdLua0IHRO_JxB8R",
+          "name": "IMG_5577.JPG",
+          "content_sha256": "9cb62a00e9794d68d90d2a8b5bca18051dfad552f2d82ae22b51a59cd05000e3",
+          "original_printed_pages": [
+            "896"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "epoch926-film-evidence-limit",
+      "concept_id": "epoch-imprint",
+      "kind": "example_scope_limit",
+      "proposition": "The1982Focal discussion selects several film examples and then claims all were June1982,since the author was born that month.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "No independently verified release/production/reception dataset or fixed event-stage selection is supplied; retrospective symbolic fit is not prospective predictive validation."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ESwkCaVanxNA6TJPBtDKBv_I7a0iZcVe",
+          "name": "IMG_5604.JPG",
+          "content_sha256": "e851a62ec4b7e694aa609339df3153b8ecd0d65e1512d420aac14b6602035312",
+          "original_printed_pages": [
+            "923"
+          ]
+        },
+        {
+          "file_id": "1FdiGVYPCTKeWub1vN9EKDQsr8yh2AIaK",
+          "name": "IMG_5605.JPG",
+          "content_sha256": "140ae9201dd1d80e181a4d878306c9a00548968f1d9e8f34e15a3e2dc1bcdfd9",
+          "original_printed_pages": [
+            "924"
+          ]
+        },
+        {
+          "file_id": "1G-Y6GKtnHHBaYSe6aY6u0LFQOVRDr81O",
+          "name": "IMG_5606.JPG",
+          "content_sha256": "6d77043d9a0e2f734526cd55c87ed7f98e30592ea74567a5df1025a034b22c85",
+          "original_printed_pages": [
+            "925"
+          ]
+        },
+        {
+          "file_id": "1Q_tiHly5iyhTTcmdEMXfHWJ7sQUDYpNJ",
+          "name": "IMG_5607.JPG",
+          "content_sha256": "bfbf452e043e7558cd5d053bd3230e07ad3c0060e44d12f6992b8ee51a6071b7",
+          "original_printed_pages": [
+            "926"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency935-not-definitive",
+      "concept_id": "agency",
+      "kind": "explicit_interpretation_limit",
+      "proposition": "The closing discussion rejects definitive fortune-telling and surrendering free will;body,aspect andruler context precedes asking how to respond to possible expressions.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not turn estimates or symbolic interpretation into guaranteed events;context and cited alternatives remain required."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1t-KKE-D2sX-uNKC1BOlC62J4M6o_QfYn",
+          "name": "IMG_5614.JPG",
+          "content_sha256": "975e2b8c7bb1116e0173e2edd09df3f56aa17a7e373da45cf616f8fa84dc5792",
+          "original_printed_pages": [
+            "934"
+          ]
+        },
+        {
+          "file_id": "17jh3itr1KSzdxQdA5xbnA3WH1uwj3qcs",
+          "name": "IMG_5615.JPG",
+          "content_sha256": "8f382f4b91ea3c85d689594af758ade7ffe88cfb3899a22151ba472076d233e5",
+          "original_printed_pages": [
+            "935"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency937-choice-and-dependence",
+      "concept_id": "agency",
+      "kind": "explicit_caution",
+      "proposition": "The author warns about depending on astrology for every decision and emphasizes action rather than outsourcing choice to fate.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "These cautions are source guidance,not evidence that the user is dependent or has a mental-health condition;no clinical or universal transit-duration rule follows."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1P6nTwbERxpIJg_3kmFGo_eZc2pDT6hwc",
+          "name": "IMG_5616.JPG",
+          "content_sha256": "5cbf76a76c90b80e94c06f186c592726b3f71ccb314528c0649ddcfef808007b",
+          "original_printed_pages": [
+            "936"
+          ]
+        },
+        {
+          "file_id": "1keqKsyO-0cz-Iy1ICocvzg84qFlifeux",
+          "name": "IMG_5617.JPG",
+          "content_sha256": "7add8960f7f70ba718a2a1b210c2529e32d608f18d688cee2d1f4333f61c76c7",
+          "original_printed_pages": [
+            "937"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency940-health-anecdote-limit",
+      "concept_id": "agency",
+      "kind": "unvalidated_counterfactual_claim",
+      "proposition": "Original939-940 claims a birth/death outcome was foreseen across five charts and prevented by a caregiver choice,while935 says interpretations are not definitive.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve the source claim and its nondeterministic counterevidence without treating retrospective counterfactuals as medical efficacy,death foreknowledge,obstetric advice or an approved predictive rule."
+      ],
+      "requires_concepts": [
+        "objective-context",
+        "derivatives"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1uaYDUdrCb7jAgR-AJu44XrvDMP5pTaFA",
+          "name": "IMG_5619.JPG",
+          "content_sha256": "96aa4aaaa037f5f7130b3cee93466dc819cce83855527bcecbb2a45e1457e4f4",
+          "original_printed_pages": [
+            "939"
+          ]
+        },
+        {
+          "file_id": "1-3OHPdwrihhUVv3pzzNHM2aHoRJmvNgX",
+          "name": "IMG_5620.JPG",
+          "content_sha256": "328777abd4525bad74c026905dacaeb175a2b52bf3daa8d6d0bdba61cc4ece04",
+          "original_printed_pages": [
+            "940"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
     }
   ]
 }

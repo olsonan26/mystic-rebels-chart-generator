@@ -779,6 +779,110 @@
       ],
       "remaining": "Retain all date branches,approximation labels,chart context and version precedence questions. No exact Age/Decan selector or personal birth-era imprint is approved.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch900-909-phase-calendar",
+      "concept_ids": [
+        "epoch-imprint",
+        "tone-pulse"
+      ],
+      "status": "COMPETING_PHASE_CALENDAR_AND_YEAR_LABELS",
+      "finding": "Original900 labels Gemini2002.104 as January7,2002;910/914 explicitly say February8,2002. Original909 labels Leo2031.932 start as December9,2033,while900 ends Cancer2031.932 and923 gives December7,2031. These are original-image differences,not inferred OCR corrections.",
+      "assertion_ids": [
+        "epoch900-gemini-date-conflict",
+        "epoch909-leo-date-conflict",
+        "epoch910-phase-pulse-sequence"
+      ],
+      "annotation_ids": [
+        "epochs-next-audit-1CmJWrLKUSXAm7JKLETPucizcFObjEndQ",
+        "epochs-next-audit-1kC8s9XD2IpobW3lg2u5CIqEsOXjLTVOp",
+        "epochs-next-audit-18l0WlybkiamxeJUVoapoMD8_1XjgXizJ",
+        "epochs-next-audit-1UrozGOdy0EGejXAbDAf2vQYztEInvM1L",
+        "epochs-next-audit-1ESwkCaVanxNA6TJPBtDKBv_I7a0iZcVe"
+      ],
+      "remaining": "Retain both branches and future-anchor/calendar margin on901. Author/version clarification,decimal-year convention and independent time conversion are needed before any exact Phase selector.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch891-running-header-and-time",
+      "concept_ids": [
+        "epoch-imprint"
+      ],
+      "status": "HEADER_BODY_MISMATCH_AND_TIME_CONVENTION_UNVERIFIED",
+      "finding": "Printed891 visibly says VESTA(4) as running header while the body lists twelve Epoch Era anchors in decimal years and Gregorian dates. Consecutive decimal anchors differ178.9692732years; twelve equal steps reproduce2147.6312784years. This internal arithmetic does not verify the printed Gregorian dates,23hUTC/London comparison or physical precession model.",
+      "assertion_ids": [
+        "epoch891-era-constants",
+        "epoch889-forward-subdivisions"
+      ],
+      "annotation_ids": [
+        "epochs-next-audit-1fQZxfpTth7R4B-PpvOQ3gfHWoApgOY67",
+        "epochs-next-audit-1Z_EFttX3jsMK_MsN6SxmF-hcSZAsdm3-",
+        "epochs-next-audit-1VFWIGLPQLg8xHygz4IQ0s_HQTQ6bR0Y9"
+      ],
+      "remaining": "Use body context and inspected891 identifier without reclassifying as Vesta doctrine. Specify decimal-year origin,year length,calendar,timescale and observer conventions;preserve rather than replace original conversion claims.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch896-offearth-observer",
+      "concept_ids": [
+        "epoch-imprint",
+        "election-horary"
+      ],
+      "status": "OFF_EARTH_OBSERVER_CONVENTION_INCOMPLETE",
+      "finding": "Original896 says to use London for UTC time location for an off-Earth event and gives CapricornRising for8:17pmJuly20,1969. The source does not resolve whether London is a conventionally substituted Earth observer,the actual event location or merely a time-zone reference.",
+      "assertion_ids": [
+        "epoch896-offearth-location"
+      ],
+      "annotation_ids": [
+        "epochs-next-audit-1No6QI_qyfAe_92dzqdLua0IHRO_JxB8R"
+      ],
+      "remaining": "Do not infer longitude/latitude from UTC. Obtain explicit observer/frame and event-location policy plus independent fixture;author rhetorical speculation is not factual evidence of an event conspiracy.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "epoch929-imprint-scope",
+      "concept_ids": [
+        "epoch-imprint"
+      ],
+      "status": "EXPLICIT_NON_NATAL_NON_PERSONALITY_SCOPE",
+      "finding": "Original929 explicitly excludes natal energies,chart placement andpersonality-trait interpretation,and says CancerSubfocal does not determine good/bad family circumstances. Originals926-928 include broad generation claims and personal-sounding Focal/Subfocal examples;they do not override the explicit scope limits.",
+      "assertion_ids": [
+        "epoch929-not-natal-or-personality",
+        "epoch927-subfocal-example",
+        "epoch926-film-evidence-limit"
+      ],
+      "annotation_ids": [
+        "epochs-next-audit-1Q_tiHly5iyhTTcmdEMXfHWJ7sQUDYpNJ",
+        "epochs-next-audit-1eGIBpoluFMyOkIdaP8N9InMAGquhPnG8",
+        "epochs-next-audit-1z90YSsVuSXuuxZyf6tFfMoK_Kpkrf7xn",
+        "epochs-next-audit-1QoGZjhNSk52tfDgrKcXX1UGVln9NA48a"
+      ],
+      "remaining": "Keep attributed examples and exclusions together. No age-cohort stereotype,user biography,diagnosis or personal imprint/report approval follows;complete timing and evaluated contextual synthesis remain missing.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "agency935-940-outcome-certainty",
+      "concept_ids": [
+        "agency",
+        "objective-context"
+      ],
+      "status": "NONDEFINITIVE_LIMIT_AND_UNVALIDATED_HEALTH_COUNTERCLAIM",
+      "finding": "Original935 rejects definitive fortune-telling;934/936-937 warn against dependence and surrender of choice. Originals939-940 nevertheless claim death/birth foreknowledge and life-saving intervention from five-chart assessment. The retrospective anecdote supplies neither a controlled outcome dataset nor a verifiable counterfactual.",
+      "assertion_ids": [
+        "agency935-not-definitive",
+        "agency937-choice-and-dependence",
+        "agency940-health-anecdote-limit"
+      ],
+      "annotation_ids": [
+        "epochs-next-audit-1t-KKE-D2sX-uNKC1BOlC62J4M6o_QfYn",
+        "epochs-next-audit-17jh3itr1KSzdxQdA5xbnA3WH1uwj3qcs",
+        "epochs-next-audit-1P6nTwbERxpIJg_3kmFGo_eZc2pDT6hwc",
+        "epochs-next-audit-1keqKsyO-0cz-Iy1ICocvzg84qFlifeux",
+        "epochs-next-audit-1uaYDUdrCb7jAgR-AJu44XrvDMP5pTaFA",
+        "epochs-next-audit-1-3OHPdwrihhUVv3pzzNHM2aHoRJmvNgX"
+      ],
+      "remaining": "Preserve both caution and confidence claims without converting them into approved clinical,death or obstetric prediction. No user health inference,care decision rule or empirical efficacy is established by source review.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]
 }

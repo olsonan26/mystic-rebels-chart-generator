@@ -1,3 +1,13 @@
+## Current verified continuation: Eras, Phases and interpretation limits
+
+Read [2026-10-25_source-audit-era-phase-continuation.md](2026-10-25_source-audit-era-phase-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/epochs-next-verification.json` first. Current totals: **1,029 acquired IDs;1,028 successful OCR files;662 targeted images;230 assertions;539 annotations;8,820 checked of34,026 OCR locators;43 findings**. Remaining: **367 images,25,206 unchecked locators and one failed OCR item**. This batch adds50 images,16 assertions,50 annotations,1,124 locator checks andfive findings. No acquisition/OCR;all18 report sections remain unready,with131 concepts and207 requirements.
+
+Preserve the forward Era/Phase versus backward Age distinction, GeminiJanuary7/February8,2002 and Leo2031.932/December9,2033 conflicts,891running-header/body mismatch, off-Earth observer gap, explicit non-natal/non-personality imprint limits and935/939-940 outcome-certainty counterevidence. All 43 findings remain auditable; do not choose a date or elevate retrospective health anecdotes into validated prediction.
+
+Next **IMG_5621.JPG**, ID **1jADoqUNrX1qx3so3bOQmCivNJB-VX6FZ**. Image SHA256 `ee5363a67240e9f21597489d207055420216469255f797cd0377fa879ee0538f`; OCR SHA256 `0d728c2ed4925e639250acd03d83701fabed2d80cd9a4dfb11fb4719ea8cfda1`. Inspect before assigning printed header; start pending locator1 using exact queues. Earlier batches still need first reviews. Continue50-100 actual-image inspections plus deeper numeric/diagram checks, retain canonical declarations and report context, rebuild and validate. No re-download/re-OCR of completed assets, chart/UI/access edits, runtime approval, personal reports or deployment. Validated audit-only changes may be committed/pushed to the existing branch with automatic deployment disabled. Historical counts below are superseded.
+
+---
+
 ## Current verified continuation: Local Space travel and Astrological Epochs
 
 Read [2026-10-25_source-audit-epochs-continuation.md](2026-10-25_source-audit-epochs-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/post-locational-verification.json` first. Current totals supersede older counts: **1,029 acquired IDs;1,028 successful OCR files;612 targeted images;214 assertions;489 annotations;7,696 checked of34,026 OCR locators;38 named findings**. Remaining: **417 files,26,330 unchecked locators and one failed OCR item**. This batch added50 new image reviews,16 assertions,50 annotations and854 locator checks; no acquisition/OCR. All18 sections remain unready;131 concepts and207 requirements remain.

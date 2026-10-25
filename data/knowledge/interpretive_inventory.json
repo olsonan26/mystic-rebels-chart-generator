@@ -59,6 +59,9 @@
           "reflow_footer": 144,
           "page_text_sha256": "2322e6a1923f6fa74c9cdd4e2da07a252515c83f0fe4967709629c081757c459"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "agency935-940-outcome-certainty"
       ]
     },
     {
@@ -917,7 +920,8 @@
         }
       ],
       "line_reconciliation_finding_ids": [
-        "epoch887-boundary-dates"
+        "epoch887-boundary-dates",
+        "epoch900-909-phase-calendar"
       ]
     },
     {
@@ -2818,6 +2822,9 @@
           "reflow_footer": 473,
           "page_text_sha256": "7685f1406a9d23c0d49ae0c3be28657c8b591adcd2470a477a132fa3bfeba1a4"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "epoch896-offearth-observer"
       ]
     },
     {
@@ -5387,7 +5394,11 @@
         "sidereal839-unproven-anchoring",
         "epoch855-tilt-units-and-mechanics",
         "epoch865-rate-and-calendar",
-        "epoch887-boundary-dates"
+        "epoch887-boundary-dates",
+        "epoch900-909-phase-calendar",
+        "epoch891-running-header-and-time",
+        "epoch896-offearth-observer",
+        "epoch929-imprint-scope"
       ]
     },
     {
@@ -5605,6 +5616,9 @@
           "reflow_footer": 694,
           "page_text_sha256": "1165c13b20d41aafe83ed2ade18dad34d82aabaacac6f130731b8982124b1547"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "agency935-940-outcome-certainty"
       ]
     },
     {

@@ -2,7 +2,7 @@
 
 This is the master navigation path for the Mystic Rebels / Alchemystic Astrology work retained in this repository, from the original chart engine through the latest source audit. It brings earlier engineering, research, source recoveries, conflicts, validation and release records into one report-building reference. It indexes the saved work; it does not reconstruct unavailable conversations or imply that every source passage has been reviewed.
 
-Snapshot: 25 October 2026, extending baseline commit `486f78836b8bd623b72f7816a8b06c2f68b7f1ad` with the Local Space travel/Epochs continuation. See [the current verification](../evidence/source-pipeline/post-locational-verification.json). The linked JSON authorities and original evidence remain authoritative. Historical documents preserve what was known at their checkpoint; their counts and missing-source statements can be superseded by later review. This documentation update does not change calculation, interpretation, runtime approval or deployment status.
+Snapshot: 25 October 2026, extending baseline commit `c97fdc30a1a2a46e6963ed5a58d103be0890c966` with the Eras, Phases and interpretation-limits continuation. See [the current verification](../evidence/source-pipeline/epochs-next-verification.json). The linked JSON authorities and original evidence remain authoritative. Historical documents preserve what was known at their checkpoint; their counts and missing-source statements can be superseded by later review. This source-audit continuation does not change calculation, interpretation implementation, runtime approval or deployment status.
 
 - [Current retained knowledge and authorities](#current-retained-knowledge-and-authorities)
 - [Engineering and research already completed](#engineering-and-research-already-completed)
@@ -22,14 +22,14 @@ The audit builds a reusable, source-bound knowledge layer. Personal reports, sou
 | Original image file IDs acquired | 1,029 |
 | Successful OCR files | 1,028 |
 | Unresolved OCR failures | 1 |
-| Images with targeted visual review | 612 |
-| Selected atomic assertions | 214 |
-| Image-checked annotations | 489 |
-| Checked OCR locators | 7,696 |
+| Images with targeted visual review | 662 |
+| Selected atomic assertions | 230 |
+| Image-checked annotations | 539 |
+| Checked OCR locators | 8,820 |
 | Total OCR locators | 34,026 |
-| Unchecked OCR locators | 26,330 |
-| Images still requiring targeted review | 417 |
-| Named findings | 38 |
+| Unchecked OCR locators | 25,206 |
+| Images still requiring targeted review | 367 |
+| Named findings | 43 |
 | Thematic concept records | 131 |
 | Atomic report requirements | 207 |
 | Report sections | 18 |
@@ -43,10 +43,10 @@ Counts come from [the latest audit verification](../evidence/source-pipeline/pos
 | Acquisition/OCR stages | [data/knowledge/source_pipeline.json](../data/knowledge/source_pipeline.json) | Per-file processing outcomes and private asset identity |
 | Inspected printed headers and candidate mappings | [data/knowledge/original_page_map.json](../data/knowledge/original_page_map.json) | Original image identity, header review and qualified PDF leads |
 | Meanings, exceptions and dependencies | [data/knowledge/interpretive_inventory.json](../data/knowledge/interpretive_inventory.json) | All 131 concept records and 18 report-section roots |
-| Atomic source claims | [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json) | All 214 propositions, applicability, limits and original witnesses |
-| Image-checked observations | [data/knowledge/source_line_annotations.json](../data/knowledge/source_line_annotations.json) | All 489 observations tied to exact image/OCR identity |
+| Atomic source claims | [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json) | All 230 propositions, applicability, limits and original witnesses |
+| Image-checked observations | [data/knowledge/source_line_annotations.json](../data/knowledge/source_line_annotations.json) | All 539 observations tied to exact image/OCR identity |
 | Checked and pending OCR locators | [data/knowledge/source_line_reconciliation.json](../data/knowledge/source_line_reconciliation.json) | Coverage ledger; unchecked content remains explicit |
-| Conflicts and incomplete rules | [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json) | All 38 findings, counterevidence and remaining questions |
+| Conflicts and incomplete rules | [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json) | All 43 findings, counterevidence and remaining questions |
 | Printed-page duplicate handling | [data/knowledge/source_visual_duplicate_groups.json](../data/knowledge/source_visual_duplicate_groups.json) | Distinct file identities retained for duplicate-page groups |
 | Source examples | [data/knowledge/worked_examples.json](../data/knowledge/worked_examples.json) | 30 examples with source facts and limits |
 | Calculation/workflow capabilities | [data/knowledge/capabilities.json](../data/knowledge/capabilities.json) | 44 separate capability dispositions, implementation paths and tests |
@@ -105,7 +105,8 @@ The sequence below preserves cumulative checkpoints. Read each linked record for
 | 150-image deeper continuation | [docs/2026-10-25_source-audit-deeper-continuation.md](../docs/2026-10-25_source-audit-deeper-continuation.md) | 462 targeted images; 170 assertions; 331 annotations; 4,977 checked locators; 26 findings. |
 | 50-image Parts/asteroids continuation | [docs/2026-10-25_source-audit-parts-asteroids-continuation.md](../docs/2026-10-25_source-audit-parts-asteroids-continuation.md) | 512 targeted images; 182 assertions; 386 annotations; 5,859 checked locators; 29 findings. |
 | 50-image locational continuation | [docs/2026-10-25_source-audit-locational-continuation.md](../docs/2026-10-25_source-audit-locational-continuation.md) | 562 targeted images; 198 assertions; 439 annotations; 6,842 checked locators; 33 findings. |
-| 50-image Local Space travel/Epochs continuation | [Current continuation](../docs/2026-10-25_source-audit-epochs-continuation.md) | 612 targeted images; 214 assertions; 489 annotations; 7,696 checked locators; 38 findings. |
+| 50-image Local Space travel/Epochs continuation | [Prior continuation](../docs/2026-10-25_source-audit-epochs-continuation.md) | 612 targeted images; 214 assertions; 489 annotations; 7,696 checked locators; 38 findings. |
+| 50-image Eras/Phases and interpretation-limits continuation | [Current continuation](../docs/2026-10-25_source-audit-era-phase-continuation.md) | 662 targeted images; 230 assertions; 539 annotations; 8,820 checked locators; 43 findings. |
 
 ### Earlier recoveries and interpretation context
 
@@ -122,11 +123,13 @@ The locational continuation retains these report-critical dependencies:
 - Printed 790-791: Delegate condition, full relocated chart, natal assessment and the person's purpose for moving precede line interpretation.
 - Printed 796-797 and 805: HR/HS/AP/SA sky roles differ from zodiacal AC/DC/MC/IC contacts; signs, houses and rulers still shape expression after chart assessment.
 - Printed 808 and 812: natal Paran imprint is retained separately from the new location's added Parans; selection epoch and event-window ambiguity remain open.
-- Printed 813: Capricorn Field â†’ Aries Tone â†’ ruler Mars â†’ Cancer Field/Libra Tone â†’ Apex role is retained as a worked context chain.
+- Printed 813: Capricorn Field ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Aries Tone ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ ruler Mars ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Cancer Field/Libra Tone ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Apex role is retained as a worked context chain.
 - Printed 817: the Visibility Spectrum is explicitly unproven research; no operational rule is inferred from it.
 - Printed 828-835: Local Space origin, true-north azimuth, direction, output/receipt and physical-travel scope are retained; natal imprint is not overwritten when a new origin is calculated.
 
-The Local Space travel/Epochs continuation adds stopover-origin timing limits, expressly untested Sidereal Anchoring, tilt percent/degree wording, internal rate/calendar arithmetic differences and conflicting Age/Decan dates. Collective historical context remains distinct from individual natal interpretation; successful OCR of rotated printed843 is not usable prose. See [the current source report](2026-10-25_source-audit-epochs-continuation.md) for exact passages and qualifications.
+The Local Space travel/Epochs continuation adds stopover-origin timing limits, expressly untested Sidereal Anchoring, tilt percent/degree wording, internal rate/calendar arithmetic differences and conflicting Age/Decan dates. Collective historical context remains distinct from individual natal interpretation; successful OCR of rotated printed843 is not usable prose. See [the prior Local Space/Epochs report](2026-10-25_source-audit-epochs-continuation.md) for exact passages and qualifications.
+
+The Eras/Phases continuation preserves forward subdivisions, explicit non-natal/non-personality imprint exclusions, additional calendar conflicts and the limits of retrospective outcome claims. See [the current source report](2026-10-25_source-audit-era-phase-continuation.md) and all 43 named findings below.
 
 These summaries are navigation aids. The complete concept/assertion/finding indexes below retain the saved wording, dependencies and limits; the linked authorities retain exact hashes and all witnesses.
 
@@ -585,7 +588,7 @@ Authority: [data/knowledge/material_requirements.json](../data/knowledge/materia
 </details>
 
 <details>
-<summary>All 214 selected atomic source assertions</summary>
+<summary>All 230 selected atomic source assertions</summary>
 
 Authority: [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json). Source-faithfulness records retain execution/personal-answer restrictions. Exact provider IDs and image hashes remain in canonical witnesses.
 
@@ -805,6 +808,22 @@ Authority: [data/knowledge/original_assertions.json](../data/knowledge/original_
 | epoch862-ai-history-limit | epoch-imprint | Original862 acknowledges20-25 ChatGPT calculation passes and historical data sorting errors while describing Epochs as collective environmental context. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Repeated AI agreement and a peer-review invitation are not independent mathematical,historical or predictive verification. | objective-context | IMG_5543.JPG [printed 862] |
 | epoch857-lahiri-model-distinction | epoch-imprint | Original857 attributes March20,2439 to Lahiri before critique; IMG5545 moves the author's own anchor to2330.2145547945. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Keep compared models and the author's retraction context distinct rather than treating every different model date as the same internal contradiction. | objective-context | IMG_5526.JPG [printed 845]; IMG_5538.JPG [printed 857]; IMG_5545.JPG [printed UNKNOWN_CROPPED_HEADER] |
 | epoch865-calendar-counterevidence | epoch-imprint | Original865 labels182.5832763945 as August1,182CE Gregorian and July30Julian,then refers to an interval ending August2,182CE. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve the printed one-day difference; conversion rules,year fractions and actual equinox times require independent verification before an exact boundary is implemented. | objective-context | IMG_5546.JPG [printed 865] |
+| epoch889-forward-subdivisions | epoch-imprint | Each Age contains12 equal forward Aries-through-Pisces Eras, and each Era contains12 Phases just under15years; this differs from backward Age motion. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Keep Age,Era,Phase and their Pulse layers separate; direction does not resolve the recorded date/rate conflicts. | tone-pulse | IMG_5570.JPG [printed 889]; IMG_5571.JPG [printed 890] |
+| epoch891-era-constants | epoch-imprint | Printed891 gives Aries182.5832763945,Aquarius1972.2760083945,Pisces2151.2452815945 and next-Age Aries2330.2145547945 as decimal-year anchors,with twelve forward Era entries. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The running header visibly says VESTA(4) despite Epoch table content; do not infer the subject from a running header or assume calendar/timescale conversions are validated. | objective-context | IMG_5572.JPG [printed 891] |
+| epoch900-gemini-date-conflict | epoch-imprint | Original900 gives GeminiPhase2002.104-2017.018 and BeginsJanuary7,2002;910 and914 explicitly give February8,2002 as the Gemini Phase/first-Decan start. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Retain both calendar labels and the decimal year; no author erratum or approved boundary selector is established. | tone-pulse, objective-context | IMG_5581.JPG [printed 900]; IMG_5591.JPG [printed 910]; IMG_5595.JPG [printed 914] |
+| epoch909-leo-date-conflict | epoch-imprint | Original909 pairs LeoPhase2031.932-2046.847 with BeginsDecember9,2033;900 ends Cancer at2031.932 and923 ends Cancer's third Decan December7,2031. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve the two-year/date difference rather than silently correcting a typographical error; no precise future transition is approved. | tone-pulse, objective-context | IMG_5581.JPG [printed 900]; IMG_5590.JPG [printed 909]; IMG_5604.JPG [printed 923] |
+| epoch901-anchor-margin | epoch-imprint | Original901 retains January7,2017 Cancer start but qualifies its future anchor as possibly off through calendar conversion and Aquarius29:58-29:59 rather than29:59:59. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The author expressly leaves a subtle variance unresolved; precision wording does not establish exact boundary ownership or physical reference fixtures. | fringe-fca, objective-context | IMG_5582.JPG [printed 901] |
+| epoch908-layered-snapshot | epoch-imprint | The source's June2025 example nests PiscesAge/PiscesAgePulse,AquariusEra/AquariusEraPulse,CancerPhase/ScorpioPhasePulse,LibraFocal andCapricornSubfocal. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | This is a source editing-date snapshot,not a current sky claim; no exact automated selector or user-specific imprint is validated. | tone-pulse | IMG_5589.JPG [printed 908] |
+| epoch910-phase-pulse-sequence | epoch-imprint | Gemini Phase-Pulses run Gemini,Libra,Aquarius;Cancer Phase-Pulses run Cancer,Scorpio,Pisces,with the latter table ending December7,2031. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | These forward same-element Phase sequences remain separate from reverse Scorpio-Cancer-Pisces Age-Pulse order and conflicting calendar labels. | tone-pulse | IMG_5591.JPG [printed 910]; IMG_5604.JPG [printed 923] |
+| epoch914-free-directed-context | epoch-imprint | Phase/Pulse interpretation explicitly retains all FREE Theory relationships: Gemini's Sagittarius opposition,Pisces square-from,Virgo square-to,Aquarius trine-from andLibra trine-to. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not reduce this to a symmetric opposition label or a solitary keyword; preserve hierarchy,energy direction and source limits. | free-theory, directional-context | IMG_5595.JPG [printed 914] |
+| epoch923-focal-pulse-distinction | epoch-imprint | Phase Focals are introduced as another division overlapping three Phase-Pulses;the example is AriesPhase/SagittariusFocal March19,1982-June17,1983. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not equate a Focal with a Pulse or natal degree Spark; complete division count,epoch,boundary tolerance and numerical fixtures are not supplied by this passage. | tone-pulse | IMG_5604.JPG [printed 923] |
+| epoch927-subfocal-example | epoch-imprint | The author places his1982 birth in PiscesAge,AquariusEra,AriesPhase,SagittariusPulse/Focal and says two hours after a CancerSubfocal start forms a Gemini-Cancer FCA hybrid. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | This anecdote is not an independent timestamp fixture or a complete universal Subfocal width/activation rule; it describes the author,not the user. | fringe-fca | IMG_5608.JPG [printed 927]; IMG_5609.JPG [printed 928] |
+| epoch929-not-natal-or-personality | epoch-imprint | Original929 explicitly says Epoch energies are not natal energies,not chart placements and not personality traits;CancerSubfocal does not mean a family situation is good or bad. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve these exclusions alongside the personal-sounding928-929 examples; no user biography,psychological diagnosis or generational stereotype follows. | objective-context | IMG_5610.JPG [printed 929] |
+| epoch896-offearth-location | epoch-imprint | The source's off-Earth Moonlanding example says use London for UTC time location and calls theJuly20,1969at8:17pm chart CapricornRising. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | A time standard does not itself select an observer; Earth/Lunar frame and event-location convention need explicit specification and independent numerical checks. | election-horary | IMG_5577.JPG [printed 896] |
+| epoch926-film-evidence-limit | epoch-imprint | The1982Focal discussion selects several film examples and then claims all were June1982,since the author was born that month. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | No independently verified release/production/reception dataset or fixed event-stage selection is supplied; retrospective symbolic fit is not prospective predictive validation. | objective-context | IMG_5604.JPG [printed 923]; IMG_5605.JPG [printed 924]; IMG_5606.JPG [printed 925]; IMG_5607.JPG [printed 926] |
+| agency935-not-definitive | agency | The closing discussion rejects definitive fortune-telling and surrendering free will;body,aspect andruler context precedes asking how to respond to possible expressions. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not turn estimates or symbolic interpretation into guaranteed events;context and cited alternatives remain required. | objective-context | IMG_5614.JPG [printed 934]; IMG_5615.JPG [printed 935] |
+| agency937-choice-and-dependence | agency | The author warns about depending on astrology for every decision and emphasizes action rather than outsourcing choice to fate. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | These cautions are source guidance,not evidence that the user is dependent or has a mental-health condition;no clinical or universal transit-duration rule follows. | objective-context | IMG_5616.JPG [printed 936]; IMG_5617.JPG [printed 937] |
+| agency940-health-anecdote-limit | agency | Original939-940 claims a birth/death outcome was foreseen across five charts and prevented by a caregiver choice,while935 says interpretations are not definitive. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve the source claim and its nondeterministic counterevidence without treating retrospective counterfactuals as medical efficacy,death foreknowledge,obstetric advice or an approved predictive rule. | objective-context, derivatives | IMG_5619.JPG [printed 939]; IMG_5620.JPG [printed 940] |
 
 </details>
 
@@ -849,7 +868,7 @@ Authority: [data/knowledge/worked_examples.json](../data/knowledge/worked_exampl
 </details>
 
 <details>
-<summary>All 38 named findings and unresolved questions</summary>
+<summary>All 43 named findings and unresolved questions</summary>
 
 Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json). Recovered wording does not erase counterevidence or approve execution.
 
@@ -893,6 +912,11 @@ Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/sourc
 | epoch855-tilt-units-and-mechanics | epoch-imprint, declination | SOURCE_UNIT_CONFLICT_AND_UNVERIFIED_MECHANICS | Original855 prose visibly prints23.66percent maximum tilt while its drawing marks23.66degrees Axial Perisol and22.1degrees Axial Aposol. Earlier851 cites22.1-24.5degrees/41000years;854 rejects24.5;856 proposes fixed cosmic-axis and solar-magnetizing mechanisms. These are source claims,not independent astronomical evidence. | Retain percent/degree branches and source-qualified changes of claim. Author clarification plus independent astronomy/model fixtures are required; do not silently correct units or change ephemeris/obliquity calculations. | epoch855-tilt-unit-conflict |
 | epoch865-rate-and-calendar | epoch-imprint | INTERNAL_ARITHMETIC_AND_DATE_DISCREPANCIES | Original865 gives304.9970907945years and50.2976646arcsec/year yet4.260505degrees; literal product is4.26128927132153014575degrees,2.8233767575085247arcsec higher. Its August1,182Gregorian/July30Julian label also differs from its later August2 reference. Original866 retains4:15:37.82versus alternate181CE/noonUTC4:14:29. IMG5545 anchor body is readable but its printed header is cropped; do not manufacture a printed864 witness. | Specify exact year fraction,timescale,calendar and precession model; obtain reproducible primary numerical references for the claimed NASA/USNO support. Arithmetic check does not identify a scientifically correct anchor or authorize a preferred branch. | epoch5545-alchemystic-anchor, epoch865-rate-output-conflict, epoch866-alternate-anchor, epoch865-calendar-counterevidence |
 | epoch887-boundary-dates | epoch-imprint, tone-pulse | COMPETING_AGE_AND_DECAN_BOUNDARIES | Original887 gives Pisces Age184-2332CE and first Decan around1616CE;888 headings instead give Scorpio182-898CE and Cancer898-1614CE. Originals865 and IMG5545 use182.5832763945/2330.2145547945 anchors. Reversed Scorpio-Cancer-Pisces order is scoped to Ages and does not resolve these competing dates. | Retain all date branches,approximation labels,chart context and version precedence questions. No exact Age/Decan selector or personal birth-era imprint is approved. | epoch881-reversed-pulses, epoch887-date-counterevidence |
+| epoch900-909-phase-calendar | epoch-imprint, tone-pulse | COMPETING_PHASE_CALENDAR_AND_YEAR_LABELS | Original900 labels Gemini2002.104 as January7,2002;910/914 explicitly say February8,2002. Original909 labels Leo2031.932 start as December9,2033,while900 ends Cancer2031.932 and923 gives December7,2031. These are original-image differences,not inferred OCR corrections. | Retain both branches and future-anchor/calendar margin on901. Author/version clarification,decimal-year convention and independent time conversion are needed before any exact Phase selector. | epoch900-gemini-date-conflict, epoch909-leo-date-conflict, epoch910-phase-pulse-sequence |
+| epoch891-running-header-and-time | epoch-imprint | HEADER_BODY_MISMATCH_AND_TIME_CONVENTION_UNVERIFIED | Printed891 visibly says VESTA(4) as running header while the body lists twelve Epoch Era anchors in decimal years and Gregorian dates. Consecutive decimal anchors differ178.9692732years; twelve equal steps reproduce2147.6312784years. This internal arithmetic does not verify the printed Gregorian dates,23hUTC/London comparison or physical precession model. | Use body context and inspected891 identifier without reclassifying as Vesta doctrine. Specify decimal-year origin,year length,calendar,timescale and observer conventions;preserve rather than replace original conversion claims. | epoch891-era-constants, epoch889-forward-subdivisions |
+| epoch896-offearth-observer | epoch-imprint, election-horary | OFF_EARTH_OBSERVER_CONVENTION_INCOMPLETE | Original896 says to use London for UTC time location for an off-Earth event and gives CapricornRising for8:17pmJuly20,1969. The source does not resolve whether London is a conventionally substituted Earth observer,the actual event location or merely a time-zone reference. | Do not infer longitude/latitude from UTC. Obtain explicit observer/frame and event-location policy plus independent fixture;author rhetorical speculation is not factual evidence of an event conspiracy. | epoch896-offearth-location |
+| epoch929-imprint-scope | epoch-imprint | EXPLICIT_NON_NATAL_NON_PERSONALITY_SCOPE | Original929 explicitly excludes natal energies,chart placement andpersonality-trait interpretation,and says CancerSubfocal does not determine good/bad family circumstances. Originals926-928 include broad generation claims and personal-sounding Focal/Subfocal examples;they do not override the explicit scope limits. | Keep attributed examples and exclusions together. No age-cohort stereotype,user biography,diagnosis or personal imprint/report approval follows;complete timing and evaluated contextual synthesis remain missing. | epoch929-not-natal-or-personality, epoch927-subfocal-example, epoch926-film-evidence-limit |
+| agency935-940-outcome-certainty | agency, objective-context | NONDEFINITIVE_LIMIT_AND_UNVALIDATED_HEALTH_COUNTERCLAIM | Original935 rejects definitive fortune-telling;934/936-937 warn against dependence and surrender of choice. Originals939-940 nevertheless claim death/birth foreknowledge and life-saving intervention from five-chart assessment. The retrospective anecdote supplies neither a controlled outcome dataset nor a verifiable counterfactual. | Preserve both caution and confidence claims without converting them into approved clinical,death or obstetric prediction. No user health inference,care decision rule or empirical efficacy is established by source review. | agency935-not-definitive, agency937-choice-and-dependence, agency940-health-anecdote-limit |
 
 </details>
 
@@ -902,7 +926,7 @@ Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/sourc
 
 The retained release history includes the Gradity/knowledge-control foundation and later audit-data promotion to the existing production project. The source-audit production receipt records deployed source commit `e323507b671f419e882d9a6138790db230051684`, deployment `dpl_CNxKZhzbK2zM8z1qaXWYTHTGnGMv`, exact committed-byte verification of 17 knowledge files, preserved password access and unchanged sampled chart output. That deployed audit snapshot contained 462 targeted image reviews and 170 assertions.
 
-The later Parts/asteroid, locational and current Local Space travel/Epochs audits increased saved totals to 612 targeted images and 214 assertions. These later audits have no deployment approval; prior continuations were pushed without deployment. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
+The later Parts/asteroid, locational and current Local Space travel/Epochs audits increased saved totals to 662 targeted images and 230 assertions. These later audits have no deployment approval; prior continuations were pushed without deployment. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
 
 Use [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_source-audit-production-release.md), [evidence/source-pipeline/production-deployment-2026-10-25.json](../evidence/source-pipeline/production-deployment-2026-10-25.json), [evidence/source-pipeline/deployment-file-integrity.json](../evidence/source-pipeline/deployment-file-integrity.json) and [docs/SITE_ACCESS.md](../docs/SITE_ACCESS.md) for the historical release/access evidence. Saved chart storage configuration or migration files do not establish independently verified live storage. Earlier release and verification records remain indexed below.
 
@@ -910,7 +934,7 @@ Use [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_sour
 
 Original photographs, full candidate OCR, source PDFs and local SQLite indexes are retained privately under ignored `reference/` paths. Public Git stores provenance, reviewed summaries, authored declarations, knowledge records, queues and validation evidence. Private source text, originals and credentials are excluded from publication.
 
-The saved 25 October presence check confirms all 1,029 acquired image files, all 1,028 successful OCR files and both local indexes present. All 214 assertions have original witnesses and remain unapproved for personal answers. This establishes recorded local retention, not an independently verified backup. A fresh checkout requires restoring private assets from the retained collection or provider, then verifying the recorded hashes before relying on them.
+The saved 25 October presence check confirms all 1,029 acquired image files, all 1,028 successful OCR files and both local indexes present. All 230 assertions have original witnesses and remain unapproved for personal answers. This establishes recorded local retention, not an independently verified backup. A fresh checkout requires restoring private assets from the retained collection or provider, then verifying the recorded hashes before relying on them.
 
 Use [evidence/source-pipeline/profile-report-knowledge-readiness.json](../evidence/source-pipeline/profile-report-knowledge-readiness.json) for the presence/hash snapshot and [docs/SOURCE_REVIEW_PIPELINE.md](../docs/SOURCE_REVIEW_PIPELINE.md) for restoration/acquisition and indexing procedure. No private content has been copied into this master path.
 
@@ -919,13 +943,14 @@ Use [evidence/source-pipeline/profile-report-knowledge-readiness.json](../eviden
 The following inventories cover tracked documentation and evidence reachable in this repository at the snapshot commit. Historical artifacts are preserved as evidence of their own checkpoint; later authorities control current counts and dispositions. The source files, tests and scripts referenced by those documents remain part of the repository.
 
 <details>
-<summary>All 23 other tracked project documents</summary>
+<summary>All 24 other tracked project documents</summary>
 
 - [docs/2026-10-25_full-queue-line-reconciliation.md](../docs/2026-10-25_full-queue-line-reconciliation.md)
 - [docs/2026-10-25_mystic-knowledge-audit-report.md](../docs/2026-10-25_mystic-knowledge-audit-report.md)
 - [docs/2026-10-25_source-audit-100-image-continuation.md](../docs/2026-10-25_source-audit-100-image-continuation.md)
 - [docs/2026-10-25_source-audit-deeper-continuation.md](../docs/2026-10-25_source-audit-deeper-continuation.md)
 - [docs/2026-10-25_source-audit-epochs-continuation.md](../docs/2026-10-25_source-audit-epochs-continuation.md)
+- [docs/2026-10-25_source-audit-era-phase-continuation.md](../docs/2026-10-25_source-audit-era-phase-continuation.md)
 - [docs/2026-10-25_source-audit-locational-continuation.md](../docs/2026-10-25_source-audit-locational-continuation.md)
 - [docs/2026-10-25_source-audit-parts-asteroids-continuation.md](../docs/2026-10-25_source-audit-parts-asteroids-continuation.md)
 - [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_source-audit-production-release.md)
@@ -1262,7 +1287,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>source-pipeline: all 52 tracked evidence artifacts</summary>
+<summary>source-pipeline: all 58 tracked evidence artifacts</summary>
 
 - [evidence/source-pipeline/axis-audit-import.json](../evidence/source-pipeline/axis-audit-import.json)
 - [evidence/source-pipeline/checkpoint-audit-tests.xml](../evidence/source-pipeline/checkpoint-audit-tests.xml)
@@ -1277,6 +1302,12 @@ The following inventories cover tracked documentation and evidence reachable in 
 - [evidence/source-pipeline/deployment-live-after.json](../evidence/source-pipeline/deployment-live-after.json)
 - [evidence/source-pipeline/deployment-live-before.json](../evidence/source-pipeline/deployment-live-before.json)
 - [evidence/source-pipeline/directional-audit-import.json](../evidence/source-pipeline/directional-audit-import.json)
+- [evidence/source-pipeline/epochs-next-arithmetic.json](../evidence/source-pipeline/epochs-next-arithmetic.json)
+- [evidence/source-pipeline/epochs-next-audit-import.json](../evidence/source-pipeline/epochs-next-audit-import.json)
+- [evidence/source-pipeline/epochs-next-preservation.json](../evidence/source-pipeline/epochs-next-preservation.json)
+- [evidence/source-pipeline/epochs-next-regeneration.json](../evidence/source-pipeline/epochs-next-regeneration.json)
+- [evidence/source-pipeline/epochs-next-tests.xml](../evidence/source-pipeline/epochs-next-tests.xml)
+- [evidence/source-pipeline/epochs-next-verification.json](../evidence/source-pipeline/epochs-next-verification.json)
 - [evidence/source-pipeline/foundation-audit-import.json](../evidence/source-pipeline/foundation-audit-import.json)
 - [evidence/source-pipeline/git-byte-integrity.json](../evidence/source-pipeline/git-byte-integrity.json)
 - [evidence/source-pipeline/line-review-queue.json](../evidence/source-pipeline/line-review-queue.json)
@@ -1337,7 +1368,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>All 32 reachable commits through the pre-batch baseline</summary>
+<summary>All 33 reachable commits through the pre-batch baseline</summary>
 
 | Commit | Commit date | Saved change |
 |---|---|---|
@@ -1373,6 +1404,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 | f711fd9b8f2809c79b2071f20b8b086193545737 | 2026-10-25 | Audit 50 additional source images and preserve Parts and Chiron counterevidence |
 | fc6898ca64343412dac9c58fd667413cb3bed63b | 2026-10-25 | Audit 50 locational source images and document profile report knowledge path |
 | 486f78836b8bd623b72f7816a8b06c2f68b7f1ad | 2026-10-25 | Document complete retained profile report knowledge history |
+| c97fdc30a1a2a46e6963ed5a58d103be0890c966 | 2026-10-25 | Audit 50 Local Space travel and epoch source images |
 
 </details>
 
@@ -1380,8 +1412,8 @@ The following inventories cover tracked documentation and evidence reachable in 
 
 Start with the current JSON authorities and latest continuation verification, then consult older documents for their retained evidence. Do not restart the engine or rebuild the knowledge from chat summaries. Preserve primary/secondary source distinctions, all conflicting branches and current personal-use restrictions.
 
-For the next source review, use [docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md](../docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md), [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json) and [evidence/source-pipeline/line-review-queue.json](../evidence/source-pipeline/line-review-queue.json). The latest checkpoint has 417 images still requiring targeted review, one failed OCR item and 26,330 unchecked OCR locators. Do not re-download or re-OCR verified completed assets without a concrete failure or missing-asset reason.
+For the next source review, use [docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md](../docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md), [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json) and [evidence/source-pipeline/line-review-queue.json](../evidence/source-pipeline/line-review-queue.json). The latest checkpoint has 367 images still requiring targeted review, one failed OCR item and 25,206 unchecked OCR locators. Do not re-download or re-OCR verified completed assets without a concrete failure or missing-asset reason.
 
 After authored source changes, follow the builder and validator sequence in [docs/SOURCE_REVIEW_PIPELINE.md](../docs/SOURCE_REVIEW_PIPELINE.md), including line reconciliation and its verifier. Re-run the applicable audit integrity checks, inspect changed paths, preserve prior validation receipts and refresh the affected index rows and counts here. Reproducible source declarations and canonical records are the durable knowledge; this path makes them discoverable.
 
-The current source-audit receipt records fresh regression results, identical regeneration and retrieval of all 38 findings through 26 concept packets. This continuation includes 50 targeted image reviews and selected source arithmetic checks, but no interpretation implementation or production release. These checks do not validate personal report output.
+The current source-audit receipt records fresh regression results, identical regeneration and retrieval of all 43 findings through 27 concept packets. This continuation includes 50 targeted image reviews and selected source arithmetic checks, but no interpretation implementation or production release. These checks do not validate personal report output.
