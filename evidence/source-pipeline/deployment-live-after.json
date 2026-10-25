@@ -1,0 +1,31 @@
+{
+  "host": "https://www.cosmodynamicschart.site",
+  "anonymous_page_status": 303,
+  "anonymous_api_status": 401,
+  "password_unchanged_accepted": true,
+  "secure_session": true,
+  "point_count": 74,
+  "available_count": 72,
+  "asset_scripts": [
+    "/assets/index-PZSEoVns.js"
+  ],
+  "existing_runtime_configuration_exact": true,
+  "runtime_python_version": "3.12.14",
+  "all_existing_live_point_fields_exact": true,
+  "capability_records": 44,
+  "full_batch_coverage_claimed": false,
+  "example_phases": {
+    "Sun": null,
+    "Moon": null,
+    "Mercury": "Pregrade",
+    "Venus": "Prograde",
+    "Mars": "Prograde",
+    "Jupiter": "Postgrade",
+    "Saturn": "Retrograde",
+    "Uranus": "Retrograde",
+    "Neptune": "Retrograde",
+    "Pluto": "Retrograde"
+  },
+  "real_host_pregrade_api_verified": true,
+  "deployed_bundle_matches_tested_build": true
+}

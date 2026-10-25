@@ -1,0 +1,94 @@
+{
+  "source_commit": "e323507b671f419e882d9a6138790db230051684",
+  "deployment_id": "dpl_CNxKZhzbK2zM8z1qaXWYTHTGnGMv",
+  "knowledge_files_verified": 17,
+  "knowledge_files": [
+    {
+      "path": "data/knowledge/capabilities.json",
+      "sha256": "011d9ee1ad317116c4ff6d67b3fb59b8378f096b504f1c57eb404b6ba5da8e4c",
+      "vercel_file_uid": "912540e3a2aabeb42552150a4bb1d21a427a1238"
+    },
+    {
+      "path": "data/knowledge/interpretive_inventory.json",
+      "sha256": "f2c4f692d0adea11e0d13193ea01edf2fec9e14a2b85869f2fe178eb18c33bb9",
+      "vercel_file_uid": "6c5d0cd20d2a54dad484e2060d57300756ad2d61"
+    },
+    {
+      "path": "data/knowledge/material_requirements.json",
+      "sha256": "3ff21bbfef189520ceb91da48c278c8994965d5022c946e17945951dd86eea6f",
+      "vercel_file_uid": "7572d3a90e68ad9fcb11e75d500f2e2a506d5370"
+    },
+    {
+      "path": "data/knowledge/original_assertions.json",
+      "sha256": "b9dbd204e052a2623b88c6f3b8a7ccda80688427fd529891a170b0da2f19636e",
+      "vercel_file_uid": "e0f68eeb080e2daed49ac750faa9b1281538aaa0"
+    },
+    {
+      "path": "data/knowledge/original_page_map.json",
+      "sha256": "7198296e31d483d2c88db11b84c7edd7e341c7c21cbc189a792190e56b76bd70",
+      "vercel_file_uid": "a91c5c3324c0f93f569f64bb4dc2b4edddee0e13"
+    },
+    {
+      "path": "data/knowledge/source_assertion_additions.tsv",
+      "sha256": "3758c7c91e58403a84bef1f013a9877096d618773876d0f6d76e944b29758f40",
+      "vercel_file_uid": "1bbbf6f70b7bffe9e1c7aa12435dc37e5af69483"
+    },
+    {
+      "path": "data/knowledge/source_blocker_findings.json",
+      "sha256": "b98672a1ffc064bd34b8d7175a5ae0ef2644af2a6ba88ca45da5e2d4c1fb8697",
+      "vercel_file_uid": "734cd1ea0aecf11c32e801622a04e2ccd59bae71"
+    },
+    {
+      "path": "data/knowledge/source_line_annotations.json",
+      "sha256": "5b8dd143632c985f7f7d804a65337bcb6170683cd8ab684ec746b3ed000c766d",
+      "vercel_file_uid": "aba217eeb1d44106d77586148596d5c7689fce60"
+    },
+    {
+      "path": "data/knowledge/source_line_reconciliation.json",
+      "sha256": "e080c819a7f249ca61a27ffe19694a57e3cc75b325fe32686e692a51ed6874b8",
+      "vercel_file_uid": "e681afa5b63b3a73c72a18087aac5d6e2890f3c1"
+    },
+    {
+      "path": "data/knowledge/source_manifest.json",
+      "sha256": "e6819b00dc3a85e81f17ea9a375b82cfb603cf0cb6bf0ad6442ee48ec331373e",
+      "vercel_file_uid": "7bb199973d41c1abc2bc6e49fff407c03c6b1e85"
+    },
+    {
+      "path": "data/knowledge/source_pipeline.json",
+      "sha256": "600a3d5c304c1e7fdd3f31c31a3802cff15b4e3fba5331214d4086703a6014a1",
+      "vercel_file_uid": "37ee538dc9ddec5292515b5426f12aa8eeebe2c4"
+    },
+    {
+      "path": "data/knowledge/source_quality_issues.json",
+      "sha256": "7048fa9f6986cf11b0707a1fd17f3d2bccdd5931a901dd62b788fcc632c0a3b3",
+      "vercel_file_uid": "08fb7c8cc192e5b523eb194a1664962abb5e6adc"
+    },
+    {
+      "path": "data/knowledge/source_review_batch_notes.tsv",
+      "sha256": "97cebc6f401df6e83f702f52576d9adf8ad548ee3ca4630e13204a67d631ee14",
+      "vercel_file_uid": "988bd071ea375ae3772a7b7145f3e9fe07a4e13b"
+    },
+    {
+      "path": "data/knowledge/source_review_continuation.json",
+      "sha256": "c033ec391cf74c5178f3cf975753d8eb791b19df4c2942671609b9ac53c75e84",
+      "vercel_file_uid": "39379288ccae36cb0c37852def209fe31ff1f279"
+    },
+    {
+      "path": "data/knowledge/source_review_updates.json",
+      "sha256": "fd8bacb16fc1ce6f5f446d47cee455923011c9e732f07cc059ca95a6a2ad7a2f",
+      "vercel_file_uid": "300a9a54601be115dcc42884679e54db1228d94f"
+    },
+    {
+      "path": "data/knowledge/source_visual_duplicate_groups.json",
+      "sha256": "ffcc51bb0f1b9ca776f87e7ead3447fd2c61f9c92cb8a9852d4b8ceeb916433b",
+      "vercel_file_uid": "349f74902b6600232b35efa076ef9f8a52f3f187"
+    },
+    {
+      "path": "data/knowledge/worked_examples.json",
+      "sha256": "afbba5a4d61a7757fd2f84c89c6c2929f089942780523e1ea898197ccfff19db",
+      "vercel_file_uid": "ece6cacd5b29f0ab79dd401bc17945d789e75d75"
+    }
+  ],
+  "private_source_images_and_ocr_excluded": true,
+  "comparison_basis": "Exact committed git archive bytes"
+}

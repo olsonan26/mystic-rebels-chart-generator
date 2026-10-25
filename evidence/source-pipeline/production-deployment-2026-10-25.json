@@ -1,0 +1,52 @@
+{
+  "status": "PRODUCTION_DEPLOYED_AND_VERIFIED",
+  "verified_at_utc": "2026-10-25T15:02:40.187017+00:00",
+  "source_commit": "e323507b671f419e882d9a6138790db230051684",
+  "branch": "codex/methodology-verification-20261024",
+  "project_id": "prj_MBgBhgCUjxUwJ8OZO9OrqDqK4Vwl",
+  "team_id": "team_8iuNbs04mGL8bwcfLrYefuKD",
+  "deployment_id": "dpl_CNxKZhzbK2zM8z1qaXWYTHTGnGMv",
+  "deployment_url": "https://mystic-rebels-chart-generator-3cwrf3cc3-astro-ac32.vercel.app",
+  "production_url": "https://www.cosmodynamicschart.site",
+  "verified_aliases": [
+    "mystic-rebels-chart-generator-astro-ac32.vercel.app",
+    "mystic-rebels-chart-generator-seven.vercel.app",
+    "cosmodynamicschart.site",
+    "www.cosmodynamicschart.site"
+  ],
+  "knowledge_files_exact_committed_bytes": 17,
+  "audit_counts": {
+    "acquired_ids": 1029,
+    "ocr_success": 1028,
+    "ocr_failed": 1,
+    "targeted_images": 462,
+    "selected_assertions": 170,
+    "annotations": 331,
+    "checked_ocr_lines": 4977,
+    "ocr_lines": 34026,
+    "unchecked_ocr_lines": 29049,
+    "remaining_targeted_file_reviews": 567,
+    "named_findings": 26,
+    "thematic_records": 131,
+    "requirements": 207,
+    "sections": 18,
+    "ready_sections": 0
+  },
+  "checks": {
+    "frontend_tests_passed": 33,
+    "frontend_test_files": 6,
+    "production_build": "PASS",
+    "verify_line_reconciliation": "PASS",
+    "verify_audit_evidence": "PASS",
+    "verify_source_pipeline": "PASS",
+    "live_verification": "evidence/source-pipeline/deployment-live-after.json",
+    "knowledge_integrity": "evidence/source-pipeline/deployment-file-integrity.json"
+  },
+  "staging_limitation": "Unique deployment host redirects to canonical production domain; end-to-end checks performed after promotion on canonical domain.",
+  "access_controls_changed": false,
+  "chart_engine_or_ui_changed": false,
+  "unresolved_formulas_enabled": false,
+  "ai_answering_layer_added": false,
+  "exposure_scope": "Audit metadata included in deployment source and Python function data bundle. Existing /api/methodology remains capability metadata only; no new audit browser or retrieval endpoint added.",
+  "private_images_ocr_and_auth_excluded": true
+}
