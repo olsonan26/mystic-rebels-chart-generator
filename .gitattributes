@@ -3,4 +3,4 @@
 *.gz -text
 *.png -text
 *.avif -text
-evidence/astronomy-followup/*.json -text
+evidence/astronomy-followup/*.json -text whitespace=cr-at-eol
