@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_SAVED_INVENTORIES_AND_LOCAL_LINKS_VERIFIED",
+  "master_path": "docs/PROFILE_REPORT_KNOWLEDGE_PATH.md",
+  "master_sha256": "225e62c88489ce5e0de97c7540925c2cde812132850f83947b0545e3f6abb48a",
+  "inventory_counts": {
+    "capabilities": 44,
+    "interpretive_inventory": 131,
+    "material_requirements": 207,
+    "original_assertions": 250,
+    "worked_examples": 30,
+    "source_blocker_findings": 49
+  },
+  "total_indexed_records": 711,
+  "relative_file_and_anchor_links_verified": 366,
+  "all_prior_records_preserved": "evidence/source-pipeline/closing-next-preservation.json",
+  "personal_report_approval": false
+}

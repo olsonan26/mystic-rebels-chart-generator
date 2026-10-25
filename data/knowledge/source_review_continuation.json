@@ -17291,6 +17291,1360 @@
       "duplicate_content_status": "NO_DUPLICATE_CLAIM",
       "visible_page_count": 1,
       "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1jADoqUNrX1qx3so3bOQmCivNJB-VX6FZ",
+      "name": "IMG_5621.JPG",
+      "content_sha256": "ee5363a67240e9f21597489d207055420216469255f797cd0377fa879ee0538f",
+      "printed_page_ids": [
+        "941 WHAT IT MEANS TO ALCHEMIZE"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The author says the cardiac event still happened despite earlier prevention language and credits midwives and astrological foresight. Preserve retrospective attribution, not verified death prediction or clinical efficacy.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1JesSnZW-5eW0lX6KSnwecI_36nETRA8T",
+      "name": "IMG_5622.JPG",
+      "content_sha256": "c9945e9040b88a75f76f7d050ff89892eeada036413c4a5170e13ac48004bf65",
+      "printed_page_ids": [
+        "942 THE MECHANICS OF MANIFESTATION"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "Manifestation is described as intentional frequency and resonance, with a lack-focused money example. This is attributed spiritual teaching, not a validated physical law or financial outcome rule.",
+      "pdf_pages": [
+        673,
+        674
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 674,
+          "overlap": 0.7126,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 673,
+          "overlap": 0.1034,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "13AVcV3XACtWJlJCfIDn6T3Yy73BXHNro",
+      "name": "IMG_5623.JPG",
+      "content_sha256": "2cfc7faab3177922058053e69abac49f80a6f178aa475e0e1170404b148a6e14",
+      "printed_page_ids": [
+        "943 THE MECHANICS OF MANIFESTATION"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "One positive promotion thought versus300 negative thoughts and no action is a rhetorical example, not a probabilistic model or count-based manifestation formula.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1aeGXHEzX0BkrULZq_4fTEitjn1tY06Rq",
+      "name": "IMG_5624.JPG",
+      "content_sha256": "da6cd42a0e5af3b01e66ffbb891ca1233a2bdb3fecc0e58037b8d36cc7968dd5",
+      "printed_page_ids": [
+        "944 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "Intention, focus, belief and action accompany Taurus-Leo self-worth language and affirmations. Preserve the author's method without clinical or employment efficacy approval.",
+      "pdf_pages": [
+        674,
+        675
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 675,
+          "overlap": 0.675,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 674,
+          "overlap": 0.2958,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1_Fc0QCYK-HWaxJAmQGgat1-XxVUbGrtz",
+      "name": "IMG_5625.JPG",
+      "content_sha256": "66a540097fee6bcec7180827636e189cfb88dbc43dcb7e5647a7b1fd315ef1aa",
+      "printed_page_ids": [
+        "945 ARE YOU AN ASTROLOGER"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "Practical parenting, business and relocation uses and a ten-thousand-times accuracy claim begin here. Claimed applications and marketing do not supply measured accuracy or report readiness.",
+      "pdf_pages": [
+        675,
+        676
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 675,
+          "overlap": 0.6211,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 676,
+          "overlap": 0.1211,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1JuX2O1gZQsVqiTZTahiMuCqygE3vRFRn",
+      "name": "IMG_5626.JPG",
+      "content_sha256": "bb09074671308c599c4b04f3ce9e0053da3946357e0be28c976e6fa20420e7ab",
+      "printed_page_ids": [
+        "946 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The accuracy claim continues alongside nutrition, wellness, counseling and finance applications and future books/school material. No unseen future source or efficacy dataset may be inferred.",
+      "pdf_pages": [
+        676,
+        677
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 676,
+          "overlap": 0.5769,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 677,
+          "overlap": 0.3636,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1RWlF2vN-_52P2okREml0_kHP3-iMhwy7",
+      "name": "IMG_5627.JPG",
+      "content_sha256": "1a9fa87a84cddd1a1b34700aef51e733b30c695f783d3b92d3acf5c4e889ec98",
+      "printed_page_ids": [
+        "947 I HAVE A DREAM"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The author contrasts predictable past responses with choices becoming no longer cosmically predictable. Autobiography and Open Source rhetoric do not establish predictive performance or a software license.",
+      "pdf_pages": [
+        677
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 677,
+          "overlap": 0.6684,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1-vliHEyyvsQV-gGH4LPheFMncezR7DW_",
+      "name": "IMG_5628.JPG",
+      "content_sha256": "0d19d25fa7da1b2a7ead99cdca9380faea862ac5adec7b05465ff757a7575ce6",
+      "printed_page_ids": [
+        "948 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "Bioattunement is framed as emotional-trauma root-cause work with criticism of symptom treatment. Retain as an attributed claim without medical causality or treatment approval.",
+      "pdf_pages": [
+        678
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 678,
+          "overlap": 0.5305,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1O_fz2W9Fk2_wtBBkVyM3AE3GhadMW96J",
+      "name": "IMG_5629.JPG",
+      "content_sha256": "dca24f785c4b2ece8f762e79c5f6e813e73e04d0b009236022836024cd4971a4",
+      "printed_page_ids": [
+        "949 THAT TIME I ALMOST DIED"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The author reports an apple reaction in2002, later raw-food reactions, and a doctor-given Oral Allergy Syndrome label. These personal reports are not user diagnoses or food-rechallenge instructions.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1TAbiWDowGBMSMfp21-l43_TzsdEWuIzC",
+      "name": "IMG_5630.JPG",
+      "content_sha256": "e1bc7559d525d7f7446f58ad74bbcc00480144aa5950b0bcb16f033806d50332",
+      "printed_page_ids": [
+        "950 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The apple is called symbolic/emotional and a romantic separation is connected retrospectively; the author explicitly does not know whether childhood separation correlates. Preserve that uncertainty.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1VN1AqyLHJkwgWOuNBNlpmZwIXwsbQSnU",
+      "name": "IMG_5631.JPG",
+      "content_sha256": "adb62dd1e128d82729157dfe8852e2a5564b42e887fb4b46fcf70d1a9a3369bb",
+      "printed_page_ids": [
+        "951 SPIRITUAL APPLICATION"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The author attributes allergy improvement to recognizing trauma and reports eating raw carrots, with natal placements as explanation. This anecdote is not clinical validation, a cure rule or grounds for withholding care.",
+      "pdf_pages": [
+        679,
+        680
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 679,
+          "overlap": 0.6062,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 680,
+          "overlap": 0.1812,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1717XblxtfHO7CxkDCJ82ltsFg_pjp9R9",
+      "name": "IMG_5632.JPG",
+      "content_sha256": "83c3f48205118007f7c04987128669bc6331db1cb4970e6f7691494ac480f305",
+      "printed_page_ids": [
+        "952 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "The source says depression and happiness are choices and guarantees creating the desired life. Retain as unvalidated author claims, not mental-health facts, user blame or approved report advice.",
+      "pdf_pages": [
+        680
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 680,
+          "overlap": 0.7346,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1LJCHqu0dIgFeKHXTI66iWUG3V7U8H-wy",
+      "name": "IMG_5633.JPG",
+      "content_sha256": "75582df9960d661841ca07dcc6c25275193d7aff3da4692dbd323fed59259848",
+      "printed_page_ids": [
+        "953 ALCHEMYSM"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency",
+        "objective-context"
+      ],
+      "summary": "Decisions should remain the person's own; spirituality is said to follow separately from science. Alchemysm doctrine explicitly does not follow rigorous empirical scientific modeling, including its FREE/Aspect Spectrum associations.",
+      "pdf_pages": [
+        681
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 681,
+          "overlap": 0.9424,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "131bgTwvcDijzaNavU8pClteuDnFH9XPM",
+      "name": "IMG_5634.JPG",
+      "content_sha256": "6fe520e6f16bfc2377a231a52667e30cfff01dc73b8fccf94f9dd565efa53615",
+      "printed_page_ids": [
+        "954 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency",
+        "objective-context"
+      ],
+      "summary": "The author admits some matters could not be proven and describes manifestation outside traditional measurement while claiming statistically repeatable Cosmodynamics. No outcome dataset or empirical verification accompanies these statements.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1ht-9ypShMdVIuN0UIjauCxJHXoqUWADY",
+      "name": "IMG_5635.JPG",
+      "content_sha256": "11b41b27acbfb6fad1d65d4c4ee1fcd0d06ea8978fb67b411b9da9b8eb8b7faf",
+      "printed_page_ids": [
+        "955 INTENTIONAL OMISSIONS"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "exclusions"
+      ],
+      "summary": "Zodiacal Releasing is shelved as unresolved potential, along with distance/intensity and synodic-position research. Essential Dignities and Sabian Symbols are separately rejected; do not collapse incomplete and rejected statuses.",
+      "pdf_pages": [
+        682
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 682,
+          "overlap": 0.9667,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1brdewYenm9k51bdSvTJTqU26jOqlnJSQ",
+      "name": "IMG_5636.JPG",
+      "content_sha256": "960450709fb698e6592a28e30cc8261f1da6a3b7a58852e4f40d040d3905f9cd",
+      "printed_page_ids": [
+        "956 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "exclusions"
+      ],
+      "summary": "Sects, Solar Arc Directions and Planetary Joys are explicitly rejected. Draconic charts are criticized for the North Node0Aries rotation and soul-chart claim; this is the author's exclusion, not an independently established debunking.",
+      "pdf_pages": [
+        683
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 683,
+          "overlap": 0.9122,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14Ef-pWrkWlNajUn3kXpUz3_BCnXublK4",
+      "name": "IMG_5637.JPG",
+      "content_sha256": "059170be3b1d5615e1696f181d91ad436c406684436d6f93f69730ed67d6c4f7",
+      "printed_page_ids": [
+        "957 INTENTIONAL OMISSIONS"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "exclusions"
+      ],
+      "summary": "A personal Draconic synastry counterexample precedes criticism of Decennials and Firdaria. These retrospective comparisons are not measured performance datasets or alternative approved timing rules.",
+      "pdf_pages": [
+        683,
+        684
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 683,
+          "overlap": 0.5143,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 684,
+          "overlap": 0.1686,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA",
+      "name": "IMG_5638.JPG",
+      "content_sha256": "4025bd012176b85688409502aa61a5e9da6780e0ed8181017c95d61bd49259a8",
+      "printed_page_ids": [
+        "958 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "exclusions",
+        "derivatives"
+      ],
+      "summary": "The author distinguishes other useful omissions from rejected techniques and explicitly calls Derivatives an added layer rather than a standalone method. The cycle critiques above do not independently validate astronomical statements.",
+      "pdf_pages": [
+        684
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 684,
+          "overlap": 0.6695,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1nvOwLoZUoICTYEoZBo0DyYelnktAKpw_",
+      "name": "IMG_5639.JPG",
+      "content_sha256": "16de3a304e68115044de4950f31a4d757e4b9b4d3ce660b137dcd684cb38bdce",
+      "printed_page_ids": [
+        "959 INTENTIONAL OMISSIONS"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "derivatives",
+        "vantage-resolution"
+      ],
+      "summary": "Derivatives rotate a theme house into first-house vantage with inclusive counting: child's money second-from-fifth equals natal sixth. Children sequence fifth, seventh, ninth while all children retain fifth-house context.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1pjWkTp20AuN7fydILiHGyyrM0UGDZiBI",
+      "name": "IMG_5640.JPG",
+      "content_sha256": "a6b687461886b44b127c313832f55b2df2a4a49ceb6f1f1935194df5af913ee6",
+      "printed_page_ids": [
+        "960 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "derivatives",
+        "rectification"
+      ],
+      "summary": "Derivative ninth-house third-child reading is additional to natural fifth-house reading, never a replacement natal chart; the author calls it perspective rather than cosmic truth. Birth-time rectification starts with missing or unreliable birth-time evidence.",
+      "pdf_pages": [
+        684,
+        685,
+        686
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 684,
+          "overlap": 0.3701,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 685,
+          "overlap": 0.2147,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 686,
+          "overlap": 0.1186,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1_AR5u-g_md35TStXNBIpOeTgdx_uslRh",
+      "name": "IMG_5641.JPG",
+      "content_sha256": "e2c635db90440263c7ed57c5812fd6be947bb9b65e4107ccf5810d1538b3e089",
+      "printed_page_ids": [
+        "961 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification"
+      ],
+      "summary": "BTR is described as reverse engineering personal life events with birthplace required, appearance as a starting point, then Ascendant Decan/Pulse and Degree/Spark. This outline does not provide a reproducible search algorithm.",
+      "pdf_pages": [
+        686
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 686,
+          "overlap": 0.7412,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1GXMq2zNW0-YlgDwPPjn2tySRcWBe4cnY",
+      "name": "IMG_5642.JPG",
+      "content_sha256": "9f865fcf28f2749f7a4034e09a823e3280b7495cbf7d1d41863514ca9f8aafcb",
+      "printed_page_ids": [
+        "962 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification",
+        "articulation"
+      ],
+      "summary": "Accuracy is said to depend on dated event memory/photos; admitting an unknown celebrity birth time is praised. Competing website times and the celebrity's reported words are source examples, not verified birth data or clinical inference.",
+      "pdf_pages": [
+        686,
+        687
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 687,
+          "overlap": 0.4178,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 686,
+          "overlap": 0.2637,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "12nlF_vGxqbe8gcjWZWiG5yEFB2wU2syc",
+      "name": "IMG_5643.JPG",
+      "content_sha256": "dd98d5aa8284b85fc4c70968fcfd43351e485e35762a8cff4673ee5f6cf791f2",
+      "printed_page_ids": [
+        "963 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification",
+        "articulation"
+      ],
+      "summary": "The source maps the celebrity's reported reading/learning words to energies and contrasts Scorpio and Pisces candidate charts through rulers/aspects. Preserve attributed interpretation without diagnosing learning conditions from a chart.",
+      "pdf_pages": [
+        687,
+        688
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 687,
+          "overlap": 0.7107,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 688,
+          "overlap": 0.1071,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1BHI47FyHyv_x8XQ9snk29SlaNvKDnYKs",
+      "name": "IMG_5644.JPG",
+      "content_sha256": "f5269311ec0bc9fe33f8068f6fb731af6763c9654c62d3075720510d0437161b",
+      "printed_page_ids": [
+        "964 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification"
+      ],
+      "summary": "The author explicitly omits how Pisces rising was narrowed down and notes two same-day Pisces windows23+hours apart. Appearance, FREE, rulers and FCA are offered as context, not a unique verified birth timestamp.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1GpBsEKcmieMeeFFhBEaFWc4vT55KAITa",
+      "name": "IMG_5645.JPG",
+      "content_sha256": "8ddbc4a654c3d40190f7950f58797a67b19ad43f968191f8f768562654d09254",
+      "printed_page_ids": [
+        "965 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification",
+        "core-trinity"
+      ],
+      "summary": "The text explicitly says this is not meant to teach BTR, selects a28degree Aquarius Spark within Pisces, then calls for progression checks against events. Missing deductions and objective acceptance criteria remain unresolved.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1N65npiEa4PQbLX3-9V3fiA1ASTKl066r",
+      "name": "IMG_5646.JPG",
+      "content_sha256": "4732afd0c0ba8b7c4f2bd22b03b5a47e3d36589d8dc701c74cb0c2c7af0fb416",
+      "printed_page_ids": [
+        "966 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification",
+        "core-trinity"
+      ],
+      "summary": "Progressed charts outside transits are compared with the celebrity's move and divorce. Retrospective event fit and legal/relationship interpretations are not independent timeline, legal or ephemeris validation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1PI95TKbgIqluoKSDJf8ontA_Dl2mYASs",
+      "name": "IMG_5647.jpg",
+      "content_sha256": "f0781f30d7fae80e7a645d0966a5d2666aa76ad16f04df9a7cec078879db2f53",
+      "printed_page_ids": [
+        "967 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification"
+      ],
+      "summary": "The source declares a fully rectified natal chart after the event examples and shows a wheel. OCR diagram fragments do not provide a reproducible birth timestamp or independent numerical fixture; retain the original visual as witness.",
+      "pdf_pages": [
+        688
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 688,
+          "overlap": 0.9364,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1pEMZ_7GymUJmqlDXF8xEVMpT0pFSOdF6",
+      "name": "IMG_5648.JPG",
+      "content_sha256": "c9d55f809a3ff424d1af76110b0b8f8f9c3263ed9c7def9ecca3dcbec2fd2576",
+      "printed_page_ids": [
+        "968 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "rectification",
+        "relocation",
+        "core-trinity"
+      ],
+      "summary": "Hollywood relocation/Paran/FCA examples are followed by an explicit residence-time scope: apply moved-location layers only during residence there, not overall. Progressions remain a distinct layer.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1_uVva-iO_gOzlVNuzbKx3mNS9gHku7B-",
+      "name": "IMG_5649.JPG",
+      "content_sha256": "c9464b77b03b5c23124ddd6e09277a3c576cc351efb3b795d3903fe912e2fbc2",
+      "printed_page_ids": [
+        "969 FREE WILL VS DIVINE TIMING"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency",
+        "rectification"
+      ],
+      "summary": "A selected rumor headline is used to claim astrology never misses, then the text rejects replacing personal power with an astrologer. The headline and retrospective match are neither verified biography nor predictive validation.",
+      "pdf_pages": [
+        688,
+        689
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 689,
+          "overlap": 0.4922,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 688,
+          "overlap": 0.4031,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1dxxPcvCY_UgpioEpNh-dRY-TiBNPs5-c",
+      "name": "IMG_5650.JPG",
+      "content_sha256": "e4ddb372f407ef765fb9c91309e56050457d242e7eea16b20e58283367b87111",
+      "printed_page_ids": [
+        "970 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency"
+      ],
+      "summary": "Free will and simple action examples reject fatalism and fame-degree determinism. The source calls astrology a guide/roadmap rather than the person; retain agency and avoid guaranteed outcomes.",
+      "pdf_pages": [
+        689,
+        690
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 689,
+          "overlap": 0.5789,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 690,
+          "overlap": 0.3313,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1YH_JJI8UNrZFWIanGZSQsF387UdIY-5q",
+      "name": "IMG_5651.JPG",
+      "content_sha256": "47ea8f59ec9d920da6920d86ecc150aacdf43a232646ae800d8835ee2dd451a0",
+      "printed_page_ids": [
+        "971 OOPS I FORGOT"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "agency",
+        "planet-categories"
+      ],
+      "summary": "Proactive action is favored over waiting for divine timing; the closing category correction says no planet matters more than others. Category labels must not silently become importance weights.",
+      "pdf_pages": [
+        690
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 690,
+          "overlap": 0.904,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1BLiLEfdcVe9V_vCTPwfr6uaUIES8DRg5",
+      "name": "IMG_5652.JPG",
+      "content_sha256": "50b4d55ba839ac773f77a7d4f080e7d8334792f803283e3d30dbaaf9c98f77e4",
+      "printed_page_ids": [
+        "972 I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "planet-categories"
+      ],
+      "summary": "Sun/Moon ultrapersonal, Mercury/Venus personal, Mars extrapersonal, Jupiter/Saturn transpersonal, Uranus/Neptune/Pluto metapersonal. Outer planets are explicitly not throw-away generational planets; closing school invitation is not new technical evidence.",
+      "pdf_pages": [
+        691,
+        692
+      ],
+      "candidate_pdf_overlaps": [
+        {
+          "pdf_page": 692,
+          "overlap": 0.5246,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        },
+        {
+          "pdf_page": 691,
+          "overlap": 0.3689,
+          "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1vK69rtB2vX1COdvQjsgYfKhfgyR1tvTj",
+      "name": "IMG_5653.JPG",
+      "content_sha256": "36bd6b9ba65722e389358a3cafff25671984245fc84b46fca2e3b11202778570",
+      "printed_page_ids": [
+        "a ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "handoff",
+        "directional-context"
+      ],
+      "summary": "The180degree rule describes role reversal across the Energy Flow Meridian; ABCD is Fire/Earth/Air/Water and Activator initiates while Receptor responds. Definitions do not settle exact-boundary tolerances or tie handling.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1mHOExKUZEBQTwb-9_fO7mC5wl9Zf1jpa",
+      "name": "IMG_5654.JPG",
+      "content_sha256": "e104e65a9f72779bb22eb84bbc3084256d6711a579a25e1a3082438aa2df9aab",
+      "printed_page_ids": [
+        "b I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "spectrum-meanings",
+        "age-degree",
+        "epoch-imprint"
+      ],
+      "summary": "Adjunction15degrees and Adposition165degrees precede Age-Degree ignition distinct from transit/progression, inward-first natal retrogrades, and reverse Age-Pulses about715years. No new exact date algorithm is established.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "18vERV8EMr6IuO-ksnWLUXzBEVUDDS3ax",
+      "name": "IMG_5656.JPG",
+      "content_sha256": "e13858c37d6b7152f6fa93c04dd2d5d90a6b6c5797fe395598c6987d27a5a525",
+      "printed_page_ids": [
+        "d I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "profections",
+        "epoch-imprint",
+        "sophia"
+      ],
+      "summary": "Lexicon repeats Pisces-first twelve-year profection rounds and March20,181CE ASCS anchor with2025Sun4degrees15minutes38secondsPisces. The solar arc entry names White Sun Sophia and Black Sun Lilith; preserve these against other lexicon names without silently correcting them.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1sEbHJZjcFGFWnSZjx90RLmjlEG_Guggt",
+      "name": "IMG_5657.JPG",
+      "content_sha256": "3e3c0cf0bef2e1c094bb2855f4d38eb558ace1305e55ec452c2621015feae344",
+      "printed_page_ids": [
+        "e ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "age-degree",
+        "epoch-imprint"
+      ],
+      "summary": "Apex is described as90degrees above Horizon-Rising, paired with Subapex; Aries Activator spans birth to roughly30 and Epochs describe nested Earth rhythms. These descriptions do not independently verify spherical Paran construction or exact activation endpoints.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "15oX3WN-6lKwQVhj5AeR9rJli6xsXiI7l",
+      "name": "IMG_5658.JPG",
+      "content_sha256": "42b4852731cd1c23f9c297e589c66bebcb394216746d2c173ffe253dcdcdbcf5",
+      "printed_page_ids": [
+        "f I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "delegate-condition",
+        "lilith",
+        "sophia"
+      ],
+      "summary": "Base and bidirectional rulership carry a sign-house's full conditions. Black Moon Lilith is lunar apogee; a separate entry visibly names Black Sun Apollo as solar apogee. Keep this solar label distinct from the lunar term and conflicting Helial Arc labels.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1icOfxJXPZm34WHRj80xiTOGoRwp8-iM9",
+      "name": "IMG_5659.JPG",
+      "content_sha256": "affdfe61d66aaefd50b2c88a7bccc277af6d46e3cd10ba6cc2055482042afc21",
+      "printed_page_ids": [
+        "g ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "block-color",
+        "delegate-condition",
+        "clusters",
+        "sophia"
+      ],
+      "summary": "Black Sun Apollo continues as opposite White Sun Sophia. Block Theory requires connected context; Bridge is rulership path, Channel an aspect, and Clusters include Stelliums/Satellitiums across signs/cusps. No isolated keyword report follows.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14jtClfMvdriY4tQwTM3dtHZ4fonKz_tj",
+      "name": "IMG_5660.JPG",
+      "content_sha256": "209a3ece0c94d25f8e7b8f814e1828d3673c42f109b0da5acdfffcdb9ef21b76",
+      "printed_page_ids": [
+        "h I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "block-color",
+        "spectrum-meanings",
+        "core-trinity",
+        "anchors"
+      ],
+      "summary": "Color blending, combined harmonics and conjunctive territory0to less than90degrees precede simultaneous natal/progressed/relocated Core Trinity and the start of crossover-zone definitions. Preserve exclusive90degree endpoint and chart-layer identities.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1YWmOkl15w3fKJXxwYro4Uxs70bO9b9lw",
+      "name": "IMG_5661.JPG",
+      "content_sha256": "7feab19c1ce9caa62e521d103c2c091e652d872b31249cfafeea517b36fbf762",
+      "printed_page_ids": [
+        "i ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "anchors",
+        "spectrum-meanings",
+        "delegate-condition"
+      ],
+      "summary": "ACZ continues upward to twelfth cusp; DCZ runs Descendant down to sixth cusp. Dectile is visibly10degrees despite conventional terminology; Delegates carry full sign conditions. Descendant is interpreted as inward processing, not a synonym for every anchor.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1tWl08L06uXnX935Pkll7nV800mhPu6WC",
+      "name": "IMG_5662.JPG",
+      "content_sha256": "5ef31a972f85c62483dd6196caf5c0c21dcf554648c42c1a385262c46389c16e",
+      "printed_page_ids": [
+        "j I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "core-trinity",
+        "natal-transit-order"
+      ],
+      "summary": "Direct Impact requires an active aspect/orb. Dynamic Chart Approach combines natal, progressed and relocated charts with transits to each; ecosystem boundaries retain within-system versus cross-system effects.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1BwUmXNWm4iJu_avZ2JQBLB_xXAzJMmEP",
+      "name": "IMG_5664.JPG",
+      "content_sha256": "8d5ab02ab3c55c02e9a4e7577a888f7e9f41fa33a2411abbecf074b0be2d906e",
+      "printed_page_ids": [
+        "l I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "house-field",
+        "delegate-condition"
+      ],
+      "summary": "Epoch Arc/Imprint remain collective layers beyond natal; Field is house context before detail, and Field Link joins houses through reception, cross-cusp conjunctions or FCA. The Focus definition continues beyond this image and is not completed here.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1dNv68TwH4e4jCgXMNa2DrlzwJHefsxHC",
+      "name": "IMG_5667.JPG",
+      "content_sha256": "11ee27a95215bfd285487dfbc72ec9fecabbe0b5b1228de2a83f0d7e1472697c",
+      "printed_page_ids": [
+        "o ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "gradity-context",
+        "handoff",
+        "sophia"
+      ],
+      "summary": "Gradity lists Pregrade/Retrograde/Postgrade/Prograde and day-before/day-of/day-after shift emphasis; hand-off is limited to conjunction/opposition. Helial Arc instead names White Sun Apollo and Black Sun Prometheus, conflicting with lexicon d/f/g solar names. Preserve source labels and observer language.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1OyQifxmH9wA4_V9-gpqSSts8ZHZhzW_4",
+      "name": "IMG_5668.JPG",
+      "content_sha256": "c5807c11742ba2915b70f40e7e78dc5928c7582e2a99ac3ba68e830a340a4d52",
+      "printed_page_ids": [
+        "p I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "gradity-context",
+        "intra-house",
+        "invertex",
+        "lilith"
+      ],
+      "summary": "Station is zero apparent speed; intra-house blending differs from inter-house balance, Invertex is eastern return after Subheaven, and Invisible Mirror is Mean/True Lilith reflection. No numerical mirror algorithm or omitted continuation is invented.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1gn14uuYHIUg9LHdwrbCmPjx6mjqFwDHF",
+      "name": "IMG_5669.JPG",
+      "content_sha256": "c43a2f35ffafdf1414023b0c2dc0f77a7fc3d5a7a474a4568857f6a94610ec19",
+      "printed_page_ids": [
+        "q ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "objective-context",
+        "agency"
+      ],
+      "summary": "Jective Process moves objective observation to subjective relevance; Keywords bound meanings, Kineticize introduces choice, and Layering carries complete contextual conditions forward. Source-defined accuracy claims still require independent validation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1tLi2tR-oWF852zfo3FwLv7w8yWgzkhxn",
+      "name": "IMG_5670.JPG",
+      "content_sha256": "9dc135a5efaff5938f1d44e2884afa4dcbe9f7ee5b4add52e06358d65e7131c6",
+      "printed_page_ids": [
+        "r I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "objective-context",
+        "lilith",
+        "local-space",
+        "lunar-arcs"
+      ],
+      "summary": "Lenses use whole-chart topic context. Lilith Mean/True arc, Local Space birth-direction imprints and opposed projection/reception, and Lunar Swing apsidal/nodal layers remain separate concepts without silently supplying geometry or causal validation.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1U3X82jY8Oc95Y9cv0-3z8OtW_nPz-Pd2",
+      "name": "IMG_5671.JPG",
+      "content_sha256": "dac44278dd8c803bee1aaa7231e8a4b41dde5d14fbaa4362d2cd5696c0dc7435",
+      "printed_page_ids": [
+        "s ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "relocation",
+        "clusters",
+        "objective-context"
+      ],
+      "summary": "Minor map lines include non-conjunction anchor aspects; Major Stellium contains a ruler, Minor contains non-ruling bodies/points. Mix-n-Match remains conditional on full planetary conditions, not unrestricted keyword assembly.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1Uy-ZSjSw1o55ZW4yRep_vufauEeuSOiY",
+      "name": "IMG_5672.JPG",
+      "content_sha256": "440d0ad896276e7aa8fed4bc522a2e615bd78ea2208e1828731b628f366c91c3",
+      "printed_page_ids": [
+        "t I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "declination",
+        "directional-context",
+        "spectrum-meanings"
+      ],
+      "summary": "Northern OOB is strictly beyond+23.44degrees; Ordering controls initiator/receptor, while Orb of Exactitude describes equal focus at exact alignment. Inferior/superior orbital phases are source interpretations, not newly validated prediction rules.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "14rP_kN5fywpxaeKDmErtPY02ZUins5vl",
+      "name": "IMG_5673.JPG",
+      "content_sha256": "2c5446665a34729820b9b7310446125404372e7392c1af4992ccc72f4e0cb4dc",
+      "printed_page_ids": [
+        "u ALCHEMYSTIC LEXICON"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "parans",
+        "pass-through",
+        "phsr"
+      ],
+      "summary": "Birth Paran imprints persist and relocated Parans overlay rather than replace. Pass-through lacks direct aspect; PHSR is Planet-House-Sign-Rulership and PHD2SAR explicitly Planet-House-Degree-Decan-Sign-Aspect-Ruler. Keep ordering and layers exact.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+    },
+    {
+      "file_id": "1D-bWz76wX59BF5eLteRNk0iIbd0ROZLK",
+      "name": "IMG_5674.JPG",
+      "content_sha256": "644b301d0b8f458abf4372c8ff4fabbf67ff58aa900e12d76eb70dc01fcb5f34",
+      "printed_page_ids": [
+        "v I FIXED ASTROLOGY"
+      ],
+      "printed_page_basis": "VISUAL_HEADER",
+      "concept_ids": [
+        "epoch-imprint",
+        "returns",
+        "age-degree"
+      ],
+      "summary": "Focals differ from three-part Phase-Pulses; solar luminary resonance and planetary returns are temporary recalibration, explicitly not a yearlong prediction. Placement Activation continues beyond this page and no missing ending is invented.",
+      "pdf_pages": [],
+      "candidate_pdf_overlaps": [],
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "visual_review_scope": "HEADER_DIAGRAMS_AND_SELECTED_PASSAGES_NOT_LINE_BY_LINE_TRANSCRIPTION",
+      "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+      "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+      "visible_page_count": 1,
+      "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
     }
   ],
   "assertions": [
@@ -23614,6 +24968,734 @@
           "content_sha256": "328777abd4525bad74c026905dacaeb175a2b52bf3daa8d6d0bdba61cc4ece04",
           "original_printed_pages": [
             "940"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency941-event-still-happened",
+      "concept_id": "agency",
+      "kind": "unvalidated_outcome_claim",
+      "proposition": "The author explicitly says the cardiac event still happened and credits both midwives and astrological foresight for survival.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve this qualification alongside939-940 prevention language; no counterfactual, clinical efficacy or death-prediction rule is verified."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1jADoqUNrX1qx3so3bOQmCivNJB-VX6FZ",
+          "name": "IMG_5621.JPG",
+          "content_sha256": "ee5363a67240e9f21597489d207055420216469255f797cd0377fa879ee0538f",
+          "original_printed_pages": [
+            "941 WHAT IT MEANS TO ALCHEMIZE"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency942-manifestation-scope",
+      "concept_id": "agency",
+      "kind": "spiritual_application",
+      "proposition": "Manifestation is defined through intention,focus,belief and action,with promotion thoughts and lack-focused money examples.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The thought-count comparison is rhetoric,not a probability model; no guaranteed financial,employment or physical outcome follows."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1JesSnZW-5eW0lX6KSnwecI_36nETRA8T",
+          "name": "IMG_5622.JPG",
+          "content_sha256": "c9945e9040b88a75f76f7d050ff89892eeada036413c4a5170e13ac48004bf65",
+          "original_printed_pages": [
+            "942 THE MECHANICS OF MANIFESTATION"
+          ]
+        },
+        {
+          "file_id": "13AVcV3XACtWJlJCfIDn6T3Yy73BXHNro",
+          "name": "IMG_5623.JPG",
+          "content_sha256": "2cfc7faab3177922058053e69abac49f80a6f178aa475e0e1170404b148a6e14",
+          "original_printed_pages": [
+            "943 THE MECHANICS OF MANIFESTATION"
+          ]
+        },
+        {
+          "file_id": "1aeGXHEzX0BkrULZq_4fTEitjn1tY06Rq",
+          "name": "IMG_5624.JPG",
+          "content_sha256": "da6cd42a0e5af3b01e66ffbb891ca1233a2bdb3fecc0e58037b8d36cc7968dd5",
+          "original_printed_pages": [
+            "944 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency949-951-allergy-claim",
+      "concept_id": "agency",
+      "kind": "unvalidated_health_anecdote",
+      "proposition": "The author reports a doctor-given Oral Allergy Syndrome label,then attributes reactions to emotional trauma and reports later eating raw carrots.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep reported diagnosis and uncertain childhood correlation visible; do not infer user illness, recommend food rechallenge or approve a trauma-based cure."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1O_fz2W9Fk2_wtBBkVyM3AE3GhadMW96J",
+          "name": "IMG_5629.JPG",
+          "content_sha256": "dca24f785c4b2ece8f762e79c5f6e813e73e04d0b009236022836024cd4971a4",
+          "original_printed_pages": [
+            "949 THAT TIME I ALMOST DIED"
+          ]
+        },
+        {
+          "file_id": "1TAbiWDowGBMSMfp21-l43_TzsdEWuIzC",
+          "name": "IMG_5630.JPG",
+          "content_sha256": "e1bc7559d525d7f7446f58ad74bbcc00480144aa5950b0bcb16f033806d50332",
+          "original_printed_pages": [
+            "950 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1VN1AqyLHJkwgWOuNBNlpmZwIXwsbQSnU",
+          "name": "IMG_5631.JPG",
+          "content_sha256": "adb62dd1e128d82729157dfe8852e2a5564b42e887fb4b46fcf70d1a9a3369bb",
+          "original_printed_pages": [
+            "951 SPIRITUAL APPLICATION"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency952-choice-claim",
+      "concept_id": "agency",
+      "kind": "unvalidated_mental_health_claim",
+      "proposition": "The source calls depression and happiness choices and promises creating the life one wants.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "These are author claims,not approved mental-health facts,clinical guidance or grounds for blaming a user."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1717XblxtfHO7CxkDCJ82ltsFg_pjp9R9",
+          "name": "IMG_5632.JPG",
+          "content_sha256": "83c3f48205118007f7c04987128669bc6331db1cb4970e6f7691494ac480f305",
+          "original_printed_pages": [
+            "952 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency953-spiritual-modeling-limit",
+      "concept_id": "agency",
+      "kind": "explicit_empirical_limit",
+      "proposition": "Alchemysm is explicitly called doctrine that does not follow rigorous empirical scientific modeling; science is said to precede separate spiritual application.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The accompanying statistical-repeatability claim supplies no controlled dataset or independent empirical validation."
+      ],
+      "requires_concepts": [
+        "objective-context",
+        "free-theory"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1LJCHqu0dIgFeKHXTI66iWUG3V7U8H-wy",
+          "name": "IMG_5633.JPG",
+          "content_sha256": "75582df9960d661841ca07dcc6c25275193d7aff3da4692dbd323fed59259848",
+          "original_printed_pages": [
+            "953 ALCHEMYSM"
+          ]
+        },
+        {
+          "file_id": "131bgTwvcDijzaNavU8pClteuDnFH9XPM",
+          "name": "IMG_5634.JPG",
+          "content_sha256": "6fe520e6f16bfc2377a231a52667e30cfff01dc73b8fccf94f9dd565efa53615",
+          "original_printed_pages": [
+            "954 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "exclusions955-three-dispositions",
+      "concept_id": "exclusions",
+      "kind": "scope_distinction",
+      "proposition": "The author separates unresolved techniques such as Zodiacal Releasing,rejected techniques including essential dignities/sects/solar arc/planetary joys,and useful topics omitted for priority such as Derivatives.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not invent repaired Zodiacal Releasing or import generic excluded techniques; author rejection is not an independently verified scientific debunking."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1ht-9ypShMdVIuN0UIjauCxJHXoqUWADY",
+          "name": "IMG_5635.JPG",
+          "content_sha256": "11b41b27acbfb6fad1d65d4c4ee1fcd0d06ea8978fb67b411b9da9b8eb8b7faf",
+          "original_printed_pages": [
+            "955 INTENTIONAL OMISSIONS"
+          ]
+        },
+        {
+          "file_id": "1brdewYenm9k51bdSvTJTqU26jOqlnJSQ",
+          "name": "IMG_5636.JPG",
+          "content_sha256": "960450709fb698e6592a28e30cc8261f1da6a3b7a58852e4f40d040d3905f9cd",
+          "original_printed_pages": [
+            "956 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "14Ef-pWrkWlNajUn3kXpUz3_BCnXublK4",
+          "name": "IMG_5637.JPG",
+          "content_sha256": "059170be3b1d5615e1696f181d91ad436c406684436d6f93f69730ed67d6c4f7",
+          "original_printed_pages": [
+            "957 INTENTIONAL OMISSIONS"
+          ]
+        },
+        {
+          "file_id": "15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA",
+          "name": "IMG_5638.JPG",
+          "content_sha256": "4025bd012176b85688409502aa61a5e9da6780e0ed8181017c95d61bd49259a8",
+          "original_printed_pages": [
+            "958 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "derivatives959-inclusive-count",
+      "concept_id": "derivatives",
+      "kind": "worked_method_example",
+      "proposition": "Rotate the theme house into first-house Vantage and count inclusively: a child's money is second-from-fifth,natal sixth; successive children are fifth,seventh,ninth.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The natural fifth-house child context remains required; this example does not validate a health or birth/death prediction."
+      ],
+      "requires_concepts": [
+        "vantage-resolution",
+        "house-field"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1nvOwLoZUoICTYEoZBo0DyYelnktAKpw_",
+          "name": "IMG_5639.JPG",
+          "content_sha256": "16de3a304e68115044de4950f31a4d757e4b9b4d3ce660b137dcd684cb38bdce",
+          "original_printed_pages": [
+            "959 INTENTIONAL OMISSIONS"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "derivatives960-supplement-only",
+      "concept_id": "derivatives",
+      "kind": "explicit_layer_exclusion",
+      "proposition": "Derivatives are additional detail,not standalone or replacement natal charts;third-child ninth-house reading supplements natural fifth-house reading and is partly perspective rather than cosmic truth.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "A promised future rotating-chart software option is not evidence of a currently implemented feature or approved report layer."
+      ],
+      "requires_concepts": [
+        "objective-context",
+        "house-field"
+      ],
+      "witnesses": [
+        {
+          "file_id": "15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA",
+          "name": "IMG_5638.JPG",
+          "content_sha256": "4025bd012176b85688409502aa61a5e9da6780e0ed8181017c95d61bd49259a8",
+          "original_printed_pages": [
+            "958 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1pjWkTp20AuN7fydILiHGyyrM0UGDZiBI",
+          "name": "IMG_5640.JPG",
+          "content_sha256": "a6b687461886b44b127c313832f55b2df2a4a49ceb6f1f1935194df5af913ee6",
+          "original_printed_pages": [
+            "960 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "rectification961-evidence-dependency",
+      "concept_id": "rectification",
+      "kind": "method_outline",
+      "proposition": "BTR uses personal event histories with birthplace required;dated memories/photos affect accuracy,and appearance precedes Decan/Pulse and Degree/Spark refinement.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Unknown celebrity birth times and competing website claims remain uncertain; no exact timestamp is established by this outline."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "spark-entry",
+        "articulation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1_AR5u-g_md35TStXNBIpOeTgdx_uslRh",
+          "name": "IMG_5641.JPG",
+          "content_sha256": "e2c635db90440263c7ed57c5812fd6be947bb9b65e4107ccf5810d1538b3e089",
+          "original_printed_pages": [
+            "961 CRUISE-ING THROUGH BTR"
+          ]
+        },
+        {
+          "file_id": "1GXMq2zNW0-YlgDwPPjn2tySRcWBe4cnY",
+          "name": "IMG_5642.JPG",
+          "content_sha256": "9f865fcf28f2749f7a4034e09a823e3280b7495cbf7d1d41863514ca9f8aafcb",
+          "original_printed_pages": [
+            "962 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "rectification964-omitted-deduction",
+      "concept_id": "rectification",
+      "kind": "explicit_method_incomplete",
+      "proposition": "The author admits not explaining how Pisces rising was selected,notes two same-day windows23+hours apart,and explicitly says the example is not meant to teach BTR.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not manufacture the missing deduction,unique event score,appearance classifier or an automated rectification algorithm."
+      ],
+      "requires_concepts": [
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1BHI47FyHyv_x8XQ9snk29SlaNvKDnYKs",
+          "name": "IMG_5644.JPG",
+          "content_sha256": "f5269311ec0bc9fe33f8068f6fb731af6763c9654c62d3075720510d0437161b",
+          "original_printed_pages": [
+            "964 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1GpBsEKcmieMeeFFhBEaFWc4vT55KAITa",
+          "name": "IMG_5645.JPG",
+          "content_sha256": "8ddbc4a654c3d40190f7950f58797a67b19ad43f968191f8f768562654d09254",
+          "original_printed_pages": [
+            "965 CRUISE-ING THROUGH BTR"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "rectification966-progressions",
+      "concept_id": "rectification",
+      "kind": "source_validation_proposal",
+      "proposition": "The example proposes progressed charts outside transits to check dated events and calls its final wheel fully rectified.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retrospective alignment is not independent verification of the birth time,event chronology,progression-angle method or ephemeris fixtures."
+      ],
+      "requires_concepts": [
+        "core-trinity"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1GpBsEKcmieMeeFFhBEaFWc4vT55KAITa",
+          "name": "IMG_5645.JPG",
+          "content_sha256": "8ddbc4a654c3d40190f7950f58797a67b19ad43f968191f8f768562654d09254",
+          "original_printed_pages": [
+            "965 CRUISE-ING THROUGH BTR"
+          ]
+        },
+        {
+          "file_id": "1N65npiEa4PQbLX3-9V3fiA1ASTKl066r",
+          "name": "IMG_5646.JPG",
+          "content_sha256": "4732afd0c0ba8b7c4f2bd22b03b5a47e3d36589d8dc701c74cb0c2c7af0fb416",
+          "original_printed_pages": [
+            "966 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1PI95TKbgIqluoKSDJf8ontA_Dl2mYASs",
+          "name": "IMG_5647.jpg",
+          "content_sha256": "f0781f30d7fae80e7a645d0966a5d2666aa76ad16f04df9a7cec078879db2f53",
+          "original_printed_pages": [
+            "967 CRUISE-ING THROUGH BTR"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "rectification968-residence-time-scope",
+      "concept_id": "rectification",
+      "kind": "explicit_location_scope",
+      "proposition": "Progressions are a separate layer;when someone has moved,relocated layers apply only during the times they lived in those places,not overall.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep natal,progressed and residence-specific relocated facts distinct; Hollywood anecdotes are not verified user data or a universal event rule."
+      ],
+      "requires_concepts": [
+        "relocation",
+        "core-trinity"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1pEMZ_7GymUJmqlDXF8xEVMpT0pFSOdF6",
+          "name": "IMG_5648.JPG",
+          "content_sha256": "c9d55f809a3ff424d1af76110b0b8f8f9c3263ed9c7def9ecca3dcbec2fd2576",
+          "original_printed_pages": [
+            "968 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "agency969-headline-limit",
+      "concept_id": "agency",
+      "kind": "retrospective_claim_limit",
+      "proposition": "A selected celebrity-rumor headline supports the author's never-misses claim,while the same closing text rejects surrendering personal power and emphasizes proactive choice.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The headline is not verified biography,a prospective benchmark or a guarantee; retain the source's agency cautions."
+      ],
+      "requires_concepts": [
+        "objective-context",
+        "rectification"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1_uVva-iO_gOzlVNuzbKx3mNS9gHku7B-",
+          "name": "IMG_5649.JPG",
+          "content_sha256": "c9464b77b03b5c23124ddd6e09277a3c576cc351efb3b795d3903fe912e2fbc2",
+          "original_printed_pages": [
+            "969 FREE WILL VS DIVINE TIMING"
+          ]
+        },
+        {
+          "file_id": "1dxxPcvCY_UgpioEpNh-dRY-TiBNPs5-c",
+          "name": "IMG_5650.JPG",
+          "content_sha256": "e4ddb372f407ef765fb9c91309e56050457d242e7eea16b20e58283367b87111",
+          "original_printed_pages": [
+            "970 I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1YH_JJI8UNrZFWIanGZSQsF387UdIY-5q",
+          "name": "IMG_5651.JPG",
+          "content_sha256": "47ea8f59ec9d920da6920d86ecc150aacdf43a232646ae800d8835ee2dd451a0",
+          "original_printed_pages": [
+            "971 OOPS I FORGOT"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "categories972-equal-importance",
+      "concept_id": "planet-categories",
+      "kind": "explicit_classification",
+      "proposition": "Sun/Moon are ultrapersonal,Mercury/Venus personal,Mars extrapersonal,Jupiter/Saturn transpersonal,and Uranus/Neptune/Pluto metapersonal;none are less important.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not substitute generational labels or convert category groups into automatic importance weights."
+      ],
+      "requires_concepts": [
+        "planet-lexicon"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1YH_JJI8UNrZFWIanGZSQsF387UdIY-5q",
+          "name": "IMG_5651.JPG",
+          "content_sha256": "47ea8f59ec9d920da6920d86ecc150aacdf43a232646ae800d8835ee2dd451a0",
+          "original_printed_pages": [
+            "971 OOPS I FORGOT"
+          ]
+        },
+        {
+          "file_id": "1BLiLEfdcVe9V_vCTPwfr6uaUIES8DRg5",
+          "name": "IMG_5652.JPG",
+          "content_sha256": "50b4d55ba839ac773f77a7d4f080e7d8334792f803283e3d30dbaaf9c98f77e4",
+          "original_printed_pages": [
+            "972 I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-d-f-o-solar-name-conflict",
+      "concept_id": "sophia",
+      "kind": "conflicting_source_labels",
+      "proposition": "Lexicon d names White Sun Sophia/Black Sun Lilith;f-g names Black Sun Apollo opposite White Sun Sophia;o names White Sun Apollo/Black Sun Prometheus.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Preserve each printed label with its source;no canonical renaming,solar/lunar identity merge or approved formula follows. Earth-Sun versus Sun-from-Earth observer wording also requires clarification."
+      ],
+      "requires_concepts": [
+        "lunar-arcs",
+        "objective-context"
+      ],
+      "witnesses": [
+        {
+          "file_id": "18vERV8EMr6IuO-ksnWLUXzBEVUDDS3ax",
+          "name": "IMG_5656.JPG",
+          "content_sha256": "e13858c37d6b7152f6fa93c04dd2d5d90a6b6c5797fe395598c6987d27a5a525",
+          "original_printed_pages": [
+            "d I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "15oX3WN-6lKwQVhj5AeR9rJli6xsXiI7l",
+          "name": "IMG_5658.JPG",
+          "content_sha256": "42b4852731cd1c23f9c297e589c66bebcb394216746d2c173ffe253dcdcdbcf5",
+          "original_printed_pages": [
+            "f I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1icOfxJXPZm34WHRj80xiTOGoRwp8-iM9",
+          "name": "IMG_5659.JPG",
+          "content_sha256": "affdfe61d66aaefd50b2c88a7bccc277af6d46e3cd10ba6cc2055482042afc21",
+          "original_printed_pages": [
+            "g ALCHEMYSTIC LEXICON"
+          ]
+        },
+        {
+          "file_id": "1dNv68TwH4e4jCgXMNa2DrlzwJHefsxHC",
+          "name": "IMG_5667.JPG",
+          "content_sha256": "11ee27a95215bfd285487dfbc72ec9fecabbe0b5b1228de2a83f0d7e1472697c",
+          "original_printed_pages": [
+            "o ALCHEMYSTIC LEXICON"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-j-dynamic-layers",
+      "concept_id": "core-trinity",
+      "kind": "layer_definition",
+      "proposition": "Core Trinity uses natal static,progressed inner and relocated outer charts together;Dynamic Chart Approach adds transits to each.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "The layer definitions do not supply missing progression,relocation or event-selection algorithms and do not validate outcome accuracy."
+      ],
+      "requires_concepts": [
+        "natal-transit-order",
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "14jtClfMvdriY4tQwTM3dtHZ4fonKz_tj",
+          "name": "IMG_5660.JPG",
+          "content_sha256": "209a3ece0c94d25f8e7b8f814e1828d3673c42f109b0da5acdfffcdb9ef21b76",
+          "original_printed_pages": [
+            "h I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1tWl08L06uXnX935Pkll7nV800mhPu6WC",
+          "name": "IMG_5662.JPG",
+          "content_sha256": "5ef31a972f85c62483dd6196caf5c0c21dcf554648c42c1a385262c46389c16e",
+          "original_printed_pages": [
+            "j I FIXED ASTROLOGY"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-q-r-context-first",
+      "concept_id": "objective-context",
+      "kind": "interpretation_sequence",
+      "proposition": "Jective Process moves objective observation to subjective relevance;Layering carries contextual conditions,and topic Lenses use the whole chart. Mix-n-Match is conditional on full planetary conditions.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Do not use keyword assembly as an unconditional report generator or treat source assertions of truth as independent validation."
+      ],
+      "requires_concepts": [
+        "block-color",
+        "phsr"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1gn14uuYHIUg9LHdwrbCmPjx6mjqFwDHF",
+          "name": "IMG_5669.JPG",
+          "content_sha256": "c43a2f35ffafdf1414023b0c2dc0f77a7fc3d5a7a474a4568857f6a94610ec19",
+          "original_printed_pages": [
+            "q ALCHEMYSTIC LEXICON"
+          ]
+        },
+        {
+          "file_id": "1tLi2tR-oWF852zfo3FwLv7w8yWgzkhxn",
+          "name": "IMG_5670.JPG",
+          "content_sha256": "9dc135a5efaff5938f1d44e2884afa4dcbe9f7ee5b4add52e06358d65e7131c6",
+          "original_printed_pages": [
+            "r I FIXED ASTROLOGY"
+          ]
+        },
+        {
+          "file_id": "1U3X82jY8Oc95Y9cv0-3z8OtW_nPz-Pd2",
+          "name": "IMG_5671.JPG",
+          "content_sha256": "dac44278dd8c803bee1aaa7231e8a4b41dde5d14fbaa4362d2cd5696c0dc7435",
+          "original_printed_pages": [
+            "s ALCHEMYSTIC LEXICON"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-u-phd2sar-order",
+      "concept_id": "phsr",
+      "kind": "explicit_interpretive_order",
+      "proposition": "PHD2SAR explicitly orders Planet,House,Degree,Decan,Sign,Aspect,Ruler,expanding PHSR with degree/decan before aspect/rulership.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Retain this exact named sequence and its relationship to PHSR; no missing calculation or universal reading is invented."
+      ],
+      "requires_concepts": [
+        "tone-pulse",
+        "spark-entry"
+      ],
+      "witnesses": [
+        {
+          "file_id": "14rP_kN5fywpxaeKDmErtPY02ZUins5vl",
+          "name": "IMG_5673.JPG",
+          "content_sha256": "2c5446665a34729820b9b7310446125404372e7392c1af4992ccc72f4e0cb4dc",
+          "original_printed_pages": [
+            "u ALCHEMYSTIC LEXICON"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-u-paran-overlay",
+      "concept_id": "parans",
+      "kind": "explicit_persistence_scope",
+      "proposition": "Birth Paran imprints remain with the person,and relocated Parans layer over rather than replace the originals.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "This restates source persistence claims without verifying causal amplification,visible-sky geometry or distance thresholds."
+      ],
+      "requires_concepts": [
+        "relocation"
+      ],
+      "witnesses": [
+        {
+          "file_id": "14rP_kN5fywpxaeKDmErtPY02ZUins5vl",
+          "name": "IMG_5673.JPG",
+          "content_sha256": "2c5446665a34729820b9b7310446125404372e7392c1af4992ccc72f4e0cb4dc",
+          "original_printed_pages": [
+            "u ALCHEMYSTIC LEXICON"
+          ]
+        }
+      ],
+      "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+      "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+      "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+      "answer_use": "NOT_APPROVED"
+    },
+    {
+      "id": "lexicon-v-return-duration-limit",
+      "concept_id": "returns",
+      "kind": "explicit_timing_exclusion",
+      "proposition": "Planetary returns are described as temporary geometric recalibration and explicitly not a yearlong prediction;solar luminary resonance is a related distinct chart type.",
+      "applicability": "Only the explicitly stated technique/chart context; full condition and all linked counterevidence required.",
+      "exclusions_and_limits": [
+        "Keep Focals,Phase-Pulses and return phases separate;this abbreviated lexicon does not supply exact phase boundaries or a complete selector."
+      ],
+      "requires_concepts": [
+        "cosmic-first",
+        "epoch-imprint"
+      ],
+      "witnesses": [
+        {
+          "file_id": "1D-bWz76wX59BF5eLteRNk0iIbd0ROZLK",
+          "name": "IMG_5674.JPG",
+          "content_sha256": "644b301d0b8f458abf4372c8ff4fabbf67ff58aa900e12d76eb70dc01fcb5f34",
+          "original_printed_pages": [
+            "v I FIXED ASTROLOGY"
           ]
         }
       ],

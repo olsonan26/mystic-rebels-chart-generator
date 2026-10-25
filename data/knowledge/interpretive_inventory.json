@@ -61,7 +61,8 @@
         }
       ],
       "line_reconciliation_finding_ids": [
-        "agency935-940-outcome-certainty"
+        "agency935-940-outcome-certainty",
+        "agency941-954-health-and-doctrine"
       ]
     },
     {
@@ -3062,6 +3063,9 @@
           "reflow_footer": 516,
           "page_text_sha256": "fd8e97917bffd8df8e46c7aaea6929b665b5d868bf85c44ea80c6d17de804309"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "lexicon-d-f-o-solar-names"
       ]
     },
     {
@@ -3095,7 +3099,10 @@
           "page_text_sha256": "fd8e97917bffd8df8e46c7aaea6929b665b5d868bf85c44ea80c6d17de804309"
         }
       ],
-      "original_scan_update": "Original617-619 recovered in targeted scan review: matching mean/osculating Sophia is directly opposite matching Lilith. Full numerical fixture and arc selection remain unverified. Retain PDF fragments as historical compilation witnesses."
+      "original_scan_update": "Original617-619 recovered in targeted scan review: matching mean/osculating Sophia is directly opposite matching Lilith. Full numerical fixture and arc selection remain unverified. Retain PDF fragments as historical compilation witnesses.",
+      "line_reconciliation_finding_ids": [
+        "lexicon-d-f-o-solar-names"
+      ]
     },
     {
       "id": "anchors",
@@ -5474,6 +5481,9 @@
           "reflow_footer": 688,
           "page_text_sha256": "b3347212942b9f51e9a22cc0152dba7915a6e12c2c078d9d99ea6c7862fcadad"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "exclusions955-disposition-boundaries"
       ]
     },
     {
@@ -5508,6 +5518,9 @@
           "reflow_footer": 689,
           "page_text_sha256": "89584da71181538caf857fee4abf95097a984e728ed4863914e2d23f15c2585c"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "derivatives959-960-natal-context"
       ]
     },
     {
@@ -5547,6 +5560,9 @@
           "reflow_footer": 692,
           "page_text_sha256": "9f52fd43a2d944441978ee47924023051747b8d964aa8287a938d59b716f6c87"
         }
+      ],
+      "line_reconciliation_finding_ids": [
+        "rectification964-968-incomplete-method"
       ]
     },
     {
@@ -5618,7 +5634,9 @@
         }
       ],
       "line_reconciliation_finding_ids": [
-        "agency935-940-outcome-certainty"
+        "agency935-940-outcome-certainty",
+        "agency941-954-health-and-doctrine",
+        "agency969-retrospective-headline"
       ]
     },
     {

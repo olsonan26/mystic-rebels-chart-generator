@@ -2,7 +2,7 @@
 
 This is the master navigation path for the Mystic Rebels / Alchemystic Astrology work retained in this repository, from the original chart engine through the latest source audit. It brings earlier engineering, research, source recoveries, conflicts, validation and release records into one report-building reference. It indexes the saved work; it does not reconstruct unavailable conversations or imply that every source passage has been reviewed.
 
-Snapshot: 25 October 2026, extending baseline commit `c97fdc30a1a2a46e6963ed5a58d103be0890c966` with the Eras, Phases and interpretation-limits continuation. See [the current verification](../evidence/source-pipeline/epochs-next-verification.json). The linked JSON authorities and original evidence remain authoritative. Historical documents preserve what was known at their checkpoint; their counts and missing-source statements can be superseded by later review. This source-audit continuation does not change calculation, interpretation implementation, runtime approval or deployment status.
+Snapshot: 25 October 2026, extending baseline commit `e8a199aad131c219407737483e2d4b71c74c73af` with the closing chapters, birth-time rectification and lexicon continuation. See [the current verification](../evidence/source-pipeline/closing-next-verification.json). The linked JSON authorities and original evidence remain authoritative. Historical documents preserve what was known at their checkpoint; their counts and missing-source statements can be superseded by later review. This source-audit continuation does not change calculation, interpretation implementation, runtime approval or deployment status.
 
 - [Current retained knowledge and authorities](#current-retained-knowledge-and-authorities)
 - [Engineering and research already completed](#engineering-and-research-already-completed)
@@ -22,20 +22,20 @@ The audit builds a reusable, source-bound knowledge layer. Personal reports, sou
 | Original image file IDs acquired | 1,029 |
 | Successful OCR files | 1,028 |
 | Unresolved OCR failures | 1 |
-| Images with targeted visual review | 662 |
-| Selected atomic assertions | 230 |
-| Image-checked annotations | 539 |
-| Checked OCR locators | 8,820 |
+| Images with targeted visual review | 712 |
+| Selected atomic assertions | 250 |
+| Image-checked annotations | 589 |
+| Checked OCR locators | 9,837 |
 | Total OCR locators | 34,026 |
-| Unchecked OCR locators | 25,206 |
-| Images still requiring targeted review | 367 |
-| Named findings | 43 |
+| Unchecked OCR locators | 24,189 |
+| Images still requiring targeted review | 317 |
+| Named findings | 49 |
 | Thematic concept records | 131 |
 | Atomic report requirements | 207 |
 | Report sections | 18 |
 | Sections approved as ready | 0 |
 
-Counts come from [the latest audit verification](../evidence/source-pipeline/post-locational-verification.json). They are different units, not a semantic-completion percentage. Multiple photographs can depict a printed page, and a targeted review can leave other passages on that image unchecked.
+Counts come from [the latest audit verification](../evidence/source-pipeline/closing-next-verification.json). They are different units, not a semantic-completion percentage. Multiple photographs can depict a printed page, and a targeted review can leave other passages on that image unchecked.
 
 | Need | Saved authority | What it retains |
 |---|---|---|
@@ -43,10 +43,10 @@ Counts come from [the latest audit verification](../evidence/source-pipeline/pos
 | Acquisition/OCR stages | [data/knowledge/source_pipeline.json](../data/knowledge/source_pipeline.json) | Per-file processing outcomes and private asset identity |
 | Inspected printed headers and candidate mappings | [data/knowledge/original_page_map.json](../data/knowledge/original_page_map.json) | Original image identity, header review and qualified PDF leads |
 | Meanings, exceptions and dependencies | [data/knowledge/interpretive_inventory.json](../data/knowledge/interpretive_inventory.json) | All 131 concept records and 18 report-section roots |
-| Atomic source claims | [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json) | All 230 propositions, applicability, limits and original witnesses |
-| Image-checked observations | [data/knowledge/source_line_annotations.json](../data/knowledge/source_line_annotations.json) | All 539 observations tied to exact image/OCR identity |
+| Atomic source claims | [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json) | All 250 propositions, applicability, limits and original witnesses |
+| Image-checked observations | [data/knowledge/source_line_annotations.json](../data/knowledge/source_line_annotations.json) | All 589 observations tied to exact image/OCR identity |
 | Checked and pending OCR locators | [data/knowledge/source_line_reconciliation.json](../data/knowledge/source_line_reconciliation.json) | Coverage ledger; unchecked content remains explicit |
-| Conflicts and incomplete rules | [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json) | All 43 findings, counterevidence and remaining questions |
+| Conflicts and incomplete rules | [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json) | All 49 findings, counterevidence and remaining questions |
 | Printed-page duplicate handling | [data/knowledge/source_visual_duplicate_groups.json](../data/knowledge/source_visual_duplicate_groups.json) | Distinct file identities retained for duplicate-page groups |
 | Source examples | [data/knowledge/worked_examples.json](../data/knowledge/worked_examples.json) | 30 examples with source facts and limits |
 | Calculation/workflow capabilities | [data/knowledge/capabilities.json](../data/knowledge/capabilities.json) | 44 separate capability dispositions, implementation paths and tests |
@@ -107,6 +107,7 @@ The sequence below preserves cumulative checkpoints. Read each linked record for
 | 50-image locational continuation | [docs/2026-10-25_source-audit-locational-continuation.md](../docs/2026-10-25_source-audit-locational-continuation.md) | 562 targeted images; 198 assertions; 439 annotations; 6,842 checked locators; 33 findings. |
 | 50-image Local Space travel/Epochs continuation | [Prior continuation](../docs/2026-10-25_source-audit-epochs-continuation.md) | 612 targeted images; 214 assertions; 489 annotations; 7,696 checked locators; 38 findings. |
 | 50-image Eras/Phases and interpretation-limits continuation | [Current continuation](../docs/2026-10-25_source-audit-era-phase-continuation.md) | 662 targeted images; 230 assertions; 539 annotations; 8,820 checked locators; 43 findings. |
+| 50-image closing/BTR/lexicon continuation | [Current continuation](../docs/2026-10-25_source-audit-closing-btr-continuation.md) | 712 targeted images;250 assertions;589 annotations;9,837 checked locators;49 findings. Local publication pending approval. |
 
 ### Earlier recoveries and interpretation context
 
@@ -123,13 +124,15 @@ The locational continuation retains these report-critical dependencies:
 - Printed 790-791: Delegate condition, full relocated chart, natal assessment and the person's purpose for moving precede line interpretation.
 - Printed 796-797 and 805: HR/HS/AP/SA sky roles differ from zodiacal AC/DC/MC/IC contacts; signs, houses and rulers still shape expression after chart assessment.
 - Printed 808 and 812: natal Paran imprint is retained separately from the new location's added Parans; selection epoch and event-window ambiguity remain open.
-- Printed 813: Capricorn Field ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Aries Tone ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ ruler Mars ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Cancer Field/Libra Tone ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Apex role is retained as a worked context chain.
+- Printed 813: Capricorn Field ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ Aries Tone ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ ruler Mars ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ Cancer Field/Libra Tone ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ Apex role is retained as a worked context chain.
 - Printed 817: the Visibility Spectrum is explicitly unproven research; no operational rule is inferred from it.
 - Printed 828-835: Local Space origin, true-north azimuth, direction, output/receipt and physical-travel scope are retained; natal imprint is not overwritten when a new origin is calculated.
 
 The Local Space travel/Epochs continuation adds stopover-origin timing limits, expressly untested Sidereal Anchoring, tilt percent/degree wording, internal rate/calendar arithmetic differences and conflicting Age/Decan dates. Collective historical context remains distinct from individual natal interpretation; successful OCR of rotated printed843 is not usable prose. See [the prior Local Space/Epochs report](2026-10-25_source-audit-epochs-continuation.md) for exact passages and qualifications.
 
-The Eras/Phases continuation preserves forward subdivisions, explicit non-natal/non-personality imprint exclusions, additional calendar conflicts and the limits of retrospective outcome claims. See [the current source report](2026-10-25_source-audit-era-phase-continuation.md) and all 43 named findings below.
+The Eras/Phases continuation preserves forward subdivisions, explicit non-natal/non-personality imprint exclusions, additional calendar conflicts and the limits of retrospective outcome claims. See [the earlier Eras/Phases report](2026-10-25_source-audit-era-phase-continuation.md); the current inventory below retains all 49 findings.
+
+The closing/BTR/lexicon continuation retains three omission dispositions, inclusive derivative counting with natal context, explicit rectification gaps, residence-period layer limits, conflicting solar-point names and unvalidated health/outcome claims. See [the current report](2026-10-25_source-audit-closing-btr-continuation.md). All49 findings remain retrievable. The separately uncommitted Norfolk fix is outside this source audit, and audit publication remains pending approval after the prior automatic review rejection.
 
 These summaries are navigation aids. The complete concept/assertion/finding indexes below retain the saved wording, dependencies and limits; the linked authorities retain exact hashes and all witnesses.
 
@@ -588,7 +591,7 @@ Authority: [data/knowledge/material_requirements.json](../data/knowledge/materia
 </details>
 
 <details>
-<summary>All 230 selected atomic source assertions</summary>
+<summary>All 250 selected atomic source assertions</summary>
 
 Authority: [data/knowledge/original_assertions.json](../data/knowledge/original_assertions.json). Source-faithfulness records retain execution/personal-answer restrictions. Exact provider IDs and image hashes remain in canonical witnesses.
 
@@ -824,6 +827,26 @@ Authority: [data/knowledge/original_assertions.json](../data/knowledge/original_
 | agency935-not-definitive | agency | The closing discussion rejects definitive fortune-telling and surrendering free will;body,aspect andruler context precedes asking how to respond to possible expressions. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not turn estimates or symbolic interpretation into guaranteed events;context and cited alternatives remain required. | objective-context | IMG_5614.JPG [printed 934]; IMG_5615.JPG [printed 935] |
 | agency937-choice-and-dependence | agency | The author warns about depending on astrology for every decision and emphasizes action rather than outsourcing choice to fate. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | These cautions are source guidance,not evidence that the user is dependent or has a mental-health condition;no clinical or universal transit-duration rule follows. | objective-context | IMG_5616.JPG [printed 936]; IMG_5617.JPG [printed 937] |
 | agency940-health-anecdote-limit | agency | Original939-940 claims a birth/death outcome was foreseen across five charts and prevented by a caregiver choice,while935 says interpretations are not definitive. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve the source claim and its nondeterministic counterevidence without treating retrospective counterfactuals as medical efficacy,death foreknowledge,obstetric advice or an approved predictive rule. | objective-context, derivatives | IMG_5619.JPG [printed 939]; IMG_5620.JPG [printed 940] |
+| agency941-event-still-happened | agency | The author explicitly says the cardiac event still happened and credits both midwives and astrological foresight for survival. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve this qualification alongside939-940 prevention language; no counterfactual, clinical efficacy or death-prediction rule is verified. | objective-context | IMG_5621.JPG [printed 941 WHAT IT MEANS TO ALCHEMIZE] |
+| agency942-manifestation-scope | agency | Manifestation is defined through intention,focus,belief and action,with promotion thoughts and lack-focused money examples. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The thought-count comparison is rhetoric,not a probability model; no guaranteed financial,employment or physical outcome follows. | objective-context | IMG_5622.JPG [printed 942 THE MECHANICS OF MANIFESTATION]; IMG_5623.JPG [printed 943 THE MECHANICS OF MANIFESTATION]; IMG_5624.JPG [printed 944 I FIXED ASTROLOGY] |
+| agency949-951-allergy-claim | agency | The author reports a doctor-given Oral Allergy Syndrome label,then attributes reactions to emotional trauma and reports later eating raw carrots. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Keep reported diagnosis and uncertain childhood correlation visible; do not infer user illness, recommend food rechallenge or approve a trauma-based cure. | objective-context | IMG_5629.JPG [printed 949 THAT TIME I ALMOST DIED]; IMG_5630.JPG [printed 950 I FIXED ASTROLOGY]; IMG_5631.JPG [printed 951 SPIRITUAL APPLICATION] |
+| agency952-choice-claim | agency | The source calls depression and happiness choices and promises creating the life one wants. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | These are author claims,not approved mental-health facts,clinical guidance or grounds for blaming a user. | objective-context | IMG_5632.JPG [printed 952 I FIXED ASTROLOGY] |
+| agency953-spiritual-modeling-limit | agency | Alchemysm is explicitly called doctrine that does not follow rigorous empirical scientific modeling; science is said to precede separate spiritual application. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The accompanying statistical-repeatability claim supplies no controlled dataset or independent empirical validation. | objective-context, free-theory | IMG_5633.JPG [printed 953 ALCHEMYSM]; IMG_5634.JPG [printed 954 I FIXED ASTROLOGY] |
+| exclusions955-three-dispositions | exclusions | The author separates unresolved techniques such as Zodiacal Releasing,rejected techniques including essential dignities/sects/solar arc/planetary joys,and useful topics omitted for priority such as Derivatives. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not invent repaired Zodiacal Releasing or import generic excluded techniques; author rejection is not an independently verified scientific debunking. | objective-context | IMG_5635.JPG [printed 955 INTENTIONAL OMISSIONS]; IMG_5636.JPG [printed 956 I FIXED ASTROLOGY]; IMG_5637.JPG [printed 957 INTENTIONAL OMISSIONS]; IMG_5638.JPG [printed 958 I FIXED ASTROLOGY] |
+| derivatives959-inclusive-count | derivatives | Rotate the theme house into first-house Vantage and count inclusively: a child's money is second-from-fifth,natal sixth; successive children are fifth,seventh,ninth. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The natural fifth-house child context remains required; this example does not validate a health or birth/death prediction. | vantage-resolution, house-field | IMG_5639.JPG [printed 959 INTENTIONAL OMISSIONS] |
+| derivatives960-supplement-only | derivatives | Derivatives are additional detail,not standalone or replacement natal charts;third-child ninth-house reading supplements natural fifth-house reading and is partly perspective rather than cosmic truth. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | A promised future rotating-chart software option is not evidence of a currently implemented feature or approved report layer. | objective-context, house-field | IMG_5638.JPG [printed 958 I FIXED ASTROLOGY]; IMG_5640.JPG [printed 960 I FIXED ASTROLOGY] |
+| rectification961-evidence-dependency | rectification | BTR uses personal event histories with birthplace required;dated memories/photos affect accuracy,and appearance precedes Decan/Pulse and Degree/Spark refinement. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Unknown celebrity birth times and competing website claims remain uncertain; no exact timestamp is established by this outline. | tone-pulse, spark-entry, articulation | IMG_5641.JPG [printed 961 CRUISE-ING THROUGH BTR]; IMG_5642.JPG [printed 962 I FIXED ASTROLOGY] |
+| rectification964-omitted-deduction | rectification | The author admits not explaining how Pisces rising was selected,notes two same-day windows23+hours apart,and explicitly says the example is not meant to teach BTR. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not manufacture the missing deduction,unique event score,appearance classifier or an automated rectification algorithm. | objective-context | IMG_5644.JPG [printed 964 I FIXED ASTROLOGY]; IMG_5645.JPG [printed 965 CRUISE-ING THROUGH BTR] |
+| rectification966-progressions | rectification | The example proposes progressed charts outside transits to check dated events and calls its final wheel fully rectified. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Retrospective alignment is not independent verification of the birth time,event chronology,progression-angle method or ephemeris fixtures. | core-trinity | IMG_5645.JPG [printed 965 CRUISE-ING THROUGH BTR]; IMG_5646.JPG [printed 966 I FIXED ASTROLOGY]; IMG_5647.jpg [printed 967 CRUISE-ING THROUGH BTR] |
+| rectification968-residence-time-scope | rectification | Progressions are a separate layer;when someone has moved,relocated layers apply only during the times they lived in those places,not overall. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Keep natal,progressed and residence-specific relocated facts distinct; Hollywood anecdotes are not verified user data or a universal event rule. | relocation, core-trinity | IMG_5648.JPG [printed 968 I FIXED ASTROLOGY] |
+| agency969-headline-limit | agency | A selected celebrity-rumor headline supports the author's never-misses claim,while the same closing text rejects surrendering personal power and emphasizes proactive choice. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The headline is not verified biography,a prospective benchmark or a guarantee; retain the source's agency cautions. | objective-context, rectification | IMG_5649.JPG [printed 969 FREE WILL VS DIVINE TIMING]; IMG_5650.JPG [printed 970 I FIXED ASTROLOGY]; IMG_5651.JPG [printed 971 OOPS I FORGOT] |
+| categories972-equal-importance | planet-categories | Sun/Moon are ultrapersonal,Mercury/Venus personal,Mars extrapersonal,Jupiter/Saturn transpersonal,and Uranus/Neptune/Pluto metapersonal;none are less important. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not substitute generational labels or convert category groups into automatic importance weights. | planet-lexicon | IMG_5651.JPG [printed 971 OOPS I FORGOT]; IMG_5652.JPG [printed 972 I FIXED ASTROLOGY] |
+| lexicon-d-f-o-solar-name-conflict | sophia | Lexicon d names White Sun Sophia/Black Sun Lilith;f-g names Black Sun Apollo opposite White Sun Sophia;o names White Sun Apollo/Black Sun Prometheus. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Preserve each printed label with its source;no canonical renaming,solar/lunar identity merge or approved formula follows. Earth-Sun versus Sun-from-Earth observer wording also requires clarification. | lunar-arcs, objective-context | IMG_5656.JPG [printed d I FIXED ASTROLOGY]; IMG_5658.JPG [printed f I FIXED ASTROLOGY]; IMG_5659.JPG [printed g ALCHEMYSTIC LEXICON]; IMG_5667.JPG [printed o ALCHEMYSTIC LEXICON] |
+| lexicon-j-dynamic-layers | core-trinity | Core Trinity uses natal static,progressed inner and relocated outer charts together;Dynamic Chart Approach adds transits to each. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | The layer definitions do not supply missing progression,relocation or event-selection algorithms and do not validate outcome accuracy. | natal-transit-order, relocation | IMG_5660.JPG [printed h I FIXED ASTROLOGY]; IMG_5662.JPG [printed j I FIXED ASTROLOGY] |
+| lexicon-q-r-context-first | objective-context | Jective Process moves objective observation to subjective relevance;Layering carries contextual conditions,and topic Lenses use the whole chart. Mix-n-Match is conditional on full planetary conditions. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Do not use keyword assembly as an unconditional report generator or treat source assertions of truth as independent validation. | block-color, phsr | IMG_5669.JPG [printed q ALCHEMYSTIC LEXICON]; IMG_5670.JPG [printed r I FIXED ASTROLOGY]; IMG_5671.JPG [printed s ALCHEMYSTIC LEXICON] |
+| lexicon-u-phd2sar-order | phsr | PHD2SAR explicitly orders Planet,House,Degree,Decan,Sign,Aspect,Ruler,expanding PHSR with degree/decan before aspect/rulership. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Retain this exact named sequence and its relationship to PHSR; no missing calculation or universal reading is invented. | tone-pulse, spark-entry | IMG_5673.JPG [printed u ALCHEMYSTIC LEXICON] |
+| lexicon-u-paran-overlay | parans | Birth Paran imprints remain with the person,and relocated Parans layer over rather than replace the originals. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | This restates source persistence claims without verifying causal amplification,visible-sky geometry or distance thresholds. | relocation | IMG_5673.JPG [printed u ALCHEMYSTIC LEXICON] |
+| lexicon-v-return-duration-limit | returns | Planetary returns are described as temporary geometric recalibration and explicitly not a yearlong prediction;solar luminary resonance is a related distinct chart type. | Only the explicitly stated technique/chart context; full condition and all linked counterevidence required. | Keep Focals,Phase-Pulses and return phases separate;this abbreviated lexicon does not supply exact phase boundaries or a complete selector. | cosmic-first, epoch-imprint | IMG_5674.JPG [printed v I FIXED ASTROLOGY] |
 
 </details>
 
@@ -868,7 +891,7 @@ Authority: [data/knowledge/worked_examples.json](../data/knowledge/worked_exampl
 </details>
 
 <details>
-<summary>All 43 named findings and unresolved questions</summary>
+<summary>All 49 named findings and unresolved questions</summary>
 
 Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/source_blocker_findings.json). Recovered wording does not erase counterevidence or approve execution.
 
@@ -917,6 +940,12 @@ Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/sourc
 | epoch896-offearth-observer | epoch-imprint, election-horary | OFF_EARTH_OBSERVER_CONVENTION_INCOMPLETE | Original896 says to use London for UTC time location for an off-Earth event and gives CapricornRising for8:17pmJuly20,1969. The source does not resolve whether London is a conventionally substituted Earth observer,the actual event location or merely a time-zone reference. | Do not infer longitude/latitude from UTC. Obtain explicit observer/frame and event-location policy plus independent fixture;author rhetorical speculation is not factual evidence of an event conspiracy. | epoch896-offearth-location |
 | epoch929-imprint-scope | epoch-imprint | EXPLICIT_NON_NATAL_NON_PERSONALITY_SCOPE | Original929 explicitly excludes natal energies,chart placement andpersonality-trait interpretation,and says CancerSubfocal does not determine good/bad family circumstances. Originals926-928 include broad generation claims and personal-sounding Focal/Subfocal examples;they do not override the explicit scope limits. | Keep attributed examples and exclusions together. No age-cohort stereotype,user biography,diagnosis or personal imprint/report approval follows;complete timing and evaluated contextual synthesis remain missing. | epoch929-not-natal-or-personality, epoch927-subfocal-example, epoch926-film-evidence-limit |
 | agency935-940-outcome-certainty | agency, objective-context | NONDEFINITIVE_LIMIT_AND_UNVALIDATED_HEALTH_COUNTERCLAIM | Original935 rejects definitive fortune-telling;934/936-937 warn against dependence and surrender of choice. Originals939-940 nevertheless claim death/birth foreknowledge and life-saving intervention from five-chart assessment. The retrospective anecdote supplies neither a controlled outcome dataset nor a verifiable counterfactual. | Preserve both caution and confidence claims without converting them into approved clinical,death or obstetric prediction. No user health inference,care decision rule or empirical efficacy is established by source review. | agency935-not-definitive, agency937-choice-and-dependence, agency940-health-anecdote-limit |
+| agency941-954-health-and-doctrine | agency, objective-context | ATTRIBUTED_HEALTH_CLAIMS_AND_EXPLICIT_SPIRITUAL_MODELING_LIMIT | Original941 says the cardiac event still happened;949-951 attributes allergy improvement to trauma insight;952 calls depression a choice.953 explicitly calls Alchemysm non-empirically-modeled doctrine,while954 claims repeatable outcomes without supplying data. | Retain author attribution and contradictory confidence/caution. No clinical efficacy,death foreknowledge,user diagnosis,cure or blame-based report approval; empirical validation remains separate from source fidelity. | agency941-event-still-happened, agency949-951-allergy-claim, agency952-choice-claim, agency953-spiritual-modeling-limit |
+| exclusions955-disposition-boundaries | exclusions | REJECTED_UNRESOLVED_AND_DEFERRED_MUST_REMAIN_DISTINCT | Original955 shelves Zodiacal Releasing and distance/synodic research;955-958 rejects named traditional techniques but says other omissions can be useful and introduces Derivatives as additional detail. | Do not repair missing rules through invention,collapse all omissions into rejection,or import excluded generic astrology. Obtain complete supportable rules for unfinished ideas before implementation. | exclusions955-three-dispositions |
+| derivatives959-960-natal-context | derivatives | INCLUSIVE_COUNTING_AND_NONREPLACEMENT_SCOPE | Original959 counts second-from-fifth as sixth and siblings as fifth/seventh/ninth;960 explicitly keeps natural fifth-house reading and says derivative charts are perspective-based additions,not replacement natal charts. | Preserve inclusive indexing,theme-specific vantage and natal context. The associated medical anecdote and future software promise do not approve health prediction or certify implemented chart rotation. | derivatives959-inclusive-count, derivatives960-supplement-only |
+| rectification964-968-incomplete-method | rectification | EXPLICITLY_INCOMPLETE_TUTORIAL_AND_TIME_LOCATION_DEPENDENCIES | Original964 omits Pisces-selection reasoning and notes two midnight windows;965 says this is not meant to teach BTR.966 proposes progression/event comparison;968 restricts moved-location layers to residence periods. | Require dated reliable events,verified birthplace/time evidence,complete search/acceptance and progression methods,and residence intervals. Do not silently promote the celebrity wheel into an independently verified timestamp or automated rectification capability. | rectification961-evidence-dependency, rectification964-omitted-deduction, rectification966-progressions, rectification968-residence-time-scope |
+| lexicon-d-f-o-solar-names | sophia, lunar-arcs | COMPETING_SOLAR_POINT_NAMES_AND_OBSERVER_LANGUAGE | Lexicon d uses White Sun Sophia/Black Sun Lilith;f-g uses Black Sun Apollo opposite White Sun Sophia;o uses White Sun Apollo/Black Sun Prometheus and describes the Sun closest/farthest from Earth after d describes Earth closest/farthest from Sun. | Preserve all labels with image witnesses; author/version clarification and observer/orbital definitions are needed. Do not rename automatically,merge lunar Lilith with solar apogee or enable unresolved formulas. | lexicon-d-f-o-solar-name-conflict |
+| agency969-retrospective-headline | agency | NEVER_MISSES_CLAIM_WITHOUT_PROSPECTIVE_BENCHMARK | Original969 selects a celebrity-rumor headline and claims astrology never misses;969-971 also reject outsourcing power and promote free choice. No fixed prospectively evaluated prediction set is supplied. | Retain source confidence claims alongside agency and nondefinitive cautions. No rumor verification,guaranteed outcome,financial advice or empirical performance approval follows. | agency969-headline-limit, agency942-manifestation-scope |
 
 </details>
 
@@ -926,7 +955,7 @@ Authority: [data/knowledge/source_blocker_findings.json](../data/knowledge/sourc
 
 The retained release history includes the Gradity/knowledge-control foundation and later audit-data promotion to the existing production project. The source-audit production receipt records deployed source commit `e323507b671f419e882d9a6138790db230051684`, deployment `dpl_CNxKZhzbK2zM8z1qaXWYTHTGnGMv`, exact committed-byte verification of 17 knowledge files, preserved password access and unchanged sampled chart output. That deployed audit snapshot contained 462 targeted image reviews and 170 assertions.
 
-The later Parts/asteroid, locational and current Local Space travel/Epochs audits increased saved totals to 662 targeted images and 230 assertions. These later audits have no deployment approval; prior continuations were pushed without deployment. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
+The Parts/asteroid, locational, Epochs, closing/BTR and lexicon audits increased saved totals to 712 targeted images and 250 assertions. These audits have no deployment approval. Publication is verified through c97fdc3; e8a199a and the current continuation remain local after the prior automatic push-review rejection. This master path does not claim those later totals are deployed or that a fresh live check occurred during this documentation update. Audit-data publication is distinct from a report UI, retrieval API or answering layer. Automatic deployment remains disabled for the audit branch.
 
 Use [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_source-audit-production-release.md), [evidence/source-pipeline/production-deployment-2026-10-25.json](../evidence/source-pipeline/production-deployment-2026-10-25.json), [evidence/source-pipeline/deployment-file-integrity.json](../evidence/source-pipeline/deployment-file-integrity.json) and [docs/SITE_ACCESS.md](../docs/SITE_ACCESS.md) for the historical release/access evidence. Saved chart storage configuration or migration files do not establish independently verified live storage. Earlier release and verification records remain indexed below.
 
@@ -934,7 +963,7 @@ Use [docs/2026-10-25_source-audit-production-release.md](../docs/2026-10-25_sour
 
 Original photographs, full candidate OCR, source PDFs and local SQLite indexes are retained privately under ignored `reference/` paths. Public Git stores provenance, reviewed summaries, authored declarations, knowledge records, queues and validation evidence. Private source text, originals and credentials are excluded from publication.
 
-The saved 25 October presence check confirms all 1,029 acquired image files, all 1,028 successful OCR files and both local indexes present. All 230 assertions have original witnesses and remain unapproved for personal answers. This establishes recorded local retention, not an independently verified backup. A fresh checkout requires restoring private assets from the retained collection or provider, then verifying the recorded hashes before relying on them.
+The saved 25 October presence check confirms all 1,029 acquired image files, all 1,028 successful OCR files and both local indexes present. All 250 assertions have original witnesses and remain unapproved for personal answers. This establishes recorded local retention, not an independently verified backup. A fresh checkout requires restoring private assets from the retained collection or provider, then verifying the recorded hashes before relying on them.
 
 Use [evidence/source-pipeline/profile-report-knowledge-readiness.json](../evidence/source-pipeline/profile-report-knowledge-readiness.json) for the presence/hash snapshot and [docs/SOURCE_REVIEW_PIPELINE.md](../docs/SOURCE_REVIEW_PIPELINE.md) for restoration/acquisition and indexing procedure. No private content has been copied into this master path.
 
@@ -943,11 +972,12 @@ Use [evidence/source-pipeline/profile-report-knowledge-readiness.json](../eviden
 The following inventories cover tracked documentation and evidence reachable in this repository at the snapshot commit. Historical artifacts are preserved as evidence of their own checkpoint; later authorities control current counts and dispositions. The source files, tests and scripts referenced by those documents remain part of the repository.
 
 <details>
-<summary>All 24 other tracked project documents</summary>
+<summary>All 25 other tracked project documents</summary>
 
 - [docs/2026-10-25_full-queue-line-reconciliation.md](../docs/2026-10-25_full-queue-line-reconciliation.md)
 - [docs/2026-10-25_mystic-knowledge-audit-report.md](../docs/2026-10-25_mystic-knowledge-audit-report.md)
 - [docs/2026-10-25_source-audit-100-image-continuation.md](../docs/2026-10-25_source-audit-100-image-continuation.md)
+- [docs/2026-10-25_source-audit-closing-btr-continuation.md](../docs/2026-10-25_source-audit-closing-btr-continuation.md)
 - [docs/2026-10-25_source-audit-deeper-continuation.md](../docs/2026-10-25_source-audit-deeper-continuation.md)
 - [docs/2026-10-25_source-audit-epochs-continuation.md](../docs/2026-10-25_source-audit-epochs-continuation.md)
 - [docs/2026-10-25_source-audit-era-phase-continuation.md](../docs/2026-10-25_source-audit-era-phase-continuation.md)
@@ -1287,10 +1317,16 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>source-pipeline: all 58 tracked evidence artifacts</summary>
+<summary>source-pipeline: all 64 tracked evidence artifacts</summary>
 
 - [evidence/source-pipeline/axis-audit-import.json](../evidence/source-pipeline/axis-audit-import.json)
 - [evidence/source-pipeline/checkpoint-audit-tests.xml](../evidence/source-pipeline/checkpoint-audit-tests.xml)
+- [evidence/source-pipeline/closing-next-audit-import.json](../evidence/source-pipeline/closing-next-audit-import.json)
+- [evidence/source-pipeline/closing-next-master-index.json](../evidence/source-pipeline/closing-next-master-index.json)
+- [evidence/source-pipeline/closing-next-preservation.json](../evidence/source-pipeline/closing-next-preservation.json)
+- [evidence/source-pipeline/closing-next-regeneration.json](../evidence/source-pipeline/closing-next-regeneration.json)
+- [evidence/source-pipeline/closing-next-tests.xml](../evidence/source-pipeline/closing-next-tests.xml)
+- [evidence/source-pipeline/closing-next-verification.json](../evidence/source-pipeline/closing-next-verification.json)
 - [evidence/source-pipeline/continuation-100-regeneration.json](../evidence/source-pipeline/continuation-100-regeneration.json)
 - [evidence/source-pipeline/continuation-100-tests.xml](../evidence/source-pipeline/continuation-100-tests.xml)
 - [evidence/source-pipeline/continuation-100-verification.json](../evidence/source-pipeline/continuation-100-verification.json)
@@ -1368,7 +1404,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 </details>
 
 <details>
-<summary>All 33 reachable commits through the pre-batch baseline</summary>
+<summary>All 34 reachable commits through the pre-batch baseline</summary>
 
 | Commit | Commit date | Saved change |
 |---|---|---|
@@ -1405,6 +1441,7 @@ The following inventories cover tracked documentation and evidence reachable in 
 | fc6898ca64343412dac9c58fd667413cb3bed63b | 2026-10-25 | Audit 50 locational source images and document profile report knowledge path |
 | 486f78836b8bd623b72f7816a8b06c2f68b7f1ad | 2026-10-25 | Document complete retained profile report knowledge history |
 | c97fdc30a1a2a46e6963ed5a58d103be0890c966 | 2026-10-25 | Audit 50 Local Space travel and epoch source images |
+| e8a199aad131c219407737483e2d4b71c74c73af | 2026-10-25 | Audit 50 Era Phase and interpretation-limit source images |
 
 </details>
 
@@ -1412,8 +1449,8 @@ The following inventories cover tracked documentation and evidence reachable in 
 
 Start with the current JSON authorities and latest continuation verification, then consult older documents for their retained evidence. Do not restart the engine or rebuild the knowledge from chat summaries. Preserve primary/secondary source distinctions, all conflicting branches and current personal-use restrictions.
 
-For the next source review, use [docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md](../docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md), [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json) and [evidence/source-pipeline/line-review-queue.json](../evidence/source-pipeline/line-review-queue.json). The latest checkpoint has 367 images still requiring targeted review, one failed OCR item and 25,206 unchecked OCR locators. Do not re-download or re-OCR verified completed assets without a concrete failure or missing-asset reason.
+For the next source review, use [docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md](../docs/NEXT_SESSION_SOURCE_REVIEW_PROMPT.md), [evidence/source-pipeline/remaining-queue.json](../evidence/source-pipeline/remaining-queue.json) and [evidence/source-pipeline/line-review-queue.json](../evidence/source-pipeline/line-review-queue.json). The latest checkpoint has 317 images still requiring targeted review, one failed OCR item and 24,189 unchecked OCR locators. Do not re-download or re-OCR verified completed assets without a concrete failure or missing-asset reason.
 
 After authored source changes, follow the builder and validator sequence in [docs/SOURCE_REVIEW_PIPELINE.md](../docs/SOURCE_REVIEW_PIPELINE.md), including line reconciliation and its verifier. Re-run the applicable audit integrity checks, inspect changed paths, preserve prior validation receipts and refresh the affected index rows and counts here. Reproducible source declarations and canonical records are the durable knowledge; this path makes them discoverable.
 
-The current source-audit receipt records fresh regression results, identical regeneration and retrieval of all 43 findings through 27 concept packets. This continuation includes 50 targeted image reviews and selected source arithmetic checks, but no interpretation implementation or production release. These checks do not validate personal report output.
+The current source-audit receipt records fresh regression results, identical regeneration and retrieval of all 49 findings through 30 concept packets. This continuation includes 50 targeted image reviews and selected scope, diagram and naming checks, but no interpretation implementation or production release. These checks do not validate personal report output.

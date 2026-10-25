@@ -17726,409 +17726,758 @@
       "file_id": "1jADoqUNrX1qx3so3bOQmCivNJB-VX6FZ",
       "name": "IMG_5621.JPG",
       "image_sha256": "ee5363a67240e9f21597489d207055420216469255f797cd0377fa879ee0538f",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "941 WHAT IT MEANS TO ALCHEMIZE"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1JesSnZW-5eW0lX6KSnwecI_36nETRA8T",
       "name": "IMG_5622.JPG",
       "image_sha256": "c9945e9040b88a75f76f7d050ff89892eeada036413c4a5170e13ac48004bf65",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "942 THE MECHANICS OF MANIFESTATION"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 673,
+          "reflow_footer": 677,
+          "page_text_sha256": "cd23b64d33379cf1a3a3ecd5a955284e4dd822101e889e5222dedd733bfc7de4"
+        },
+        {
+          "pdf_page": 674,
+          "reflow_footer": 678,
+          "page_text_sha256": "9f8a364781e514dd676ea2cfd2d8c09dd951a9d7a4e55b44403e819cb042a8d3"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "13AVcV3XACtWJlJCfIDn6T3Yy73BXHNro",
       "name": "IMG_5623.JPG",
       "image_sha256": "2cfc7faab3177922058053e69abac49f80a6f178aa475e0e1170404b148a6e14",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "943 THE MECHANICS OF MANIFESTATION"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1aeGXHEzX0BkrULZq_4fTEitjn1tY06Rq",
       "name": "IMG_5624.JPG",
       "image_sha256": "da6cd42a0e5af3b01e66ffbb891ca1233a2bdb3fecc0e58037b8d36cc7968dd5",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "944 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 674,
+          "reflow_footer": 678,
+          "page_text_sha256": "9f8a364781e514dd676ea2cfd2d8c09dd951a9d7a4e55b44403e819cb042a8d3"
+        },
+        {
+          "pdf_page": 675,
+          "reflow_footer": 679,
+          "page_text_sha256": "5d339f0900cfea3a11bc45fbf282c0b4ab5a6ecf17093bd784879139a3ea0a35"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1_Fc0QCYK-HWaxJAmQGgat1-XxVUbGrtz",
       "name": "IMG_5625.JPG",
       "image_sha256": "66a540097fee6bcec7180827636e189cfb88dbc43dcb7e5647a7b1fd315ef1aa",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "945 ARE YOU AN ASTROLOGER"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 675,
+          "reflow_footer": 679,
+          "page_text_sha256": "5d339f0900cfea3a11bc45fbf282c0b4ab5a6ecf17093bd784879139a3ea0a35"
+        },
+        {
+          "pdf_page": 676,
+          "reflow_footer": 680,
+          "page_text_sha256": "c584ef1b823a74c5f3bd261173f7bd879e6b0bca466cf7e7ede7fe3ef5ff3763"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1JuX2O1gZQsVqiTZTahiMuCqygE3vRFRn",
       "name": "IMG_5626.JPG",
       "image_sha256": "bb09074671308c599c4b04f3ce9e0053da3946357e0be28c976e6fa20420e7ab",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "946 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 676,
+          "reflow_footer": 680,
+          "page_text_sha256": "c584ef1b823a74c5f3bd261173f7bd879e6b0bca466cf7e7ede7fe3ef5ff3763"
+        },
+        {
+          "pdf_page": 677,
+          "reflow_footer": 681,
+          "page_text_sha256": "a16f2fd885f14212050b224ea90ef35611a48c48611fd0c41541da11a93e586a"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1RWlF2vN-_52P2okREml0_kHP3-iMhwy7",
       "name": "IMG_5627.JPG",
       "image_sha256": "1a9fa87a84cddd1a1b34700aef51e733b30c695f783d3b92d3acf5c4e889ec98",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "947 I HAVE A DREAM"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 677,
+          "reflow_footer": 681,
+          "page_text_sha256": "a16f2fd885f14212050b224ea90ef35611a48c48611fd0c41541da11a93e586a"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1-vliHEyyvsQV-gGH4LPheFMncezR7DW_",
       "name": "IMG_5628.JPG",
       "image_sha256": "0d19d25fa7da1b2a7ead99cdca9380faea862ac5adec7b05465ff757a7575ce6",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "948 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 678,
+          "reflow_footer": 682,
+          "page_text_sha256": "2b2adc2eb769e15f7f7f6f633e1a83191b1a4e99a25b590b846b18541ef5b369"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1O_fz2W9Fk2_wtBBkVyM3AE3GhadMW96J",
       "name": "IMG_5629.JPG",
       "image_sha256": "dca24f785c4b2ece8f762e79c5f6e813e73e04d0b009236022836024cd4971a4",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "949 THAT TIME I ALMOST DIED"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1TAbiWDowGBMSMfp21-l43_TzsdEWuIzC",
       "name": "IMG_5630.JPG",
       "image_sha256": "e1bc7559d525d7f7446f58ad74bbcc00480144aa5950b0bcb16f033806d50332",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "950 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1VN1AqyLHJkwgWOuNBNlpmZwIXwsbQSnU",
       "name": "IMG_5631.JPG",
       "image_sha256": "adb62dd1e128d82729157dfe8852e2a5564b42e887fb4b46fcf70d1a9a3369bb",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "951 SPIRITUAL APPLICATION"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 679,
+          "reflow_footer": 683,
+          "page_text_sha256": "a24c324fb233264bda019cd7bf99df10a6268585121bd4d779d7befad02562cd"
+        },
+        {
+          "pdf_page": 680,
+          "reflow_footer": 684,
+          "page_text_sha256": "fb3a6ce47da6a81101f5732da6157cfb81b80adbf323f12b02d9584d87075b23"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1717XblxtfHO7CxkDCJ82ltsFg_pjp9R9",
       "name": "IMG_5632.JPG",
       "image_sha256": "83c3f48205118007f7c04987128669bc6331db1cb4970e6f7691494ac480f305",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "952 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 680,
+          "reflow_footer": 684,
+          "page_text_sha256": "fb3a6ce47da6a81101f5732da6157cfb81b80adbf323f12b02d9584d87075b23"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1LJCHqu0dIgFeKHXTI66iWUG3V7U8H-wy",
       "name": "IMG_5633.JPG",
       "image_sha256": "75582df9960d661841ca07dcc6c25275193d7aff3da4692dbd323fed59259848",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "953 ALCHEMYSM"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency",
+        "objective-context"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 681,
+          "reflow_footer": 685,
+          "page_text_sha256": "c4f149fa3f4818ca9dad665d49a5c70babe2de568a11da418a2f2f96a25154b8"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "131bgTwvcDijzaNavU8pClteuDnFH9XPM",
       "name": "IMG_5634.JPG",
       "image_sha256": "6fe520e6f16bfc2377a231a52667e30cfff01dc73b8fccf94f9dd565efa53615",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "954 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency",
+        "objective-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1ht-9ypShMdVIuN0UIjauCxJHXoqUWADY",
       "name": "IMG_5635.JPG",
       "image_sha256": "11b41b27acbfb6fad1d65d4c4ee1fcd0d06ea8978fb67b411b9da9b8eb8b7faf",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "955 INTENTIONAL OMISSIONS"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "exclusions"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 682,
+          "reflow_footer": 686,
+          "page_text_sha256": "e0297c086bb3a3643fc11f5f4fe4fa480dcc0842f153451d6a1db681e5f6305d"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1brdewYenm9k51bdSvTJTqU26jOqlnJSQ",
       "name": "IMG_5636.JPG",
       "image_sha256": "960450709fb698e6592a28e30cc8261f1da6a3b7a58852e4f40d040d3905f9cd",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "956 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "exclusions"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 683,
+          "reflow_footer": 687,
+          "page_text_sha256": "bacd2f1377a5cfc90f05c02f3d4afb80ab5b3bd375fb9c71885b4333d3c11dd3"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "14Ef-pWrkWlNajUn3kXpUz3_BCnXublK4",
       "name": "IMG_5637.JPG",
       "image_sha256": "059170be3b1d5615e1696f181d91ad436c406684436d6f93f69730ed67d6c4f7",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "957 INTENTIONAL OMISSIONS"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "exclusions"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 683,
+          "reflow_footer": 687,
+          "page_text_sha256": "bacd2f1377a5cfc90f05c02f3d4afb80ab5b3bd375fb9c71885b4333d3c11dd3"
+        },
+        {
+          "pdf_page": 684,
+          "reflow_footer": 688,
+          "page_text_sha256": "b3347212942b9f51e9a22cc0152dba7915a6e12c2c078d9d99ea6c7862fcadad"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA",
       "name": "IMG_5638.JPG",
       "image_sha256": "4025bd012176b85688409502aa61a5e9da6780e0ed8181017c95d61bd49259a8",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "958 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "exclusions",
+        "derivatives"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 684,
+          "reflow_footer": 688,
+          "page_text_sha256": "b3347212942b9f51e9a22cc0152dba7915a6e12c2c078d9d99ea6c7862fcadad"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1nvOwLoZUoICTYEoZBo0DyYelnktAKpw_",
       "name": "IMG_5639.JPG",
       "image_sha256": "16de3a304e68115044de4950f31a4d757e4b9b4d3ce660b137dcd684cb38bdce",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "959 INTENTIONAL OMISSIONS"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "derivatives",
+        "vantage-resolution"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1pjWkTp20AuN7fydILiHGyyrM0UGDZiBI",
       "name": "IMG_5640.JPG",
       "image_sha256": "a6b687461886b44b127c313832f55b2df2a4a49ceb6f1f1935194df5af913ee6",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "960 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "derivatives",
+        "rectification"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 684,
+          "reflow_footer": 688,
+          "page_text_sha256": "b3347212942b9f51e9a22cc0152dba7915a6e12c2c078d9d99ea6c7862fcadad"
+        },
+        {
+          "pdf_page": 685,
+          "reflow_footer": 689,
+          "page_text_sha256": "89584da71181538caf857fee4abf95097a984e728ed4863914e2d23f15c2585c"
+        },
+        {
+          "pdf_page": 686,
+          "reflow_footer": 690,
+          "page_text_sha256": "e26b59d3c748d91eb7b756f89f94a440bc6b7c43811a2c836ebe502960e53f01"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1_AR5u-g_md35TStXNBIpOeTgdx_uslRh",
       "name": "IMG_5641.JPG",
       "image_sha256": "e2c635db90440263c7ed57c5812fd6be947bb9b65e4107ccf5810d1538b3e089",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "961 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 686,
+          "reflow_footer": 690,
+          "page_text_sha256": "e26b59d3c748d91eb7b756f89f94a440bc6b7c43811a2c836ebe502960e53f01"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1GXMq2zNW0-YlgDwPPjn2tySRcWBe4cnY",
       "name": "IMG_5642.JPG",
       "image_sha256": "9f865fcf28f2749f7a4034e09a823e3280b7495cbf7d1d41863514ca9f8aafcb",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "962 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification",
+        "articulation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 686,
+          "reflow_footer": 690,
+          "page_text_sha256": "e26b59d3c748d91eb7b756f89f94a440bc6b7c43811a2c836ebe502960e53f01"
+        },
+        {
+          "pdf_page": 687,
+          "reflow_footer": 691,
+          "page_text_sha256": "28bc3db828a60156b5388de2c75d8a728ee5386ca9f0c3e869839d70ecdc1a68"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "12nlF_vGxqbe8gcjWZWiG5yEFB2wU2syc",
       "name": "IMG_5643.JPG",
       "image_sha256": "dd98d5aa8284b85fc4c70968fcfd43351e485e35762a8cff4673ee5f6cf791f2",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "963 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification",
+        "articulation"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 687,
+          "reflow_footer": 691,
+          "page_text_sha256": "28bc3db828a60156b5388de2c75d8a728ee5386ca9f0c3e869839d70ecdc1a68"
+        },
+        {
+          "pdf_page": 688,
+          "reflow_footer": 692,
+          "page_text_sha256": "9f52fd43a2d944441978ee47924023051747b8d964aa8287a938d59b716f6c87"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1BHI47FyHyv_x8XQ9snk29SlaNvKDnYKs",
       "name": "IMG_5644.JPG",
       "image_sha256": "f5269311ec0bc9fe33f8068f6fb731af6763c9654c62d3075720510d0437161b",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "964 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1GpBsEKcmieMeeFFhBEaFWc4vT55KAITa",
       "name": "IMG_5645.JPG",
       "image_sha256": "8ddbc4a654c3d40190f7950f58797a67b19ad43f968191f8f768562654d09254",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "965 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification",
+        "core-trinity"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1N65npiEa4PQbLX3-9V3fiA1ASTKl066r",
       "name": "IMG_5646.JPG",
       "image_sha256": "4732afd0c0ba8b7c4f2bd22b03b5a47e3d36589d8dc701c74cb0c2c7af0fb416",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "966 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification",
+        "core-trinity"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1PI95TKbgIqluoKSDJf8ontA_Dl2mYASs",
       "name": "IMG_5647.jpg",
       "image_sha256": "f0781f30d7fae80e7a645d0966a5d2666aa76ad16f04df9a7cec078879db2f53",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "967 CRUISE-ING THROUGH BTR"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 688,
+          "reflow_footer": 692,
+          "page_text_sha256": "9f52fd43a2d944441978ee47924023051747b8d964aa8287a938d59b716f6c87"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1pEMZ_7GymUJmqlDXF8xEVMpT0pFSOdF6",
       "name": "IMG_5648.JPG",
       "image_sha256": "c9d55f809a3ff424d1af76110b0b8f8f9c3263ed9c7def9ecca3dcbec2fd2576",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "968 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "rectification",
+        "relocation",
+        "core-trinity"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1_uVva-iO_gOzlVNuzbKx3mNS9gHku7B-",
       "name": "IMG_5649.JPG",
       "image_sha256": "c9464b77b03b5c23124ddd6e09277a3c576cc351efb3b795d3903fe912e2fbc2",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "969 FREE WILL VS DIVINE TIMING"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency",
+        "rectification"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 688,
+          "reflow_footer": 692,
+          "page_text_sha256": "9f52fd43a2d944441978ee47924023051747b8d964aa8287a938d59b716f6c87"
+        },
+        {
+          "pdf_page": 689,
+          "reflow_footer": 693,
+          "page_text_sha256": "745032468b1b6591f2543f1c05dd2e5c6cbfecbf9569ec118643f74dc8a5f793"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1dxxPcvCY_UgpioEpNh-dRY-TiBNPs5-c",
       "name": "IMG_5650.JPG",
       "image_sha256": "e4ddb372f407ef765fb9c91309e56050457d242e7eea16b20e58283367b87111",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "970 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 689,
+          "reflow_footer": 693,
+          "page_text_sha256": "745032468b1b6591f2543f1c05dd2e5c6cbfecbf9569ec118643f74dc8a5f793"
+        },
+        {
+          "pdf_page": 690,
+          "reflow_footer": 694,
+          "page_text_sha256": "1165c13b20d41aafe83ed2ade18dad34d82aabaacac6f130731b8982124b1547"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1YH_JJI8UNrZFWIanGZSQsF387UdIY-5q",
       "name": "IMG_5651.JPG",
       "image_sha256": "47ea8f59ec9d920da6920d86ecc150aacdf43a232646ae800d8835ee2dd451a0",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "971 OOPS I FORGOT"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "agency",
+        "planet-categories"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 690,
+          "reflow_footer": 694,
+          "page_text_sha256": "1165c13b20d41aafe83ed2ade18dad34d82aabaacac6f130731b8982124b1547"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1BLiLEfdcVe9V_vCTPwfr6uaUIES8DRg5",
       "name": "IMG_5652.JPG",
       "image_sha256": "50b4d55ba839ac773f77a7d4f080e7d8334792f803283e3d30dbaaf9c98f77e4",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
-      "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "inspected_printed_headers": [
+        "972 I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "planet-categories"
+      ],
+      "pdf_candidates": [
+        {
+          "pdf_page": 691,
+          "reflow_footer": 695,
+          "page_text_sha256": "ba341e4864deeaf111c0e695b7ac1061912e99a9cce85087d3a0e3e2eabdd5ff"
+        },
+        {
+          "pdf_page": 692,
+          "reflow_footer": 696,
+          "page_text_sha256": "ecf5f2bcf001dc44808d3f175c685b81a4c072dc1497267d8b74fa86e5ba5e1d"
+        }
+      ],
+      "reconciliation_status": "CANDIDATE_TEXT_OVERLAP_NOT_COMPLETE_ALIGNMENT",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1vK69rtB2vX1COdvQjsgYfKhfgyR1tvTj",
       "name": "IMG_5653.JPG",
       "image_sha256": "36bd6b9ba65722e389358a3cafff25671984245fc84b46fca2e3b11202778570",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "a ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "handoff",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1mHOExKUZEBQTwb-9_fO7mC5wl9Zf1jpa",
       "name": "IMG_5654.JPG",
       "image_sha256": "e104e65a9f72779bb22eb84bbc3084256d6711a579a25e1a3082438aa2df9aab",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "b I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "spectrum-meanings",
+        "age-degree",
+        "epoch-imprint"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "18KuFqLKMtER0xTCHLisQjVrkfue48yuP",
@@ -18150,85 +18499,128 @@
       "file_id": "18vERV8EMr6IuO-ksnWLUXzBEVUDDS3ax",
       "name": "IMG_5656.JPG",
       "image_sha256": "e13858c37d6b7152f6fa93c04dd2d5d90a6b6c5797fe395598c6987d27a5a525",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "d I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "profections",
+        "epoch-imprint",
+        "sophia"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1sEbHJZjcFGFWnSZjx90RLmjlEG_Guggt",
       "name": "IMG_5657.JPG",
       "image_sha256": "3e3c0cf0bef2e1c094bb2855f4d38eb558ace1305e55ec452c2621015feae344",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "e ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "parans",
+        "age-degree",
+        "epoch-imprint"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "15oX3WN-6lKwQVhj5AeR9rJli6xsXiI7l",
       "name": "IMG_5658.JPG",
       "image_sha256": "42b4852731cd1c23f9c297e589c66bebcb394216746d2c173ffe253dcdcdbcf5",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "f I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "delegate-condition",
+        "lilith",
+        "sophia"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1icOfxJXPZm34WHRj80xiTOGoRwp8-iM9",
       "name": "IMG_5659.JPG",
       "image_sha256": "affdfe61d66aaefd50b2c88a7bccc277af6d46e3cd10ba6cc2055482042afc21",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "g ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "block-color",
+        "delegate-condition",
+        "clusters",
+        "sophia"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "14jtClfMvdriY4tQwTM3dtHZ4fonKz_tj",
       "name": "IMG_5660.JPG",
       "image_sha256": "209a3ece0c94d25f8e7b8f814e1828d3673c42f109b0da5acdfffcdb9ef21b76",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "h I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "block-color",
+        "spectrum-meanings",
+        "core-trinity",
+        "anchors"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1YWmOkl15w3fKJXxwYro4Uxs70bO9b9lw",
       "name": "IMG_5661.JPG",
       "image_sha256": "7feab19c1ce9caa62e521d103c2c091e652d872b31249cfafeea517b36fbf762",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "i ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "anchors",
+        "spectrum-meanings",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1tWl08L06uXnX935Pkll7nV800mhPu6WC",
       "name": "IMG_5662.JPG",
       "image_sha256": "5ef31a972f85c62483dd6196caf5c0c21dcf554648c42c1a385262c46389c16e",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "j I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "core-trinity",
+        "natal-transit-order"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1RIEIaz2raHLnu74SrZOqe3GZngT3AQz-",
@@ -18252,13 +18644,19 @@
       "file_id": "1BwUmXNWm4iJu_avZ2JQBLB_xXAzJMmEP",
       "name": "IMG_5664.JPG",
       "image_sha256": "8d5ab02ab3c55c02e9a4e7577a888f7e9f41fa33a2411abbecf074b0be2d906e",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "l I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "epoch-imprint",
+        "house-field",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1E3ianurJQg6J8xWcX4cIZFKQmFhkEsLI",
@@ -18298,97 +18696,146 @@
       "file_id": "1dNv68TwH4e4jCgXMNa2DrlzwJHefsxHC",
       "name": "IMG_5667.JPG",
       "image_sha256": "11ee27a95215bfd285487dfbc72ec9fecabbe0b5b1228de2a83f0d7e1472697c",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "o ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "gradity-context",
+        "handoff",
+        "sophia"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1OyQifxmH9wA4_V9-gpqSSts8ZHZhzW_4",
       "name": "IMG_5668.JPG",
       "image_sha256": "c5807c11742ba2915b70f40e7e78dc5928c7582e2a99ac3ba68e830a340a4d52",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "p I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "gradity-context",
+        "intra-house",
+        "invertex",
+        "lilith"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1gn14uuYHIUg9LHdwrbCmPjx6mjqFwDHF",
       "name": "IMG_5669.JPG",
       "image_sha256": "c43a2f35ffafdf1414023b0c2dc0f77a7fc3d5a7a474a4568857f6a94610ec19",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "q ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "objective-context",
+        "agency"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1tLi2tR-oWF852zfo3FwLv7w8yWgzkhxn",
       "name": "IMG_5670.JPG",
       "image_sha256": "9dc135a5efaff5938f1d44e2884afa4dcbe9f7ee5b4add52e06358d65e7131c6",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "r I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "objective-context",
+        "lilith",
+        "local-space",
+        "lunar-arcs"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1U3X82jY8Oc95Y9cv0-3z8OtW_nPz-Pd2",
       "name": "IMG_5671.JPG",
       "image_sha256": "dac44278dd8c803bee1aaa7231e8a4b41dde5d14fbaa4362d2cd5696c0dc7435",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "s ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "relocation",
+        "clusters",
+        "objective-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1Uy-ZSjSw1o55ZW4yRep_vufauEeuSOiY",
       "name": "IMG_5672.JPG",
       "image_sha256": "440d0ad896276e7aa8fed4bc522a2e615bd78ea2208e1828731b628f366c91c3",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "t I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "declination",
+        "directional-context",
+        "spectrum-meanings"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "14rP_kN5fywpxaeKDmErtPY02ZUins5vl",
       "name": "IMG_5673.JPG",
       "image_sha256": "2c5446665a34729820b9b7310446125404372e7392c1af4992ccc72f4e0cb4dc",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "u ALCHEMYSTIC LEXICON"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "parans",
+        "pass-through",
+        "phsr"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1D-bWz76wX59BF5eLteRNk0iIbd0ROZLK",
       "name": "IMG_5674.JPG",
       "image_sha256": "644b301d0b8f458abf4372c8ff4fabbf67ff58aa900e12d76eb70dc01fcb5f34",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "v I FIXED ASTROLOGY"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ALPHABETIC_APPENDIX",
+      "concepts": [
+        "epoch-imprint",
+        "returns",
+        "age-degree"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1o_CLeqVGYsOlNtK8KDFbv6ol0xB1onu3",

@@ -1,0 +1,26 @@
+{
+  "original_assertions": {
+    "prior_records_preserved_exactly": 230,
+    "current_records": 250
+  },
+  "source_line_annotations": {
+    "prior_records_preserved_exactly": 539,
+    "current_records": 589
+  },
+  "source_blocker_findings": {
+    "prior_records_preserved_exactly": 43,
+    "current_records": 49
+  },
+  "source_review_continuation": {
+    "prior_records_preserved_exactly": 620,
+    "current_records": 670
+  },
+  "automatic_deployment_disabled": true,
+  "preexisting_norfolk_worktree_preserved_sha256": {
+    "data/locations-manifest.json": "665cabc4d9d54a5bbcefa3c12c493fed0771655bff63aa9c8b4670308e4f4f8a",
+    "data/locations.json.gz": "e394c4b82e2df3768905b9b34c6e05c815e9253edbfba90eefc4b0662e8aea03",
+    "mystic_rebels/api.py": "c6d7601416534a5b4c30b1978e1168fc2ebdeef77a107919bcf9d92108b0bf9c",
+    "scripts/provision_locations.py": "ccb08ec762a9dd5cd21d14d9714100ea05721ee2f77d23093ff365622b1b4294",
+    "astronomy_qa/test_locations.py": "693ca1009375c69d64950e86c366d2c392ad980b51f0061836f12c881c7e6235"
+  }
+}

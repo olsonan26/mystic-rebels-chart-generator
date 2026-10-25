@@ -1,3 +1,9 @@
+# Latest checkpoint: closing chapters, BTR and lexicon
+
+Read [the latest continuation](2026-10-25_source-audit-closing-btr-continuation.md), [master report knowledge path](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/closing-next-verification.json` before historical checkpoints below. Current:712 targeted images,250 assertions,589 annotations,49 findings,317 pending images; all18 report sections unready. Next image: IMG_5675.JPG. Source/audit gates remain unchanged. Preserve the separate uncommitted Norfolk fix in data/locations-manifest.json, data/locations.json.gz, mystic_rebels/api.py, scripts/provision_locations.py and astronomy_qa/test_locations.py; hashes are in closing-next-preservation.json. Do not stage these with audit work. Push remains pending approval after prior automatic review rejection. No deployment.
+
+---
+
 ## Current verified continuation: Eras, Phases and interpretation limits
 
 Read [2026-10-25_source-audit-era-phase-continuation.md](2026-10-25_source-audit-era-phase-continuation.md), [PROFILE_REPORT_KNOWLEDGE_PATH.md](PROFILE_REPORT_KNOWLEDGE_PATH.md) and `evidence/source-pipeline/epochs-next-verification.json` first. Current totals: **1,029 acquired IDs;1,028 successful OCR files;662 targeted images;230 assertions;539 annotations;8,820 checked of34,026 OCR locators;43 findings**. Remaining: **367 images,25,206 unchecked locators and one failed OCR item**. This batch adds50 images,16 assertions,50 annotations,1,124 locator checks andfive findings. No acquisition/OCR;all18 report sections remain unready,with131 concepts and207 requirements.

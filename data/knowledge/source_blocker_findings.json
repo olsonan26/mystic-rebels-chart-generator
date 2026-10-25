@@ -883,6 +883,137 @@
       ],
       "remaining": "Preserve both caution and confidence claims without converting them into approved clinical,death or obstetric prediction. No user health inference,care decision rule or empirical efficacy is established by source review.",
       "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "agency941-954-health-and-doctrine",
+      "concept_ids": [
+        "agency",
+        "objective-context"
+      ],
+      "status": "ATTRIBUTED_HEALTH_CLAIMS_AND_EXPLICIT_SPIRITUAL_MODELING_LIMIT",
+      "finding": "Original941 says the cardiac event still happened;949-951 attributes allergy improvement to trauma insight;952 calls depression a choice.953 explicitly calls Alchemysm non-empirically-modeled doctrine,while954 claims repeatable outcomes without supplying data.",
+      "assertion_ids": [
+        "agency941-event-still-happened",
+        "agency949-951-allergy-claim",
+        "agency952-choice-claim",
+        "agency953-spiritual-modeling-limit"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-1jADoqUNrX1qx3so3bOQmCivNJB-VX6FZ",
+        "closing-next-audit-1O_fz2W9Fk2_wtBBkVyM3AE3GhadMW96J",
+        "closing-next-audit-1TAbiWDowGBMSMfp21-l43_TzsdEWuIzC",
+        "closing-next-audit-1VN1AqyLHJkwgWOuNBNlpmZwIXwsbQSnU",
+        "closing-next-audit-1717XblxtfHO7CxkDCJ82ltsFg_pjp9R9",
+        "closing-next-audit-1LJCHqu0dIgFeKHXTI66iWUG3V7U8H-wy",
+        "closing-next-audit-131bgTwvcDijzaNavU8pClteuDnFH9XPM"
+      ],
+      "remaining": "Retain author attribution and contradictory confidence/caution. No clinical efficacy,death foreknowledge,user diagnosis,cure or blame-based report approval; empirical validation remains separate from source fidelity.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "exclusions955-disposition-boundaries",
+      "concept_ids": [
+        "exclusions"
+      ],
+      "status": "REJECTED_UNRESOLVED_AND_DEFERRED_MUST_REMAIN_DISTINCT",
+      "finding": "Original955 shelves Zodiacal Releasing and distance/synodic research;955-958 rejects named traditional techniques but says other omissions can be useful and introduces Derivatives as additional detail.",
+      "assertion_ids": [
+        "exclusions955-three-dispositions"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-1ht-9ypShMdVIuN0UIjauCxJHXoqUWADY",
+        "closing-next-audit-1brdewYenm9k51bdSvTJTqU26jOqlnJSQ",
+        "closing-next-audit-14Ef-pWrkWlNajUn3kXpUz3_BCnXublK4",
+        "closing-next-audit-15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA"
+      ],
+      "remaining": "Do not repair missing rules through invention,collapse all omissions into rejection,or import excluded generic astrology. Obtain complete supportable rules for unfinished ideas before implementation.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "derivatives959-960-natal-context",
+      "concept_ids": [
+        "derivatives"
+      ],
+      "status": "INCLUSIVE_COUNTING_AND_NONREPLACEMENT_SCOPE",
+      "finding": "Original959 counts second-from-fifth as sixth and siblings as fifth/seventh/ninth;960 explicitly keeps natural fifth-house reading and says derivative charts are perspective-based additions,not replacement natal charts.",
+      "assertion_ids": [
+        "derivatives959-inclusive-count",
+        "derivatives960-supplement-only"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-15sTxf6iomkQ4sjHnD1NAxg8TA-dirSwA",
+        "closing-next-audit-1nvOwLoZUoICTYEoZBo0DyYelnktAKpw_",
+        "closing-next-audit-1pjWkTp20AuN7fydILiHGyyrM0UGDZiBI"
+      ],
+      "remaining": "Preserve inclusive indexing,theme-specific vantage and natal context. The associated medical anecdote and future software promise do not approve health prediction or certify implemented chart rotation.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "rectification964-968-incomplete-method",
+      "concept_ids": [
+        "rectification"
+      ],
+      "status": "EXPLICITLY_INCOMPLETE_TUTORIAL_AND_TIME_LOCATION_DEPENDENCIES",
+      "finding": "Original964 omits Pisces-selection reasoning and notes two midnight windows;965 says this is not meant to teach BTR.966 proposes progression/event comparison;968 restricts moved-location layers to residence periods.",
+      "assertion_ids": [
+        "rectification961-evidence-dependency",
+        "rectification964-omitted-deduction",
+        "rectification966-progressions",
+        "rectification968-residence-time-scope"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-1_AR5u-g_md35TStXNBIpOeTgdx_uslRh",
+        "closing-next-audit-1GXMq2zNW0-YlgDwPPjn2tySRcWBe4cnY",
+        "closing-next-audit-1BHI47FyHyv_x8XQ9snk29SlaNvKDnYKs",
+        "closing-next-audit-1GpBsEKcmieMeeFFhBEaFWc4vT55KAITa",
+        "closing-next-audit-1N65npiEa4PQbLX3-9V3fiA1ASTKl066r",
+        "closing-next-audit-1PI95TKbgIqluoKSDJf8ontA_Dl2mYASs",
+        "closing-next-audit-1pEMZ_7GymUJmqlDXF8xEVMpT0pFSOdF6"
+      ],
+      "remaining": "Require dated reliable events,verified birthplace/time evidence,complete search/acceptance and progression methods,and residence intervals. Do not silently promote the celebrity wheel into an independently verified timestamp or automated rectification capability.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "lexicon-d-f-o-solar-names",
+      "concept_ids": [
+        "sophia",
+        "lunar-arcs"
+      ],
+      "status": "COMPETING_SOLAR_POINT_NAMES_AND_OBSERVER_LANGUAGE",
+      "finding": "Lexicon d uses White Sun Sophia/Black Sun Lilith;f-g uses Black Sun Apollo opposite White Sun Sophia;o uses White Sun Apollo/Black Sun Prometheus and describes the Sun closest/farthest from Earth after d describes Earth closest/farthest from Sun.",
+      "assertion_ids": [
+        "lexicon-d-f-o-solar-name-conflict"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-18vERV8EMr6IuO-ksnWLUXzBEVUDDS3ax",
+        "closing-next-audit-15oX3WN-6lKwQVhj5AeR9rJli6xsXiI7l",
+        "closing-next-audit-1icOfxJXPZm34WHRj80xiTOGoRwp8-iM9",
+        "closing-next-audit-1dNv68TwH4e4jCgXMNa2DrlzwJHefsxHC"
+      ],
+      "remaining": "Preserve all labels with image witnesses; author/version clarification and observer/orbital definitions are needed. Do not rename automatically,merge lunar Lilith with solar apogee or enable unresolved formulas.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "id": "agency969-retrospective-headline",
+      "concept_ids": [
+        "agency"
+      ],
+      "status": "NEVER_MISSES_CLAIM_WITHOUT_PROSPECTIVE_BENCHMARK",
+      "finding": "Original969 selects a celebrity-rumor headline and claims astrology never misses;969-971 also reject outsourcing power and promote free choice. No fixed prospectively evaluated prediction set is supplied.",
+      "assertion_ids": [
+        "agency969-headline-limit",
+        "agency942-manifestation-scope"
+      ],
+      "annotation_ids": [
+        "closing-next-audit-1JesSnZW-5eW0lX6KSnwecI_36nETRA8T",
+        "closing-next-audit-13AVcV3XACtWJlJCfIDn6T3Yy73BXHNro",
+        "closing-next-audit-1aeGXHEzX0BkrULZq_4fTEitjn1tY06Rq",
+        "closing-next-audit-1_uVva-iO_gOzlVNuzbKx3mNS9gHku7B-",
+        "closing-next-audit-1dxxPcvCY_UgpioEpNh-dRY-TiBNPs5-c",
+        "closing-next-audit-1YH_JJI8UNrZFWIanGZSQsF387UdIY-5q"
+      ],
+      "remaining": "Retain source confidence claims alongside agency and nondefinitive cautions. No rumor verification,guaranteed outcome,financial advice or empirical performance approval follows.",
+      "answer_use": "AUDIT_ONLY_NOT_RUNTIME_APPROVED"
     }
   ]
 }
