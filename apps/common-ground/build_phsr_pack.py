@@ -12,7 +12,7 @@ def build():
     knowledge = MYSTIC / 'data/knowledge'
     inventory = json.loads((knowledge/'interpretive_inventory.json').read_text(encoding='utf-8-sig'))
     profiles = json.loads((knowledge/'source_meaning_profiles.json').read_text(encoding='utf-8-sig'))
-    selected = {'phsr','delegate-condition','directional-context','tone-pulse','spark-entry',
+    selected = {'phsr','house-field','delegate-condition','directional-context','tone-pulse','spark-entry',
                 'retrograde-meaning','retrograded-house','age-degree','natal-transit-order'}
     records = {r['id']: r for r in inventory['records']
                if r['id'] in selected or r['id'].startswith(('meaning-', 'field-'))}

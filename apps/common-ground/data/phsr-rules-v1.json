@@ -373,6 +373,55 @@
         }
       ]
     },
+    "house-field": {
+      "id": "house-field",
+      "title": "Natural house Field and astronomical sign are distinct",
+      "kind": "meaning",
+      "contexts": [
+        "general"
+      ],
+      "source_status": "PASSAGE_REVIEWED",
+      "meaning_summary": "House energy follows the natural Aries-to-Pisces sequence; the actual zodiac sign provides the way that life area expresses.",
+      "exceptions": [
+        "Natural rulership does not determine the outer-wheel Delegate chain.",
+        "Do not move an object to the sign associated with its house."
+      ],
+      "report_gap": "Field calculation exists; the meaning of each life area and its contextual expression is absent.",
+      "calculation_rule_ids": [
+        "N9-003",
+        "N9-004",
+        "N9-008"
+      ],
+      "requires_concepts": [],
+      "runtime_interpretation": "ABSENT",
+      "answer_use": "NOT_APPROVED",
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 218,
+          "reflow_footer": 222,
+          "page_text_sha256": "6b039259f4afa46bac33b5526a0e0bbdc20e540d9f6b1d3148d0f6f13144c13e"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 257,
+          "reflow_footer": 261,
+          "page_text_sha256": "98239938b75aba00c4da7af56f8a03df0e770492ec679f5450c2fed3eb6178f5"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 274,
+          "reflow_footer": 278,
+          "page_text_sha256": "d97fe8649343d0512406d8da3995bf97d2a4e49aa0f9cabb1a0b78c24b28b3aa"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ]
+    },
     "field-01": {
       "id": "field-01",
       "title": "House 1 thematic Field",

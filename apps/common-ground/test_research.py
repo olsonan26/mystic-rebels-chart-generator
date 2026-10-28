@@ -52,6 +52,8 @@ class ResearchChecks(unittest.TestCase):
         self.assertEqual(f['com']['trail'],[42,6]);self.assertEqual(f['com']['meaning']['number'],42)
         july=a['months'][6];self.assertEqual(july['pme']['trail'],[13,4])
         self.assertEqual(july['indicator']['tone'],'red')
+        self.assertTrue(any('support or help' in p for p in self.result['reading']['paragraphs']))
+        self.assertIn('house-field',self.result['assessment']['sources']['records'])
 
     def test_2013_com_does_not_repaint_july(self):
         a=annual_numbers('Nadia Sanchez','1992-07-17',2013)
@@ -74,5 +76,23 @@ class ResearchChecks(unittest.TestCase):
         self.assertEqual(client.post('/api/research',json=data).status_code,422)
         data=case();data['year']=2011.5
         self.assertEqual(client.post('/api/research',json=data).status_code,422)
+
+    def test_approximate_without_range_does_not_become_thirty_seconds(self):
+        data=case();data['time_accuracy']='approximate'
+        response=client.post('/api/research',json=data)
+        self.assertEqual(response.status_code,200,response.text)
+        self.assertIsNone(response.json()['chart']['time']['uncertainty_seconds'])
+
+    def test_voice_route_and_meaning_references_match(self):
+        data=case();data['topic']='voice'
+        result=client.post('/api/research',json=data).json()
+        self.assertEqual(result['reading']['root_route']['path'][0],'Moon')
+        packet=result['assessment']
+        for node in packet['assessments'].values():
+            for stage in node['stages']:
+                ref=stage.get('field_record_id')
+                if ref:self.assertIn(ref,packet['sources']['records'])
+                ref=stage.get('meaning_profile_id')
+                if ref:self.assertIn(ref,packet['sources']['profiles'])
 
 if __name__=='__main__':unittest.main(verbosity=2)

@@ -34,6 +34,20 @@ FUNCTIONS = {
     'Pluto':'how to understand hidden material, power and deep involvement'
 }
 
+# Bounded editorial adaptations of the selected Combiner entries. These do not
+# add events, guarantees or duties for children. The source entry remains attached.
+COM_APPROACH = {
+    35:'Organize practical demands and resources, and make room for the effort a project needs.',
+    42:'Recognize what responsibilities are present and whether support or help is needed. Your own needs belong in that assessment.',
+    43:'Question what you are taking on, check the details, and understand a commitment before proceeding.',
+    44:'Organize practical demands and resources, and make room for the effort a project needs.',
+    46:'Consider available ideas and opportunities while thinking about the direction you want to develop.',
+    47:'Plan precisely, monitor the details, discuss concerns, and revise when circumstances require it.',
+    48:'Make room to speak, review information and participate creatively, while avoiding overextension.',
+    49:'Understand the circumstances, prepare carefully and make a practical plan before moving forward.',
+    50:'Manage time and activity with room for changing circumstances and offered help.'
+}
+
 def build_reading(packet,topic,annual):
     meta=TOPICS[topic]
     assessments=packet['assessments']
@@ -70,7 +84,16 @@ def build_reading(packet,topic,annual):
         f=annual['fields']
         values=', '.join(k.upper()+' '+ '/'.join(map(str,f[k]['trail'])) for k in ['ess','py','com'])
         paragraphs.append(str(annual['year'])+' adds three distinct yearly roles: '+values+'. Essence is the experiential frame, Personal Year is the annual cycle, and the Combiner supplies an approach. The source’s category-specific text is available separately; it is not evidence of what happened.')
+        selected=f['com']['meaning']['number']
+        if selected in COM_APPROACH:
+            paragraphs.append('For this year, the constructive approach is: '+COM_APPROACH[selected])
+            evidence.append({'annual_field':'com','category':'Combiner','source_number':selected,
+                             'adaptation_id':f'com-{selected}-research-v1',
+                             'claim_kind':'COMPOSED_HYPOTHESIS','personal_answer_approved':False})
+        else:
+            paragraphs.append('A reviewed plain-language adaptation of this particular Combiner entry is not yet available. Its exact category-specific reference is retained below; no substitute meaning has been invented.')
     return {'topic':topic,'title':meta['title'],'paragraphs':paragraphs,'question':meta['question'],
+            'root_route':root['ruler_route'] if root else {'path':[],'repeat':None,'cycle':[]},
             'claim_kind':'COMPOSED_HYPOTHESIS','claim_evidence':evidence,
             'reported_history_used':False,'complete_phsr':False,
             'scope':'Conditional research reflection. Degree-entry meaning and the full directed aspect stage remain unresolved.'}

@@ -12,7 +12,7 @@ Select a topic and calendar year after calculating. The JSON export and saved HT
 
 From this repository, the Windows launcher uses the root `.runtime/python.exe`. With a normal Python environment, install the repository requirements and run `python apps/common-ground/app.py`. Node.js must be on PATH (or set COMMON_GROUND_NODE to its executable) for annual calculations. The root ephemeris/location assets must be provisioned as described by the root README. The source-pack generators require the local source snapshots; the committed generated packs work without those snapshots.
 
-Focused checks: `python -m unittest discover -s apps/common-ground -p "test*.py"`. Browser verification checked Nadia2011 values, the ruler cycle, topic changes, HTML/JSON export, print and390px layout. The first implementation passed35 targeted/regression tests.
+Focused checks: `python -m unittest discover -s apps/common-ground -p "test*.py"`. Browser verification checked Nadia2011 values, the ruler cycle, topic changes, HTML/JSON export, print and390px layout. The first implementation passed37 targeted/regression tests.
 
 ## Open it
 

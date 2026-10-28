@@ -256,7 +256,8 @@ def research_endpoint(data: ResearchInput):
         timezone=data.timezone, fold=data.fold, latitude=data.latitude, longitude=data.longitude,
         location_name=data.location_name, coordinate_provenance=data.coordinate_provenance,
         time_accuracy='unknown' if unknown else data.time_accuracy,
-        uncertainty_seconds=None if unknown else data.uncertainty_seconds if data.uncertainty_seconds is not None else 30,
+        uncertainty_seconds=None if unknown else (data.uncertainty_seconds if data.uncertainty_seconds is not None
+                                                  else 30 if data.time_accuracy == 'nearest_minute' else None),
         objects=PLANETS+['Chiron','Ceres','Pallas','Juno','Vesta','NorthNodeTrue','SouthNodeTrue',
                          'LilithMean','Ascendant','Descendant','Midheaven','ImumCoeli','Vertex','Fortune','Spirit','Love']))
     assessment=assess(chart)
