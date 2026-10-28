@@ -1,0 +1,458 @@
+[
+  {
+    "a": "Sun",
+    "b": "Venus",
+    "separation_deg": 9.481036633285527,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 5.518963366714473,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Sun",
+    "b": "Uranus",
+    "separation_deg": 169.88318293463834,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 4.8831829346383415,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Sun",
+    "separation_deg": 143.62708468291498,
+    "nearest_diagnostic_angle": 144,
+    "distance_from_angle_deg": 0.3729153170850168,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Venus",
+    "separation_deg": 153.10812131620054,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 3.1081213162005383,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Saturn",
+    "separation_deg": 15.510689186112188,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 0.510689186112188,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Uranus",
+    "separation_deg": 46.489732382446675,
+    "nearest_diagnostic_angle": 45,
+    "distance_from_angle_deg": 1.4897323824466753,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Neptune",
+    "separation_deg": 44.77143422482828,
+    "nearest_diagnostic_angle": 45,
+    "distance_from_angle_deg": 0.22856577517171672,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Moon",
+    "b": "Pluto",
+    "separation_deg": 101.91935701629563,
+    "nearest_diagnostic_angle": 105,
+    "distance_from_angle_deg": 3.080642983704365,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mercury",
+    "b": "Sun",
+    "separation_deg": 21.587097366682713,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 6.587097366682713,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mercury",
+    "b": "Moon",
+    "separation_deg": 165.2141820495977,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 0.21418204959769582,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mercury",
+    "b": "Saturn",
+    "separation_deg": 179.27512876429012,
+    "nearest_diagnostic_angle": 180,
+    "distance_from_angle_deg": 0.7248712357098839,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mercury",
+    "b": "Uranus",
+    "separation_deg": 148.29608556795563,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 1.703914432044371,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mercury",
+    "b": "Neptune",
+    "separation_deg": 150.01438372557402,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 0.0143837255740209,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mars",
+    "b": "Sun",
+    "separation_deg": 61.70887471121165,
+    "nearest_diagnostic_angle": 60,
+    "distance_from_angle_deg": 1.7088747112116494,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mars",
+    "b": "Moon",
+    "separation_deg": 81.91820997170333,
+    "nearest_diagnostic_angle": 75,
+    "distance_from_angle_deg": 6.918209971703334,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mars",
+    "b": "Saturn",
+    "separation_deg": 97.42889915781552,
+    "nearest_diagnostic_angle": 90,
+    "distance_from_angle_deg": 7.428899157815522,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mars",
+    "b": "Uranus",
+    "separation_deg": 128.40794235415,
+    "nearest_diagnostic_angle": 135,
+    "distance_from_angle_deg": 6.592057645849991,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Mars",
+    "b": "Neptune",
+    "separation_deg": 126.68964419653162,
+    "nearest_diagnostic_angle": 120,
+    "distance_from_angle_deg": 6.689644196531617,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Jupiter",
+    "b": "Sun",
+    "separation_deg": 46.82219382954844,
+    "nearest_diagnostic_angle": 45,
+    "distance_from_angle_deg": 1.8221938295484392,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Jupiter",
+    "b": "Moon",
+    "separation_deg": 169.55072148753658,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 4.550721487536578,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Jupiter",
+    "b": "Saturn",
+    "separation_deg": 154.0400323014244,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 4.0400323014243895,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Jupiter",
+    "b": "Uranus",
+    "separation_deg": 123.0609891050899,
+    "nearest_diagnostic_angle": 120,
+    "distance_from_angle_deg": 3.0609891050899023,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Jupiter",
+    "b": "Neptune",
+    "separation_deg": 124.7792872627083,
+    "nearest_diagnostic_angle": 120,
+    "distance_from_angle_deg": 4.779287262708294,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Saturn",
+    "b": "Sun",
+    "separation_deg": 159.13777386902717,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 5.862226130972829,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Saturn",
+    "b": "Venus",
+    "separation_deg": 168.61881050231273,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 3.6188105023127264,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Saturn",
+    "b": "Uranus",
+    "separation_deg": 30.979043196334487,
+    "nearest_diagnostic_angle": 30,
+    "distance_from_angle_deg": 0.9790431963344872,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Uranus",
+    "b": "Venus",
+    "separation_deg": 160.4021463013528,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 4.597853698647214,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Neptune",
+    "b": "Sun",
+    "separation_deg": 171.60148109225673,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 6.6014810922567335,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Neptune",
+    "b": "Venus",
+    "separation_deg": 162.12044445897118,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 2.8795555410288216,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Neptune",
+    "b": "Saturn",
+    "separation_deg": 29.260745038716095,
+    "nearest_diagnostic_angle": 30,
+    "distance_from_angle_deg": 0.7392549612839048,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Neptune",
+    "b": "Uranus",
+    "separation_deg": 1.718298157618392,
+    "nearest_diagnostic_angle": 0,
+    "distance_from_angle_deg": 1.718298157618392,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Neptune",
+    "b": "Pluto",
+    "separation_deg": 57.14792279146735,
+    "nearest_diagnostic_angle": 60,
+    "distance_from_angle_deg": 2.8520772085326485,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Pluto",
+    "b": "Sun",
+    "separation_deg": 114.45355830078937,
+    "nearest_diagnostic_angle": 120,
+    "distance_from_angle_deg": 5.546441699210632,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Pluto",
+    "b": "Saturn",
+    "separation_deg": 86.40866783018345,
+    "nearest_diagnostic_angle": 90,
+    "distance_from_angle_deg": 3.5913321698165532,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Pluto",
+    "b": "Uranus",
+    "separation_deg": 55.42962463384896,
+    "nearest_diagnostic_angle": 60,
+    "distance_from_angle_deg": 4.5703753661510405,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Sun",
+    "separation_deg": 15.30055188579081,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 0.30055188579081005,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Moon",
+    "separation_deg": 158.9276365687058,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 6.072363431294207,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Mercury",
+    "separation_deg": 6.286545480891903,
+    "nearest_diagnostic_angle": 0,
+    "distance_from_angle_deg": 6.286545480891903,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Venus",
+    "separation_deg": 5.819515252505255,
+    "nearest_diagnostic_angle": 0,
+    "distance_from_angle_deg": 5.819515252505255,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Mars",
+    "separation_deg": 77.00942659700245,
+    "nearest_diagnostic_angle": 75,
+    "distance_from_angle_deg": 2.009426597002445,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Jupiter",
+    "separation_deg": 31.52164194375763,
+    "nearest_diagnostic_angle": 30,
+    "distance_from_angle_deg": 1.5216419437576292,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Saturn",
+    "separation_deg": 174.43832575481798,
+    "nearest_diagnostic_angle": 180,
+    "distance_from_angle_deg": 5.561674245182019,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Uranus",
+    "separation_deg": 154.58263104884753,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 4.5826310488475315,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Neptune",
+    "separation_deg": 156.30092920646592,
+    "nearest_diagnostic_angle": 150,
+    "distance_from_angle_deg": 6.3009292064659235,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Pluto",
+    "separation_deg": 99.15300641499857,
+    "nearest_diagnostic_angle": 105,
+    "distance_from_angle_deg": 5.846993585001428,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Chiron",
+    "b": "Midheaven",
+    "separation_deg": 94.788831937022,
+    "nearest_diagnostic_angle": 90,
+    "distance_from_angle_deg": 4.788831937021996,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Sun",
+    "separation_deg": 179.16836828963307,
+    "nearest_diagnostic_angle": 180,
+    "distance_from_angle_deg": 0.8316317103669348,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Moon",
+    "separation_deg": 35.54128360671808,
+    "nearest_diagnostic_angle": 30,
+    "distance_from_angle_deg": 5.541283606718082,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Saturn",
+    "separation_deg": 20.030594420605894,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 5.030594420605894,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Uranus",
+    "separation_deg": 10.948448775728593,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 4.051551224271407,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Neptune",
+    "separation_deg": 9.230150618110201,
+    "nearest_diagnostic_angle": 15,
+    "distance_from_angle_deg": 5.769849381889799,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Ascendant",
+    "b": "Chiron",
+    "separation_deg": 165.53107982457612,
+    "nearest_diagnostic_angle": 165,
+    "distance_from_angle_deg": 0.5310798245761248,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Midheaven",
+    "b": "Sun",
+    "separation_deg": 110.08938382281279,
+    "nearest_diagnostic_angle": 105,
+    "distance_from_angle_deg": 5.089383822812792,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Midheaven",
+    "b": "Moon",
+    "separation_deg": 106.28353149427221,
+    "nearest_diagnostic_angle": 105,
+    "distance_from_angle_deg": 1.2835314942722107,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Midheaven",
+    "b": "Saturn",
+    "separation_deg": 90.77284230816002,
+    "nearest_diagnostic_angle": 90,
+    "distance_from_angle_deg": 0.7728423081600226,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Midheaven",
+    "b": "Uranus",
+    "separation_deg": 59.793799111825535,
+    "nearest_diagnostic_angle": 60,
+    "distance_from_angle_deg": 0.20620088817446458,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  },
+  {
+    "a": "Midheaven",
+    "b": "Neptune",
+    "separation_deg": 61.51209726944393,
+    "nearest_diagnostic_angle": 60,
+    "distance_from_angle_deg": 1.5120972694439274,
+    "status": "GEOMETRY_ONLY_NO_DIRECTED_EDGE"
+  }
+]

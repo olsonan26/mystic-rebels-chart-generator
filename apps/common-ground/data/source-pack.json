@@ -1,0 +1,2937 @@
+{
+  "schema_version": "1.0",
+  "comparison_method": "natal-contextual-bridge-v1",
+  "generic_library_fallback_allowed": false,
+  "personal_report_approved": false,
+  "source_commits": {
+    "mystic_rebels": "3d83db75c30b26d9b068576d84ec49554822fd8c",
+    "looks_like_costar": "023140de4ac9ebad8a804b4c984337135e77b19a"
+  },
+  "input_sha256": {
+    "work/Mystic-Rebels/data/knowledge/interpretive_inventory.json": "f66a8533f0d77f38eb3b560020ed6bcbad38248d87fe4f6df874612d17aa81d1",
+    "work/Mystic-Rebels/data/knowledge/source_meaning_profiles.json": "3d1c3f8dd6b2746b3aba00f82ca89d83814f12f683c692dbe9574461ab6b8f5a",
+    "reports/mystic-costar-analysis-20261027/evidence/LOOKS-LIKE-COSTAR/services/pmeiEngine.ts": "ade44eb92094d62fc378e9794e0ed8daca2c1d67d04a11cb14ef663ad1e5eb7f",
+    "reports/mystic-costar-analysis-20261027/evidence/LOOKS-LIKE-COSTAR/name-engine/data/numbers.ts": "ac75878b2c06f165a8c18e72a807547fea1448531ffcd424f0d194f1ee303313",
+    "reports/mystic-costar-analysis-20261027/evidence/LOOKS-LIKE-COSTAR/services/data.ts": "5bf22b934e144df06dea071a274768792bc6b3ac207a6bea5fd3d93ed566a598",
+    "reports/mystic-costar-analysis-20261027/evidence/LOOKS-LIKE-COSTAR/services/calledNameDescriptions.ts": "bc3a25a76f58a68e2915e81b12cbc66f7839a0885b9a3db24abd3f651ec575a7"
+  },
+  "sources": {
+    "mr:objective-context": {
+      "id": "mr:objective-context",
+      "system": "Mystic Rebels",
+      "title": "Objective facts before personal context",
+      "statement": "Build an assessment from chart evidence, then ask how its themes relate to the person; the source describes readings as conversations.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [
+        "A source anecdote about the author is not a known fact about a user.",
+        "Source confidence claims are not independent accuracy measurements."
+      ],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 135,
+          "reflow_footer": 139,
+          "page_text_sha256": "cf58b82a73de5dc6c8fdd1d09352332b560eac304b2fc48d62b5945a0019b48f"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 136,
+          "reflow_footer": 140,
+          "page_text_sha256": "4865ab66251ff5a486eed633fbf3254b89a23e12ced145c64f4c09a4bec4d971"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 139,
+          "reflow_footer": 143,
+          "page_text_sha256": "e0cebf07b18102793da3a6f248d6e6a6ae22130851dac49b5903277b487c8e3c"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 140,
+          "reflow_footer": 144,
+          "page_text_sha256": "2322e6a1923f6fa74c9cdd4e2da07a252515c83f0fe4967709629c081757c459"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "objective-context",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:phsr": {
+      "id": "mr:phsr",
+      "system": "Mystic Rebels",
+      "title": "PHSR and advanced interpretation order",
+      "statement": "Interpret planet, house, degree, decan, aspects, sign, ruler; sign is assessed earlier to determine the intermediate layers.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [
+        "Do not read an isolated placement as a complete personality.",
+        "Planetary condition here does not mean essential dignity."
+      ],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 179,
+          "reflow_footer": 183,
+          "page_text_sha256": "ad3198860523ff4ded3a296431f9122e83b8e4ceb43954dc92bf7bc2a3d03ee7"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 283,
+          "reflow_footer": 287,
+          "page_text_sha256": "eecb34b11c83b2bbc1f83984cdc2f0d0bdf37f759df7398a522b3ddad559675c"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 284,
+          "reflow_footer": 288,
+          "page_text_sha256": "7df8774d6ea05e3f030636e4085a61933202805ce8122608ff88b85961e5f394"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "phsr",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-sun": {
+      "id": "mr:meaning-sun",
+      "system": "Mystic Rebels",
+      "title": "Sun vocabulary",
+      "statement": "Vitality, existence, personal expression, play, purpose and children.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 193,
+          "reflow_footer": 197,
+          "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 234,
+          "reflow_footer": 238,
+          "page_text_sha256": "65bd4b6dcfe2f9aa2eed2843939002828779f29f8e01d9cd0dfbc3205b70e9c2"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-sun",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-moon": {
+      "id": "mr:meaning-moon",
+      "system": "Mystic Rebels",
+      "title": "Moon vocabulary",
+      "statement": "Safety, emotional relationship, familiarity, memory, nurturing and personal needs.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 193,
+          "reflow_footer": 197,
+          "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 232,
+          "reflow_footer": 236,
+          "page_text_sha256": "ea8dcdcb48a158a3541d5ca59a50df9a09bd0a3ae4f276a91ec0870178734d64"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-moon",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-mercury": {
+      "id": "mr:meaning-mercury",
+      "system": "Mystic Rebels",
+      "title": "Mercury vocabulary",
+      "statement": "Mind, communication, perception, information, tools, tasks and discernment.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 177,
+          "reflow_footer": 181,
+          "page_text_sha256": "5ad929b930a03e70626e410ffbb87721cab3e2d76b90bbff35f4e2c8b5f21503"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-mercury",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-venus": {
+      "id": "mr:meaning-venus",
+      "system": "Mystic Rebels",
+      "title": "Venus vocabulary",
+      "statement": "Value, material resources, worth, aesthetics, exchange, connection and fairness.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 154,
+          "reflow_footer": 158,
+          "page_text_sha256": "f17f6a4619bbd30413dc55a6e928dcd1dbfdbe50cfa8865e0373a9c0476d7569"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 177,
+          "reflow_footer": 181,
+          "page_text_sha256": "5ad929b930a03e70626e410ffbb87721cab3e2d76b90bbff35f4e2c8b5f21503"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-venus",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-mars": {
+      "id": "mr:meaning-mars",
+      "system": "Mystic Rebels",
+      "title": "Mars vocabulary",
+      "statement": "Action, physical initiative, drive, assertion, competition and embodied impulse.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 154,
+          "reflow_footer": 158,
+          "page_text_sha256": "f17f6a4619bbd30413dc55a6e928dcd1dbfdbe50cfa8865e0373a9c0476d7569"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 155,
+          "reflow_footer": 159,
+          "page_text_sha256": "1418e36acfcbb9d1eb9838d9087fd2c5583f3720c84738ca0060adaa455262f4"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-mars",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-jupiter": {
+      "id": "mr:meaning-jupiter",
+      "system": "Mystic Rebels",
+      "title": "Jupiter vocabulary",
+      "statement": "Expansion, experience, exploration, beliefs and teaching; more is not necessarily better.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 155,
+          "reflow_footer": 159,
+          "page_text_sha256": "1418e36acfcbb9d1eb9838d9087fd2c5583f3720c84738ca0060adaa455262f4"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 176,
+          "reflow_footer": 180,
+          "page_text_sha256": "9fd8d66f28be6cbb2ce7d6fe203e1e343ac40ca7bec7b886938e0e5f47eb7026"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 180,
+          "reflow_footer": 184,
+          "page_text_sha256": "6e1656be31a824b4106ce3cb38c1b17313439136e874827b38644d35eea263f7"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-jupiter",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-saturn": {
+      "id": "mr:meaning-saturn",
+      "system": "Mystic Rebels",
+      "title": "Saturn vocabulary",
+      "statement": "Structure, discipline, boundaries, responsibility, authority and sustained accomplishment.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 176,
+          "reflow_footer": 180,
+          "page_text_sha256": "9fd8d66f28be6cbb2ce7d6fe203e1e343ac40ca7bec7b886938e0e5f47eb7026"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-saturn",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-uranus": {
+      "id": "mr:meaning-uranus",
+      "system": "Mystic Rebels",
+      "title": "Uranus vocabulary",
+      "statement": "Innovation, difference, networks and reworking systems; distinguish innovation from initial creation.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 166,
+          "reflow_footer": 170,
+          "page_text_sha256": "e2f3a226b15192b0b5c298bf64f4464f0907493c35931b83b801eab4dd847b36"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 176,
+          "reflow_footer": 180,
+          "page_text_sha256": "9fd8d66f28be6cbb2ce7d6fe203e1e343ac40ca7bec7b886938e0e5f47eb7026"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-uranus",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-neptune": {
+      "id": "mr:meaning-neptune",
+      "system": "Mystic Rebels",
+      "title": "Neptune vocabulary",
+      "statement": "The unknown, imagination, spirituality, absence, uncertainty and dissolution.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 166,
+          "reflow_footer": 170,
+          "page_text_sha256": "e2f3a226b15192b0b5c298bf64f4464f0907493c35931b83b801eab4dd847b36"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-neptune",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:meaning-pluto": {
+      "id": "mr:meaning-pluto",
+      "system": "Mystic Rebels",
+      "title": "Pluto vocabulary",
+      "statement": "Depth, hidden material, power, intimate bonds, transformation and regeneration.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 149,
+          "reflow_footer": 153,
+          "page_text_sha256": "0cb66539a183c27fceb3417191dabe1a2ecedf2046affb1a583e8d95625dfe14"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 169,
+          "reflow_footer": 173,
+          "page_text_sha256": "935ddbcf09e6584241075f5cbb29d9248cdf8749af181c5a3e8c95a2dfb5578d"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "meaning-pluto",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:house-field": {
+      "id": "mr:house-field",
+      "system": "Mystic Rebels",
+      "title": "Natural house Field and astronomical sign are distinct",
+      "statement": "House energy follows the natural Aries-to-Pisces sequence; the actual zodiac sign provides the way that life area expresses.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [
+        "Natural rulership does not determine the outer-wheel Delegate chain.",
+        "Do not move an object to the sign associated with its house."
+      ],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 218,
+          "reflow_footer": 222,
+          "page_text_sha256": "6b039259f4afa46bac33b5526a0e0bbdc20e540d9f6b1d3148d0f6f13144c13e"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 257,
+          "reflow_footer": 261,
+          "page_text_sha256": "98239938b75aba00c4da7af56f8a03df0e770492ec679f5450c2fed3eb6178f5"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 274,
+          "reflow_footer": 278,
+          "page_text_sha256": "d97fe8649343d0512406d8da3995bf97d2a4e49aa0f9cabb1a0b78c24b28b3aa"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "house-field",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-01": {
+      "id": "mr:field-01",
+      "system": "Mystic Rebels",
+      "title": "House 1 thematic Field",
+      "statement": "The source life-area sequence includes: Autonomy, physical action and emergence.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-01",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-02": {
+      "id": "mr:field-02",
+      "system": "Mystic Rebels",
+      "title": "House 2 thematic Field",
+      "statement": "The source life-area sequence includes: Worth, resources, ownership and taste.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-02",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-03": {
+      "id": "mr:field-03",
+      "system": "Mystic Rebels",
+      "title": "House 3 thematic Field",
+      "statement": "The source life-area sequence includes: Perception, communication, immediate surroundings and options.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-03",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-04": {
+      "id": "mr:field-04",
+      "system": "Mystic Rebels",
+      "title": "House 4 thematic Field",
+      "statement": "The source life-area sequence includes: Personal safety, nurturing, home and emotional roots.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-04",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-05": {
+      "id": "mr:field-05",
+      "system": "Mystic Rebels",
+      "title": "House 5 thematic Field",
+      "statement": "The source life-area sequence includes: Expression, play, purpose, romance and children.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-05",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-06": {
+      "id": "mr:field-06",
+      "system": "Mystic Rebels",
+      "title": "House 6 thematic Field",
+      "statement": "The source life-area sequence includes: Habits, detail, practical service and daily function.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-06",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-07": {
+      "id": "mr:field-07",
+      "system": "Mystic Rebels",
+      "title": "House 7 thematic Field",
+      "statement": "The source life-area sequence includes: Relating, exchange, outward value and design.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-07",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-08": {
+      "id": "mr:field-08",
+      "system": "Mystic Rebels",
+      "title": "House 8 thematic Field",
+      "statement": "The source life-area sequence includes: Shared value, intimacy, hidden material and transformation.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-08",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-09": {
+      "id": "mr:field-09",
+      "system": "Mystic Rebels",
+      "title": "House 9 thematic Field",
+      "statement": "The source life-area sequence includes: Exploration, experience, beliefs and learning.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-09",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-10": {
+      "id": "mr:field-10",
+      "system": "Mystic Rebels",
+      "title": "House 10 thematic Field",
+      "statement": "The source life-area sequence includes: Structure, accomplishment, public responsibility and reputation.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-10",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-11": {
+      "id": "mr:field-11",
+      "system": "Mystic Rebels",
+      "title": "House 11 thematic Field",
+      "statement": "The source life-area sequence includes: Innovation, networks, groups and improvement.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-11",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:field-12": {
+      "id": "mr:field-12",
+      "system": "Mystic Rebels",
+      "title": "House 12 thematic Field",
+      "statement": "The source life-area sequence includes: The unknown, intuition, imagination, absence and release.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 384,
+          "reflow_footer": 388,
+          "page_text_sha256": "81defd8aa1c188ab740247b16148ba266c05c29d7d89e0d23da9c6a51a975820"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "field-12",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:tone-pulse": {
+      "id": "mr:tone-pulse",
+      "system": "Mystic Rebels",
+      "title": "Tone and Pulse as different interpretive layers",
+      "statement": "Astronomical sign supplies Tone; same-element decan supplies Pulse and refines the manner of expression.",
+      "source_status": "PASSAGE_REVIEWED",
+      "answer_use": "NOT_APPROVED",
+      "exceptions": [
+        "Mercury and Venus decan ruler names alone can lose the sign/element distinction."
+      ],
+      "witnesses": [
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 179,
+          "reflow_footer": 183,
+          "page_text_sha256": "ad3198860523ff4ded3a296431f9122e83b8e4ceb43954dc92bf7bc2a3d03ee7"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 274,
+          "reflow_footer": 278,
+          "page_text_sha256": "d97fe8649343d0512406d8da3995bf97d2a4e49aa0f9cabb1a0b78c24b28b3aa"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 289,
+          "reflow_footer": 293,
+          "page_text_sha256": "e530eb49364fb67bd2d86ebb59516a883fe39de615f4e50dc82d81c3addb4b32"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 290,
+          "reflow_footer": 294,
+          "page_text_sha256": "cc6f81bc7119647dcaf5b924de66e16f52b4d778a6f58809c43ed9cbddafd64e"
+        },
+        {
+          "source_id": "pure-reflow-9d5fb55c",
+          "pdf_page": 291,
+          "reflow_footer": 295,
+          "page_text_sha256": "e165e8b8d0e287a680b8f7cfeae5523a79c60c8bc3934338a2a7e74b9a0f028c"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/interpretive_inventory.json",
+      "record_id": "tone-pulse",
+      "usage": "Attributed component vocabulary in a research comparison; not approved personal-report synthesis."
+    },
+    "mr:sign-aries": {
+      "id": "mr:sign-aries",
+      "system": "Mystic Rebels",
+      "title": "Aries source vocabulary",
+      "statement": "Beginnings, direct initiative and forward movement anchored in the present.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198"
+          ],
+          "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+          "line_ranges": [
+            [
+              19,
+              27
+            ]
+          ],
+          "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-aries",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-taurus": {
+      "id": "mr:sign-taurus",
+      "system": "Mystic Rebels",
+      "title": "Taurus source vocabulary",
+      "statement": "Grounding, patience, making things tangible, present sensory comfort and routine.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "179PvKNt6TWPC43XoKsh70w33fRDGBNo1",
+          "name": "IMG_4607.jpg",
+          "content_sha256": "6dec0de73308c1fef7c6c7c8a8f0c31f1ddd6c2f812db8a3827fe1e9b1e1133f",
+          "original_printed_pages": [
+            "198"
+          ],
+          "ocr_output_sha256": "2eef1050af22a0fd485e4cb2265f685e489e6957eba2fe99951df3273c0538ac",
+          "line_ranges": [
+            [
+              28,
+              34
+            ]
+          ],
+          "annotation_id": "meaning-repair-179PvKNt6TWPC43XoKsh70w33fRDGBNo1"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-taurus",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-gemini": {
+      "id": "mr:sign-gemini",
+      "system": "Mystic Rebels",
+      "title": "Gemini source vocabulary",
+      "statement": "Curiosity, alternative options, linking ideas and sharing information, with forward-looking variety.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              6,
+              16
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-gemini",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-cancer": {
+      "id": "mr:sign-cancer",
+      "system": "Mystic Rebels",
+      "title": "Cancer source vocabulary",
+      "statement": "Nurture, memory, family ties and belonging; reaching toward the future while turning to the past.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              17,
+              25
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-cancer",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-leo": {
+      "id": "mr:sign-leo",
+      "system": "Mystic Rebels",
+      "title": "Leo source vocabulary",
+      "statement": "Creative vitality, presence and courage; bringing possible expression into the present.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR",
+          "name": "IMG_4608.jpg",
+          "content_sha256": "ec5f3025d7ca016c450aac57d4969baf0214289fbd05003b77dbf5d347270fa0",
+          "original_printed_pages": [
+            "199"
+          ],
+          "ocr_output_sha256": "bf7d213071fef3a7e0f9f9ebe767a4b2e60667180e8c512a94ea061bccd0637e",
+          "line_ranges": [
+            [
+              28,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-1FGHXh8PZJkORg9f5aXMbgEoPRso7H3JR"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-leo",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-virgo": {
+      "id": "mr:sign-virgo",
+      "system": "Mystic Rebels",
+      "title": "Virgo source vocabulary",
+      "statement": "Analysis, refinement and service; improving the next practical step and bringing it into the present.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              3,
+              12
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-virgo",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-libra": {
+      "id": "mr:sign-libra",
+      "system": "Mystic Rebels",
+      "title": "Libra source vocabulary",
+      "statement": "Balancing perspectives, harmony and relational exchange; weighing the present while looking back.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              16,
+              23
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ",
+          "name": "IMG_4623.jpg",
+          "content_sha256": "43982e1a44e75582f6c6c132f30e38cce242ef558897b1b7bd6c95272ee338f0",
+          "original_printed_pages": [
+            "203"
+          ],
+          "ocr_output_sha256": "f8fb99442596684d1df73c20378025bff8cfd467b775e2f14f7f2f52365fd852",
+          "line_ranges": [
+            [
+              12,
+              22
+            ]
+          ],
+          "annotation_id": "meaning-repair-1b6I1wJsDKHGSnLz-NE5bdGVRGjitNclZ"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi",
+          "name": "IMG_4624.jpg",
+          "content_sha256": "397d2ce5ef5c3093915888c71b28539cd95e16a5193d4a0a7ced9442c401f666",
+          "original_printed_pages": [
+            "204"
+          ],
+          "ocr_output_sha256": "053f5693401892594f1e455b17d86d81ba23cea912c4d4b26ccb4dd223bb1911",
+          "line_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "annotation_id": "meaning-repair-1zux1Y1x8aCDPuxijDV9E0TNw0HXuJORi"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-libra",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-scorpio": {
+      "id": "mr:sign-scorpio",
+      "system": "Mystic Rebels",
+      "title": "Scorpio source vocabulary",
+      "statement": "Intensity, depth, hidden material, endings and transformation; drawing on the past.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              26,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-scorpio",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-sagittarius": {
+      "id": "mr:sign-sagittarius",
+      "system": "Mystic Rebels",
+      "title": "Sagittarius source vocabulary",
+      "statement": "Exploration, philosophy and wider horizons; experience and past mistakes supplying future-facing wisdom.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1LC1Muw7unna_H3c82D1o7P27s1B66flm",
+          "name": "IMG_4609.jpg",
+          "content_sha256": "787c246549a740228c5369fb96fcaf30ba7bf497a8ad50d940fb90add6b95213",
+          "original_printed_pages": [
+            "200"
+          ],
+          "ocr_output_sha256": "e4fc360f83eeb517d05fd21c24c582fe2f23aec4052d521c3ff81fd792495f2d",
+          "line_ranges": [
+            [
+              34,
+              37
+            ]
+          ],
+          "annotation_id": "meaning-repair-1LC1Muw7unna_H3c82D1o7P27s1B66flm"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              2,
+              7
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-sagittarius",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-capricorn": {
+      "id": "mr:sign-capricorn",
+      "system": "Mystic Rebels",
+      "title": "Capricorn source vocabulary",
+      "statement": "Endurance, rebuilding, ambition and gradual progress built on tradition and what came before.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              11,
+              18
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-capricorn",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-aquarius": {
+      "id": "mr:sign-aquarius",
+      "system": "Mystic Rebels",
+      "title": "Aquarius source vocabulary",
+      "statement": "Exchange and transmission of ideas, community, vision and innovation; future progress anchored in prior understanding.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-",
+          "name": "IMG_4610.JPG",
+          "content_sha256": "52dde2482aca8ae9efac1c578f699a3a4e134933b9339262d14a0475f4315e9d",
+          "original_printed_pages": [
+            "201"
+          ],
+          "ocr_output_sha256": "99474b36116d110302cec05c82f4b89d5fc5a9f7bcfa9de650acdfe3ef7084e9",
+          "line_ranges": [
+            [
+              22,
+              33
+            ]
+          ],
+          "annotation_id": "meaning-repair-12fS1ALDo7aM2yo0p2RkxjWwRGqkzGrG-"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-aquarius",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "mr:sign-pisces": {
+      "id": "mr:sign-pisces",
+      "system": "Mystic Rebels",
+      "title": "Pisces source vocabulary",
+      "statement": "Reflection, imagination, surrender and spiritual or creative transcendence; drawing the past toward the present.",
+      "source_status": "ORIGINAL_PASSAGE_REVIEWED",
+      "witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-",
+          "name": "IMG_4611.jpg",
+          "content_sha256": "ee97d0b55d88085411be73da32fede8a0f1bbe5146539338afec2960bfe73085",
+          "original_printed_pages": [
+            "202"
+          ],
+          "ocr_output_sha256": "a229a9008fb99410c9a5c1c55bcd54ac2e75a7d0ac759d0f8368ad3bfd2ac41c",
+          "line_ranges": [
+            [
+              3,
+              15
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgTYVQWUWOTPUu3fDmnmsq7bmrcQgPx-"
+        }
+      ],
+      "context_witnesses": [
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT",
+          "name": "IMG_4605.JPG",
+          "content_sha256": "a6c6dad0d9036f542224049cc97ee23280b8fb8f00ee7cfbd96ac85c8184074b",
+          "original_printed_pages": [
+            "197"
+          ],
+          "ocr_output_sha256": "cd53e9ddd595beb3b6e5c40727bb03749b5b782978785b20b23852adec49481c",
+          "line_ranges": [
+            [
+              3,
+              35
+            ]
+          ],
+          "annotation_id": "meaning-repair-1pk-mQt3ZUK_qdOBE_2jcXMRSRJ33gfUT"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd",
+          "name": "IMG_4589.jpg",
+          "content_sha256": "f38ba560381877e80d9fdae3d285bad031f953901eb5c03823d8a33065b5d51b",
+          "original_printed_pages": [
+            "185"
+          ],
+          "ocr_output_sha256": "510d9ad6b12bc6d6ee526f0a1947490643de58115c972267973679b8e25a29b6",
+          "line_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "annotation_id": "meaning-repair-1IGAlw7sK_4j7Lvn_6zM_otx6_kt8bomd"
+        },
+        {
+          "kind": "ORIGINAL_REVIEWED_MEANING_PROFILE",
+          "file_id": "1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP",
+          "name": "IMG_4590.jpg",
+          "content_sha256": "a1d68fefa1cf98733ed1ff0816bb5e01043341b91b336ec1943ce1d712f1b7ef",
+          "original_printed_pages": [
+            "186"
+          ],
+          "ocr_output_sha256": "55af9e8d955789e384b4e911ab006a0de905822abda80b18b93b68f168fd7bb5",
+          "line_ranges": [
+            [
+              1,
+              26
+            ]
+          ],
+          "annotation_id": "meaning-repair-1xgLoxC-AqqvNloxhHoWDMqwwOP1-AKtP"
+        }
+      ],
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/data/knowledge/source_meaning_profiles.json",
+      "record_id": "sign-pisces",
+      "usage": "Contextual expression style only; not a complete personality description."
+    },
+    "costar-number-1": {
+      "id": "costar-number-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 1 vocabulary",
+      "statement": "leader, initiator, strategy + will. Strengths in this bank: planning, founding, innovating, inspires authority.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L52",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-2": {
+      "id": "costar-number-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 2 vocabulary",
+      "statement": "connector, diplomat, sensitive intuition. Strengths in this bank: counseling, mediation, consulting.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L53",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-3": {
+      "id": "costar-number-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 3 vocabulary",
+      "statement": "creator, performer, expressive spark. Strengths in this bank: art, teaching, marketing, promotion.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L54",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-4": {
+      "id": "costar-number-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 4 vocabulary",
+      "statement": "builder, organizer, exactness. Strengths in this bank: crafts, design, architecture, precision.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L55",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-5": {
+      "id": "costar-number-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 5 vocabulary",
+      "statement": "mover, persuader, change agent. Strengths in this bank: advertising, media, journalism, business.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L56",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-6": {
+      "id": "costar-number-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 6 vocabulary",
+      "statement": "carer, harmonizer, responsibility. Strengths in this bank: teaching, psychology, medicine, social work, design taste.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L57",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-7": {
+      "id": "costar-number-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 7 vocabulary",
+      "statement": "analyst, truth-seeker, private thinker. Strengths in this bank: research, judging, journalism, life-changing teaching.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L58",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-8": {
+      "id": "costar-number-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 8 vocabulary",
+      "statement": "executive, strategist, enterprise. Strengths in this bank: governance, finance, entrepreneurship.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L59",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-number-9": {
+      "id": "costar-number-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Number 9 vocabulary",
+      "statement": "humanitarian, inspirer, empathic. Strengths in this bank: social work, medicine, law, diplomacy.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L60",
+      "usage": "Authored symbolic vocabulary, not an observation established about a person."
+    },
+    "costar-first_name_total_flavor-1": {
+      "id": "costar-first_name_total_flavor-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 1",
+      "statement": "You thrive when you lead with clean intent and honest initiative.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-2": {
+      "id": "costar-first_name_total_flavor-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 2",
+      "statement": "You excel in partnership, careful listening, and steady harmony.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-3": {
+      "id": "costar-first_name_total_flavor-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 3",
+      "statement": "You shine through expression, story, and a touch of play.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-4": {
+      "id": "costar-first_name_total_flavor-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 4",
+      "statement": "You do your best work with rhythm, craft, and structure.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-5": {
+      "id": "costar-first_name_total_flavor-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 5",
+      "statement": "You learn by experience and translate change into wisdom.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-6": {
+      "id": "costar-first_name_total_flavor-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 6",
+      "statement": "You protect what matters and build dependable comfort.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-7": {
+      "id": "costar-first_name_total_flavor-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 7",
+      "statement": "You distill noise into insight and high standards.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-8": {
+      "id": "costar-first_name_total_flavor-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 8",
+      "statement": "You turn plans into outcomes and keep promises.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-first_name_total_flavor-9": {
+      "id": "costar-first_name_total_flavor-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "First Name Total Flavor 9",
+      "statement": "You finish with heart and aim the work toward service.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-1": {
+      "id": "costar-called_name_vibe-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 1",
+      "statement": "People feel your go-first presence and decisive calm.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-2": {
+      "id": "costar-called_name_vibe-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 2",
+      "statement": "People experience you as steady, kind, and connective.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-3": {
+      "id": "costar-called_name_vibe-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 3",
+      "statement": "People notice your color, timing, and ease with expression.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-4": {
+      "id": "costar-called_name_vibe-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 4",
+      "statement": "People trust your reliability and rhythm.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-5": {
+      "id": "costar-called_name_vibe-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 5",
+      "statement": "People read you as adaptive and quick to learn.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-6": {
+      "id": "costar-called_name_vibe-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 6",
+      "statement": "People lean on your care and sense of responsibility.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-7": {
+      "id": "costar-called_name_vibe-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 7",
+      "statement": "People sense your thoughtfulness and refinement.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-8": {
+      "id": "costar-called_name_vibe-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 8",
+      "statement": "People see outcomes and a strong follow-through.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-called_name_vibe-9": {
+      "id": "costar-called_name_vibe-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name Vibe 9",
+      "statement": "People feel your humane perspective and closure.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-1": {
+      "id": "costar-full_name_direction-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 1",
+      "statement": "Your long arc favors clarifying priorities and opening paths others can follow.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-2": {
+      "id": "costar-full_name_direction-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 2",
+      "statement": "Your long arc favors alliance, patient support, and stable bonds.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-3": {
+      "id": "costar-full_name_direction-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 3",
+      "statement": "Your long arc favors voice, teaching, and enlivening culture.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-4": {
+      "id": "costar-full_name_direction-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 4",
+      "statement": "Your long arc favors disciplined building and tangible results.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-5": {
+      "id": "costar-full_name_direction-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 5",
+      "statement": "Your long arc favors exploration that becomes practical wisdom.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-6": {
+      "id": "costar-full_name_direction-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 6",
+      "statement": "Your long arc favors stewardship, quality, and belonging.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-7": {
+      "id": "costar-full_name_direction-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 7",
+      "statement": "Your long arc favors depth, standards, and precise insight.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-8": {
+      "id": "costar-full_name_direction-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 8",
+      "statement": "Your long arc favors execution, leadership, and durable impact.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-full_name_direction-9": {
+      "id": "costar-full_name_direction-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Full Name Direction 9",
+      "statement": "Your long arc favors service, synthesis, and graceful endings.",
+      "source_status": "REPOSITORY_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/name-engine/data/numbers.ts",
+      "usage": "This is the attributed bank's wording, not an independently observed personal fact. The separate name-cue engine has its own calculation conventions."
+    },
+    "costar-natal-calculations": {
+      "id": "costar-natal-calculations",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Natal calculation methods and roles",
+      "statement": "Expression uses full-name letter values; Soul Urge uses vowels; Birth Force uses birth-date digits; Ultimate Goal combines a reduced birthday component and Expression; Balance uses initials; Called Name combines reduced first and last names.",
+      "source_status": "SOURCE_CODE_METHOD",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/numerology.ts#L254-L391"
+    },
+    "costar-pmei": {
+      "id": "costar-pmei",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "PMEI literal letter counts",
+      "statement": "Physical={4,5}; Mental={1,8}; Emotional={2,3,6}; Intuitive={7,9}. Every letter contributes one count. Counts are not digit-reduced. Zero planes are described as an all-or-nothing switch, not an absent human capacity.",
+      "source_status": "SOURCE_CODE_METHOD_AND_AUTHORED_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/pmeiEngine.ts#L5-L47"
+    },
+    "costar-role-soul-urge-1": {
+      "id": "costar-role-soul-urge-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 1: role-specific bank",
+      "role": "Soul Urge",
+      "number": 1,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by autonomy, novelty, and the feeling that your life is moved by your own will. You think for yourself, you see possibilities early, and your creativity comes alive when you can build something from the ground up. You want to lead, not out of ego, but because direction and ownership calm your nervous system and bring out your best judgment. The challenge is pacing. Headstrong impulses can outrun real-world skill. When that happens, doubt slips in and erodes your confidence. What you actually need is a rhythm of action and calibration. Choose projects where you can express your own vision, then keep your learning curve slightly ahead of your ambition. You dislike being managed by people who do not think clearly, yet feedback from competent mentors will sharpen you rather than diminish you. Recognition matters to you, not as flattery, but as confirmation that your effort created value. When you honor both your independence and your need for mastery, your drive becomes steady, your originality becomes useful, and leadership follows naturally.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1350",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-2": {
+      "id": "costar-role-soul-urge-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 2: role-specific bank",
+      "role": "Soul Urge",
+      "number": 2,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by harmony, cooperation, and the felt sense that people can work together without doing violence to one another’s dignity. Your sensitivity is not a weakness. It is an instrument that reads the emotional climate and helps you make wise, considerate choices. You notice details, you prefer quality over flash, and you instinctively include others in your calculations. The risk is self-doubt. When conflict rises, you may defer too quickly, mistrust your own judgment, or stay quiet to keep the peace. Over time that breeds resentment and missed chances. Your task is to pair gentleness with backbone. Begin by stating what you see, then what you need, simply and calmly. You can still choose peace, but not at the expense of your rights or your truth. Surround yourself with environments that reflect beauty and order. They regulate your system and bring out your best work. Your spiritual streak and love of culture give you depth, and your cooperative nature makes you invaluable on teams where accuracy and goodwill matter. When you trust your perception and speak up with care, you become the person others rely on to turn good intentions into real outcomes.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1352",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-3": {
+      "id": "costar-role-soul-urge-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 3: role-specific bank",
+      "role": "Soul Urge",
+      "number": 3,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by joy, creative expression, and the desire to lift the emotional tone of any room you enter. You think in images and possibilities. You communicate with color and story. You are at your best when ideas can breathe, people can laugh, and your imagination can translate into something others can feel. You also have a tender emotional system. When you are discouraged, you withdraw, worry over small things, or chase comfort that turns into avoidance. The medicine is scale and structure. Dream on a bigger canvas, then ground your art in simple routines that keep your momentum steady. Choose work and spaces that are bright, social, and mentally stimulating. You are a natural connector, and your optimism can be contagious, but remember that not every conversation is safe for every truth. Discernment protects intimacy and reputation. Your friendships matter deeply and love gives your expression purpose. When you honor your sensitivity, keep your promises to yourself, and let honesty guide your flair for performance, your gift to others is real elevation, not just entertainment.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1353",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-4": {
+      "id": "costar-role-soul-urge-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 4: role-specific bank",
+      "role": "Soul Urge",
+      "number": 4,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by order, stability, and the deep satisfaction of building something solid and worthwhile. You prefer facts to fads. You plan, you prepare, and you take responsibility seriously. Clear direction settles you, while uncertainty makes you restless. You are loyal by nature and expect the same in return. Your shadow shows up as rigidity or reflexive skepticism, especially when new ideas threaten a system that already works. The growth path is disciplined flexibility. Keep your standards, and widen your lens. Ask for evidence, then try small experiments that let you update your models without abandoning what is proven. Make room for play within your schedule, especially in relationships. Brick by brick is your way, and it works, provided you leave space for inspiration and rest. When you pair patience with openness, your reliability becomes a foundation others can build on. You become the person who keeps projects honest, money accounted for, and promises kept.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1354",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-5": {
+      "id": "costar-role-soul-urge-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 5: role-specific bank",
+      "role": "Soul Urge",
+      "number": 5,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by freedom, exploration, and the sense that life is an adventure to be lived, not a script to be followed. Change energizes you. People, travel, new ideas, and emerging trends all wake up your curiosity. Routine is necessary, but only in small doses, and you need it designed as launchpads, not cages. Your risks are scattered focus, impulsive choices, and overcommitting in the name of possibility. The antidote is intentional variety. Give your mind stimulating work with clear constraints. Use short sprints, visible checklists, and firm stop times to prevent drift. Choose careers with interaction, movement, and problem solving. Protect your freedom by keeping your word and your finances in order. Your resourcefulness can create joy for everyone around you, and your relationships thrive when you bring both spontaneity and consistency. When you learn to channel your appetite for experience into meaningful missions, you become a catalyst for progress who opens doors others did not know were there.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1355",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-6": {
+      "id": "costar-role-soul-urge-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 6: role-specific bank",
+      "role": "Soul Urge",
+      "number": 6,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by devotion, responsibility, and the desire to create safety for the people and communities you love. You sense needs before they are spoken. You value commitment, fairness, and the stability of home. You will work hard for those you care about, and you expect respect in return. Your risk is overgiving and control disguised as care. When you carry more than your share, resentment grows, and those you protect can feel smothered rather than supported. The work is boundaries with warmth. Ask what is actually needed. Offer help that preserves dignity and autonomy. Invite collaboration instead of compliance. Your bluntness in the face of injustice is a strength, provided you aim it at the problem rather than the person. Build beauty into your daily life, and let others contribute to you as well. When you balance service with self-care and principle with flexibility, your love becomes a shelter that strengthens others rather than making them dependent.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1356",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-7": {
+      "id": "costar-role-soul-urge-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 7: role-specific bank",
+      "role": "Soul Urge",
+      "number": 7,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by truth, depth, and the refinement of understanding. You want to know how things work, and why, beneath the surface. You seek quality in thought and in relationships. You are comfortable with solitude because thinking, studying, and testing ideas restore your clarity. Your standards are high. The risk is perfectionism that isolates you, or skepticism that turns connection into interrogation. Your task is to let curiosity be relational. Share your questions, not only your conclusions. Allow mystery where proof is not yet possible. Keep rituals that nourish your inner life, and let your body and emotions have a vote in decisions, not just your intellect. You are drawn to the unusual and the profound. That is not eccentricity, it is the right ecosystem for your mind. When you balance discernment with openness, you become a trusted source of wisdom who can separate signal from noise and bring hidden patterns into the light.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1357",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-8": {
+      "id": "costar-role-soul-urge-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 8: role-specific bank",
+      "role": "Soul Urge",
+      "number": 8,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by impact, achievement, and the will to turn potential into performance. You think in terms of systems, leverage, and results. Pressure does not scare you, it focuses you. You like to lead and you prefer arenas where merit is visible. The traps are overreach, using people as means to an end, and mood swings that ripple through your team. The solution is disciplined power. Define goals clearly, measure what matters, and put ethics on the same line as outcomes. Learn to receive feedback without defensiveness. Develop people, not only projects. Your analytical instinct makes psychology, strategy, and organizational work natural fits. Appreciation may be scarce at the top, so secure your identity in your values, not in applause. When you combine ambition with responsibility and cooperation, you become the kind of builder who creates durable success and leaves others stronger in your wake.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1358",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-soul-urge-9": {
+      "id": "costar-role-soul-urge-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Soul Urge 9: role-specific bank",
+      "role": "Soul Urge",
+      "number": 9,
+      "bank": "soulUrgeDescriptions",
+      "statement": "You are motivated by compassion, meaning, and the hope that your life can ease suffering and elevate the human story. You feel things intensely. You sense the emotional weather of a room and you care about justice, beauty, and mercy. Your ideals can inspire many people. The danger is burnout, disappointment, or being taken advantage of when your generosity runs ahead of discernment. The practice is boundaried compassion. Give, and also verify. Choose causes and relationships where your effort has structure and accountability. Let heartbreak teach you wisdom rather than cynicism. You can stand for your principles without attacking yourself or others. Romance and family matter deeply to you. Choose partners who share your values and your appetite for growth. When you allow your sensitivity to be guided by clarity, your influence becomes stabilizing rather than exhausting. You become the person who helps others believe in what is possible, while keeping both feet on the ground.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1359",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-1": {
+      "id": "costar-role-expression-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 1: role-specific bank",
+      "role": "Expression",
+      "number": 1,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a natural leader, an innovator, and a pioneer. Your path is to be independent, original, and courageous. You are here to bring new ideas to the forefront and to inspire action in others. Your greatest strength is your self-reliance and your ability to forge new paths.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1338",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-2": {
+      "id": "costar-role-expression-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 2: role-specific bank",
+      "role": "Expression",
+      "number": 2,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a diplomat, a peacemaker, and a team player. Your strength lies in your sensitivity, your ability to cooperate, and your knack for creating harmony. You are a supportive partner and a patient mediator, valuing relationships and balance above all.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1340",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-3": {
+      "id": "costar-role-expression-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 3: role-specific bank",
+      "role": "Expression",
+      "number": 3,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself with creativity, charm, and a joyful spirit. You are a natural communicator and artist, here to uplift and inspire through your words and creations. Your optimism is contagious, and you thrive when you can share your unique vision with the world.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1341",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-4": {
+      "id": "costar-role-expression-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 4: role-specific bank",
+      "role": "Expression",
+      "number": 4,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a builder, an organizer, and a pragmatist. You are reliable, disciplined, and dedicated to creating things of lasting value. Your path is one of steady, patient effort, building secure foundations for yourself and others through hard work and attention to detail.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1342",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-5": {
+      "id": "costar-role-expression-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 5: role-specific bank",
+      "role": "Expression",
+      "number": 5,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as an adventurer, a catalyst for change, and a free spirit. You thrive on variety, new experiences, and connecting with people. Your resourcefulness and adaptability allow you to navigate life's constant changes and inspire others to embrace freedom.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1343",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-6": {
+      "id": "costar-role-expression-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 6: role-specific bank",
+      "role": "Expression",
+      "number": 6,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a nurturer, a teacher, and a responsible caregiver. Your focus is on home, family, and community, and you find fulfillment in serving others. You create harmony and safety, and your compassionate heart guides your actions and decisions.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1344",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-7": {
+      "id": "costar-role-expression-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 7: role-specific bank",
+      "role": "Expression",
+      "number": 7,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a seeker of truth, a thinker, and an analyst. You possess a deep, introspective mind and a powerful intuition. Your journey is one of discovering hidden knowledge and spiritual wisdom, often through solitude and study, and sharing your unique insights.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1345",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-8": {
+      "id": "costar-role-expression-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 8: role-specific bank",
+      "role": "Expression",
+      "number": 8,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a powerful leader, a strategist, and an achiever. You are ambitious and excel at mastering the material world. Your path involves wielding authority with integrity, achieving success, and using your influence to empower others and create lasting impact.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1346",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-expression-9": {
+      "id": "costar-role-expression-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Expression 9: role-specific bank",
+      "role": "Expression",
+      "number": 9,
+      "bank": "expressionDescriptions",
+      "statement": "You express yourself as a compassionate humanitarian, an idealist, and an artist. You have a broad, global perspective and a deep sense of empathy. Your purpose is to serve the greater good, to inspire others through your generosity, and to make a meaningful difference in the world.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1347",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-ultimate-goal-1": {
+      "id": "costar-role-ultimate-goal-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 1: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 1,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Leader and Pioneer. You are here to learn independence, to stand on your own two feet, and to lead with courage and originality. Your journey involves trusting your own unique vision and developing the self-confidence to bring innovative ideas into the world. You are a natural trailblazer, and your greatest fulfillment comes when you embrace your individuality and dare to be first.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1326",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-2": {
+      "id": "costar-role-ultimate-goal-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 2: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 2,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Peacemaker and Diplomat. You are here to learn about cooperation, harmony, and balance. Your journey is deeply tied to relationships, teaching you to be a supportive partner, a skilled mediator, and a source of calm in a chaotic world. Your greatest strength lies in your ability to unite people and to navigate life with sensitivity, patience, and powerful intuition.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1328",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-3": {
+      "id": "costar-role-ultimate-goal-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 3: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 3,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Creative Communicator. You are here to inspire, uplift, and bring joy to the world through your self-expression. Your journey involves cultivating your artistic talents and using your gift of communication to connect with others. You are naturally charismatic and optimistic, and your purpose is to shine your light brightly, reminding others of the beauty and joy of being alive.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1329",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-4": {
+      "id": "costar-role-ultimate-goal-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 4: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 4,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Master Builder. You are here to create something of lasting value through discipline, hard work, and practicality. Your journey is about building a secure foundation, for yourself and for others. You are the bedrock of society—reliable, organized, and dedicated. Your greatest satisfaction comes from seeing your patient and persistent efforts result in tangible, enduring success.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1330",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-5": {
+      "id": "costar-role-ultimate-goal-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 5: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 5,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Agent of Change and Adventurer. You are here to experience freedom in all its forms and to be a catalyst for progress. Your journey is dynamic and ever-changing, teaching you to be adaptable, resourceful, and unafraid of the unknown. You thrive on variety, new experiences, and connecting with people from all walks of life. Your purpose is to live life to the fullest and inspire others to break free from their own limitations.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1331",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-6": {
+      "id": "costar-role-ultimate-goal-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 6: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 6,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Nurturer and a beacon of Responsible Love. You are here to learn about service, responsibility, and the deep healing power of compassion. Your journey is centered around home, family, and community. You are a natural caregiver, teacher, and healer, and your purpose is to create beauty, harmony, and a safe space for others to thrive. Your heart is your compass.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1332",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-7": {
+      "id": "costar-role-ultimate-goal-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 7: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 7,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Seeker of Truth. You are here to delve beneath the surface of life, to ask the big questions, and to connect with profound spiritual wisdom. Your journey is an inward one, requiring solitude for analysis, introspection, and listening to your powerful intuition. You are a natural scholar, mystic, and analyst, and your purpose is to find the hidden truths and share your unique wisdom with the world.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1333",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-8": {
+      "id": "costar-role-ultimate-goal-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 8: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 8,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Powerhouse and Manifester. You are here to master the material world and to learn to wield power and authority with integrity. Your journey involves ambition, financial acumen, and executive leadership. You are a natural strategist and leader, capable of achieving great success and abundance. Your ultimate test is to use your strength and influence for the greater good.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1334",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-ultimate-goal-9": {
+      "id": "costar-role-ultimate-goal-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Ultimate Goal 9: role-specific bank",
+      "role": "Ultimate Goal",
+      "number": 9,
+      "bank": "lifePathDescriptions",
+      "statement": "Your Life Path is that of the Compassionate Humanitarian. You are here to learn about forgiveness, compassion, and selfless service on a grand scale. Your journey involves developing a broad, universal perspective and a deep love for humanity. You are a natural leader, artist, and philanthropist, and your purpose is to inspire others and make a meaningful difference in the world, letting go of the past to embrace a global vision.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1335",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person.",
+      "method_note": "The calculator labels the feature Ultimate Goal and selects this bank, whose original wording says Life Path. The name-plus-date formula is preserved separately."
+    },
+    "costar-role-birth-force-1": {
+      "id": "costar-role-birth-force-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 1: role-specific bank",
+      "role": "Birth Force",
+      "number": 1,
+      "bank": "birthForceDescriptions",
+      "statement": "You have leadership ability and qualities. You are individualized and act according to your own ideas and ways. You have a sharp mind, good concentration, and you are able to lead others with good management ability, will power, and courage. You are capable of overcoming any barrier when you make use of your creative abilities. Because you have a strong will and determination, you can be seen as dominant and forceful, and you may be classed as negative if you act without reasonable consideration. Your talents, used in a positive and constructive manner, bring the best results. Watch for negative tendencies such as dominance, egotism, a bossy manner, impatience, over confidence, and a know it all attitude. On the brighter side, you can be very successful by developing new projects that bring out your initiative and originality. New and original ideas are better than old ones and bring out your power of invention, design, and speaking. You have a unique sense of humor, enjoying wit and fun.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1301",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-2": {
+      "id": "costar-role-birth-force-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 2: role-specific bank",
+      "role": "Birth Force",
+      "number": 2,
+      "bank": "birthForceDescriptions",
+      "statement": "You are a diplomatic type, sensitive, cooperative, and considerate. Your success will rely very much on your ability to help others get what they want, which comes from a fine and detailed mental quality in your makeup. Your sensitiveness, sincerity, and understanding should be part of a high standard of living, and they will strike harmony with others who value your ways. In business, you have the ability to be accurate and detailed, and you can bring people together for a common cause. This is a fine quality, yet difficulties may arise if you become too sensitive. That failing can make you negative and fearful instead of sincere and courageous. Now and then you may be uncertain and find it hard to decide what to do due to a fear of being wrong, since you want to do things right. Your accuracy makes you dislike mistakes, and you often hesitate. Keep attempting to do your best and you will gradually perfect your talents. If you share what you have with others and make use of your talent for doing things well, you will climb the ladder and stay at the top. Opportunity may be found with fine machinery, delicate instruments, the ministry, medicine, accounting, radio, electricity, statistics, and even specialized art.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1303",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-3": {
+      "id": "costar-role-birth-force-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 3: role-specific bank",
+      "role": "Birth Force",
+      "number": 3,
+      "bank": "birthForceDescriptions",
+      "statement": "You are creative, imaginative, and deeply feeling. Many of your successes in life will come through the use of these natural talents. You have a gift with words, and your ability to express yourself well can bring financial rewards along this line of endeavor. Your ability to entertain and inspire is an open door to friendship and a social life. However, talking too much at the wrong time, possibly due to emotional eruptions, may get the best of you and bring regrets later. You can attract depressed people because your cheerful and happy disposition is seen as a welcoming card for others who want help lifting their spirits. There is a quiet side to you. You are very sensitive and can withdraw when hurt or criticized. You can also be critical of others and unconsciously express your views of other people’s mistakes, which can cause problems with friends and associates. You can change your luck at any time when you put your imagination to work. You may succeed in artistic lines, clothing, jewelry, entertainment, dancing, music, writing, acting, printing, publishing, designing, illustration, and drama pursuits.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1304",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-4": {
+      "id": "costar-role-birth-force-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 4: role-specific bank",
+      "role": "Birth Force",
+      "number": 4,
+      "bank": "birthForceDescriptions",
+      "statement": "You are a practical type who likes to know what you are doing and do not care to take chances unless you are sure. You can be serious and fixed in your manner, but you are naturally honest and sincere. You can be particular with your likes and dislikes and like to feel sure about things, with a good sense of practical values. You have an ability to manage and can be fussy about things being done correctly, sometimes neglecting bigger things for smaller details. This can make you selective in associations since you are careful with possessions and can manage well. You have the ability to inspire confidence in others, as you are not easily carried away by frivolous or extravagant undertakings. You like quality, but can be too careful with money when demanding value. You work hard and have perseverance. You may argue or be disagreeable when you do not have things your own way, so watch out for this because it can make things difficult. You can apply your talents in building, contracting, organizing, bringing plans to form, buying and selling, managing well established businesses, technical educational fields, legal activities, property and real estate, and dealing with machinery and repairs. You are not suited to get rich quick schemes.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1305",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-5": {
+      "id": "costar-role-birth-force-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 5: role-specific bank",
+      "role": "Birth Force",
+      "number": 5,
+      "bank": "birthForceDescriptions",
+      "statement": "You like freedom and have a natural interest in what is happening around you, and you seem to have many things going on at once. You are active, sometimes restless, and impatient if things move too slowly. Your versatility gives you the enthusiasm to keep things going, with a quick mind, imagination, and a gift for words. This is one of your attributes for personal and business success. Sometimes you act too quickly for your own good and can become easily discontented, and you may change your position. You do not like to spend unnecessary time getting things done and can be bold and determined when aroused to action, challenging any obstacle in your way. Many experiences will come to you and add to your success through knowledge you gain from living and from making contact with all kinds of people. Your skills may be applied through the public, travel, advertising, selling, business of trade and exchange, investment, legal matters, politics, and amusement.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1306",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-6": {
+      "id": "costar-role-birth-force-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 6: role-specific bank",
+      "role": "Birth Force",
+      "number": 6,
+      "bank": "birthForceDescriptions",
+      "statement": "You have a caring attitude to work, you are an idealist, and you have strong opinions about what is right and wrong. You are generous, kind, sympathetic, and have a loving nature. You have an ability to do things in a big way and a natural tendency to assist others. This will attract financial rewards. People will seek your help and may take advantage of you, and this may even come from family and friends. Sometimes you give too much of yourself to others because you love to help. Guard against this, because it may cause losses and emotional unhappiness. You are fond of home, family, and relatives, and you appreciate beautiful things in life like music and art, luxuries, and comforts. You are more controlled by your feelings than you may admit, so when you are not appreciated you can become stubborn, unreasonable, unhappy, and feel like giving everything up. This is when you may become dominant and fussy. Business opportunities can come through the medical field, education, farming, cooking, welfare work, restaurants, decorating, hotels, artistic lines, animals, horticulture, gardens, singing, painting, and all lines of reform and education. You also belong to lines of work that make or control money.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1307",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-7": {
+      "id": "costar-role-birth-force-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 7: role-specific bank",
+      "role": "Birth Force",
+      "number": 7,
+      "bank": "birthForceDescriptions",
+      "statement": "You are a natural thinker with an observing nature and an analytical mind. You can relate facts and size up situations from a technical and calculated standpoint. Your mind is tuned to higher thinking, with an ability to understand hidden and non apparent facts, which makes you a developer, inventor, and specialist. Knowledge is your power and one of the major keys to your success. You are naturally reserved, thoughtful, silent, and selective with your friends and even with where you live and work. You ask many questions, which can make you seem doubtful or cold and hard. You often need time out to think and read, because it is here that you discover where your direction lies. Many times in your life you will have to depend entirely upon your own ability. Lines of business where analysis, science, and technical ability provide opportunity suit you. Chemistry, history, research, criminal investigation, educational matters, medicine, law, engineering, invention, and radio are within your scope. The mystical and mysterious can capture your interest as well.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1308",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-8": {
+      "id": "costar-role-birth-force-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 8: role-specific bank",
+      "role": "Birth Force",
+      "number": 8,
+      "bank": "birthForceDescriptions",
+      "statement": "You are a management type with strong organization skills. This places you among those who supervise, direct, and control matters. You are capable of taking charge, and you are ambitious, energetic, efficient, and capable of making good judgments. These talents give you authority and position in the social and business world. You have courage and energy to repeat your efforts until you reach your goal. There is a side of your character capable of mastering the hardest problems, and another side where commercial and material interests are the only goal. Sometimes you think too much about money and can use so much energy that you wear yourself out. Do not strive so hard that you neglect doing things well. You will find success through printing, publishing, editing, exploring, civil activities in government projects, supervising, coaching, finance, real estate, selling, exchange, archaeology, intelligence service, and areas of the mind like psychology, character analysis, history, governmental activity, statistics, and research.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1309",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-birth-force-9": {
+      "id": "costar-role-birth-force-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Birth Force 9: role-specific bank",
+      "role": "Birth Force",
+      "number": 9,
+      "bank": "birthForceDescriptions",
+      "statement": "You are a caring type who colors your affairs with emotion and can deal with people from any walk of life and at any level in business and private relationships. You are compassionate, generous, tolerant, and have a sensitive nature with a vivid imagination. You are capable of doing impressionable and lasting work in the world, in the arts and in business. You are broadminded and eager to take on responsibility, but sometimes meet with disappointment because you do not find the perfection you seek. Always strive to rise above disappointment and realize that perfection must be earned. You are good at helping others. You counsel and inspire people, but do not give to the point of weakness, because that causes delays and keeps you from doing the work your talents permit. You are an idealist and a romantic, and you have magnetism and the power to influence others. You love deeply and genuinely, and you are broadminded, tolerant, and compassionate. Opportunity comes along lines of drama, art, and emotionally based work. Literature, movies, education, and fields dealing with foods and health are areas where you can apply your skills. Government activities, business dealing with many people, employment, training people, the legal field, teaching, medicine, arts, the use of color, painting, and designing all fit your talents. Religious and charitable activities give personal satisfaction.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1310",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-1": {
+      "id": "costar-role-balance-number-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 1: role-specific bank",
+      "role": "Balance Number",
+      "number": 1,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Draw strength from yourself, and be more willing to share your troubles with friends and family. You can be a loner in the face of problems, which can isolate you during troubled times. Be open to the advice of others. This will widen your perspective on the problem and give you new information on which to base your approach. Strength, creativity, and courage are the arms with which you will win the war.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1313",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-2": {
+      "id": "costar-role-balance-number-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 2: role-specific bank",
+      "role": "Balance Number",
+      "number": 2,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Use tact and diplomacy. Be less emotional. Be courageous in your approach to the solution you seek, rather than backing away from a problem because you fear confrontation. Work hard to diffuse tension. Your innate talent is to find a mutually satisfying solution for all. You are willing to compromise. Be more optimistic and lighthearted. Try not to blow problems out of proportion. You are overly sensitive and must work to be more balanced. Balance and harmony are available the minute you apply yourself to any problem. You can be the peacemaker.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1315",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-3": {
+      "id": "costar-role-balance-number-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 3: role-specific bank",
+      "role": "Balance Number",
+      "number": 3,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Be more lighthearted and optimistic in your approach to problems. Try to work with others toward a mutually satisfying solution. Use your considerable charm to influence the situation. You can be extremely emotional when faced with a problem. Control this tendency. You need a degree of objectivity. You may become too personally attached to the solution you seek, which can keep you from seeing that the outcome can be beneficial to all concerned.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1316",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-4": {
+      "id": "costar-role-balance-number-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 4: role-specific bank",
+      "role": "Balance Number",
+      "number": 4,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Try to have perspective and a more lighthearted attitude toward emotionally charged issues. Control your anger. Discipline is your strength. Also, look at the larger picture and the need for compromise. Your sense of justice must be elevated to another level where forgiveness, compassion, and deep understanding are your guiding lights. A practical approach is to put yourself in the shoes of the person with whom you are in conflict. There are always more angles to a problem than you tend to acknowledge.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1317",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-5": {
+      "id": "costar-role-balance-number-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 5: role-specific bank",
+      "role": "Balance Number",
+      "number": 5,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Focus on your problem rather than avoiding it. You may try to avoid the issue by indulging your senses to keep from feeling the pain of conflict. Be careful not to escape into food, alcohol, or drugs. You are capable of finding a highly creative solution to any situation the minute you put your mind to it. The answer lies well within your grasp.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1318",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-6": {
+      "id": "costar-role-balance-number-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 6: role-specific bank",
+      "role": "Balance Number",
+      "number": 6,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Your strength lies in understanding people and the underlying conditions of a conflict. You can rely too heavily on friends and family to provide solace instead of handling the situation directly and responsibly. You may retreat to the good feelings provided by people who are not involved in your situation. Responsibility is the issue here. You helped create the situation in the first place, and you are an essential part of the solution. Accept your role.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1319",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-7": {
+      "id": "costar-role-balance-number-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 7: role-specific bank",
+      "role": "Balance Number",
+      "number": 7,
+      "bank": "balanceNumberDescriptions",
+      "statement": "You may retreat into a safe haven within yourself and hope you will not have to deal with the issue at hand. Yet the clarity and analytical abilities of your mind are sufficient to provide insight into the problem and a clear path to its solution. Work at confronting yourself and the issues you face unemotionally and calmly. You can be engulfed in the emotional aspects of the issue, which clouds your mind and prevents you from using your clarity to find an answer. Get past the emotion and you will find an answer.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1320",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-8": {
+      "id": "costar-role-balance-number-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 8: role-specific bank",
+      "role": "Balance Number",
+      "number": 8,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Use your considerable power in a balanced way. You may be tempted to use power in a manipulative way rather than confronting issues head on. Your strength lies in leadership and a structured approach. Avoid overreaching or taking unnecessary risks that could destabilize your position. Seek fairness and cooperation to maintain stability.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1321",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-balance-number-9": {
+      "id": "costar-role-balance-number-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Balance Number 9: role-specific bank",
+      "role": "Balance Number",
+      "number": 9,
+      "bank": "balanceNumberDescriptions",
+      "statement": "Your compassion and idealism guide you, but you may struggle with letting go of emotional attachments to outcomes. Focus on the bigger picture and use your influence to inspire others toward resolution. Avoid getting lost in others’ problems. Maintain boundaries to preserve your energy. Your strength is in understanding and uplifting, so channel this positively.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/data.ts#L1322",
+      "usage": "Attributed source wording, not an observed personal fact. The prototype compares the role without asserting this description is true of the person."
+    },
+    "costar-role-called-name-1": {
+      "id": "costar-role-called-name-1",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 1: role-specific bank",
+      "role": "Called Name",
+      "number": 1,
+      "bank": "calledNameDescriptions",
+      "statement": "People see you as a natural leader, someone who steps up and takes charge without needing to be asked. They notice your initiative and your ability to solve problems creatively, seeing you as the person who can find a path forward even when things seem blocked. They perceive you as quick-minded and confident, though they might also sense that your speed can sometimes outpace your experience, making you seem a bit headstrong. Overall, you project an aura of competence and independence that inspires others to follow your lead.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L6",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-2": {
+      "id": "costar-role-called-name-2",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 2: role-specific bank",
+      "role": "Called Name",
+      "number": 2,
+      "bank": "calledNameDescriptions",
+      "statement": "Others experience you as a calm and considerate presence, the person who brings a sense of quiet stability to a group. They value your incredible eye for detail and your patience, often relying on you to catch the things everyone else has missed. Because you're so thorough, some might see your pace as slow, but they quickly learn it's just your commitment to getting things right. You come across as a natural diplomat and a thoughtful listener, someone who can see both sides of a situation. People feel safe sharing their thoughts with you because they sense your gentle and analytical nature.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L12",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-3": {
+      "id": "costar-role-called-name-3",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 3: role-specific bank",
+      "role": "Called Name",
+      "number": 3,
+      "bank": "calledNameDescriptions",
+      "statement": "People are drawn to your bright and creative energy. They see you as an expressive and imaginative person who can light up a room with your words, ideas, and sense of humor. You're perceived as a natural storyteller, able to paint a picture with your words and make complex ideas feel clear and exciting. Because of your vibrant personality, you're the person others look to for fun and social connection. While they enjoy your sparkle, they may also notice your sensitivity, seeing that you can feel things deeply and might need space when under pressure.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L18",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-4": {
+      "id": "costar-role-called-name-4",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 4: role-specific bank",
+      "role": "Called Name",
+      "number": 4,
+      "bank": "calledNameDescriptions",
+      "statement": "People see you as the reliable, hands-on person they can always count on. They notice your strong work ethic and your practical approach to getting things done, trusting you to build things that last. You come across as loyal and sincere, a true team player who will be there for friends and family without question. While you have a serious and focused side at work, others also see your fun-loving nature when you relax. They learn quickly that appreciation and kindness go a long way with you, and they know that you remember both loyalty and unfairness with equal clarity.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L24",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-5": {
+      "id": "costar-role-called-name-5",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 5: role-specific bank",
+      "role": "Called Name",
+      "number": 5,
+      "bank": "calledNameDescriptions",
+      "statement": "Others see you as an incredibly versatile and adaptable person, the one who can juggle multiple tasks and connect with anyone. Your energy is engaging, and you come across as a natural communicator, making you great in social or public-facing roles. People are drawn to your wide range of experiences and your ability to think on your feet. They might also notice that you have so many interests that you can sometimes get sidetracked. Under pressure, they may sense you trying to talk your way out of a tight spot, but for the most part, they see you as a resourceful and dynamic individual.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L30",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-6": {
+      "id": "costar-role-called-name-6",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 6: role-specific bank",
+      "role": "Called Name",
+      "number": 6,
+      "bank": "calledNameDescriptions",
+      "statement": "People look to you as a responsible and capable manager of situations. They see your natural ability to bring order to chaos and to guide people effectively. You come across as a caring and direct leader who isn't afraid to make sure things are done right. Your strong will is perceived as a strength, though some may find it a bit bossy if they don't understand your vision. Overall, others see you as the person to call when a steady hand is needed to manage a project, a team, or a difficult situation.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L36",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-7": {
+      "id": "costar-role-called-name-7",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 7: role-specific bank",
+      "role": "Called Name",
+      "number": 7,
+      "bank": "calledNameDescriptions",
+      "statement": "Others often perceive you as a deep and analytical thinker with a quiet, reserved nature. They may not know what's going on inside your head, but they sense that you are observing and evaluating things on a level most people miss. You come across as someone who values quality and truth over superficial chatter. Because you need space to process, some might see you as distant or aloof, but those who get to know you appreciate your sharp mind and the well-researched knowledge you share. They see you as a specialist, the person with the refined insights.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L42",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-8": {
+      "id": "costar-role-called-name-8",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 8: role-specific bank",
+      "role": "Called Name",
+      "number": 8,
+      "bank": "calledNameDescriptions",
+      "statement": "People see you as a strong, determined, and incredibly capable individual. You project an aura of authority and control, and others naturally see you as someone who can take charge of big projects and deliver results. They notice your direct, no-nonsense attitude and your willingness to work hard to achieve your goals. While you seem unshakable on the outside, those close to you may sense that you hold stress internally, as you don't often show vulnerability. You are perceived as a powerful force, a natural executive who can assess situations and people with sharp accuracy.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L48",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "costar-role-called-name-9": {
+      "id": "costar-role-called-name-9",
+      "system": "LOOKS-LIKE-COSTAR",
+      "title": "Called Name 9: role-specific bank",
+      "role": "Called Name",
+      "number": 9,
+      "bank": "calledNameDescriptions",
+      "statement": "Others see you as a compassionate and big-hearted person with a broad, understanding view of the world. They are drawn to your caring nature and your ability to connect with people from all walks of life. You come across as a gentle leader, someone who can manage things effectively while still considering the good of the whole group. People feel you are fair and trustworthy, and they appreciate your holistic approach. They see your potential to make a large, positive impact, as long as your generous spirit remains focused on collective good rather than personal gain.",
+      "source_status": "REPOSITORY_AUTHORED_ROLE_VOCABULARY",
+      "url": "https://github.com/olsonan26/LOOKS-LIKE-COSTAR/blob/023140de4ac9ebad8a804b4c984337135e77b19a/services/calledNameDescriptions.ts#L54",
+      "usage": "Attributed social-perception vocabulary, not evidence of what anyone actually thinks of this person."
+    },
+    "bridge-method-v1": {
+      "id": "bridge-method-v1",
+      "system": "New comparison proposal",
+      "title": "Contextual correspondence method, version 1",
+      "statement": "Compare a number in its specific role with a selected planetary function and that planet's actual house, Tone and Pulse. A shared label is a proposed thematic link, not a physical aspect or independently validated association. No match count or strength score is calculated.",
+      "source_status": "ANALYST_PROPOSED_NOT_SOURCE_RULE",
+      "url": null,
+      "usage": "Research comparison only; the full PURE contextual interpretation and personal-report gates remain unchanged."
+    },
+    "mr:placements": {
+      "id": "mr:placements",
+      "system": "Mystic Rebels",
+      "title": "Whole Sign Field, Tone and Pulse calculation",
+      "statement": "House/True Placement follows Whole Sign house number; actual astronomical sign supplies Tone; same-element decan supplies Pulse. Degree is geometric position; Spark is unavailable.",
+      "source_status": "SOURCE_CODE_METHOD",
+      "url": "https://github.com/olsonan26/mystic-rebels-chart-generator/blob/3d83db75c30b26d9b068576d84ec49554822fd8c/mystic_rebels/placements.py#L9-L15"
+    }
+  },
+  "numbers": {
+    "1": {
+      "essence": "leader, initiator, strategy + will",
+      "strengths": "planning, founding, innovating, inspires authority",
+      "watchouts": "stubborn focus, losing interest after the start"
+    },
+    "2": {
+      "essence": "connector, diplomat, sensitive intuition",
+      "strengths": "counseling, mediation, consulting",
+      "watchouts": "oversensitivity, dreaminess, people-pleasing"
+    },
+    "3": {
+      "essence": "creator, performer, expressive spark",
+      "strengths": "art, teaching, marketing, promotion",
+      "watchouts": "scattered focus, finishing difficulty"
+    },
+    "4": {
+      "essence": "builder, organizer, exactness",
+      "strengths": "crafts, design, architecture, precision",
+      "watchouts": "control, intrusiveness, perfection strain"
+    },
+    "5": {
+      "essence": "mover, persuader, change agent",
+      "strengths": "advertising, media, journalism, business",
+      "watchouts": "too many plates spinning, needs discipline"
+    },
+    "6": {
+      "essence": "carer, harmonizer, responsibility",
+      "strengths": "teaching, psychology, medicine, social work, design taste",
+      "watchouts": "over-care/control, taking critique personally"
+    },
+    "7": {
+      "essence": "analyst, truth-seeker, private thinker",
+      "strengths": "research, judging, journalism, life-changing teaching",
+      "watchouts": "over-rational detachment, distrust, aloofness"
+    },
+    "8": {
+      "essence": "executive, strategist, enterprise",
+      "strengths": "governance, finance, entrepreneurship",
+      "watchouts": "stubbornness, mixing business with emotion"
+    },
+    "9": {
+      "essence": "humanitarian, inspirer, empathic",
+      "strengths": "social work, medicine, law, diplomacy",
+      "watchouts": "kindness collapses inward; feeling lost without support"
+    }
+  },
+  "role_vocabularies": {
+    "Soul Urge": {
+      "1": "costar-role-soul-urge-1",
+      "2": "costar-role-soul-urge-2",
+      "3": "costar-role-soul-urge-3",
+      "4": "costar-role-soul-urge-4",
+      "5": "costar-role-soul-urge-5",
+      "6": "costar-role-soul-urge-6",
+      "7": "costar-role-soul-urge-7",
+      "8": "costar-role-soul-urge-8",
+      "9": "costar-role-soul-urge-9"
+    },
+    "Expression": {
+      "1": "costar-role-expression-1",
+      "2": "costar-role-expression-2",
+      "3": "costar-role-expression-3",
+      "4": "costar-role-expression-4",
+      "5": "costar-role-expression-5",
+      "6": "costar-role-expression-6",
+      "7": "costar-role-expression-7",
+      "8": "costar-role-expression-8",
+      "9": "costar-role-expression-9"
+    },
+    "Ultimate Goal": {
+      "1": "costar-role-ultimate-goal-1",
+      "2": "costar-role-ultimate-goal-2",
+      "3": "costar-role-ultimate-goal-3",
+      "4": "costar-role-ultimate-goal-4",
+      "5": "costar-role-ultimate-goal-5",
+      "6": "costar-role-ultimate-goal-6",
+      "7": "costar-role-ultimate-goal-7",
+      "8": "costar-role-ultimate-goal-8",
+      "9": "costar-role-ultimate-goal-9"
+    },
+    "Birth Force": {
+      "1": "costar-role-birth-force-1",
+      "2": "costar-role-birth-force-2",
+      "3": "costar-role-birth-force-3",
+      "4": "costar-role-birth-force-4",
+      "5": "costar-role-birth-force-5",
+      "6": "costar-role-birth-force-6",
+      "7": "costar-role-birth-force-7",
+      "8": "costar-role-birth-force-8",
+      "9": "costar-role-birth-force-9"
+    },
+    "Balance Number": {
+      "1": "costar-role-balance-number-1",
+      "2": "costar-role-balance-number-2",
+      "3": "costar-role-balance-number-3",
+      "4": "costar-role-balance-number-4",
+      "5": "costar-role-balance-number-5",
+      "6": "costar-role-balance-number-6",
+      "7": "costar-role-balance-number-7",
+      "8": "costar-role-balance-number-8",
+      "9": "costar-role-balance-number-9"
+    },
+    "Called Name": {
+      "1": "costar-role-called-name-1",
+      "2": "costar-role-called-name-2",
+      "3": "costar-role-called-name-3",
+      "4": "costar-role-called-name-4",
+      "5": "costar-role-called-name-5",
+      "6": "costar-role-called-name-6",
+      "7": "costar-role-called-name-7",
+      "8": "costar-role-called-name-8",
+      "9": "costar-role-called-name-9"
+    }
+  }
+}

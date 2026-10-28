@@ -1,0 +1,47 @@
+{
+  "all_match": true,
+  "files": [
+    {
+      "path": "NADIA_FIRST_PASS.md",
+      "expected": "1d1e4f39df0e82c287cc953e3c1bb0be07fd413c74a7b21b4cbbc581b6cc6ec7",
+      "actual": "1d1e4f39df0e82c287cc953e3c1bb0be07fd413c74a7b21b4cbbc581b6cc6ec7",
+      "match": true
+    },
+    {
+      "path": "numerology.json",
+      "expected": "d329e555160839fa53465d8937fdf124988bc0e5bbe961155e194213c22a2dd8",
+      "actual": "d329e555160839fa53465d8937fdf124988bc0e5bbe961155e194213c22a2dd8",
+      "match": true
+    },
+    {
+      "path": "annual-meanings.json",
+      "expected": "51505c4e343b8ee8757f3601d83834fd002d2f5db0bbb6e45317505c65785e55",
+      "actual": "51505c4e343b8ee8757f3601d83834fd002d2f5db0bbb6e45317505c65785e55",
+      "match": true
+    },
+    {
+      "path": "natal.json",
+      "expected": "1d7d221fbddb1082c3b2730f1bb19adb938de51ac8ab596ddc8e7921639a2128",
+      "actual": "1d7d221fbddb1082c3b2730f1bb19adb938de51ac8ab596ddc8e7921639a2128",
+      "match": true
+    },
+    {
+      "path": "transit-geometry.json",
+      "expected": "e4c28af0968728f86946d60a0b880e83117048f1aefbae66ff4fa2a30ef940a7",
+      "actual": "e4c28af0968728f86946d60a0b880e83117048f1aefbae66ff4fa2a30ef940a7",
+      "match": true
+    },
+    {
+      "path": "all-exact-contacts.csv",
+      "expected": "7c0edf27891bf8c8c48d6a652c4604ac7cfac168f8ee92877ade4f9a1f92d3fa",
+      "actual": "7c0edf27891bf8c8c48d6a652c4604ac7cfac168f8ee92877ade4f9a1f92d3fa",
+      "match": true
+    },
+    {
+      "path": "METHOD_AND_EVIDENCE.md",
+      "expected": "18c0d8d602f5d25d67e7998b4ede5ea5828198bcd3e698db96fb23eb363ef4c9",
+      "actual": "18c0d8d602f5d25d67e7998b4ede5ea5828198bcd3e698db96fb23eb363ef4c9",
+      "match": true
+    }
+  ]
+}

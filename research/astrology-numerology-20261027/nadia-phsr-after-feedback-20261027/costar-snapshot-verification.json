@@ -1,0 +1,1029 @@
+{
+  "recorded_commit": "023140de4ac9ebad8a804b4c984337135e77b19a",
+  "note": "Source-text snapshot, not a Git checkout. Parent git revision is not its revision.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "recorded_git_blob": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+      "actual_git_blob": "d600b6c76dd93f7b2472160d42b2797cae50c8e5",
+      "exact_match": false,
+      "sha256": "ee9776121020199a2c866e4e09c6480c53d501261cad1d890c42537a81c66243",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "App.tsx",
+      "recorded_git_blob": "07bbb98b2bd3cd9e0e507d81da2b19ed3d17ec18",
+      "actual_git_blob": "97dd14b074fbcaffc975fa78455f99e465c85026",
+      "exact_match": false,
+      "sha256": "448f5325c604bc303a093a48f39e07e4fe829559cc4e82ef228e7dfcd5ebff62",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "README.md",
+      "recorded_git_blob": "f679273b8b20aaa756debddcf3bb1b95a49a4597",
+      "actual_git_blob": "84e0ba6ea6b55d8a395713dbfb90369a01e5bed6",
+      "exact_match": false,
+      "sha256": "eb91af87d1f3f647bdaa2e17e1904ef77b723693307b161df6185e56caa7a2a4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/aspect_spectrum.ts",
+      "recorded_git_blob": "7b64aba3b3797bda945be19f683744a3183c4bfe",
+      "actual_git_blob": "1ed864b428a69bf002593f41325e46fecb4f24f5",
+      "exact_match": false,
+      "sha256": "fd1e6b22b5ac3e800afb12db20e960eb25cda656c30dcb74f1f19754488a5f49",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/astrocartography.ts",
+      "recorded_git_blob": "10f8a064717a5f571f826a7b4bdec5efec9a58a5",
+      "actual_git_blob": "f52f88bceb92ac14a4e5a7d30133f288487e053c",
+      "exact_match": false,
+      "sha256": "5b004947fe5cca8ab3b92c06b04ff6a128c85f6314a6fffc356f928fe8bb8641",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/chiron_acceptance.ts",
+      "recorded_git_blob": "a74ac7a99ca57a7eb57c2beb1fbe766a2d1613b2",
+      "actual_git_blob": "2a016acdc893c1fe4a50408bf8e4f72fb02e72b1",
+      "exact_match": false,
+      "sha256": "49a19a25a7b2e198fcadc56ea6708d3ebdbb3214c28d88622e92b94061832747",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/elements_modalities.ts",
+      "recorded_git_blob": "ef995bfbb56c70af895cacd22ab8d876fa0b582a",
+      "actual_git_blob": "53212201651c73b314400db887ad367296c4c842",
+      "exact_match": false,
+      "sha256": "04e2c7a4bf72487faae809f379da7c0ec210c1c45b392107e622f859c070bc2e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/free_theory.ts",
+      "recorded_git_blob": "55141edb1b110c03d4d316c5561fef3ee3e58702",
+      "actual_git_blob": "88e4e682ad2eef9e84d8baa78cb56be11b14292d",
+      "exact_match": false,
+      "sha256": "e62d910bd45ed4936231a476c9b510293988335b470190dd385f9c7912054dbb",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/free_theory_matrix.ts",
+      "recorded_git_blob": "8e6513a6e87a27f2e6ef341057dad5336295dc8c",
+      "actual_git_blob": "f9085c5c6c5e9e4ff1597db5f3db2025b7420793",
+      "exact_match": false,
+      "sha256": "df2a249a5581288e032eac3b8b62661e0f952e750d0d8c13200f317680694926",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/fusion_cusps.ts",
+      "recorded_git_blob": "bf85b9712f4dbfb8971f0fed8d668345c423f368",
+      "actual_git_blob": "b0bb86505ce234fe5463377bf26ff2ec6eee0f80",
+      "exact_match": false,
+      "sha256": "e038a6d5aa67cf0e5560366072ca5d7899434ce9656601bcb2257e2ad91e13dd",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/life_story_structure.ts",
+      "recorded_git_blob": "7d6dea8ada29fbdaad26316af2d21053bdf7fe79",
+      "actual_git_blob": "0ac8a33c43002efa7de26689422ad42112c75e25",
+      "exact_match": false,
+      "sha256": "49c1344a6f0acc489081b3ff97fd5a5642d8642f492b53c941bc71adcff79f07",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/minor_aspects.ts",
+      "recorded_git_blob": "a4b6b62b0b61913d1e737bece9866d5963f4579a",
+      "actual_git_blob": "8909b81f2223f49bd3e24fe2b28e3f45337cfaf8",
+      "exact_match": false,
+      "sha256": "3215b580aa5fdc4277713bfea1e38b1be7963ba1b101dade9b43f9b15adf6e42",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/nodes_integration.ts",
+      "recorded_git_blob": "23828e6e5c33670f4fc7830b6c20baec577a158e",
+      "actual_git_blob": "0867f6b7e4c52a0cf09bfaad29bd776ec738856d",
+      "exact_match": false,
+      "sha256": "7695c3f982fb3da5efb1ad813252059fe61842a6a2112d7aaed0f37e6782047b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/phsr_framework.ts",
+      "recorded_git_blob": "7797bd9018d90ea5157e2dcce45d94cd546f8f10",
+      "actual_git_blob": "77ae203d10ed9727ac46fc59bf5809d0fa689e4d",
+      "exact_match": false,
+      "sha256": "417d9eb43414aeb753349b87fb449d0584c3e945719364d335f8d92ee2c8f0f4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/seven_lenses.ts",
+      "recorded_git_blob": "f00369783d2343b2ded072658563b84956b1a3f6",
+      "actual_git_blob": "f8f3b49768fff5369dee6d9d3b4a6c7033d2b48c",
+      "exact_match": false,
+      "sha256": "90f60b15edf6b44515100fef4c9af7e98c603fbbde2d220741306cefee01d000",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/synastry.ts",
+      "recorded_git_blob": "2555804f0cb144e2548b055c2bf4c18ae7d5c3fb",
+      "actual_git_blob": "eae5d78faf6787b0b342500ef69e2fd60717b993",
+      "exact_match": false,
+      "sha256": "fd54c08912b9ca121cb3fd061f13cc0eecfc52e185bc91b56fe1ebcf6be9ea34",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/core_frameworks/vocational_synthesis.ts",
+      "recorded_git_blob": "e6f113f5218b79d4fce4c8728230ffdc872d863a",
+      "actual_git_blob": "9962f25c23f7cdcf1f6c3dcd6d7b1d4853980656",
+      "exact_match": false,
+      "sha256": "3736c499b924e1aa3cfc3d5eb38f19a55444c48756783aac9db5dc9dcfea2b15",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "alchemistic_astrology_knowledge_base/system_prompt.ts",
+      "recorded_git_blob": "eb3a3f5defe610d5d741cf0a9ee14bfb34926f5a",
+      "actual_git_blob": "0ad43069355d5f117c2996ba6288045b5911aef8",
+      "exact_match": false,
+      "sha256": "05926cfe71a1d6a1d5f616c82cf2f885330cc6a3386673965ee6b03222a1b2d8",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "astrology_data/orbs.ts",
+      "recorded_git_blob": "466a246eb0d06ab59baa0c25a916a9a6dcc66fdc",
+      "actual_git_blob": "90964114083c65ab9caedcc728dc44456ff28b6e",
+      "exact_match": false,
+      "sha256": "3817556596e1abfd47b3314373bb84106a6f94b8b9383bed0d85735e67caf160",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "astrology_data/planets_in_houses.ts",
+      "recorded_git_blob": "aa4ccbe04611e722fb66f00ba5d0517bdb90b7c0",
+      "actual_git_blob": "56a002a090870314fb233d801f89409b42e334a8",
+      "exact_match": false,
+      "sha256": "9c1ee57604de5e0cc7447dc4c8f8bd4b26a488a857f8ff668e40ade116b29a82",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "astrology_data/planets_in_signs.ts",
+      "recorded_git_blob": "422f1f0f43f10f9d58ce40751d910166e96492aa",
+      "actual_git_blob": "233e772c1404293346804e424d1558f46c00842a",
+      "exact_match": false,
+      "sha256": "a52b94eeb7909fdea58a34a2105cff674178a2577a5fbac754ea5fbd39d496b1",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "astrology_data/retrogrades.ts",
+      "recorded_git_blob": "4af713c6cb9452f356fbbd334306957f6f47b7ed",
+      "actual_git_blob": "885e079fed98c75f8e1cb5b734c745d0f7071b43",
+      "exact_match": false,
+      "sha256": "59c5ebeb075cf0e0417885642a33490cc0aa5f713bab6d4eb19d8278ab5ef228",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "calculations/whole_signs_calculator.ts",
+      "recorded_git_blob": "1e95eb8d9d4e2bb189a4bc78579f0cf0e30a146c",
+      "actual_git_blob": "b4d9d4be67d937b486abc27dfb7d53083e6be22a",
+      "exact_match": false,
+      "sha256": "7341f7acaad56d9422b4ba19f80e580bc8277113bc8aba487d12e5f869a9360f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "communication_style/trauma_informed_language.ts",
+      "recorded_git_blob": "1b6361a85c6f4639f0d91a8f9099f0385d8d9905",
+      "actual_git_blob": "c90767a6f4eb91733ab019b9ee991f5dff568a48",
+      "exact_match": false,
+      "sha256": "5d8b738262a991c93b7511af260a82b0640eb2d114fbf7015e1d7321357882a5",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "communication_style/voice_tone_guide.ts",
+      "recorded_git_blob": "636a71d860529ecd94afadc92756206d3aab112e",
+      "actual_git_blob": "f0597ea5ff6aa51b3e59dcc523f0886dfd0a0a24",
+      "exact_match": false,
+      "sha256": "4f903d30ebcbb6803dabc5015d748ba52ed49fd0f8f539a0de83dbc6a8a872f5",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/AstrologyScreen.tsx",
+      "recorded_git_blob": "152b86dc66f5b2056b2c335bccfb0ac7cd9b64b6",
+      "actual_git_blob": "0db5a940bd44a6576dc0dd9159a0c5f127320d59",
+      "exact_match": false,
+      "sha256": "596806c0e55d837d29821591cd68c41c36021698880f1e2329ac1278bca931ef",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/BottomNav.tsx",
+      "recorded_git_blob": "fcdea852a283bee6a92a70523c1f2a2e6208a49d",
+      "actual_git_blob": "6276cd7e66cb9189a1eb9053574d4895c4fff664",
+      "exact_match": false,
+      "sha256": "ae6a951ccae843bd8141b558c37b62113239b1f9ce44a34bcd4b94af890cb1c4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/CalendarView.tsx",
+      "recorded_git_blob": "0b0382d12400d08832905664b961481643eafbfb",
+      "actual_git_blob": "0342dcb94e5a70c4beae2e7d81ac60677b236bf6",
+      "exact_match": false,
+      "sha256": "f140251e9f21d00f0dc75ac1f40f70f5bbc7c868a452edae0e634e6e6971db7e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/CardArt.tsx",
+      "recorded_git_blob": "5fe8fafdb87001c4f05f28dd0b7290f1e0408f3b",
+      "actual_git_blob": "102375118135bfa651d9ddf885b02f454864a5a7",
+      "exact_match": false,
+      "sha256": "adc781534b9fa097fd6febc65a087d9e30f97905d739ff372c0dd3891daad279",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/CareerGuidanceModal.tsx",
+      "recorded_git_blob": "e4e5636b20a3fbdd2b2eca735f820bb9e5f3fa36",
+      "actual_git_blob": "1ee949d718423ced119a7d20a8930885159dc151",
+      "exact_match": false,
+      "sha256": "472114b97dc7f54fc5a515ba0edef86c88830aa2f888a70ef8c92811269c1bae",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ChartsScreen.tsx",
+      "recorded_git_blob": "b9463e0d9ef946e41a3f0f8cd0fa95938ec5a13e",
+      "actual_git_blob": "9a43d7d2793b8c6c5de747a5444b499057332f66",
+      "exact_match": false,
+      "sha256": "c2a0ac47f70dea2c04cde23deb918d922a165c2b75bfb922144c30f661fc16bd",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/Dashboard.tsx",
+      "recorded_git_blob": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+      "actual_git_blob": "b409219325496dcdbcf8d53277d802227dacd063",
+      "exact_match": false,
+      "sha256": "ffea748d696d09386488e0c9ad97e5a6727927a8a4290ba17965f7201c7f7a4c",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/DecorativeLayer.tsx",
+      "recorded_git_blob": "43f6b09bbb05011ab4e183dc5fe909236c81a6d6",
+      "actual_git_blob": "9e5a59b53d43f2ca6b743198d17c338c1af296b9",
+      "exact_match": false,
+      "sha256": "1bc9c8b16927b2a3a9f786851ae9623eda62fb5df1cb8c980923b72c608dc2c5",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/DetailsModal.tsx",
+      "recorded_git_blob": "a923dcec0e681962a2a653cf0fe65a882397d1d5",
+      "actual_git_blob": "5b6d1149ab2086e21d8c481f82b1ac8cf314c579",
+      "exact_match": false,
+      "sha256": "21b8632550f00577bc85011f9ad9c957c34d7ab3318db3be66f6d591bb892ebe",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/Header.tsx",
+      "recorded_git_blob": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+      "actual_git_blob": "b409219325496dcdbcf8d53277d802227dacd063",
+      "exact_match": false,
+      "sha256": "ffea748d696d09386488e0c9ad97e5a6727927a8a4290ba17965f7201c7f7a4c",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/HomeScreen.tsx",
+      "recorded_git_blob": "38f72b2ec4927cabe8f755d85595b0c3a1db5fbd",
+      "actual_git_blob": "8aab1ebd11d7832c52fbd30a8ccb94df400ae54c",
+      "exact_match": false,
+      "sha256": "8602cad6eaf6c1ee4a7bbbd06e07707512f2a22fb12f094bf43a86410dce2dbb",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/JournalEditor.tsx",
+      "recorded_git_blob": "99e4e6452aa65eb5cf5e1f348b69dda2bd4c4105",
+      "actual_git_blob": "4cec342b65e46a849cac4d1d384f1fc7f3032c9e",
+      "exact_match": false,
+      "sha256": "a66883b1fa0bc9672ab07a3161f64b1a0e7824024422e77bae29ec1f42668c35",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/JournalScreen.tsx",
+      "recorded_git_blob": "cdd5602a407bc02d1ed5cee274158bc34e186bba",
+      "actual_git_blob": "84e1c2fa5a4306670e496af036c6503455480498",
+      "exact_match": false,
+      "sha256": "a105473a534ab810c6ae9e46b53934eee112c30af39b76c36ac34ba3d32d6781",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/LoginScreen.tsx",
+      "recorded_git_blob": "9d6a2c8101d1bda94e26870a90055c08b4534fa7",
+      "actual_git_blob": "7ebb4ecc825563daef9be19534214294b95c6da3",
+      "exact_match": false,
+      "sha256": "7534d0171edc3c020abd8122cb89f5471e75891f8d100400f810385051289da0",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/LoveScreen.tsx",
+      "recorded_git_blob": "e0392463d482949f74da60079721c22cf026c022",
+      "actual_git_blob": "0f51b15edb78da8672634a51ab1d9de1a5ff4d09",
+      "exact_match": false,
+      "sha256": "78b838b0000a462f020a1c5ae997812cb67e7f860e5b5d387047f047dc632cad",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/MarkdownRenderer.tsx",
+      "recorded_git_blob": "44fb8b6e54a32793f658b3ed58a301c0a57379cb",
+      "actual_git_blob": "3f337ec4637810cd47a0c4c5bd7339158f05b409",
+      "exact_match": false,
+      "sha256": "6684d3a6520cf5ec374926503ebc4ae7da5fc1bfe34202463a352acf40561b4e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/NameAnalysisScreen.tsx",
+      "recorded_git_blob": "f2c770bc9ae9330a83703a8e5a2538ace33928aa",
+      "actual_git_blob": "f72a08184518dc322ee607b9289ca7c02fff40d6",
+      "exact_match": false,
+      "sha256": "967919a8f39658017b1a7e05e89d0e1e99fecbf9517cb644480cf1adfa7c16d9",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/NameMeaningCard.tsx",
+      "recorded_git_blob": "80761997dc8286092d8106b7663eb35bf1c5c1fa",
+      "actual_git_blob": "05573874c08997e25a2f7a7a2d88250c05650ae1",
+      "exact_match": false,
+      "sha256": "a363da1f6f9639775a51a2769f2eb28bfc3fd4fc81de67ce2e7ff9c92b99f223",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/NameSummaryCard.tsx",
+      "recorded_git_blob": "91dc5332c038817da834c551b68f80d992a5bd4d",
+      "actual_git_blob": "03807190722e4b9ce12176254e8569435064966a",
+      "exact_match": false,
+      "sha256": "0b903d1568ad7f85027c7775816d4991e157cff4bb3f37034b887dccf1ad7244",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/NumberCard.tsx",
+      "recorded_git_blob": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+      "actual_git_blob": "b409219325496dcdbcf8d53277d802227dacd063",
+      "exact_match": false,
+      "sha256": "ffea748d696d09386488e0c9ad97e5a6727927a8a4290ba17965f7201c7f7a4c",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/PMEIAnalysisCard.tsx",
+      "recorded_git_blob": "dccbd67ca4e9b2efe80be84d6f9fcba13887aa69",
+      "actual_git_blob": "b47e7d514860c1b7bb0778ba19bbe2d75344f94b",
+      "exact_match": false,
+      "sha256": "67effcd5195cd68ee38e02ccd91e86a4bb5e84cbe83cb5d659f931763aafe18f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/Paywall.tsx",
+      "recorded_git_blob": "75595f259f7fc6ede885deff4c1c345f2de50c06",
+      "actual_git_blob": "3e1e0e4c4edeb92511435224451dd10d3b112b8a",
+      "exact_match": false,
+      "sha256": "61d0ffb0882539a5f803d30af454e37209b75facc496f472e365649c0c67fcfd",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ProfileEditModal.tsx",
+      "recorded_git_blob": "22c270ac91e3c6d530e58ebaab8d6fe76e5c8f0b",
+      "actual_git_blob": "c7e3c0addd3b14b9904a366ff68d05b9e69eaafb",
+      "exact_match": false,
+      "sha256": "967f4942b7ff60b5838a886bec2da62d92ed6a3321108fba0c0e429760feb68c",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ProfileFormModal.tsx",
+      "recorded_git_blob": "2f060349a49e04b168e2c4c9b97cbd1768970730",
+      "actual_git_blob": "42493c1c2be7c76b929ac627ff71cc92e2d8e97a",
+      "exact_match": false,
+      "sha256": "a21e484f3322bd1a8b8984efc5a8e45181f40c5caeebdfd16deac4687aa897a0",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ProfileHeader.tsx",
+      "recorded_git_blob": "072543344d3ec091ea3cee94ba2b8c671e926b4d",
+      "actual_git_blob": "7a64ade81d17dac46ddf7c8329d93982c3e48a1f",
+      "exact_match": false,
+      "sha256": "405282813356fd4c53a9ae6ab7d8bfebec6ab2dfed76986e2d51059cb46bec8d",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ProfileInput.tsx",
+      "recorded_git_blob": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+      "actual_git_blob": "b409219325496dcdbcf8d53277d802227dacd063",
+      "exact_match": false,
+      "sha256": "ffea748d696d09386488e0c9ad97e5a6727927a8a4290ba17965f7201c7f7a4c",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ReportModal.tsx",
+      "recorded_git_blob": "06a59e251f5cafc946b2ad964330fd5ef5aa23a1",
+      "actual_git_blob": "fb4eed9462b62cc5ab5daf7a187d02dc3ae31342",
+      "exact_match": false,
+      "sha256": "030deee60d7eccfe37e166555973606d0ccf9de38051ed70dc9c2ff7264a24c4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/ShopScreen.tsx",
+      "recorded_git_blob": "85925473c7c40c97ca4a2713c1248c893adbbd07",
+      "actual_git_blob": "7ddc858071ae23b0b92b336a4d6ab4b22a5dccae",
+      "exact_match": false,
+      "sha256": "0d6513ea93326856a244522e074b4a9085f97eeb8aa80ed360b1568ba5b94419",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/SplashScreen.tsx",
+      "recorded_git_blob": "3076a7a98f9825260a79551e2a76bb21646f86d6",
+      "actual_git_blob": "bfc32a9aba77120e7134e4187bc726e8200bba72",
+      "exact_match": false,
+      "sha256": "be9ffed8bef4a193528114667c4c02d5a11e6e47f405bc890e8113934e4bee79",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/TransformedContent.tsx",
+      "recorded_git_blob": "a93b1d68cff9bdc24d6c8f9f7df6b846ec1971ca",
+      "actual_git_blob": "3dcb07588d2690c5e1607a1693595405a2ab52b0",
+      "exact_match": false,
+      "sha256": "32a956c4c8d2724fa9d98d047c80ad751890ae70b6f38edaf6d281b904d778d2",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/WalkthroughModal.tsx",
+      "recorded_git_blob": "abe588f90830b3f4f5f489a091efe4df1da8a2bd",
+      "actual_git_blob": "a06da95f60cdc96611f6c98cc34707818bc12eeb",
+      "exact_match": false,
+      "sha256": "6bd42edd7b74760159def890a658a16f9108b6033ddc8836455d407a0ada8e34",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/YearAndMonthScreen.tsx",
+      "recorded_git_blob": "cf80bd42ca9c253526a362584d3712dbf1d96ef6",
+      "actual_git_blob": "5d4406fe6a2924ee1d7a9dbe5e8087aed8d54e27",
+      "exact_match": false,
+      "sha256": "d31460dd4ea1ca817c9a2d29b5509355ca2286d3af32d067fe09da4cb6b29fa9",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/YouScreen.tsx",
+      "recorded_git_blob": "d000b1016158ef3accfafcfd9c3f528723cf36b5",
+      "actual_git_blob": "254397e78cfd2aac7f786ed10998fb2953b9e0c5",
+      "exact_match": false,
+      "sha256": "f98df6a999bce8e0f6a8fe237018ba9c7a38f39ca804ad40814279589797158a",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/art/Motifs.tsx",
+      "recorded_git_blob": "2d1efbcb2de819840043f307aacc6d5037f4b85b",
+      "actual_git_blob": "2d01a44a9828c8dd6eacabdc454128f9a31d4eab",
+      "exact_match": false,
+      "sha256": "0d75e6dbc4a9bdd73847ab5cb405487aeabc3db34d2e5e09587db4070e843988",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/charts/AdvancedTimelineChart.tsx",
+      "recorded_git_blob": "fbf56d72832eb11611526c09966e84511cd0b3de",
+      "actual_git_blob": "1910e3032b036a1e6baf434a0e693d0bec7dc33f",
+      "exact_match": false,
+      "sha256": "17fb59a5e0870e987126182d1ecaf37647d89d62f09a1b2aaf2186e127eee505",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/charts/DailyDialog.tsx",
+      "recorded_git_blob": "8a896a9e9a88732aa90047219c61bcc4a5cd42d4",
+      "actual_git_blob": "4d1331e7ead1c52bc31f5c73016abc47551b0d4e",
+      "exact_match": false,
+      "sha256": "2a57fdb89dcbb21f24b2b2915fdf6a0b4a5a376e077f25a05ba4e863f33314b4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "components/rectificationMethodology.ts",
+      "recorded_git_blob": "4da185ad0556080df1312ac81b079e84cf72dfa5",
+      "actual_git_blob": "286097f9b1f6bd45b83185f8f9eed102175acee5",
+      "exact_match": false,
+      "sha256": "c854f0c1dc686e2b2b3a474663107f034a77d2d620a8ee28f214033f01f27e3e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "constants.ts",
+      "recorded_git_blob": "9c38a6268cdeae03dc6ecad6ad7cd76d742c6a2d",
+      "actual_git_blob": "a20ac43135cb0d52bcdaaa64f217eec4c5b137b1",
+      "exact_match": false,
+      "sha256": "440653fb7de4742b5f581ab2e979f9b8b2f18aa2ca6bb731c869db7f502406bd",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "index.html",
+      "recorded_git_blob": "dbeb453c513c429c1c55419f52b9f08c512f1381",
+      "actual_git_blob": "6cbeda57a0f5c593050738d4e4fa62bf91728b70",
+      "exact_match": false,
+      "sha256": "8bf7c157879bfe9df0a380cfb0391f3616b61154104e35f138ba98258647aa14",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "index.tsx",
+      "recorded_git_blob": "aaa0c6e4687f6cecf582465e25a32c725104814d",
+      "actual_git_blob": "362a2fdadce3de218b234db9922bb2436900d2b2",
+      "exact_match": false,
+      "sha256": "84daf2fc4a05e6463e61a7f61c29d545bd2814fa0dbba2eef552c03239d687bf",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "metadata.json",
+      "recorded_git_blob": "8670d92a7c78bb917bf9b67d34b32041fe0d8611",
+      "actual_git_blob": "fb3e44233ec3ae7d4b8b150ecd311357311356c4",
+      "exact_match": false,
+      "sha256": "50d6055bc6f8bc1cbf297f57254317d1c785756cdc1d1bb1a601de937faea21f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/letters.json",
+      "recorded_git_blob": "47c15fffd3c4b11482d7b4e2951895361e1bb894",
+      "actual_git_blob": "b072c715e53a81decb5a7857a8ae038dca4b28dc",
+      "exact_match": false,
+      "sha256": "38ab4449df564df805c7376c5e459af3b0e5ace293e7b1438c302612f63b09a8",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/letters.ts",
+      "recorded_git_blob": "91a8bf6523ff7912cb6bb2653ade52cd4dafd84f",
+      "actual_git_blob": "5ffc26260091e2eb90f79a66d5c3a7091666ed43",
+      "exact_match": false,
+      "sha256": "cc15c330918f7daaed65756e4b48d77cdeacb068867166fc18ebfd5ccf4340c8",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/numbers.json",
+      "recorded_git_blob": "489227f9369af0462afb90c42f80520a74df5dac",
+      "actual_git_blob": "7a63ab9836b0aa8750ce5146dc8d44e4e476166f",
+      "exact_match": false,
+      "sha256": "a83509a6ae2966e0bfaee20f88d235bf24439702874b42e7b112e65789c493cc",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/numbers.ts",
+      "recorded_git_blob": "903949c45f0dd3046fc1add937e817570150f5e2",
+      "actual_git_blob": "15cfe3c8619a9ea50c979bcc123f5ed259710b97",
+      "exact_match": false,
+      "sha256": "ac75878b2c06f165a8c18e72a807547fea1448531ffcd424f0d194f1ee303313",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/pair_trio_rules.json",
+      "recorded_git_blob": "7abae4c3e4688f6bfd58f1c5e023efea64b3299f",
+      "actual_git_blob": "6c1d8d57923547089f0c5a9750c7eb927080041a",
+      "exact_match": false,
+      "sha256": "428844510aebc3512ec1123d78e1f14c30043152a13627630cacc1786b3bcb4f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/pair_trio_rules.ts",
+      "recorded_git_blob": "e9582c34e6c268113a7845e10940edbd96a1636e",
+      "actual_git_blob": "8630375c4a613885d3b4436941c528dbe874d537",
+      "exact_match": false,
+      "sha256": "b17c554b82b89934fb66139ec1d99f439d5fa619f500375a01e128660f43c165",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/templates.json",
+      "recorded_git_blob": "3bd5b32554e31204ed525f4f723a78399ebf7654",
+      "actual_git_blob": "1ab9dcde6bf650e2b03eb1b5a3cb02c507db8f05",
+      "exact_match": false,
+      "sha256": "b469f62b21bc2ecf0c9b24b00656ed71225f1b56c8da6c21e43266fdebd87e06",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/data/templates.ts",
+      "recorded_git_blob": "350a9e7269fa8d66fee05fce3b2552ad6bc49fa6",
+      "actual_git_blob": "48af5478d1f338e027511be3dfa195c2fe352c74",
+      "exact_match": false,
+      "sha256": "e96ee6c9f5c3da49dd71bbe6caf30ddeab3d16f77f039f0825834616aa12e4b0",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/src/compose.ts",
+      "recorded_git_blob": "2d10e809b8b23f0b7d6584460c49283692f2f743",
+      "actual_git_blob": "f0056eea034895c3aaab0699a1b8cf34c2e281a5",
+      "exact_match": false,
+      "sha256": "ed2149bd97911314b00a13a512042caa95ebf6a7e98a2808cf3f7881ed607f62",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/src/engine.ts",
+      "recorded_git_blob": "2aead89cf3c03012e7547664f9cbc297463038c3",
+      "actual_git_blob": "fadc9bb8e3aeee3f2fe313f1bd3e58609ece085f",
+      "exact_match": false,
+      "sha256": "cec444d618fddb8a5983241ca8d29c5e2c6090704fb1befe074b32e01d3a75a1",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/src/hash.ts",
+      "recorded_git_blob": "68c4690bbfcd337a20a9a8a110e20adc845862bc",
+      "actual_git_blob": "7a10a9caa1e208823e5932f51f78de38700e9561",
+      "exact_match": false,
+      "sha256": "2444baf4c441702d830b7605b0728bafca149b9cd3a0527dde6a508d37208c73",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "name-engine/src/types.ts",
+      "recorded_git_blob": "08e9d09990fc7811f9a0d95dc6a3f91d0173841b",
+      "actual_git_blob": "497f2723575887139fe5bec46e38eaf08a8e2e3d",
+      "exact_match": false,
+      "sha256": "d6f46f4b1c80e24960bfe295d1e37c7409d50b00c1b31959c54c13253aac949f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "package.json",
+      "recorded_git_blob": "31df26b7446493cf67795e3184e87588bf29d1e3",
+      "actual_git_blob": "f4acf7ac79f821e7e1353d018099975b45fa99b4",
+      "exact_match": false,
+      "sha256": "71c93cb0fac017ec2881ccab219f7b7ac1eab842857593186d54af8f4c696b42",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/accessControl.ts",
+      "recorded_git_blob": "4574fffa292bad31f6cf90b240f21b3cb39666ba",
+      "actual_git_blob": "b88e3362b031bbfee69bedf622c04c32cd778154",
+      "exact_match": false,
+      "sha256": "0e3b345d1090675df24d34a5cd96c575defbe0ca4ab7734fb7d3cdc04fa00997",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/astrology.ts",
+      "recorded_git_blob": "295e9d5db27a41c5e0ff84538fecedee747237f1",
+      "actual_git_blob": "95a197c5a1c4859005eed99de5d0e48ff5c1d53b",
+      "exact_match": false,
+      "sha256": "4c65d3e473de4d6b4cd0ef127978ca515786764e0f20b9034ad46d61a26d63c4",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/calledNameDescriptions.ts",
+      "recorded_git_blob": "96dca29630bd26be6f16b8367adaa7b4dfdababa",
+      "actual_git_blob": "d667fdc4ec484e99f9342506e9172c63a26ac9ff",
+      "exact_match": false,
+      "sha256": "bc3a25a76f58a68e2915e81b12cbc66f7839a0885b9a3db24abd3f651ec575a7",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/careerGuidanceData.ts",
+      "recorded_git_blob": "6345a139ea158bfb08d5508be86df79838d4952b",
+      "actual_git_blob": "ade27236717c333cac844469d67a81e321717aa9",
+      "exact_match": false,
+      "sha256": "bb08dd7016ca61c0a03d9ac413c9a3d54ae02cc636cc7e4e18cd28efca5d6a5f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/charting.ts",
+      "recorded_git_blob": "71dd636f6862f149d76d91e74db2bf8a503d5621",
+      "actual_git_blob": "260eff1fc9aaf6a2a1bc4db7291e58350dfaf96e",
+      "exact_match": false,
+      "sha256": "e49a81dd6ddbda7f641f22dd2e2f405263a94b4369e6b28a339a5f97f999d831",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/coupledynamics.ts",
+      "recorded_git_blob": "75e3c5c7e0d451c029d8fb79b88e70e10252e838",
+      "actual_git_blob": "286029222c4d125fca422c5934331eb7992f994d",
+      "exact_match": false,
+      "sha256": "6ac712dd82d24cdd27234dbfabb40665b899507d9f9a131f1c01d74574f5a81b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/data.ts",
+      "recorded_git_blob": "fd616456eddcecdd0ce72002e019c238f9ada649",
+      "actual_git_blob": "5acab17951123363b015643ee59eed8d2c4b24ed",
+      "exact_match": false,
+      "sha256": "5bf22b934e144df06dea071a274768792bc6b3ac207a6bea5fd3d93ed566a598",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/descriptions.ts",
+      "recorded_git_blob": "aa02e830ba2e4951fe34b6faf44346bbe660f2a2",
+      "actual_git_blob": "092f1dd896a6431abca3d7cc5c2e8827ea70f5cb",
+      "exact_match": false,
+      "sha256": "26eb47d558b057178b019da770678a366cddb95cb5deef3f00a7c3795668925e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/goingthroughit.ts",
+      "recorded_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "exact_match": false,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/letterMeanings.ts",
+      "recorded_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "exact_match": false,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/loveDescriptions.ts",
+      "recorded_git_blob": "4554f6b70c1d0703654a485f4dc96677366d7c15",
+      "actual_git_blob": "03c3fda96d5119a3d2428219acaff8b68c36a975",
+      "exact_match": false,
+      "sha256": "12b6b4f79b839a833f0f7c9d1581012d034fbebb9261618cacc4a4252dd96472",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/marriageadvice.ts",
+      "recorded_git_blob": "871c4cb15fb6360a07db87a49ad2b2ea8d9d58cc",
+      "actual_git_blob": "36a28c03d94216db2afc21cf83a598b140701e59",
+      "exact_match": false,
+      "sha256": "8ff7b2de17105e101876b816d4a71f02f142db413b23bd6a345eef2c1a349c56",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/nameGenerator.ts",
+      "recorded_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "exact_match": false,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/nameNumberDescriptions.ts",
+      "recorded_git_blob": "8da6136f28ef2aaa3dfecb03af967a7dddbc0634",
+      "actual_git_blob": "5381f797c460741dbeba464c73bc6cd831958f25",
+      "exact_match": false,
+      "sha256": "a016d7505e0f34d5c49a6a53453665c6322e73efda63e55f7ecea85965c89d17",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/numerology.ts",
+      "recorded_git_blob": "08a10e51f7e49fc4fbd8872b3532fb910ab8cfd4",
+      "actual_git_blob": "8d148a68b999d7c86eebfafe053c7fdb53250eb1",
+      "exact_match": false,
+      "sha256": "0774f4918de4178c3ed1d5056cc65760f6c5908deda75fae26bf1f87ef2917f3",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/pmeiEngine.ts",
+      "recorded_git_blob": "88083c9f152326aa23af17875c87fcefa472b4b0",
+      "actual_git_blob": "4e0673d7b3edf4922f7ebca81fd804a64ffe5210",
+      "exact_match": false,
+      "sha256": "ade44eb92094d62fc378e9794e0ed8daca2c1d67d04a11cb14ef663ad1e5eb7f",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/profileGenerator.tsx",
+      "recorded_git_blob": "d119d89a557c5c6be33450c5f5990b1b58fd1065",
+      "actual_git_blob": "6b6c42ee88002e571d38d8f55fdd6486c0d3ea13",
+      "exact_match": false,
+      "sha256": "9655fc9570a87f8fa846e8908bbc7a0fd0edb1c9f319d19614112864287d155a",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "services/textTransformer.ts",
+      "recorded_git_blob": "df6c83794eef962ceb9cbe4352b603e733089bf9",
+      "actual_git_blob": "f22fecd4df5649f6b2cc969ae4930d725e41c7de",
+      "exact_match": false,
+      "sha256": "18cd0445eed635e4a13be3fdc6d6e0a7b09690e736a0bdb921cfb85b62f62bfc",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "recorded_git_blob": "2c6eed55868c7545e8f265f260277fb0605b2dbc",
+      "actual_git_blob": "580c869a163de09663f151a50fbf8baf8a7d23eb",
+      "exact_match": false,
+      "sha256": "22296c438cd554620ec51347bd4dbeb17afabc8aeac27a5242b84b30031b94b2",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "types.ts",
+      "recorded_git_blob": "526514d2d7a1788e93f0d825ee5f4dea1b63e527",
+      "actual_git_blob": "0b00244b8aa8e5bcc6233d955dd62806145f69cd",
+      "exact_match": false,
+      "sha256": "e727850a00c04331abc6150a337cbe96af5b11837da8fcae805fc2737b6b3a6e",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "untitled-1.tsx",
+      "recorded_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "exact_match": false,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "untitled.tsx",
+      "recorded_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "actual_git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "exact_match": false,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    },
+    {
+      "path": "vite.config.ts",
+      "recorded_git_blob": "ee5fb8d2dfb261530fb407cb2f28599d50fcae26",
+      "actual_git_blob": "bcb1a3ecfa94d15a9cc4023d43e68a3b57d5d3b1",
+      "exact_match": false,
+      "sha256": "81003c096d2913aabc9d0682d6d066e4facb7dd0c9bccd5719bddf0abaf5caa2",
+      "normalization_matches": [
+        "remove_one_trailing_lf"
+      ]
+    }
+  ],
+  "exact_blob_matches": 0,
+  "total_files": 102,
+  "normalized_matches": 102
+}

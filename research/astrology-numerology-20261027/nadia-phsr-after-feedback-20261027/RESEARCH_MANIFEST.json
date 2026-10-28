@@ -1,0 +1,153 @@
+{
+  "prepared_local_date": "2026-10-27",
+  "timezone": "America/Denver",
+  "status": "AFTER_FEEDBACK_RESEARCH_COMPLETE_SUPPORTED_SCOPE",
+  "application_code_modified": false,
+  "deployed": false,
+  "frozen_trial_modified": false,
+  "full_method_personal_report_approved": false,
+  "deliverables": [
+    "README.md",
+    "SOURCE_RULE_MATRIX.md",
+    "NADIA_WORKED_CASE.md",
+    "TIMING_AND_NUMEROLOGY.md",
+    "NADIA_READER_DRAFT.md",
+    "IMPLEMENTATION_PLAN.md"
+  ],
+  "verification_files": [
+    "frozen-trial-verification.json",
+    "preservation-verification.json",
+    "numerology-reexecution-verification.json",
+    "research-verification.json"
+  ],
+  "files": {
+    "additional-original-witnesses.json": {
+      "bytes": 39827,
+      "sha256": "9486e4e0be2f28cff91d8473ee225db1104461e511f2b8e0331320791959fd75"
+    },
+    "cached-passage-evidence.json": {
+      "bytes": 152208,
+      "sha256": "e9e156f10ffab2e7f5a521cb84814f2a9526817b5fec2ad1b07d51f2c9c4fbf3"
+    },
+    "calculate_research.py": {
+      "bytes": 12714,
+      "sha256": "6418a64dad281768a2504cbe776bb75e72a129197bc05e4db810a475d5484ef0"
+    },
+    "chiron-stations-and-ingresses.json": {
+      "bytes": 6783,
+      "sha256": "5cfda855759db8706c44f63cdd0bd9d0951e81d15437399880e5e69f25cf648e"
+    },
+    "claim-ledger.json": {
+      "bytes": 7700,
+      "sha256": "7668407d5725f69dabf762ba309db30b84d1b3f681e6798280c0e8268c1f97f2"
+    },
+    "collect_evidence.py": {
+      "bytes": 6821,
+      "sha256": "f9e5deac6efae05047c5347dd55759e700e8df47c2c22f8dcca931b6d6504197"
+    },
+    "comparison-summary.json": {
+      "bytes": 1602,
+      "sha256": "e6cc4768336acee199aff4bc4e013182ee6bf4935f701f462866ba2447df6e2e"
+    },
+    "costar-snapshot-verification.json": {
+      "bytes": 40996,
+      "sha256": "5cb79c94b3db8c127bdf10e9d0d9f0cfed34adc753efa00ff9f8b964a1c85356"
+    },
+    "degree-and-condition-diagnostics.json": {
+      "bytes": 9457,
+      "sha256": "5c02c57f3c65d6b0f4f501907bcce950d3bbdfbe3f222a54cb63cafd6e8229a0"
+    },
+    "expanded-contacts.csv": {
+      "bytes": 7526,
+      "sha256": "18888f7c9ae152f0226f391abf3755d668c4c4c02addcc836e47703fbd540487"
+    },
+    "expanded-timing-numerology-comparison.json": {
+      "bytes": 150344,
+      "sha256": "28500350573912eaa353d1b46ede62111cf7cc7e624fc212d457c6503afc4b90"
+    },
+    "expanded-transit-geometry.json": {
+      "bytes": 106300,
+      "sha256": "5eea21daa20f6bc821080e040388563a85e34c15df912bd7a203b57ca9a4d6b9"
+    },
+    "frozen-trial-verification.json": {
+      "bytes": 1764,
+      "sha256": "08214a7945e18e2ac642ca7aae52a22cd64bf2edf2af97b1031c9dea31f139be"
+    },
+    "IMPLEMENTATION_PLAN.md": {
+      "bytes": 15957,
+      "sha256": "c5c9bcaa6f09b7f64b07ab5bc7243ad760d1d63ca79f0758207d453dbaed040d"
+    },
+    "journal-date-diagnostic.json": {
+      "bytes": 439,
+      "sha256": "9311e3fb8603a40cec22b1dad2488c629c71490a1e45362e265be56a715cdd34"
+    },
+    "NADIA_READER_DRAFT.md": {
+      "bytes": 3057,
+      "sha256": "7342679db9e5ac3aae34ed735d1f3f4a5bd77b165c29e35a6b7bb3d1e45194ca"
+    },
+    "NADIA_WORKED_CASE.md": {
+      "bytes": 16308,
+      "sha256": "ffea17033595cd63a69e393404a892b2c662fc2770955d750e9c52a8edc1feb7"
+    },
+    "natal-pair-geometry.json": {
+      "bytes": 13119,
+      "sha256": "c8a7e7771f8dfdc35c98a223d9457b6dc9b7cb6ec7da907a41b5786036ea3e92"
+    },
+    "natal-verification.json": {
+      "bytes": 3542,
+      "sha256": "c2e2e6438bdf95a459d7ed539a6d543c33c1b4243b77810b16b4fc12ef0e2ff3"
+    },
+    "numerology-reexecution-verification.json": {
+      "bytes": 359,
+      "sha256": "15af2b150db757d6bd910df91376e8ea1c90ad77867e74945c220578a7318eeb"
+    },
+    "original-assertion-evidence.json": {
+      "bytes": 64293,
+      "sha256": "d996c8c38c54efe5a63bce20586dd22eaa1686bb93214361137e3a51045d3b8c"
+    },
+    "original-witness-evidence.json": {
+      "bytes": 135307,
+      "sha256": "c74d0eb1f0a9c8cc2ddef1fb2f6a47ea5797f235bc31c4fabce66339ed6ec7a3"
+    },
+    "preservation-before.json": {
+      "bytes": 74141,
+      "sha256": "00427608463b74edc324b9f456dbc12ba7cb24607c8a2da109e257eb38020e59"
+    },
+    "preservation-verification.json": {
+      "bytes": 150,
+      "sha256": "3b36a456e9e9d8fab1eb51c46690fd104b9543d583baa15c9d8b5a41b2a6aa8f"
+    },
+    "README.md": {
+      "bytes": 5029,
+      "sha256": "097979ea9c997644f66512188975913f2d14ee83a7aaac68a2aa1ed0f8925fce"
+    },
+    "recalculated-chart-user-coordinates.json": {
+      "bytes": 88245,
+      "sha256": "c90ae34e931c96d6517aa9a24838718aa986f244bc84ac781c485410afd5876e"
+    },
+    "research-verification.json": {
+      "bytes": 1154,
+      "sha256": "49c18fef48e769f2d858ba8f2f8829efb9bf5f389a9395b31396005668c84eef"
+    },
+    "SOURCE_RULE_MATRIX.md": {
+      "bytes": 12502,
+      "sha256": "a8f936e5ccfb2968563cc2875752a8c66124003e2521a87e2f97e2f2943a87c1"
+    },
+    "supplied-chart-evidence.json": {
+      "bytes": 18067,
+      "sha256": "3a4e003f73d413836159875da7d0dde016da07bc9fd0a807fc1d96d157ae7f95"
+    },
+    "timing-selection.json": {
+      "bytes": 1260,
+      "sha256": "f85fd1d5306fc513a3e9f1daf5cd4b88af4becbc735a104695e188bf09afce95"
+    },
+    "TIMING_AND_NUMEROLOGY.md": {
+      "bytes": 16207,
+      "sha256": "d7898fcf7ea2f729914ff60137c171bf055c8e75e577ab672116a27858ff00b6"
+    },
+    "verify_numerology.mjs": {
+      "bytes": 2428,
+      "sha256": "34af5637b51e0d0f4808c28f29558de8ec14da72dcf526bc81b5bb2c7b22da56"
+    }
+  }
+}

@@ -1,0 +1,5212 @@
+{
+  "method": "Unmodified STAFFprofiler current canonical annual/monthly engine; no married-name substitution",
+  "source_commit": "4172789db1034072f50c78178187e839fa710fb5",
+  "birth_name": "Nadia Sanchez",
+  "birth_date": "1992-07-17",
+  "age_windows": [
+    {
+      "age": 11,
+      "start": "2003-07-17",
+      "end_exclusive": "2004-07-17"
+    },
+    {
+      "age": 12,
+      "start": "2004-07-17",
+      "end_exclusive": "2005-07-17"
+    },
+    {
+      "age": 16,
+      "start": "2008-07-17",
+      "end_exclusive": "2009-07-17"
+    },
+    {
+      "age": 17,
+      "start": "2009-07-17",
+      "end_exclusive": "2010-07-17"
+    },
+    {
+      "age": 18,
+      "start": "2010-07-17",
+      "end_exclusive": "2011-07-17"
+    },
+    {
+      "age": 19,
+      "start": "2011-07-17",
+      "end_exclusive": "2012-07-17"
+    },
+    {
+      "age": 20,
+      "start": "2012-07-17",
+      "end_exclusive": "2013-07-17"
+    },
+    {
+      "age": 21,
+      "start": "2013-07-17",
+      "end_exclusive": "2014-07-17"
+    }
+  ],
+  "records": [
+    {
+      "calendar_year": 2003,
+      "letter_cycle_age": 10,
+      "age_reached_on_july17": 11,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 29,
+        "trail": [
+          29,
+          11,
+          2
+        ],
+        "root": 2,
+        "isPowerNumber": true,
+        "powerNumber": 11,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (5) = 29"
+      },
+      "com": {
+        "raw": 46,
+        "trail": [
+          46,
+          10,
+          1
+        ],
+        "root": 1,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (17) + PY raw (29) = 46"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": true,
+          "markers": [
+            11
+          ],
+          "stages": [
+            {
+              "marker": 11,
+              "index": 1,
+              "reductionInputs": [
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 7,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (7) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (8) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (2) + CM (9) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (1) = 3"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (8) + PM active (3) = 11"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (3) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PME 11/2 mirrors PY 29/11/2 (digit 2)"
+            ],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (2) = 4"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (4) = 12"
+          },
+          "mcom": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (4) = 7"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (3) = 5"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2004,
+      "letter_cycle_age": 11,
+      "age_reached_on_july17": 12,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 30,
+        "trail": [
+          30,
+          3
+        ],
+        "root": 3,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (6) = 30"
+      },
+      "com": {
+        "raw": 47,
+        "trail": [
+          47,
+          11,
+          2
+        ],
+        "root": 2,
+        "isPowerNumber": true,
+        "powerNumber": 11,
+        "rawFormula": "ESS raw (17) + PY raw (30) = 47"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": true,
+          "markers": [
+            11
+          ],
+          "stages": [
+            {
+              "marker": 11,
+              "index": 1,
+              "reductionInputs": [
+                4,
+                7
+              ]
+            }
+          ]
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (1) = 4"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (4) = 12"
+          },
+          "mcom": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (4) = 7"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PME 12/3 mirrors PY 30/3 (digit 3)"
+            ],
+            "reasons": [
+              "PME 12/3 mirrors PY 30/3 (digit 3)"
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (2) = 5"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (3) = 6"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (4) = 7"
+          },
+          "pme": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (7) = 15"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (6) + PM active (7) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (5) = 8"
+          },
+          "pme": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "ESS root (8) + PM active (8) = 16"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (8) = 15"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PM 8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (6) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (7) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (3) + CM (8) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (9) = 12"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (8) + PM active (3) = 11"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (3) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (1) = 4"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (4) = 12"
+          },
+          "mcom": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (4) = 7"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PME 12/3 mirrors PY 30/3 (digit 3)"
+            ],
+            "reasons": [
+              "PME 12/3 mirrors PY 30/3 (digit 3)"
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (2) = 5"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (3) = 6"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2005,
+      "letter_cycle_age": 12,
+      "age_reached_on_july17": 13,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 31,
+        "trail": [
+          31,
+          4
+        ],
+        "root": 4,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (7) = 31"
+      },
+      "com": {
+        "raw": 48,
+        "trail": [
+          48,
+          12,
+          3
+        ],
+        "root": 3,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (17) + PY raw (31) = 48"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (1) = 5"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PME 13/4 mirrors PY 31/4 (digit 4)"
+            ],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (2) = 6"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (3) = 7"
+          },
+          "pme": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (7) = 15"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (6) + PM active (7) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (4) = 8"
+          },
+          "pme": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "ESS root (8) + PM active (8) = 16"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (8) = 15"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PM 8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (5) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (6) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (4) + CM (7) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2008,
+      "letter_cycle_age": 15,
+      "age_reached_on_july17": 16,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 25,
+        "trail": [
+          25,
+          7
+        ],
+        "root": 7,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (1) = 25"
+      },
+      "com": {
+        "raw": 42,
+        "trail": [
+          42,
+          6
+        ],
+        "root": 6,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (17) + PY raw (25) = 42"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 7,
+          "pm": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (7) + CM (7) = 14"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (7) + CM (8) = 15"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PY root (7) + CM (9) = 16"
+          },
+          "pme": {
+            "raw": 24,
+            "trail": [
+              24,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (16) = 24"
+          },
+          "mcom": {
+            "raw": 22,
+            "trail": [
+              22,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (6) + PM active (16) = 22"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (7) + CM (1) = 8"
+          },
+          "pme": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "ESS root (8) + PM active (8) = 16"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (8) = 15"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PM 8 (digit 8)",
+              "PME 16/7 mirrors PY 25/7 (digit 7)"
+            ],
+            "reasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (7) + CM (2) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (7) + CM (3) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2009,
+      "letter_cycle_age": 16,
+      "age_reached_on_july17": 17,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 26,
+        "trail": [
+          26,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (2) = 26"
+      },
+      "com": {
+        "raw": 43,
+        "trail": [
+          43,
+          7
+        ],
+        "root": 7,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (17) + PY raw (26) = 43"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": true,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (1) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)",
+              "PME 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)",
+              "PME 17/8 mirrors PY 26/8 (digit 8)"
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (2) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (8) + CM (3) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (4) = 12"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (8) + PM active (3) = 11"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (3) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PY root (8) + CM (5) = 13"
+          },
+          "pme": {
+            "raw": 21,
+            "trail": [
+              21,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (13) = 21"
+          },
+          "mcom": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PME active (3) + PM active (13) = 16"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 13/4 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PM 13/4 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (6) = 14"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (7) = 15"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PY root (8) + CM (8) = 16"
+          },
+          "pme": {
+            "raw": 24,
+            "trail": [
+              24,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (16) = 24"
+          },
+          "mcom": {
+            "raw": 22,
+            "trail": [
+              22,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (6) + PM active (16) = 22"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (9) = 17"
+          },
+          "pme": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "ESS root (8) + PM active (8) = 16"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (8) = 15"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)",
+              "PYE 17/8 mirrors PM 17/8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (1) = 9"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)",
+              "PME 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)",
+              "PME 17/8 mirrors PY 26/8 (digit 8)"
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (8) + CM (2) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (8) + CM (3) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PY 26/8 (digit 8)"
+            ],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2010,
+      "letter_cycle_age": 17,
+      "age_reached_on_july17": 18,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "H",
+          "value": 8
+        }
+      ],
+      "ess": {
+        "raw": 17,
+        "trail": [
+          17,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + H(8) = 17"
+      },
+      "py": {
+        "raw": 27,
+        "trail": [
+          27,
+          9
+        ],
+        "root": 9,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (3) = 27"
+      },
+      "com": {
+        "raw": 44,
+        "trail": [
+          44,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (17) + PY raw (27) = 44"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (1) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [],
+            "yellowReasons": [
+              "PME 9 mirrors PY 27/9 (digit 9)"
+            ],
+            "reasons": [
+              "PME 9 mirrors PY 27/9 (digit 9)"
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (9) + CM (2) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (3) = 12"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (8) + PM active (3) = 11"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (3) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PY root (9) + CM (4) = 13"
+          },
+          "pme": {
+            "raw": 21,
+            "trail": [
+              21,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (13) = 21"
+          },
+          "mcom": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PME active (3) + PM active (13) = 16"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PM 13/4 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 13/4 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (5) = 14"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (8) + PM active (5) = 13"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (5) = 9"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (6) = 15"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (6) = 14"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (5) + PM active (6) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PY root (9) + CM (7) = 16"
+          },
+          "pme": {
+            "raw": 24,
+            "trail": [
+              24,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (16) = 24"
+          },
+          "mcom": {
+            "raw": 22,
+            "trail": [
+              22,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (6) + PM active (16) = 22"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (8) = 17"
+          },
+          "pme": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "ESS root (8) + PM active (8) = 16"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (8) = 15"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PYE 17/8 mirrors PM 17/8 (digit 8)"
+            ],
+            "reasons": [
+              "PME 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 18,
+            "trail": [
+              18,
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (9) = 18"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (9) = 17"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (9) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (1) = 10"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (1) = 9"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (1) = 10"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [],
+            "yellowReasons": [
+              "PME 9 mirrors PY 27/9 (digit 9)"
+            ],
+            "reasons": [
+              "PME 9 mirrors PY 27/9 (digit 9)"
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (9) + CM (2) = 11"
+          },
+          "pme": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (8) + PM active (11) = 19"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (11) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (9) + CM (3) = 12"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (8) + PM active (3) = 11"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (3) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "orange",
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2011,
+      "letter_cycle_age": 18,
+      "age_reached_on_july17": 19,
+      "active_letters": [
+        {
+          "letter": "I",
+          "value": 9
+        },
+        {
+          "letter": "E",
+          "value": 5
+        }
+      ],
+      "ess": {
+        "raw": 14,
+        "trail": [
+          14,
+          5
+        ],
+        "root": 5,
+        "isPowerNumber": false,
+        "rawFormula": "I(9) + E(5) = 14"
+      },
+      "py": {
+        "raw": 28,
+        "trail": [
+          28,
+          10,
+          1
+        ],
+        "root": 1,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (4) = 28"
+      },
+      "com": {
+        "raw": 42,
+        "trail": [
+          42,
+          6
+        ],
+        "root": 6,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (14) + PY raw (28) = 42"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 2,
+            "trail": [
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (1) = 2"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (2) = 7"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (2) = 9"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (2) = 3"
+          },
+          "pme": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (3) = 8"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (8) + PM active (3) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (3) = 4"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (4) = 9"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (9) + PM active (4) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (4) = 5"
+          },
+          "pme": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (5) = 10"
+          },
+          "mcom": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (5) = 6"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 14/5 mirrors PM 5 (digit 5)",
+              "PME 10/1 mirrors PY 28/10/1 (digit 1)"
+            ],
+            "reasons": [
+              "PYE 14/5 mirrors PM 5 (digit 5)",
+              "PME 10/1 mirrors PY 28/10/1 (digit 1)"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (5) = 6"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (5) + PM active (6) = 11"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (11) + PM active (6) = 17"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (6) = 7"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (7) = 12"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (7) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (7) = 8"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (5) + PM active (8) = 13"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (8) = 12"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (8) = 9"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (9) = 14"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (5) + PM active (9) = 14"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (9) = 10"
+          },
+          "pme": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (1) = 6"
+          },
+          "mcom": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (6) + PM active (1) = 7"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 2,
+            "trail": [
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (1) = 2"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (2) = 7"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (2) = 9"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (2) = 3"
+          },
+          "pme": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (3) = 8"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (8) + PM active (3) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (1) + CM (3) = 4"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (5) + PM active (4) = 9"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (9) + PM active (4) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2012,
+      "letter_cycle_age": 19,
+      "age_reached_on_july17": 20,
+      "active_letters": [
+        {
+          "letter": "A",
+          "value": 1
+        },
+        {
+          "letter": "E",
+          "value": 5
+        }
+      ],
+      "ess": {
+        "raw": 6,
+        "trail": [
+          6
+        ],
+        "root": 6,
+        "isPowerNumber": false,
+        "rawFormula": "A(1) + E(5) = 6"
+      },
+      "py": {
+        "raw": 29,
+        "trail": [
+          29,
+          11,
+          2
+        ],
+        "root": 2,
+        "isPowerNumber": true,
+        "powerNumber": 11,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (5) = 29"
+      },
+      "com": {
+        "raw": 35,
+        "trail": [
+          35,
+          8
+        ],
+        "root": 8,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (6) + PY raw (29) = 35"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": true,
+          "markers": [
+            11
+          ],
+          "stages": [
+            {
+              "marker": 11,
+              "index": 1,
+              "reductionInputs": [
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (1) = 3"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (3) = 9"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (3) = 12"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (2) = 4"
+          },
+          "pme": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (4) = 10"
+          },
+          "mcom": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (4) = 5"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (3) = 5"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (6) + PM active (5) = 11"
+          },
+          "mcom": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PME active (11) + PM active (5) = 16"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PME 11/2 mirrors PY 29/11/2 (digit 2)"
+            ],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (4) = 6"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (6) = 12"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (6) = 9"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 6 mirrors PM 6 (digit 6)"
+            ],
+            "reasons": [
+              "PYE 6 mirrors PM 6 (digit 6)"
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (5) = 7"
+          },
+          "pme": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "ESS root (6) + PM active (7) = 13"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (4) + PM active (7) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PME 13/4 contains 11, 13 or 16",
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PME 13/4 contains 11, 13 or 16",
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (6) = 8"
+          },
+          "pme": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (8) = 14"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (5) + PM active (8) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (7) = 9"
+          },
+          "pme": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (9) = 15"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (6) + PM active (9) = 15"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (8) = 10"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (1) = 7"
+          },
+          "mcom": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (7) + PM active (1) = 8"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (2) + CM (9) = 11"
+          },
+          "pme": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (11) = 17"
+          },
+          "mcom": {
+            "raw": 19,
+            "trail": [
+              19,
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (11) = 19"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (1) = 3"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (3) = 9"
+          },
+          "mcom": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (3) = 12"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (2) = 4"
+          },
+          "pme": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (6) + PM active (4) = 10"
+          },
+          "mcom": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (4) = 5"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (2) + CM (3) = 5"
+          },
+          "pme": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "ESS root (6) + PM active (5) = 11"
+          },
+          "mcom": {
+            "raw": 16,
+            "trail": [
+              16,
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": true,
+            "powerNumber": 16,
+            "rawFormula": "PME active (11) + PM active (5) = 16"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": "red",
+            "redReasons": [
+              "PME 11/2 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PME 11/2 mirrors PY 29/11/2 (digit 2)"
+            ],
+            "reasons": [
+              "PME 11/2 contains 11, 13 or 16",
+              "MCOM 16/7 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2013,
+      "letter_cycle_age": 20,
+      "age_reached_on_july17": 21,
+      "active_letters": [
+        {
+          "letter": "N",
+          "value": 14
+        },
+        {
+          "letter": "E",
+          "value": 5
+        }
+      ],
+      "ess": {
+        "raw": 19,
+        "trail": [
+          19,
+          10,
+          1
+        ],
+        "root": 1,
+        "isPowerNumber": false,
+        "rawFormula": "N(14) + E(5) = 19"
+      },
+      "py": {
+        "raw": 30,
+        "trail": [
+          30,
+          3
+        ],
+        "root": 3,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (6) = 30"
+      },
+      "com": {
+        "raw": 49,
+        "trail": [
+          49,
+          13,
+          4
+        ],
+        "root": 4,
+        "isPowerNumber": true,
+        "powerNumber": 13,
+        "rawFormula": "ESS raw (19) + PY raw (30) = 49"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": true,
+          "markers": [
+            13
+          ],
+          "stages": [
+            {
+              "marker": 13,
+              "index": 1,
+              "reductionInputs": [
+                4,
+                9
+              ]
+            }
+          ]
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (1) = 4"
+          },
+          "pme": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (4) = 5"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (5) + PM active (4) = 9"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (2) = 5"
+          },
+          "pme": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (5) = 6"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (6) + PM active (5) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (3) = 6"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (6) = 7"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (7) + PM active (6) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (4) = 7"
+          },
+          "pme": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (7) = 8"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (7) = 15"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (5) = 8"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (8) = 9"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (8) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (6) = 9"
+          },
+          "pme": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (9) = 10"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (9) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (7) = 10"
+          },
+          "pme": {
+            "raw": 2,
+            "trail": [
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (1) = 2"
+          },
+          "mcom": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (2) + PM active (1) = 3"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 19/10/1 mirrors PM 10/1 (digit 1)"
+            ],
+            "reasons": [
+              "PYE 19/10/1 mirrors PM 10/1 (digit 1)"
+            ]
+          }
+        },
+        {
+          "month": 8,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (3) + CM (8) = 11"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (11) = 12"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (11) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [
+              "PME 12/3 mirrors PY 30/3 (digit 3)"
+            ],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 9,
+          "pm": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (9) = 12"
+          },
+          "pme": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (3) = 4"
+          },
+          "mcom": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (4) + PM active (3) = 7"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 10,
+          "pm": {
+            "raw": 4,
+            "trail": [
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (1) = 4"
+          },
+          "pme": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (4) = 5"
+          },
+          "mcom": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (5) + PM active (4) = 9"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 11,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (2) = 5"
+          },
+          "pme": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (5) = 6"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (6) + PM active (5) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 12,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (3) + CM (3) = 6"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (6) = 7"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (7) + PM active (6) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "calendar_year": 2014,
+      "letter_cycle_age": 21,
+      "age_reached_on_july17": 22,
+      "active_letters": [
+        {
+          "letter": "N",
+          "value": 14
+        },
+        {
+          "letter": "E",
+          "value": 5
+        }
+      ],
+      "ess": {
+        "raw": 19,
+        "trail": [
+          19,
+          10,
+          1
+        ],
+        "root": 1,
+        "isPowerNumber": false,
+        "rawFormula": "N(14) + E(5) = 19"
+      },
+      "py": {
+        "raw": 31,
+        "trail": [
+          31,
+          4
+        ],
+        "root": 4,
+        "isPowerNumber": false,
+        "rawFormula": "Birth Day (17) + Month (7) + reduced CY (7) = 31"
+      },
+      "com": {
+        "raw": 50,
+        "trail": [
+          50,
+          5
+        ],
+        "root": 5,
+        "isPowerNumber": false,
+        "rawFormula": "ESS raw (19) + PY raw (31) = 50"
+      },
+      "annual_alerts": {
+        "ess": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "py": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        },
+        "com": {
+          "active": false,
+          "markers": [],
+          "stages": []
+        }
+      },
+      "is_intensified": false,
+      "months": [
+        {
+          "month": 1,
+          "pm": {
+            "raw": 5,
+            "trail": [
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (1) = 5"
+          },
+          "pme": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (5) = 6"
+          },
+          "mcom": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PME active (6) + PM active (5) = 11"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 2,
+          "pm": {
+            "raw": 6,
+            "trail": [
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (2) = 6"
+          },
+          "pme": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (6) = 7"
+          },
+          "mcom": {
+            "raw": 13,
+            "trail": [
+              13,
+              4
+            ],
+            "root": 4,
+            "isPowerNumber": true,
+            "powerNumber": 13,
+            "rawFormula": "PME active (7) + PM active (6) = 13"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "MCOM 13/4 contains 11, 13 or 16"
+            ]
+          }
+        },
+        {
+          "month": 3,
+          "pm": {
+            "raw": 7,
+            "trail": [
+              7
+            ],
+            "root": 7,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (3) = 7"
+          },
+          "pme": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (7) = 8"
+          },
+          "mcom": {
+            "raw": 15,
+            "trail": [
+              15,
+              6
+            ],
+            "root": 6,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (8) + PM active (7) = 15"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 4,
+          "pm": {
+            "raw": 8,
+            "trail": [
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (4) = 8"
+          },
+          "pme": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (8) = 9"
+          },
+          "mcom": {
+            "raw": 17,
+            "trail": [
+              17,
+              8
+            ],
+            "root": 8,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (9) + PM active (8) = 17"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 5,
+          "pm": {
+            "raw": 9,
+            "trail": [
+              9
+            ],
+            "root": 9,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (5) = 9"
+          },
+          "pme": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (9) = 10"
+          },
+          "mcom": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (1) + PM active (9) = 10"
+          },
+          "indicator": {
+            "tone": "green",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [],
+            "reasons": [
+              "No red or yellow chart rule applies."
+            ]
+          }
+        },
+        {
+          "month": 6,
+          "pm": {
+            "raw": 10,
+            "trail": [
+              10,
+              1
+            ],
+            "root": 1,
+            "isPowerNumber": false,
+            "rawFormula": "PY root (4) + CM (6) = 10"
+          },
+          "pme": {
+            "raw": 2,
+            "trail": [
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (1) = 2"
+          },
+          "mcom": {
+            "raw": 3,
+            "trail": [
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (2) + PM active (1) = 3"
+          },
+          "indicator": {
+            "tone": "yellow",
+            "leaf": false,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [],
+            "yellowReasons": [
+              "PYE 19/10/1 mirrors PM 10/1 (digit 1)"
+            ],
+            "reasons": [
+              "PYE 19/10/1 mirrors PM 10/1 (digit 1)"
+            ]
+          }
+        },
+        {
+          "month": 7,
+          "pm": {
+            "raw": 11,
+            "trail": [
+              11,
+              2
+            ],
+            "root": 2,
+            "isPowerNumber": true,
+            "powerNumber": 11,
+            "rawFormula": "PY root (4) + CM (7) = 11"
+          },
+          "pme": {
+            "raw": 12,
+            "trail": [
+              12,
+              3
+            ],
+            "root": 3,
+            "isPowerNumber": false,
+            "rawFormula": "ESS root (1) + PM active (11) = 12"
+          },
+          "mcom": {
+            "raw": 14,
+            "trail": [
+              14,
+              5
+            ],
+            "root": 5,
+            "isPowerNumber": false,
+            "rawFormula": "PME active (3) + PM active (11) = 14"
+          },
+          "indicator": {
+            "tone": "red",
+            "leaf": true,
+            "topBar": null,
+            "bottomBar": null,
+            "redReasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ],
+            "yellowReasons": [],
+            "reasons": [
+              "PM 11/2 contains 11, 13 or 16"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

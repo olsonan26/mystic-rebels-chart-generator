@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore natal placements and name-based numerology together, with the source of each proposed connection visible.">
+<title>Common Ground · Natal comparison</title>
+<link rel="stylesheet" href="/styles.css">
+<script src="/app.js" defer></script>
+<script src="/research.js" defer></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="#" aria-label="Common Ground home"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span>Common Ground</a>
+<nav aria-label="Page sections"><a href="#comparison">Comparison</a><a href="#numbers">Numbers</a><a href="#natal">Natal chart</a><a href="#sources">Sources</a></nav>
+<span class="local-status"><span aria-hidden="true"></span>Local prototype</span></header>
+<div class="workspace">
+<aside class="profile-panel">
+<div class="panel-heading"><h1>Start with a person.</h1><p>Explore what each system contributes to the same picture.</p></div>
+<form id="profile-form">
+<label for="full-name">Full name at birth</label><input id="full-name" name="full_name" autocomplete="off" maxlength="120" placeholder="First, middle and last names" required>
+<p class="field-note">Include any middle names. Spelling changes the name-based calculations.</p>
+<label for="birth-date">Birth date</label><input id="birth-date" name="birth_date" type="date" min="1800-01-01" max="2399-12-31" required>
+<div class="form-row"><div><label for="birth-time">Birth time</label><input id="birth-time" name="birth_time" type="time" required></div><div><label for="time-accuracy">Time information</label><select id="time-accuracy" name="time_accuracy"><option value="nearest_minute">Reported to the minute</option><option value="approximate">Approximate</option><option value="unknown">Unknown</option></select></div></div>
+<div id="uncertainty-field" hidden><label for="uncertainty">Time may vary by</label><div class="input-suffix"><input id="uncertainty" type="number" min="1" max="1440" value="15"><span>minutes</span></div></div>
+<label for="birth-city">Birth city</label><div class="location-control"><input id="birth-city" name="birth_city" autocomplete="off" placeholder="Search city, state or country" aria-controls="city-results" aria-expanded="false" required><div id="city-results" class="city-results" role="listbox" aria-label="Matching birth cities" hidden></div></div>
+<p id="location-note" class="field-note">Choose the matching city to resolve its coordinates and time zone.</p>
+<details class="time-details"><summary>Time and location details</summary><div id="location-details">A selected city will appear here.</div><div class="form-row"><div><label for="latitude">Latitude</label><input id="latitude" type="number" step="any" min="-90" max="90" placeholder="North is positive"></div><div><label for="longitude">Longitude</label><input id="longitude" type="number" step="any" min="-180" max="180" placeholder="West is negative"></div></div><p class="field-note">You can replace the city-centre coordinates with your supplied location. West longitudes use a minus sign.</p><label for="fold">Repeated clock time</label><select id="fold"><option value="">Ask if this date requires a choice</option><option value="0">First occurrence</option><option value="1">Second occurrence</option></select><p class="field-note">Only needed when a clock change repeats the same local time.</p></details>
+<div id="form-error" class="form-error" role="alert" hidden></div>
+<button id="compare-button" class="primary-button" type="submit">Create comparison <span aria-hidden="true">↗</span></button>
+<p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+</form>
+<div class="profile-footnote"><strong>For this first version</strong><p>Natal placements and name-based patterns. Details stay in this local session unless you choose to export.</p><button class="text-button" id="sample-button" type="button">Try a fictional example</button></div>
+</aside>
+<main id="main-content">
+<section id="empty-state" class="empty-state"><div class="overlap-art" aria-hidden="true"><div>Names<br><small>Meaning & motivation</small></div><div>Natal chart<br><small>Function & context</small></div></div><h2>A fuller picture starts<br>with the details.</h2><p>A comparison keeps the two systems visible, then explores how their themes might work together.</p><div class="empty-points"><div><strong>See the ingredients</strong><span>Your numbers, PMEI counts and actual natal placements.</span></div><div><strong>Explore a connection</strong><span>Motivation, communication and work style, with room for differences.</span></div><div><strong>Follow the source</strong><span>Original meanings and proposed connections are labeled separately.</span></div></div></section>
+<div id="results" hidden>
+<section class="result-heading"><div><p class="eyeline">Your natal comparison</p><h2 id="person-name"></h2><p id="birth-summary"></p></div><div class="export-actions"><button id="save-reading-button" class="secondary-button" type="button">Save reading</button><button id="print-button" class="secondary-button" type="button">Print / PDF</button><button id="export-button" class="secondary-button" type="button">Export data</button></div></section>
+<div id="result-notices" class="result-notices"></div>
+<section id="research" class="comparison-section" aria-labelledby="research-heading">
+<div class="section-heading"><div><h3 id="research-heading">Follow the full context</h3><p>Explore an ordered assessment and a year’s Essence, Personal Year and Combiner.</p></div></div>
+<div class="research-controls"><label for="research-topic">Topic<select id="research-topic"><option value="trust">Trust and boundaries</option><option value="voice">Voice and emotional needs</option><option value="autonomy">Autonomy and worth</option><option value="year">Yearly direction</option></select></label><label for="research-year">Calendar year<input id="research-year" type="number" min="1800" max="2653" step="1"></label><button id="research-button" class="secondary-button" type="button">Explore this year</button></div>
+<p id="research-status" role="status" aria-live="polite"></p><div id="research-result"></div>
+</section>
+<section id="comparison" class="comparison-section"><div class="section-heading"><div><h3>How the themes could work together</h3><p>Each comparison adds context. It does not measure agreement or predict an outcome.</p></div><span class="research-label">Research comparison</span></div>
+<div id="domain-tabs" class="domain-tabs" role="tablist" aria-label="Comparison topics"></div><div id="domain-content" role="tabpanel" tabindex="0"></div>
+</section>
+<section id="numbers" class="numbers-section"><div class="section-heading"><div><h3>The name & number picture</h3><p>Keep the number and its role together.</p></div></div><div id="number-grid" class="number-grid"></div>
+<div class="pmei-panel"><div><h4>Four operating channels</h4><p>PMEI counts letters in the supplied birth name. These channels remain separate from astrological elements.</p><p id="pmei-detail" class="subtle"></p></div><div id="pmei-bars" class="pmei-bars"></div></div>
+<details class="method-details"><summary>Calculation methods & name basis</summary><div id="method-content"></div></details>
+</section>
+<section id="natal" class="natal-section"><div class="section-heading"><div><h3>The natal context</h3><p>The actual placements behind the comparison.</p></div><span class="engine-label">Mystic Rebels engine</span></div><div class="table-scroll"><table><caption class="sr-only">Planetary positions and Mystic placement layers</caption><thead><tr><th scope="col">Object</th><th scope="col">Position</th><th scope="col">House / Field</th><th scope="col">Tone</th><th scope="col">Pulse</th></tr></thead><tbody id="natal-rows"></tbody></table></div><p class="table-note">Field follows the house context; Tone is the astronomical sign; Pulse is the same-element decan. These are distinct layers of one placement.</p></section>
+<section id="sources" class="sources-section"><div class="section-heading"><div><h3>Where each ingredient comes from</h3><p>The meanings have sources. Connections between the systems are new proposals for review.</p></div></div><div id="source-list" class="source-list"></div><details class="method-details"><summary>Scope and current limits</summary><div id="limits-list"></div></details></section>
+<footer class="page-footer"><span>Common Ground</span><p>A local study of two symbolic systems. Shared vocabulary is a starting point for inquiry.</p></footer>
+</div>
+</main></div>
+</body></html>

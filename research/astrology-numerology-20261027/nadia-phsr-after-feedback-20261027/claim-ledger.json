@@ -1,0 +1,240 @@
+{
+  "analysis_status": "AFTER_FEEDBACK_HYPOTHESIS_DEVELOPMENT",
+  "personal_report_approved": false,
+  "stage_order": [
+    "planet",
+    "house",
+    "degree",
+    "decan",
+    "aspects",
+    "sign",
+    "ruler"
+  ],
+  "claims": [
+    {
+      "id": "calculation-chiron",
+      "kind": "calculation",
+      "statement": "Natal Chiron is direct, Leo 11 degrees 02 minutes 26 seconds, house 8, Sagittarius Pulse, sign ruler Sun.",
+      "evidence": [
+        "supplied-chart-evidence.json",
+        "recalculated-chart-user-coordinates.json",
+        "natal-verification.json"
+      ],
+      "does_not_establish": [
+        "Abuse",
+        "Onset at age 11",
+        "A retrograde natal Chiron"
+      ]
+    },
+    {
+      "id": "rule-chiron-meaning",
+      "kind": "documented_rule",
+      "statement": "Reviewed Chiron vocabulary is Fractured Structures; automatic wounded-healer meanings are excluded.",
+      "evidence": [
+        "SOURCE_RULE_MATRIX.md#s6",
+        "work/Mystic-Rebels/data/knowledge/source_meaning_profiles.json#chiron-reviewed-vocabulary"
+      ],
+      "personal_answer_approved": false
+    },
+    {
+      "id": "rule-parents",
+      "kind": "documented_rule",
+      "statement": "Sun represents father and Moon represents mother in the selected framework.",
+      "evidence": [
+        "cached-passage-evidence.json#pdf_page=193",
+        "cached-passage-evidence.json#pdf_page=366"
+      ],
+      "does_not_establish": [
+        "A parent's behavior",
+        "A life event"
+      ]
+    },
+    {
+      "id": "hypothesis-main-route",
+      "kind": "composed_hypothesis",
+      "statement": "Explore trust and shared involvement, personal expression, family belonging, emotional communication, autonomy, and worth through the actual assessed ruler route.",
+      "evidence": [
+        "NADIA_WORKED_CASE.md"
+      ],
+      "missing_rule_ids": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "biographical_claim": false,
+      "validation_status": "NOT_BLIND_NOT_EMPIRICALLY_VALIDATED"
+    },
+    {
+      "id": "rule-fractional-activation",
+      "kind": "documented_rule",
+      "statement": "Original printed page 257 maps 0 degrees 30 minutes to six months; original 255 gives 30-year recurrence.",
+      "evidence": [
+        "additional-original-witnesses.json#name=IMG_4682.jpg",
+        "additional-original-witnesses.json#name=IMG_4680.jpg"
+      ],
+      "missing_rule_ids": [
+        "D4",
+        "D5",
+        "D6"
+      ]
+    },
+    {
+      "id": "hypothesis-age11",
+      "kind": "composed_hypothesis",
+      "statement": "Chiron supplies a candidate fractional-age activation at 11.040694, approximately August 1-2 2003 under two declared calendar conventions.",
+      "evidence": [
+        "degree-and-condition-diagnostics.json"
+      ],
+      "onset_date_verified": false,
+      "date_precision": "RESEARCH_CONVENTION_CANDIDATE",
+      "selection_after_feedback": true
+    },
+    {
+      "id": "calculation-chiron-moon-series",
+      "kind": "calculation",
+      "statement": "New exact Chiron-Moon longitude conjunctions occur March 11 2011, September 14 2011, January 5 2012 in Pacific civil dates.",
+      "evidence": [
+        "expanded-transit-geometry.json",
+        "expanded-contacts.csv"
+      ],
+      "interpretation_status": "RAW_GEOMETRY_NOT_COMPLETE_DIRECTED_METHOD",
+      "selection_after_feedback": true
+    },
+    {
+      "id": "calculation-journal-nonexact",
+      "kind": "calculation",
+      "statement": "No equality in the new selection occurs on July 1 2011; a labeled reference Chiron position is about 3.12 degrees from natal Moon.",
+      "evidence": [
+        "journal-date-diagnostic.json"
+      ],
+      "does_not_establish": [
+        "No important event occurred",
+        "An approved influence window"
+      ]
+    },
+    {
+      "id": "rule-com-role",
+      "kind": "documented_rule",
+      "statement": "The selected Combiner catalogue frames COM as how to approach the year's matters, distinct from ESS attitude and PY annual trend.",
+      "evidence": [
+        "../nadia-sanchez-blind-trial/annual-meanings.json",
+        "TIMING_AND_NUMEROLOGY.md"
+      ],
+      "does_not_establish": [
+        "A validated outcome",
+        "An approved child-specific adaptation"
+      ]
+    },
+    {
+      "id": "reported-paternal-history",
+      "kind": "reported_history",
+      "statement": "The user reports paternal grooming/sexual abuse approximately ages 11 through 21.",
+      "evidence": [
+        "../NEXT_SESSION_PHSR_HANDOFF.md"
+      ],
+      "received_after_first_pass": true,
+      "independently_verified": false,
+      "calculated_from_chart": false,
+      "date_precision": "APPROXIMATE_AGE_RANGE"
+    },
+    {
+      "id": "reported-maternal-history",
+      "kind": "reported_history",
+      "statement": "The user reports maternal physical abuse especially when younger and maternal police reporting around age 21.",
+      "evidence": [
+        "../NEXT_SESSION_PHSR_HANDOFF.md"
+      ],
+      "received_after_first_pass": true,
+      "independently_verified": false,
+      "calculated_from_chart": false,
+      "police_report_exact_date": null
+    },
+    {
+      "id": "reported-journal",
+      "kind": "reported_history",
+      "statement": "The preserved handoff summarizes a July 1 2011 journal entry concerning family conflict, responsibility, lack of support, faith/journaling, public-speaking interest and historical suicidal thoughts.",
+      "evidence": [
+        "../NEXT_SESSION_PHSR_HANDOFF.md"
+      ],
+      "derived_age": 18,
+      "received_after_first_pass": true,
+      "original_journal_inspected_this_session": false,
+      "calculated_from_chart": false
+    }
+  ],
+  "ruler_structure": {
+    "sign_ruler_path": [
+      "Chiron",
+      "Sun",
+      "Moon",
+      "Neptune",
+      "Saturn",
+      "Uranus",
+      "Saturn"
+    ],
+    "repeated_component": [
+      "Saturn",
+      "Uranus"
+    ],
+    "decan_refinement_path": [
+      "Chiron:SagittariusPulse",
+      "Jupiter",
+      "Mercury",
+      "Sun"
+    ],
+    "activation_context_path": [
+      "Cycle1:Aries:H4",
+      "Mars",
+      "Venus",
+      "Sun"
+    ],
+    "is_complete_directed_energy_flow_graph": false
+  },
+  "source_decisions": [
+    {
+      "id": "D1",
+      "topic": "Canonical Spark and counterexamples",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D2",
+      "topic": "Complete directed aspect OOI/cap/boundary/flow procedure",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D3",
+      "topic": "Complete Delegate-condition composition and repeated components",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D4",
+      "topic": "Exact fractional activation calendar convention",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D5",
+      "topic": "Manifestation delay rule or explicit abstention from dates",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D6",
+      "topic": "Progressions and transit/relocation coupling",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D7",
+      "topic": "Authoritative annual identity and name-transition policy",
+      "state": "UNRESOLVED"
+    },
+    {
+      "id": "D8",
+      "topic": "Role- and age-specific prose review",
+      "state": "UNRESOLVED"
+    }
+  ],
+  "reference_resolution": {
+    "work_prefix": "Relative to C:/Users/olson/OneDrive/Documents/Reverse Skill",
+    "other_paths": "Relative to this research folder",
+    "fragments": "Record selectors, not HTML anchors"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "STAFFprofiler annual/monthly unchanged compiled adapter",
+  "repository": "olsonan26/STAFFprofiler",
+  "commit": "4172789db1034072f50c78178187e839fa710fb5",
+  "source_files": [
+    "assets/chart-engine.js",
+    "pattern-indicators.js",
+    "report-descriptions.js"
+  ],
+  "sha256": {
+    "vendor/staff/chart-engine.mjs": "bb79462179bdd96804c733d46e2bc9b87390196f3f7aaa3af677105c255864f6",
+    "vendor/staff/pattern-indicators.mjs": "a0fb6ba4f9ff32422730db91cb127e4c5ab76b2f154f07943f9e1bacbc91b0d8",
+    "data/annual-catalogue.json": "47a65cb35fcb3ab7129d0b2768327beea4b3ade172d1dc4dbedd35becfc15775"
+  }
+}

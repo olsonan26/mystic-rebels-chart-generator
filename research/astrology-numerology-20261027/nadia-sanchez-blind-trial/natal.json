@@ -1,0 +1,1612 @@
+{
+  "schema_version": "1.0",
+  "product": "Mystic Rebels",
+  "engine_version": "0.1.0",
+  "chart_id": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+  "input": {
+    "name": "Nadia Sanchez",
+    "local_date": "1992-07-17",
+    "local_time": "20:01:00",
+    "timezone": "America/Los_Angeles",
+    "fold": null,
+    "latitude": 33.8044,
+    "longitude": -118.0673,
+    "location_name": "Los Alamitos, California",
+    "coordinate_provenance": "User-supplied coordinates",
+    "time_accuracy": "nearest_minute",
+    "uncertainty_seconds": 30.0,
+    "objects": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto",
+      "Ascendant",
+      "Midheaven"
+    ],
+    "chart_type": "natal"
+  },
+  "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+  "time": {
+    "jd_ut1": 2448821.625699546,
+    "jd_tt": 2448821.6263794443,
+    "delta_t_seconds": 58.7431937456131,
+    "time_conversion": "swe.utc_to_jd Gregorian UTC; Swiss built-in Delta T model",
+    "birth_utc": "1992-07-18T03:01:00+00:00",
+    "iana_zone": "America/Los_Angeles",
+    "utc_offset_seconds": -25200,
+    "tzdata_version": "2026.5",
+    "time_is_reference_only": false,
+    "uncertainty_seconds": 30.0
+  },
+  "configuration": {
+    "center": "geocentric",
+    "zodiac": "tropical",
+    "houses": "whole_sign",
+    "position_type": "apparent ecliptic/equinox of date",
+    "backend_requested": "SWIEPH",
+    "requested_flags": 258,
+    "swiss_version": "2.10.03",
+    "binding_version": "2.10.3.2",
+    "python_version": "3.11.9",
+    "asset_manifest_sha256": "211c4c13af9f6515e65630bc43d86251e6bb6cf8efbb563d762c63c39a5330ef"
+  },
+  "angles": {
+    "Ascendant": 296.57177375868525,
+    "Descendant": 116.57177375868525,
+    "Midheaven": 225.82952587113112,
+    "ImumCoeli": 45.829525871131125,
+    "Vertex": 149.2925196216613,
+    "Invertex": 329.2925196216613,
+    "Nonagesimal": 206.57177375868525,
+    "Subnonagesimal": 26.571773758685254
+  },
+  "whole_sign_cusps": [
+    270.0,
+    300.0,
+    330.0,
+    0.0,
+    30.0,
+    60.0,
+    90.0,
+    120.0,
+    150.0,
+    180.0,
+    210.0,
+    240.0
+  ],
+  "points": [
+    {
+      "id": "Sun",
+      "name": "Sun",
+      "glyph": "\u2609",
+      "group": "Planets",
+      "longitude_deg": 115.74014204831833,
+      "latitude_deg": 0.00021845842594974367,
+      "distance_au": 1.0162490806707372,
+      "speed_longitude_deg_per_day": 0.9538967947891689,
+      "speed_latitude_deg_per_day": 2.615549447167573e-05,
+      "declination_deg": 20.997237975748696,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Cancer",
+      "sign_index": 3,
+      "degree_in_sign": 25.740142048318333,
+      "degree_floor": 25,
+      "decan": 3,
+      "tone": "Cancer",
+      "pulse": "Pisces",
+      "house": 7,
+      "field": "Libra",
+      "true_placement": "Libra",
+      "sign_ruler": "Moon",
+      "spark": null,
+      "display_dms": "Cancer 25\u00b044\u203225\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": null,
+        "status": "NOT_APPLICABLE",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "No geocentric retrograde loop; motion is reported separately."
+      }
+    },
+    {
+      "id": "Moon",
+      "name": "Moon",
+      "glyph": "\u263d",
+      "group": "Planets",
+      "longitude_deg": 332.11305736540334,
+      "latitude_deg": 4.599389967412867,
+      "distance_au": 0.0027125388777124097,
+      "speed_longitude_deg_per_day": 11.850691159307576,
+      "speed_latitude_deg_per_day": 0.5114856069946232,
+      "declination_deg": -6.424171735262581,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Pisces",
+      "sign_index": 11,
+      "degree_in_sign": 2.1130573654033356,
+      "degree_floor": 2,
+      "decan": 1,
+      "tone": "Pisces",
+      "pulse": "Pisces",
+      "house": 3,
+      "field": "Gemini",
+      "true_placement": "Gemini",
+      "sign_ruler": "Neptune",
+      "spark": null,
+      "display_dms": "Pisces 2\u00b006\u203247\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": null,
+        "status": "NOT_APPLICABLE",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "No geocentric retrograde loop; motion is reported separately."
+      }
+    },
+    {
+      "id": "Mercury",
+      "name": "Mercury",
+      "glyph": "\u263f",
+      "group": "Planets",
+      "longitude_deg": 137.32723941500103,
+      "latitude_deg": -2.838394039436533,
+      "distance_au": 0.6698170387933354,
+      "speed_longitude_deg_per_day": 0.15439698624161446,
+      "speed_latitude_deg_per_day": -0.23411250155734023,
+      "declination_deg": 12.93605752417317,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Leo",
+      "sign_index": 4,
+      "degree_in_sign": 17.32723941500103,
+      "degree_floor": 17,
+      "decan": 2,
+      "tone": "Leo",
+      "pulse": "Sagittarius",
+      "house": 8,
+      "field": "Scorpio",
+      "true_placement": "Scorpio",
+      "sign_ruler": "Sun",
+      "spark": null,
+      "display_dms": "Leo 17\u00b019\u203238\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Pregrade",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1992-07-01T22:31:39.341Z",
+            "jd_ut1": 2448805.438655301,
+            "longitude_deg": 125.96781888874418,
+            "speed_longitude_deg_per_day": 1.1568268914353141,
+            "target_longitude_deg": 125.96781936719547,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1992-07-20T00:53:39.814Z",
+            "jd_ut1": 2448823.537271424,
+            "longitude_deg": 137.4755457851962,
+            "speed_longitude_deg_per_day": 2.0451133827875e-08,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-08-13T02:53:19.818Z",
+            "jd_ut1": 2448847.620372697,
+            "longitude_deg": 125.96781936719547,
+            "speed_longitude_deg_per_day": 2.492765662536298e-08,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1992-08-27T03:55:28.870Z",
+            "jd_ut1": 2448861.6635326585,
+            "longitude_deg": 137.4755462707098,
+            "speed_longitude_deg_per_day": 1.5397499398788181,
+            "target_longitude_deg": 137.4755457851962,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Venus",
+      "name": "Venus",
+      "glyph": "\u2640",
+      "group": "Planets",
+      "longitude_deg": 125.22117868160386,
+      "latitude_deg": 1.2675212801463234,
+      "distance_au": 1.7004828301791968,
+      "speed_longitude_deg_per_day": 1.229735369451073,
+      "speed_latitude_deg_per_day": 0.020542764037629113,
+      "declination_deg": 20.193014913400148,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Leo",
+      "sign_index": 4,
+      "degree_in_sign": 5.22117868160386,
+      "degree_floor": 5,
+      "decan": 1,
+      "tone": "Leo",
+      "pulse": "Leo",
+      "house": 8,
+      "field": "Scorpio",
+      "true_placement": "Scorpio",
+      "sign_ruler": "Sun",
+      "spark": null,
+      "display_dms": "Leo 5\u00b013\u203216\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Prograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "postgrade_exit",
+            "utc": "1991-10-16T12:10:16.003Z",
+            "jd_ut1": 2448546.0071300706,
+            "longitude_deg": 157.32384881584352,
+            "speed_longitude_deg_per_day": 0.8321812613386026,
+            "target_longitude_deg": 157.3238486151791,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "pregrade_entry",
+            "utc": "1993-02-06T19:55:01.919Z",
+            "jd_ut1": 2449025.329883023,
+            "longitude_deg": 3.7409340975783416,
+            "speed_longitude_deg_per_day": 0.84163898611554,
+            "target_longitude_deg": 3.740934100330478,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Mars",
+      "name": "Mars",
+      "glyph": "\u2642",
+      "group": "Planets",
+      "longitude_deg": 54.031267337106684,
+      "latitude_deg": -0.9513782418255048,
+      "distance_au": 1.5678618888810334,
+      "speed_longitude_deg_per_day": 0.6955270728947164,
+      "speed_latitude_deg_per_day": 0.011106349461101811,
+      "declination_deg": 17.858615572174884,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Taurus",
+      "sign_index": 1,
+      "degree_in_sign": 24.031267337106684,
+      "degree_floor": 24,
+      "decan": 3,
+      "tone": "Taurus",
+      "pulse": "Capricorn",
+      "house": 5,
+      "field": "Leo",
+      "true_placement": "Leo",
+      "sign_ruler": "Venus",
+      "spark": null,
+      "display_dms": "Taurus 24\u00b001\u203253\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Prograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "postgrade_exit",
+            "utc": "1991-03-02T22:29:36.384Z",
+            "jd_ut1": 2448318.437232419,
+            "longitude_deg": 74.56303047325581,
+            "speed_longitude_deg_per_day": 0.45491601381951235,
+            "target_longitude_deg": 74.56303036848527,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "pregrade_entry",
+            "utc": "1992-09-28T05:24:03.662Z",
+            "jd_ut1": 2448893.7250456056,
+            "longitude_deg": 98.67541475979968,
+            "speed_longitude_deg_per_day": 0.5121403247030442,
+            "target_longitude_deg": 98.67541486191801,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Jupiter",
+      "name": "Jupiter",
+      "glyph": "\u2643",
+      "group": "Planets",
+      "longitude_deg": 162.56233587786676,
+      "latitude_deg": 1.0962444375348812,
+      "distance_au": 6.072595807089319,
+      "speed_longitude_deg_per_day": 0.1773629771317873,
+      "speed_latitude_deg_per_day": -0.001502236932728495,
+      "declination_deg": 7.859045674477948,
+      "retrograde": false,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Virgo",
+      "sign_index": 5,
+      "degree_in_sign": 12.562335877866758,
+      "degree_floor": 12,
+      "decan": 2,
+      "tone": "Virgo",
+      "pulse": "Capricorn",
+      "house": 9,
+      "field": "Sagittarius",
+      "true_placement": "Sagittarius",
+      "sign_ruler": "Mercury",
+      "spark": null,
+      "display_dms": "Virgo 12\u00b033\u203244\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Postgrade",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1991-10-04T21:03:13.363Z",
+            "jd_ut1": 2448534.377238675,
+            "longitude_deg": 154.63181450129167,
+            "speed_longitude_deg_per_day": 0.19508959326033598,
+            "target_longitude_deg": 154.63181455478676,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1991-12-30T21:33:20.479Z",
+            "jd_ut1": 2448621.398152276,
+            "longitude_deg": 164.62924064721153,
+            "speed_longitude_deg_per_day": 9.899482930115983e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-04-30T19:38:37.340Z",
+            "jd_ut1": 2448743.318483277,
+            "longitude_deg": 154.63181455478676,
+            "speed_longitude_deg_per_day": -1.510587996999887e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1992-07-29T08:21:06.534Z",
+            "jd_ut1": 2448832.847997113,
+            "longitude_deg": 164.62924069179937,
+            "speed_longitude_deg_per_day": 0.19054601995620318,
+            "target_longitude_deg": 164.62924064721153,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Saturn",
+      "name": "Saturn",
+      "glyph": "\u2644",
+      "group": "Planets",
+      "longitude_deg": 316.60236817929115,
+      "latitude_deg": -0.9830589339411214,
+      "distance_au": 8.942950141981074,
+      "speed_longitude_deg_per_day": -0.06707828482089541,
+      "speed_latitude_deg_per_day": -0.0020335956908817815,
+      "declination_deg": -16.798457947227554,
+      "retrograde": true,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Aquarius",
+      "sign_index": 10,
+      "degree_in_sign": 16.602368179291147,
+      "degree_floor": 16,
+      "decan": 2,
+      "tone": "Aquarius",
+      "pulse": "Gemini",
+      "house": 2,
+      "field": "Taurus",
+      "true_placement": "Taurus",
+      "sign_ruler": "Uranus",
+      "spark": null,
+      "display_dms": "Aquarius 16\u00b036\u203209\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Retrograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1992-02-20T18:22:18.979Z",
+            "jd_ut1": 2448673.265494748,
+            "longitude_deg": 311.81992124636014,
+            "speed_longitude_deg_per_day": 0.11510824885957566,
+            "target_longitude_deg": 311.8199212076651,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1992-05-28T13:35:23.767Z",
+            "jd_ut1": 2448771.0662421426,
+            "longitude_deg": 318.48880549702847,
+            "speed_longitude_deg_per_day": 6.581717319424452e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-10-16T02:05:59.311Z",
+            "jd_ut1": 2448911.5874947747,
+            "longitude_deg": 311.8199212076651,
+            "speed_longitude_deg_per_day": 2.465577578667687e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1993-01-20T04:27:04.512Z",
+            "jd_ut1": 2449007.685469075,
+            "longitude_deg": 318.48880545446195,
+            "speed_longitude_deg_per_day": 0.11652058097824199,
+            "target_longitude_deg": 318.48880549702847,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Uranus",
+      "name": "Uranus",
+      "glyph": "\u2645",
+      "group": "Planets",
+      "longitude_deg": 285.62332498295666,
+      "latitude_deg": -0.43305713337740953,
+      "distance_au": 18.542535772051515,
+      "speed_longitude_deg_per_day": -0.039517254103189965,
+      "speed_latitude_deg_per_day": -7.45573767009996e-05,
+      "declination_deg": -22.955582979122646,
+      "retrograde": true,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Capricorn",
+      "sign_index": 9,
+      "degree_in_sign": 15.62332498295666,
+      "degree_floor": 15,
+      "decan": 2,
+      "tone": "Capricorn",
+      "pulse": "Taurus",
+      "house": 1,
+      "field": "Aries",
+      "true_placement": "Aries",
+      "sign_ruler": "Saturn",
+      "spark": null,
+      "display_dms": "Capricorn 15\u00b037\u203224\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Retrograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1992-01-07T02:06:05.330Z",
+            "jd_ut1": 2448628.5875601014,
+            "longitude_deg": 284.0441746704049,
+            "speed_longitude_deg_per_day": 0.05975835925482599,
+            "target_longitude_deg": 284.0441746480605,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1992-04-21T23:19:03.762Z",
+            "jd_ut1": 2448734.4715670785,
+            "longitude_deg": 288.0160882035019,
+            "speed_longitude_deg_per_day": 2.2721296236889792e-10,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-09-22T23:45:18.544Z",
+            "jd_ut1": 2448888.4898013314,
+            "longitude_deg": 284.0441746480605,
+            "speed_longitude_deg_per_day": 4.5704395817456815e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1993-01-06T20:06:49.475Z",
+            "jd_ut1": 2448994.338073178,
+            "longitude_deg": 288.016088231736,
+            "speed_longitude_deg_per_day": 0.05956960460431545,
+            "target_longitude_deg": 288.0160882035019,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Neptune",
+      "name": "Neptune",
+      "glyph": "\u2646",
+      "group": "Planets",
+      "longitude_deg": 287.34162314057505,
+      "latitude_deg": 0.7477581690516207,
+      "distance_au": 29.185426495861137,
+      "speed_longitude_deg_per_day": -0.026700760940475132,
+      "speed_latitude_deg_per_day": -0.00024514750442542626,
+      "declination_deg": -21.574052924747214,
+      "retrograde": true,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Capricorn",
+      "sign_index": 9,
+      "degree_in_sign": 17.341623140575052,
+      "degree_floor": 17,
+      "decan": 2,
+      "tone": "Capricorn",
+      "pulse": "Taurus",
+      "house": 1,
+      "field": "Aries",
+      "true_placement": "Aries",
+      "sign_ruler": "Saturn",
+      "spark": null,
+      "display_dms": "Capricorn 17\u00b020\u203230\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Retrograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1991-12-31T01:27:15.280Z",
+            "jd_ut1": 2448621.560592099,
+            "longitude_deg": 286.1807858106598,
+            "speed_longitude_deg_per_day": 0.037684352734318916,
+            "target_longitude_deg": 286.1807858129443,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1992-04-20T12:14:15.724Z",
+            "jd_ut1": 2448733.0099000176,
+            "longitude_deg": 288.9576284245599,
+            "speed_longitude_deg_per_day": -2.024512479720789e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-09-27T18:34:48.572Z",
+            "jd_ut1": 2448893.274176522,
+            "longitude_deg": 286.1807858129443,
+            "speed_longitude_deg_per_day": 4.2841548639005496e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1993-01-16T21:42:05.246Z",
+            "jd_ut1": 2449004.404227658,
+            "longitude_deg": 288.9576284194819,
+            "speed_longitude_deg_per_day": 0.03768861911855113,
+            "target_longitude_deg": 288.9576284245599,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Pluto",
+      "name": "Pluto",
+      "glyph": "\u2647",
+      "group": "Planets",
+      "longitude_deg": 230.1937003491077,
+      "latitude_deg": 14.898895115394025,
+      "distance_au": 29.2820604892015,
+      "speed_longitude_deg_per_day": -0.007055241396093314,
+      "speed_latitude_deg_per_day": -0.00877708508345698,
+      "declination_deg": -3.4064465625529428,
+      "retrograde": true,
+      "out_of_bounds": false,
+      "provenance": {
+        "algorithm": "swiss-geocentric-apparent-ecliptic-of-date-v1",
+        "backend": "SWIEPH",
+        "requested_flags": 258,
+        "returned_flags": 258,
+        "equatorial_returned_flags": 2306,
+        "assets": [
+          {
+            "path": "sepl_18.se1",
+            "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+          },
+          {
+            "path": "semo_18.se1",
+            "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+          }
+        ]
+      },
+      "available": true,
+      "sign": "Scorpio",
+      "sign_index": 7,
+      "degree_in_sign": 20.1937003491077,
+      "degree_floor": 20,
+      "decan": 3,
+      "tone": "Scorpio",
+      "pulse": "Cancer",
+      "house": 11,
+      "field": "Aquarius",
+      "true_placement": "Aquarius",
+      "sign_ruler": "Pluto",
+      "spark": null,
+      "display_dms": "Scorpio 20\u00b011\u203237\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": null,
+      "gradity": {
+        "phase": "Retrograde",
+        "status": "VERIFIED",
+        "verification_scope": "documented_method_and_sampled_astronomy",
+        "algorithm": "apparent-geocentric-station-shadow-v1",
+        "root_bracket_tolerance_seconds": 0.1,
+        "boundary_uncertainty_seconds": 0.2,
+        "events": [
+          {
+            "kind": "pregrade_entry",
+            "utc": "1991-11-09T14:32:25.509Z",
+            "jd_ut1": 2448570.105850621,
+            "longitude_deg": 230.14837047348277,
+            "speed_longitude_deg_per_day": 0.0403147700336061,
+            "target_longitude_deg": 230.14837046038494,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_retrograde",
+            "utc": "1992-02-24T21:30:09.272Z",
+            "jd_ut1": 2448677.395937844,
+            "longitude_deg": 232.9565404096672,
+            "speed_longitude_deg_per_day": 4.429710739556397e-10,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "station_direct",
+            "utc": "1992-07-30T21:27:31.897Z",
+            "jd_ut1": 2448834.3941239556,
+            "longitude_deg": 230.14837046038494,
+            "speed_longitude_deg_per_day": 4.261767103032261e-09,
+            "target_longitude_deg": null,
+            "root_bracket_tolerance_seconds": 0.1
+          },
+          {
+            "kind": "postgrade_exit",
+            "utc": "1992-11-17T04:56:50.164Z",
+            "jd_ut1": 2448943.7061380586,
+            "longitude_deg": 232.95654040212554,
+            "speed_longitude_deg_per_day": 0.04021731401605366,
+            "target_longitude_deg": 232.9565404096672,
+            "root_bracket_tolerance_seconds": 0.1
+          }
+        ],
+        "source": {
+          "pdf_pages": [
+            203,
+            476,
+            477
+          ],
+          "reflow_pages": [
+            207,
+            480,
+            481
+          ],
+          "original_printed_pages": [
+            143,
+            569,
+            570
+          ]
+        },
+        "reason": "Source phase from solved stations and shadow crossings."
+      }
+    },
+    {
+      "id": "Ascendant",
+      "name": "Ascendant",
+      "glyph": "AC",
+      "group": "Angles",
+      "longitude_deg": 296.57177375868525,
+      "retrograde": null,
+      "provenance": {
+        "algorithm": "swiss-independent-horizon-angles-v1",
+        "backend": "GEOMETRY",
+        "julian_ut1": 2448821.625699546,
+        "rule": null
+      },
+      "available": true,
+      "sign": "Capricorn",
+      "sign_index": 9,
+      "degree_in_sign": 26.571773758685254,
+      "degree_floor": 26,
+      "decan": 3,
+      "tone": "Capricorn",
+      "pulse": "Virgo",
+      "house": 1,
+      "field": "Aries",
+      "true_placement": "Aries",
+      "sign_ruler": "Saturn",
+      "spark": null,
+      "display_dms": "Capricorn 26\u00b034\u203218\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": false,
+      "gradity": {
+        "phase": null,
+        "status": "NOT_APPLICABLE",
+        "reason": "A mathematical point has no physical retrograde loop.",
+        "events": []
+      }
+    },
+    {
+      "id": "Midheaven",
+      "name": "Midheaven",
+      "glyph": "MC",
+      "group": "Angles",
+      "longitude_deg": 225.82952587113112,
+      "retrograde": null,
+      "provenance": {
+        "algorithm": "swiss-independent-horizon-angles-v1",
+        "backend": "GEOMETRY",
+        "julian_ut1": 2448821.625699546,
+        "rule": null
+      },
+      "available": true,
+      "sign": "Scorpio",
+      "sign_index": 7,
+      "degree_in_sign": 15.829525871131125,
+      "degree_floor": 15,
+      "decan": 2,
+      "tone": "Scorpio",
+      "pulse": "Pisces",
+      "house": 11,
+      "field": "Aquarius",
+      "true_placement": "Aquarius",
+      "sign_ruler": "Pluto",
+      "spark": null,
+      "display_dms": "Scorpio 15\u00b049\u203246\u2033",
+      "input_fingerprint": "4d8aa00a5f89c927e9ede7291f533a2c7e16f02cd1a779e4d9a233bc4da7945f",
+      "placement_provenance": {
+        "whole_sign": {
+          "id": "N9-003",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:Whole Sign house model"
+        },
+        "true_placement": {
+          "id": "N9-004",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:True Placement"
+        },
+        "tone": {
+          "id": "N9-005",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:astronomical sign"
+        },
+        "pulse": {
+          "id": "N9-006",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:227-230"
+        },
+        "ruler": {
+          "id": "N9-007",
+          "version": "1",
+          "status": "READY",
+          "evidence": "book:modern rulers"
+        }
+      },
+      "outgoing_emission": false,
+      "gradity": {
+        "phase": null,
+        "status": "NOT_APPLICABLE",
+        "reason": "A mathematical point has no physical retrograde loop.",
+        "events": []
+      }
+    }
+  ],
+  "warnings": [],
+  "rules": {
+    "whole_sign": {
+      "id": "N9-003",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:Whole Sign house model"
+    },
+    "true_placement": {
+      "id": "N9-004",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:True Placement"
+    },
+    "tone": {
+      "id": "N9-005",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:astronomical sign"
+    },
+    "pulse": {
+      "id": "N9-006",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:227-230"
+    },
+    "ruler": {
+      "id": "N9-007",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:modern rulers"
+    },
+    "parts": {
+      "id": "N9-014",
+      "version": "1",
+      "status": "READY",
+      "evidence": "book:670-678"
+    },
+    "nonagesimal": {
+      "id": "N9-011",
+      "version": "2",
+      "status": "READY",
+      "evidence": "book:661-665; viewer:539-542; Leo AC 13\u00b006 -> Taurus Nona 13\u00b006"
+    },
+    "spark": {
+      "id": "N9-020/021",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Contradictory parity definitions"
+    },
+    "aspects": {
+      "id": "N9-033/034",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Incomplete per-object orbital reach and directional rules"
+    },
+    "progressions": {
+      "id": "N9-038",
+      "version": "1",
+      "status": "BLOCKED",
+      "reason": "Unverified calculation procedure"
+    },
+    "gradity": {
+      "id": "N10-GRADITY",
+      "version": "1",
+      "status": "VERIFIED_FOR_SUPPORTED_PLANETS",
+      "evidence": "PDF 203 (reflow 207, original 143); PDF 476 (reflow 480, original number absent); PDF 477 (reflow 481, original 569-570); evidence/astronomy-followup/mercury-2024-independent-events.json and venus-2025-independent-events.json",
+      "scope": "Documented four-phase formula; Mercury through Pluto station/shadow solver; independent astronomy sampled on Mercury April 2024 and Venus March-April 2025 only. Exact boundaries and competing overlapping shadows remain unassigned; interpretation is not scientifically validated."
+    }
+  },
+  "created_at_utc": "2026-10-28T00:23:26.731760+00:00"
+}
