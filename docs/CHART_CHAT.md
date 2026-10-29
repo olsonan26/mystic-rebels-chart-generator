@@ -4,6 +4,8 @@ Implemented 28 October 2026 in the main Mystic Rebels chart generator. Generate 
 
 **Production release:** deployed at the owner's request on 28 October 2026 to [the existing protected site](https://www.cosmodynamicschart.site/). [Deployment receipt and verification scope](CHART_CHAT_DEPLOYMENT_20261028.md). Build, source integrity, aliases and anonymous access checks passed; the owner explicitly chose to skip an authenticated production chat test. Local real-provider/browser validation remains the evidence for the full conversation flow.
 
+**Latest increment:** [29 October receiving-context release](RECEIVER_CONTEXT_DEPLOYMENT_20261029.md) is READY and promoted from exact source commit `f4b8a8237c05e21f957043e165da33414f0f8621`. It adds source-backed ruled-sector structure and limited conjunction reach. Generate a fresh answer to use the updated knowledge; earlier saved replies preserve their original source snapshots.
+
 ## Run and connect
 
 Add the following to the server's ignored `.env` or intended hosting environment. The template contains no working credential:

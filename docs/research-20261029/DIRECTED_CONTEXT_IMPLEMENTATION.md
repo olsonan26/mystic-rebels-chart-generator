@@ -48,7 +48,7 @@ The portable export now includes11 canonical authorities and publishes the corre
 - The local browser flow passed with a **real OpenRouter reply for a fictional chart** asking how Venus carries Taurus and Libra through its actual houses. All74 entries/two unavailable were visible in the explanation; seven stages, exact JSON export, draft preservation on a mocked failure, reload history, different-chart isolation and mobile bounds passed. Follow-up/error checks were mocked, not additional paid model replies.
 - Source pipeline hashes and all saved OCR locators passed. No new media acquisition, OCR or full-page OCR-line signoff was claimed. The portable export must pass `--check` before ingestion.
 - A Windows Git-archive check exposed automatic CRLF conversion of generated exports. Their paths now explicitly retain LF in Git attributes, preserving published byte hashes across Windows/Linux archives; the final release archive is checked again before promotion.
-- Authenticated production chat testing remains skipped at the owner's prior choice. A production deployment is a separate release step, recorded by its exact commit/deployment receipt when performed.
+- Authenticated production chat testing remains skipped at the owner's prior choice. [The separate production receipt](../RECEIVER_CONTEXT_DEPLOYMENT_20261029.md) records the READY/promotion, exact source commit and anonymous access checks for this increment.
 
 Aggregate local/browser receipt: [receiver-context verification](../../evidence/receiver-context-verification-20261029.json).
 

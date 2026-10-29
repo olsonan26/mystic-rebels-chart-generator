@@ -6,7 +6,7 @@
 
 **Keep the work recoverable:** [GitHub preservation and restore guide](docs/GITHUB_RECOVERY.md). Code and knowledge use this repository; raw private sources and recovery assets use the separate private recovery repository. Live database exports have their own explicit access/verification status.
 
-**Latest implemented source increment:** [29 October directed reach and receiving context](docs/research-20261029/DIRECTED_CONTEXT_IMPLEMENTATION.md). Five pending originals were reconciled, eight assertions added, and the chatbot now has actual ruled-sector/occupant references across the full natal catalog plus a bounded direct-conjunction reach component. Complete aspects, receiving interpretation and forecasts remain open; the release receipt records deployment separately.
+**Latest deployed source increment:** [29 October directed reach and receiving context](docs/research-20261029/DIRECTED_CONTEXT_IMPLEMENTATION.md). Five pending originals were reconciled, eight assertions added, and the chatbot now has actual ruled-sector/occupant references across the full natal catalog plus a bounded direct-conjunction reach component. Complete aspects, receiving interpretation and forecasts remain open. [Release verification and scope](docs/RECEIVER_CONTEXT_DEPLOYMENT_20261029.md).
 
 **Looking for meanings or report knowledge? Start with [REPORT_KNOWLEDGE_START_HERE.md](REPORT_KNOWLEDGE_START_HERE.md).** Read branch `codex/phsr-numerology-integration-20261028`; the default `main` snapshot predates the interpretation audit. [Open the knowledge branch on GitHub](https://github.com/olsonan26/mystic-rebels-chart-generator/tree/codex/phsr-numerology-integration-20261028).
 
