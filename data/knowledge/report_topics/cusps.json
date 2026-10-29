@@ -12632,7 +12632,7 @@
   ],
   "requirement_authority": {
     "path": "data/knowledge/material_requirements.json",
-    "sha256": "d4aa7f879626e04a012ecbe6d9d9c86b442d21c5348c9dacc8df58d7a4620a4e",
+    "sha256": "09cd167ebb0194e2d020f1949d22b6d17c34ecb12ea600327f1a7f18cc2840b9",
     "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "annotation_authority": {

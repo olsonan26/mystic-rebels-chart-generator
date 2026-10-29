@@ -10,7 +10,7 @@
   "code_trace": [
     {
       "path": "mystic_rebels/api.py",
-      "sha256": "3b3284b51eaa808a34855b31f427ab7f846c98f806ecc21a7830b1b1a58cc2bd",
+      "sha256": "d19752639eb87cf7858f9a2c23dc416c341f5df1456db82bf06961af0fb5e84e",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "path": "web/src/App.tsx",
-      "sha256": "82536c3da42fbea40efe29007f1aeafbc01b408d49f10008968cc7357f84d6e8",
+      "sha256": "2cecccc1e051892a745c12bf8f9577c880f1a4fbcff5faa2693c791321c61170",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     {
