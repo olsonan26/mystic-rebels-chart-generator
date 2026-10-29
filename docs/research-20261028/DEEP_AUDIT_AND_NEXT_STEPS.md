@@ -1,5 +1,7 @@
 # Mystic Rebels: source gaps, PHDDASR questions and current situations
 
+**Subsequent implementation:** [Chart chat in the main generator](../CHART_CHAT.md) now provides typed questions, ordered component evidence and dated sky geometry locally. The missing-feature statements below document the pre-implementation audit baseline. Full method/source gaps remain open.
+
 28 October 2026, America/Denver. Baseline: `codex/phsr-numerology-integration-20261028`, commit `392e808f03837359e990ce38a569aa1bc837788b`. This is a fresh source/code review of the existing application and separate local prototype. It preserves their runtime behavior and all existing location-search work. No deployment or full personal-question implementation was performed.
 
 ## Answer to the requested product direction

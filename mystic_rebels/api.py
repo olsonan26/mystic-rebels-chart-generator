@@ -8,15 +8,18 @@ from .models import BirthInput
 from .service import calculate,object_catalog
 from .errors import ChartError
 from . import astronomy
+from .chart_chat import router as chart_chat_router
 
 app=FastAPI(title='Mystic Rebels Chart API',version='0.1.0')
+app.include_router(chart_chat_router)
 
 @app.exception_handler(ChartError)
 async def chart_error(request:Request,exc:ChartError):return JSONResponse(status_code=422,content={'error':exc.record()})
 
 @app.middleware('http')
 async def headers(request,call_next):
-    if request.method=='POST' and int(request.headers.get('content-length','0') or 0)>32768:
+    max_size=131072 if request.url.path.startswith('/api/chart-chat') else 32768
+    if request.method=='POST' and int(request.headers.get('content-length','0') or 0)>max_size:
         return JSONResponse(status_code=413,content={'error':{'code':'PAYLOAD_TOO_LARGE','message':'Chart input is too large.'}})
     response=await call_next(request)
     response.headers['Cache-Control']='no-store' if request.url.path.startswith('/api/chart') else 'no-cache'

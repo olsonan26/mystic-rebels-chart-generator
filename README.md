@@ -1,6 +1,8 @@
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
-**Latest source, PHDDASR and current-transit review:** [28 October deep audit and next steps](docs/research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md). The separate local prototype has partial ordered assessments; typed questions and a current-transit consultation view are still missing from the main chart generator.
+**Chart questions are implemented locally:** generate/reopen a chart to open **“What do you want to know?”**, ask typed follow-up questions through the owner-selected OpenRouter DeepSeek connection, inspect PHDDASR evidence and dated sky geometry, and download the conversation. [Feature, setup, verification and precise limits](docs/CHART_CHAT.md). Full source-qualified directed aspects and forecasting remain incomplete; this change is not deployed.
+
+**Latest source, PHDDASR and current-transit review:** [28 October deep audit and next steps](docs/research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md). Its missing-feature statements describe the earlier audit baseline; the subsequent chart-chat implementation is documented above.
 
 **Keep the work recoverable:** [GitHub preservation and restore guide](docs/GITHUB_RECOVERY.md). Code and knowledge use this repository; raw private sources and recovery assets use the separate private recovery repository. Live database exports have their own explicit access/verification status.
 

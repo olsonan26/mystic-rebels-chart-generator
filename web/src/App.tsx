@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import {
   ArrowDownToLine,
   ChevronDown,
@@ -26,6 +26,8 @@ import { motionStatus, gradityDisplay } from "./gradeity";
 import { GradityDetails, MethodVerification } from "./MethodVerification";
 import { initializeStorage } from "./storage";
 import Account from "./Account";
+import { chatIdentity } from "./chartChatState";
+const ChartChat = lazy(() => import("./ChartChat"));
 
 const EXAMPLE: BirthInput = {
   name: "Example chart",
@@ -99,6 +101,7 @@ export default function App() {
   const requestSeq = useRef(0),
     chartFrame = useRef<HTMLDivElement>(null),
     importRef = useRef<HTMLInputElement>(null);
+  const [chatGeneration, setChatGeneration] = useState(0);
   async function compute(
     birth: BirthInput,
     objects: string[],
@@ -232,6 +235,7 @@ export default function App() {
     if (verified) {
       setInput(verified.input);
       setChosen(verified.input.objects);
+      setChatGeneration((n) => n + 1);
     }
   }
   function svgExport() {
@@ -301,7 +305,9 @@ export default function App() {
             onClick={() => {
               setInput(EXAMPLE);
               setChosen(EXAMPLE.objects);
-              void compute(EXAMPLE, EXAMPLE.objects);
+              void compute(EXAMPLE, EXAMPLE.objects).then((result) => {
+                if (result) setChatGeneration((n) => n + 1);
+              });
             }}
           >
             <RotateCcw size={15} /> Load example
@@ -320,6 +326,7 @@ export default function App() {
                 onSubmit={(e) => {
                   e.preventDefault();
                   void compute(input, chosen).then((result) => {
+                    if (result) setChatGeneration((n) => n + 1);
                     if (
                       result &&
                       window.matchMedia("(max-width:760px)").matches
@@ -1258,6 +1265,11 @@ export default function App() {
           onLoad={loadChart}
           onClose={() => setAccount(false)}
         />
+      )}
+      {chart && (
+        <Suspense fallback={null}>
+          <ChartChat key={chatIdentity(chart.input)} chart={chart} generation={chatGeneration} stale={dirty} obscured={account} />
+        </Suspense>
       )}
     </>
   );

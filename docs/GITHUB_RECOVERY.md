@@ -68,7 +68,7 @@ Until that export is verified, describe the checkpoint as **source and workspace
 
 ## Consultation data going forward
 
-When a question workflow is implemented, save each consultation as a versioned, exportable packet: question and reported context, birth-input uncertainty, chart fingerprint, exact as-of UTC and requested zone/interval, source/rule hashes, calculation results, answer and revision history. Preserve the original on refresh. Persist/export those packets independently of hosted tables and include changed private packets in the next recovery checkpoint. No question storage feature was added by the present audit.
+The subsequent [chart conversation feature](CHART_CHAT.md) saves versioned question/reply history and drafts per chart in browser local storage, with explicit JSON download of the birth input, chart/source fingerprints, exact sky epoch, calculations and answer history. It appends new answers and preserves preceding exchanges. The downloaded file is independently readable; conversation-file import and automatic private cloud/GitHub sync are not implemented. Download important consultations to a private location and deliberately include changed private packets in the next authorized recovery checkpoint. The public source repository never receives customer conversations automatically. Browser storage is separate from Supabase but is not an off-device backup.
 
 ## Verification for this checkpoint
 
