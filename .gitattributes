@@ -1,3 +1,8 @@
 # Research archives and hash-pinned adapters must preserve their original bytes.
 research/astrology-numerology-20261027/** -text whitespace=cr-at-eol,-blank-at-eof
 apps/common-ground/** -text whitespace=cr-at-eol
+
+# Portable exports publish byte-level hashes. Keep their generated LF bytes in
+# Windows checkouts and git archive as well as on the Linux deployment host.
+data/knowledge/report_*.json text eol=lf
+data/knowledge/report_topics/*.json text eol=lf
