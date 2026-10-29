@@ -176,6 +176,58 @@ def test_separate_reviewer_repairs_draft_and_cannot_modify_trusted_facts(birth, 
     assert 'test-credential-not-real' not in json.dumps(result)
 
 
+def test_missing_review_approval_is_repaired_not_blame_the_suggested_question(birth, monkeypatch):
+    monkeypatch.setenv('OPENROUTER_API_KEY', 'test-credential-not-real')
+    calls = []
+    async def provider(messages, key, model):
+        calls.append(messages)
+        # Reproduced live failure: writer-shaped JSON from the review pass.
+        if len(calls) <= 2:
+            return {'claims': [reflection()], 'follow_up': ''}, {}
+        assert 'approved' in messages[-1]['content']
+        return {'approved': True, 'claims': [reflection()], 'follow_up': ''}, {}
+    monkeypatch.setattr(chat, 'complete', provider)
+    result = asyncio.run(chat.answer_question(chat.ChatQuestion(
+        birth=birth, chart_id=chart_fingerprint(birth),
+        question='What patterns stand out in my chart?', include_current=True)))
+    assert result['answer'] == reflection()['text']
+    assert len(calls) == 3
+    for messages in calls[1:]:
+        prompt = messages[0]['content']
+        assert 'exactly claims and follow_up.' not in prompt
+        example = json.loads(prompt.split('JSON example: ')[-1])
+        assert example['approved'] is True
+
+
+def test_missing_approval_cannot_be_assumed_if_repair_also_omits_it(birth, monkeypatch):
+    monkeypatch.setenv('OPENROUTER_API_KEY', 'test-credential-not-real')
+    calls = []
+    async def provider(*args):
+        calls.append(args)
+        return {'claims': [reflection()]}, {}
+    monkeypatch.setattr(chat, 'complete', provider)
+    with pytest.raises(chat.ChatFailure) as error:
+        asyncio.run(chat.answer_question(request(birth)))
+    assert len(calls) == 3
+    assert error.value.code == 'CHAT_UNVERIFIED'
+    assert 'more specific' not in error.value.message
+
+
+def test_review_diagnostics_do_not_log_private_model_or_chart_text(birth, monkeypatch, caplog):
+    monkeypatch.setenv('OPENROUTER_API_KEY', 'test-credential-not-real')
+    private_text = 'PRIVATE-CONVERSATION-DO-NOT-LOG'
+    async def provider(*args):
+        return {'claims': [dict(reflection(), text=private_text)], 'follow_up': ''}, {}
+    monkeypatch.setattr(chat, 'complete', provider)
+    with pytest.raises(chat.ChatFailure):
+        asyncio.run(chat.answer_question(request(birth)))
+    assert 'chart_chat_review_invalid' in caplog.text
+    assert 'category=schema' in caplog.text
+    assert private_text not in caplog.text
+    assert birth.name not in caplog.text
+    assert 'test-credential-not-real' not in caplog.text
+
+
 @pytest.mark.parametrize('review', [
     {'approved': True, 'claims': [dict(reflection(), source_ids=['fake-source'])]},
     {'approved': True, 'claims': [dict(reflection(), source_ids=['spark-entry'])]},
@@ -194,6 +246,8 @@ def test_noncompliant_reviewer_cannot_override_final_gates(birth, monkeypatch, r
     with pytest.raises(chat.ChatFailure) as error:
         asyncio.run(chat.answer_question(request(birth)))
     assert error.value.code == 'CHAT_UNVERIFIED'
+    if review.get('approved') is False:
+        assert count == 2  # Explicit rejection never triggers approval shopping.
 
 
 def test_missing_key_fails_without_sending_or_leaking_a_credential(birth, monkeypatch):
