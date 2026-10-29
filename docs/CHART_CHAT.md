@@ -2,6 +2,8 @@
 
 Implemented 28 October 2026 in the main Mystic Rebels chart generator. Generate a chart, explicitly load the example, import chart JSON or reopen a saved chart: the conversation panel opens with **“What do you want to know?”** The initial automatically displayed example offers a launcher without opening the panel. Typed questions and follow-ups are supported; answers are generated rather than chosen from four canned topics.
 
+**Production release:** deployed at the owner's request on 28 October 2026 to [the existing protected site](https://www.cosmodynamicschart.site/). [Deployment receipt and verification scope](CHART_CHAT_DEPLOYMENT_20261028.md). Build, source integrity, aliases and anonymous access checks passed; the owner explicitly chose to skip an authenticated production chat test. Local real-provider/browser validation remains the evidence for the full conversation flow.
+
 ## Run and connect
 
 Add the following to the server's ignored `.env` or intended hosting environment. The template contains no working credential:
@@ -11,7 +13,7 @@ OPENROUTER_API_KEY=
 OPENROUTER_MODEL=deepseek/deepseek-v4.1-flash-1017
 ```
 
-Install `requirements.txt`, run `npm run build`, then run `python scripts/run.py` using the documented local runtime. Open `http://127.0.0.1:8000`, generate a chart and type a question. The owner-selected OpenRouter connection is configured locally. A different host needs its own environment configuration and deployment; no deployment is included in this change.
+Install `requirements.txt`, run `npm run build`, then run `python scripts/run.py` using the documented local runtime. Open `http://127.0.0.1:8000`, generate a chart and type a question. The owner-selected OpenRouter connection is configured locally and on the existing Vercel project's Production environment. A different host needs its own environment configuration and deployment.
 
 The browser sends birth-input context, its chart fingerprint, the question, the last 20 user/assistant messages and the requested sky date to the application server. The server reconstructs trusted positions and sends these, reviewed source evidence and conversational context to OpenRouter for writer and separate reviewer passes. Credentials stay in the server environment. They are excluded from Git, downloads and recovery archives. The existing hosted `SitePasswordGate` wraps the new routes too.
 
@@ -47,4 +49,4 @@ All **414 backend tests** and **138 frontend tests** passed; the production buil
 
 `scripts/verify_chart_chat_browser.cjs` reproduces the browser flow against a running local server. It requires Playwright with Chrome available and explicit `RUN_LIVE_CHAT_QA=1`, because it makes one real fictional paid request. `PLAYWRIGHT_MODULE` can point to the desktop runtime's installed Playwright package when it is not installed in the project. Debug transcripts, exports and screenshots are written only under ignored `tmp/`. No account/saved-chart cloud access or deployed customer flow was independently verified.
 
-Remaining work: complete the prioritized primary-source method gaps in [the audit](research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md); add a deliberate private consultation import/sync/export service if desired; obtain authorized live database exports; configure the intended hosting environment and verify its non-admin customer path before claiming production availability.
+Remaining work: complete the prioritized primary-source method gaps in [the audit](research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md); add a deliberate private consultation import/sync/export service if desired; obtain authorized live database exports; verify the deployed authenticated conversation/customer path when the owner requests that check. Deployment readiness and protected public responses do not establish a successful production model reply.

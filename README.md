@@ -1,6 +1,6 @@
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
-**Chart questions are implemented locally:** generate/reopen a chart to open **“What do you want to know?”**, ask typed follow-up questions through the owner-selected OpenRouter DeepSeek connection, inspect PHDDASR evidence and dated sky geometry, and download the conversation. [Feature, setup, verification and precise limits](docs/CHART_CHAT.md). Full source-qualified directed aspects and forecasting remain incomplete; this change is not deployed.
+**Chart questions are deployed:** generate/reopen a chart to open **“What do you want to know?”**, ask typed follow-up questions through the owner-selected OpenRouter DeepSeek connection, inspect PHDDASR evidence and dated sky geometry, and download the conversation. [Open the protected production site](https://www.cosmodynamicschart.site/). [Feature, setup and limits](docs/CHART_CHAT.md); [deployment verification and its scope](docs/CHART_CHAT_DEPLOYMENT_20261028.md). Full source-qualified directed aspects and forecasting remain incomplete. The owner chose deployment without an authenticated production chat test.
 
 **Latest source, PHDDASR and current-transit review:** [28 October deep audit and next steps](docs/research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md). Its missing-feature statements describe the earlier audit baseline; the subsequent chart-chat implementation is documented above.
 
