@@ -2926,61 +2926,84 @@
       "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
       "name": "IMG_4629.jpg",
       "image_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "208"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "delegate-condition",
+        "directional-context"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
       "name": "IMG_4630.jpg",
       "image_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "209"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
       "name": "IMG_4631.jpg",
       "image_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "210"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
       "name": "IMG_4632.jpg",
       "image_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "211"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "objective-context",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
       "name": "IMG_4633.jpg",
       "image_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
-      "inspected_printed_headers": [],
-      "printed_header_basis": "UNKNOWN",
-      "header_system": "UNKNOWN_UNINSPECTED",
-      "concepts": [],
+      "inspected_printed_headers": [
+        "212"
+      ],
+      "printed_header_basis": "VISUAL_HEADER",
+      "header_system": "ARABIC_PRINTED",
+      "concepts": [
+        "objective-context",
+        "delegate-condition"
+      ],
       "pdf_candidates": [],
-      "reconciliation_status": "UNRECONCILED",
-      "review_scope": "PENDING_TARGETED_REVIEW"
+      "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+      "review_scope": "TARGETED_NOT_FULL_PAGE_APPROVAL"
     },
     {
       "file_id": "1g7bhyCZ8PmJfo9Y51pjFi2k0IplvCwg3",

@@ -6,9 +6,10 @@ from pathlib import Path
 import re
 
 from knowledge_audit.report_components import usage_catalog
+from .relationship_context import validate_profile
 
 ROOT = Path(__file__).resolve().parents[1]
-AUTHORITIES = ('concepts', 'assertions', 'findings', 'requirements', 'meaning_profiles')
+AUTHORITIES = ('concepts', 'assertions', 'findings', 'requirements', 'meaning_profiles', 'relationship_profiles')
 FOUNDATION = ('objective-context', 'agency', 'phsr', 'planet-lexicon', 'house-field',
               'tone-pulse', 'spark-entry', 'delegate-condition', 'directional-context')
 TOPICS = {
@@ -51,6 +52,7 @@ def _load(root_name, stamps):
         if ref['hash_normalization'] != 'UTF8_UNIVERSAL_NEWLINES' or sha != ref['sha256']:
             raise ValueError('Knowledge authority changed; rebuild the portable export')
         data[key], hashes[key] = json.loads(text), sha
+    validate_profile(data['relationship_profiles'], data['assertions'])
     catalog = usage_catalog(data['concepts'], data['assertions'], data['findings'], data['meaning_profiles'])
     return data, {r['concept_id']: r for r in catalog['components']}, {
         'manifest_sha256': hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
@@ -72,6 +74,12 @@ def question_packet(question, chart, history=()):
     # never used to promote a hypothesis into source or chart evidence.
     query = tokens(question + ' ' + ' '.join(t['content'] for t in history[-4:] if t['role'] == 'user'))
     selected, roots = [], set(FOUNDATION)
+    # Every numeric/structural rule sent to the writer retains its original
+    # assertion and concept dependencies, even in a short follow-up.
+    profile = data['relationship_profiles']
+    profile_assertions = {a for row in [*profile['numeric_reach'].values(), profile['conjunction'], profile['receiver_context']]
+                          for a in row['assertion_ids']}
+    roots.update(a['concept_id'] for a in data['assertions']['assertions'] if a['id'] in profile_assertions)
     for match in re.finditer(r'\b(?:house\s*(1[0-2]|[1-9])|(1[0-2]|[1-9])(?:st|nd|rd|th)\s+house)\b', question, re.I):
         roots.add(f'field-{int(match.group(1) or match.group(2)):02d}')
     for name, (words, ids) in TOPICS.items():
@@ -166,6 +174,7 @@ def question_packet(question, chart, history=()):
             'components': components, 'assertions': assertions, 'findings': findings,
             'witness_ledger': ledger,
             'requirements': requirements, 'fingerprint': fingerprint,
+            'relationship_profiles': data['relationship_profiles'],
             'external_library_fallback_allowed': False,
             'complete_personal_report_approved': False,
             'selected_sequence': 'Planet -> House -> Degree -> Decan -> Aspects -> Sign -> Ruler',

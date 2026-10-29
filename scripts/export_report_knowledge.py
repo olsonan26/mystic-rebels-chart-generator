@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from knowledge_audit.report_components import usage_catalog
-BRANCH = 'codex/methodology-verification-20261024'
+BRANCH = 'codex/phsr-numerology-integration-20261028'
 REPOSITORY = 'https://github.com/olsonan26/mystic-rebels-chart-generator'
 SOURCES = {
     'concepts': 'interpretive_inventory.json',
@@ -25,6 +25,7 @@ SOURCES = {
     'initial_original_reviews': 'source_review_updates.json',
     'continuation_original_reviews': 'source_review_continuation.json',
     'meaning_profiles': 'source_meaning_profiles.json',
+    'relationship_profiles': 'relationship_rule_profiles.json',
 }
 
 
@@ -95,7 +96,7 @@ def build():
             signs='All twelve original sign core entries are recovered in source_meaning_profiles.json; full sign/ruler/aspect synthesis is not approved by core vocabulary coverage.',
             keywords='Reviewed meaning_summary/proposition/review text contains vocabulary. These are contextual source summaries, not unrestricted keyword-to-personality rules.',
             outstanding='Unreviewed images, failed OCR and unresolved semantic/numerical conflicts remain; consult the current audit checkpoint and exact queues for counts.',
-            implementation='Report synthesis and the chart-context graph remain absent; all 18 report sections are unready.'),
+            implementation='Bounded chat and partial source-bound condition/reach components exist; complete report synthesis and all 18 full report sections remain unready.'),
         authorities=authorities, documents=documents)
     catalog=usage_catalog(documents['concepts'],documents['assertions'],documents['findings'],documents['meaning_profiles'])
     catalog_path='data/knowledge/report_component_use.json'
@@ -136,6 +137,8 @@ def build():
                 disposition=r['disposition'],personal_answer_approved=r['personal_answer_approved'])
                 for r in requirements if selected.intersection(r.get('concept_ids',[]))],
             requirement_authority=authorities['requirements'],
+            relationship_component_authority=authorities['relationship_profiles'],
+            relationship_components=documents['relationship_profiles'] if topic in ('aspects', 'report_context') else None,
             annotation_authority=authorities['annotations'],
             media_limit='Only reviewed text and witness metadata; private source media/indexes are not included.')
         path='data/knowledge/report_topics/'+topic+'.json'

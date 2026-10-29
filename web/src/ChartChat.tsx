@@ -13,6 +13,9 @@ const Evidence = memo(function Evidence({ evidence }: { evidence: ChatEvidence }
   const facts = Object.values(evidence.facts).filter((p) => p?.layer === "natal" && evidence.assessments[p.id]);
   const sky = evidence.current_sky;
   const skyPoints = Object.values(evidence.facts).filter((p) => p?.layer === "sky");
+  const graph = evidence.condition_graph;
+  const condition = graph?.nodes[`natal:${point}`];
+  const reach = graph?.direct_conjunction_reach.filter((c) => c.sender === `natal:${point}` || c.receiver === `natal:${point}`) ?? [];
   const closest = [...(sky?.sky_to_natal_geometry ?? [])].sort((a, b) => a[4] - b[4]).slice(0, 10);
   return <details className="chart-chat-evidence">
     <summary>Why this answer? <ChevronDown size={14} /></summary>
@@ -31,6 +34,19 @@ const Evidence = memo(function Evidence({ evidence }: { evidence: ChatEvidence }
             .map(([key, value]) => `${key.replaceAll("_", " ")}: ${String(value)}`).join("; ")}</small>
         </li>)}</ol>
         <p>Ruler route: {assessment.ruler_route.path.join(" → ")}{assessment.ruler_route.repeat ? ` → ${assessment.ruler_route.repeat} (repeats)` : ""}.</p>
+        {condition && <details>
+          <summary>Ruler and receiving context</summary>
+          <p>Sign ruler: {condition.sign_ruler_ref?.replace("natal:", "") ?? "Unresolved"}. House Delegate: {condition.house_delegate_ref?.replace("natal:", "") ?? "Unresolved"}.</p>
+          {condition.ruled_areas.map((area) => <div key={area.sign}>
+            <strong>{area.sign} · {area.house ? `House ${area.house}` : "House unresolved"}</strong>
+            <p>{area.occupant_condition_refs.length ? area.occupant_condition_refs.map((ref) => ref.replace("natal:", "")).join(", ") : "No available catalog occupants in this sector."}</p>
+          </div>)}
+          <p>{graph?.evaluated_catalog_ids.length} catalog entries evaluated; {graph?.unavailable.length} unavailable. Hidden wheel objects are included. Placement, direct motion and ruler-carried context remain separate.</p>
+          {reach.length > 0 && <><h4>Documented conjunction reach</h4><ul>{reach.map((c) => <li key={c.id}>
+            {c.sender.replace("natal:", "")} → {c.receiver.replace("natal:", "")} · {c.separation_deg.toFixed(3)}° separation within the sender’s {c.radius_deg}° source radius.
+          </li>)}</ul></>}
+          <p>This is a partial geometric component. Other aspects, complete receiving interpretation and exact radius boundaries remain unresolved. No controlling final ruler is inferred.</p>
+        </details>}
       </>}
       {sky && <>
         <h4>Sky context</h4>

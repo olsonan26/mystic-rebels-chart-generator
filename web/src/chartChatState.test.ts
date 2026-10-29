@@ -30,6 +30,7 @@ describe("chart conversation isolation and recovery", () => {
     expect(isChatReply(reply)).toBe(true);
     expect(isChatReply({ ...reply, evidence: { ...reply.evidence, assessments: { Sun: { stages: "bad" } } } })).toBe(false);
     expect(isChatReply({ ...reply, evidence: { ...reply.evidence, current_sky: { as_of_utc: "now", sky_to_natal_geometry: [["Sun", "Moon", null]] } } })).toBe(false);
+    expect(isChatReply({ ...reply, evidence: { ...reply.evidence, condition_graph: { nodes: "bad", direct_conjunction_reach: [] } } })).toBe(false);
   });
   it("sends only user/assistant text history, keeping full local records intact", () => {
     const turns = Array.from({ length: 15 }, (_, i) => ({ ...exchange, id: String(i), question: `Question ${i}` }));

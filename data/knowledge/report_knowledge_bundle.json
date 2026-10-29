@@ -3,7 +3,7 @@
   "contract": {
     "scope": "SAVED_SOURCE_AUDIT_KNOWLEDGE_NOT_APPROVED_PERSONAL_REPORT_RULES",
     "required_repository": "https://github.com/olsonan26/mystic-rebels-chart-generator",
-    "required_ref": "codex/methodology-verification-20261024",
+    "required_ref": "codex/phsr-numerology-integration-20261028",
     "default_branch_main_contains_this_knowledge": false,
     "all_important_knowledge_covered": false,
     "personal_answer_approved": false,
@@ -27,14 +27,14 @@
   },
   "counts": {
     "concepts": 131,
-    "assertions": 267,
+    "assertions": 275,
     "requirements": 207,
     "findings": 50,
     "capabilities": 44,
     "worked_examples": 30,
     "annotations": 609,
     "initial_review_records": 44,
-    "continuation_review_records": 683,
+    "continuation_review_records": 688,
     "report_sections": 18,
     "ready_report_sections": 0
   },
@@ -146,7 +146,7 @@
     "signs": "All twelve original sign core entries are recovered in source_meaning_profiles.json; full sign/ruler/aspect synthesis is not approved by core vocabulary coverage.",
     "keywords": "Reviewed meaning_summary/proposition/review text contains vocabulary. These are contextual source summaries, not unrestricted keyword-to-personality rules.",
     "outstanding": "Unreviewed images, failed OCR and unresolved semantic/numerical conflicts remain; consult the current audit checkpoint and exact queues for counts.",
-    "implementation": "Report synthesis and the chart-context graph remain absent; all 18 report sections are unready."
+    "implementation": "Bounded chat and partial source-bound condition/reach components exist; complete report synthesis and all 18 full report sections remain unready."
   },
   "authorities": {
     "concepts": {
@@ -156,12 +156,12 @@
     },
     "assertions": {
       "path": "data/knowledge/original_assertions.json",
-      "sha256": "f301fa5bdcedd5d8c05842dc74eb718887d120a60d95e6489763a78487f49152",
+      "sha256": "dfa53a215ce9b09b2325a3e4b4e29881e2e450d604ec7e8e0f98f9a9cfc486a7",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "requirements": {
       "path": "data/knowledge/material_requirements.json",
-      "sha256": "09cd167ebb0194e2d020f1949d22b6d17c34ecb12ea600327f1a7f18cc2840b9",
+      "sha256": "b88b886cedbb6962fc216d199dea4b48da70486592bbb334d599f204f36ebcd5",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "findings": {
@@ -191,12 +191,17 @@
     },
     "continuation_original_reviews": {
       "path": "data/knowledge/source_review_continuation.json",
-      "sha256": "535533b621188403922b7ed982b51a19042db1ef41a90d5dafe1262839c3d637",
+      "sha256": "8582b03b20b11726285c8747b5e2e63b94eb52d451c160793f8df10ebe9db17d",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "meaning_profiles": {
       "path": "data/knowledge/source_meaning_profiles.json",
       "sha256": "8e3f296bd5e68ab4fee55997a008e44b08ecec8af468c5272bd8a8c70bdb7928",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "relationship_profiles": {
+      "path": "data/knowledge/relationship_rule_profiles.json",
+      "sha256": "5b08302497a276def1075b7ba73fbd2910b5cff6add5d00ad20b58b4c03ae58d",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     }
   },
@@ -15130,6 +15135,225 @@
               ]
             }
           ],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate208-reverse-sector-occupants",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The worked Moon condition includes its ruled Cancer sector and that sector North Node before following the Moon Aquarius ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Worked topology only; no autobiography transfer or mathematical-point emission rule."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "original_printed_pages": [
+                "208"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate209-no-final-ruler",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "A Delegate carries ruled-area contents; a terminal, self-ruled or repeated planet is not a controlling final ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Complete condition is still required; graph repetition does not multiply strength."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "original_printed_pages": [
+                "209"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate210-layer-before-carriage",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "Assess each layer energies and variables before carrying its precise context through its ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Structural prerequisite, not a complete synthesis algorithm or a personal outcome."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "original_printed_pages": [
+                "210"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate210-gemini-cancer-house-example",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "Gemini Rising places Cancer in H2, so Moon carries that actual sector alongside its own function.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Whole Sign topology fixture; not a universal Moon/money or Venus/H2 assignment."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "original_printed_pages": [
+                "210"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "lens211-whole-chart-context",
+          "concept_id": "objective-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "A question Lens adjusts relevance across the whole chart; H7 alone is partner/relating context rather than a complete relationship reading.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "No rigid one-house reading, strength ranking or empirical accuracy claim."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "original_printed_pages": [
+                "211"
+              ]
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "original_printed_pages": [
+                "212"
+              ]
+            }
+          ],
+          "requires_concepts": [
+            "delegate-condition",
+            "directional-context"
+          ],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "conjunction240241-core-reach",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The within-ecosystem conjunction examples test each planet reach to the other exact coordinate. A wider reach can connect the pair when the narrower one cannot; overlap of radii alone does not make direct conjunction.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Saturn7.5 is approximate; exact OOI boundary ownership, interpretive order, other aspect caps and Fringe synthesis are not supplied by these examples."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+              "name": "IMG_4661.jpg",
+              "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+              "original_printed_pages": [
+                "240"
+              ]
+            },
+            {
+              "file_id": "1nek0n2UHTNbFYYoPJ63vkBf80VcHP1no",
+              "name": "IMG_4662.jpg",
+              "content_sha256": "06b261ba3c2c01ca7425dcc54b80880fa8dce3f06a5e6367bba58d05218de6e6",
+              "original_printed_pages": [
+                "241"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "transit245-no-natal-outgoing",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "When reading transits, natal OOI is not added or emitted outward into the current sky; receiving response is distinct from physical initiation.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Between-ecosystem physical direction; does not equate interpretive notation with emission or complete a transit model."
+          ],
+          "witnesses": [
+            {
+              "file_id": "13TUQXGBSIsXiO006Tk5B-ieRo6VxjPfB",
+              "name": "IMG_4666.jpg",
+              "content_sha256": "47f73e2674e7b5fe0b04bc795656de0d3bda0a4a0ece1c32fc4060606c3af642",
+              "original_printed_pages": [
+                "245"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "conjunction373-mutual-endpoints",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The True Stellium example requires mutual reach between the first and last planets and separately notes a smaller-radius middle Moon may not reach an endpoint.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "A connected chain is not proof that every pair is mutually connected; this example does not complete general cluster interpretation."
+          ],
+          "witnesses": [
+            {
+              "file_id": "13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+              "name": "IMG_4809.jpg",
+              "content_sha256": "76724ee305064f38fcb92cd0dbd9861ccb5a217e4754687f3a2b6f06e6588261",
+              "original_printed_pages": [
+                "373"
+              ]
+            }
+          ],
+          "requires_concepts": [],
           "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
           "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
           "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
@@ -32252,6 +32476,40 @@
                 "objective-context"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -32265,7 +32523,8 @@
             "agency952-choice-claim",
             "agency953-spiritual-modeling-limit",
             "agency969-headline-limit",
-            "lexicon-q-r-context-first"
+            "lexicon-q-r-context-first",
+            "lens211-whole-chart-context"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -34143,6 +34402,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -34159,7 +34435,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -34231,7 +34510,20 @@
           },
           "disposition": "source found but implementation missing",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: incoming direct conjunction-reach evidence only; complete directed relationships remain open.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M02-01-02",
@@ -36067,6 +36359,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -36083,7 +36392,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -36155,7 +36467,20 @@
           },
           "disposition": "source found but implementation missing",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: outgoing direct conjunction-reach evidence only; mathematical points never gain physical emission.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M02-02-01",
@@ -38802,6 +39127,89 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -38819,7 +39227,14 @@
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
             "relocation826-nonconjunction-lines",
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -38914,7 +39329,20 @@
           },
           "disposition": "source found but implementation missing",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: typed receiving-context structure; complete directed/aspect/ruler interpretation remains open.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M02-03-01",
@@ -39767,10 +40195,97 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -39861,7 +40376,20 @@
           },
           "disposition": "source found but implementation missing",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: ruled-sector occupant/condition references; no completed Delegate synthesis.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M02-03-02",
@@ -40714,10 +41242,97 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -40808,7 +41423,20 @@
           },
           "disposition": "source found but implementation missing",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: finite ruler cycles and separate responsibilities; no final-ruler hierarchy.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M03-01-01",
@@ -41819,10 +42447,97 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -48498,6 +49213,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -48514,7 +49246,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -48586,7 +49321,20 @@
           },
           "disposition": "source incomplete",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: five explicit numeric parameters; approximate and missing entries stay unresolved.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M05-01-02",
@@ -50422,6 +51170,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -50438,7 +51203,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -50510,7 +51278,20 @@
           },
           "disposition": "source incomplete",
           "remaining_work": "Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.",
-          "personal_answer_approved": false
+          "personal_answer_approved": false,
+          "partial_component_evidence": {
+            "source_profile": "data/knowledge/relationship_rule_profiles.json",
+            "progress": "PARTIAL: conjunction reach component only; full aspect graph is not approved.",
+            "implementation_files": [
+              "mystic_rebels/relationship_context.py",
+              "mystic_rebels/chat_context.py"
+            ],
+            "component_tests": [
+              "astronomy_qa/test_relationship_context.py"
+            ],
+            "complete_requirement_resolved": false,
+            "actual_report_use_scope": "The existing ABSENT field refers to complete section synthesis, not these bounded chat components."
+          }
         },
         {
           "id": "M05-02-01",
@@ -67001,10 +67782,97 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -68931,6 +69799,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -68947,7 +69832,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -71614,13 +72502,100 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
             "parts670-day-only",
             "parts673-receiver-exactitude",
             "parts679-two-stage-expression",
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -84177,6 +85152,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -84200,7 +85192,10 @@
             "polarity461-six-context-axes",
             "quinconic472-house-sequence",
             "sextile478-two-threads",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -87324,6 +88319,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -87347,7 +88359,10 @@
             "polarity461-six-context-axes",
             "quinconic472-house-sequence",
             "sextile478-two-threads",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -103013,11 +104028,98 @@
                 "delegate-condition"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "local_path": "reference/originals/1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z.jpg",
+              "original_printed_page": "209",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "local_path": "reference/originals/1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ.jpg",
+              "original_printed_page": "210",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+              "linked_concept_ids": [
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "local_path": "reference/originals/1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn.jpg",
+              "original_printed_page": "211",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "local_path": "reference/originals/12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK.jpg",
+              "original_printed_page": "212",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+              "linked_concept_ids": [
+                "objective-context",
+                "delegate-condition"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
             "lexicon-u-phd2sar-order",
-            "sign185-modern-rulership-map"
+            "sign185-modern-rulership-map",
+            "delegate208-reverse-sector-occupants",
+            "delegate209-no-final-ruler",
+            "delegate210-layer-before-carriage",
+            "delegate210-gemini-cancer-house-example"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -105003,6 +106105,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -105019,7 +106138,10 @@
             "solar-ten-lunar-three-scope",
             "resolution-planet2-context",
             "venus373-five-degree-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -124080,6 +125202,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -124100,7 +125239,10 @@
             "synastry538-separate-ecosystems",
             "synastry540-relocated-overlay",
             "synastry543-one-way-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -126484,6 +127626,23 @@
                 "spectrum-meanings"
               ],
               "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
+            },
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "source_authority": "ORIGINAL_BATCH_PHOTOGRAPH",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "local_path": "reference/originals/1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt.jpg",
+              "original_printed_page": "208",
+              "pdf_pages": [],
+              "reflow_footer": null,
+              "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+              "review_summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+              "linked_concept_ids": [
+                "delegate-condition",
+                "directional-context"
+              ],
+              "use": "AUDIT_WITNESS_NOT_REPORT_APPROVAL"
             }
           ],
           "original_atomic_assertion_ids": [
@@ -126504,7 +127663,10 @@
             "synastry538-separate-ecosystems",
             "synastry540-relocated-overlay",
             "synastry543-one-way-ooi",
-            "relocation826-nonconjunction-lines"
+            "relocation826-nonconjunction-lines",
+            "conjunction240241-core-reach",
+            "transit245-no-natal-outgoing",
+            "conjunction373-mutual-endpoints"
           ],
           "applicability": "Only in the listed chart context; dependencies and exclusions must be evaluated before personal use.",
           "exclusions": [
@@ -170278,6 +171440,114 @@
           "duplicate_content_status": "NO_DUPLICATE_CLAIM",
           "visible_page_count": 1,
           "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+        },
+        {
+          "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+          "name": "IMG_4629.jpg",
+          "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+          "printed_page_ids": [
+            "208"
+          ],
+          "printed_page_basis": "VISUAL_HEADER",
+          "concept_ids": [
+            "delegate-condition",
+            "directional-context"
+          ],
+          "summary": "The worked Aquarius Moon/H7 carries Cancer/H12 and its North Node before forward reference to Uranus. Interpretive point notation is not physical emission.",
+          "pdf_pages": [],
+          "candidate_pdf_overlaps": [],
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+          "visual_review_scope": "COMPLETE_PAGE_VISUAL_READING_TARGETED_SEMANTICS_NOT_FULL_TRANSCRIPTION",
+          "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+          "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+          "visible_page_count": 1,
+          "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+        },
+        {
+          "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+          "name": "IMG_4630.jpg",
+          "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+          "printed_page_ids": [
+            "209"
+          ],
+          "printed_page_basis": "VISUAL_HEADER",
+          "concept_ids": [
+            "delegate-condition"
+          ],
+          "summary": "Delegate condition includes all ruled-area contents, not merely a forward sign-ruler chain. A terminal or self-ruled planet is not a dominating final ruler.",
+          "pdf_pages": [],
+          "candidate_pdf_overlaps": [],
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+          "visual_review_scope": "COMPLETE_PAGE_VISUAL_READING_TARGETED_SEMANTICS_NOT_FULL_TRANSCRIPTION",
+          "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+          "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+          "visible_page_count": 1,
+          "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+        },
+        {
+          "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+          "name": "IMG_4631.jpg",
+          "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+          "printed_page_ids": [
+            "210"
+          ],
+          "printed_page_basis": "VISUAL_HEADER",
+          "concept_ids": [
+            "delegate-condition"
+          ],
+          "summary": "Assess each layer before carrying its context through the ruler. Gemini Rising puts Cancer in H2; Moon carries that actual sector while retaining its own function.",
+          "pdf_pages": [],
+          "candidate_pdf_overlaps": [],
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+          "visual_review_scope": "COMPLETE_PAGE_VISUAL_READING_TARGETED_SEMANTICS_NOT_FULL_TRANSCRIPTION",
+          "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+          "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+          "visible_page_count": 1,
+          "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+        },
+        {
+          "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+          "name": "IMG_4632.jpg",
+          "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+          "printed_page_ids": [
+            "211"
+          ],
+          "printed_page_basis": "VISUAL_HEADER",
+          "concept_ids": [
+            "objective-context",
+            "delegate-condition"
+          ],
+          "summary": "A question-specific Lens considers the whole chart. H7 alone is partner/relating context, not a complete love reading; H10 alone is not a complete career reading.",
+          "pdf_pages": [],
+          "candidate_pdf_overlaps": [],
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+          "visual_review_scope": "COMPLETE_PAGE_VISUAL_READING_TARGETED_SEMANTICS_NOT_FULL_TRANSCRIPTION",
+          "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+          "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+          "visible_page_count": 1,
+          "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
+        },
+        {
+          "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+          "name": "IMG_4633.jpg",
+          "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+          "printed_page_ids": [
+            "212"
+          ],
+          "printed_page_basis": "VISUAL_HEADER",
+          "concept_ids": [
+            "objective-context",
+            "delegate-condition"
+          ],
+          "summary": "The Lens continuation requires the whole chart and distinguishes relationship subtopics across different houses. Topic relevance is not a fixed single-house classification.",
+          "pdf_pages": [],
+          "candidate_pdf_overlaps": [],
+          "reconciliation_status": "ORIGINAL_PASSAGE_NOT_LOCATED_BY_CANDIDATE_SEARCH",
+          "visual_review_scope": "COMPLETE_PAGE_VISUAL_READING_TARGETED_SEMANTICS_NOT_FULL_TRANSCRIPTION",
+          "image_quality": "TARGET_PASSAGES_READABLE_PHOTOGRAPH",
+          "duplicate_content_status": "NO_DUPLICATE_CLAIM",
+          "visible_page_count": 1,
+          "semantic_status": "TARGETED_PASSAGE_RECONCILIATION_NOT_EXHAUSTIVE"
         }
       ],
       "assertions": [
@@ -177843,6 +179113,225 @@
           "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
           "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
           "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate208-reverse-sector-occupants",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The worked Moon condition includes its ruled Cancer sector and that sector North Node before following the Moon Aquarius ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Worked topology only; no autobiography transfer or mathematical-point emission rule."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+              "name": "IMG_4629.jpg",
+              "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+              "original_printed_pages": [
+                "208"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate209-no-final-ruler",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "A Delegate carries ruled-area contents; a terminal, self-ruled or repeated planet is not a controlling final ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Complete condition is still required; graph repetition does not multiply strength."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+              "name": "IMG_4630.jpg",
+              "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+              "original_printed_pages": [
+                "209"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate210-layer-before-carriage",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "Assess each layer energies and variables before carrying its precise context through its ruler.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Structural prerequisite, not a complete synthesis algorithm or a personal outcome."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "original_printed_pages": [
+                "210"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "delegate210-gemini-cancer-house-example",
+          "concept_id": "delegate-condition",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "Gemini Rising places Cancer in H2, so Moon carries that actual sector alongside its own function.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Whole Sign topology fixture; not a universal Moon/money or Venus/H2 assignment."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+              "name": "IMG_4631.jpg",
+              "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+              "original_printed_pages": [
+                "210"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "lens211-whole-chart-context",
+          "concept_id": "objective-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "A question Lens adjusts relevance across the whole chart; H7 alone is partner/relating context rather than a complete relationship reading.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "No rigid one-house reading, strength ranking or empirical accuracy claim."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+              "name": "IMG_4632.jpg",
+              "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+              "original_printed_pages": [
+                "211"
+              ]
+            },
+            {
+              "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+              "name": "IMG_4633.jpg",
+              "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+              "original_printed_pages": [
+                "212"
+              ]
+            }
+          ],
+          "requires_concepts": [
+            "delegate-condition",
+            "directional-context"
+          ],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "conjunction240241-core-reach",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The within-ecosystem conjunction examples test each planet reach to the other exact coordinate. A wider reach can connect the pair when the narrower one cannot; overlap of radii alone does not make direct conjunction.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Saturn7.5 is approximate; exact OOI boundary ownership, interpretive order, other aspect caps and Fringe synthesis are not supplied by these examples."
+          ],
+          "witnesses": [
+            {
+              "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+              "name": "IMG_4661.jpg",
+              "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+              "original_printed_pages": [
+                "240"
+              ]
+            },
+            {
+              "file_id": "1nek0n2UHTNbFYYoPJ63vkBf80VcHP1no",
+              "name": "IMG_4662.jpg",
+              "content_sha256": "06b261ba3c2c01ca7425dcc54b80880fa8dce3f06a5e6367bba58d05218de6e6",
+              "original_printed_pages": [
+                "241"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "transit245-no-natal-outgoing",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "When reading transits, natal OOI is not added or emitted outward into the current sky; receiving response is distinct from physical initiation.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "Between-ecosystem physical direction; does not equate interpretive notation with emission or complete a transit model."
+          ],
+          "witnesses": [
+            {
+              "file_id": "13TUQXGBSIsXiO006Tk5B-ieRo6VxjPfB",
+              "name": "IMG_4666.jpg",
+              "content_sha256": "47f73e2674e7b5fe0b04bc795656de0d3bda0a4a0ece1c32fc4060606c3af642",
+              "original_printed_pages": [
+                "245"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
+        },
+        {
+          "id": "conjunction373-mutual-endpoints",
+          "concept_id": "directional-context",
+          "kind": "SOURCE_CONTEXT_AND_NUMERIC_EXAMPLE",
+          "proposition": "The True Stellium example requires mutual reach between the first and last planets and separately notes a smaller-radius middle Moon may not reach an endpoint.",
+          "applicability": "Only the stated source context; preserve incomplete calculation/interpretive prerequisites.",
+          "exclusions_and_limits": [
+            "A connected chain is not proof that every pair is mutually connected; this example does not complete general cluster interpretation."
+          ],
+          "witnesses": [
+            {
+              "file_id": "13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+              "name": "IMG_4809.jpg",
+              "content_sha256": "76724ee305064f38fcb92cd0dbd9861ccb5a217e4754687f3a2b6f06e6588261",
+              "original_printed_pages": [
+                "373"
+              ]
+            }
+          ],
+          "requires_concepts": [],
+          "authority": "ORIGINAL_BATCH_SCAN_TARGETED_REVIEW",
+          "execution_status": "NOT_EXECUTABLE_NOT_RUNTIME_APPROVED",
+          "interpretation_validation": "SOURCE_FAITHFULNESS_ONLY_NOT_EMPIRICAL_VALIDATION",
+          "answer_use": "NOT_APPROVED"
         }
       ],
       "question_updates": [],
@@ -179399,6 +180888,101 @@
           "personal_answer_approved": false
         }
       ]
+    },
+    "relationship_profiles": {
+      "schema_version": "relationship-components-v1",
+      "scope": "SOURCE_BOUND_COMPONENT_CALCULATIONS_NOT_COMPLETE_DIRECTED_INTERPRETATION",
+      "full_method_approved": false,
+      "personal_report_approved": false,
+      "geometry_use": "Documented numeric reach and structural dependencies only; no trait, outcome, timing or empirical validation.",
+      "numeric_reach": {
+        "Sun": {
+          "radius_deg": 10,
+          "status": "EXPLICIT_SOURCE_PARAMETER",
+          "assertion_ids": [
+            "ooi-sun-ten"
+          ]
+        },
+        "Moon": {
+          "radius_deg": 3,
+          "status": "EXPLICIT_SOURCE_PARAMETER",
+          "assertion_ids": [
+            "ooi-moon-three"
+          ]
+        },
+        "Mars": {
+          "radius_deg": 4,
+          "status": "EXPLICIT_SOURCE_PARAMETER",
+          "assertion_ids": [
+            "ooi-mars-four"
+          ]
+        },
+        "Venus": {
+          "radius_deg": 5,
+          "status": "EXPLICIT_SOURCE_PARAMETER",
+          "assertion_ids": [
+            "venus373-five-degree-ooi"
+          ]
+        },
+        "Chiron": {
+          "radius_deg": 1,
+          "status": "EXPLICIT_SOURCE_EXAMPLE_PARAMETER",
+          "assertion_ids": [
+            "ooi-chiron-one"
+          ]
+        },
+        "Saturn": {
+          "radius_deg": null,
+          "approximate_candidate_deg": 7.5,
+          "status": "APPROXIMATE_NOT_USED_AS_EXACT_THRESHOLD",
+          "assertion_ids": [
+            "ooi-saturn-approximate"
+          ]
+        }
+      },
+      "conjunction": {
+        "angle_deg": 0,
+        "supported_scope": "Physical-body direct coordinate reach within one natal or sky ecosystem, and sky-emitter to natal-physical-receiver only.",
+        "comparison": "Strict interior of an explicitly numeric radius; equality is unresolved. Do not add two radii. Unknown radii remain unknown.",
+        "assertion_ids": [
+          "ooi-radius-not-diameter",
+          "same-house-not-conjunction",
+          "conjunction240241-core-reach",
+          "no-cross-ecosystem-radius-sum",
+          "transit245-no-natal-outgoing"
+        ],
+        "role_assignment": "NOT_IMPLEMENTED: physical reach is not Planet1/Planet2 interpretation or a complete conjunction reading.",
+        "point_policy": "Mathematical points have no outgoing physical radius. Receiving/activation exceptions require their own scope and are not qualified by this component."
+      },
+      "receiver_context": {
+        "assertion_ids": [
+          "delegate208-reverse-sector-occupants",
+          "delegate209-no-final-ruler",
+          "delegate210-layer-before-carriage",
+          "delegate210-gemini-cancer-house-example",
+          "lens211-whole-chart-context",
+          "resolution-planet2-context"
+        ],
+        "contract": "Actual sign ruler, actual house Delegate, both ruled signs where applicable, all evaluated occupants and typed condition references; finite cycle back-references; complete condition remains false."
+      },
+      "not_implemented": [
+        "Complete OOI catalog",
+        "Non-conjunction aspect-cap interaction",
+        "Exact OOI endpoint ownership",
+        "Planet1/Planet2 and Vantage synthesis",
+        "Fringe weights/activation",
+        "Canonical Spark meaning",
+        "Progressions and forecast windows"
+      ],
+      "requirement_progress": {
+        "M02-01-01": "PARTIAL: incoming direct conjunction-reach evidence only; complete directed relationships remain open.",
+        "M02-01-02": "PARTIAL: outgoing direct conjunction-reach evidence only; mathematical points never gain physical emission.",
+        "M02-02-01": "PARTIAL: typed receiving-context structure; complete directed/aspect/ruler interpretation remains open.",
+        "M02-03-01": "PARTIAL: ruled-sector occupant/condition references; no completed Delegate synthesis.",
+        "M02-03-02": "PARTIAL: finite ruler cycles and separate responsibilities; no final-ruler hierarchy.",
+        "M05-01-01": "PARTIAL: five explicit numeric parameters; approximate and missing entries stay unresolved.",
+        "M05-01-02": "PARTIAL: conjunction reach component only; full aspect graph is not approved."
+      }
     }
   }
 }

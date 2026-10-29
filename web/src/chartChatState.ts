@@ -33,6 +33,22 @@ export type ChatEvidence = {
   }[];
   context_source_ids: string[];
   source_fingerprint: Record<string, unknown>;
+  condition_graph?: {
+    catalog_inventory_complete: boolean;
+    evaluated_catalog_ids: string[];
+    unavailable: { id: string }[];
+    nodes: Record<string, {
+      fact_ref: string;
+      physical_retrograde: boolean | null;
+      sign_ruler_ref: string | null;
+      house_delegate_ref: string | null;
+      house_delegate_retrograde: boolean | null;
+      ruled_areas: { sign: string; house: number | null; occupant_condition_refs: string[] }[];
+      missing_dependencies: string[];
+      full_condition_complete: false;
+    }>;
+    direct_conjunction_reach: { id: string; sender: string; receiver: string; separation_deg: number; radius_deg: number; interpretive_roles_assigned: false }[];
+  };
   complete_phddasr: false;
   [key: string]: unknown;
 };
@@ -59,6 +75,23 @@ export function chatIdentity(input: BirthInput): string {
 export function chatStorageKey(identity: string): string {
   return "mystic-rebels:chart-chat:v1:" + identity;
 }
+function isConditionGraph(value: unknown): boolean {
+  if (!value || typeof value !== "object") return false;
+  const g = value as NonNullable<ChatEvidence["condition_graph"]>;
+  const strings = (v: unknown): v is string[] => Array.isArray(v) && v.every((s) => typeof s === "string");
+  const nullableString = (v: unknown) => v === null || typeof v === "string";
+  const nullableBoolean = (v: unknown) => v === null || typeof v === "boolean";
+  return typeof g.catalog_inventory_complete === "boolean" && strings(g.evaluated_catalog_ids) &&
+    Array.isArray(g.unavailable) && g.unavailable.every((v) => v && typeof v.id === "string") &&
+    !!g.nodes && typeof g.nodes === "object" && Object.values(g.nodes).every((n) => n &&
+      typeof n.fact_ref === "string" && nullableString(n.sign_ruler_ref) && nullableString(n.house_delegate_ref) &&
+      nullableBoolean(n.physical_retrograde) && nullableBoolean(n.house_delegate_retrograde) && n.full_condition_complete === false &&
+      strings(n.missing_dependencies) && Array.isArray(n.ruled_areas) && n.ruled_areas.every((a) => a &&
+        typeof a.sign === "string" && (a.house === null || (Number.isInteger(a.house) && a.house >= 1 && a.house <= 12)) && strings(a.occupant_condition_refs))) &&
+    Array.isArray(g.direct_conjunction_reach) && g.direct_conjunction_reach.every((c) => c &&
+      typeof c.id === "string" && typeof c.sender === "string" && typeof c.receiver === "string" &&
+      Number.isFinite(c.separation_deg) && Number.isFinite(c.radius_deg) && c.interpretive_roles_assigned === false);
+}
 export function isChatReply(value: unknown): value is ChatReply {
   if (!value || typeof value !== "object") return false;
   const r = value as Partial<ChatReply>;
@@ -70,6 +103,7 @@ export function isChatReply(value: unknown): value is ChatReply {
     typeof r.evidence.assessments === "object" && r.evidence.assessments !== null &&
     Array.isArray(r.evidence.sources) && r.evidence.sources.every((s) => s && typeof s.title === "string" && typeof s.concept_id === "string" && Array.isArray(s.citations)) &&
     Array.isArray(r.evidence.phddasr_order) && r.evidence.phddasr_order.every((s) => typeof s === "string") &&
+    (r.evidence.condition_graph === undefined || isConditionGraph(r.evidence.condition_graph)) &&
     Object.values(r.evidence.assessments).every((a) => a && Array.isArray(a.stages) &&
       a.stages.every((s) => s && typeof s.stage === "string" && typeof s.status === "string") &&
       a.ruler_route && Array.isArray(a.ruler_route.path)) &&

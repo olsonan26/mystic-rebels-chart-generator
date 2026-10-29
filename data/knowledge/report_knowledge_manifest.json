@@ -3,7 +3,7 @@
   "contract": {
     "scope": "SAVED_SOURCE_AUDIT_KNOWLEDGE_NOT_APPROVED_PERSONAL_REPORT_RULES",
     "required_repository": "https://github.com/olsonan26/mystic-rebels-chart-generator",
-    "required_ref": "codex/methodology-verification-20261024",
+    "required_ref": "codex/phsr-numerology-integration-20261028",
     "default_branch_main_contains_this_knowledge": false,
     "all_important_knowledge_covered": false,
     "personal_answer_approved": false,
@@ -27,14 +27,14 @@
   },
   "counts": {
     "concepts": 131,
-    "assertions": 267,
+    "assertions": 275,
     "requirements": 207,
     "findings": 50,
     "capabilities": 44,
     "worked_examples": 30,
     "annotations": 609,
     "initial_review_records": 44,
-    "continuation_review_records": 683,
+    "continuation_review_records": 688,
     "report_sections": 18,
     "ready_report_sections": 0
   },
@@ -144,7 +144,7 @@
   },
   "bundle": {
     "path": "data/knowledge/report_knowledge_bundle.json",
-    "sha256": "03ba5da1786fb84c030dd1d596e96a57bcb1c1b0ebb740d10d6686327f7b3d42"
+    "sha256": "53a6e6877026abf71051136ff169eb72e75807c5b642ede7ef1e65b12e8f9835"
   },
   "authorities": {
     "concepts": {
@@ -154,12 +154,12 @@
     },
     "assertions": {
       "path": "data/knowledge/original_assertions.json",
-      "sha256": "f301fa5bdcedd5d8c05842dc74eb718887d120a60d95e6489763a78487f49152",
+      "sha256": "dfa53a215ce9b09b2325a3e4b4e29881e2e450d604ec7e8e0f98f9a9cfc486a7",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "requirements": {
       "path": "data/knowledge/material_requirements.json",
-      "sha256": "09cd167ebb0194e2d020f1949d22b6d17c34ecb12ea600327f1a7f18cc2840b9",
+      "sha256": "b88b886cedbb6962fc216d199dea4b48da70486592bbb334d599f204f36ebcd5",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "findings": {
@@ -189,12 +189,17 @@
     },
     "continuation_original_reviews": {
       "path": "data/knowledge/source_review_continuation.json",
-      "sha256": "535533b621188403922b7ed982b51a19042db1ef41a90d5dafe1262839c3d637",
+      "sha256": "8582b03b20b11726285c8747b5e2e63b94eb52d451c160793f8df10ebe9db17d",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "meaning_profiles": {
       "path": "data/knowledge/source_meaning_profiles.json",
       "sha256": "8e3f296bd5e68ab4fee55997a008e44b08ecec8af468c5272bd8a8c70bdb7928",
+      "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
+    },
+    "relationship_profiles": {
+      "path": "data/knowledge/relationship_rule_profiles.json",
+      "sha256": "5b08302497a276def1075b7ba73fbd2910b5cff6add5d00ad20b58b4c03ae58d",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     }
   },
@@ -205,7 +210,7 @@
   "check_command": "python scripts/export_report_knowledge.py --check",
   "component_use": {
     "path": "data/knowledge/report_component_use.json",
-    "sha256": "f9b14fd33d6462161d252e5a21778b4633ac30a4e353323f2f51ec68af24e6cf",
+    "sha256": "fee834b6e8e4f4f89c182e03c06ce44fe51c17d407b1e34f76e2831b7bfc23ad",
     "counts": {
       "total_components": 143,
       "annotation_available": 60,
@@ -233,58 +238,58 @@
   "topic_packets": {
     "planets": {
       "path": "data/knowledge/report_topics/planets.json",
-      "bytes": 536031,
-      "sha256": "a17426a76d605a34f736f7927b92df1e78026d1ce6fc7dd55dde105adb9ad2a0",
+      "bytes": 546289,
+      "sha256": "4e0da9f327a410574c4bcc1676775bcc6bb898f3b5a291e45611b6893d75989e",
       "concepts": 58,
-      "assertions": 217,
+      "assertions": 225,
       "findings": 43
     },
     "houses": {
       "path": "data/knowledge/report_topics/houses.json",
-      "bytes": 534592,
-      "sha256": "b0cf4f9f305723cc61448c5aea46c6f1f7dde282e1e48ed9a67223f27364af41",
+      "bytes": 544850,
+      "sha256": "37be9c6ca6713c9b9b2a5001db1d83232931a9b03afca0f8221010535c548829",
       "concepts": 61,
-      "assertions": 215,
+      "assertions": 223,
       "findings": 43
     },
     "sign_degree_decan_context": {
       "path": "data/knowledge/report_topics/sign_degree_decan_context.json",
-      "bytes": 519139,
-      "sha256": "b81a636ebf5fb03a659cdae372ee1307f5d38a9c1ce70f982754f52b7847c5b0",
+      "bytes": 529397,
+      "sha256": "2f7d4211545207aa3059e72726741319e8780ae0982795088b4245f20fdb5663",
       "concepts": 48,
-      "assertions": 214,
+      "assertions": 222,
       "findings": 43
     },
     "cusps": {
       "path": "data/knowledge/report_topics/cusps.json",
-      "bytes": 519084,
-      "sha256": "7f0ff34d4665cbba2142157d5f8b2613b640db8d732a4e0b14143e8025d2d6f9",
+      "bytes": 529342,
+      "sha256": "518c5aa73a1b56770930da09774d709daec782a0b0215322e1e66790ea04c847",
       "concepts": 48,
-      "assertions": 214,
+      "assertions": 222,
       "findings": 43
     },
     "aspects": {
       "path": "data/knowledge/report_topics/aspects.json",
-      "bytes": 519222,
-      "sha256": "b28a1a043e8839c34803c8629685ca07738397f8dee7d14c38cc8fbb1b4da4d2",
+      "bytes": 533486,
+      "sha256": "dd9c27776e9e41dc92ec8aba7d9fd86fb193691d8a60a5c70d534ae3ff0215f4",
       "concepts": 48,
-      "assertions": 214,
+      "assertions": 222,
       "findings": 43
     },
     "asteroids": {
       "path": "data/knowledge/report_topics/asteroids.json",
-      "bytes": 643228,
-      "sha256": "9f587b605d8dc5dbd7bfa3da3f7cc2032bd9d5b70a3bcee64cd7af6405006803",
+      "bytes": 653486,
+      "sha256": "38a54df71a2359bf770fc57bb29282ee05b319c64e3e1ff14ed8dfae39d2d856",
       "concepts": 93,
-      "assertions": 244,
+      "assertions": 252,
       "findings": 48
     },
     "report_context": {
       "path": "data/knowledge/report_topics/report_context.json",
-      "bytes": 519145,
-      "sha256": "2f0a0d3c327c3aad61cb1054b01596df0ef7236d9e8d5417a001450ef9198ced",
+      "bytes": 533409,
+      "sha256": "ac6e428af0220571ede81f55588ada744a642eb41511a655fc8a32ee185a036c",
       "concepts": 48,
-      "assertions": 214,
+      "assertions": 222,
       "findings": 43
     }
   },
