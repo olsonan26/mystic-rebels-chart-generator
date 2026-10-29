@@ -1,5 +1,9 @@
 # Mystic Rebels — Alchemystic Astrology Chart Generator
 
+**Latest source, PHDDASR and current-transit review:** [28 October deep audit and next steps](docs/research-20261028/DEEP_AUDIT_AND_NEXT_STEPS.md). The separate local prototype has partial ordered assessments; typed questions and a current-transit consultation view are still missing from the main chart generator.
+
+**Keep the work recoverable:** [GitHub preservation and restore guide](docs/GITHUB_RECOVERY.md). Code and knowledge use this repository; raw private sources and recovery assets use the separate private recovery repository. Live database exports have their own explicit access/verification status.
+
 **Looking for meanings or report knowledge? Start with [REPORT_KNOWLEDGE_START_HERE.md](REPORT_KNOWLEDGE_START_HERE.md).** Read branch `codex/methodology-verification-20261024`; the default `main` snapshot predates the interpretation audit. [Open the knowledge branch on GitHub](https://github.com/olsonan26/mystic-rebels-chart-generator/tree/codex/methodology-verification-20261024).
 
 **Use the audited source instead of an existing library:** [the updated component guide](docs/REPORT_COMPONENT_USE.md) includes all12 original sign core entries, Chiron's Fractured Structures vocabulary and both Eunomia alternatives. There are60 vocabulary annotations plus one explicit alternatives output. Generic-library fallback is forbidden; unresolved source claims stay visible. Run `python scripts/annotate_chart_sources.py examples/report-source-input.json --format markdown` for the tested consumer.
