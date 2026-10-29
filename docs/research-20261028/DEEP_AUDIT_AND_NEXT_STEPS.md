@@ -68,5 +68,6 @@ The connected Supabase account does not include the chart app's configured proje
 - [PHDDASR, rule-packet omissions and question workflow](PHDDASR_QUESTION_WORKFLOW_AUDIT.md).
 - [Current-sky, directed aspects and transit fault probes](CURRENT_TRANSITS_AND_ASPECTS_AUDIT.md).
 - [Machine-readable remaining source queue](remaining-source-review.json).
+- [Four additional pending scans and the unindexed Velocity Focus concept](ADDITIONAL_PENDING_SCAN_FINDINGS.md). This later targeted review brings the session total to 18 distinct original images; canonical review counters remain unchanged.
 
 Fresh validation: semantic inventory and report-requirement reconciliation passed; the portable knowledge export check returned `VERIFIED_LOSSLESS_CURRENT_EXPORT`. The transit review ran 55 passing focused astronomy/Gradity/independent-reference/DST checks. The PHDDASR review ran 13 passing comparison checks plus direct ordered-assessment assertions. A TestClient research suite stalled and was interrupted; no pass or product defect is claimed from it. No new browser or deployment end-to-end verification occurred. These tests do not validate the empirical accuracy of personal interpretations.
