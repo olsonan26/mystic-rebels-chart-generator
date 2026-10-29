@@ -2,6 +2,12 @@
 
 Established at the user's explicit request on 28 October 2026. Knowledge, source decisions and completed work must survive conversation-memory, Supabase and Vercel failures.
 
+## Latest verified checkpoint
+
+[The private recovery release for 28 October 2026](https://github.com/olsonan26/mystic-rebels-recovery/releases/tag/recovery-20261028-1fc0a50) is published. Its baseline is source commit `1fc0a500adafe8307a184d4b9d5cb0e46b8a2ce9`. It preserves 4,855 source/workspace files, including all 1,029 acquired scan identities, across seven archive chunks (3,701,618,973 bytes), plus a complete Git-history bundle and standalone restore tool. All 11 required assets matched GitHub's sizes and SHA256 digests; a twelfth asset retains the verification receipt. Full local restoration and all original-scan hash checks passed. The manifest, checksums and restore tool were separately downloaded and matched. The large chunks were verified by server digests rather than a second complete remote download/restore. The backup tool has 24 passing focused tests.
+
+Later audit-only findings at `7b740bdc37d88064fdfaf6cefe8e6718cdcb1fe8` are preserved in both repositories; the private checkpoint has an explicit audit-updates folder. Private `checkpoints/recovery-20261028-1fc0a50/` records exact hashes, exclusions, restore evidence and publication status. **Live Supabase saved rows, Auth and Storage remain unexported because the connected account lacks access.** This source checkpoint does not establish complete book review or personal-report readiness.
+
 ## Destinations and authority
 
 - **Application, knowledge records and audits:** [mystic-rebels-chart-generator](https://github.com/olsonan26/mystic-rebels-chart-generator), working branch `codex/phsr-numerology-integration-20261028`. This repository was verified **public** during this checkpoint. The default `main` branch predates later research and knowledge work.
