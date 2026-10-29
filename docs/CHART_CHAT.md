@@ -17,7 +17,7 @@ Install `requirements.txt`, run `npm run build`, then run `python scripts/run.py
 
 The browser sends birth-input context, its chart fingerprint, the question, the last 20 user/assistant messages and the requested sky date to the application server. The server reconstructs trusted positions and sends these, reviewed source evidence and conversational context to OpenRouter for writer and separate reviewer passes. Credentials stay in the server environment. They are excluded from Git, downloads and recovery archives. The existing hosted `SitePasswordGate` wraps the new routes too.
 
-`GET /api/chart-chat/status` reports connection availability without revealing credentials. `POST /api/chart-chat` generates a reviewed reply. `POST /api/chart-chat/context` calculates inspectable evidence without a paid model call, so **See chart context** works independently of model connection availability. The normal chart-generation route remains separate.
+`GET /api/chart-chat/status` reports connection availability without revealing credentials. `POST /api/chart-chat` generates a reviewed reply. A malformed review may receive one correction pass within the same 48-second total deadline; missing approval is never assumed, and explicit review refusals are not retried. See [the suggested-question repair](CHART_CHAT_REVIEW_REPAIR_20261029.md). `POST /api/chart-chat/context` calculates inspectable evidence without a paid model call, so **See chart context** works independently of model connection availability. The normal chart-generation route remains separate.
 
 ## What the answer uses
 
