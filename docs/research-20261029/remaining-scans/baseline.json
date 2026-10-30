@@ -1,0 +1,17 @@
+{
+  "schema_version": "remaining-scan-review-baseline-v1",
+  "source_commit": "baf7858f91569efa73c6d7b138d10add524fe418",
+  "total_acquired": 1029,
+  "targeted_reviewed": 730,
+  "remaining": 299,
+  "assertions": 275,
+  "ocr_checked_locators": 10245,
+  "ocr_total_locators": 34026,
+  "full_report_sections_unready": 18,
+  "assignment_counts": {
+    "foundations": 100,
+    "middle": 95,
+    "later": 104
+  },
+  "source_manifest_sha256": "089631a495f1cf84c2afa91b26f23280d458d96aa2431860e2db5af3bd28d41c"
+}
