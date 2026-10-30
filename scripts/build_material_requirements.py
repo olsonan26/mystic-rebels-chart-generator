@@ -109,6 +109,8 @@ def main():
     code_trace = [dict(path=p, sha256=code_trace_hash(p, 'COMMITTED_HEAD'),
                        hash_normalization='UTF8_UNIVERSAL_NEWLINES') for p in trace_paths]
     sections, requirements = [], []
+    component_path = ROOT / 'data/knowledge/relationship_rule_profiles.json'
+    component_progress = json.loads(component_path.read_text(encoding='utf-8'))['requirement_progress'] if component_path.exists() else {}
     examples = json.loads((ROOT / 'data/knowledge/worked_examples.json').read_text())['examples']
     for index, (cells, spec, section) in enumerate(zip(source_rows, SPECS, inventory['report_sections']), 1):
         fragments = cells[2].split(', ')
@@ -184,6 +186,14 @@ def main():
                     remaining_work=('Identify a dedicated original source witness and represent its meaning before implementation.' if not concepts else
                         'Implement and test the complete contextual meaning after resolving the recorded source questions; numerical support alone does not close this requirement.'),
                     personal_answer_approved=False))
+                if rid in component_progress:
+                    requirements[-1]['partial_component_evidence'] = dict(
+                        source_profile='data/knowledge/relationship_rule_profiles.json',
+                        progress=component_progress[rid],
+                        implementation_files=['mystic_rebels/relationship_context.py', 'mystic_rebels/chat_context.py'],
+                        component_tests=['astronomy_qa/test_relationship_context.py'],
+                        complete_requirement_resolved=False,
+                        actual_report_use_scope='The existing ABSENT field refers to complete section synthesis, not these bounded chat components.')
             original_fragments.append(dict(text=fragment, atomic_requirement_ids=ids))
         sections.append(dict(index=index, section_id=section['id'], original_title=cells[0],
             original_existing_support=cells[1], original_missing_context=cells[2], fragments=original_fragments,

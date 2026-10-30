@@ -1,0 +1,12 @@
+# Middle original-photo review
+
+Assignment: 95 exact IDs in assignments/middle.json. All 95 original SHA256 hashes checked against assignment; zero mismatches. Original full images are viewed individually at original-detail request, with OCR used only as a supporting locator. No external or paid image analysis is used.
+
+Progress: pages 76-80 reviewed. Main recovered boundary: distinguish coordinate labels from physical locations; keep systems and branches separate; preserve the source's explicit warning that distant future themes lack intervening context. The four-year car example is hypothetical, not a rule predicting a crash.
+
+Canonical files and runtime are not changed by this reviewer. Candidates remain source-grounded proposals requiring integration review.
+Pages 81-85: explicit rejection of essential/accidental dignity and fixed benefic/malefic labels; Juno is commitment requirements rather than partner traits or marriage alone (12 degree tilt, 7.2-hour spin in source). Chiron permanent-wound framing is rejected. Sarcastic dignity explanation must not be extracted as endorsement.
+Pages 86-90: belief/identity conceptual wheel recovered (9th to 1st trine; 9th opposite 3rd). Profection critique targets birthday and Aries-start assumptions, preserving possible observed patterns; shared northern Earth-Sun reset is asserted, but no reset timestamp/calibration arithmetic appears here.
+Pages91-95 provide actual profection repair: first postbirth Aries0/vernal equinox anchor, Pisces entry with no activation, annual house plus natural-sign frequency and twelve-year circuit sign. Wheel is author-specific (Leo house1; 1983 first activation), not universal. Conflict retained: p92 says next/Taurus circuit around11; p93 says12-13. Advanced-age death/celebrity examples are not lifespan rules.
+Pages96-101: monthly profections advance at sign changes, example annual7 with monthly7/8/9 across March-June. Source-evolution disclaimer p97 retained. Pure PHSR and Jective Process require linked sign-house interpretation, objective evidence before subjective relatable language; page100 header recovered visually where OCR omitted number.
+Pages102-106: Jective Process plus Articulation and conversation required. Beginner PHSR repeats on ruler; Virgo and Pisces decan boundaries/rulers verified. Moon-not-luminary convention explicit. ADS symbolic correlations kept distinct from physical observations.

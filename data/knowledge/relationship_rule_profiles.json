@@ -1,0 +1,37 @@
+{
+  "schema_version": "relationship-components-v1",
+  "scope": "SOURCE_BOUND_COMPONENT_CALCULATIONS_NOT_COMPLETE_DIRECTED_INTERPRETATION",
+  "full_method_approved": false,
+  "personal_report_approved": false,
+  "geometry_use": "Documented numeric reach and structural dependencies only; no trait, outcome, timing or empirical validation.",
+  "numeric_reach": {
+    "Sun": {"radius_deg": 10, "status": "EXPLICIT_SOURCE_PARAMETER", "assertion_ids": ["ooi-sun-ten"]},
+    "Moon": {"radius_deg": 3, "status": "EXPLICIT_SOURCE_PARAMETER", "assertion_ids": ["ooi-moon-three"]},
+    "Mars": {"radius_deg": 4, "status": "EXPLICIT_SOURCE_PARAMETER", "assertion_ids": ["ooi-mars-four"]},
+    "Venus": {"radius_deg": 5, "status": "EXPLICIT_SOURCE_PARAMETER", "assertion_ids": ["venus373-five-degree-ooi"]},
+    "Chiron": {"radius_deg": 1, "status": "EXPLICIT_SOURCE_EXAMPLE_PARAMETER", "assertion_ids": ["ooi-chiron-one"]},
+    "Saturn": {"radius_deg": null, "approximate_candidate_deg": 7.5, "status": "APPROXIMATE_NOT_USED_AS_EXACT_THRESHOLD", "assertion_ids": ["ooi-saturn-approximate"]}
+  },
+  "conjunction": {
+    "angle_deg": 0,
+    "supported_scope": "Physical-body direct coordinate reach within one natal or sky ecosystem, and sky-emitter to natal-physical-receiver only.",
+    "comparison": "Strict interior of an explicitly numeric radius; equality is unresolved. Do not add two radii. Unknown radii remain unknown.",
+    "assertion_ids": ["ooi-radius-not-diameter", "same-house-not-conjunction", "conjunction240241-core-reach", "no-cross-ecosystem-radius-sum", "transit245-no-natal-outgoing"],
+    "role_assignment": "NOT_IMPLEMENTED: physical reach is not Planet1/Planet2 interpretation or a complete conjunction reading.",
+    "point_policy": "Mathematical points have no outgoing physical radius. Receiving/activation exceptions require their own scope and are not qualified by this component."
+  },
+  "receiver_context": {
+    "assertion_ids": ["delegate208-reverse-sector-occupants", "delegate209-no-final-ruler", "delegate210-layer-before-carriage", "delegate210-gemini-cancer-house-example", "lens211-whole-chart-context", "resolution-planet2-context"],
+    "contract": "Actual sign ruler, actual house Delegate, both ruled signs where applicable, all evaluated occupants and typed condition references; finite cycle back-references; complete condition remains false."
+  },
+  "not_implemented": ["Complete OOI catalog", "Non-conjunction aspect-cap interaction", "Exact OOI endpoint ownership", "Planet1/Planet2 and Vantage synthesis", "Fringe weights/activation", "Canonical Spark meaning", "Progressions and forecast windows"],
+  "requirement_progress": {
+    "M02-01-01": "PARTIAL: incoming direct conjunction-reach evidence only; complete directed relationships remain open.",
+    "M02-01-02": "PARTIAL: outgoing direct conjunction-reach evidence only; mathematical points never gain physical emission.",
+    "M02-02-01": "PARTIAL: typed receiving-context structure; complete directed/aspect/ruler interpretation remains open.",
+    "M02-03-01": "PARTIAL: ruled-sector occupant/condition references; no completed Delegate synthesis.",
+    "M02-03-02": "PARTIAL: finite ruler cycles and separate responsibilities; no final-ruler hierarchy.",
+    "M05-01-01": "PARTIAL: five explicit numeric parameters; approximate and missing entries stay unresolved.",
+    "M05-01-02": "PARTIAL: conjunction reach component only; full aspect graph is not approved."
+  }
+}

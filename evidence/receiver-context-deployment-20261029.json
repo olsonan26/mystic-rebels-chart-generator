@@ -1,0 +1,100 @@
+{
+  "status": "READY_PROMOTED_SOURCE_AND_ANONYMOUS_ACCESS_VERIFIED",
+  "verified_at_utc": "2026-10-29T23:12:50.574261+00:00",
+  "production_url": "https://www.cosmodynamicschart.site/",
+  "deployment_id": "dpl_Ez2E6zDYuqHPp3YEMHAULiVRxqwW",
+  "deployment_url": "https://mystic-rebels-chart-generator-rka6f8bpm-astro-ac32.vercel.app",
+  "source_commit": "f4b8a8237c05e21f957043e165da33414f0f8621",
+  "project_id": "prj_MBgBhgCUjxUwJ8OZO9OrqDqK4Vwl",
+  "alias_matches": true,
+  "public_checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 303
+    },
+    {
+      "method": "GET",
+      "path": "/api/site-access",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/chart-chat/status",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/chart-chat",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/assets/ChartChat-KDRQBN9C.js",
+      "status": 401
+    }
+  ],
+  "source_integrity": {
+    "source_commit": "f4b8a8237c05e21f957043e165da33414f0f8621",
+    "deployment_id": "dpl_Ez2E6zDYuqHPp3YEMHAULiVRxqwW",
+    "exact_source_paths": [
+      "mystic_rebels/chart_chat.py",
+      "mystic_rebels/chat_context.py",
+      "mystic_rebels/chat_knowledge.py",
+      "mystic_rebels/relationship_context.py",
+      "mystic_rebels/api.py",
+      "api/index.py",
+      "site_access.py",
+      "middleware.ts",
+      "web/src/ChartChat.tsx",
+      "web/src/chartChatState.ts",
+      "pyproject.toml",
+      ".python-version",
+      "data/knowledge/capabilities.json",
+      "data/knowledge/interpretive_inventory.json",
+      "data/knowledge/material_requirements.json",
+      "data/knowledge/original_assertions.json",
+      "data/knowledge/original_page_map.json",
+      "data/knowledge/relationship_rule_profiles.json",
+      "data/knowledge/report_component_use.json",
+      "data/knowledge/report_knowledge_bundle.json",
+      "data/knowledge/report_knowledge_manifest.json",
+      "data/knowledge/source_blocker_findings.json",
+      "data/knowledge/source_line_annotations.json",
+      "data/knowledge/source_line_reconciliation.json",
+      "data/knowledge/source_manifest.json",
+      "data/knowledge/source_meaning_profiles.json",
+      "data/knowledge/source_pipeline.json",
+      "data/knowledge/source_quality_issues.json",
+      "data/knowledge/source_review_continuation.json",
+      "data/knowledge/source_review_updates.json",
+      "data/knowledge/source_visual_duplicate_groups.json",
+      "data/knowledge/worked_examples.json",
+      "data/knowledge/report_topics/aspects.json",
+      "data/knowledge/report_topics/asteroids.json",
+      "data/knowledge/report_topics/cusps.json",
+      "data/knowledge/report_topics/houses.json",
+      "data/knowledge/report_topics/planets.json",
+      "data/knowledge/report_topics/report_context.json",
+      "data/knowledge/report_topics/sign_degree_decan_context.json"
+    ],
+    "exact_source_path_count": 39,
+    "method": "Vercel uploaded source SHA1 matched exact Git archive bytes",
+    "private_inputs_excluded": true,
+    "portable_export_check_in_final_archive": "PASSED"
+  },
+  "local_verification": "evidence/receiver-context-verification-20261029.json",
+  "scoped_backend_tests": 440,
+  "frontend_tests": 39,
+  "authenticated_production_chat": "NOT_RUN_OWNER_CHOICE",
+  "private_source_media_changed": false,
+  "credentials_included": false,
+  "runtime_python": "3.12 from .python-version in build log",
+  "superseded_unpromoted_build": "dpl_6XHGjiDsHk1wPJ5WnNP6MjnHUhBJ; regenerated export byte attributes corrected before custom-domain promotion",
+  "runtime_error_scan": {
+    "deployment_scoped": true,
+    "window": "15m",
+    "records_returned": 0,
+    "limitation": "Bounded release observation; no authenticated production requests tested"
+  }
+}

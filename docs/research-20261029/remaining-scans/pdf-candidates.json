@@ -1,0 +1,2768 @@
+{
+  "schema_version": "remaining-scan-pdf-candidate-v1",
+  "scope": "OCR_LOCATOR_ONLY_NOT_VISUAL_ALIGNMENT",
+  "files": {
+    "1xd5kdk2t2yJ52vxvCqbYrgf-gQwW6nfI": [
+      {
+        "pdf_page": 1,
+        "overlap": 0.5,
+        "page_text_sha256": "3eade125ba92450ddcc552bab24c7964ebcccef5961a6e377abd1673b8b07612",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1LFRWX0XsfWxEJbP6QeoHmrUGIyo_n7QU": [
+      {
+        "pdf_page": 2,
+        "overlap": 0.5309,
+        "page_text_sha256": "577438b9af8197136fb11c3016c1c6bc99f40a3bbaac848c110c2f13153d557d",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 1,
+        "overlap": 0.3964,
+        "page_text_sha256": "3eade125ba92450ddcc552bab24c7964ebcccef5961a6e377abd1673b8b07612",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xt3_LlilZps48k9ApoPXygRD-Z6Urja8": [
+      {
+        "pdf_page": 2,
+        "overlap": 0.6122,
+        "page_text_sha256": "577438b9af8197136fb11c3016c1c6bc99f40a3bbaac848c110c2f13153d557d",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 3,
+        "overlap": 0.3013,
+        "page_text_sha256": "c0402f6b423353b67d8fd355ccc2478905873242ff7a958d9f0eb0cfc6684f38",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1poHiqtO5IVkiCZe2XtoYlodbPxksRcbL": [
+      {
+        "pdf_page": 3,
+        "overlap": 0.9905,
+        "page_text_sha256": "c0402f6b423353b67d8fd355ccc2478905873242ff7a958d9f0eb0cfc6684f38",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1eHFkILW0JQS3ce3JYC1JWs38VqvBisCL": [
+      {
+        "pdf_page": 4,
+        "overlap": 0.994,
+        "page_text_sha256": "94d9d24d81b46eea25b77be6a3cab5c06bc2d69b31b8c10b05ab48193eb5b226",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "17X9b2ZSKm_mGUFXD18biJgu8_pVUac0c": [
+      {
+        "pdf_page": 5,
+        "overlap": 0.8293,
+        "page_text_sha256": "fbb03eb88abb374f4f562fc48860b55cfc70d0452fea40b8f6a2334e101653c2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 4,
+        "overlap": 0.149,
+        "page_text_sha256": "94d9d24d81b46eea25b77be6a3cab5c06bc2d69b31b8c10b05ab48193eb5b226",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1B4Y5zDdc6Py9gYC3xIEAOswAZkdMhbbp": [
+      {
+        "pdf_page": 6,
+        "overlap": 0.5316,
+        "page_text_sha256": "09fe25fc40989240ce9628aa4b444a2c4fab4ae02a5dc01161ef96bdea099c8c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 5,
+        "overlap": 0.4658,
+        "page_text_sha256": "fbb03eb88abb374f4f562fc48860b55cfc70d0452fea40b8f6a2334e101653c2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1zI37V_yhf7Z_gJP1V07L9ZSy83M8JH-g": [
+      {
+        "pdf_page": 6,
+        "overlap": 0.7284,
+        "page_text_sha256": "09fe25fc40989240ce9628aa4b444a2c4fab4ae02a5dc01161ef96bdea099c8c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 7,
+        "overlap": 0.2538,
+        "page_text_sha256": "c4dbae7a2c379320ea50cde3dd06eb1713595b0d270950a3af861160197be736",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1hgx4ytsv5zJ4kpVITALWUNv1TKrMJEDm": [
+      {
+        "pdf_page": 7,
+        "overlap": 0.96,
+        "page_text_sha256": "c4dbae7a2c379320ea50cde3dd06eb1713595b0d270950a3af861160197be736",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1YEuL4ZCqjQCeKImG18MxVwfxcITk0HAM": [
+      {
+        "pdf_page": 683,
+        "overlap": 0.1667,
+        "page_text_sha256": "bacd2f1377a5cfc90f05c02f3d4afb80ab5b3bd375fb9c71885b4333d3c11dd3",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 615,
+        "overlap": 0.1667,
+        "page_text_sha256": "5a80cee4bd2c5b391d52c372a5c7b9def41d5e42f615482e99a1c862c1dae047",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 481,
+        "overlap": 0.1667,
+        "page_text_sha256": "df8c0fd3a155d85ef6409ebf6c16ed786c5b9de3a6a17fc96dd679c7ca12b856",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1wU9A36h5P33ICYxmbQZT9a5-xRGN6jtK": [
+      {
+        "pdf_page": 677,
+        "overlap": 0.125,
+        "page_text_sha256": "a16f2fd885f14212050b224ea90ef35611a48c48611fd0c41541da11a93e586a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 37,
+        "overlap": 0.125,
+        "page_text_sha256": "0bf8bc1e7c1db661cac48527ebf401043a01165d370a3e1bca81a71934363698",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1IxuIvGk3Oi1rdI0x5yN1WdL8PWCSA_3P": [
+      {
+        "pdf_page": 639,
+        "overlap": 0.2,
+        "page_text_sha256": "e92b1387102e7b7ede95ee2054140c9ee4a138db0b339996fa58fffcc6c18367",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 430,
+        "overlap": 0.2,
+        "page_text_sha256": "e0e1fa4dcaddd4803bc0703fcf2a72267ac99d71e08dbb4ee573f8c8ca88a208",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 422,
+        "overlap": 0.2,
+        "page_text_sha256": "fa08d1372a5236a033614d651d25c3b653748426e28103c20e76847d7bfae929",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fPLvfvw0R6iyxYViBaRJp7iVWiFPzEN-": [],
+    "1libiA__UW_GHGAJQztcn4J0d-y65H5UA": [
+      {
+        "pdf_page": 9,
+        "overlap": 0.383,
+        "page_text_sha256": "865b115d4544c3d258905b0bfd26f4822c79e014bad67b69a48d2d71cbb29b43",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 10,
+        "overlap": 0.1489,
+        "page_text_sha256": "afce9d4bae51989dc64779e943cb5c0b6b2d0d9432a8c46fdd8854acf768610e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 44,
+        "overlap": 0.1277,
+        "page_text_sha256": "e41ccdd3a4acd4017de92acc4086c39bf14e9a66d51fb0cc66d0912f362e927b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1X1NYKvzlnC_f4X5at3hoSaIC6Qho-HS4": [
+      {
+        "pdf_page": 10,
+        "overlap": 0.8182,
+        "page_text_sha256": "afce9d4bae51989dc64779e943cb5c0b6b2d0d9432a8c46fdd8854acf768610e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 55,
+        "overlap": 0.1273,
+        "page_text_sha256": "3f0bc0d23fcbf4ee48d517ab415a7ed1ca70bd822e1059f376a4a891ce9f4ff5",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 59,
+        "overlap": 0.1091,
+        "page_text_sha256": "ec8c73a1c75f7b1fdb538206922ec4fa413d1fa569b8cc79f4c437f797c3aa44",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18GdhD4JnsBdUTVye8NmgN2p5Eb7BMK7w": [
+      {
+        "pdf_page": 11,
+        "overlap": 0.78,
+        "page_text_sha256": "9d9d9e7dd1c4f9a43c8ffab03fd0d3d01f6bc183ae7010380783b7268bf8acf2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1P-NpqDYKvghYUyF7E8g-H0SWr-v-UR08": [
+      {
+        "pdf_page": 11,
+        "overlap": 0.3455,
+        "page_text_sha256": "9d9d9e7dd1c4f9a43c8ffab03fd0d3d01f6bc183ae7010380783b7268bf8acf2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 12,
+        "overlap": 0.2909,
+        "page_text_sha256": "1a4918afe9d4662d9374d4479260445822ea270a11d5040dc38e010233ff5734",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 13,
+        "overlap": 0.1818,
+        "page_text_sha256": "13ed65daa0f6c9c650ee21f2a7b9eafe704d7aabdf96be4f5d438757d913331a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18L2dAkGj6jaa-5lWaHZ-ssze-viUls0W": [
+      {
+        "pdf_page": 13,
+        "overlap": 0.678,
+        "page_text_sha256": "13ed65daa0f6c9c650ee21f2a7b9eafe704d7aabdf96be4f5d438757d913331a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 14,
+        "overlap": 0.2373,
+        "page_text_sha256": "e4363d62bda3752bf25c61847bb94e7c54c0b79af3b1ea0ef1cb9f9fc32dd177",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 312,
+        "overlap": 0.1017,
+        "page_text_sha256": "78a291a20db861227d8b50d716d45e18a8bc4736362792aca1ab7a67f6715782",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1sKtzf5DVA5K6JAmNdUrgTFqaMNGqlo_5": [
+      {
+        "pdf_page": 14,
+        "overlap": 0.9057,
+        "page_text_sha256": "e4363d62bda3752bf25c61847bb94e7c54c0b79af3b1ea0ef1cb9f9fc32dd177",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1WLlNOcZdC41CaIckkhqAM9JcN8hyAzkQ": [
+      {
+        "pdf_page": 15,
+        "overlap": 0.6346,
+        "page_text_sha256": "249ac035df772b51d1b82acc4a32d04d23c689f9de7a67b2d64b3be998b8e10b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 361,
+        "overlap": 0.2115,
+        "page_text_sha256": "f1575709ba018e64e46e11b48d707048089826e2b6099c6d0f355e50a65715d1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 16,
+        "overlap": 0.1538,
+        "page_text_sha256": "7e65a05289b43c999f3916e39d2cc42eeb132cc4b1899fec8dcc43d116657012",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1P_3GGguyKgXIKrU5YGFWM_Yanp8T4Fj0": [
+      {
+        "pdf_page": 16,
+        "overlap": 0.8222,
+        "page_text_sha256": "7e65a05289b43c999f3916e39d2cc42eeb132cc4b1899fec8dcc43d116657012",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1PEdrwuK4lZFPz4waE6jSP6PPn3WPH1e9": [
+      {
+        "pdf_page": 17,
+        "overlap": 0.9032,
+        "page_text_sha256": "d0620f0fb1c82fcbd38b9c366610d960b87cd44056109d5d5e009ff52023c19c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Rl5btYePftpusJsZuNEljaGyIH_z1Nkh": [
+      {
+        "pdf_page": 18,
+        "overlap": 0.6154,
+        "page_text_sha256": "6458fe64134ecbacac7d6c1981d9af6d91b41fa3626a0d945754e07bb9e391d6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 17,
+        "overlap": 0.25,
+        "page_text_sha256": "d0620f0fb1c82fcbd38b9c366610d960b87cd44056109d5d5e009ff52023c19c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1qTZ6ypUn-bIuXGXKgg8wlfazLmBsLU88": [
+      {
+        "pdf_page": 18,
+        "overlap": 0.8182,
+        "page_text_sha256": "6458fe64134ecbacac7d6c1981d9af6d91b41fa3626a0d945754e07bb9e391d6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 552,
+        "overlap": 0.1212,
+        "page_text_sha256": "bb33a4c0d548dee4c39b242545588e77970935c9fbd2bc3c4e7eff29d484b778",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xe_z1qknDzdlXmEd-5ijJ1dHY1WZtW0y": [
+      {
+        "pdf_page": 19,
+        "overlap": 0.9167,
+        "page_text_sha256": "35b6c90fd001ae8f1b098505f02a5fcd6e2f5eef579765801f2d2c2018b5cb70",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1vnOIKDaPzy4PvMvLMSiACUeBZzuQeK1g": [
+      {
+        "pdf_page": 19,
+        "overlap": 0.6122,
+        "page_text_sha256": "35b6c90fd001ae8f1b098505f02a5fcd6e2f5eef579765801f2d2c2018b5cb70",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 20,
+        "overlap": 0.2245,
+        "page_text_sha256": "018fbfae5d893a0b9f8c8d9d4ad7d24c5f4da13b673a1c881640eefbe75cffb4",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1YU5YDDBl7ex5NXROMlFcTQKocaK4XxpG": [
+      {
+        "pdf_page": 21,
+        "overlap": 0.7761,
+        "page_text_sha256": "24589dd9314f7cc03428cee8b43ad3ee414abac9eccb2f7913ae2615c144dc12",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 660,
+        "overlap": 0.1493,
+        "page_text_sha256": "ec1d5c30d82e27c8682ad86651a0d1d15b9e0c689074e368cbb5ced13aa66eff",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 662,
+        "overlap": 0.1343,
+        "page_text_sha256": "ca92e61ff6b0a7b3da26626e43a4f519be385cff1b449f69331f7c4a32bfd233",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1zHmcUt8aCzxHD_S0duMcq_f5QRoLalaj": [
+      {
+        "pdf_page": 22,
+        "overlap": 0.6061,
+        "page_text_sha256": "a83832c8c9077b4f7f88d3cf094eec2c4789c94e12038193deff269b58aff5d5",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 21,
+        "overlap": 0.2424,
+        "page_text_sha256": "24589dd9314f7cc03428cee8b43ad3ee414abac9eccb2f7913ae2615c144dc12",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 679,
+        "overlap": 0.1212,
+        "page_text_sha256": "a24c324fb233264bda019cd7bf99df10a6268585121bd4d779d7befad02562cd",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fuOEeESJPylCJpn1a7sOtHHG-sWnKZb_": [
+      {
+        "pdf_page": 25,
+        "overlap": 0.9539,
+        "page_text_sha256": "5d92f56e8a5ecc5604bb96a93cc5527c8539deb8a024f916d268c9380c610671",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "193_oVA-DOs4yjbCf1Zh4HpF83urWPxKN": [
+      {
+        "pdf_page": 26,
+        "overlap": 0.6842,
+        "page_text_sha256": "82125bbf86e6995278f3112af8ab33e1ac810437a6803e3a143e8b642b3ed40e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 27,
+        "overlap": 0.2368,
+        "page_text_sha256": "11281ff9edbfd4fd8649123329b5ab7d9ba5a67ff7a79776ee0719a96a54463f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1HlRLJStEB38hR1jZ-N9c79lFknN-DqZQ": [
+      {
+        "pdf_page": 27,
+        "overlap": 0.5199,
+        "page_text_sha256": "11281ff9edbfd4fd8649123329b5ab7d9ba5a67ff7a79776ee0719a96a54463f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 28,
+        "overlap": 0.4657,
+        "page_text_sha256": "e5fe11d9998a5b51d645e8f3603c59bff287093808da16ccfa92a812203c7f93",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "19upG2Uq8D_P5cPQFyV6yGQpt3QUzBv6w": [
+      {
+        "pdf_page": 29,
+        "overlap": 0.5644,
+        "page_text_sha256": "03bc07ed80b51c6a77feb393c20608f4b22f04d1c64f7bc4735b399684936509",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 30,
+        "overlap": 0.363,
+        "page_text_sha256": "88f992b9206aab3c314d7640a3e22136e19c411ae988a66d922133c8e1cec084",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1SEav4NDbfbiexOXWpUxzJ3fpVo9FdYnd": [
+      {
+        "pdf_page": 32,
+        "overlap": 0.4505,
+        "page_text_sha256": "815871c06b9e6975b6315e055de0f7299041ca3b499e68daf3f4716b9dbe1bf8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 31,
+        "overlap": 0.4189,
+        "page_text_sha256": "bddf96e9cb526ba2e8f7cdd0549991eda1db78262a813a64ab59576555214c88",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UtZnAjOvHes-nz8wE-Q-0yt2QiJmdt8F": [
+      {
+        "pdf_page": 33,
+        "overlap": 0.6974,
+        "page_text_sha256": "b424b22e75d9060a97e2d7bb9ce958755ec6cbc1e2d70d59673c8e93e7e9fced",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 34,
+        "overlap": 0.25,
+        "page_text_sha256": "e182f975a3edf3528e444833b3541ee3bb5bec02d321db78cc6fdd1b4b41156c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1kNrICvjEJvkKZctpvgVWe-bz1r6YIIty": [
+      {
+        "pdf_page": 34,
+        "overlap": 1.0,
+        "page_text_sha256": "e182f975a3edf3528e444833b3541ee3bb5bec02d321db78cc6fdd1b4b41156c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18b9YWMRaCGqJA7GKSVeMBF4Emj9zMCDZ": [
+      {
+        "pdf_page": 37,
+        "overlap": 0.9522,
+        "page_text_sha256": "0bf8bc1e7c1db661cac48527ebf401043a01165d370a3e1bca81a71934363698",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1gyfJtEHh7f93d3ojsMKvjpTIBHch_BQ7": [
+      {
+        "pdf_page": 37,
+        "overlap": 0.6824,
+        "page_text_sha256": "0bf8bc1e7c1db661cac48527ebf401043a01165d370a3e1bca81a71934363698",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 38,
+        "overlap": 0.3145,
+        "page_text_sha256": "bd42c767ca9a7ce8fe22dfdd5f0c9fcd6d811d3ce01f0ad4f4a1e06695cd5666",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "169MWj2sFXsvBxWldjujzyROj8TPt-JQA": [
+      {
+        "pdf_page": 38,
+        "overlap": 0.955,
+        "page_text_sha256": "bd42c767ca9a7ce8fe22dfdd5f0c9fcd6d811d3ce01f0ad4f4a1e06695cd5666",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "116IqH-aOAN0b-g8u6rjFVVzPLF3GCFmZ": [
+      {
+        "pdf_page": 39,
+        "overlap": 0.7158,
+        "page_text_sha256": "25f34474976f0fa897a3b5c52f610c8de4509acc761fac81612cd49a37f7bedc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 38,
+        "overlap": 0.2447,
+        "page_text_sha256": "bd42c767ca9a7ce8fe22dfdd5f0c9fcd6d811d3ce01f0ad4f4a1e06695cd5666",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1DVTW3JXxzlVyme1AxBIAnO5-fZV6elMV": [
+      {
+        "pdf_page": 40,
+        "overlap": 0.6373,
+        "page_text_sha256": "5f570e75e8c8c9f3f02bc052b99edd6d13fec91476617605f7d4ec4090cbd120",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 39,
+        "overlap": 0.3529,
+        "page_text_sha256": "25f34474976f0fa897a3b5c52f610c8de4509acc761fac81612cd49a37f7bedc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1A5QsoQFEbntRbGkv0B_tuiiXhKdzBZZF": [
+      {
+        "pdf_page": 40,
+        "overlap": 0.6165,
+        "page_text_sha256": "5f570e75e8c8c9f3f02bc052b99edd6d13fec91476617605f7d4ec4090cbd120",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 41,
+        "overlap": 0.3634,
+        "page_text_sha256": "eac0d837f061616442ee3d3b7e1770a52c6c1ab864da9416012239e61605eec6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1GeT0CkVRCj5DEIDkYwjyV4aHRQz9os_2": [
+      {
+        "pdf_page": 41,
+        "overlap": 0.9926,
+        "page_text_sha256": "eac0d837f061616442ee3d3b7e1770a52c6c1ab864da9416012239e61605eec6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1EKzAurKOofvyaUD254NnWmKhH7_FraL0": [
+      {
+        "pdf_page": 42,
+        "overlap": 0.989,
+        "page_text_sha256": "b6daa636b8733e40f8856d561b3bdd3dce7be1428fce064b9c3f30450c47874e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1guCt6g-2c2Mam0dzdg7LgpPzEsrXUnF0": [
+      {
+        "pdf_page": 43,
+        "overlap": 0.6128,
+        "page_text_sha256": "a4560d11e47431d3041993374fb84cc2359c43362027c76e1225e636817576f1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 42,
+        "overlap": 0.375,
+        "page_text_sha256": "b6daa636b8733e40f8856d561b3bdd3dce7be1428fce064b9c3f30450c47874e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1gkwFEOFoLZqLpUWK5yKZKDfS3-ng13Ny": [
+      {
+        "pdf_page": 43,
+        "overlap": 0.9625,
+        "page_text_sha256": "a4560d11e47431d3041993374fb84cc2359c43362027c76e1225e636817576f1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "19F58UUMCkYCQzb6yuOLZWuG_FVjKcfgT": [
+      {
+        "pdf_page": 45,
+        "overlap": 0.9574,
+        "page_text_sha256": "8e192002b566a10e06e3bd6c3f9d1d8392b8677bd5afe9d46e1b65526459c25b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_8hqYQGTl7Hom3hig3KNUgzwDr6UMzO7": [
+      {
+        "pdf_page": 46,
+        "overlap": 0.8043,
+        "page_text_sha256": "d5a5fdf2f455e3df1abec3cb4d522e04cee357a21101a4b21aa5645de66fd728",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 45,
+        "overlap": 0.1957,
+        "page_text_sha256": "8e192002b566a10e06e3bd6c3f9d1d8392b8677bd5afe9d46e1b65526459c25b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1taY7QDoTdkjMwO2DGO9DkH28rugih2pQ": [
+      {
+        "pdf_page": 46,
+        "overlap": 0.5848,
+        "page_text_sha256": "d5a5fdf2f455e3df1abec3cb4d522e04cee357a21101a4b21aa5645de66fd728",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 47,
+        "overlap": 0.4123,
+        "page_text_sha256": "c808c102d529121dc673f93cd5ae62c61618ebd5bde268e0acecb7e26ffb5801",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ZfXyZA58NR6bL8LvzpssxZDu9IkR8rr3": [
+      {
+        "pdf_page": 47,
+        "overlap": 0.9234,
+        "page_text_sha256": "c808c102d529121dc673f93cd5ae62c61618ebd5bde268e0acecb7e26ffb5801",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Z4SarZ4W8g8424Xo1qs46Lf3q-3bfE8Q": [
+      {
+        "pdf_page": 48,
+        "overlap": 0.9365,
+        "page_text_sha256": "0e79a7c5e8ddcff9e86900a4ac6f2c9bd45d2ba7ad6d59bbfd2583627efed8ca",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1V2HXXW-BamIADM6r_KJuJ_T1CD26DKsv": [
+      {
+        "pdf_page": 49,
+        "overlap": 0.7738,
+        "page_text_sha256": "338e7d4cf083d8ad7402063c61b5e7836a3eb6da38e0d5731c9e0a242be58823",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 48,
+        "overlap": 0.1667,
+        "page_text_sha256": "0e79a7c5e8ddcff9e86900a4ac6f2c9bd45d2ba7ad6d59bbfd2583627efed8ca",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "16qR1da_lrm_YoUEZpqePWPrCbdO5aooc": [
+      {
+        "pdf_page": 49,
+        "overlap": 0.5736,
+        "page_text_sha256": "338e7d4cf083d8ad7402063c61b5e7836a3eb6da38e0d5731c9e0a242be58823",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 50,
+        "overlap": 0.4186,
+        "page_text_sha256": "9ffd175a658d48c6c72a7e981ac1fd9aef8750585b51c7d0642f43774fbbe324",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1lb1r7bO3Q3P0NEH-P-ttXkkfFZEx0mQO": [
+      {
+        "pdf_page": 50,
+        "overlap": 0.9708,
+        "page_text_sha256": "9ffd175a658d48c6c72a7e981ac1fd9aef8750585b51c7d0642f43774fbbe324",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "16pXB8vJwDdRecgdNyMpmaxyX5aWnLQvD": [
+      {
+        "pdf_page": 50,
+        "overlap": 0.5124,
+        "page_text_sha256": "9ffd175a658d48c6c72a7e981ac1fd9aef8750585b51c7d0642f43774fbbe324",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 51,
+        "overlap": 0.3636,
+        "page_text_sha256": "e617500206840820afa34230d1ba1800d224a98454a88038db102a30c7c28f0b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1rKbdPYuy1dcVNr1WfLSVuYpF-e4rWblx": [
+      {
+        "pdf_page": 51,
+        "overlap": 0.9958,
+        "page_text_sha256": "e617500206840820afa34230d1ba1800d224a98454a88038db102a30c7c28f0b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "129auNQ3aJgVxYRaEElkUww41PNTZlK4U": [
+      {
+        "pdf_page": 52,
+        "overlap": 0.3883,
+        "page_text_sha256": "1a0360d3a9be21b189f5cac3c270283f348bd445683aa87867edcd38f8195844",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 51,
+        "overlap": 0.3608,
+        "page_text_sha256": "e617500206840820afa34230d1ba1800d224a98454a88038db102a30c7c28f0b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 53,
+        "overlap": 0.2199,
+        "page_text_sha256": "3b42333a2e60cf557e00925ff356fc3956fb81ad04cc6d21a6f86df7167d847c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_1o2hFI1fzfxS6sanAcE1dP5qOlD59wG": [
+      {
+        "pdf_page": 53,
+        "overlap": 0.7577,
+        "page_text_sha256": "3b42333a2e60cf557e00925ff356fc3956fb81ad04cc6d21a6f86df7167d847c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 54,
+        "overlap": 0.2055,
+        "page_text_sha256": "e50250a97f990d307a16ded266bfe6f53b87eeb325da7ca7f5c1b798dbb6d0a0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Uex74d_7PO9-APAPRO_msq1lLW9Wraku": [
+      {
+        "pdf_page": 56,
+        "overlap": 0.9214,
+        "page_text_sha256": "f76a23ba5dbee9f552865acf8069f89a3e6783773e4a807e798e3a8a8117e46b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "17p6rF6lTuLXOUTvCvVcr9SbNfVXPqgIj": [
+      {
+        "pdf_page": 57,
+        "overlap": 0.5194,
+        "page_text_sha256": "d655c9baec0fbeafbe8c5ada4458337d7adc62cf4349ce53ecd659c3bbd17f97",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 56,
+        "overlap": 0.2861,
+        "page_text_sha256": "f76a23ba5dbee9f552865acf8069f89a3e6783773e4a807e798e3a8a8117e46b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1oiynUubRpz2c35BXzTAtvZa0r7Xrlqxy": [
+      {
+        "pdf_page": 58,
+        "overlap": 0.9852,
+        "page_text_sha256": "5298d5bb1bdafa0db4c149c2c8ae51e1a51e14dd783018845fd01246efb15e0a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1erchQcEFOY1v0781pAsXsj9_mIUxJneT": [],
+    "1lFIl3iGnbUSzx69Pn6ZaEy1gYoK0QWtA": [
+      {
+        "pdf_page": 59,
+        "overlap": 0.9882,
+        "page_text_sha256": "ec8c73a1c75f7b1fdb538206922ec4fa413d1fa569b8cc79f4c437f797c3aa44",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1z6SvdoQTGBGJYavRD9mUkA8tPM-21KrM": [
+      {
+        "pdf_page": 60,
+        "overlap": 0.886,
+        "page_text_sha256": "74a394ae915d65f59507fad7926526d0508c03c51a7aa216c185da42e5d7ff2e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1e_H6EWkZP7ko8aJCVlzKurv7zERta6_F": [
+      {
+        "pdf_page": 61,
+        "overlap": 1.0,
+        "page_text_sha256": "9cc82d43ad5d143f40b838f376c0f61d01ca1bf2b69083626d79a6d310e082fc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1V3TeW2psysLDPeBKGRwyjqco30qlmbmg": [
+      {
+        "pdf_page": 63,
+        "overlap": 0.7719,
+        "page_text_sha256": "9be484d86f454e97f567214495675c67fd6bbaa4496ecf986b7928c29dba7805",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 62,
+        "overlap": 0.1988,
+        "page_text_sha256": "a420bf7bfd4d0611a53a99137e0a5fec72dee46a63d75704fe90c4c06f30d172",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1q-UkPwhcoOlCihmkwOfKhhnwc11WV-vO": [
+      {
+        "pdf_page": 64,
+        "overlap": 0.9932,
+        "page_text_sha256": "c54f43d04a78d6b46336e8407d28803827485f9d27428b6c585ea926688c2a8c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1EhLULUtrgn5kRm53leRhj9p-Sv5e6efV": [
+      {
+        "pdf_page": 65,
+        "overlap": 0.4609,
+        "page_text_sha256": "0db77f05f2abe402cb150cfdb9d9c116c8fb11c5d94f69880b73b0f70cd6c4d7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 66,
+        "overlap": 0.405,
+        "page_text_sha256": "060e7b7c818d79f175e301275d59bca0ffafec45c5a702141d39ec9a53aa029c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1SyjvDUNMeE9E3_xLsutKjVEkyHRcf5Pl": [
+      {
+        "pdf_page": 67,
+        "overlap": 0.9894,
+        "page_text_sha256": "887e594563d8485448ab6d6eb62b44fda787e9049d65314f9f33dcc1e56f784d",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18pCr3SG5vwIs5I2vXq_VwGcxtH1Y3cR6": [
+      {
+        "pdf_page": 68,
+        "overlap": 0.9085,
+        "page_text_sha256": "8b090aa662be32ffa8a06c71d9eff6ca58cd5189d10ebe4ecb6236a038dd8a11",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Qc4WaW-AnVnjTjgKY8CPWjkgS_QQp3i8": [
+      {
+        "pdf_page": 69,
+        "overlap": 0.9819,
+        "page_text_sha256": "3030bcde8a00c551d569e3b8c891abb0dc2d97c6b84eadfb289e8d5fde793220",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "196OgFd8YLV6Iw0VxqU2bie-mDu55yJBO": [
+      {
+        "pdf_page": 70,
+        "overlap": 0.9898,
+        "page_text_sha256": "2850efe495167ff21671f49e2858d9c1c57606c2b8f63cc7a8722310a24bcefb",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18CzlSUVgwLJux09d0kurvS_7bu4zaoAO": [
+      {
+        "pdf_page": 72,
+        "overlap": 0.9812,
+        "page_text_sha256": "70ac9dcb5e02b8a0a6785730cc2f708ce674dc325746522704e879d87fb83450",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1w1vefc6hg3m4MoK2dczmxhqwTECnWoYX": [
+      {
+        "pdf_page": 73,
+        "overlap": 0.8785,
+        "page_text_sha256": "bf29c0d75b3e21334cf5daed5f965393fe9a264f04a83dbfee953b02cecee96b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 72,
+        "overlap": 0.1017,
+        "page_text_sha256": "70ac9dcb5e02b8a0a6785730cc2f708ce674dc325746522704e879d87fb83450",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1DtlKlPJcbVDt0I1xF8OikNYUd7TDm0JS": [
+      {
+        "pdf_page": 74,
+        "overlap": 0.9561,
+        "page_text_sha256": "9da1ea6e09862aa2f69de39f50e369eda3e8807c3ddf89a0f5da72cd66ef0f99",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1FwuADKhc9Xt0CeNj-EhfNIMWmZJJ4kJ7": [
+      {
+        "pdf_page": 75,
+        "overlap": 0.6595,
+        "page_text_sha256": "19cd71cdd92daf0dd9ce40fe25a799292c0550eef59b24b61401d1b7ad78a749",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 76,
+        "overlap": 0.276,
+        "page_text_sha256": "21037c142931a9397b4014d35172a115111aca674b3d729acc357e13d2033c71",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Uur5mQLr5xrnW1zs_g7qATqJYKmwuGjC": [
+      {
+        "pdf_page": 77,
+        "overlap": 1.0,
+        "page_text_sha256": "24a146476c031810508f9ed8f6a54bd64301161836aaf0cb97c002a86a0e5da8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1s_JMCce0CVaG4aUbvtLohTGf9xk0Rtqy": [
+      {
+        "pdf_page": 78,
+        "overlap": 0.7964,
+        "page_text_sha256": "7d7b21d0b8df2c203715ed36e2d2e2b640e6e99d96831015add3d025b4933c7c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 77,
+        "overlap": 0.1673,
+        "page_text_sha256": "24a146476c031810508f9ed8f6a54bd64301161836aaf0cb97c002a86a0e5da8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1NdcCERMWxOZmSLbV9IlaLmuNnHtWsUzU": [
+      {
+        "pdf_page": 79,
+        "overlap": 0.9813,
+        "page_text_sha256": "08d87321a86090cd06304d434a62d21f0ae90ba47212aadb7eb44d56cef95620",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1FwhU86ZFaOu0MZ6TvJcXQYdO8ogl-Ysu": [
+      {
+        "pdf_page": 80,
+        "overlap": 0.8853,
+        "page_text_sha256": "b1c6ac607640da4d62c64e5530475033bf6c9d3c8ed075360c186c3d5b612463",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "10txm0-iSPjd-IGZpIP7sbEu75pqHIjyM": [
+      {
+        "pdf_page": 81,
+        "overlap": 1.0,
+        "page_text_sha256": "c3239584ff68f79bc0404f690d6e18ac6bf4a87afca5b0b5da2ba55c602be25a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1HdJBXw_Ma_Pn2BeEhZIX-qDQ1qVRmFE_": [
+      {
+        "pdf_page": 82,
+        "overlap": 0.9807,
+        "page_text_sha256": "c10f04339adff6a03beb4abda3caf9a22517591c4fd3d0198ce2dbc77da146b6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1QbYfjVCJhKQzN7fR1Bw1bDBPcj947TdJ": [
+      {
+        "pdf_page": 83,
+        "overlap": 0.855,
+        "page_text_sha256": "a522aaf2f03bfba0686602b290a266d32067b1427f73def23b02de7e578114e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 82,
+        "overlap": 0.1183,
+        "page_text_sha256": "c10f04339adff6a03beb4abda3caf9a22517591c4fd3d0198ce2dbc77da146b6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1InLkNcHtIexaB_9kVjXoNhfOeM3k1jTR": [
+      {
+        "pdf_page": 84,
+        "overlap": 0.9548,
+        "page_text_sha256": "ccd8139ec3a8490d82fd234d7cd019b458340703f354d2a3c65ba4a295fecabe",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Vhd9MtD-KV8HWAUqyKbWU2lFuZS83Goj": [
+      {
+        "pdf_page": 85,
+        "overlap": 0.9973,
+        "page_text_sha256": "76dffef1cf56f78fb1dcf243775defb4ff871b3b71f624f0c662d1e59f613392",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "16_rMVzXQzoUX-xmUUbOAt_gYc1MIgHay": [
+      {
+        "pdf_page": 86,
+        "overlap": 0.7484,
+        "page_text_sha256": "5a0d083345bc9bce0f87c1f650b23a8fdfcf046be0dadc541711958bf070557b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 87,
+        "overlap": 0.173,
+        "page_text_sha256": "28e4be403971c45fa296d471ee0aec9a6a2e35e2d508d75ddcfe3e9941124a75",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1qSmwr98H-O7N-giJr8EG3K5QwKOKZwN2": [
+      {
+        "pdf_page": 88,
+        "overlap": 0.9664,
+        "page_text_sha256": "c6b9b861ae54c7d15eef6cb6bf66473fee06b471f32677df39ff4ff91f04c56f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1CY_jW9CEEFi09zoqaapD2By84UKm9Ywi": [
+      {
+        "pdf_page": 89,
+        "overlap": 0.9879,
+        "page_text_sha256": "f4b8f86899812ce698c27d866bf72aeeaa9e90dedbf32b5ec452f3a73c789e89",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1FGYH6IEcCmTnjv_SgF-nuiNwZVGXboMS": [
+      {
+        "pdf_page": 90,
+        "overlap": 0.9907,
+        "page_text_sha256": "9e8be52f1a7dc90a10a98b35c45e1d3b3c41354d0c20ac76a89f85d4eb28d7e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1miWuKZmb70xnvu0V_TeLOwG_XEPDQQL0": [
+      {
+        "pdf_page": 91,
+        "overlap": 0.9519,
+        "page_text_sha256": "0233ea5d4e4c94565aa7e69393f64077cddcbc23df0967b20f088064710ba727",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1mD742OVbNDh_E9Kn0wqs1XqbQui4XqMl": [
+      {
+        "pdf_page": 92,
+        "overlap": 0.9869,
+        "page_text_sha256": "b2e2a0bce6f059cab31efbaa2e95b0abdc7414733d52232db6e4888dfc8ba4c6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "12IFPtqy-Uh5MHOacWhX8R2qdVX03yIJ-": [
+      {
+        "pdf_page": 93,
+        "overlap": 0.8809,
+        "page_text_sha256": "5a10e260a211e74898e473b5b1af2936c66ad1193ec44e4a89a6b2f9f9423f5a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 92,
+        "overlap": 0.1047,
+        "page_text_sha256": "b2e2a0bce6f059cab31efbaa2e95b0abdc7414733d52232db6e4888dfc8ba4c6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1S_4JxVneGJTUgppyygcGyvG3EHnwa8iM": [
+      {
+        "pdf_page": 94,
+        "overlap": 0.9553,
+        "page_text_sha256": "c654e08cf400cb0327a452f35c54df51e9aee85e30dd0e0e12ffac05bda34421",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1NDSfQWILe0rpRhZ4huZYsmxAx1f79D-1": [
+      {
+        "pdf_page": 95,
+        "overlap": 0.8506,
+        "page_text_sha256": "08f214edc71e0c27cf889efcbcc82f20974a0b89aa84822dce3d2f874408e8ab",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 94,
+        "overlap": 0.1322,
+        "page_text_sha256": "c654e08cf400cb0327a452f35c54df51e9aee85e30dd0e0e12ffac05bda34421",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ttuRZNJqAHWfVfwEtycy4mQrc15EJRXF": [
+      {
+        "pdf_page": 96,
+        "overlap": 0.9801,
+        "page_text_sha256": "62ab9abd79b35491be77d7a4d66044f13b90659e4c99ada2c39c1ad19ffa1a2e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1o4hTQojRVbl3Mzk7NkJKkpRxjjuX3OvE": [
+      {
+        "pdf_page": 97,
+        "overlap": 0.8796,
+        "page_text_sha256": "b2b87d79adaf8ccb1c9e68c9ff713fd1537a81dd6302558da8a8ad4a29aa643c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1XkMeMcvfaVcF4iMG9jSLXWWzMefUDFuU": [
+      {
+        "pdf_page": 98,
+        "overlap": 0.9886,
+        "page_text_sha256": "aac80d30dea3bf548a604ea71984bc297ec795cb123e5f3274a36fc44c465f38",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Axjj5xlCu47LQmJQFie13JFRvq5o9vCG": [
+      {
+        "pdf_page": 99,
+        "overlap": 0.6414,
+        "page_text_sha256": "55376ca32ba9af0c725813355d058205d6ee563acb2efeefc2c63be36826abdc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 100,
+        "overlap": 0.2829,
+        "page_text_sha256": "53613b80fbe22e300c9965af031e8c6ab5031f10fe7b6a8c874019fdaa53d5e9",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1XOEDY50PxbT6IHz7hYvzUtWB78GR_h4A": [
+      {
+        "pdf_page": 101,
+        "overlap": 0.9918,
+        "page_text_sha256": "0b9cb2dbfcac8866b81e5162f81984314dc575ce53307139570ca22269d485ad",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1XsBphhoJJr-mWyAx0y34eLn-iAK_hnbs": [
+      {
+        "pdf_page": 107,
+        "overlap": 0.8899,
+        "page_text_sha256": "eb8a5c1ac3bc910a98c578bcfc6ab9b81c9fc7b88e456034a3ae5bf14b1bd2d0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1EqTikKJMNDTNwr37SZB1ocHddN-CLW5E": [
+      {
+        "pdf_page": 108,
+        "overlap": 0.5431,
+        "page_text_sha256": "f9ed7bf204ed5cd0b9d64c48659db69649f9a74c454d7eef223fc14823072b19",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 107,
+        "overlap": 0.4095,
+        "page_text_sha256": "eb8a5c1ac3bc910a98c578bcfc6ab9b81c9fc7b88e456034a3ae5bf14b1bd2d0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1kQrZV7PbjrhO6To6Hsec5lndGk_XDd9r": [
+      {
+        "pdf_page": 235,
+        "overlap": 0.8657,
+        "page_text_sha256": "f5afdc771b9b2e02c3a3a39ce1819fc45785f42e29be55a35bfd6877934ef45e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 236,
+        "overlap": 0.1257,
+        "page_text_sha256": "239fe3b2bc1f14e2b9467b959d418ae1f2bc372aa5c5902424d589801b64aa79",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "12KDUQrW_LwFRWbdJ-pXb7Apye6Fg70ER": [
+      {
+        "pdf_page": 237,
+        "overlap": 0.9727,
+        "page_text_sha256": "2a676d551a300f27008ab28b91d7f6a2f22ad3158983345719e633f5a6ada54f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1EiBXbHQyvTcUk-2DwtGlX6I6XgCPS5jL": [
+      {
+        "pdf_page": 238,
+        "overlap": 0.9402,
+        "page_text_sha256": "7e303a785db6d017e034bdc536f010a0ab2a4188985231e44a8c9ad8fbb6416f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1OWzDVJMr3VktIOs_q7FsTdhAwfOviZGZ": [
+      {
+        "pdf_page": 244,
+        "overlap": 0.9508,
+        "page_text_sha256": "29749e2774369d932db110e06792d2cc3352b66d9887fd1fdebd56e49173a5cb",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1X_cPNJN2alUrrNxKRPuK5H-bcfaPvn0I": [
+      {
+        "pdf_page": 245,
+        "overlap": 0.9815,
+        "page_text_sha256": "2ed26ce67c19c45bdcafd224269bf3303a49ff7990867897daae8664244b6fe7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1BfbmFNE-tsL-L-qDmFB5dAybB4rFsQ8-": [
+      {
+        "pdf_page": 246,
+        "overlap": 0.9662,
+        "page_text_sha256": "a0fd56d427a9b6e330c3990e884d2d2509d72814d939fafd6e45407f49f632f4",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1oksRkc6miNZ1EuojuiLzXGXhwlCOKY1w": [
+      {
+        "pdf_page": 247,
+        "overlap": 0.5146,
+        "page_text_sha256": "b00c7f7b9e25f36e2919cdd2dd45219de0a33c77e2f7c2d81ab08c7509a6ddbb",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 248,
+        "overlap": 0.318,
+        "page_text_sha256": "8fa11bf53f4925686591ad4afb55aff7f4ee920f3bd8b3848aea2f61b932ac00",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1VDXxsEn5Vtq8R5PFXO-pXzQsinojyMMp": [
+      {
+        "pdf_page": 250,
+        "overlap": 0.9514,
+        "page_text_sha256": "cc9836c8c90a912397b2fa8f06894480f1c10d16978731b2150ec79baf3b3ad2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1pDRVPkJEve9RLdyMMCQp19h-orvN0DGi": [
+      {
+        "pdf_page": 250,
+        "overlap": 0.5544,
+        "page_text_sha256": "cc9836c8c90a912397b2fa8f06894480f1c10d16978731b2150ec79baf3b3ad2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 251,
+        "overlap": 0.399,
+        "page_text_sha256": "cb1f8a68c34dbb7ada3eb7744ca6fc177de50d6f62d6cabd4a50afb77d1bba72",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "166B-AUKe6dxg5NW_S65zfvqKk0ep_YT4": [
+      {
+        "pdf_page": 253,
+        "overlap": 0.9699,
+        "page_text_sha256": "f7ed9c98cdcd3aed02e845e5c3ecbcd33c388cb0aedc5229c1e269953c7f67dc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "11kH8Q_ofX2DCLMkCMvRdM6iLehAfZtdV": [
+      {
+        "pdf_page": 253,
+        "overlap": 0.5777,
+        "page_text_sha256": "f7ed9c98cdcd3aed02e845e5c3ecbcd33c388cb0aedc5229c1e269953c7f67dc",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 254,
+        "overlap": 0.3649,
+        "page_text_sha256": "fee57f69acb53cc16379814814cfe6b836ae3c087642d710eab93ddcc49986be",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1VPaLFDlRVRyzVwpDmgqhkdvI80JexIRH": [
+      {
+        "pdf_page": 254,
+        "overlap": 0.681,
+        "page_text_sha256": "fee57f69acb53cc16379814814cfe6b836ae3c087642d710eab93ddcc49986be",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 255,
+        "overlap": 0.3217,
+        "page_text_sha256": "e710007329a6dd7861011fbf5e314e66029111203a49cfce38bfda5f35b1b3ce",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ThoeEw0Th1JqhZaNOmrgHR5MNKiadCG6": [
+      {
+        "pdf_page": 255,
+        "overlap": 0.8576,
+        "page_text_sha256": "e710007329a6dd7861011fbf5e314e66029111203a49cfce38bfda5f35b1b3ce",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 256,
+        "overlap": 0.1159,
+        "page_text_sha256": "9e62fed90501480187b441468ad90d2c32453cdaea32faf9508e4e46580148a6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1wgwYXUtIU0BhXf-1ooSevseNt0RITx2v": [
+      {
+        "pdf_page": 259,
+        "overlap": 0.6667,
+        "page_text_sha256": "9c51f3dab757f0ba141a4e5002164db93bfc71c215874f7dc11d6e169fa345dd",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 258,
+        "overlap": 0.315,
+        "page_text_sha256": "939f288246363a241642b34ab9fa33f93ede1164061636dea5ad6452362f2d10",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1gi3AdXV0yZaIDf9N__Tmeke9bfbzK8Yq": [
+      {
+        "pdf_page": 259,
+        "overlap": 0.6499,
+        "page_text_sha256": "9c51f3dab757f0ba141a4e5002164db93bfc71c215874f7dc11d6e169fa345dd",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 260,
+        "overlap": 0.3205,
+        "page_text_sha256": "6215acc1141468fd2b96c9eca70c556857310db1bf6f01058fa34a569b5357f0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ET5Wqbig6QKJDVbVBcfR8G8pZDd_K5u3": [
+      {
+        "pdf_page": 261,
+        "overlap": 0.9863,
+        "page_text_sha256": "21e35f7486f118174933e6fb9022a40aeef014199b37b2be4c38a3e9083d5fdf",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1SjRa49Zfke3GoLkabQNj-2Mo8Qb5xn23": [
+      {
+        "pdf_page": 262,
+        "overlap": 0.5285,
+        "page_text_sha256": "9a9e69b289cdce2169bfbeef894b7a926496d8117a2c5bcce9bdba6dbc7d1b78",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 265,
+        "overlap": 0.3954,
+        "page_text_sha256": "4e03ca60864370171c2c9643d96c991eeac3851de123ceebaf2a15470dcc4dea",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1hFj06BSX5YlQKPHZSM0V9A9X9ZAU83qE": [
+      {
+        "pdf_page": 267,
+        "overlap": 0.7879,
+        "page_text_sha256": "409d980586e09efba86d3d24cdb69a0b1dd9f8d8d6c5d732032ed9b0683713ed",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1mk-AiSIK5tU1HyhLmgPk2q86N2Vbc0e1": [
+      {
+        "pdf_page": 268,
+        "overlap": 0.819,
+        "page_text_sha256": "c6184bff93749cbfc6e32991c9e7dc9b650b91ad6d334449c1b0d1a5996ad500",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1niisTyBtON4HisKJ_MwtTmoqnGbkeQKi": [
+      {
+        "pdf_page": 270,
+        "overlap": 0.7733,
+        "page_text_sha256": "b76015ce8477682829100fbd5eca65b9a1bb525d5925047b9be4bf90fde5f111",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1qjO-4MKC1MkfL1qm4eE1g11Rn0gMxHXw": [
+      {
+        "pdf_page": 271,
+        "overlap": 0.9135,
+        "page_text_sha256": "01927f2c420977330d589c0c7ff2d2a67cdf0a2b59ceb2383ead7ec4eccf011f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ikfl17kaLDWERatlD99TsxlWGDfNXVU_": [
+      {
+        "pdf_page": 272,
+        "overlap": 0.6198,
+        "page_text_sha256": "93591e12131125db77f03addbb271c0d418a440ec56e892d9e3baa2deb7273ba",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 271,
+        "overlap": 0.1725,
+        "page_text_sha256": "01927f2c420977330d589c0c7ff2d2a67cdf0a2b59ceb2383ead7ec4eccf011f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 273,
+        "overlap": 0.1661,
+        "page_text_sha256": "841c513d93195f7192f9ed085926b80d21e1cc563d7d184306d0ca5446506708",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ATA5DgLfCUMcSerwcOrul98VeMqL8aCU": [
+      {
+        "pdf_page": 273,
+        "overlap": 0.9665,
+        "page_text_sha256": "841c513d93195f7192f9ed085926b80d21e1cc563d7d184306d0ca5446506708",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1g7bhyCZ8PmJfo9Y51pjFi2k0IplvCwg3": [
+      {
+        "pdf_page": 282,
+        "overlap": 0.6239,
+        "page_text_sha256": "3db22a45d6d0449195bbdd1dbf29cbe0a7f7ea4db582b92f7716ee2a1ffcbe3c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 281,
+        "overlap": 0.3639,
+        "page_text_sha256": "b7f08a9a5ab9545ca136f892b4776c8c9183ffc0b5dab1fc42774d87f2700197",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1-9_ffr7T9L0zbduQro0AgQAmVlXSchLo": [
+      {
+        "pdf_page": 282,
+        "overlap": 0.994,
+        "page_text_sha256": "3db22a45d6d0449195bbdd1dbf29cbe0a7f7ea4db582b92f7716ee2a1ffcbe3c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fndfULJv6qsDmXdGgJRaJ5DzPQatd-hd": [
+      {
+        "pdf_page": 283,
+        "overlap": 0.7114,
+        "page_text_sha256": "eecb34b11c83b2bbc1f83984cdc2f0d0bdf37f759df7398a522b3ddad559675c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 282,
+        "overlap": 0.2416,
+        "page_text_sha256": "3db22a45d6d0449195bbdd1dbf29cbe0a7f7ea4db582b92f7716ee2a1ffcbe3c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fx8ChXffMAH7B5DpcS7b-ZaJH4fIaO11": [
+      {
+        "pdf_page": 284,
+        "overlap": 0.4422,
+        "page_text_sha256": "7df8774d6ea05e3f030636e4085a61933202805ce8122608ff88b85961e5f394",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 283,
+        "overlap": 0.4158,
+        "page_text_sha256": "eecb34b11c83b2bbc1f83984cdc2f0d0bdf37f759df7398a522b3ddad559675c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1eWT95QclhjPqyuLbCWXrAFG9fKAu-IxP": [
+      {
+        "pdf_page": 284,
+        "overlap": 0.5738,
+        "page_text_sha256": "7df8774d6ea05e3f030636e4085a61933202805ce8122608ff88b85961e5f394",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 285,
+        "overlap": 0.3361,
+        "page_text_sha256": "948938cda3ec7780cc4f4819a05fb528840c37ca0c20a7169b4acf034d83621f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1u4l3pXTvvNKhZbD6zVhLV23qGDXEJHd3": [],
+    "1G8L_8lQ1e9Xt31U6gpK0KGitYLLq57rz": [],
+    "1pN-DAvq_J85GOeO9cWCUA9uOMPjKXkT3": [
+      {
+        "pdf_page": 285,
+        "overlap": 0.7147,
+        "page_text_sha256": "948938cda3ec7780cc4f4819a05fb528840c37ca0c20a7169b4acf034d83621f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1FiCK_WLbsRBIei49SW-8dYCFwqA9cWTa": [],
+    "1E3O_ItVN7uusph2Fmx0bsW30iJWtlgYV": [
+      {
+        "pdf_page": 286,
+        "overlap": 0.741,
+        "page_text_sha256": "94a9271a28055f42196751b9eef0142c16cbe67dc87d19d772f660afbe43deec",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 287,
+        "overlap": 0.1054,
+        "page_text_sha256": "b9838f32d4550d3db673d8d9461e3708ae331ab11fd01b685bd4ed02981b4dd1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1IcxdMlO5pmCc7lSPgTy4LIY5opFtD4yA": [
+      {
+        "pdf_page": 287,
+        "overlap": 0.9531,
+        "page_text_sha256": "b9838f32d4550d3db673d8d9461e3708ae331ab11fd01b685bd4ed02981b4dd1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1k6hYzZ-Cbhx1YXq9LjUiz2_h_1t0sN1l": [
+      {
+        "pdf_page": 288,
+        "overlap": 0.9745,
+        "page_text_sha256": "9f72296bff36e288141524861fce67128786242ff86637775e977ec0b960c691",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1IHMnWoLS503Jrw7lKN047fJvofpHVW6-": [],
+    "1D2IMJFzNzET3iB5s3D4wGgTCqNVI_TvD": [
+      {
+        "pdf_page": 289,
+        "overlap": 0.8347,
+        "page_text_sha256": "e530eb49364fb67bd2d86ebb59516a883fe39de615f4e50dc82d81c3addb4b32",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Ou8qOIwH0e0A9hDybbnJFV7SeQOHcbjZ": [
+      {
+        "pdf_page": 290,
+        "overlap": 0.6546,
+        "page_text_sha256": "cc6f81bc7119647dcaf5b924de66e16f52b4d778a6f58809c43ed9cbddafd64e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 289,
+        "overlap": 0.3012,
+        "page_text_sha256": "e530eb49364fb67bd2d86ebb59516a883fe39de615f4e50dc82d81c3addb4b32",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1U1ZjuTN_j8CeEPjKxwq-B_POJemdjiPi": [
+      {
+        "pdf_page": 291,
+        "overlap": 0.5188,
+        "page_text_sha256": "e165e8b8d0e287a680b8f7cfeae5523a79c60c8bc3934338a2a7e74b9a0f028c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 290,
+        "overlap": 0.4027,
+        "page_text_sha256": "cc6f81bc7119647dcaf5b924de66e16f52b4d778a6f58809c43ed9cbddafd64e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1aNIze1Hj-WmjIB-Gty3tZo42Wo_L8aKV": [],
+    "1X3YzjoHJIU731n8uJOpIvd4XeYoeXeTC": [],
+    "1ytyZhNHfOgj-KcEyBSnjskVIGKyZgICC": [
+      {
+        "pdf_page": 299,
+        "overlap": 0.851,
+        "page_text_sha256": "1bf162637e3f484ca609efd97dc209db86c32fdd99d8bd180b846e75ff33e015",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Zje8WwF_cGML9H2yboLdgmFPkqCvT7UK": [
+      {
+        "pdf_page": 300,
+        "overlap": 0.5123,
+        "page_text_sha256": "15e8dee8fee195354cc11d2a8e238c0d172ffbfd1a5fac871d93c71bf65c2124",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 299,
+        "overlap": 0.1552,
+        "page_text_sha256": "1bf162637e3f484ca609efd97dc209db86c32fdd99d8bd180b846e75ff33e015",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UZUXGzMuaeHdg-8sQKVpizzORV5q7BdL": [
+      {
+        "pdf_page": 300,
+        "overlap": 0.5722,
+        "page_text_sha256": "15e8dee8fee195354cc11d2a8e238c0d172ffbfd1a5fac871d93c71bf65c2124",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 301,
+        "overlap": 0.175,
+        "page_text_sha256": "ff4603b35f053ab2acfda35e439cd30ea82c77edc9ad0ef841a4547ec3637b98",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1CRd16R4PPtOQepf_b9_4hW4MQiXUtsSb": [
+      {
+        "pdf_page": 301,
+        "overlap": 0.658,
+        "page_text_sha256": "ff4603b35f053ab2acfda35e439cd30ea82c77edc9ad0ef841a4547ec3637b98",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1k5fjtQc-eTg8Uq49K3sr8G_fN_Okj94D": [],
+    "1JiRhP34HURPsB7yfJdbCu9g1UOiFWfvS": [],
+    "1pzSHY99VewmRplp9vACzhOqrctTL7SoS": [
+      {
+        "pdf_page": 302,
+        "overlap": 0.5976,
+        "page_text_sha256": "2e3f0e334e9bbcec5f797b364c146a183ae2c2fa35fd3d4e81975848a4ab2aee",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 301,
+        "overlap": 0.355,
+        "page_text_sha256": "ff4603b35f053ab2acfda35e439cd30ea82c77edc9ad0ef841a4547ec3637b98",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ssQ2u_402G3vyJJmqQ3Ky2vysO_y24rz": [],
+    "1GQH4T5zoKc6l4Xc6p3ya5yl2dhv2iibO": [
+      {
+        "pdf_page": 302,
+        "overlap": 0.5931,
+        "page_text_sha256": "2e3f0e334e9bbcec5f797b364c146a183ae2c2fa35fd3d4e81975848a4ab2aee",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 303,
+        "overlap": 0.3266,
+        "page_text_sha256": "4e7b9cb34b5427ccbf871ef3e97d6d4cb917285d6568d4d783dd8d82425a934f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1eyRncf-NBp4vQBULWUcJ_A6ftXDXZbGR": [],
+    "1XEB-H7ZwS8NF7cZrzgRoFcR3KWLMSxo6": [],
+    "1lN2iiIuuONLKqGlVoFHhCaUaGSFNfu51": [],
+    "1JYYNlM2lQy5KVv4POah-pXYRBT4FfCNl": [],
+    "1iQ7TvATrrj4XZ9OflFAeogqs3qJqpuxh": [],
+    "1-keGfW-JkNXhWww2B36ZfR1Kd87x-zVp": [],
+    "1Br7t727Epxg7M5XxhLiwWZJQoy4F87IT": [
+      {
+        "pdf_page": 303,
+        "overlap": 0.6522,
+        "page_text_sha256": "4e7b9cb34b5427ccbf871ef3e97d6d4cb917285d6568d4d783dd8d82425a934f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Ogaf4HBNhO91jC1qemPjdYI9W9KLuHfO": [],
+    "1sb3Ji6BgFtgBiAianI3hp9p9gqnfEQfI": [],
+    "1wJXbxRtd5oYrtKhtJYj2FeHItlF1SONZ": [],
+    "1n45Bty0tE7S21bH-FQ3q6JygoOhTrbqo": [
+      {
+        "pdf_page": 304,
+        "overlap": 0.573,
+        "page_text_sha256": "d1f1fe49852b279631bea09f22dfc3591d37964f692fb183e0c4976a7f966e76",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 303,
+        "overlap": 0.4164,
+        "page_text_sha256": "4e7b9cb34b5427ccbf871ef3e97d6d4cb917285d6568d4d783dd8d82425a934f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UisKEF0H-usGZejvmXyoiE0qNzKIv_Ai": [
+      {
+        "pdf_page": 305,
+        "overlap": 0.4495,
+        "page_text_sha256": "dd88ad873784fb33aadfeb96f551e2510d850b42de10e72443a48490c7e92d23",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 304,
+        "overlap": 0.3394,
+        "page_text_sha256": "d1f1fe49852b279631bea09f22dfc3591d37964f692fb183e0c4976a7f966e76",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ueIH7FbGelPEuHNuc4KbEhPDeD3JlqS1": [],
+    "1DhYxplvd8sMQsMdnc3J_i-QO1IQ6YlLZ": [],
+    "15B_D2HfmJHvJJUhXOE9eVeIH0cnESaVy": [],
+    "1VzOblhUPQFRiiyfZ5G5BoHUMuLqdC2Tl": [],
+    "1prLTG2W2DAIceTo8AIv1OsbyqQeiYo-l": [
+      {
+        "pdf_page": 305,
+        "overlap": 0.6089,
+        "page_text_sha256": "dd88ad873784fb33aadfeb96f551e2510d850b42de10e72443a48490c7e92d23",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1q0ji7M9WkdahjXfnqWBD3N0B8Yu-PcBC": [
+      {
+        "pdf_page": 306,
+        "overlap": 0.9333,
+        "page_text_sha256": "aa3a88989794c0311fb2007fa17fbfb8abf09401684bf94fa0fc2c912add98c6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "153xKi_MpO_RhTpLippmkjclbQFOlDwCY": [
+      {
+        "pdf_page": 306,
+        "overlap": 0.9306,
+        "page_text_sha256": "aa3a88989794c0311fb2007fa17fbfb8abf09401684bf94fa0fc2c912add98c6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1VfqCIPgNJ8gbojzZ531p643qjZ_QWYcV": [
+      {
+        "pdf_page": 307,
+        "overlap": 0.8886,
+        "page_text_sha256": "9cd7e3b8ae6ca5d81b6ebe1340b1b8206d16b5e0c61ec45804eff42bd5126d27",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1zSYmZWLR9F4BKHu7TTd3QLR0CmQVTjFO": [],
+    "1dm8iC1yXbeKfTjaTCbRET62JcF-gsTlm": [],
+    "1ZYdAsfd_yl5ad50AvKdlN4pLuE0Agrp7": [
+      {
+        "pdf_page": 308,
+        "overlap": 0.8374,
+        "page_text_sha256": "9c3014de8469072889acc56d618090d7125016e05889c61b368139938b000615",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 307,
+        "overlap": 0.1453,
+        "page_text_sha256": "9cd7e3b8ae6ca5d81b6ebe1340b1b8206d16b5e0c61ec45804eff42bd5126d27",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1gdrL3-6jA_lfV2j5szMWQOhWjyheZ72T": [
+      {
+        "pdf_page": 309,
+        "overlap": 0.6667,
+        "page_text_sha256": "79e21393e297d48392425531599492af8c6784967d8bb9aad33f98322825b2ff",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 308,
+        "overlap": 0.2148,
+        "page_text_sha256": "9c3014de8469072889acc56d618090d7125016e05889c61b368139938b000615",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1u8CuG3bnYN9DjZoXZ9gE-D0agkDb7bf_": [
+      {
+        "pdf_page": 310,
+        "overlap": 0.682,
+        "page_text_sha256": "4b11e9293ca872862a5fc4071071c4ebc3e60036ee4ee4152141b948807910e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 309,
+        "overlap": 0.2332,
+        "page_text_sha256": "79e21393e297d48392425531599492af8c6784967d8bb9aad33f98322825b2ff",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1d7ivL3K0V9WfU89QRO5K14VNZDYmECA0": [
+      {
+        "pdf_page": 310,
+        "overlap": 0.4517,
+        "page_text_sha256": "4b11e9293ca872862a5fc4071071c4ebc3e60036ee4ee4152141b948807910e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 311,
+        "overlap": 0.2276,
+        "page_text_sha256": "8e66d32772f8823545beb50fb33db2a1b2ddbf2dc0a90de59aeb7671f09e6b08",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 312,
+        "overlap": 0.2034,
+        "page_text_sha256": "78a291a20db861227d8b50d716d45e18a8bc4736362792aca1ab7a67f6715782",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1K0Ixfk5mK_T0bAKMHHg0aUDbRES3gmAm": [],
+    "1cEnZw-YLZgmOcDTmpIeQKdLhxB05Xbp7": [
+      {
+        "pdf_page": 313,
+        "overlap": 0.4638,
+        "page_text_sha256": "51215b685ad9b9164e458f914ca2b802cbe35d6b17e84d393c6c5f7c3b51982f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 312,
+        "overlap": 0.4383,
+        "page_text_sha256": "78a291a20db861227d8b50d716d45e18a8bc4736362792aca1ab7a67f6715782",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1zW9GCuAYzFj4f4ewF5dWdygcIvYJNYeQ": [],
+    "1D7u9TUMQ7rFtIs6o23A5_RwSx1gN_zSD": [],
+    "1mQT4-IIMXH1XWd4F8QDJrO_qC3ssNMMS": [
+      {
+        "pdf_page": 313,
+        "overlap": 0.6623,
+        "page_text_sha256": "51215b685ad9b9164e458f914ca2b802cbe35d6b17e84d393c6c5f7c3b51982f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 314,
+        "overlap": 0.316,
+        "page_text_sha256": "7c2b0b3679dde659a11ea18ccfde854be8346bfde533eed1fd0b2b57e085bde8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Sw4HrlAEadciXPHgFysXk0SdvknKhPQ-": [],
+    "1OAZHgL27E1TYho1W0zPHw3ocazbWv9D8": [
+      {
+        "pdf_page": 315,
+        "overlap": 0.7635,
+        "page_text_sha256": "0f3e63bdc657c0ce58ae08bbb0beef47e3f442583ba2d2f642f928c7b97b0656",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 314,
+        "overlap": 0.1287,
+        "page_text_sha256": "7c2b0b3679dde659a11ea18ccfde854be8346bfde533eed1fd0b2b57e085bde8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "16UAaHD-PjTn6apEvqfvGAs7QrVRaJ3zc": [],
+    "1hh8QC6wMD4TU7-9PppDnH4t65_KYSY0t": [],
+    "1Nwn3ZqDT2EuQ1pS0WaDxIO-oE_7QmICY": [],
+    "18palRTkA-4W3HWuZWjP82JY6uWyo2tZB": [],
+    "19zvVAvya4Ct6XMAhx8DbQIgERWwpVw05": [],
+    "1qErRBEvRG-JvNlnBnlkdjbrT9dnxVeOF": [],
+    "1vbfmauH6HhR8Ii44p65buRbH-4Cmy3_M": [],
+    "1F7v0TcmHZ1t9TuPdGVRoE_sIUiSfmHf_": [
+      {
+        "pdf_page": 316,
+        "overlap": 0.6913,
+        "page_text_sha256": "9dcea7b914f1276745cbff81b298c5c07f2649bd69ff06c627faa0096284e5a0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 315,
+        "overlap": 0.1812,
+        "page_text_sha256": "0f3e63bdc657c0ce58ae08bbb0beef47e3f442583ba2d2f642f928c7b97b0656",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1JLEfAnmlXAQILEy7TF3BKOF4uHkJBZ8K": [],
+    "1k2vapbXeUl3-rEkgCLMkHHUDAplWztE8": [],
+    "1o_CLeqVGYsOlNtK8KDFbv6ol0xB1onu3": [],
+    "1TIlNfOhOzYw-ETGgZfeRLlMDmPAd0uRO": [],
+    "1JT7FEsXQtHxY3Vw5YR6CxQEtcWKV6ghW": [],
+    "1GkzOTZADf7cd1-8FVTxBIECzeKZPxZdW": [],
+    "1Ih-BbZtdxD5GexiDhRo31zyRJUFTyzTV": [],
+    "1QBX23NgSY9z3mDBfGqUD-OouF62-61ER": [],
+    "1mcOYMkSAalT5v03_m-T0T2jhb51kATnG": [],
+    "1jxm2vIrsKoWvlCBM8hVXPTbbWnJdrDOu": [],
+    "1IZj8hUczcEOBBcd-21UlgoNdG4hwFm16": [],
+    "1sJwYpcqMZ4YhWsaxGCfQj1aNT9uUUIdC": [],
+    "1Bh4zHDo3Qt0cStAWlAuwGA7v41UC0V7w": [],
+    "1gtp9iesNDdUZlNTl-GKDsR-zUH0wb3RY": [
+      {
+        "pdf_page": 108,
+        "overlap": 0.9865,
+        "page_text_sha256": "f9ed7bf204ed5cd0b9d64c48659db69649f9a74c454d7eef223fc14823072b19",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_UZZOp4yeo7yZpyZJOl12vgnXg7BQvmq": [
+      {
+        "pdf_page": 109,
+        "overlap": 0.9913,
+        "page_text_sha256": "0c2ae5c279ae131a0c7c08f0370cb6e56b911dc9cc2d36416804da7a8ef0f9f7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xhAM3Z40Zy90a5FgI8iZiWFbw2txnslT": [
+      {
+        "pdf_page": 110,
+        "overlap": 0.4383,
+        "page_text_sha256": "3b5c1fe2d15cdefe0d8976d7a3821b76175e1b42a799263853cdd8bf30737644",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 111,
+        "overlap": 0.3532,
+        "page_text_sha256": "007db75d47773f9f65e08af52f436f97cc19d3318d84f0bb54863a0c6fc0f602",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 109,
+        "overlap": 0.1319,
+        "page_text_sha256": "0c2ae5c279ae131a0c7c08f0370cb6e56b911dc9cc2d36416804da7a8ef0f9f7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1DWumP5kp6obNK22jvQ43aqBsy5UWIqHE": [
+      {
+        "pdf_page": 112,
+        "overlap": 0.9804,
+        "page_text_sha256": "8ab4654677a908e2a84e47a16b039e68497127761928d737a824a7eb2e28c577",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Z1dM1ZU60Dbr6sZ37HsQjXsV5trU1rxx": [
+      {
+        "pdf_page": 113,
+        "overlap": 0.956,
+        "page_text_sha256": "456d1149bae6ca43c217bfce6aed6fe01f848c88e12cef394e08c1efb5370fb8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "13SyOhdYIAiXy95cBVyvHqZVQX9MyEizd": [
+      {
+        "pdf_page": 115,
+        "overlap": 0.9331,
+        "page_text_sha256": "de3d08dd9b351468debcbee94253a510add8e55d9c41290c5de2c86e7eeb466f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1gnmgM4CyWITKrWKIHhqDUuQFiiEpsDVi": [
+      {
+        "pdf_page": 116,
+        "overlap": 0.7361,
+        "page_text_sha256": "4cdf642ee9dc8e03c410771201172dd02767de208c3d0b648cc71579e58234ac",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 115,
+        "overlap": 0.2454,
+        "page_text_sha256": "de3d08dd9b351468debcbee94253a510add8e55d9c41290c5de2c86e7eeb466f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1s_jxTUo_62p4LR_ctogWm7le1YydsVzs": [
+      {
+        "pdf_page": 117,
+        "overlap": 0.6495,
+        "page_text_sha256": "0241add9c2aeadfa7d5f3885dd5a0812289b31e12468d1b9874db4a53f69ad8a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 118,
+        "overlap": 0.3172,
+        "page_text_sha256": "14cb01ec133990529204792e9232a363dda2f5b2c2784563aad0ea40570634ad",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "16gEBGKhVPog1vDCnOuFbG7QZeMKmjktU": [
+      {
+        "pdf_page": 118,
+        "overlap": 0.8206,
+        "page_text_sha256": "14cb01ec133990529204792e9232a363dda2f5b2c2784563aad0ea40570634ad",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 119,
+        "overlap": 0.1351,
+        "page_text_sha256": "dcba3728d6993abde27704be6c35128c805eb3de31d8d3cfa5455ee63958157b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UKi9zP46ugANg77Q7o9ZlaA6tDYtfq3U": [
+      {
+        "pdf_page": 120,
+        "overlap": 0.9914,
+        "page_text_sha256": "ef3b9f15bbc91c79c755ac8ea1c5d74af0f0578f671f972c4121e1ce583efdeb",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "15CG3px7s-CU9OY1U3oYTx-AmaUe0vwtv": [
+      {
+        "pdf_page": 121,
+        "overlap": 0.9824,
+        "page_text_sha256": "30a1cb73bfec19ce9d145be2de1700e31c4a1f9a62190a09f2551e0022fef1db",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1i3hkTPDAmBvZz-9y3Trjgo-xWB0psuKr": [
+      {
+        "pdf_page": 122,
+        "overlap": 0.9806,
+        "page_text_sha256": "46cd97608def400acc212f9fb8a97369d8bba37483519c13f62bec84dac4516a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Uz9z99o73cxIhobAYxeZxx9yskYSMuWP": [
+      {
+        "pdf_page": 123,
+        "overlap": 0.9664,
+        "page_text_sha256": "788d0c3b4ec6c0f17f77ec406c4b5be15eb1a669dc747da62199270b1eab0a22",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1hOVRwkHH2CF7XFQ6wLfIkTSV7VBjRLj8": [
+      {
+        "pdf_page": 124,
+        "overlap": 0.9698,
+        "page_text_sha256": "824ea32a5fec2fcd9afc0f9be2be3ac42adc50ff5bca166561670b0e0b0bb9f1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1harODQ35bWSlfjyESt4Xbt75SJynlBVr": [
+      {
+        "pdf_page": 125,
+        "overlap": 0.9095,
+        "page_text_sha256": "66c9c1e8c79b38f8ae75e8b68f460e0f87f01522ed84cb172a20d0eed49943f4",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1s5yA9oApALRxvTHgzQjubNcWxqguJov4": [
+      {
+        "pdf_page": 126,
+        "overlap": 0.9859,
+        "page_text_sha256": "53688e94509c2df5910eeb24ad643a42ba08fd1ed80353e5178ea42e75e27941",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "11fPzM91OExYr6cfqTzZOBGkIQIcjUh4u": [
+      {
+        "pdf_page": 127,
+        "overlap": 0.9429,
+        "page_text_sha256": "7208e51acb9ee6cf448cfeb794d429430aa3fa69ca6c9ee5ae9a36469a5ce0b1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1WjKKjqXRFsgU-7VvvwGPatS-j5hoWSUJ": [
+      {
+        "pdf_page": 128,
+        "overlap": 0.9897,
+        "page_text_sha256": "5d41617b2ec7fa224470b88595cbd79971af7c72f2b99a7531e5c98270321899",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1JigV3qE9ZtrR_vqOuby3d8RICEdh6h5z": [
+      {
+        "pdf_page": 129,
+        "overlap": 0.8785,
+        "page_text_sha256": "afb6b7378525d070b5ed615d8c11f90bc08092be20048b62b08d7d1e8e777325",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 128,
+        "overlap": 0.1381,
+        "page_text_sha256": "5d41617b2ec7fa224470b88595cbd79971af7c72f2b99a7531e5c98270321899",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1RKSoMQKGThE42IZF3eclSnrVeyDh-zaH": [
+      {
+        "pdf_page": 130,
+        "overlap": 0.9775,
+        "page_text_sha256": "80a9fe7d3014ae3e133d6b262d6c2172d0810a32d12331447a27651fe3041754",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18KLd3dwmtog54iDttmGe2Ew9p0XhvY9H": [
+      {
+        "pdf_page": 131,
+        "overlap": 0.6974,
+        "page_text_sha256": "68cc9575e64128078a092afbe70800efeae13de7c249482bceec521ce88cbc39",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 130,
+        "overlap": 0.2641,
+        "page_text_sha256": "80a9fe7d3014ae3e133d6b262d6c2172d0810a32d12331447a27651fe3041754",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_nZQLVfRxfLN2F7_eDARaJyj5wd3HH18": [
+      {
+        "pdf_page": 132,
+        "overlap": 0.9854,
+        "page_text_sha256": "dc7d7994e05fb0530053e39ca4d0e032515ade7dfc23eeb38487a8f6dee4b852",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1RT1LYp10zv0jVThk4CGc6FoGPRVZPk6k": [
+      {
+        "pdf_page": 139,
+        "overlap": 0.9661,
+        "page_text_sha256": "e0cebf07b18102793da3a6f248d6e6a6ae22130851dac49b5903277b487c8e3c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1QKtnZJZnGBWs6oJMOfc1W12eDCJ2ZpDD": [
+      {
+        "pdf_page": 135,
+        "overlap": 0.5197,
+        "page_text_sha256": "cf58b82a73de5dc6c8fdd1d09352332b560eac304b2fc48d62b5945a0019b48f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 134,
+        "overlap": 0.3835,
+        "page_text_sha256": "f6f72501eec47044c2f0feb64a37c95cac5e16dddf8586e9bf4bdec1041ae2e0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1yOgMTFuATIuioddbLDAJcNImkmaUOg-n": [
+      {
+        "pdf_page": 140,
+        "overlap": 0.9774,
+        "page_text_sha256": "2322e6a1923f6fa74c9cdd4e2da07a252515c83f0fe4967709629c081757c459",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1l27YH7YRe9vugny6DBTzFGg49SkgDcWs": [
+      {
+        "pdf_page": 135,
+        "overlap": 0.6502,
+        "page_text_sha256": "cf58b82a73de5dc6c8fdd1d09352332b560eac304b2fc48d62b5945a0019b48f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 136,
+        "overlap": 0.327,
+        "page_text_sha256": "4865ab66251ff5a486eed633fbf3254b89a23e12ced145c64f4c09a4bec4d971",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1956BGh8RvsaBz_5AliY6RJH3t2x-dRRn": [
+      {
+        "pdf_page": 179,
+        "overlap": 0.9793,
+        "page_text_sha256": "ad3198860523ff4ded3a296431f9122e83b8e4ceb43954dc92bf7bc2a3d03ee7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "17lcabY2ftlLKxWcyMQ-3pchBNh13oNHf": [
+      {
+        "pdf_page": 230,
+        "overlap": 0.7368,
+        "page_text_sha256": "023a59ae97f521e09780718d5ea3a13a1535d60681a7401e3659b27b30f33824",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 231,
+        "overlap": 0.1667,
+        "page_text_sha256": "e5717be76a003b5e26a644cffdf1ff583784a13c7fc3354b52b68f3d9bf6d4d1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1vmqZlJ2ZlsrQZ2xGRMYjIb5HZ1eB-B0H": [
+      {
+        "pdf_page": 229,
+        "overlap": 0.9799,
+        "page_text_sha256": "20c175aef8ea31c7458e4d60b4e656a6c756445f46829c4825bc85c27ea91996",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xt_4cdd6EPuRo2AinKcvgixLKU-QumGN": [
+      {
+        "pdf_page": 154,
+        "overlap": 0.8282,
+        "page_text_sha256": "f17f6a4619bbd30413dc55a6e928dcd1dbfdbe50cfa8865e0373a9c0476d7569",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 153,
+        "overlap": 0.1221,
+        "page_text_sha256": "cba0b5d0c41b8cf094967e13d25c98edb59a953184415035b735c10a0286c746",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1G-ifuzxXuiuFfXcO3FqJnmDyK-6LqvWd": [
+      {
+        "pdf_page": 217,
+        "overlap": 0.9747,
+        "page_text_sha256": "923c2742a089eb9a295779d662d0aec7c4912595353038928a80a2534668140c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Emt8cXpE5GTiDaQvNrJo1J3IPQwnldiZ": [
+      {
+        "pdf_page": 205,
+        "overlap": 0.6462,
+        "page_text_sha256": "8c2b2c9fd8bda25a5b9e95482b989c772face77458c2f4333a9ef558e6331f42",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 204,
+        "overlap": 0.3477,
+        "page_text_sha256": "f55373e5b9abc9edcb7d359a9390353e5071cfdf8bb2bdb9c6e24017108eacf6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UVmWk22NQOnKpso6NhiIYZHLf3e_09y2": [
+      {
+        "pdf_page": 152,
+        "overlap": 0.9663,
+        "page_text_sha256": "9be9c7598870c6eea29e8a53ec52511d50a49fc40f6e1e6feb9fd2ebaa221053",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18XquDAFkvI2zfwLf0-LcVrXMdSiwxjlO": [
+      {
+        "pdf_page": 214,
+        "overlap": 0.9855,
+        "page_text_sha256": "2c2c78d4b53aa4871a0e505bf38f93ff8f09d58be5571b0472d303d6a76578ce",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xAJ_MIIAWQcs2WcBJuqOLdgWRJh2yHFt": [
+      {
+        "pdf_page": 234,
+        "overlap": 0.9647,
+        "page_text_sha256": "65bd4b6dcfe2f9aa2eed2843939002828779f29f8e01d9cd0dfbc3205b70e9c2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1BvdNWXFt410SR8Fl4fXZ_F-bPURN6jOc": [
+      {
+        "pdf_page": 201,
+        "overlap": 0.9901,
+        "page_text_sha256": "90367d960c6bdaf22c819302068e7e3f87855183403aff674ce6068ce45967a5",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ZqolbeBKMArr6hDVRNflWciXqJ6KbJP2": [
+      {
+        "pdf_page": 232,
+        "overlap": 0.9831,
+        "page_text_sha256": "ea8dcdcb48a158a3541d5ca59a50df9a09bd0a3ae4f276a91ec0870178734d64",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1HyZLJMTCxlglRBPCJHC6LX7eugDY19yz": [
+      {
+        "pdf_page": 191,
+        "overlap": 0.9826,
+        "page_text_sha256": "7f6432f677a5dbfa11623902f39f5590a80f335fe9d23242b0ed611b5f889044",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1G_aC1LkB51rMW0qplJkOD51ucGWNVR-Y": [
+      {
+        "pdf_page": 181,
+        "overlap": 0.989,
+        "page_text_sha256": "24fece3f2d9953a70eadc9c73abb831210aaa2da42a3be952f6ee940bee97b6c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1vPzHzesKD1EN2UiHiuH1IfNuf3Hr9CdC": [
+      {
+        "pdf_page": 141,
+        "overlap": 0.9771,
+        "page_text_sha256": "fc16d4644a026fdaf2c76c7d44aa039ebdde48adcd4a7dbcd4a5344353f0f6e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_eQGn-W1DcfO3gdFXzD5YHTFMrYpZDgN": [
+      {
+        "pdf_page": 226,
+        "overlap": 0.9869,
+        "page_text_sha256": "31d463dbf55c49887c2c2d15a6de2ef744ef2251ed8c37e47c5d1aeb3fb5b86e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "17KWMWC4LMgWxJ48KOGRZCacoeDPmCwJf": [
+      {
+        "pdf_page": 223,
+        "overlap": 0.9724,
+        "page_text_sha256": "3a8f29d2a35476e302c42a4be01bdad4677a659394894bb291ca287a1c35e78f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "138WX0gk1McmXnF4agd-oU94pPqCKoR_8": [
+      {
+        "pdf_page": 224,
+        "overlap": 1.0,
+        "page_text_sha256": "677a2f93a19be97408ec109552825b5c61eba17e6c0cb485b00bbbca1f90f9ff",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1bCbH1TJb5Spq1oYTrv_y6XtGrhfFQz1c": [
+      {
+        "pdf_page": 222,
+        "overlap": 0.9527,
+        "page_text_sha256": "6f93e0997e132db94142a8b1fd5f99f119ba6319e703c792c842e9edca765f37",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1KhwtCRXNkdArsRWqFnaJHTv41c7kPTHN": [
+      {
+        "pdf_page": 225,
+        "overlap": 0.9773,
+        "page_text_sha256": "4ab590436c6cff472ff5bd810ec4a66f9579c7b661e381190b7598b157d4e341",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1qIS6wekhJXASJgE4Yh3tw80umChHw0qU": [
+      {
+        "pdf_page": 216,
+        "overlap": 0.9902,
+        "page_text_sha256": "08b305f738fc2bdd7a6fa6c663863af460fba45ce4a62ca2bced23b705189f37",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1MxuAygqQ26K6H5b-7sODISUvMt-n9MLQ": [
+      {
+        "pdf_page": 228,
+        "overlap": 0.986,
+        "page_text_sha256": "906855d91fce993726ff1378544b77c80f3a882193e068a24d2a21887781de9f",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1uitKHhvO5D-0f0UfDwtaKCIo4RHXHs3_": [
+      {
+        "pdf_page": 204,
+        "overlap": 0.9654,
+        "page_text_sha256": "f55373e5b9abc9edcb7d359a9390353e5071cfdf8bb2bdb9c6e24017108eacf6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "18kDXwoZCWzUijNS459CRmxnbXrmZQL9c": [
+      {
+        "pdf_page": 202,
+        "overlap": 1.0,
+        "page_text_sha256": "ce6b2ac5192138dd7396ed96dd8b500be024ef2f68dc2bade835acfeae815465",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1HlwdgTAzBLZFG1F3JBFiC1GIgZLnC1yZ": [
+      {
+        "pdf_page": 208,
+        "overlap": 0.9968,
+        "page_text_sha256": "454444334bed1cea55594de82942fa8378b4b9dab253d81079a5de2ba45003a7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1uxkskina3cUS2YoQcPABYEnezpIDbJPL": [
+      {
+        "pdf_page": 171,
+        "overlap": 0.9466,
+        "page_text_sha256": "e2e8ac94e7d75f85e1610288d90df33371f1cbc0215693f613d35e05d481f168",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1V1lYyFaOikInwufplFxlgGgrI05W1UUD": [
+      {
+        "pdf_page": 221,
+        "overlap": 0.9859,
+        "page_text_sha256": "4397bf9a79f6e3787a2be79d02ec96c076d659b794a8d2f3d001b5823c516ec9",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1b8jipQ7ZqLbQSkG-MrsdsqnNJ15FXh5n": [
+      {
+        "pdf_page": 187,
+        "overlap": 0.9916,
+        "page_text_sha256": "330949051d3dc71a57a40ac1c3af754a9e7cc70e83a5e0b91470dd4cecd16272",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ACjU8OeGDLMO16R_W7YZTkXYvNDyXnf4": [
+      {
+        "pdf_page": 213,
+        "overlap": 0.9695,
+        "page_text_sha256": "b372fd7a3a3e7c9c4f1361aa30da23df4170b8f01d235880fcef8f30e06ad0df",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1FUnpyzx6QcNQUiCRW051uAewxM_aBT1U": [
+      {
+        "pdf_page": 209,
+        "overlap": 0.9822,
+        "page_text_sha256": "d79b344c38aac233e23375a5cc8be56a265d004b3ea20f7401581f970ec49205",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1yqdjZnWMfaD7T7FuJyT6s-iiu979Dd8Z": [
+      {
+        "pdf_page": 169,
+        "overlap": 0.8889,
+        "page_text_sha256": "935ddbcf09e6584241075f5cbb29d9248cdf8749af181c5a3e8c95a2dfb5578d",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1I8Kb2ZNqpkM8uA7ztXnsUwqe4sWplxYo": [
+      {
+        "pdf_page": 200,
+        "overlap": 1.0,
+        "page_text_sha256": "5da4a12717fb236bf35550ec82e2a7d32aee1ef55f0ac3413ca9256270d7fa6a",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1TYTJKL0GaTjprJfJoghmQRklnQM6o8_f": [
+      {
+        "pdf_page": 167,
+        "overlap": 0.535,
+        "page_text_sha256": "0eabc91a3042cb686888396413fc5538d73fa2b5ba0db3ea9156050fc7b3f876",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 168,
+        "overlap": 0.4441,
+        "page_text_sha256": "c5e5f3e2b0ea2e1f19da90a51659e34b96f43380cb594076e1305508c43580c4",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "122gnTV0IPd73rPGG50no9LF4Eb9n-yiU": [
+      {
+        "pdf_page": 193,
+        "overlap": 0.839,
+        "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 194,
+        "overlap": 0.1455,
+        "page_text_sha256": "efa4359409e83d6c058fee281c11055faa09ed1bc7951c2bf97a23884cc27787",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1G5kxcqjU1w02mD1UbxvieJi16sBLkziU": [
+      {
+        "pdf_page": 177,
+        "overlap": 0.9968,
+        "page_text_sha256": "5ad929b930a03e70626e410ffbb87721cab3e2d76b90bbff35f4e2c8b5f21503",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1-wUJOQJy__zpVE-BpGPPjHTRRptGuQtn": [
+      {
+        "pdf_page": 155,
+        "overlap": 0.6983,
+        "page_text_sha256": "1418e36acfcbb9d1eb9838d9087fd2c5583f3720c84738ca0060adaa455262f4",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 154,
+        "overlap": 0.2678,
+        "page_text_sha256": "f17f6a4619bbd30413dc55a6e928dcd1dbfdbe50cfa8865e0373a9c0476d7569",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ccPvGN6Fcpn2qP-vDhxu9KcHKflERYN-": [
+      {
+        "pdf_page": 176,
+        "overlap": 0.9764,
+        "page_text_sha256": "9fd8d66f28be6cbb2ce7d6fe203e1e343ac40ca7bec7b886938e0e5f47eb7026",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "126Cz70luL7pAhHPeUPq5O9bkRZo52VG-": [
+      {
+        "pdf_page": 166,
+        "overlap": 0.9799,
+        "page_text_sha256": "e2f3a226b15192b0b5c298bf64f4464f0907493c35931b83b801eab4dd847b36",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1IhdzKxGHfvVL-V59ttzyRjEn8Uc7zwPI": [
+      {
+        "pdf_page": 149,
+        "overlap": 0.9623,
+        "page_text_sha256": "0cb66539a183c27fceb3417191dabe1a2ecedf2046affb1a583e8d95625dfe14",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1Fl_ZX3nff7Ul7T7dfBqzSxOLumvf5xYx": [
+      {
+        "pdf_page": 180,
+        "overlap": 0.9714,
+        "page_text_sha256": "6e1656be31a824b4106ce3cb38c1b17313439136e874827b38644d35eea263f7",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1LwnD9Z-IKPkP7Gb5W7eZKWG9BcS1V0Pn": [
+      {
+        "pdf_page": 211,
+        "overlap": 0.6449,
+        "page_text_sha256": "f08ebdc3fe35f259eeff2316a88c36d991cc714c362fda3fa111989e468fd0bb",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 212,
+        "overlap": 0.3302,
+        "page_text_sha256": "60a11e16a31589d177b423d60c2645e4b3f8d09c171b8e1dab2635cf36878452",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1_qyEfVRXsiJSk0b-8GvWsYCjFpKJJSv9": [
+      {
+        "pdf_page": 203,
+        "overlap": 0.9608,
+        "page_text_sha256": "fd3b14ad77e6527b1cc5c7e9584e6214eecbede332fdea62b4652a068126cddf",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1SED3KsLvLzL-G6lG19Mhas4U1g3GNJGu": [
+      {
+        "pdf_page": 206,
+        "overlap": 0.695,
+        "page_text_sha256": "327d62eb633c9ca39994c0224ce34993330a1d836a46e8447ffc634329abe9b6",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 207,
+        "overlap": 0.175,
+        "page_text_sha256": "45c776157d6187219a76647df14d155576dc25489548ca1b4e1bcff3ce49dd67",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fUCRWQ-TWrVTa_BGVBuV0DrrYVTU3CwL": [
+      {
+        "pdf_page": 233,
+        "overlap": 0.9901,
+        "page_text_sha256": "29c0ee56ceeef837813f6771fb18076ba1c5275c8ca8c775eb45885485c092e0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1-3PqXN4wKkPgdbQ7xPOXXU235ttw8uav": [
+      {
+        "pdf_page": 220,
+        "overlap": 0.997,
+        "page_text_sha256": "a0e306f2d6814bbeaeff7eeb2ded79c4fd6aff54f254ac6d8cdecd9bd2f351dd",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1fbVQTBCYs-wtNHpHvxP8Ukm8wMzhE5rg": [
+      {
+        "pdf_page": 172,
+        "overlap": 0.943,
+        "page_text_sha256": "b91a3b4e7d43c523131f6c574ae2b641fdf34485f1cf7a5d5d2225d31dba71c2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1pHzojwlYjM7YvHSXZtyWY89gzBct0iFR": [
+      {
+        "pdf_page": 150,
+        "overlap": 0.8554,
+        "page_text_sha256": "14d0b8acf5fd6bca3be7da02021e79cb817c353696c4eebd3a1edb1a48ee42de",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1RusBnZuLs01CM7a_YpO-uYGpQK953Xlb": [
+      {
+        "pdf_page": 161,
+        "overlap": 0.9917,
+        "page_text_sha256": "5c6f0440f648d6ab62ade5c1c0c2766093417a43085d4389517159be3ec51a28",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1UmxLCce1Flyu_A5lwW4dq7oRar-QiCO_": [
+      {
+        "pdf_page": 145,
+        "overlap": 0.5495,
+        "page_text_sha256": "b8718182be90ff0e1b4ff4a63a384e6da0ff6234ef6352f8f7717fe851224f03",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 144,
+        "overlap": 0.4281,
+        "page_text_sha256": "ea897e40a7ff4b83e140285977e5e614126d0a24bd37c0605dd9d1dbd3c35ec1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1MtR91MtEVRFhnM5W5NDKBDBorG6I6nR0": [
+      {
+        "pdf_page": 218,
+        "overlap": 0.8079,
+        "page_text_sha256": "6b039259f4afa46bac33b5526a0e0bbdc20e540d9f6b1d3148d0f6f13144c13e",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 219,
+        "overlap": 0.1623,
+        "page_text_sha256": "b4be945fa324f3ee903cc27d29cd3967770faad7a7915aec9081ab9d2abe96e9",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1nREhU45d5o3eUD9O_5-N1A7LMUlyRQ6h": [
+      {
+        "pdf_page": 162,
+        "overlap": 0.867,
+        "page_text_sha256": "cfeebc2a6c4734be0e7decbef5d2d381ecde07127fbf6a73aa2be2ecfcb722c0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "15eNHYsweNKzamtupWQ5aXN26taOsP4e2": [
+      {
+        "pdf_page": 156,
+        "overlap": 0.8299,
+        "page_text_sha256": "39084a0dc2b465346f7f9d1aafe39d9e55820d7c0caf2ffc8f484c37bac6e5ae",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 157,
+        "overlap": 0.1528,
+        "page_text_sha256": "111cc89982fff8a895d0552b41ccc282003f9f71d3fcfa95013d352fed659281",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "131Jgw8_581GzB90RcZkqOHqISsvBUula": [
+      {
+        "pdf_page": 148,
+        "overlap": 0.969,
+        "page_text_sha256": "8e5ec30982f3da48643a74ef5cd1622d35aebfed56e1f71df10fd632761606bf",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1vRWScwI_5zecorfGmE_hSy5qjSeA_quY": [
+      {
+        "pdf_page": 192,
+        "overlap": 0.5744,
+        "page_text_sha256": "45272c245865a62925c9095e63120b29d81276d0043c92d38a56b13c9faf08a5",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 193,
+        "overlap": 0.3599,
+        "page_text_sha256": "9b99f11127d96e207fa22c5125e9e01391a5243f29afa5b579d502dcedc17aef",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1r6e1sSw5LJL7KMW8F9pnnYY5YmbjpS8T": [
+      {
+        "pdf_page": 157,
+        "overlap": 0.6276,
+        "page_text_sha256": "111cc89982fff8a895d0552b41ccc282003f9f71d3fcfa95013d352fed659281",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 158,
+        "overlap": 0.2803,
+        "page_text_sha256": "dc8d51c2067f63ae6c14a402612a6ae76c43fe89402c97f3cba48db6815d8a91",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1CsHATDg0bspGMG22iS7WjJ4EQAZe3sYw": [
+      {
+        "pdf_page": 227,
+        "overlap": 0.9766,
+        "page_text_sha256": "c1f76d9e43ccac06711df57f162a1771250a3e0a90b6f45dccd4f05120494b75",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1wwxZWntTxt41omc7xT2yRcYL0xxPZ1Dj": [
+      {
+        "pdf_page": 195,
+        "overlap": 0.9064,
+        "page_text_sha256": "9b0dd27c5124e6d4011a9f6bb5d4ff5fa5499bd3e936b84314e0bbfef0aaca92",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1kVU6jfiW_GvUTBILQQaXzQbnFhwK-zAt": [
+      {
+        "pdf_page": 159,
+        "overlap": 0.7412,
+        "page_text_sha256": "f4ae57bb01b2babbd6321e3206623e48bfd1bc47432660d362d18c9bf4b9a80b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 160,
+        "overlap": 0.1608,
+        "page_text_sha256": "e8c872ed4d6c9eb04635d8f4deb12c209644ade67087c40feb87ab6b0e3bb647",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ZAPwU9VuKTH_zGrMUwCB7gc1yUgMjeKf": [
+      {
+        "pdf_page": 185,
+        "overlap": 0.8,
+        "page_text_sha256": "a374bc6d772ea9637b55e1888f9d488781b62e5239e0f7ef7b1231580c72d397",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 182,
+        "overlap": 0.1042,
+        "page_text_sha256": "683b9b99173d5c58cba504e3cf9dcac07ceb2c5d7963dbbd00594b87672be3e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1xS690c5JOo8lYTA8dV7ApE-WbNVvqlb_": [
+      {
+        "pdf_page": 174,
+        "overlap": 0.6292,
+        "page_text_sha256": "8e4ecc8e8206e5188ff0ff451922ddc538485086a76c40d2a854ded62509592b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 175,
+        "overlap": 0.3296,
+        "page_text_sha256": "44a0b1e9391de9e2f495e000f462f012218759b598e19478c8cf3da3e664a640",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "10NmRxTiJaFJ_aRSVojOwWoCRIBxbCbEW": [
+      {
+        "pdf_page": 145,
+        "overlap": 0.5192,
+        "page_text_sha256": "b8718182be90ff0e1b4ff4a63a384e6da0ff6234ef6352f8f7717fe851224f03",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 146,
+        "overlap": 0.4749,
+        "page_text_sha256": "a179b27ef85bb36c35a1ace4aba7c00ba09fb48926140707da9fe016d55cbaae",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1SIkl4hdZ2veJ_BS5n-a9AdiCvqCq79Vs": [
+      {
+        "pdf_page": 144,
+        "overlap": 0.8894,
+        "page_text_sha256": "ea897e40a7ff4b83e140285977e5e614126d0a24bd37c0605dd9d1dbd3c35ec1",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1HS53NhBvBLUC2qb7N4SVQ0JLmIKpUNE6": [
+      {
+        "pdf_page": 142,
+        "overlap": 0.7805,
+        "page_text_sha256": "2032cb515cc1731d152e435dc6e60aebe6f97b83b28ea9de3a764d2ff5d488a2",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 141,
+        "overlap": 0.2226,
+        "page_text_sha256": "fc16d4644a026fdaf2c76c7d44aa039ebdde48adcd4a7dbcd4a5344353f0f6e8",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "11O3QvIWJBqZqQCQWXwBqwko4bMHoapZk": [
+      {
+        "pdf_page": 189,
+        "overlap": 0.5919,
+        "page_text_sha256": "d3a3d4edc786db2d45e07645ac18a1248b009515307baebfae6b7404e2260664",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 188,
+        "overlap": 0.3801,
+        "page_text_sha256": "a4b61c647847bd1282ba5b0bbf836f9fbc72914e6fd3111ee8d690d86ba83579",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1ysc-aUefdSJNgTvd-WRSJ68sMzKgOvDf": [
+      {
+        "pdf_page": 186,
+        "overlap": 0.9971,
+        "page_text_sha256": "f8d6be22d4246c0e64165e41cd434011c522ba2cd94c936f24cde892b0bfba6b",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "13P4R17vcpmWOW5wDLjwVAm0UyxxZ1ASq": [
+      {
+        "pdf_page": 215,
+        "overlap": 0.96,
+        "page_text_sha256": "17cc8fc971257cd6fb5d8308b47013bdbec13824e69ae993da600fa7e6a69332",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "17RLf5JN-yiLnKbZXoSDPTDuJAiIiw2xP": [
+      {
+        "pdf_page": 189,
+        "overlap": 0.5215,
+        "page_text_sha256": "d3a3d4edc786db2d45e07645ac18a1248b009515307baebfae6b7404e2260664",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 190,
+        "overlap": 0.447,
+        "page_text_sha256": "04846a33b07e028e2c13086062a0934ecc1c81a86008ddaab91532fdd370a0e0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1mdO2-6dS6kVWqMaT58BxdN-hfu-SwZk6": [
+      {
+        "pdf_page": 210,
+        "overlap": 0.9974,
+        "page_text_sha256": "d590d2aff3f77dbfda03abd8eed952b475a7f3d40adac7b1308e08cd13cf61ce",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1KBeZzpFMHwEbvmim9mURg79UamYLucZo": [
+      {
+        "pdf_page": 147,
+        "overlap": 0.9897,
+        "page_text_sha256": "f8dd9e5ef74ff328fcf8701e793f0e9df608bdd08a37ba57dcebeef5ae4a4b7c",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ],
+    "1qSHZcW3DeAudaxE6wdWhc2PfEXY8c2sB": [
+      {
+        "pdf_page": 198,
+        "overlap": 0.7306,
+        "page_text_sha256": "8727d8a9404fded0a580d6f00a44c14258a7e94a77c04704ac64169996461fe5",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      },
+      {
+        "pdf_page": 199,
+        "overlap": 0.2694,
+        "page_text_sha256": "4a89b45c5056f21e2f6854d144c7d3cfcd46ca938d264a432af750b47c5f8cd0",
+        "status": "OCR_TRIGRAM_CANDIDATE_NOT_ALIGNMENT_APPROVAL"
+      }
+    ]
+  }
+}

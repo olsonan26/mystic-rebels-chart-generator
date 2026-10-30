@@ -1,0 +1,61 @@
+{
+  "analysis_status": "AFTER_FEEDBACK_HYPOTHESIS_DEVELOPMENT",
+  "feedback_known_before_selection": true,
+  "selection": "All 5 movers to all 6 natal chain nodes; all 12 oriented multiples of 30 degrees; continuous local ages 11 through 21.",
+  "movers": [
+    "Chiron",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
+  ],
+  "targets": [
+    "Chiron",
+    "Sun",
+    "Moon",
+    "Neptune",
+    "Saturn",
+    "Uranus"
+  ],
+  "angles_unsigned": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "offsets": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ],
+  "window_start_inclusive": "2003-07-17",
+  "window_end_exclusive": "2014-07-17",
+  "timezone": "America/Los_Angeles",
+  "houses": "Fixed natal Whole Sign sectors, not an event-time Ascendant or relocated chart",
+  "orbs": "None assigned; equality roots only",
+  "direction": "Oriented ecliptic difference is not source Energy Flow direction",
+  "major_subset": [
+    0,
+    60,
+    90,
+    120,
+    180
+  ],
+  "extra_geometry_subset": [
+    30,
+    150
+  ],
+  "controls": "All selected contacts and missing original ages 13-15 retained, no event-fit filter"
+}

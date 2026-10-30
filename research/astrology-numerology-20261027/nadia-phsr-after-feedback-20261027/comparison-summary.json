@@ -1,0 +1,90 @@
+{
+  "transit_chiron_to_chain_major": {
+    "continuous_count": 16,
+    "count_in_original_windows": 12,
+    "month_tones": {
+      "red": 6,
+      "yellow": 0,
+      "green": 6
+    },
+    "counts_by_age": {
+      "11": 4,
+      "12": 1,
+      "13": 0,
+      "14": 1,
+      "15": 3,
+      "16": 2,
+      "17": 0,
+      "18": 1,
+      "19": 2,
+      "20": 0,
+      "21": 2
+    }
+  },
+  "outer_four_to_natal_chiron_major": {
+    "continuous_count": 14,
+    "count_in_original_windows": 11,
+    "month_tones": {
+      "red": 5,
+      "yellow": 1,
+      "green": 5
+    },
+    "counts_by_age": {
+      "11": 2,
+      "12": 0,
+      "13": 3,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 3,
+      "19": 0,
+      "20": 3,
+      "21": 3
+    }
+  },
+  "all_expanded_major": {
+    "continuous_count": 82,
+    "count_in_original_windows": 63,
+    "month_tones": {
+      "red": 35,
+      "yellow": 7,
+      "green": 21
+    },
+    "counts_by_age": {
+      "11": 10,
+      "12": 5,
+      "13": 5,
+      "14": 4,
+      "15": 10,
+      "16": 11,
+      "17": 4,
+      "18": 8,
+      "19": 8,
+      "20": 7,
+      "21": 10
+    }
+  },
+  "additional_30_150": {
+    "continuous_count": 60,
+    "count_in_original_windows": 37,
+    "month_tones": {
+      "red": 25,
+      "yellow": 2,
+      "green": 10
+    },
+    "counts_by_age": {
+      "11": 7,
+      "12": 5,
+      "13": 8,
+      "14": 10,
+      "15": 5,
+      "16": 9,
+      "17": 5,
+      "18": 2,
+      "19": 2,
+      "20": 3,
+      "21": 4
+    }
+  }
+}

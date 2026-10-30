@@ -1,0 +1,43 @@
+{
+  "json_and_local_links_valid": true,
+  "failures": [],
+  "original_month_counts": {
+    "green": 30,
+    "red": 56,
+    "yellow": 12
+  },
+  "original_contact_counts": {
+    "green": 16,
+    "red": 31,
+    "yellow": 12
+  },
+  "expanded_geometry_verification": {
+    "daily_count": 142,
+    "six_hour_count": 142,
+    "grid_agreement": true,
+    "max_residual_deg": 1.0024336916103493e-10,
+    "asset_hashes": [
+      {
+        "path": "sepl_18.se1",
+        "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+      },
+      {
+        "path": "semo_18.se1",
+        "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+      },
+      {
+        "path": "seas_18.se1",
+        "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2"
+      }
+    ]
+  },
+  "all_frozen_manifest_hashes_match": true,
+  "new_research_markdown_word_counts": {
+    "IMPLEMENTATION_PLAN.md": 2045,
+    "NADIA_READER_DRAFT.md": 468,
+    "NADIA_WORKED_CASE.md": 2357,
+    "README.md": 633,
+    "SOURCE_RULE_MATRIX.md": 1680,
+    "TIMING_AND_NUMEROLOGY.md": 2106
+  }
+}

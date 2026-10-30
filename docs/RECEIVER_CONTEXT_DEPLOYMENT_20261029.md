@@ -1,0 +1,18 @@
+# Receiving-context source increment: production release
+
+29 October 2026. The owner approved proceeding with targeted scan research, supported implementation and preserving new knowledge in GitHub and the chatbot. Source commit `f4b8a8237c05e21f957043e165da33414f0f8621` is READY and promoted to [the existing Mystic Rebels site](https://www.cosmodynamicschart.site/), deployment `dpl_Ez2E6zDYuqHPp3YEMHAULiVRxqwW`. [Vercel inspection](https://vercel.com/astro-ac32/mystic-rebels-chart-generator/Ez2E6zDYuqHPp3YEMHAULiVRxqwW).
+
+The [implementation record](research-20261029/DIRECTED_CONTEXT_IMPLEMENTATION.md) documents 23 freshly viewed originals, five newly reconciled originals and eight new assertions. The canonical checkpoint contains 730 targeted image reviews, 275 assertions and 299 pending images. The chatbot receives these source additions, actual natal ruler/Delegate sectors and occupant references across all 74 evaluated catalog entries, and a bounded numeric conjunction-reach component. Its prompt answers supported content first, followed by the limitation relevant to that question. Existing saved answers retain their original evidence; request a fresh answer to use this release.
+
+This is partial implementation. Complete directed aspect roles/caps, complete receiving synthesis, canonical Spark meaning, progressions and forecast timing remain open. Full-method and complete-personal-report approval remain false. Seven requirements record partial implementation evidence without changing their full dispositions or the 18 unready complete report sections.
+
+## Verification
+
+- Local regressions: 440 release-scope backend/access checks and 39 frontend tests passed; production build passed. Five additional preserved location-work tests passed in the worktree but their code/data were excluded from this deployment.
+- Real local OpenRouter/browser verification passed a fictional Venus/Taurus/Libra question, seven stages, actual ruled sectors, hidden catalog coverage, export, history restoration, chart isolation and mobile bounds. Follow-up/error checks were mocked. This does not establish empirical accuracy.
+- The corrected exact Git archive passed the portable export check before upload. Explicit LF attributes prevent Windows checkout/archive conversion from invalidating published export byte hashes. An earlier staged build was superseded before custom-domain promotion.
+- Thirty-nine selected uploaded code/knowledge files matched exact Git-archive SHA1 bytes, including the new runtime/profile, canonical authorities and portable topic exports. Original media, local secrets and unrelated location changes were excluded. The Python function build selected Python 3.12.
+- The alias API independently confirmed `www.cosmodynamicschart.site` targets this deployment. Five anonymous checks passed: root redirect, login handler, protected chat status, protected chat POST and protected client asset.
+- Authenticated production chat testing was **not run**, preserving the owner's explicit choice. No production access secrets were copied, no session was forged and no authenticated production model reply is claimed. Local provider behavior and deployed-source integrity are separate evidence.
+
+Machine-readable [deployment receipt](../evidence/receiver-context-deployment-20261029.json) and [local verification](../evidence/receiver-context-verification-20261029.json) preserve exact scope. Source media remain in the existing private recovery archive. The separate live Supabase row/Auth/Storage export gap remains open. The deployed source commit precedes this documentation-only receipt commit.

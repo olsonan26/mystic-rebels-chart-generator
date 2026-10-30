@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-29T03:59:23.169Z",
+  "real_provider_reply": true,
+  "provider": "OpenRouter",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "source_count": 13,
+  "stages": 7,
+  "automatic_popup": true,
+  "keyboard": true,
+  "export_exact": true,
+  "followup_history_mocked": true,
+  "error_draft_preserved": true,
+  "reload_restore": true,
+  "different_chart_isolation": true,
+  "mobile_bounds_and_overflow": true,
+  "page_errors": [],
+  "schema_version": "chart-chat-verification-v1",
+  "backend_tests": 414,
+  "frontend_tests": 138,
+  "production_build": "passed",
+  "scope": "Local main chart generator; fictional chart only; no deployment; no live saved-chart/account verification",
+  "provider_key_committed": false,
+  "conversation_storage": "browser localStorage plus explicit JSON download; no automatic GitHub conversation upload",
+  "known_method_limits": [
+    "Spark meaning unresolved",
+    "complete directed/OOI aspects unavailable",
+    "Delegate synthesis incomplete",
+    "no qualified event forecast or timing",
+    "full personal-report approval remains false"
+  ],
+  "final_display_adjustment": "Removed duplicate sign label from server-calculated sky facts after browser run; backend formatting check retains calculated display_dms."
+}

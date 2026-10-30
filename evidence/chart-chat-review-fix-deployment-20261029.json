@@ -1,0 +1,85 @@
+{
+  "status": "FIX_READY_PROMOTED_PUBLIC_ACCESS_CHECKED",
+  "verified_at_utc": "2026-10-29T06:10:59.276243+00:00",
+  "production_url": "https://www.cosmodynamicschart.site",
+  "deployment_id": "dpl_CQwNwDWgNatn2MkYdXqZDtKgt3HP",
+  "source_commit": "c21be725de77328a55ddc638df66f1d559dcb31f",
+  "alias_matches": true,
+  "public_checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 303
+    },
+    {
+      "method": "GET",
+      "path": "/api/site-access",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/chart-chat/status",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/chart-chat",
+      "status": 401
+    }
+  ],
+  "authenticated_production_chat": "NOT_RUN_OWNER_PREVIOUS_CHOICE_PRESERVED",
+  "source_integrity": {
+    "source_commit": "c21be725de77328a55ddc638df66f1d559dcb31f",
+    "deployment_id": "dpl_CQwNwDWgNatn2MkYdXqZDtKgt3HP",
+    "exact_source_paths": [
+      "mystic_rebels/chart_chat.py",
+      "mystic_rebels/chat_context.py",
+      "mystic_rebels/chat_knowledge.py",
+      "mystic_rebels/api.py",
+      "api/index.py",
+      "site_access.py",
+      "middleware.ts",
+      "pyproject.toml"
+    ],
+    "method": "Vercel source SHA1 matched exact Git archive bytes",
+    "private_inputs_excluded": true
+  },
+  "tests": {
+    "regression_suite_passed": 117,
+    "real_provider_checks": [
+      {
+        "fixture": "illustrative_fictional",
+        "question": "What patterns stand out in my chart?",
+        "include_current": true,
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash-1017",
+        "passed": true,
+        "claim_count": 4,
+        "first_review_approved": true,
+        "real_repair_needed": false
+      },
+      {
+        "fixture": "different_fictional",
+        "question": "What patterns stand out in my chart?",
+        "include_current": true,
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash-1017",
+        "passed": true,
+        "claim_count": 5,
+        "first_review_approved": true,
+        "real_repair_needed": false
+      }
+    ],
+    "repair_tests": "Mocked exact missing-approval response; repaired answer and bounded failure paths passed",
+    "authenticated_production_test": "NOT_RUN_OWNER_CHOICE"
+  },
+  "knowledge_export": "VERIFIED_LOSSLESS_CURRENT_EXPORT",
+  "private_sources_changed": false,
+  "credentials_included": false,
+  "runtime_error_scan": {
+    "deployment_scoped": true,
+    "window": "15m",
+    "records_returned": 0,
+    "limitation": "Narrow release observation; no authenticated requests tested"
+  }
+}

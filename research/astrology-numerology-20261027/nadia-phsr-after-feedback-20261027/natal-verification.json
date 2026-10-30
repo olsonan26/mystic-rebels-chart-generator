@@ -1,0 +1,146 @@
+{
+  "assets": [
+    {
+      "path": "sepl_18.se1",
+      "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66"
+    },
+    {
+      "path": "semo_18.se1",
+      "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+    },
+    {
+      "path": "seas_18.se1",
+      "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2"
+    }
+  ],
+  "source_export_input": {
+    "name": "Example chart",
+    "local_date": "1992-07-17",
+    "local_time": "20:01:00",
+    "timezone": "America/Los_Angeles",
+    "fold": null,
+    "latitude": 33.803,
+    "longitude": -118.072,
+    "location_name": "Los Alamitos, California, United States",
+    "coordinate_provenance": "Illustrative reference coordinates; editable city-level location",
+    "time_accuracy": "nearest_minute",
+    "uncertainty_seconds": 30,
+    "objects": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto",
+      "Chiron",
+      "Ceres",
+      "Pallas",
+      "Juno",
+      "Vesta",
+      "NorthNodeTrue",
+      "SouthNodeTrue",
+      "LilithMean",
+      "Ascendant",
+      "Descendant",
+      "Midheaven",
+      "ImumCoeli",
+      "Vertex",
+      "Fortune",
+      "Spirit",
+      "Love"
+    ],
+    "chart_type": "natal"
+  },
+  "calculated_input": {
+    "name": "Nadia Sanchez",
+    "local_date": "1992-07-17",
+    "local_time": "20:01:00",
+    "timezone": "America/Los_Angeles",
+    "fold": null,
+    "latitude": 33.8044,
+    "longitude": -118.0673,
+    "location_name": "Los Alamitos, California, United States",
+    "coordinate_provenance": "User-supplied coordinates; compare separately with supplied export",
+    "time_accuracy": "nearest_minute",
+    "uncertainty_seconds": 30.0,
+    "objects": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto",
+      "Chiron",
+      "Ceres",
+      "Pallas",
+      "Juno",
+      "Vesta",
+      "NorthNodeTrue",
+      "SouthNodeTrue",
+      "LilithMean",
+      "Ascendant",
+      "Descendant",
+      "Midheaven",
+      "ImumCoeli",
+      "Vertex",
+      "Fortune",
+      "Spirit",
+      "Love"
+    ],
+    "chart_type": "natal"
+  },
+  "utc_agreement": true,
+  "chain_comparison": [
+    {
+      "id": "Chiron",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    },
+    {
+      "id": "Sun",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    },
+    {
+      "id": "Moon",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    },
+    {
+      "id": "Neptune",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    },
+    {
+      "id": "Saturn",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    },
+    {
+      "id": "Uranus",
+      "longitude_difference_deg": 0.0,
+      "house_agreement": true,
+      "pulse_agreement": true,
+      "motion_agreement": true
+    }
+  ],
+  "ascendant_difference_deg": 0.004337618781562469
+}

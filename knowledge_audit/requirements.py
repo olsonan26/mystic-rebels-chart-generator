@@ -59,6 +59,7 @@ def validate_requirements(data=None, check_files=True):
     inventory = load_inventory()
     validate_inventory(inventory)
     records = {r['id']: r for r in inventory['records']}
+    component_profile = json.loads((ROOT / 'data/knowledge/relationship_rule_profiles.json').read_text(encoding='utf-8'))
     sections = data['sections']
     table = _source_table()
     if (len(sections) != 18 or [s['section_id'] for s in sections]
@@ -113,6 +114,17 @@ def validate_requirements(data=None, check_files=True):
         if (row['implementation_evidence']['actual_report_use'] != 'ABSENT_IN_INSPECTED_SOURCE'
                 or row['implementation_evidence']['live_behavior'] != 'NOT_AUTHENTICATED_OR_VERIFIED_IN_THIS_CONTINUATION'):
             raise ValueError('Local requirements cannot prove deployed answer use')
+        partial = row.get('partial_component_evidence')
+        if row['id'] in component_profile['requirement_progress'] and not partial:
+            raise ValueError('Partial component progress was omitted')
+        if partial:
+            if (partial.get('complete_requirement_resolved') is not False
+                    or partial.get('source_profile') != 'data/knowledge/relationship_rule_profiles.json'
+                    or partial.get('progress') != component_profile['requirement_progress'].get(row['id'])
+                    or not partial.get('implementation_files') or not partial.get('component_tests')):
+                raise ValueError('Partial component evidence cannot approve or misstate a full requirement')
+            if check_files and any(not (ROOT / p).is_file() for p in partial['implementation_files'] + partial['component_tests']):
+                raise ValueError('Partial component evidence path is unavailable')
     if (data['semantic_coverage_percent'] is not None
             or data['all_important_knowledge_covered'] is not False):
         raise ValueError('Requirements denominator is not book semantic coverage')

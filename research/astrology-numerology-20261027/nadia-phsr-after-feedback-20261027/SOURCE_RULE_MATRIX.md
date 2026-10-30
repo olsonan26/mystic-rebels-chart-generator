@@ -1,0 +1,62 @@
+# PHSR+ source and rule matrix
+
+27 October 2026, America/Denver. **After-feedback research. No application changes or deployment.**
+
+The selected interpretation order is **Planet -> House -> Degree -> Decan -> Aspects -> Sign -> Ruler**, then the ruler receives its own assessment. Identifying the astronomical sign for arithmetic is a prerequisite, not permission to start the interpretation with it. A skipped or unresolved stage remains visible.
+
+## Witness key and evidence quality
+
+- **S1, ordered assessment:** original scans `IMG_4636.jpg` / printed 215 and `IMG_4637.jpg` / printed 216. Both visually inspected this session. Printed 216 explicitly places Aspects before Sign and distinguishes condition from essential dignity. Compiled witness: source `pure-reflow-9d5fb55c`, PDF 283-284, reflow footers 287-288. Appendix u / `IMG_5673.JPG` instead puts Sign before Aspect; retained as a source variation. The user's selection resolves which order this research uses.
+- **S2, rulers and Delegates:** PDF 257-259, printed 185-188: a ruler carries its ruled sign, house context and occupants' full conditions. Follow actual outer-wheel signs, not natural house rulers. The inventory record `delegate-condition` retains the incomplete graph status.
+- **S3, retrogrades:** PDF 271-273 / printed 194-196; PDF 273 gives Planet, planet Rx, House, house Rx through its Delegate. The latter modifies carriage elsewhere; it does not make every occupant retrograde or retrograde the house within itself. PDF 150-151, 172 and 477-482 add natal/transit distinctions. Do not import essential dignity.
+- **S4, degree and decan:** originals printed 234-236 (`IMG_4655`-`4657`) and appendix c (`IMG_5655.JPG`) retain incompatible house/sign Spark procedures. PDF 289-291 / printed 227-230 supports triplicity decans and 10°/20° transitions. Spark remains canonical null.
+- **S5, directional relationships:** original assertions `ooi-sun-ten`, `ooi-moon-three`, `ooi-mars-four`, `ooi-saturn-approximate`, `ooi-chiron-one`, `venus373-five-degree-ooi`, `minor-six-one-degree-ooi`, `one-way-response`, `no-cross-ecosystem-radius-sum`, `resolution-planet2-context`, `synastry543-one-way-ooi`. PDF 295, 297, 319-324, 344-345, 457 are complementary compiled witnesses. These support selected constraints, not a universal finished algorithm.
+- **S6, Chiron:** reviewed profile `chiron-reviewed-vocabulary`, originals printed 683, 685, 686 and 770. Printed 686 / `IMG_5281.JPG` was visually inspected this session. Core vocabulary concerns failed fit with established standards and developing an authentic workable alternative. Original/compiled Jackson geometry and orbital-date conflicts remain held out.
+- **S7, functions and Fields:** `interpretive_inventory.json`, records `meaning-*`, `field-01` through `field-12`; direct compiled pages 166, 176, 193, 232, 234 and 384 were read here. PDF 193 explicitly links fathers with solar vitality and maternal care with lunar safety; PDF 366 / printed 417-418 explicitly assigns father to Sun. These are methodological conventions, not evidence of a particular parent's behavior.
+- **S8, sign vocabulary:** `source_meaning_profiles.json`, twelve `sign-*` profiles, each retaining original IDs, image hashes and line citations. These replace generic/library meanings. They are reviewed vocabulary; their personal-answer approval remains false.
+- **S9, age-degree timing:** PDF 299-303 / printed 247 onward; original printed 251 (`IMG_4676.jpg`), 255 (`IMG_4680.jpg`), 257 (`IMG_4682.jpg`), 258-259 (`IMG_4683`-`4684`). Printed 255 and 257 visually inspected here. Page 255 gives 2,32,62,92 recurrence. Page 257 gives 0°30′ at six months, first 30-year Aries cycle, next Taurus cycle and exact-degree activation. Page 251 allows delayed manifestation, including direct placements. Calendar conventions and delays remain unspecified.
+- **S10, transit context:** PDF 302, 427-429 / printed 254, 500-506 distinguishes transit-to-natal from natal-to-transit and requires the receiving context. The book's biographical and health anecdotes are source claims, not validated forecasting fixtures.
+- **N1, annual numerology:** STAFFprofiler `vendor/lfs/core/lettrology-engine/annualEngine.ts:81-121,162-182`; `timelineEngine.ts` for letter durations. Current compiled `assets/chart-engine.js` was imported read-only to reproduce all frozen values.
+- **N2, monthly and marker rules:** STAFFprofiler `monthlyEngine.ts:77-129`; `pattern-indicators.js:1-56`. Annual and monthly channels remain separate.
+- **N3, constructive guidance:** STAFFprofiler `report-descriptions.js`, category Combiner, selected raw entries 35,42,43,44,46,47,48,49,50; preserved verbatim in the frozen `annual-meanings.json`. Its recurring heading frames COM as how to approach the year's matters. Category and raw number govern the lookup.
+
+Full paths, original file IDs, SHA256 values and cached passage text are in `original-witness-evidence.json`, `additional-original-witnesses.json`, `original-assertion-evidence.json` and `cached-passage-evidence.json`. All 77 cached text hashes and the 58 collected original image hashes match their registers. Five original pages were visually reviewed here; other originals retain their earlier targeted-review status and/or OCR status. No global review status was upgraded.
+
+## Compact stage matrix
+
+| Stage or dependency | Exact witness | Required calculation / rule | Current status | Specific gap or competing wording |
+|---|---|---|---|---|
+| Planet | S6-S7; inventory `meaning-*` | Body ID, availability, longitude, speed and attributed function | Positions available; vocabulary present; assembler absent | A keyword does not establish a specific event or person |
+| Planetary motion | S3; `service.py` Gradity rule | Physical speed sign; supported shadow/station phase separately | Mercury-Pluto Gradity supported; Chiron speed available | Chiron shadow phase is unavailable. Direct must not become “fully verified Prograde” |
+| House / Field | S7; `placements.py:9-15` | Whole Sign house from actual AC; natural Field kept distinct | Implemented | Unknown time withholds houses; do not substitute a sign for a house |
+| House condition through Delegate | S2-S3 | Outer sign of house -> actual ruler -> ruler motion and occupant packet | Lookup possible; carriage semantics not assembled | No contagion of Rx; no automatic inversion of all occupants |
+| Degree / entry | S1, S4 | Preserve exact longitude, degree within sign and integer floor | Arithmetic implemented; Spark null | Explicit sign-parity and house-parity procedures conflict; example contradictions remain |
+| FCA boundaries | PDF 431/434; methodology review | Diagnostics at sign 1°30′, decan 30′, degree 3′ | Approaching diagnostic only | After-boundary/retrograde handling and 5°56′ example conflict. Do not blend/reassign silently |
+| Decan / Pulse | S4, PDF 289-291 | `floor(degree/10)`; Pulse sign `(signIndex+4*decanIndex)%12` | Implemented | Retain Pulse sign; Mercury/Venus names alone lose element/context. Decan link is not sign-dispositor link |
+| Aspect geometry | S5; ephemeris positions | Signed modular longitude difference, absolute separation, candidate angle, residual | Recomputed here as diagnostics | Nearest angle is not automatically an aspect; exact root is not a complete directed relationship |
+| OOI | S5, originals 237-246,373,383 | Body-specific outgoing reach; scope and angle cap separately | Sun 10°, Moon 3°, Mars 4°, Saturn about 7.5°, Venus 5°, Chiron 1° recovered; six listed minor angles have 1° | Complete verified catalogue, cap/radius combination, endpoints and receiver exceptions remain missing |
+| Direction / Energy Flow | S5, S10; inventory `directional-context` | Sender, receiver, ecosystem, Vantage, phase, hand-offs and receiver's assessed context | Selected rules available; universal resolver absent | Do not derive flow from shortest angle, sign rulership, or motion direction alone |
+| Pluto counterevidence | originals 377-378; assertions `pluto-*` | Original figure 24°15′ plus 1°30′ ends 25°45′ | Original arithmetic recoverable | Earlier original prose 24°42′ competes with figure; compilation introduces further errors. No silent universal correction |
+| Sign / Tone | S8; `placements.py` | Actual astronomical sign and its reviewed expression | Implemented labels; reviewed vocabulary | No conventional dignity strengths or generic zodiac personality replacement |
+| Ruler lookup | S2; modern ruler table PDF257-258 | LeoSun, CancerMoon, PiscesNeptune, CapricornSaturn, AquariusUranus | Implemented | Ruler's name alone is insufficient |
+| Delegate payload | S2, PDF258-259 | All ruled-sign occupants, their actual Fields, motion and relationships | Structural packet can be built now | Full propagated condition awaits aspects. Mathematical receiving points must be distinguished from emitting bodies |
+| Ruler cycles | S1-S2; inventory exceptions | Record visited node/edge and repeated component | Can implement structural cycle detection now | No source-backed numerical weighting, convergence strength or privileged final dispositor |
+| Age-degree labels | S9 | Degree within sign; recurrence every 30 years | Source supports age/fraction concept; integer helper is narrower | Earlier handoff understated recovered fractional evidence. No ready precise timestamp or Rx-delay algorithm |
+| Activation pathway | original 257-259 | Cycle sign, its natal house, ruler context; exact degree and associations | Source-supported structure | Must still include transits/progressions/relocations for a full forecast; Aries point is not a new OOI emitter |
+| Transit equality | S10; Swiss Ephemeris API | Versioned positions and root solving against fixed natal coordinates | Research calculation completed | No selected influence interval, automatic natal/transit delegate coupling, or event prediction |
+| ESS / PY / COM | N1, N3 | Authentic name letters, ordinals, raw operands and complete trails | 10 frozen annual states reproduced exactly | Birth/current-name switch and broader source reconciliation remain undecided |
+| Optional monthly | N2 | PM/PME/MCOM with authentic carry; independent red/yellow rules | 98 frozen month states reproduced exactly | A colored cell is not a probability of harm; annual COM does not repaint monthly cells |
+| Cross-system synthesis | Prior reports plus this worked case | Role-specific comparison, including disagreement and no-link | Explicit analytical proposals | No universal digit/planet map and no evidence of predictive association |
+
+## Decisions still required before full-method reporting
+
+1. **D1 Spark:** choose or qualify the sign/house procedure; resolve the cited counterexamples rather than selecting the candidate that fits Nadia.
+2. **D2 aspects:** complete emitter table, angle caps, exact boundary inclusion, same/between-ecosystem exceptions, Turnover/Fringe priorities, Vantage and directed order. Selected geometric eligibility can be displayed before this is solved; full flow cannot.
+3. **D3 Delegates:** specify how complete occupant conditions are carried, and how repeated Saturn/Uranus components are composed without amplification. Structural graph storage needs no invented weighting.
+4. **D4 activation calendar:** select birthday interpolation, fixed tropical-year elapsed time, or another exact convention; establish age-zero epoch, leap/DST treatment and uncertainty. The original six-month example supports fractional ages but does not settle these choices.
+5. **D5 manifestation:** establish a bounded rule for Rx/direct delays, or expressly decline to give manifestation dates. The anecdotes are not an executable delay formula.
+6. **D6 forecast layers:** obtain progression epoch/angles rules and a defined relocation/transit coupling procedure. Do not use Solar Arc as a replacement.
+7. **D7 annual identity:** select the governing annual engine and exact current-name adoption/reset/continuity convention. Keep Nadia Sanchez throughout the frozen pre-July 2014 history.
+8. **D8 prose approval:** review role- and age-specific adaptations of source meanings. Particularly, COM responsibility language must not assign a child responsibility for adults' conduct.
+
+The immediate coding scope can represent all eight gaps explicitly while delivering real ordered assessments, ruler cycles and yearly ESS/PY/COM. These gaps need not erase the supported work.

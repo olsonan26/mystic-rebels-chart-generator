@@ -1,16 +1,8 @@
-* text=auto eol=lf
-*.se1 -text
-*.gz -text
-*.png -text
-*.avif -text
-evidence/astronomy-followup/*.json -text whitespace=cr-at-eol
-# Audit artifacts carry byte hashes; Git must preserve their validated bytes.
-data/knowledge/source_*.json -text whitespace=cr-at-eol
-data/knowledge/original_assertions.json -text whitespace=cr-at-eol
-data/knowledge/original_page_map.json -text whitespace=cr-at-eol
-data/knowledge/interpretive_inventory.json -text whitespace=cr-at-eol
-data/knowledge/material_requirements.json -text whitespace=cr-at-eol
-data/knowledge/worked_examples.json -text whitespace=cr-at-eol
-evidence/source-pipeline/**/*.json -text whitespace=cr-at-eol
-evidence/source-continuation/**/*.json -text whitespace=cr-at-eol
-evidence/semantic-audit/**/*.json -text whitespace=cr-at-eol
+# Research archives and hash-pinned adapters must preserve their original bytes.
+research/astrology-numerology-20261027/** -text whitespace=cr-at-eol,-blank-at-eof
+apps/common-ground/** -text whitespace=cr-at-eol
+
+# Portable exports publish byte-level hashes. Keep their generated LF bytes in
+# Windows checkouts and git archive as well as on the Linux deployment host.
+data/knowledge/report_*.json text eol=lf
+data/knowledge/report_topics/*.json text eol=lf

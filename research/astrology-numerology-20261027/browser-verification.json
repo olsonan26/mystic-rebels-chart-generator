@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "result": {
+    "year": 2011,
+    "ess": [
+      14,
+      5
+    ],
+    "py": [
+      28,
+      10,
+      1
+    ],
+    "com": [
+      42,
+      6
+    ],
+    "route": {
+      "path": [
+        "Chiron",
+        "Sun",
+        "Moon",
+        "Neptune",
+        "Saturn",
+        "Uranus"
+      ],
+      "repeat": "Saturn",
+      "cycle": [
+        "Saturn",
+        "Uranus"
+      ],
+      "missing_node": null
+    },
+    "person": "Nadia Sanchez"
+  },
+  "errors": [],
+  "jsonExport": true,
+  "htmlExport": true,
+  "printPreview": true,
+  "mobileOverflow": false
+}

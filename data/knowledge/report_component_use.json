@@ -102,6 +102,28 @@
           "original_printed_pages": [
             "s ALCHEMYSTIC LEXICON"
           ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "lens211-whole-chart-context",
+          "proposition": "A question Lens adjusts relevance across the whole chart; H7 alone is partner/relating context rather than a complete relationship reading.",
+          "file_id": "1wc_DWXMYxOvnx3-c3r9YoxAoug7qfznn",
+          "name": "IMG_4632.jpg",
+          "content_sha256": "2cedfcc8b15656096e8e197e56272dc509c1160fc76082d87a97ac22b5b7d807",
+          "original_printed_pages": [
+            "211"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "lens211-whole-chart-context",
+          "proposition": "A question Lens adjusts relevance across the whole chart; H7 alone is partner/relating context rather than a complete relationship reading.",
+          "file_id": "12NIpjGeWBfruBDNiqQyD3VUe2COIxgnK",
+          "name": "IMG_4633.jpg",
+          "content_sha256": "504174a1df9a2f9153b60e64d2b20dbef6e50327e760486953af48271a01ab41",
+          "original_printed_pages": [
+            "212"
+          ]
         }
       ],
       "findings": [
@@ -157,7 +179,8 @@
         }
       ],
       "source_assertion_ids": [
-        "lexicon-q-r-context-first"
+        "lexicon-q-r-context-first",
+        "lens211-whole-chart-context"
       ],
       "external_library_fallback_allowed": false
     },
@@ -1729,11 +1752,59 @@
           "original_printed_pages": [
             "186 ORIGINAL_MEANING_REVIEW"
           ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "delegate208-reverse-sector-occupants",
+          "proposition": "The worked Moon condition includes its ruled Cancer sector and that sector North Node before following the Moon Aquarius ruler.",
+          "file_id": "1KT6y5V39GuJ5h1XAVQ2zhnCTlX9vYmrt",
+          "name": "IMG_4629.jpg",
+          "content_sha256": "7ce599151d458d07174d0f69575d428a0a806e53f2209880c26a29a968183ff0",
+          "original_printed_pages": [
+            "208"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "delegate209-no-final-ruler",
+          "proposition": "A Delegate carries ruled-area contents; a terminal, self-ruled or repeated planet is not a controlling final ruler.",
+          "file_id": "1EFQFt-Q6VOBbB6D9zI6IvaIDgeFYEz7Z",
+          "name": "IMG_4630.jpg",
+          "content_sha256": "ad4862928b146e83450a0bb1c92a3362855369329c93737ab891f5967d97a843",
+          "original_printed_pages": [
+            "209"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "delegate210-layer-before-carriage",
+          "proposition": "Assess each layer energies and variables before carrying its precise context through its ruler.",
+          "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+          "name": "IMG_4631.jpg",
+          "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+          "original_printed_pages": [
+            "210"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "delegate210-gemini-cancer-house-example",
+          "proposition": "Gemini Rising places Cancer in H2, so Moon carries that actual sector alongside its own function.",
+          "file_id": "1eG5QLD-30EDYS6uU9PQNnqK_SSYCkPpQ",
+          "name": "IMG_4631.jpg",
+          "content_sha256": "a7cdff92b01a69041b5c008c6c1d6cecdec00618a67eb072d8fbb81fffef04a1",
+          "original_printed_pages": [
+            "210"
+          ]
         }
       ],
       "findings": [],
       "source_assertion_ids": [
-        "sign185-modern-rulership-map"
+        "sign185-modern-rulership-map",
+        "delegate208-reverse-sector-occupants",
+        "delegate209-no-final-ruler",
+        "delegate210-layer-before-carriage",
+        "delegate210-gemini-cancer-house-example"
       ],
       "external_library_fallback_allowed": false
     },
@@ -2539,6 +2610,50 @@
           "original_printed_pages": [
             "827"
           ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "conjunction240241-core-reach",
+          "proposition": "The within-ecosystem conjunction examples test each planet reach to the other exact coordinate. A wider reach can connect the pair when the narrower one cannot; overlap of radii alone does not make direct conjunction.",
+          "file_id": "1e8ybyg1lcNn7rtQkdQZMh_IvGHu2447V",
+          "name": "IMG_4661.jpg",
+          "content_sha256": "388efb77252c6b76ea2981ddcbddbd0eefe0a4d8e703e7f852f127c2d3f4d37a",
+          "original_printed_pages": [
+            "240"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "conjunction240241-core-reach",
+          "proposition": "The within-ecosystem conjunction examples test each planet reach to the other exact coordinate. A wider reach can connect the pair when the narrower one cannot; overlap of radii alone does not make direct conjunction.",
+          "file_id": "1nek0n2UHTNbFYYoPJ63vkBf80VcHP1no",
+          "name": "IMG_4662.jpg",
+          "content_sha256": "06b261ba3c2c01ca7425dcc54b80880fa8dce3f06a5e6367bba58d05218de6e6",
+          "original_printed_pages": [
+            "241"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "transit245-no-natal-outgoing",
+          "proposition": "When reading transits, natal OOI is not added or emitted outward into the current sky; receiving response is distinct from physical initiation.",
+          "file_id": "13TUQXGBSIsXiO006Tk5B-ieRo6VxjPfB",
+          "name": "IMG_4666.jpg",
+          "content_sha256": "47f73e2674e7b5fe0b04bc795656de0d3bda0a4a0ece1c32fc4060606c3af642",
+          "original_printed_pages": [
+            "245"
+          ]
+        },
+        {
+          "kind": "ORIGINAL_ASSERTION_WITNESS",
+          "assertion_id": "conjunction373-mutual-endpoints",
+          "proposition": "The True Stellium example requires mutual reach between the first and last planets and separately notes a smaller-radius middle Moon may not reach an endpoint.",
+          "file_id": "13z6LViVZHoVYRLXqarW7a-6hgoMo07CT",
+          "name": "IMG_4809.jpg",
+          "content_sha256": "76724ee305064f38fcb92cd0dbd9861ccb5a217e4754687f3a2b6f06e6588261",
+          "original_printed_pages": [
+            "373"
+          ]
         }
       ],
       "findings": [
@@ -2651,7 +2766,10 @@
         "solar-ten-lunar-three-scope",
         "resolution-planet2-context",
         "venus373-five-degree-ooi",
-        "relocation826-nonconjunction-lines"
+        "relocation826-nonconjunction-lines",
+        "conjunction240241-core-reach",
+        "transit245-no-natal-outgoing",
+        "conjunction373-mutual-endpoints"
       ],
       "external_library_fallback_allowed": false
     },

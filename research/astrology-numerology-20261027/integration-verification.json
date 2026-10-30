@@ -1,0 +1,68 @@
+{
+  "tests_passed": 37,
+  "browser": {
+    "passed": true,
+    "result": {
+      "year": 2011,
+      "ess": [
+        14,
+        5
+      ],
+      "py": [
+        28,
+        10,
+        1
+      ],
+      "com": [
+        42,
+        6
+      ],
+      "route": {
+        "path": [
+          "Chiron",
+          "Sun",
+          "Moon",
+          "Neptune",
+          "Saturn",
+          "Uranus"
+        ],
+        "repeat": "Saturn",
+        "cycle": [
+          "Saturn",
+          "Uranus"
+        ],
+        "missing_node": null
+      },
+      "person": "Nadia Sanchez"
+    },
+    "errors": [],
+    "jsonExport": true,
+    "htmlExport": true,
+    "printPreview": true,
+    "mobileOverflow": false
+  },
+  "review": {
+    "standards_findings_fixed": [
+      "approximate-time uncertainty",
+      "selected topic route",
+      "exact meaning source references"
+    ],
+    "spec_findings_fixed": [
+      "resolvable house source",
+      "selected topic route",
+      "constructive category-specific COM adaptations"
+    ]
+  },
+  "frozen_trial_file_hashes_match": {
+    "NADIA_FIRST_PASS.md": true,
+    "numerology.json": true,
+    "annual-meanings.json": true,
+    "natal.json": true,
+    "transit-geometry.json": true,
+    "all-exact-contacts.csv": true,
+    "METHOD_AND_EVIDENCE.md": true
+  },
+  "annual_pinned_assets_match": true,
+  "deployed": false,
+  "source_methodology_gates_changed": false
+}

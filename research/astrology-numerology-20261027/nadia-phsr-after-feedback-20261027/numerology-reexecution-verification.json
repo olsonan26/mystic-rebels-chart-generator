@@ -1,0 +1,8 @@
+{
+  "annual_states": 10,
+  "monthly_states": 98,
+  "full_compounds_formulas_and_letters_match": true,
+  "failures": [],
+  "indicators_and_annual_alerts_match": true,
+  "note": "No application build/test hooks executed. Frozen JSON was read only. Existing compiled arithmetic, annual alerts and monthly indicator functions re-executed without modification."
+}

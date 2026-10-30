@@ -1,0 +1,537 @@
+{
+  "reviewDate": "2026-10-27",
+  "purpose": "Read-only integration feasibility and thematic correspondence analysis",
+  "costar": {
+    "repository": "olsonan26/LOOKS-LIKE-COSTAR",
+    "branch": "main",
+    "commit": "023140de4ac9ebad8a804b4c984337135e77b19a",
+    "treeTruncated": false,
+    "files": [
+      {
+        "path": ".gitignore",
+        "gitBlobSha": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+        "bytes": 253
+      },
+      {
+        "path": "App.tsx",
+        "gitBlobSha": "07bbb98b2bd3cd9e0e507d81da2b19ed3d17ec18",
+        "bytes": 11814
+      },
+      {
+        "path": "README.md",
+        "gitBlobSha": "f679273b8b20aaa756debddcf3bb1b95a49a4597",
+        "bytes": 553
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/aspect_spectrum.ts",
+        "gitBlobSha": "7b64aba3b3797bda945be19f683744a3183c4bfe",
+        "bytes": 6181
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/astrocartography.ts",
+        "gitBlobSha": "10f8a064717a5f571f826a7b4bdec5efec9a58a5",
+        "bytes": 2421
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/chiron_acceptance.ts",
+        "gitBlobSha": "a74ac7a99ca57a7eb57c2beb1fbe766a2d1613b2",
+        "bytes": 7123
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/elements_modalities.ts",
+        "gitBlobSha": "ef995bfbb56c70af895cacd22ab8d876fa0b582a",
+        "bytes": 2845
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/free_theory.ts",
+        "gitBlobSha": "55141edb1b110c03d4d316c5561fef3ee3e58702",
+        "bytes": 5130
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/free_theory_matrix.ts",
+        "gitBlobSha": "8e6513a6e87a27f2e6ef341057dad5336295dc8c",
+        "bytes": 7361
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/fusion_cusps.ts",
+        "gitBlobSha": "bf85b9712f4dbfb8971f0fed8d668345c423f368",
+        "bytes": 2196
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/life_story_structure.ts",
+        "gitBlobSha": "7d6dea8ada29fbdaad26316af2d21053bdf7fe79",
+        "bytes": 2447
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/minor_aspects.ts",
+        "gitBlobSha": "a4b6b62b0b61913d1e737bece9866d5963f4579a",
+        "bytes": 1487
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/nodes_integration.ts",
+        "gitBlobSha": "23828e6e5c33670f4fc7830b6c20baec577a158e",
+        "bytes": 5201
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/phsr_framework.ts",
+        "gitBlobSha": "7797bd9018d90ea5157e2dcce45d94cd546f8f10",
+        "bytes": 4741
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/seven_lenses.ts",
+        "gitBlobSha": "f00369783d2343b2ded072658563b84956b1a3f6",
+        "bytes": 1267
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/synastry.ts",
+        "gitBlobSha": "2555804f0cb144e2548b055c2bf4c18ae7d5c3fb",
+        "bytes": 2132
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/core_frameworks/vocational_synthesis.ts",
+        "gitBlobSha": "e6f113f5218b79d4fce4c8728230ffdc872d863a",
+        "bytes": 4599
+      },
+      {
+        "path": "alchemistic_astrology_knowledge_base/system_prompt.ts",
+        "gitBlobSha": "eb3a3f5defe610d5d741cf0a9ee14bfb34926f5a",
+        "bytes": 8711
+      },
+      {
+        "path": "astrology_data/orbs.ts",
+        "gitBlobSha": "466a246eb0d06ab59baa0c25a916a9a6dcc66fdc",
+        "bytes": 2544
+      },
+      {
+        "path": "astrology_data/planets_in_houses.ts",
+        "gitBlobSha": "aa4ccbe04611e722fb66f00ba5d0517bdb90b7c0",
+        "bytes": 21905
+      },
+      {
+        "path": "astrology_data/planets_in_signs.ts",
+        "gitBlobSha": "422f1f0f43f10f9d58ce40751d910166e96492aa",
+        "bytes": 46974
+      },
+      {
+        "path": "astrology_data/retrogrades.ts",
+        "gitBlobSha": "4af713c6cb9452f356fbbd334306957f6f47b7ed",
+        "bytes": 4512
+      },
+      {
+        "path": "calculations/whole_signs_calculator.ts",
+        "gitBlobSha": "1e95eb8d9d4e2bb189a4bc78579f0cf0e30a146c",
+        "bytes": 4992
+      },
+      {
+        "path": "communication_style/trauma_informed_language.ts",
+        "gitBlobSha": "1b6361a85c6f4639f0d91a8f9099f0385d8d9905",
+        "bytes": 6801
+      },
+      {
+        "path": "communication_style/voice_tone_guide.ts",
+        "gitBlobSha": "636a71d860529ecd94afadc92756206d3aab112e",
+        "bytes": 8444
+      },
+      {
+        "path": "components/AstrologyScreen.tsx",
+        "gitBlobSha": "152b86dc66f5b2056b2c335bccfb0ac7cd9b64b6",
+        "bytes": 26779
+      },
+      {
+        "path": "components/BottomNav.tsx",
+        "gitBlobSha": "fcdea852a283bee6a92a70523c1f2a2e6208a49d",
+        "bytes": 5253
+      },
+      {
+        "path": "components/CalendarView.tsx",
+        "gitBlobSha": "0b0382d12400d08832905664b961481643eafbfb",
+        "bytes": 4590
+      },
+      {
+        "path": "components/CardArt.tsx",
+        "gitBlobSha": "5fe8fafdb87001c4f05f28dd0b7290f1e0408f3b",
+        "bytes": 1780
+      },
+      {
+        "path": "components/CareerGuidanceModal.tsx",
+        "gitBlobSha": "e4e5636b20a3fbdd2b2eca735f820bb9e5f3fa36",
+        "bytes": 2216
+      },
+      {
+        "path": "components/ChartsScreen.tsx",
+        "gitBlobSha": "b9463e0d9ef946e41a3f0f8cd0fa95938ec5a13e",
+        "bytes": 5984
+      },
+      {
+        "path": "components/Dashboard.tsx",
+        "gitBlobSha": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+        "bytes": 77
+      },
+      {
+        "path": "components/DecorativeLayer.tsx",
+        "gitBlobSha": "43f6b09bbb05011ab4e183dc5fe909236c81a6d6",
+        "bytes": 4518
+      },
+      {
+        "path": "components/DetailsModal.tsx",
+        "gitBlobSha": "a923dcec0e681962a2a653cf0fe65a882397d1d5",
+        "bytes": 7901
+      },
+      {
+        "path": "components/Header.tsx",
+        "gitBlobSha": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+        "bytes": 77
+      },
+      {
+        "path": "components/HomeScreen.tsx",
+        "gitBlobSha": "38f72b2ec4927cabe8f755d85595b0c3a1db5fbd",
+        "bytes": 8463
+      },
+      {
+        "path": "components/JournalEditor.tsx",
+        "gitBlobSha": "99e4e6452aa65eb5cf5e1f348b69dda2bd4c4105",
+        "bytes": 4034
+      },
+      {
+        "path": "components/JournalScreen.tsx",
+        "gitBlobSha": "cdd5602a407bc02d1ed5cee274158bc34e186bba",
+        "bytes": 5203
+      },
+      {
+        "path": "components/LoginScreen.tsx",
+        "gitBlobSha": "9d6a2c8101d1bda94e26870a90055c08b4534fa7",
+        "bytes": 7460
+      },
+      {
+        "path": "components/LoveScreen.tsx",
+        "gitBlobSha": "e0392463d482949f74da60079721c22cf026c022",
+        "bytes": 16738
+      },
+      {
+        "path": "components/MarkdownRenderer.tsx",
+        "gitBlobSha": "44fb8b6e54a32793f658b3ed58a301c0a57379cb",
+        "bytes": 2844
+      },
+      {
+        "path": "components/NameAnalysisScreen.tsx",
+        "gitBlobSha": "f2c770bc9ae9330a83703a8e5a2538ace33928aa",
+        "bytes": 9271
+      },
+      {
+        "path": "components/NameMeaningCard.tsx",
+        "gitBlobSha": "80761997dc8286092d8106b7663eb35bf1c5c1fa",
+        "bytes": 3713
+      },
+      {
+        "path": "components/NameSummaryCard.tsx",
+        "gitBlobSha": "91dc5332c038817da834c551b68f80d992a5bd4d",
+        "bytes": 377
+      },
+      {
+        "path": "components/NumberCard.tsx",
+        "gitBlobSha": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+        "bytes": 77
+      },
+      {
+        "path": "components/PMEIAnalysisCard.tsx",
+        "gitBlobSha": "dccbd67ca4e9b2efe80be84d6f9fcba13887aa69",
+        "bytes": 6897
+      },
+      {
+        "path": "components/Paywall.tsx",
+        "gitBlobSha": "75595f259f7fc6ede885deff4c1c345f2de50c06",
+        "bytes": 1779
+      },
+      {
+        "path": "components/ProfileEditModal.tsx",
+        "gitBlobSha": "22c270ac91e3c6d530e58ebaab8d6fe76e5c8f0b",
+        "bytes": 2766
+      },
+      {
+        "path": "components/ProfileFormModal.tsx",
+        "gitBlobSha": "2f060349a49e04b168e2c4c9b97cbd1768970730",
+        "bytes": 6284
+      },
+      {
+        "path": "components/ProfileHeader.tsx",
+        "gitBlobSha": "072543344d3ec091ea3cee94ba2b8c671e926b4d",
+        "bytes": 4581
+      },
+      {
+        "path": "components/ProfileInput.tsx",
+        "gitBlobSha": "3e54d69758b773949da7aa9d7dd96b3181c6db39",
+        "bytes": 77
+      },
+      {
+        "path": "components/ReportModal.tsx",
+        "gitBlobSha": "06a59e251f5cafc946b2ad964330fd5ef5aa23a1",
+        "bytes": 2476
+      },
+      {
+        "path": "components/ShopScreen.tsx",
+        "gitBlobSha": "85925473c7c40c97ca4a2713c1248c893adbbd07",
+        "bytes": 8667
+      },
+      {
+        "path": "components/SplashScreen.tsx",
+        "gitBlobSha": "3076a7a98f9825260a79551e2a76bb21646f86d6",
+        "bytes": 4598
+      },
+      {
+        "path": "components/TransformedContent.tsx",
+        "gitBlobSha": "a93b1d68cff9bdc24d6c8f9f7df6b846ec1971ca",
+        "bytes": 1737
+      },
+      {
+        "path": "components/WalkthroughModal.tsx",
+        "gitBlobSha": "abe588f90830b3f4f5f489a091efe4df1da8a2bd",
+        "bytes": 3809
+      },
+      {
+        "path": "components/YearAndMonthScreen.tsx",
+        "gitBlobSha": "cf80bd42ca9c253526a362584d3712dbf1d96ef6",
+        "bytes": 15038
+      },
+      {
+        "path": "components/YouScreen.tsx",
+        "gitBlobSha": "d000b1016158ef3accfafcfd9c3f528723cf36b5",
+        "bytes": 15463
+      },
+      {
+        "path": "components/art/Motifs.tsx",
+        "gitBlobSha": "2d1efbcb2de819840043f307aacc6d5037f4b85b",
+        "bytes": 5051
+      },
+      {
+        "path": "components/charts/AdvancedTimelineChart.tsx",
+        "gitBlobSha": "fbf56d72832eb11611526c09966e84511cd0b3de",
+        "bytes": 48017
+      },
+      {
+        "path": "components/charts/DailyDialog.tsx",
+        "gitBlobSha": "8a896a9e9a88732aa90047219c61bcc4a5cd42d4",
+        "bytes": 2863
+      },
+      {
+        "path": "components/rectificationMethodology.ts",
+        "gitBlobSha": "4da185ad0556080df1312ac81b079e84cf72dfa5",
+        "bytes": 11172
+      },
+      {
+        "path": "constants.ts",
+        "gitBlobSha": "9c38a6268cdeae03dc6ecad6ad7cd76d742c6a2d",
+        "bytes": 497
+      },
+      {
+        "path": "index.html",
+        "gitBlobSha": "dbeb453c513c429c1c55419f52b9f08c512f1381",
+        "bytes": 3216
+      },
+      {
+        "path": "index.tsx",
+        "gitBlobSha": "aaa0c6e4687f6cecf582465e25a32c725104814d",
+        "bytes": 351
+      },
+      {
+        "path": "metadata.json",
+        "gitBlobSha": "8670d92a7c78bb917bf9b67d34b32041fe0d8611",
+        "bytes": 328
+      },
+      {
+        "path": "name-engine/data/letters.json",
+        "gitBlobSha": "47c15fffd3c4b11482d7b4e2951895361e1bb894",
+        "bytes": 61
+      },
+      {
+        "path": "name-engine/data/letters.ts",
+        "gitBlobSha": "91a8bf6523ff7912cb6bb2653ade52cd4dafd84f",
+        "bytes": 16209
+      },
+      {
+        "path": "name-engine/data/numbers.json",
+        "gitBlobSha": "489227f9369af0462afb90c42f80520a74df5dac",
+        "bytes": 61
+      },
+      {
+        "path": "name-engine/data/numbers.ts",
+        "gitBlobSha": "903949c45f0dd3046fc1add937e817570150f5e2",
+        "bytes": 2074
+      },
+      {
+        "path": "name-engine/data/pair_trio_rules.json",
+        "gitBlobSha": "7abae4c3e4688f6bfd58f1c5e023efea64b3299f",
+        "bytes": 69
+      },
+      {
+        "path": "name-engine/data/pair_trio_rules.ts",
+        "gitBlobSha": "e9582c34e6c268113a7845e10940edbd96a1636e",
+        "bytes": 5463
+      },
+      {
+        "path": "name-engine/data/templates.json",
+        "gitBlobSha": "3bd5b32554e31204ed525f4f723a78399ebf7654",
+        "bytes": 63
+      },
+      {
+        "path": "name-engine/data/templates.ts",
+        "gitBlobSha": "350a9e7269fa8d66fee05fce3b2552ad6bc49fa6",
+        "bytes": 1337
+      },
+      {
+        "path": "name-engine/src/compose.ts",
+        "gitBlobSha": "2d10e809b8b23f0b7d6584460c49283692f2f743",
+        "bytes": 2841
+      },
+      {
+        "path": "name-engine/src/engine.ts",
+        "gitBlobSha": "2aead89cf3c03012e7547664f9cbc297463038c3",
+        "bytes": 5636
+      },
+      {
+        "path": "name-engine/src/hash.ts",
+        "gitBlobSha": "68c4690bbfcd337a20a9a8a110e20adc845862bc",
+        "bytes": 451
+      },
+      {
+        "path": "name-engine/src/types.ts",
+        "gitBlobSha": "08e9d09990fc7811f9a0d95dc6a3f91d0173841b",
+        "bytes": 1786
+      },
+      {
+        "path": "package.json",
+        "gitBlobSha": "31df26b7446493cf67795e3184e87588bf29d1e3",
+        "bytes": 445
+      },
+      {
+        "path": "services/accessControl.ts",
+        "gitBlobSha": "4574fffa292bad31f6cf90b240f21b3cb39666ba",
+        "bytes": 3421
+      },
+      {
+        "path": "services/astrology.ts",
+        "gitBlobSha": "295e9d5db27a41c5e0ff84538fecedee747237f1",
+        "bytes": 1269
+      },
+      {
+        "path": "services/calledNameDescriptions.ts",
+        "gitBlobSha": "96dca29630bd26be6f16b8367adaa7b4dfdababa",
+        "bytes": 6447
+      },
+      {
+        "path": "services/careerGuidanceData.ts",
+        "gitBlobSha": "6345a139ea158bfb08d5508be86df79838d4952b",
+        "bytes": 12671
+      },
+      {
+        "path": "services/charting.ts",
+        "gitBlobSha": "71dd636f6862f149d76d91e74db2bf8a503d5621",
+        "bytes": 11236
+      },
+      {
+        "path": "services/coupledynamics.ts",
+        "gitBlobSha": "75e3c5c7e0d451c029d8fb79b88e70e10252e838",
+        "bytes": 42675
+      },
+      {
+        "path": "services/data.ts",
+        "gitBlobSha": "fd616456eddcecdd0ce72002e019c238f9ada649",
+        "bytes": 297269
+      },
+      {
+        "path": "services/descriptions.ts",
+        "gitBlobSha": "aa02e830ba2e4951fe34b6faf44346bbe660f2a2",
+        "bytes": 9477
+      },
+      {
+        "path": "services/goingthroughit.ts",
+        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "bytes": 0
+      },
+      {
+        "path": "services/letterMeanings.ts",
+        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "bytes": 0
+      },
+      {
+        "path": "services/loveDescriptions.ts",
+        "gitBlobSha": "4554f6b70c1d0703654a485f4dc96677366d7c15",
+        "bytes": 59182
+      },
+      {
+        "path": "services/marriageadvice.ts",
+        "gitBlobSha": "871c4cb15fb6360a07db87a49ad2b2ea8d9d58cc",
+        "bytes": 9786
+      },
+      {
+        "path": "services/nameGenerator.ts",
+        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "bytes": 0
+      },
+      {
+        "path": "services/nameNumberDescriptions.ts",
+        "gitBlobSha": "8da6136f28ef2aaa3dfecb03af967a7dddbc0634",
+        "bytes": 8221
+      },
+      {
+        "path": "services/numerology.ts",
+        "gitBlobSha": "08a10e51f7e49fc4fbd8872b3532fb910ab8cfd4",
+        "bytes": 16106
+      },
+      {
+        "path": "services/pmeiEngine.ts",
+        "gitBlobSha": "88083c9f152326aa23af17875c87fcefa472b4b0",
+        "bytes": 19471
+      },
+      {
+        "path": "services/profileGenerator.tsx",
+        "gitBlobSha": "d119d89a557c5c6be33450c5f5990b1b58fd1065",
+        "bytes": 218
+      },
+      {
+        "path": "services/textTransformer.ts",
+        "gitBlobSha": "df6c83794eef962ceb9cbe4352b603e733089bf9",
+        "bytes": 3082
+      },
+      {
+        "path": "tsconfig.json",
+        "gitBlobSha": "2c6eed55868c7545e8f265f260277fb0605b2dbc",
+        "bytes": 542
+      },
+      {
+        "path": "types.ts",
+        "gitBlobSha": "526514d2d7a1788e93f0d825ee5f4dea1b63e527",
+        "bytes": 4388
+      },
+      {
+        "path": "untitled-1.tsx",
+        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "bytes": 0
+      },
+      {
+        "path": "untitled.tsx",
+        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "bytes": 0
+      },
+      {
+        "path": "vite.config.ts",
+        "gitBlobSha": "ee5fb8d2dfb261530fb407cb2f28599d50fcae26",
+        "bytes": 580
+      }
+    ],
+    "downloadedTextFiles": 102
+  },
+  "mystic": {
+    "repository": "olsonan26/mystic-rebels-chart-generator",
+    "defaultBranch": "main",
+    "defaultCommit": "e250662ebbf799f00f94c869a68d8bdab1d3f8ea",
+    "auditBranch": "codex/methodology-verification-20261024",
+    "auditCommit": "3d83db75c30b26d9b068576d84ec49554822fd8c",
+    "remoteBranchesVerified": true,
+    "localWorkingChangesPreserved": true
+  },
+  "limitations": [
+    "Snapshot files were saved from UTF-8 API content and are for source review, not a byte-for-byte archive.",
+    "No source repository code modified; no deployment or empirical correlation study performed.",
+    "Original Mystic scan corpus was not re-audited in full during this integration review."
+  ]
+}
