@@ -1,0 +1,96 @@
+id,date,us_participant,name
+1,1823-04-07,0,Franco-Spanish War
+4,1828-04-26,0,First Russo-Turkish
+7,1846-04-25,1,Mexican-American
+10,1848-03-24,0,Austro-Sardinian
+13,1848-04-10,0,First Schleswig-Holstein
+16,1849-04-30,0,Roman Republic
+19,1851-07-19,0,La Plata
+22,1853-10-23,0,Crimean
+25,1856-10-25,0,Anglo-Persian
+28,1859-04-29,0,Italian Unification
+31,1859-10-22,0,First Spanish-Moroccan
+34,1860-09-11,0,Italian-Roman
+37,1860-10-15,0,Neapolitan
+40,1862-04-16,0,Franco-Mexican
+43,1863-11-22,0,Ecuadorian-Colombian
+46,1864-02-01,0,Second Schleswig-Holstein
+49,1864-11-12,0,Lopez
+52,1865-09-25,0,Naval War
+55,1866-06-15,0,Seven Weeks
+58,1870-07-19,0,Franco-Prussian
+60,1876-03-27,0,First Central American
+61,1877-04-24,0,Second Russo-Turkish
+64,1879-02-14,0,War of the Pacific
+65,1882-07-11,0,Conquest of Egypt
+67,1884-06-15,0,Sino-French
+70,1885-03-28,0,Second Central American
+73,1894-07-25,0,First Sino-Japanese
+76,1897-02-15,0,Greco-Turkish
+79,1898-04-22,1,Spanish-American
+82,1900-06-17,1,Boxer Rebellion
+83,1900-07-17,0,Sino-Russian
+85,1904-02-08,0,Russo-Japanese
+88,1906-05-27,0,Third Central American
+91,1907-02-19,0,Fourth Central American
+94,1909-07-07,0,Second Spanish-Moroccan
+97,1911-09-29,0,Italian-Turkish
+100,1912-10-17,0,First Balkan
+103,1913-06-30,0,Second Balkan
+106,1914-07-29,1,World War I
+107,1918-11-22,0,Estonian Liberation
+108,1918-12-02,0,Latvian Liberation
+109,1919-02-14,0,Russo-Polish
+112,1919-04-16,0,Hungarian Adversaries
+115,1919-05-05,0,Second Greco-Turkish
+116,1919-11-01,0,Franco-Turkish
+117,1920-07-15,0,Lithuanian-Polish
+118,1929-08-17,0,Manchurian
+121,1931-12-19,0,Second Sino-Japanese
+124,1932-06-15,0,Chaco
+125,1934-03-20,0,Saudi-Yemeni
+127,1935-10-03,0,Conquest of Ethiopia
+130,1937-07-07,0,Third Sino-Japanese
+133,1938-07-29,0,Changkufeng
+136,1939-05-11,0,Nomonhan
+139,1939-09-01,0,World War II
+142,1939-11-30,0,Russo-Finnish
+145,1940-12-01,0,Franco-Thai
+147,1947-10-26,0,First Kashmir
+148,1948-05-15,0,Arab-Israeli
+151,1950-06-24,1,Korean
+153,1954-09-03,0,Off-shore Islands
+155,1956-10-29,0,Sinai War
+156,1956-11-04,0,Soviet Invasion of Hungary
+158,1957-11-21,0,IfniWar
+159,1958-08-23,0,Taiwan Straits
+160,1962-10-20,0,Assam
+163,1965-02-07,1,"Vietnam War, Phase 2"
+166,1965-08-05,0,Second Kashmir
+169,1967-06-05,0,Six Day War
+170,1968-01-13,1,"Second Laotian, Phase 2"
+172,1969-03-06,0,War of Attrition
+175,1969-07-14,0,Football War
+176,1970-03-23,1,Communist Coalition
+178,1971-12-03,0,Bangladesh
+181,1973-10-06,0,Yom Kippur War
+184,1974-07-20,0,Turco-Cypriot
+186,1975-10-23,0,War over Angola
+187,1977-07-23,0,"Second Ogaden War, Phase 2"
+189,1977-09-24,0,Vietnamese-Cambodian
+190,1978-10-28,0,Ugandian-Tanzanian
+193,1979-02-17,0,Sino-Vietnamese Punitive
+199,1980-09-22,0,Iran-Iraq
+202,1982-03-25,0,Falkland Islands
+205,1982-04-21,0,War over Lebanon
+207,1986-11-15,0,War over the Aouzou Strip
+208,1987-01-05,0,Sino-Vietnamese Border War
+211,1990-08-02,1,Gulf War
+215,1992-04-07,0,Bosnian Independence
+216,1993-02-06,0,Azeri-Armenian
+217,1995-01-09,0,Cenepa Valley
+219,1998-05-06,0,Badme Border
+221,1999-03-24,1,War for Kosovo
+223,1999-05-08,0,Kargil War
+225,2001-10-07,1,Invasion of Afghanistan
+227,2003-03-19,1,Invasion of Iraq
