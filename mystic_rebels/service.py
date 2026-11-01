@@ -21,6 +21,10 @@ RULES={
     'spark':{'id':'N9-020/021','version':'1','status':'BLOCKED','reason':'Contradictory parity definitions'},
     'aspects':{'id':'N9-033/034','version':'1','status':'BLOCKED','reason':'Incomplete per-object orbital reach and directional rules'},
     'progressions':{'id':'N9-038','version':'1','status':'BLOCKED','reason':'Unverified calculation procedure'},
+    'delegate_traversal':{'id':'AUDIT-001','version':'1','status':'BLOCKED','reason':'The ruler mapping is source-backed, but recursive Delegate/PHSR interpretation is not implemented.'},
+    'energy_flow':{'id':'AUDIT-002','version':'1','status':'BLOCKED','reason':'Direction-sensitive aspects, Vantages, and Energy Flow interpretations are not implemented.'},
+    'transit_synastry':{'id':'AUDIT-003','version':'1','status':'BLOCKED','reason':'Natal-transit reverse-order and cross-ecosystem interpretation are not implemented.'},
+    'predictive_engine':{'id':'AUDIT-004','version':'1','status':'BLOCKED','reason':'The chart generator is not a verified predictive engine; war-onset correlations do not constitute a forecast.'},
 }
 
 def object_catalog():
