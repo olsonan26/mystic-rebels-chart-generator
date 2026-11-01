@@ -1,6 +1,6 @@
 from __future__ import annotations
 import hashlib,json,platform
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 from importlib.metadata import version
 from . import __version__
 from . import astronomy as astro
@@ -21,6 +21,10 @@ RULES={
     'spark':{'id':'N9-020/021','version':'1','status':'BLOCKED','reason':'Contradictory parity definitions'},
     'aspects':{'id':'N9-033/034','version':'1','status':'BLOCKED','reason':'Incomplete per-object orbital reach and directional rules'},
     'progressions':{'id':'N9-038','version':'1','status':'BLOCKED','reason':'Unverified calculation procedure'},
+    'delegate_traversal':{'id':'AUDIT-001','version':'1','status':'BLOCKED','reason':'The ruler mapping is source-backed, but recursive Delegate/PHSR interpretation is not implemented.'},
+    'energy_flow':{'id':'AUDIT-002','version':'1','status':'BLOCKED','reason':'Direction-sensitive aspects, Vantages, and Energy Flow interpretations are not implemented.'},
+    'transit_synastry':{'id':'AUDIT-003','version':'1','status':'BLOCKED','reason':'Natal-transit reverse-order and cross-ecosystem interpretation are not implemented.'},
+    'predictive_engine':{'id':'AUDIT-004','version':'1','status':'BLOCKED','reason':'The chart generator is not a verified predictive engine; war-onset correlations do not constitute a forecast.'},
 }
 
 def object_catalog():
@@ -53,6 +57,30 @@ def calculate(request:BirthInput):
             try:geometry,cusps=astro.angles(jd,request.latitude,request.longitude)
             except ChartError as exc:warnings.append(exc.record())
         ac=geometry.get('Ascendant')
+        # Even a mathematically correct whole-sign house can be wrong when the
+        # recorded clock spans a different rising sign. Do not publish a
+        # single definitive Field/True Placement in that situation.
+        house_ascendant=ac
+        clock_range=request.uncertainty_seconds
+        if ac is not None and (clock_range is None or clock_range>0):
+            unstable=clock_range is None or clock_range>=3600
+            if not unstable:
+                try:
+                    sample_signs={int(norm(ac)//30)}
+                    # Five positions across the stated birth-time range. A
+                    # one-hour-or-wider uncertainty fails closed regardless.
+                    for fraction in (-1,-.5,.5,1):
+                        shifted=utc+timedelta(seconds=clock_range*fraction)
+                        shifted_jd=astro.times(shifted)['jd_ut1']
+                        alternate=astro.angles(shifted_jd,request.latitude,request.longitude)[0]['Ascendant']
+                        sample_signs.add(int(norm(alternate)//30))
+                    unstable=len(sample_signs)>1
+                except (ChartError,ValueError,OverflowError):
+                    unstable=True
+            if unstable:
+                house_ascendant=None
+                warnings.append({'code':'HOUSE_TIME_UNCERTAIN',
+                                 'message':'The stated birth-time uncertainty may change the rising sign. Houses and True Placements are withheld; angles and astronomical positions remain time-reference values.'})
         cache={}
         def get_body(id):
             if id in cache:return cache[id]
@@ -78,13 +106,14 @@ def calculate(request:BirthInput):
                     value={'longitude_deg':geometry[id],'retrograde':None,'provenance':{'algorithm':'swiss-independent-horizon-angles-v1' if id not in ('Nonagesimal','Subnonagesimal') else 'asc-minus90-plus90-source-verified-v2','backend':'GEOMETRY','julian_ut1':jd,'rule':RULES['nonagesimal'] if id in ('Nonagesimal','Subnonagesimal') else None}}
                 elif row['group']=='Parts':
                     if ac is None:raise ChartError('ANGLE_GEOMETRY_UNDEFINED','A resolved Ascendant is required for this Part.')
+                    if house_ascendant is None:raise ChartError('ANGLE_TIME_UNCERTAIN','The rising sign is not stable within the stated birth-time uncertainty; dependent Part positions are withheld.')
                     sun=get_body('Sun')['longitude_deg'];moon=get_body('Moon')['longitude_deg'];venus=get_body('Venus')['longitude_deg']
                     longitude={'Fortune':ac+moon-sun,'Spirit':ac+sun-moon,'Love':ac+venus-sun}[id]
                     value={'longitude_deg':norm(longitude),'retrograde':None,'provenance':{'algorithm':'fixed-parts-no-sect-reversal-v1','backend':'DERIVED','parent_points':['Ascendant','Sun','Moon','Venus'],'rule':RULES['parts']}}
                 else:raise ChartError('OBJECT_NOT_SUPPORTED','Calculation method is not available.')
-                value={**value,'available':True,**derive(value['longitude_deg'],ac),'display_dms':dms(value['longitude_deg']),'input_fingerprint':fingerprint,'placement_provenance':{key:RULES[key] for key in ('whole_sign','true_placement','tone','pulse','ruler')},'outgoing_emission':False if row['group'] in ('Angles','Parts','Lunar points') else None}
+                value={**value,'available':True,**derive(value['longitude_deg'],house_ascendant),'display_dms':dms(value['longitude_deg']),'input_fingerprint':fingerprint,'placement_provenance':{key:RULES[key] for key in ('whole_sign','true_placement','tone','pulse','ruler')},'outgoing_emission':False if row['group'] in ('Angles','Parts','Lunar points') else None}
                 points.append({**base,**value})
             except ChartError as exc:points.append({**base,'available':False,'longitude_deg':None,'error':exc.record()})
     if unknown_time:warnings.append({'code':'TIME_UNKNOWN','message':'Positions use explicitly labelled local noon as a reference epoch. Birth positions vary during the day; houses, angles and house-derived placements are unavailable.'})
     if utc.year<1970:warnings.append({'code':'HISTORICAL_TIMEZONE','message':'Historical civil-time rules can have incomplete local records. Verify the documented birth offset for this date and location.'})
-    return {'schema_version':'1.0','product':'Mystic Rebels','engine_version':__version__,'chart_id':fingerprint,'input':canonical,'input_fingerprint':fingerprint,'time':{**time_data,'birth_utc':utc.isoformat(),'iana_zone':request.timezone,'utc_offset_seconds':int(utc.astimezone(__import__('zoneinfo').ZoneInfo(request.timezone)).utcoffset().total_seconds()),'tzdata_version':version('tzdata'),'time_is_reference_only':unknown_time,'uncertainty_seconds':None if unknown_time else request.uncertainty_seconds},'configuration':{'center':'geocentric','zodiac':'tropical','houses':'whole_sign','position_type':'apparent ecliptic/equinox of date','backend_requested':'SWIEPH','requested_flags':astro.FLAGS,'swiss_version':astro.swe.version,'binding_version':version('pyswisseph'),'python_version':platform.python_version(),'asset_manifest_sha256':hashlib.sha256((astro.ROOT/'data'/'ephemeris-manifest.json').read_bytes()).hexdigest()},'angles':geometry,'whole_sign_cusps':cusps,'points':points,'warnings':warnings,'rules':RULES,'created_at_utc':datetime.now(timezone.utc).isoformat()}
+    return {'schema_version':'1.0','product':'Mystic Rebels','engine_version':__version__,'chart_id':fingerprint,'input':canonical,'input_fingerprint':fingerprint,'time':{**time_data,'birth_utc':utc.isoformat(),'iana_zone':request.timezone,'utc_offset_seconds':int(utc.astimezone(__import__('zoneinfo').ZoneInfo(request.timezone)).utcoffset().total_seconds()),'tzdata_version':version('tzdata'),'time_is_reference_only':unknown_time,'house_time_stable':(house_ascendant is not None),'uncertainty_seconds':None if unknown_time else request.uncertainty_seconds},'configuration':{'center':'geocentric','zodiac':'tropical','houses':'whole_sign','position_type':'apparent ecliptic/equinox of date','backend_requested':'SWIEPH','requested_flags':astro.FLAGS,'swiss_version':astro.swe.version,'binding_version':version('pyswisseph'),'python_version':platform.python_version(),'asset_manifest_sha256':hashlib.sha256((astro.ROOT/'data'/'ephemeris-manifest.json').read_bytes()).hexdigest()},'angles':geometry,'whole_sign_cusps':cusps,'points':points,'warnings':warnings,'rules':RULES,'created_at_utc':datetime.now(timezone.utc).isoformat()}

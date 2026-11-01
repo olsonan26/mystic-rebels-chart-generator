@@ -897,6 +897,7 @@ export default function App() {
                     ["Field", selected.field ?? "—"],
                     ["Tone", selected.tone],
                     ["Pulse", selected.pulse],
+                    ["Sign ruler", selected.sign_ruler],
                   ].map(([key, value]) => (
                     <div key={key}>
                       <small>{key}</small>
@@ -960,7 +961,7 @@ export default function App() {
                       <th>Object</th>
                       <th>Position</th>
                       {(tableView === "placements"
-                        ? ["House", "Field", "Tone", "Pulse"]
+                        ? ["House", "Field", "Tone", "Pulse", "Sign ruler"]
                         : [
                             "Latitude °",
                             "Declination °",
@@ -1000,6 +1001,7 @@ export default function App() {
                               <td>{p.field ?? "—"}</td>
                               <td>{p.tone}</td>
                               <td>{p.pulse}</td>
+                              <td>{p.sign_ruler}</td>
                             </>
                           ) : (
                             <>

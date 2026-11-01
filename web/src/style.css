@@ -661,7 +661,8 @@ main {
 }
 .inspector-values {
   display: flex;
-  gap: 27px;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 .inspector-values > div {
   display: grid;
