@@ -35,6 +35,8 @@ export type Point = ObjectEntry & {
   house: number | null;
   tone: string;
   pulse: string;
+  sign_ruler: string;
+  true_placement: string | null;
   field: string | null;
   display_dms: string;
   error?: { code: string; message: string };
