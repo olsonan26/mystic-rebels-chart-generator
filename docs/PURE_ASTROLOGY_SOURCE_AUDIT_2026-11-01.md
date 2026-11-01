@@ -6,6 +6,7 @@
 
 - **No source contradiction found in the implemented Whole Sign house / True Placement / Tone / Pulse / modern sign-ruler formulas.** The previous assistant incorrectly said House 7's natural Libra ruler, Venus, was the PHSR sign-ruler for Gemini. In the actual code, Gemini correctly maps to **Mercury**.
 - **Confirmed product gap fixed by this PR:** the API already returned `sign_ruler` but the user-facing inspector and placement table omitted this essential PHSR field. The branch now displays **Sign ruler** clearly.
+- **Confirmed material correctness defect fixed by this PR:** although the input specified birth-time uncertainty, the old engine always published definitive house/True Placement results for the central clock even when the plausible birth interval crossed a rising-sign boundary. The engine now checks the Ascendant throughout short uncertainty intervals and **withholds houses and Ascendant-dependent Parts if the rising sign may change**; uncertainty of 60+ minutes or unspecified clock error fails closed conservatively. A regression reproduces a Gemini→Cancer rising flip across 2024-01-01 00:04–00:05 UTC near Los Alamitos. Angles and astronomical positions remain clock-reference estimates. This does not yet solve per-body Tone boundary uncertainty.
 - **Confirmed major coverage gap:** mapping a planet to `sign_ruler` is *not* a full Delegates/recursive PHSR reading. Nor is a complete Energy Flow / directional aspect / Reverse-Vantage / natal-transit forecast engine present. These stages are explicitly marked **BLOCKED**, rather than claimed correct or finished.
 - **The unsupported 1776 issue remains:** the production ephemeris supports **1800–2399 UTC**. The prior American founding positions in research used a distinct **MOSEPH 1776 proxy** with unknown official founding time; the chart engine cannot certify a natal U.S. 1776 whole-sign chart or interpret its full PHSR.
 
@@ -43,7 +44,8 @@ An independent local regression script (`verify_placement_logic.py` provided sep
 1. Add `sign_ruler` to the typed frontend `Point` model; the API had it already.
 2. Show **Sign ruler** in both the object inspector and full placement table. Keep the inspector usable when the extra field wraps.
 3. Add `delegate_traversal`, `energy_flow`, `transit_synastry`, `predictive_engine` as explicitly **BLOCKED** in the API capabilities (do NOT silently claim that a sign-ruler map equals complete rulership analysis).
-4. Add source-anchored test module for all 12 Ascendant signs × 12 planet signs, near-boundary degrees and decans, unknown time, example charts, and unimplemented-rule claims.
+4. Fail closed on an uncertain Ascendant crossing a sign boundary, rather than assigning fictional definitive houses, and withhold Ascendant-dependent Parts.
+5. Add source-anchored test module for all 12 Ascendant signs × 12 planet signs, near-boundary degrees and decans, unknown time, example charts, and unimplemented-rule claims.
 
 ## Open / important limitations
 
@@ -51,6 +53,7 @@ An independent local regression script (`verify_placement_logic.py` provided sep
 - The book's metaphysical claims are claims of its author; numerical conformity to the book does not scientifically prove the causal or predictive validity of astrology.
 - We cannot create a source-certified 1776 U.S. founding chart with the present 1800+ ephemeris or an unverified founding-time Ascendant. Do not apply retrospective WWI/WWII coincidence results as national war forecasts.
 - A single book excerpt can contain OCR page ordering problems: all quoted source statements should be checked against their print-page context before implementing controversial or advanced cases.
+- **Remaining clock uncertainty problem:** planetary zodiac sign/Tone near a sign boundary may also vary during the declared birth-time window. The current new guard specifically covers the **Ascendant rising sign**, not the time interval for every moving body. Do not treat approximate Moon or planetary sign at a cusp as guaranteed; a future epoch-bracketed all-body check is required.
 - The full 72-body performance, exact 1776 ephemeris compatibility, browser scenarios and Vercel production deployment have **not** been newly re-executed in this audit. Run the complete PR CI, then independently validate with the pinned Swiss files before merging.
 
 **Status:** A source-comparison and test-backed placement-layer audit, not a blanket certification of the whole system.
