@@ -2,7 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "git": {
     "deploymentEnabled": {
-      "codex/methodology-verification-20261024": false
+      "codex/methodology-verification-20261024": false,
+      "codex/nadia-consumer-phase8": false
     }
   },
   "framework": "vite",
@@ -10,7 +11,7 @@
   "outputDirectory": "dist",
   "functions": {
     "api/index.py": {
-      "includeFiles": "data/**",
+      "includeFiles": "{data/**,.nadia-private/**}",
       "excludeFiles": "{reference/**,evidence/**,web/**,node_modules/**,dist/**}",
       "maxDuration": 60
     }

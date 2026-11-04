@@ -56,6 +56,9 @@ main{width:min(100%,420px);padding:36px 28px;border:1px solid #73458c66;border-r
 
 class SitePasswordGate(BaseHTTPMiddleware):
     async def dispatch(self, request, call_next):
+        # This machine endpoint enforces its own dedicated bearer credential.
+        if request.url.path == '/api/nadia/health':
+            return await call_next(request)
         secret = os.environ.get('SITE_ACCESS_SECRET', '')
         record = os.environ.get('SITE_ACCESS_HASH', '')
         if not secret and not record and not os.environ.get('VERCEL'):

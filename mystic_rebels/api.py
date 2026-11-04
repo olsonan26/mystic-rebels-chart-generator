@@ -11,6 +11,8 @@ from . import astronomy
 from .chart_chat import router as chart_chat_router
 
 app=FastAPI(title='Mystic Rebels Chart API',version='0.1.0')
+from nadia_backend import router as nadia_router
+app.include_router(nadia_router)
 app.include_router(chart_chat_router)
 
 @app.exception_handler(ChartError)
