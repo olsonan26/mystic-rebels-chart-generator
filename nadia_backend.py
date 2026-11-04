@@ -35,7 +35,8 @@ def verified_core(runtime=None):
     identity = json.loads((site / 'nadia_core/data/distribution.json').read_text())
     if (identity.get('commit'), identity.get('knowledge_version'), identity.get('personal_readings_allowed')) != (COMMIT, VERSION, False):
         raise ValueError('Private release identity mismatch')
-    sys.path.insert(0, str(site))
+    if str(site) not in sys.path:
+        sys.path.insert(0, str(site))
     from nadia_core import KnowledgeCore
     import nadia_core
     if Path(nadia_core.__file__).resolve() != (site / 'nadia_core/__init__.py').resolve():
@@ -45,11 +46,24 @@ def verified_core(runtime=None):
         raise ValueError('Personal reading gate mismatch')
     return core
 
+def structured_evidence(chart, question, owner_id, *, motion=None):
+    """Internal trusted-server component API; never an unrestricted reading route."""
+    core = verified_core()
+    from nadia_core.synthesis import compose, validate_composition
+    evidence = compose(core, chart, question, owner_id, motion=motion)
+    validation = validate_composition(core, evidence, chart, question, owner_id, motion=motion)
+    if not validation['valid'] or evidence.get('personal_reading_allowed') is not False or evidence.get('complete_question_answer') is not False:
+        raise ValueError('Scoped evidence gate mismatch')
+    return evidence
+
 def health_payload():
     verified_core()
     return {'status': 'ready', 'knowledge_version': VERSION, 'core_commit': COMMIT,
             'artifact_sha256': SHA256, 'personal_readings_allowed': False,
             'capabilities': {'release_health': True, 'personal_readings': False,
+                             'source_verified_interpretation': 'partial_components_only',
+                             'structured_evidence': 'internal_server_only',
+                             'astronomical_engine': 'existing_engine_not_checked_by_this_endpoint',
                              'public_rule_retrieval': False}}
 
 @router.get('/api/nadia/health')
