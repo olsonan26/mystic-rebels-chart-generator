@@ -1,0 +1,79 @@
+name: Protected NADIA consumer preflight
+on:
+  workflow_dispatch:
+    inputs:
+      core_version:
+        required: true
+        default: '0.7.0'
+      core_commit:
+        required: true
+        default: '5a472f5f8236aa53ae90529a91a6ad20dd9e1382'
+      core_artifact_sha256:
+        required: true
+        default: '352bb1251ef471e9535ae514ba4ea692411ee91ab0a14d18f269002818b1612b'
+permissions:
+  contents: read
+concurrency:
+  group: nadia-private-preflight
+  cancel-in-progress: false
+jobs:
+  private-preflight:
+    runs-on: ubuntu-latest
+    environment: nadia-private-build
+    steps:
+      - name: Reject unconfigured delivery
+        env:
+          ENABLED: ${{ vars.NADIA_PRIVATE_BUILD_ENABLED }}
+          APPROVED_REF: ${{ vars.NADIA_CONSUMER_REF }}
+        run: |
+          test "$ENABLED" = true
+          test -n "$APPROVED_REF"
+          test "$GITHUB_REF_NAME" = "$APPROVED_REF"
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-qa.txt
+      - name: Check dispatched identity against reviewed pin
+        env:
+          CORE_VERSION: ${{ inputs.core_version }}
+          CORE_COMMIT: ${{ inputs.core_commit }}
+          CORE_SHA256: ${{ inputs.core_artifact_sha256 }}
+        run: |
+          python - <<'PY'
+          import os
+          from nadia_backend import VERSION, COMMIT, SHA256
+          assert (os.environ['CORE_VERSION'], os.environ['CORE_COMMIT'], os.environ['CORE_SHA256']) == (VERSION, COMMIT, SHA256)
+          PY
+      - name: Acquire immutable private release
+        env:
+          GH_TOKEN: ${{ secrets.NADIA_CORE_READ_TOKEN }}
+        run: |
+          test -n "$GH_TOKEN"
+          gh release download v0.7.0 --repo olsonan26/NADIA-KNOWLEDGE-CORE --pattern nadia_knowledge_core-0.7.0-py3-none-any.whl --dir .nadia-private/download
+          python scripts/install_nadia.py .nadia-private/download/nadia_knowledge_core-0.7.0-py3-none-any.whl
+      - name: Verify private installed core and authentication
+        run: python scripts/verify_nadia_private.py
+      - name: Required complete application regressions
+        run: |
+          python -m pytest astronomy_qa access_qa -q --junitxml=.nadia-private/tests.xml
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse('.nadia-private/tests.xml').getroot()
+          assert not root.findall('.//skipped'), 'Required tests skipped'
+          PY
+          python scripts/methodology_regression.py
+          python scripts/knowledge_audit.py check
+          python scripts/knowledge_audit.py check-semantics
+          python scripts/knowledge_audit.py check-sources
+          python scripts/knowledge_audit.py check-requirements
+          npm ci
+          npm test
+          npm run build
+          python scripts/check_nadia_boundary.py
+      # Private files stay on this ephemeral runner; no upload-artifact step.
+      # Deployment remains disabled until the real Vercel destination is verified.

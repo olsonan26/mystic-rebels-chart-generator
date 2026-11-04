@@ -60,6 +60,22 @@ private integration readiness: `verify_nadia_private.py` is a separate mandatory
 protected-build preflight, which fails if the wheel is unavailable. Neither a
 missing private preflight nor a skipped numerical test counts as passing.
 
+`nadia-private-preflight.yml` implements that separate workflow-dispatch
+contract using the existing core delivery input names. It rejects a different
+version/commit/digest, an unset enable flag, an unset approved branch or a wrong
+dispatch branch. It acquires the wheel with `NADIA_CORE_READ_TOKEN`, verifies it,
+runs the real private preflight and full regressions, rejects skips, builds the
+web bundle and scans the boundary. It uploads no private artifact and performs
+no deployment. It has not run while the required environment is unconfigured.
+
+Before enabling it, configure environment `nadia-private-build` with an
+independent required reviewer and prevent self-review; restrict allowed branches
+to the confirmed integration branch. Set environment variables
+`NADIA_PRIVATE_BUILD_ENABLED=true` and `NADIA_CONSUMER_REF` only after those
+protections and exact-head consumer review are verified. Store a scoped
+`NADIA_CORE_READ_TOKEN` there. Do not expose that credential to pull-request
+workflows. These settings have not been enabled in this phase.
+
 Before preview: independently review the exact head, configure a protected
 scoped asset reader and health token, confirm Vercel account/project/team and
 production branch through a fresh authenticated connection, and validate the
