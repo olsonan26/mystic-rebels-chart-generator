@@ -134,9 +134,11 @@ def test_bounded_sections_preserve_ruler_channels_unknown_contacts_and_scope():
 
 
 def test_unverified_component_rule_cannot_authorize_report_context():
+    installed = False
     try:
         from nadia_runtime import verified_core
         core = verified_core()
+        installed = True
     except (OSError, ValueError, ImportError):
         with patch('mystic_rebels.profile_reports.verified_core', side_effect=ValueError('unavailable')):
             report = generate_report(ProfileRequest(birth=sample()))
@@ -145,4 +147,10 @@ def test_unverified_component_rule_cannot_authorize_report_context():
         with patch('mystic_rebels.profile_reports.verified_core', return_value=core):
             report = generate_report(ProfileRequest(birth=sample()))
     assert not report['readiness']['complete_personal_reading']
-    assert not any(s['status'] == 'source_context' for s in report['sections'])
+    assert next(s for s in report['sections'] if s['id'] == 'retrograde-profile')['status'] == 'unavailable'
+    if installed:
+        assert next(s for s in report['sections'] if s['id'] == 'house-condition')['status'] == 'source_context'
+        assert next(s for s in report['sections'] if s['id'] == 'relationships-graph')['status'] == 'source_context'
+        assert sum(s['status'] == 'source_vocabulary' for s in report['sections']) == 10
+    else:
+        assert not any(s['status'] == 'source_context' for s in report['sections'])

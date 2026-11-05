@@ -73,20 +73,35 @@ def bounded_natal_sections(core, chart, positions):
     raw = {p['id']: p for p in chart['points'] if p['id'] in MAJORS and p.get('available')}
     record = {'ascendant': asc, 'positions': {b: {'longitude': positions[b], 'retrograde': raw[b]['retrograde'],
                'longitude_speed_deg_day': raw[b]['speed_longitude_deg_per_day']} for b in MAJORS}}
-    houses = [empty_house_evidence(core, positions, asc, h) for h in range(1, 13)]
-    if any(h['status'] != 'ready_for_teaching_only' for h in houses):
-        raise ValueError('House component gate is unavailable')
+    # A disputed independent component withholds its own section, without
+    # suppressing other source-eligible components or calculated facts.
+    try:
+        houses = [empty_house_evidence(core, positions, asc, h) for h in range(1, 13)]
+        if any(h['status'] != 'ready_for_teaching_only' for h in houses):
+            houses = []
+    except ValueError:
+        houses = []
     house_rules = sorted({r for h in houses for r in h['applied_rule_ids']})
     house_refs = sorted({ref for rid in house_rules for ref in core.rules[rid]['source_refs']})
-    conditions = evaluate_conditions(core, record)
-    contacts = inventory(core, record, layer='natal')
-    if conditions['personal_reading_allowed'] is not False:
-        raise ValueError('Unexpected condition approval')
+    try:
+        conditions = evaluate_conditions(core, record)
+        if conditions['personal_reading_allowed'] is not False:
+            raise ValueError('Unexpected condition approval')
+        conditions_allowed = True
+    except ValueError:
+        conditions_allowed = False
+        conditions = {'planets': [], 'source_refs': [], 'rule_ids': [], 'missing': [], 'scope': 'unavailable'}
+    try:
+        contacts = inventory(core, record, layer='natal')
+        contacts_allowed = True
+    except ValueError:
+        contacts_allowed = False
+        contacts = {'records': []}
     counts = dict(Counter(r['classification'] for r in contacts['records']))
     verified = [r for r in contacts['records'] if r['classification'] == 'VERIFIED CONTACT']
     contact_refs = sorted({ref for r in verified for ref in r['source_refs']})
     contact_rule = 'phase6:contact-authority'
-    return {
+    sections = {
         'house-condition': report_section('house-condition', 'Life areas, including empty houses', 'source_context',
             'The source method follows each house through its outer-sign ruler, including houses with no major-body occupants. Empty here means no major ruling planet; it does not mean an absent or unimportant life area.',
             facts=[{'label': f"House {h['house']} / {h['field']} Field", 'value':
@@ -116,6 +131,9 @@ def bounded_natal_sections(core, chart, positions):
             evidence={'scope': 'source_scoped_natal_geometry_not_complete_interpretation', 'classification_counts': counts,
                       'verified_contact_ids': [r['id'] for r in verified], 'complete_contact_catalog': False}),
     }
+    allowed = {'house-condition': bool(houses), 'retrograde-profile': conditions_allowed,
+               'relationships-graph': contacts_allowed}
+    return {identity: section for identity, section in sections.items() if allowed[identity]}
 
 
 def generate_report(request: ProfileRequest):

@@ -11,6 +11,13 @@ const ROOT = path.resolve(__dirname, '..');
 const out = path.resolve(ROOT, 'tmp/profile-browser');
 const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
 
+async function openReport(page) {
+  await page.locator('.nadia-open-report:not(:disabled)').waitFor({state:'visible'});
+  const close = page.getByRole('button',{name:'Close chart chat',exact:true});
+  if (await close.isVisible()) await close.click();
+  await page.getByRole('button',{name:'Generate profile',exact:true}).click();
+}
+
 (async () => {
   await fs.mkdir(out, {recursive:true});
   const browser = await chromium.launch({headless:true, ...(process.env.NADIA_CHROMIUM_EXECUTABLE ? {executablePath:process.env.NADIA_CHROMIUM_EXECUTABLE} : {})});
@@ -27,7 +34,7 @@ const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
       await page.goto(base);
       await page.getByRole('button',{name:'Load synthetic example',exact:true}).click();
       await page.getByRole('button',{name:'Generate profile',exact:true}).waitFor({state:'visible'});
-      await page.getByRole('button',{name:'Generate profile',exact:true}).click();
+      await openReport(page);
       await page.getByRole('article',{name:'NADIA profile report'}).waitFor();
       await page.getByRole('button',{name:'Download JSON',exact:true}).waitFor();
       await page.evaluate(()=>document.fonts.ready);
@@ -58,6 +65,8 @@ const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
       await page.getByLabel('Profile',{exact:true}).selectOption('premium');
       await page.getByText('Premium profile',{exact:true}).waitFor();
       await page.screenshot({path:path.join(out,`${name}.png`),fullPage:true});
+      await page.evaluate(()=>window.scrollTo(0,0));
+      await page.screenshot({path:path.join(out,`${name}-viewport.png`)});
       if(name==='desktop'){
         await page.getByRole('button',{name:'Print / save PDF',exact:true}).click();
         assert.equal(await page.evaluate(()=>window.__nadiaPrintCalls),1);
@@ -71,7 +80,7 @@ const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
         await page.getByLabel('Chart name',{exact:true}).fill(longName);
         await page.getByLabel('Time accuracy',{exact:true}).selectOption('unknown');
         await page.getByRole('button',{name:'Generate chart',exact:true}).click();
-        await page.getByRole('button',{name:'Generate profile',exact:true}).click();
+        await openReport(page);
         await page.getByRole('article',{name:'NADIA profile report'}).waitFor();
         await page.getByRole('heading',{name:longName,exact:true}).waitFor();
         const missingDownload=page.waitForEvent('download');
@@ -88,16 +97,20 @@ const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
         assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Long name overflows mobile');
         await page.screenshot({path:path.join(out,'mobile-long-name.png')});
         await page.getByRole('button',{name:'Back to chart',exact:true}).click();
+        if (await page.getByRole('button',{name:'Close chart chat',exact:true}).isVisible()) {
+          await page.getByRole('button',{name:'Close chart chat',exact:true}).click();
+        }
         await page.getByLabel('Search birthplace',{exact:true}).fill('London');
         await page.getByRole('option',{name:/^London, United Kingdom/}).first().click();
         await page.getByRole('button',{name:'Generate chart',exact:true}).click();
-        await page.getByRole('button',{name:'Generate profile',exact:true}).click();
+        await openReport(page);
         await page.getByRole('article',{name:'NADIA profile report'}).waitFor();
         assert.ok((await page.locator('.nadia-birth-summary').innerText()).includes('Europe/London'),'Selected birthplace did not determine timezone');
         results.push({case:'unknown_time_long_name',houseOutputsWithheld:true,fullNameRendered:true,mobileOverflow:false});
         results.push({case:'birthplace_search',citySelected:true,ianaTimezone:'Europe/London'});
       }
       assert.deepEqual(failures,[]);
+      assert.ok(!posted.join('').includes(note),'Reflection was transmitted after a tier change');
       results.push({viewport:name,width,height,horizontalOverflow:false,syntheticFixture:true,jsonDownload:true,tierSelector:true,chartSvg:true,reflectionExcludedFromJson:true,bookingConfigured:!!packet.lead.booking_url,pageErrors:failures});
       await context.close();
     }
@@ -112,7 +125,7 @@ const base = process.env.NADIA_TEST_URL || 'http://127.0.0.1:5173';
       });
       await page.goto(base);
       await page.getByRole('button',{name:'Load synthetic example',exact:true}).click();
-      await page.getByRole('button',{name:'Generate profile',exact:true}).click();
+      await openReport(page);
       await page.getByRole('article',{name:'NADIA profile report'}).waitFor();
       assert.equal(await page.locator('a.nadia-booking').count(),expected);
       if(expected){
