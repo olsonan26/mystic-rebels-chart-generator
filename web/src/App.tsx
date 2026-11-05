@@ -27,10 +27,11 @@ import { GradityDetails, MethodVerification } from "./MethodVerification";
 import { initializeStorage } from "./storage";
 import Account from "./Account";
 import { chatIdentity } from "./chartChatState";
+import ProfileReport from "./ProfileReport";
 const ChartChat = lazy(() => import("./ChartChat"));
 
 const EXAMPLE: BirthInput = {
-  name: "Example chart",
+  name: "Synthetic example",
   local_date: "1992-07-17",
   local_time: "20:01:00",
   timezone: "America/Los_Angeles",
@@ -102,6 +103,8 @@ export default function App() {
     chartFrame = useRef<HTMLDivElement>(null),
     importRef = useRef<HTMLInputElement>(null);
   const [chatGeneration, setChatGeneration] = useState(0);
+  const [reportOpen, setReportOpen] = useState(false);
+  const [synthetic, setSynthetic] = useState(true);
   async function compute(
     birth: BirthInput,
     objects: string[],
@@ -191,6 +194,7 @@ export default function App() {
   }, [locationQuery]);
   function edit<K extends keyof BirthInput>(key: K, value: BirthInput[K]) {
     setInput((prev) => ({ ...prev, [key]: value }));
+    setSynthetic(false);
     setDirty(true);
   }
   function selection(next: string[]) {
@@ -233,6 +237,7 @@ export default function App() {
       throw new Error("This file is not a valid Mystic Rebels chart.");
     const verified = await compute(value.input, value.input.objects);
     if (verified) {
+      setSynthetic(false);
       setInput(verified.input);
       setChosen(verified.input.objects);
       setChatGeneration((n) => n + 1);
@@ -266,6 +271,9 @@ export default function App() {
       new XMLSerializer().serializeToString(clone),
       "image/svg+xml",
     );
+  }
+  if (reportOpen && chart) {
+    return <ProfileReport birth={chart.input} synthetic={synthetic} onClose={() => setReportOpen(false)} />;
   }
   return (
     <>
@@ -304,13 +312,14 @@ export default function App() {
             className="subtle"
             onClick={() => {
               setInput(EXAMPLE);
+              setSynthetic(true);
               setChosen(EXAMPLE.objects);
               void compute(EXAMPLE, EXAMPLE.objects).then((result) => {
                 if (result) setChatGeneration((n) => n + 1);
               });
             }}
           >
-            <RotateCcw size={15} /> Load example
+            <RotateCcw size={15} /> Load synthetic example
           </button>
         </div>
         <div className="workspace">
@@ -391,6 +400,7 @@ export default function App() {
                                 ? 900
                                 : null,
                       }));
+                      setSynthetic(false);
                       setDirty(true);
                     }}
                   >
@@ -453,6 +463,7 @@ export default function App() {
                               fold: null,
                             }));
                             setLocationQuery("");
+                            setSynthetic(false);
                             setLocations([]);
                             setDirty(true);
                           }}
@@ -723,6 +734,15 @@ export default function App() {
                   </p>
                 </div>
                 <div className="chart-actions">
+                  <button
+                    type="button"
+                    className="nadia-open-report"
+                    onClick={() => setReportOpen(true)}
+                    disabled={!chart || busy || dirty}
+                    title={dirty ? "Generate the updated chart first" : "Create an evidence-limited NADIA profile"}
+                  >
+                    <Sparkles size={16} /> Generate profile
+                  </button>
                   <button
                     className="icon-button"
                     onClick={() => setAccount(true)}
