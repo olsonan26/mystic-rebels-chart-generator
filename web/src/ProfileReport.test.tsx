@@ -21,23 +21,29 @@ const packet: ProfilePacket = {
 };
 
 describe("source-governed profile presentation", () => {
-  it("separates calculated facts, source vocabulary and unavailable personal interpretation", () => {
+  it("keeps technical context in an optional appendix without vocabulary filler or repeated unavailable sections", () => {
     const html = renderToStaticMarkup(<ReportContents packet={packet} />);
     expect(html).toContain("Calculated facts");
-    expect(html).toContain("Source vocabulary");
-    expect(html).toContain("Interpretation unavailable");
-    expect(html).toContain("Original printed page 110");
+    expect(html).not.toContain("Planetary vocabulary");
+    expect(html).not.toContain("Comprehensive personal interpretation");
+    expect(html).toContain('class="nadia-technical-appendix"');
+    expect(html).not.toContain('class="nadia-technical-appendix" open');
+    expect(html).toContain("not a personal profile offered for sale");
+    expect(html).not.toContain("Original printed page 110");
     expect(html).toContain("Synthetic demonstration");
     expect(html).toContain("Complete personal interpretation is not yet available");
     expect(html).toContain("What is the ONE thing you need to feel loved that other people keep missing?");
-    expect(html).toContain("This profile does not yet have a verified personalized answer");
+    expect(html).toContain("Your own experience is a useful starting point");
+    expect(html.match(/Complete personal interpretation is not yet available/g)).toHaveLength(1);
     expect(html).not.toContain("internal-rule-not-for-display");
   });
 
-  it("preserves unknown time and premium limits instead of adding filler", () => {
+  it("preserves unknown time without offering an unsupported paid distinction", () => {
     const html = renderToStaticMarkup(<ReportContents packet={{ ...packet, tier: "premium", profile: { ...packet.profile, birth_time: null } }} />);
     expect(html).toContain("Unknown — time-dependent results withheld");
-    expect(html).toContain("same approved interpretation scope as Essential");
+    expect(html).not.toContain("Essential");
+    expect(html).not.toContain("Premium");
+    expect(html).toContain("Profile preparation");
     const partial = { ...packet, readiness: { ...packet.readiness, technical_report_ready: false } };
     expect(acceptProfilePacket(partial)).toBe(partial);
     expect(renderToStaticMarkup(<ReportContents packet={partial} />)).toContain("Some required chart positions are unavailable");

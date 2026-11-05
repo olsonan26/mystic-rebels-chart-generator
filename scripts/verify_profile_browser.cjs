@@ -43,7 +43,10 @@ async function openReport(page) {
       await page.getByRole('button',{name:/^Moon,/}).click();
       await page.getByLabel('Inspect chart object',{exact:true}).selectOption('Sun');
       assert.equal(await page.locator('.nadia-report-wheel svg [role="button"][aria-pressed="true"]').count(),1);
-      assert.equal(await page.locator('[data-profile-section="placement-moon"]').count(),1);
+      assert.equal(await page.locator('[data-profile-section="placement-moon"]').count(),0);
+      assert.equal(await page.locator(".nadia-technical-appendix").getAttribute("open"),null);
+      assert.equal(await page.getByLabel("Profile",{exact:true}).count(),0);
+      assert.equal(await page.locator(".nadia-report-unavailable").count(),0);
       const overflow=await page.evaluate(()=>({body:document.documentElement.scrollWidth,view:innerWidth}));
       assert.ok(overflow.body<=overflow.view+1, JSON.stringify({name,overflow}));
       const note='PRIVATE_REFLECTION_TEST_NOT_FOR_EXPORT';
@@ -62,8 +65,7 @@ async function openReport(page) {
       assert.ok(!posted.join('').includes(note),'Reflection was sent to a server');
       assert.ok(!await page.evaluate(note=>Object.values(localStorage).some(v=>v.includes(note)),note),'Reflection persisted');
       assert.equal(await page.locator('a.nadia-booking').count(),packet.lead.booking_url ? 1 : 0);
-      await page.getByLabel('Profile',{exact:true}).selectOption('premium');
-      await page.getByText('Premium profile',{exact:true}).waitFor();
+
       await page.screenshot({path:path.join(out,`${name}.png`),fullPage:true});
       await page.evaluate(()=>window.scrollTo(0,0));
       await page.screenshot({path:path.join(out,`${name}-viewport.png`)});
@@ -74,6 +76,10 @@ async function openReport(page) {
         assert.equal(await page.locator('#profile-reflection').isVisible(),false);
         await page.pdf({path:path.join(out,'nadia-synthetic-profile.pdf'),format:'A4',printBackground:true,preferCSSPageSize:true,
           displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:8px;color:#555;width:100%;text-align:center">NADIA synthetic demonstration — <span class="pageNumber"></span> / <span class="totalPages"></span></div>'});
+        await page.emulateMedia({media:'screen'});
+        await page.locator('.nadia-technical-appendix > summary').click();
+        await page.emulateMedia({media:'print'});
+        await page.pdf({path:path.join(out,'nadia-supporting-appendix.pdf'),format:'A4',printBackground:true,preferCSSPageSize:true});
         await page.emulateMedia({media:'screen'});
         await page.getByRole('button',{name:'Back to chart',exact:true}).click();
         const longName='Synthetic long-name verification '.repeat(4).slice(0,120);
@@ -110,8 +116,8 @@ async function openReport(page) {
         results.push({case:'birthplace_search',citySelected:true,ianaTimezone:'Europe/London'});
       }
       assert.deepEqual(failures,[]);
-      assert.ok(!posted.join('').includes(note),'Reflection was transmitted after a tier change');
-      results.push({viewport:name,width,height,horizontalOverflow:false,syntheticFixture:true,jsonDownload:true,tierSelector:true,chartSvg:true,reflectionExcludedFromJson:true,bookingConfigured:!!packet.lead.booking_url,pageErrors:failures});
+      assert.ok(!posted.join('').includes(note),'Reflection was transmitted during the report flow');
+      results.push({viewport:name,width,height,horizontalOverflow:false,syntheticFixture:true,jsonDownload:true,unsupportedPaidTiersHidden:true,technicalAppendixOptIn:true,chartSvg:true,reflectionExcludedFromJson:true,bookingConfigured:!!packet.lead.booking_url,pageErrors:failures});
       await context.close();
     }
     // Controlled configuration variants, reusing a real calculated report.

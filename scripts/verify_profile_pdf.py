@@ -20,7 +20,7 @@ def normalized(text):
     return re.sub(r'\s+', '', unicodedata.normalize('NFKC', text))
 
 
-def inspect(filename, packet_name):
+def inspect(filename, packet_name, appendix=False):
     path = BASE / filename
     packet = json.loads((BASE / packet_name).read_text(encoding='utf-8'))
     document = fitz.open(path)
@@ -48,9 +48,13 @@ def inspect(filename, packet_name):
         raise ValueError('Private reflection leaked into PDF')
     if normalized(packet['profile']['name']) not in normalized(combined):
         raise ValueError('Profile name missing or clipped')
+    if 'Before your personal profile' not in combined:
+        raise ValueError('Preparation scope is missing')
     for section in packet['sections']:
-        if normalized(section['title']) not in normalized(combined):
-            raise ValueError('Report section missing from PDF: ' + section['id'])
+        present = normalized(section['title']) in normalized(combined)
+        expected = appendix and section['status'] in ('calculated', 'source_context')
+        if present != expected:
+            raise ValueError('Unexpected section visibility: ' + section['id'])
     if not any(p['vector_drawings'] > 300 for p in pages):
         raise ValueError('Vector chart not present')
     sheet = Image.new('RGB', (1280, ((len(tiles) + 3) // 4) * 465), '#aaa')
@@ -60,13 +64,14 @@ def inspect(filename, packet_name):
     document[0].get_pixmap(matrix=fitz.Matrix(1.5, 1.5)).save(BASE / (filename + '.cover.png'))
     return {'filename': filename, 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
             'bytes': path.stat().st_size, 'page_count': len(document), 'pages': pages,
-            'all_section_titles_present': True, 'complete_name_present': True,
+            'intended_section_visibility_verified': True, 'appendix_included': appendix, 'complete_name_present': True,
             'reflection_absent': True, 'vector_chart_present': True,
             'visual_review': 'Contact sheets and full-resolution representative pages require separate visual inspection.'}
 
 
 def main():
     results = [inspect('nadia-synthetic-profile.pdf', 'desktop.json'),
+               inspect('nadia-supporting-appendix.pdf', 'desktop.json', appendix=True),
                inspect('nadia-unknown-time-long-name.pdf', 'unknown-time.json')]
     (BASE / 'pdf-inspection.json').write_text(json.dumps(results, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(results))

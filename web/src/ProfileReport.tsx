@@ -116,17 +116,15 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
   const [selected, setSelected] = useState<string | null>(null);
   const [reflection, setReflection] = useState("");
   const booking = safeBookingUrl(packet.lead.booking_url);
-  const available = packet.sections.filter((s) => s.status !== "unavailable");
-  const unavailable = packet.sections.filter((s) => s.status === "unavailable");
+  const available = packet.sections.filter((s) => s.status !== "unavailable" && s.status !== "source_vocabulary");
   return (
     <article className="nadia-report-document" aria-label="NADIA profile report">
       <header className="nadia-report-cover">
         <div className="nadia-report-cover-copy">
           <p className="nadia-wordmark">NADIA</p>
-          <p className="nadia-report-edition">{packet.tier === "premium" ? "Premium profile" : "Essential profile"}</p>
+          <p className="nadia-report-edition">Profile preparation</p>
           <h1>{packet.profile.name}</h1>
-          <p className="nadia-report-subtitle">A considered view of your natal chart.</p>
-          <p className="nadia-report-scope">Calculated chart facts and available source-backed components. Complete personal interpretation is not yet available.</p>
+          <p className="nadia-report-subtitle">Your chart, prepared for consultation.</p>
           {packet.synthetic && <p className="nadia-synthetic">Synthetic demonstration · not a real person's reading</p>}
           {!packet.readiness.technical_report_ready && <p className="nadia-synthetic">Some required chart positions are unavailable. This document contains the available facts only.</p>}
         </div>
@@ -137,6 +135,11 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
           <div><dt>Time zone</dt><dd>{packet.profile.timezone}</dd></div>
         </dl>
       </header>
+
+      <section className="nadia-report-introduction">
+        <h2>Before your personal profile</h2>
+        <p>Complete personal interpretation is not yet available. This preparation document preserves your chart for consultation; it is not a personal profile offered for sale.</p>
+      </section>
 
       <section className="nadia-report-chart" aria-labelledby="profile-chart-heading">
         <div className="nadia-report-chart-copy">
@@ -156,10 +159,12 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
         </div>
       </section>
 
+      <details className="nadia-technical-appendix">
+      <summary>Supporting appendix: calculated chart context</summary>
       <section className="nadia-report-available" aria-labelledby="profile-components-heading">
         <div className="nadia-section-intro">
-          <h2 id="profile-components-heading">What this profile can show</h2>
-          <p>Chart facts and source vocabulary have different scopes. Each section identifies which is available.</p>
+          <h2 id="profile-components-heading">Supporting chart context</h2>
+          <p>These calculations support methodology review. They are not personal conclusions.</p>
         </div>
         {available.map((section) => (
           <section key={section.id} id={`profile-${section.id}`} className="nadia-report-section" data-profile-section={section.id}>
@@ -170,23 +175,13 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
             <p>{section.summary}</p>
             {section.facts.length > 0 && <dl className="nadia-report-facts">{section.facts.map((fact, index) => <div key={`${fact.label}-${index}`}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>}
             {section.source_refs.length > 0 && <><details className="nadia-section-evidence"><summary>Source evidence</summary><ul>{section.source_refs.map((ref) => <li key={ref}>{sourceLabel(ref)}</li>)}</ul><p>These references support this component's stated scope. They do not certify a complete personal reading.</p></details><p className="nadia-print-sources">Source: {compactSourceLabels(section.source_refs)}</p></>}
-            {section.blockers.length > 0 && <p className="nadia-component-limit">Further interpretation remains unavailable.</p>}
           </section>
         ))}
       </section>
-
-      <section className="nadia-report-unavailable" aria-labelledby="profile-unavailable-heading">
-        <div className="nadia-section-intro">
-          <h2 id="profile-unavailable-heading">What still needs a complete interpretation</h2>
-          <p>These sections remain visible so that a chart summary cannot be mistaken for a comprehensive natal profile.</p>
-        </div>
-        <div className="nadia-unavailable-list">{unavailable.map((section) => <section key={section.id} data-profile-section={section.id}><h3>{section.title}</h3><p>{section.summary}</p><span>Interpretation unavailable</span></section>)}</div>
-        <details className="nadia-section-evidence"><summary>Current profile limitations</summary><ul>{packet.readiness.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul></details>
-        {packet.tier === "premium" && <p className="nadia-premium-note">The premium structure is prepared for deeper verified connections. It currently includes the same approved interpretation scope as Essential.</p>}
-      </section>
+      </details>
 
       <section className="nadia-report-consultation" aria-labelledby="profile-love-heading">
-        <div><p className="nadia-consultation-label">A question to bring to your reading</p><h2 id="profile-love-heading">{packet.lead.question}</h2><p>This profile does not yet have a verified personalized answer to that question. Your own experience is a useful starting point for a conversation.</p></div>
+        <div><p className="nadia-consultation-label">A question to bring to your reading</p><h2 id="profile-love-heading">{packet.lead.question}</h2><p>Your own experience is a useful starting point for a conversation.</p></div>
         <div className="nadia-reflection">
           <label htmlFor="profile-reflection">{packet.lead.reflection_question}</label>
           <textarea id="profile-reflection" rows={4} maxLength={2000} value={reflection} onChange={(event) => setReflection(event.target.value)} placeholder="Write a note for yourself…" />
@@ -194,13 +189,13 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
           {booking ? <a className="nadia-booking" href={booking} target="_blank" rel="noopener noreferrer">Explore a full consultation</a> : <p className="nadia-booking-pending">A booking destination has not been connected yet.</p>}
         </div>
       </section>
-      <footer className="nadia-report-footer"><span>NADIA · {packet.synthetic ? "Synthetic demonstration" : "Private profile"}</span><span>Evidence-limited profile · Complete reading unavailable</span><span>Report {packet.report_id.slice(0, 16)}</span></footer>
+      <footer className="nadia-report-footer"><span>NADIA · {packet.synthetic ? "Synthetic demonstration" : "Private profile"}</span><span>Consultation preparation</span><span>Report {packet.report_id.slice(0, 16)}</span></footer>
     </article>
   );
 }
 
 export default function ProfileReport({ birth, synthetic, onClose }: { birth: BirthInput; synthetic: boolean; onClose: () => void }) {
-  const [tier, setTier] = useState<"essential" | "premium">("essential");
+  const tier = "essential";
   const [packet, setPacket] = useState<ProfilePacket | null>(null);
   const [busy, setBusy] = useState(true);
   const [error, setError] = useState("");
@@ -234,7 +229,7 @@ export default function ProfileReport({ birth, synthetic, onClose }: { birth: Bi
   return <div className="nadia-report-app">
     <nav className="nadia-report-toolbar" aria-label="Profile report controls">
       <button type="button" onClick={onClose}><ArrowLeft size={17} />Back to chart</button>
-      <div className="nadia-tier-control"><label htmlFor="profile-tier">Profile</label><select id="profile-tier" value={tier} onChange={(event) => setTier(event.target.value as "essential" | "premium")}><option value="essential">Essential</option><option value="premium">Premium</option></select></div>
+      <span>Profile preparation preview</span>
       <div className="nadia-report-export"><button type="button" disabled={!packet || busy} onClick={() => packet && downloadReport(packet)}><ArrowDownToLine size={17} />Download JSON</button><button type="button" disabled={!packet || busy} onClick={() => window.print()}><Printer size={17} />Print / save PDF</button></div>
     </nav>
     {busy && <div className="nadia-report-loading" role="status"><p className="nadia-wordmark">NADIA</p><h1>Preparing your profile</h1><p>Calculating the chart and checking which components can be shown.</p></div>}
