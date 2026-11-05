@@ -12,7 +12,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from nadia_backend import SHA256, WHEEL, verified_core
+from nadia_runtime import SHA256, WHEEL, verified_core
 
 def install(wheel):
     wheel = Path(wheel).resolve()

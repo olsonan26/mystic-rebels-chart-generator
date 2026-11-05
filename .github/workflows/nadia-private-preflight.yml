@@ -1,5 +1,9 @@
 name: Protected NADIA consumer preflight
 on:
+  # Push runs from the integration branch even before this workflow is promoted
+  # to default main. workflow_dispatch is available after that promotion.
+  push:
+    branches: [codex/phsr-numerology-integration-20261028]
   workflow_dispatch:
     inputs:
       core_version:
@@ -44,9 +48,9 @@ jobs:
           cache: npm
       - name: Check dispatched identity against reviewed pin
         env:
-          CORE_VERSION: ${{ inputs.core_version }}
-          CORE_COMMIT: ${{ inputs.core_commit }}
-          CORE_SHA256: ${{ inputs.core_artifact_sha256 }}
+          CORE_VERSION: ${{ inputs.core_version || '0.7.0' }}
+          CORE_COMMIT: ${{ inputs.core_commit || '5a472f5f8236aa53ae90529a91a6ad20dd9e1382' }}
+          CORE_SHA256: ${{ inputs.core_artifact_sha256 || '352bb1251ef471e9535ae514ba4ea692411ee91ab0a14d18f269002818b1612b' }}
         run: |
           python - <<'PY'
           import os

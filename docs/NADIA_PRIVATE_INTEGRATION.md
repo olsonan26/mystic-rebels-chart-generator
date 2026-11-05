@@ -2,6 +2,10 @@
 
 Status: implemented and locally verified; deployment remains BLOCKED.
 
+Current account/project correction and protection readback:
+[Phase 8 completion audit](PHASE8_COMPLETION_AUDIT.md). The existing consumer
+is now authenticated and confirmed; its production branch is `main`.
+
 The consumer repository is public. Only the adapter, tests and release identity
 are published here. The core wheel, installed rules and credentials must remain
 outside Git and browser artifacts.
@@ -18,6 +22,13 @@ using a GitHub App installation token or fine-grained token restricted to
 Contents:read on that repository. Do not put a token in a dependency URL, Git,
 VITE-prefixed variables, command arguments, logs or public Actions artifacts.
 No such protected consumer credential is currently configured.
+Vercel's build command now runs `scripts/build_nadia.py` before the frontend
+build. This standard-library hook acquires and verifies the private asset and
+installs it offline before the web framework dependencies are needed.
+`NADIA_PRIVATE_BUILD_ENABLED=true`, exact system `VERCEL_PROJECT_ID`, explicit
+`VERCEL_ENV`, `NADIA_HEALTH_TOKEN` and `NADIA_CORE_READ_TOKEN` are mandatory.
+Production also requires `NADIA_PRODUCTION_ENABLED=true` after release/license
+approval. All enablement flags remain off/unset on Vercel.
 
 With the private wheel available locally, run with Python 3.12:
 
@@ -60,21 +71,25 @@ private integration readiness: `verify_nadia_private.py` is a separate mandatory
 protected-build preflight, which fails if the wheel is unavailable. Neither a
 missing private preflight nor a skipped numerical test counts as passing.
 
-`nadia-private-preflight.yml` implements that separate workflow-dispatch
+`nadia-private-preflight.yml` implements that separate protected
 contract using the existing core delivery input names. It rejects a different
 version/commit/digest, an unset enable flag, an unset approved branch or a wrong
 dispatch branch. It acquires the wheel with `NADIA_CORE_READ_TOKEN`, verifies it,
 runs the real private preflight and full regressions, rejects skips, builds the
 web bundle and scans the boundary. It uploads no private artifact and performs
-no deployment. It has not run while the required environment is unconfigured.
+no deployment. It has not run while private credentials and independent review
+are unavailable. It triggers on integration pushes; manual dispatch becomes
+available when the workflow is present on default `main`.
 
-Before enabling it, configure environment `nadia-private-build` with an
-independent required reviewer and prevent self-review; restrict allowed branches
-to the confirmed integration branch. Set environment variables
+Environment `nadia-private-build` is now created with required owner review,
+prevent-self-review, no administrator bypass and only the integration branch
+allowed. This is an environment gate, not independent approval of the owner's
+PR. Its enable flag is explicitly false. Before enabling, obtain independent
+exact-head PR approval and configure the scoped reader. Set environment variables
 `NADIA_PRIVATE_BUILD_ENABLED=true` and `NADIA_CONSUMER_REF` only after those
 protections and exact-head consumer review are verified. Store a scoped
 `NADIA_CORE_READ_TOKEN` there. Do not expose that credential to pull-request
-workflows. These settings have not been enabled in this phase.
+workflows. Credentials and enablement have not been added in this phase.
 
 Before preview: independently review the exact head, configure a protected
 scoped asset reader and health token, confirm Vercel account/project/team and
@@ -92,8 +107,8 @@ No earlier deployed NADIA consumer integration has yet been verified.
 
 The candidate integration branch is
 `codex/phsr-numerology-integration-20261028` at
-`6adf7ae270ebe02b7aa5fa8cde556403270c0bd5`; this is not proof of Vercel's production
-branch. GitHub's default is `main`, an older application baseline. The Phase 8
+`6adf7ae270ebe02b7aa5fa8cde556403270c0bd5`; Vercel production is separately
+confirmed as `main`, the older application baseline. The Phase 8
 patch excludes 18 unrelated local commits and all unrelated working-tree edits.
 Do not merge those application histories or change production routing merely
 to complete this integration.
@@ -105,8 +120,9 @@ the owner's standing release instruction. Do not self-approve or reuse the
 core's Phase 7 bootstrap exception. The core stays at v0.7.0; no new knowledge
 version is justified by consumer-only changes.
 
-Vercel access is not freshly authenticated. The previously rejected credential
-was not retried. Candidate local project/team identifiers remain unverified.
+Vercel access is now authenticated; the existing consumer project, Astro team,
+GitHub link, production branch and existing READY deployment were verified.
+The previously rejected saved CLI credential was not retried.
 No preview or production URL, deployment identity or live health result exists
 for this integration. Proprietary-rule and ephemeris production licensing also
 requires explicit clearance; successful calculation is not license clearance.
