@@ -11,10 +11,16 @@
   "complete_personal_reading_ready": false,
   "web_e2e": "incomplete: synthetic birth and chart rendered; origin proxy defect fixed; final browser verification unavailable after Work browser control disabled",
   "print_pdf": "implemented; actual output unverified",
-  "preview_deployment": "not_attempted: protected private-build credentials/exact-head review prerequisites remain",
+  "preview_deployment": "automatic push build triggered; no usable preview verified; branch now explicitly disabled pending existing protected private-build/review prerequisites",
   "consumer_phase8_pr": "https://github.com/olsonan26/mystic-rebels-chart-generator/pull/6",
   "core_audit_pr": "https://github.com/olsonan26/NADIA-KNOWLEDGE-CORE/pull/5",
   "core_audit_merge": "59f892d8b0ca380dd7481ccfd9b55de31d36d848",
   "core_source_reviews": 85,
-  "core_reviewed_witnesses": 271
+  "core_reviewed_witnesses": 271,
+  "real_local_http_proxy": {
+    "status": 200,
+    "cache_control": "private, no-store",
+    "source_components": 10,
+    "complete_personal_reading": false
+  }
 }
