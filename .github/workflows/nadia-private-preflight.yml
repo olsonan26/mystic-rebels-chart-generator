@@ -1,5 +1,8 @@
 name: Protected NADIA consumer preflight
 on:
+  pull_request:
+    branches: [codex/phsr-numerology-integration-20261028]
+    types: [opened, synchronize, reopened, ready_for_review]
   # Push runs from the integration branch even before this workflow is promoted
   # to default main. workflow_dispatch is available after that promotion.
   push:
@@ -17,6 +20,7 @@ on:
         default: '352bb1251ef471e9535ae514ba4ea692411ee91ab0a14d18f269002818b1612b'
 permissions:
   contents: read
+  pull-requests: read
 concurrency:
   group: nadia-private-preflight
   cancel-in-progress: false
@@ -29,10 +33,35 @@ jobs:
         env:
           ENABLED: ${{ vars.NADIA_PRIVATE_BUILD_ENABLED }}
           APPROVED_REF: ${{ vars.NADIA_CONSUMER_REF }}
+          EVENT: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
         run: |
           test "$ENABLED" = true
           test -n "$APPROVED_REF"
-          test "$GITHUB_REF_NAME" = "$APPROVED_REF"
+          if [ "$EVENT" = pull_request ]; then
+            test "$BASE_REF" = "$APPROVED_REF"
+            test "$HEAD_REPOSITORY" = "$GITHUB_REPOSITORY"
+          else
+            test "$GITHUB_REF_NAME" = "$APPROVED_REF"
+          fi
+      - name: Require native exact-head approval before private acquisition
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          EXPECTED_HEAD: ${{ github.event.pull_request.head.sha }}
+          APPROVED_REF: ${{ vars.NADIA_CONSUMER_REF }}
+        run: |
+          gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json reviewDecision,headRefOid,baseRefName > /tmp/nadia-pr-review.json
+          python - <<'PY'
+          import json, os
+          with open('/tmp/nadia-pr-review.json') as handle:
+              pr = json.load(handle)
+          assert pr['reviewDecision'] == 'APPROVED', 'Independent native approval required'
+          assert pr['headRefOid'] == os.environ['EXPECTED_HEAD'], 'PR head changed'
+          assert pr['baseRefName'] == os.environ['APPROVED_REF'], 'PR base changed'
+          PY
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           ref: ${{ github.sha }}
