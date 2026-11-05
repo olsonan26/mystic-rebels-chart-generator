@@ -1,21 +1,31 @@
 name: Verify chart generator
 on: [push, pull_request]
+permissions:
+  contents: read
 jobs:
   astronomy-and-web:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '24'
           cache: npm
       - run: python -m pip install -r requirements-qa.txt
       - run: python -m pytest astronomy_qa access_qa -q --junitxml=evidence/ci-astronomy.xml
+      - name: Reject incomplete required tests
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse('evidence/ci-astronomy.xml').getroot()
+          assert not root.findall('.//skipped'), 'Required tests skipped'
+          PY
       - run: python scripts/methodology_regression.py
       - run: python scripts/knowledge_audit.py check
       - run: python scripts/knowledge_audit.py check-semantics
@@ -24,7 +34,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - uses: actions/upload-artifact@v4
+      - run: python scripts/check_nadia_boundary.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: astronomical-validation

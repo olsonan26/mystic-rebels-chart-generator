@@ -16166,7 +16166,7 @@
   ],
   "requirement_authority": {
     "path": "data/knowledge/material_requirements.json",
-    "sha256": "b88b886cedbb6962fc216d199dea4b48da70486592bbb334d599f204f36ebcd5",
+    "sha256": "0182493e2ea62c074bfddd546bf0a43738070153e4e07b1b1fc6642483d94cae",
     "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
   },
   "relationship_component_authority": {

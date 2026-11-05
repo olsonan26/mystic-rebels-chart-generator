@@ -1,0 +1,116 @@
+name: Protected NADIA consumer preflight
+on:
+  pull_request:
+    branches: [codex/phsr-numerology-integration-20261028]
+    types: [opened, synchronize, reopened, ready_for_review]
+  # Push runs from the integration branch even before this workflow is promoted
+  # to default main. workflow_dispatch is available after that promotion.
+  push:
+    branches: [codex/phsr-numerology-integration-20261028]
+  workflow_dispatch:
+    inputs:
+      core_version:
+        required: true
+        default: '0.7.0'
+      core_commit:
+        required: true
+        default: '5a472f5f8236aa53ae90529a91a6ad20dd9e1382'
+      core_artifact_sha256:
+        required: true
+        default: '352bb1251ef471e9535ae514ba4ea692411ee91ab0a14d18f269002818b1612b'
+permissions:
+  contents: read
+  pull-requests: read
+concurrency:
+  group: nadia-private-preflight
+  cancel-in-progress: false
+jobs:
+  private-preflight:
+    runs-on: ubuntu-latest
+    environment: nadia-private-build
+    steps:
+      - name: Reject unconfigured delivery
+        env:
+          ENABLED: ${{ vars.NADIA_PRIVATE_BUILD_ENABLED }}
+          APPROVED_REF: ${{ vars.NADIA_CONSUMER_REF }}
+          EVENT: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
+        run: |
+          test "$ENABLED" = true
+          test -n "$APPROVED_REF"
+          if [ "$EVENT" = pull_request ]; then
+            test "$BASE_REF" = "$APPROVED_REF"
+            test "$HEAD_REPOSITORY" = "$GITHUB_REPOSITORY"
+          else
+            test "$GITHUB_REF_NAME" = "$APPROVED_REF"
+          fi
+      - name: Require native exact-head approval before private acquisition
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          EXPECTED_HEAD: ${{ github.event.pull_request.head.sha }}
+          APPROVED_REF: ${{ vars.NADIA_CONSUMER_REF }}
+        run: |
+          gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json reviewDecision,headRefOid,baseRefName > /tmp/nadia-pr-review.json
+          python - <<'PY'
+          import json, os
+          with open('/tmp/nadia-pr-review.json') as handle:
+              pr = json.load(handle)
+          assert pr['reviewDecision'] == 'APPROVED', 'Independent native approval required'
+          assert pr['headRefOid'] == os.environ['EXPECTED_HEAD'], 'PR head changed'
+          assert pr['baseRefName'] == os.environ['APPROVED_REF'], 'PR base changed'
+          PY
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-qa.txt
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Check dispatched identity against reviewed pin
+        env:
+          CORE_VERSION: ${{ inputs.core_version || '0.7.0' }}
+          CORE_COMMIT: ${{ inputs.core_commit || '5a472f5f8236aa53ae90529a91a6ad20dd9e1382' }}
+          CORE_SHA256: ${{ inputs.core_artifact_sha256 || '352bb1251ef471e9535ae514ba4ea692411ee91ab0a14d18f269002818b1612b' }}
+        run: |
+          python - <<'PY'
+          import os
+          from nadia_backend import VERSION, COMMIT, SHA256
+          assert (os.environ['CORE_VERSION'], os.environ['CORE_COMMIT'], os.environ['CORE_SHA256']) == (VERSION, COMMIT, SHA256)
+          PY
+      - name: Acquire immutable private release
+        env:
+          GH_TOKEN: ${{ secrets.NADIA_CORE_READ_TOKEN }}
+        run: |
+          test -n "$GH_TOKEN"
+          gh release download v0.7.0 --repo olsonan26/NADIA-KNOWLEDGE-CORE --pattern nadia_knowledge_core-0.7.0-py3-none-any.whl --dir .nadia-private/download
+          python scripts/install_nadia.py .nadia-private/download/nadia_knowledge_core-0.7.0-py3-none-any.whl
+      - name: Verify private installed core and authentication
+        run: python scripts/verify_nadia_private.py
+      - name: Required complete application regressions
+        run: |
+          python -m pytest astronomy_qa access_qa -q --junitxml=.nadia-private/tests.xml
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse('.nadia-private/tests.xml').getroot()
+          assert not root.findall('.//skipped'), 'Required tests skipped'
+          PY
+          python scripts/methodology_regression.py
+          python scripts/knowledge_audit.py check
+          python scripts/knowledge_audit.py check-semantics
+          python scripts/knowledge_audit.py check-sources
+          python scripts/knowledge_audit.py check-requirements
+          npm ci
+          npm test
+          npm run build
+          python scripts/check_nadia_boundary.py
+      # Private files stay on this ephemeral runner; no upload-artifact step.
+      # Deployment remains disabled until the real Vercel destination is verified.

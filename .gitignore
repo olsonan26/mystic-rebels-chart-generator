@@ -1,4 +1,6 @@
 .venv/
+.nadia-private/
+*.whl
 .runtime/
 tmp/
 __pycache__/
