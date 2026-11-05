@@ -15,8 +15,10 @@ CI is separate from the protected private-wheel check.
 3. Settings > Environments > `nadia-private-build`: add the actual independent
    reviewer as an allowed environment reviewer as well. Retain required review,
    prevent-self-review, no admin bypass and the existing integration branch rule.
-   Add the exact pull-request ref `refs/pull/6/merge` to allowed branch policies
-   for the pre-merge run; do not allow every branch or arbitrary fork code.
+   The exact pull-request ref `refs/pull/6/merge` is already allowed for this
+   pre-merge run, alongside the integration branch. Do not broaden this to every
+   branch or arbitrary fork code. GitHub matches environment policies to the
+   workflow ref; see [GitHub environment rules](https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments).
 4. Environment secret **`NADIA_CORE_READ_TOKEN`**: use an approved GitHub App
    installation token or fine-grained PAT restricted to
    `olsonan26/NADIA-KNOWLEDGE-CORE`, **Contents: read** (Metadata read is implicit).
