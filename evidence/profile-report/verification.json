@@ -1,0 +1,20 @@
+{
+  "backend_access_tests_passed": 476,
+  "skipped": 0,
+  "frontend_tests_passed": 44,
+  "production_build": "passed",
+  "private_browser_boundary": "passed",
+  "schema": "nadia-profile/1",
+  "private_core_version": "0.7.0",
+  "synthetic_report_sections": 29,
+  "source_function_components": 10,
+  "complete_personal_reading_ready": false,
+  "web_e2e": "incomplete: synthetic birth and chart rendered; origin proxy defect fixed; final browser verification unavailable after Work browser control disabled",
+  "print_pdf": "implemented; actual output unverified",
+  "preview_deployment": "not_attempted: protected private-build credentials/exact-head review prerequisites remain",
+  "consumer_phase8_pr": "https://github.com/olsonan26/mystic-rebels-chart-generator/pull/6",
+  "core_audit_pr": "https://github.com/olsonan26/NADIA-KNOWLEDGE-CORE/pull/5",
+  "core_audit_merge": "59f892d8b0ca380dd7481ccfd9b55de31d36d848",
+  "core_source_reviews": 85,
+  "core_reviewed_witnesses": 271
+}

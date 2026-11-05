@@ -144,7 +144,7 @@
   },
   "bundle": {
     "path": "data/knowledge/report_knowledge_bundle.json",
-    "sha256": "c681615ee7876083ee19ebcde02821f420ccd75547590805a00319ddb1fe4d3d"
+    "sha256": "9b36780f06245f38ef5a1d95fed9880f972d82bdbd898022edc81c8c0eab0992"
   },
   "authorities": {
     "concepts": {
@@ -159,7 +159,7 @@
     },
     "requirements": {
       "path": "data/knowledge/material_requirements.json",
-      "sha256": "0182493e2ea62c074bfddd546bf0a43738070153e4e07b1b1fc6642483d94cae",
+      "sha256": "d522d5c0636c56bde92ab388e7444f0b8e4783d3c92f3583c66689a71de014a1",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "findings": {
@@ -239,7 +239,7 @@
     "planets": {
       "path": "data/knowledge/report_topics/planets.json",
       "bytes": 546289,
-      "sha256": "8f7fa27386577b466c6bb2b7faabbb3b2ed546b13c8d5c3090a66f08ddc6253f",
+      "sha256": "4d515627841a774ddcad685e3bb3c3e57eed434f2e55577c00b87873034e4186",
       "concepts": 58,
       "assertions": 225,
       "findings": 43
@@ -247,7 +247,7 @@
     "houses": {
       "path": "data/knowledge/report_topics/houses.json",
       "bytes": 544850,
-      "sha256": "e933dbaa30def7f478ac6fe0a8f0669a5fb54fda4bb3db3a37f9b2d4b2d84f40",
+      "sha256": "162bb20bf20ec6b92bc81cba0ecc84ca350f7c60d508f3478ac09c88716debe9",
       "concepts": 61,
       "assertions": 223,
       "findings": 43
@@ -255,7 +255,7 @@
     "sign_degree_decan_context": {
       "path": "data/knowledge/report_topics/sign_degree_decan_context.json",
       "bytes": 529397,
-      "sha256": "d4d8ca1ccd46b75ebbd5a3345dcbe98767f9aa006ee141ee3268bb141ca89340",
+      "sha256": "a7d9a4664916e7092eb88e4d8da946bf24abd29592ee850b74fe2d3b360790c9",
       "concepts": 48,
       "assertions": 222,
       "findings": 43
@@ -263,7 +263,7 @@
     "cusps": {
       "path": "data/knowledge/report_topics/cusps.json",
       "bytes": 529342,
-      "sha256": "5049129ebca01a6d0b4ac51b604a9a12d445cf85b9d9c8b80b16f695ce1c245f",
+      "sha256": "6be8dbd7d646dbd718744f716a904e521141cf268d953cf8c8fef8bd74d3f9d0",
       "concepts": 48,
       "assertions": 222,
       "findings": 43
@@ -271,7 +271,7 @@
     "aspects": {
       "path": "data/knowledge/report_topics/aspects.json",
       "bytes": 533486,
-      "sha256": "f0de44ba3bf143d576040ea7a17ab8318f96c62e0b105ef1272db23e959b5c35",
+      "sha256": "f3ddb057aec7efe1c76c19ef2c9ceea347f0502916ca57dd2b2c2689b74293a8",
       "concepts": 48,
       "assertions": 222,
       "findings": 43
@@ -279,7 +279,7 @@
     "asteroids": {
       "path": "data/knowledge/report_topics/asteroids.json",
       "bytes": 653486,
-      "sha256": "80f84823b35b03fdfbbdf6e54af302a409c35e212a965fcb5465aa7409ff33c6",
+      "sha256": "4400976825eb4adb734d30566872068df74b9f09ece720cd22c94bd400e56f72",
       "concepts": 93,
       "assertions": 252,
       "findings": 48
@@ -287,7 +287,7 @@
     "report_context": {
       "path": "data/knowledge/report_topics/report_context.json",
       "bytes": 533409,
-      "sha256": "423bcf556f2a58d3dcf98737977b3de520e26717b8b267c84be5ece8471e4153",
+      "sha256": "3d5a5d36466803e8408c048431d3342109bd03a2bba96072d5dcc1d1412d24e3",
       "concepts": 48,
       "assertions": 222,
       "findings": 43
