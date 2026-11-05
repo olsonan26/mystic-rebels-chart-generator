@@ -1,7 +1,7 @@
 {
-  "backend_access_tests_passed": 476,
+  "backend_access_tests_passed": 478,
   "skipped": 0,
-  "frontend_tests_passed": 44,
+  "frontend_tests_passed": 46,
   "production_build": "passed",
   "private_browser_boundary": "passed",
   "schema": "nadia-profile/1",
@@ -9,9 +9,9 @@
   "synthetic_report_sections": 29,
   "source_function_components": 10,
   "complete_personal_reading_ready": false,
-  "web_e2e": "incomplete: synthetic birth and chart rendered; origin proxy defect fixed; final browser verification unavailable after Work browser control disabled",
-  "print_pdf": "implemented; actual output unverified",
-  "preview_deployment": "automatic push build triggered; no usable preview verified; branch now explicitly disabled pending existing protected private-build/review prerequisites",
+  "web_e2e": "passed real Chromium desktop1440x1000/mobile390x844, birth entry/timezone, chart selection, JSON download, tier changes, reflection privacy, booking-link variants, long name and unknown time",
+  "print_pdf": "actual11page and8page PDFs exported, rasterized and visually inspected; vector charts, all section titles/name present; no page-bound overflow or reflection leakage",
+  "preview_deployment": "blocked: enforced approving review + prevent-self-review environment; no scoped core reader or NADIA health token/build enablement configured",
   "consumer_phase8_pr": "https://github.com/olsonan26/mystic-rebels-chart-generator/pull/6",
   "core_audit_pr": "https://github.com/olsonan26/NADIA-KNOWLEDGE-CORE/pull/5",
   "core_audit_merge": "59f892d8b0ca380dd7481ccfd9b55de31d36d848",
@@ -22,5 +22,215 @@
     "cache_control": "private, no-store",
     "source_components": 10,
     "complete_personal_reading": false
-  }
+  },
+  "source_context_sections": [
+    "house-condition",
+    "retrograde-profile",
+    "relationships-graph"
+  ],
+  "pdf_artifacts": [
+    {
+      "filename": "nadia-synthetic-profile.pdf",
+      "sha256": "df1978bbfce3c3183c9bd9613a4cef71528a003c13a6d6357c41c9930a8de405",
+      "bytes": 253500,
+      "page_count": 11,
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1306,
+          "vector_drawings": 498,
+          "text_within_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1200,
+          "vector_drawings": 24,
+          "text_within_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1299,
+          "vector_drawings": 22,
+          "text_within_page": true
+        },
+        {
+          "page": 4,
+          "characters": 1269,
+          "vector_drawings": 22,
+          "text_within_page": true
+        },
+        {
+          "page": 5,
+          "characters": 1226,
+          "vector_drawings": 21,
+          "text_within_page": true
+        },
+        {
+          "page": 6,
+          "characters": 1224,
+          "vector_drawings": 21,
+          "text_within_page": true
+        },
+        {
+          "page": 7,
+          "characters": 2050,
+          "vector_drawings": 26,
+          "text_within_page": true
+        },
+        {
+          "page": 8,
+          "characters": 1329,
+          "vector_drawings": 16,
+          "text_within_page": true
+        },
+        {
+          "page": 9,
+          "characters": 1859,
+          "vector_drawings": 18,
+          "text_within_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1853,
+          "vector_drawings": 17,
+          "text_within_page": true
+        },
+        {
+          "page": 11,
+          "characters": 491,
+          "vector_drawings": 7,
+          "text_within_page": true
+        }
+      ],
+      "all_section_titles_present": true,
+      "complete_name_present": true,
+      "reflection_absent": true,
+      "vector_chart_present": true,
+      "visual_review": "All contact-sheet pages and representative full-resolution chart/cover pages inspected; no clipping or missing sections observed."
+    },
+    {
+      "filename": "nadia-unknown-time-long-name.pdf",
+      "sha256": "448add5d0fa3ca881a89934c8cebadf306b4cba7ca34028e25e0486af3cc4a3c",
+      "bytes": 189656,
+      "page_count": 8,
+      "pages": [
+        {
+          "page": 1,
+          "characters": 455,
+          "vector_drawings": 8,
+          "text_within_page": true
+        },
+        {
+          "page": 2,
+          "characters": 803,
+          "vector_drawings": 458,
+          "text_within_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1133,
+          "vector_drawings": 19,
+          "text_within_page": true
+        },
+        {
+          "page": 4,
+          "characters": 1552,
+          "vector_drawings": 17,
+          "text_within_page": true
+        },
+        {
+          "page": 5,
+          "characters": 1565,
+          "vector_drawings": 17,
+          "text_within_page": true
+        },
+        {
+          "page": 6,
+          "characters": 1524,
+          "vector_drawings": 16,
+          "text_within_page": true
+        },
+        {
+          "page": 7,
+          "characters": 1824,
+          "vector_drawings": 18,
+          "text_within_page": true
+        },
+        {
+          "page": 8,
+          "characters": 443,
+          "vector_drawings": 7,
+          "text_within_page": true
+        }
+      ],
+      "all_section_titles_present": true,
+      "complete_name_present": true,
+      "reflection_absent": true,
+      "vector_chart_present": true,
+      "visual_review": "All contact-sheet pages and representative full-resolution chart/cover pages inspected; no clipping or missing sections observed."
+    }
+  ],
+  "browser_results": {
+    "realApi": true,
+    "pdf": "nadia-synthetic-profile.pdf",
+    "results": [
+      {
+        "case": "unknown_time_long_name",
+        "houseOutputsWithheld": true,
+        "fullNameRendered": true,
+        "mobileOverflow": false
+      },
+      {
+        "case": "birthplace_search",
+        "citySelected": true,
+        "ianaTimezone": "Europe/London"
+      },
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "horizontalOverflow": false,
+        "syntheticFixture": true,
+        "jsonDownload": true,
+        "tierSelector": true,
+        "chartSvg": true,
+        "reflectionExcludedFromJson": true,
+        "bookingConfigured": false,
+        "pageErrors": []
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "horizontalOverflow": false,
+        "syntheticFixture": true,
+        "jsonDownload": true,
+        "tierSelector": true,
+        "chartSvg": true,
+        "reflectionExcludedFromJson": true,
+        "bookingConfigured": false,
+        "pageErrors": []
+      },
+      {
+        "case": "booking_configuration_variants",
+        "testOnlyHttpsRendered": true,
+        "javascriptRejected": true,
+        "externalNavigation": false
+      }
+    ]
+  },
+  "synthetic_fixture": {
+    "provenance": "constructed fixed millennium noon UTC at Greenwich; no supplied personal record",
+    "birth_date": "2000-01-01",
+    "birth_time": "12:00:00",
+    "timezone": "Etc/UTC"
+  },
+  "phase8_exact_head_preflight": {
+    "commit": "e704e8cb62194c3a979bada55eed395b3ff03253",
+    "private_package_auth_tamper_restart": "passed",
+    "access_tests_passed": 20
+  },
+  "report_private_preflight": "passed",
+  "core_dependency_audit_pr": "https://github.com/olsonan26/NADIA-KNOWLEDGE-CORE/pull/6",
+  "core_dependency_audit_merge": "316dc54a097d0c7a6615003eb3b4af3f054ed8bb"
 }

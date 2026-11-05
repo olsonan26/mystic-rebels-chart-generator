@@ -132,6 +132,9 @@ async function openReport(page) {
         assert.equal(await page.locator('a.nadia-booking').getAttribute('href'),url);
         assert.equal(await page.locator('a.nadia-booking').getAttribute('rel'),'noopener noreferrer');
       }
+      // React development effects may leave an aborted duplicate request in
+      // flight. Finish its handler before disposing the request context.
+      await page.unrouteAll({behavior:'wait'});
       await context.close();
     }
     results.push({case:'booking_configuration_variants',testOnlyHttpsRendered:true,javascriptRejected:true,externalNavigation:false});
