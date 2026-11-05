@@ -57,6 +57,67 @@ def report_section(identity, title, status, summary, *, facts=(), refs=(), rules
             'calculation_evidence': evidence or {}, 'personal_interpretation_approved': False}
 
 
+def bounded_natal_sections(core, chart, positions):
+    """Reuse the released source-tested consumers; do not upgrade full sections.
+
+    Only chart-derived context is exposed. No private source text/registry is
+    copied into this consumer, and no unknown contact becomes a non-contact.
+    """
+    from collections import Counter
+    from nadia_core.assessment import empty_house_evidence
+    from nadia_core.conditions import evaluate_conditions
+    from nadia_core.contact_inventory import inventory
+    asc = chart['angles'].get('Ascendant')
+    if asc is None or set(positions) != set(MAJORS):
+        return {}
+    raw = {p['id']: p for p in chart['points'] if p['id'] in MAJORS and p.get('available')}
+    record = {'ascendant': asc, 'positions': {b: {'longitude': positions[b], 'retrograde': raw[b]['retrograde'],
+               'longitude_speed_deg_day': raw[b]['speed_longitude_deg_per_day']} for b in MAJORS}}
+    houses = [empty_house_evidence(core, positions, asc, h) for h in range(1, 13)]
+    if any(h['status'] != 'ready_for_teaching_only' for h in houses):
+        raise ValueError('House component gate is unavailable')
+    house_rules = sorted({r for h in houses for r in h['applied_rule_ids']})
+    house_refs = sorted({ref for rid in house_rules for ref in core.rules[rid]['source_refs']})
+    conditions = evaluate_conditions(core, record)
+    contacts = inventory(core, record, layer='natal')
+    if conditions['personal_reading_allowed'] is not False:
+        raise ValueError('Unexpected condition approval')
+    counts = dict(Counter(r['classification'] for r in contacts['records']))
+    verified = [r for r in contacts['records'] if r['classification'] == 'VERIFIED CONTACT']
+    contact_refs = sorted({ref for r in verified for ref in r['source_refs']})
+    contact_rule = 'phase6:contact-authority'
+    return {
+        'house-condition': report_section('house-condition', 'Life areas, including empty houses', 'source_context',
+            'The source method follows each house through its outer-sign ruler, including houses with no major-body occupants. Empty here means no major ruling planet; it does not mean an absent or unimportant life area.',
+            facts=[{'label': f"House {h['house']} / {h['field']} Field", 'value':
+                    f"{h['outer_sign']}; ruler {h['ruler']} in house {h['ruler_context']['placement']['house']}. Major-body occupants: " + (', '.join(h['major_occupants']) or 'none')} for h in houses],
+            refs=house_refs, rules=house_rules, required_facts=['all_ten_major_positions', 'sufficiently_precise_birth_time', 'ascendant'],
+            blockers=['Complete ruler/occupant conditions, contacts and personalized meaning remain unresolved.'],
+            evidence={'scope': 'verified_house_ruler_topology_only', 'houses': [{k: h[k] for k in ('house', 'outer_sign', 'major_occupants', 'empty_of_ruling_planets', 'ruler')} for h in houses]}),
+        'retrograde-profile': report_section('retrograde-profile', 'Personal retrograde and Delegate context', 'source_context',
+            'The source keeps a planet’s own motion separate from the motion of its house-channel ruler. A retrograde ruler does not make its occupants physically retrograde. Direct speed alone does not determine Pregrade, Postgrade or Prograde.',
+            facts=[{'label': r['body'], 'value': ('Own motion: retrograde' if r['own_retrograde'] else 'Own motion: direct') +
+                    f"; house {r['house_channel']['house']} channels through {r['house_channel']['delegate']} in house {r['house_channel']['destination_house']}" +
+                    (' (ruler retrograde).' if r['house_channel']['delegate_retrograde'] else ' (ruler direct).')} for r in conditions['planets']],
+            refs=conditions['source_refs'], rules=conditions['rule_ids'],
+            blockers=conditions['missing'], required_facts=['all_ten_major_positions_and_speeds', 'ascendant'],
+            evidence={'scope': conditions['scope'], 'full_conditions_complete': False,
+                      'channels': [{k: r[k] for k in ('body', 'own_retrograde', 'house_channel', 'double_retro', 'inherited_occupant_retrograde')} for r in conditions['planets']]}),
+        'relationships-graph': report_section('relationships-graph', 'Directional aspects and combined context', 'source_context',
+            'These contacts satisfy the released source-scoped geometry. The inventory keeps unknown reach and exact-boundary cases separate from non-contacts. A detected contact does not yet supply a complete personal interpretation.',
+            facts=[{'label': 'Inventory scope', 'value': f"315 major-angle checks across 45 pairs: {len(verified)} verified contacts; " +
+                    ', '.join(f'{n} {state.lower()}' for state, n in sorted(counts.items()) if state != 'VERIFIED CONTACT')}] +
+                  [{'label': ' / '.join(r['bodies']), 'value': f"{r['aspect']}; separation {r['separation']:.6f}°; offset {r['offset']:.6f}°. " +
+                    ('Energy Flow: equal angular roles.' if r['flow']['sender'] is None else
+                     'Energy Flow: ' + r['bodies'][0 if r['flow']['sender'] == 'a' else 1] + ' toward ' + r['bodies'][1 if r['flow']['sender'] == 'a' else 0] + '.')}
+                   for r in verified], refs=contact_refs, rules=[contact_rule],
+            blockers=['Unknown body-angle extents, exact boundaries and full participant/contextual meaning remain unavailable.'],
+            required_facts=['all_ten_major_positions_and_speeds'],
+            evidence={'scope': 'source_scoped_natal_geometry_not_complete_interpretation', 'classification_counts': counts,
+                      'verified_contact_ids': [r['id'] for r in verified], 'complete_contact_catalog': False}),
+    }
+
+
 def generate_report(request: ProfileRequest):
     if request.birth.chart_type != 'natal':
         raise ChartError('NATAL_PROFILE_REQUIRED', 'Choose a natal chart for a profile report.')
@@ -94,6 +155,7 @@ def generate_report(request: ProfileRequest):
     knowledge_status = 'unavailable'
     components = []
     source_refs = set()
+    bounded = {}
     try:
         core = verified_core()
         if core.manifest.get('personal_readings_approved') is not False:
@@ -135,18 +197,23 @@ def generate_report(request: ProfileRequest):
                 blockers=['Complete planetary conditions and related personal meaning are not approved.'] + (['House context unavailable.'] if uncertain else []),
                 required_facts=['verified_major_body_positions', 'source_approved_vocabulary'],
                 evidence={'body': body, 'longitude_deg': positions.get(body), 'house_context_available': 'placement' in component}))
+        bounded = bounded_natal_sections(core, chart, positions)
     except (OSError, ValueError, KeyError, ImportError):
         # Never fall back to legacy source dictionaries or fabricated interpretations.
         knowledge_status = 'unavailable'
         core_identity = None
         components = []
         source_refs.clear()
+        bounded = {}
         sections = sections[:1]
         limitations.insert(0, 'Verified source components are temporarily unavailable. Calculated chart facts remain available.')
     # Reuse the established eighteen-section product architecture. Preserve the
     # distinction between universal natal context and optional specialized contexts.
     catalog = json.loads((ROOT / 'data/knowledge/interpretive_inventory.json').read_text(encoding='utf-8'))
     for section in catalog['report_sections']:
+        if section['id'] in bounded:
+            sections.append(bounded[section['id']])
+            continue
         natal = 'natal' in section['contexts']
         sections.append(report_section(section['id'], section['title'], 'unavailable',
             'Complete personal interpretation is awaiting verified source requirements, implementation and tests.' if natal else 'This specialized context needs a separately verified method and additional inputs.',

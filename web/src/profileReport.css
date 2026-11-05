@@ -27,7 +27,8 @@
 .nadia-tier-control label { font-size: 12px; }
 .nadia-tier-control select { width: 125px; background: #171a21; color: #fbf8ef; border-color: #69645b; padding: 9px; font-size: 12px; }
 .nadia-report-document { width: min(1120px, calc(100% - 48px)); margin: 36px auto 0; background: var(--report-paper); box-shadow: 0 10px 32px #171a2110; }
-.nadia-report-cover { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; padding: 64px 64px 50px; color: #fbf8ef; background: #171a21; border-top: 4px solid #aa8d59; }
+.nadia-report-cover { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 48px; padding: 64px 64px 50px; color: #fbf8ef; background: #171a21; border-top: 4px solid #aa8d59; }
+.nadia-report-cover h1 { overflow-wrap: anywhere; }
 .nadia-wordmark { font-size: 27px; font-weight: 500; letter-spacing: .2em; }
 .nadia-report-edition { color: #cfb887; margin: 35px 0 15px !important; font-size: 14px; }
 .nadia-report-subtitle { margin-top: 20px !important; font-size: 16px; }
@@ -40,6 +41,8 @@
 .nadia-report-chart { display: grid; grid-template-columns: .8fr 1.2fr; gap: 28px; align-items: center; padding: 52px 64px; border-bottom: 1px solid var(--report-line); }
 .nadia-report-chart-copy p { margin-top: 18px; color: var(--report-muted); font-size: 13px; }
 .nadia-report-chart-copy .nadia-chart-caption { font-size: 11px; margin-top: 28px; }
+.nadia-chart-picker { display: block; margin-top: 16px; font-size: 12px; }
+.nadia-chart-picker select { display: block; margin-top: 7px; width: 100%; padding: 10px; background: #fff; color: #20252c; border: 1px solid #aa8d59; }
 .nadia-report-wheel { min-width: 0; background: #fff; border-radius: 50%; }
 .nadia-report-wheel svg { display: block; width: 100%; height: auto; }
 .nadia-report-available, .nadia-report-unavailable { padding: 48px 64px; }
@@ -113,10 +116,19 @@
   .nadia-report-cover .nadia-synthetic { color: #705d3c !important; }
   .nadia-report-chart { padding: 8mm 7mm; break-inside: avoid; }
   .nadia-report-available, .nadia-report-unavailable { padding: 8mm 7mm; }
+  .nadia-report-available { break-before: page; }
+  .nadia-chart-caption, .nadia-chart-picker { display: none; }
   .nadia-report-app h2 { font-size: 22pt; }
   .nadia-section-evidence { display: none; }
   .nadia-print-sources { display: block; margin-top: 12px !important; font-size: 8pt !important; color: #535862; }
   .nadia-report-section, .nadia-unavailable-list section { break-inside: avoid; }
+  .nadia-report-section { padding: 14px 0; }
+  .nadia-report-facts { margin-top: 10px; }
+  .nadia-report-facts div { padding: 5px 0; gap: 12px; font-size: 9pt; }
+  .nadia-report-section > p { font-size: 9pt; line-height: 1.45; }
+  .nadia-print-sources { line-height: 1.4; }
+  .nadia-section-heading { margin-bottom: 7px; }
+  .nadia-section-intro { break-after: avoid; }
   .nadia-report-consultation { break-before: page; background: #fff; color: #20252c; padding: 10mm 7mm; }
   .nadia-report-consultation p { color: #535862; }
   .nadia-reflection textarea { min-height: 35mm; border-color: #aaa; }

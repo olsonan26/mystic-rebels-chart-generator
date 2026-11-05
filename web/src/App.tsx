@@ -32,15 +32,15 @@ const ChartChat = lazy(() => import("./ChartChat"));
 
 const EXAMPLE: BirthInput = {
   name: "Synthetic example",
-  local_date: "1992-07-17",
-  local_time: "20:01:00",
-  timezone: "America/Los_Angeles",
+  local_date: "2000-01-01",
+  local_time: "12:00:00",
+  timezone: "Etc/UTC",
   fold: null,
-  latitude: 33.803,
-  longitude: -118.072,
-  location_name: "Los Alamitos, California, United States",
+  latitude: 51.4779,
+  longitude: 0,
+  location_name: "Greenwich reference location (synthetic)",
   coordinate_provenance:
-    "Illustrative reference coordinates; editable city-level location",
+    "Constructed synthetic fixture: fixed millennium noon UTC at Greenwich; not a supplied person's birth record",
   time_accuracy: "nearest_minute",
   uncertainty_seconds: 30,
   objects: [
@@ -380,6 +380,7 @@ export default function App() {
                 <label>
                   Time accuracy
                   <select
+                    aria-label="Time accuracy"
                     value={input.time_accuracy}
                     onChange={(e) => {
                       const accuracy = e.target

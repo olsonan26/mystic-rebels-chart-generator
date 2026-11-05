@@ -1,14 +1,14 @@
 import React from "react";
 import { describe, it, expect, vi } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
-import { acceptProfilePacket, ReportContents, safeBookingUrl, type ProfilePacket } from "./ProfileReport";
+import { acceptProfilePacket, compactSourceLabels, ReportContents, safeBookingUrl, type ProfilePacket } from "./ProfileReport";
 import type { Chart } from "./types";
 import before from "./__fixtures__/wheel-before.json";
 vi.mock("./Wheel", () => ({ Wheel: () => <svg aria-label="Calculated chart" /> }));
 
 const packet: ProfilePacket = {
   schema_version: "nadia-profile/1", report_id: "synthetic-profile-fixture", tier: "essential", synthetic: true,
-  profile: { name: "Synthetic profile", birth_date: "1992-07-17", birth_time: "20:01:00", location: "Illustrative Los Alamitos", timezone: "America/Los_Angeles", time_accuracy: "nearest_minute" },
+  profile: { name: "Synthetic profile", birth_date: "2000-01-01", birth_time: "12:00:00", location: "Greenwich reference (synthetic)", timezone: "Etc/UTC", time_accuracy: "nearest_minute" },
   chart: before.chart as unknown as Chart,
   readiness: { technical_report_ready: true, complete_personal_reading: false, interpretation_status: "blocked", knowledge_status: "verified", limitations: ["Complete contextual synthesis remains unavailable."] },
   sections: [
@@ -73,5 +73,19 @@ describe("source-governed profile presentation", () => {
     expect(html).toContain("&lt;script&gt;");
     expect(html).toContain("not sent, saved or included in the report export");
     expect(html).toMatch(/maxlength="2000"/i);
+  });
+});
+
+describe("print source compaction", () => {
+  it("preserves exact page references without repeated prefixes", () => {
+    expect(compactSourceLabels(["original-page-103", "original-page-100", "original-page-99", "original-page-100", "other-evidence"]))
+      .toBe("Original printed pages 99\u2013100, 103; other-evidence");
+  });
+  it("renders scoped contexts without approving complete interpretation", () => {
+    const scoped = { ...packet, sections: [{ ...packet.sections[1], status: "source_context" as const }] };
+    expect(acceptProfilePacket(scoped)).toBe(scoped);
+    const html = renderToStaticMarkup(<ReportContents packet={scoped} />);
+    expect(html).toContain("Scoped source context");
+    expect(html).toContain("Complete personal interpretation is not yet available");
   });
 });

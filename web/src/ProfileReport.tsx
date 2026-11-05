@@ -7,7 +7,7 @@ import "./profileReport.css";
 export type ProfileSection = {
   id: string;
   title: string;
-  status: "calculated" | "source_vocabulary" | "unavailable";
+  status: "calculated" | "source_vocabulary" | "source_context" | "unavailable";
   summary: string;
   facts: { label: string; value: string }[];
   source_refs: string[];
@@ -72,7 +72,7 @@ export function acceptProfilePacket(value: unknown): ProfilePacket {
     !["essential", "premium"].includes(data.tier) ||
     !Array.isArray(data.sections) ||
     !data.sections.every((s) =>
-      ["calculated", "source_vocabulary", "unavailable"].includes(s.status) &&
+      ["calculated", "source_vocabulary", "source_context", "unavailable"].includes(s.status) &&
       typeof s.title === "string" && typeof s.summary === "string" &&
       Array.isArray(s.facts) && Array.isArray(s.source_refs) &&
       Array.isArray(s.rule_ids) && Array.isArray(s.blockers),
@@ -99,6 +99,17 @@ function sourceLabel(ref: string) {
   return ref.startsWith("original-page-")
     ? `Original printed page ${ref.slice("original-page-".length)}`
     : ref;
+}
+
+export function compactSourceLabels(refs: string[]): string {
+  const pages = [...new Set(refs.filter(r => /^original-page-\d+$/.test(r)).map(r => Number(r.slice(14))))].sort((a, b) => a - b);
+  const spans: string[] = [];
+  for (let i = 0; i < pages.length; i++) {
+    const start = pages[i];
+    while (i + 1 < pages.length && pages[i + 1] === pages[i] + 1) i++;
+    spans.push(start === pages[i] ? String(start) : `${start}–${pages[i]}`);
+  }
+  return [pages.length ? `Original printed pages ${spans.join(", ")}` : "", ...refs.filter(r => !/^original-page-\d+$/.test(r))].filter(Boolean).join("; ");
 }
 
 export function ReportContents({ packet }: { packet: ProfilePacket }) {
@@ -133,6 +144,12 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
           <p>Tropical, geocentric positions with Whole Sign houses where birth-time precision permits. Field, Tone and Pulse are shown as calculated layers.</p>
           <p>These layers need their full configuration and related context before a personal conclusion can be drawn.</p>
           <p className="nadia-chart-caption">Select a planet to inspect its position on the chart.</p>
+          <label className="nadia-chart-picker">Inspect chart object
+            <select aria-label="Inspect chart object" value={selected ?? ""} onChange={event => setSelected(event.target.value || null)}>
+              <option value="">Choose an object</option>
+              {packet.chart.points.filter(point => point.available).map(point => <option key={point.id} value={point.id}>{point.name}</option>)}
+            </select>
+          </label>
         </div>
         <div className="nadia-report-wheel">
           <Wheel chart={packet.chart} dual={false} selected={selected} onSelect={setSelected} precision="second" orientation="ascendant" density="balanced" query="" zoom={1} />
@@ -148,11 +165,11 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
           <section key={section.id} id={`profile-${section.id}`} className="nadia-report-section" data-profile-section={section.id}>
             <div className="nadia-section-heading">
               <h3>{section.title}</h3>
-              <span className="nadia-section-status">{section.status === "calculated" ? "Calculated facts" : "Source vocabulary"}</span>
+              <span className="nadia-section-status">{section.status === "calculated" ? "Calculated facts" : section.status === "source_context" ? "Scoped source context" : "Source vocabulary"}</span>
             </div>
             <p>{section.summary}</p>
             {section.facts.length > 0 && <dl className="nadia-report-facts">{section.facts.map((fact, index) => <div key={`${fact.label}-${index}`}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>}
-            {section.source_refs.length > 0 && <><details className="nadia-section-evidence"><summary>Source evidence</summary><ul>{section.source_refs.map((ref) => <li key={ref}>{sourceLabel(ref)}</li>)}</ul><p>These references support this component's stated scope. They do not certify a complete personal reading.</p></details><p className="nadia-print-sources">Source: {section.source_refs.map(sourceLabel).join("; ")}</p></>}
+            {section.source_refs.length > 0 && <><details className="nadia-section-evidence"><summary>Source evidence</summary><ul>{section.source_refs.map((ref) => <li key={ref}>{sourceLabel(ref)}</li>)}</ul><p>These references support this component's stated scope. They do not certify a complete personal reading.</p></details><p className="nadia-print-sources">Source: {compactSourceLabels(section.source_refs)}</p></>}
             {section.blockers.length > 0 && <p className="nadia-component-limit">Further interpretation remains unavailable.</p>}
           </section>
         ))}

@@ -13,9 +13,9 @@ from site_access import SitePasswordGate
 
 
 def sample(**changes):
-    return BirthInput(name='Synthetic Nadia Example', local_date='1992-07-17', local_time='20:01:00',
-                      timezone='America/Los_Angeles', latitude=33.803, longitude=-118.072,
-                      location_name='Los Alamitos, California, United States', **changes)
+    return BirthInput(name='Synthetic Nadia Example', local_date='2000-01-01', local_time='12:00:00',
+                      timezone='Etc/UTC', latitude=51.4779, longitude=0,
+                      location_name='Greenwich reference location (synthetic)', **changes)
 
 
 def test_real_calculation_and_private_source_components():
@@ -38,7 +38,7 @@ def test_real_calculation_and_private_source_components():
         assert any(f['label'] == 'Ruled house and occupants' for f in moon['facts'])
     else:
         assert all(r['status'] != 'source_vocabulary' for r in report['sections'])
-    assert len([s for s in report['sections'] if s['status'] == 'unavailable']) == 18
+    assert len([s for s in report['sections'] if s['status'] == 'unavailable']) == (15 if report['readiness']['knowledge_status'] == 'verified' else 18)
 
 
 def test_missing_core_preserves_facts_without_legacy_fallback():
@@ -107,3 +107,42 @@ def test_dual_chart_cannot_be_mislabeled_natal():
     from mystic_rebels.errors import ChartError
     with pytest.raises(ChartError):
         generate_report(ProfileRequest(birth=sample().model_copy(update={'chart_type': 'dual'})))
+
+
+def test_bounded_sections_preserve_ruler_channels_unknown_contacts_and_scope():
+    report = generate_report(ProfileRequest(birth=sample(), synthetic=True))
+    # Public CI has no private release; verify fail-closed fallback there.
+    if report['readiness']['knowledge_status'] == 'unavailable':
+        assert not any(s['status'] == 'source_context' for s in report['sections'])
+        return
+    sections = {s['id']: s for s in report['sections']}
+    houses = sections['house-condition']
+    assert len(houses['calculation_evidence']['houses']) == 12
+    assert any(h['empty_of_ruling_planets'] for h in houses['calculation_evidence']['houses'])
+    motion = sections['retrograde-profile']
+    assert len(motion['calculation_evidence']['channels']) == 10
+    assert all(not r['inherited_occupant_retrograde'] for r in motion['calculation_evidence']['channels'])
+    contacts = sections['relationships-graph']['calculation_evidence']
+    assert sum(contacts['classification_counts'].values()) == 315
+    assert contacts['classification_counts'].get('SOURCE LIMIT UNKNOWN', 0) > 0
+    assert contacts['complete_contact_catalog'] is False
+    for identity in ('house-condition', 'retrograde-profile', 'relationships-graph'):
+        assert sections[identity]['status'] == 'source_context'
+        assert sections[identity]['source_refs'] and sections[identity]['rule_ids']
+        assert not sections[identity]['personal_interpretation_approved']
+        assert sections[identity]['blockers']
+
+
+def test_unverified_component_rule_cannot_authorize_report_context():
+    try:
+        from nadia_runtime import verified_core
+        core = verified_core()
+    except (OSError, ValueError, ImportError):
+        with patch('mystic_rebels.profile_reports.verified_core', side_effect=ValueError('unavailable')):
+            report = generate_report(ProfileRequest(birth=sample()))
+    else:
+        core.rules['phase5:condition-channels']['status'] = 'disputed'
+        with patch('mystic_rebels.profile_reports.verified_core', return_value=core):
+            report = generate_report(ProfileRequest(birth=sample()))
+    assert not report['readiness']['complete_personal_reading']
+    assert not any(s['status'] == 'source_context' for s in report['sections'])
