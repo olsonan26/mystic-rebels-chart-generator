@@ -18,6 +18,13 @@ finite scope. Thus this work does not demonstrate four complete differentiated
 readings. Role reversal changes the semantic tree, but usefulness remains untested.
 All original failed model outputs and reference standards are retained unchanged.
 
+The first hosted run exposed three new integration tests requiring the private
+wheel, which public CI intentionally lacks (497 passed, three setup errors).
+The fixture now explicitly skips those three checks only when that wheel is
+absent. All six targeted tests execute and pass locally. Public CI is therefore
+not evidence of source-backed semantic integration; local logs remain separate.
+The calculation/source/semantic acceptance standard is unchanged.
+
 Private artifacts live only in ignored `tmp/semantic-return/`: the local runner,
 frozen-standard hash, four JSON traces, comparison, test log, source-media hashes,
 and review-only explanation. Those artifacts are not a GitHub backup.

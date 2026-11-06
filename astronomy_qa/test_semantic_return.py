@@ -12,6 +12,11 @@ from nadia_runtime import verified_core
 
 @pytest.fixture(scope='module')
 def packet():
+    # Public CI must not receive the proprietary core. These are real local
+    # integration checks, not a mocked substitute for source-backed evidence.
+    private=Path(__file__).resolve().parents[1]/'.nadia-private'
+    if not (private/'nadia_knowledge_core-0.7.0-py3-none-any.whl').is_file():
+        pytest.skip('Local integration requires the pinned private core wheel; no public upload')
     return build_review(BirthInput(name='Synthetic semantic fixture',
         local_date='1984-05-15',local_time='06:30:00',timezone='Australia/Sydney',
         latitude=-33.8688,longitude=151.2093,location_name='Synthetic fixture'),
