@@ -490,6 +490,11 @@ export default function App() {
                     City locations use a city-center coordinate. Enter the
                     actual birth location here for greater precision.
                   </p>
+                  <label>
+                    Birthplace label
+                    <input value={input.location_name} maxLength={200}
+                      onChange={(e) => edit("location_name", e.target.value)} required />
+                  </label>
                   <div className="two-cols">
                     <label>
                       Latitude

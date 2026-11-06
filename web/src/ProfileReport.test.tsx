@@ -1,7 +1,7 @@
 import React from "react";
 import { describe, it, expect, vi } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
-import { acceptProfilePacket, compactSourceLabels, ReportContents, safeBookingUrl, type ProfilePacket } from "./ProfileReport";
+import { acceptProfilePacket, compactSourceLabels, ReportContents, reviewBrief, safeBookingUrl, type ProfilePacket } from "./ProfileReport";
 import type { Chart } from "./types";
 import before from "./__fixtures__/wheel-before.json";
 vi.mock("./Wheel", () => ({ Wheel: () => <svg aria-label="Calculated chart" /> }));
@@ -28,7 +28,7 @@ describe("source-governed profile presentation", () => {
     expect(html).not.toContain("Comprehensive personal interpretation");
     expect(html).toContain('class="nadia-technical-appendix"');
     expect(html).not.toContain('class="nadia-technical-appendix" open');
-    expect(html).toContain("not a personal profile offered for sale");
+    expect(html).toContain("Personal conclusions require qualified review");
     expect(html).not.toContain("Original printed page 110");
     expect(html).toContain("Synthetic demonstration");
     expect(html).toContain("Complete personal interpretation is not yet available");
@@ -43,7 +43,7 @@ describe("source-governed profile presentation", () => {
     expect(html).toContain("Unknown — time-dependent results withheld");
     expect(html).not.toContain("Essential");
     expect(html).not.toContain("Premium");
-    expect(html).toContain("Profile preparation");
+    expect(html).toContain("Your chart profile");
     const partial = { ...packet, readiness: { ...packet.readiness, technical_report_ready: false } };
     expect(acceptProfilePacket(partial)).toBe(partial);
     expect(renderToStaticMarkup(<ReportContents packet={partial} />)).toContain("Some required chart positions are unavailable");
@@ -68,9 +68,18 @@ describe("source-governed profile presentation", () => {
       { ...packet, readiness: { ...packet.readiness, interpretation_status: "approved" } },
       { ...packet, lead: { ...packet.lead, personalized_answer: "You need praise." } },
       { ...packet, sections: [{ ...packet.sections[0], status: "personalized" }] },
+      { ...packet, review: { status: "approved", submitted: true, personal_interpretation_approved: true, requirements: [] } },
     ]) {
       expect(() => acceptProfilePacket(change)).toThrow("interpretation checks");
     }
+  });
+
+  it("exports an explicitly unsubmitted review brief without a personal answer", () => {
+    const brief = reviewBrief(packet);
+    expect(brief).toContain("no personal interpretation approved");
+    expect(brief).toContain(packet.report_id);
+    expect(brief).toContain("No review has been requested or transmitted");
+    expect(brief).not.toContain("You need praise");
   });
 
   it("escapes user names and does not persist or transmit reflection notes", () => {

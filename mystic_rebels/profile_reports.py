@@ -247,6 +247,16 @@ def generate_report(request: ProfileRequest):
             'readiness': {'technical_report_ready': not missing, 'complete_personal_reading': False,
                           'interpretation_status': 'blocked', 'knowledge_status': knowledge_status, 'limitations': limitations},
             'sections': sections,
+            'reading_guide': reading_guide(sections, uncertain),
+            'review': {'status': 'required', 'submitted': False,
+                       'personal_interpretation_approved': False,
+                       'scope': 'Calculated chart and bounded source context only.',
+                       'requirements': [
+                           'Check the birth details and birth-time uncertainty.',
+                           'Verify each proposed personal conclusion against its complete configuration and source applicability.',
+                           'Keep missing conditions, conflicting authority and reported personal history distinct.',
+                           'Obtain qualified source-method review before delivering a personal interpretation.'
+                       ]},
             'lead': {'question': LEAD_QUESTION,
                      'reflection_question': 'When have you felt understood and cared for, and what did the other person do?',
                      'personalized_answer': None, 'booking_url': booking_url(),
@@ -255,6 +265,38 @@ def generate_report(request: ProfileRequest):
                      'source_refs': sorted(source_refs), 'blockers': METHOD_GAPS},
             'privacy': {'server_persistence': False, 'browser_persistence': False,
                         'exports': 'Birth details are included in downloads and printouts. Share them deliberately.'}}
+
+
+def reading_guide(sections, uncertain):
+    """Render existing eligible components without composing a personal inference.
+
+    Text is a reading aid, not a new source rule. Every displayed source function
+    and placement comes from the already gated report component, never a second
+    vocabulary dictionary or an inferred psychological meaning.
+    """
+    by_id = {s['id']: s for s in sections}
+    focus = []
+    for body, question in (
+        ('Sun', 'Which activities give you a sense of purpose?'),
+        ('Moon', 'What helps you feel cared for and emotionally secure?'),
+    ):
+        section = by_id.get('placement-' + body.lower())
+        if not section or section['status'] != 'source_vocabulary':
+            continue
+        facts = {f['label']: f['value'] for f in section['facts']}
+        focus.append({'body': body, 'section_id': section['id'],
+                      'function': facts['Source function'],
+                      'vocabulary': facts['Source vocabulary'],
+                      'context': [{'label': label, 'value': facts[label]} for label in
+                                  ('Field / house', 'Tone', 'Pulse', 'Forward ruler') if label in facts],
+                      'represented_houses': [f['value'] for f in section['facts']
+                                             if f['label'] == 'Ruled house and occupants'],
+                      'question': question, 'question_status': 'optional_reflection_not_chart_inference',
+                      'source_refs': section['source_refs'], 'rule_ids': section['rule_ids'],
+                      'personal_inference_allowed': False})
+    return {'scope': 'bounded_source_context_not_personal_synthesis',
+            'time_dependent_context_available': not uncertain,
+            'focus': focus}
 
 
 @router.post('/api/profile-reports')

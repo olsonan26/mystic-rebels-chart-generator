@@ -49,6 +49,9 @@ def test_missing_core_preserves_facts_without_legacy_fallback():
     assert not any(s['status'] == 'source_vocabulary' for s in report['sections'])
     assert report['sections'][0]['facts']
     assert report['lead']['source_refs'] == []
+    assert report['reading_guide']['focus'] == []
+    assert report['review']['status'] == 'required'
+    assert report['review']['personal_interpretation_approved'] is False
 
 
 @pytest.mark.parametrize('accuracy,clock,uncertainty', [('unknown', None, None), ('approximate', '20:01:00', 600)])
@@ -59,6 +62,23 @@ def test_uncertain_time_suppresses_house_derived_output(accuracy, clock, uncerta
     assert all(p.get('house') is None and p.get('field') is None for p in report['chart']['points'])
     assert not any(f['label'] == 'Ruled house and occupants' for s in report['sections'] for f in s['facts'])
     assert not report['readiness']['complete_personal_reading']
+    assert report['reading_guide']['time_dependent_context_available'] is False
+    assert all(not f['context'] and not f['represented_houses'] for f in report['reading_guide']['focus'])
+
+
+def test_reading_guide_reuses_gated_components_without_personal_synthesis():
+    report = generate_report(ProfileRequest(birth=sample()))
+    by_id = {s['id']: s for s in report['sections']}
+    for focus in report['reading_guide']['focus']:
+        section = by_id[focus['section_id']]
+        assert section['status'] == 'source_vocabulary'
+        assert focus['source_refs'] == section['source_refs']
+        assert focus['rule_ids'] == section['rule_ids']
+        assert focus['personal_inference_allowed'] is False
+        assert focus['question_status'] == 'optional_reflection_not_chart_inference'
+        assert all(c in section['facts'] for c in focus['context'])
+    assert report['review']['submitted'] is False
+    assert report['lead']['personalized_answer'] is None
 
 
 def test_report_identity_and_json_are_deterministic():

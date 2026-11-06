@@ -48,8 +48,8 @@ def inspect(filename, packet_name, appendix=False):
         raise ValueError('Private reflection leaked into PDF')
     if normalized(packet['profile']['name']) not in normalized(combined):
         raise ValueError('Profile name missing or clipped')
-    if 'Before your personal profile' not in combined:
-        raise ValueError('Preparation scope is missing')
+    if normalized('Personal conclusions require qualified review') not in normalized(combined):
+        raise ValueError('Personal interpretation review boundary is missing')
     for section in packet['sections']:
         present = normalized(section['title']) in normalized(combined)
         expected = appendix and section['status'] in ('calculated', 'source_context')
@@ -70,9 +70,19 @@ def inspect(filename, packet_name, appendix=False):
 
 
 def main():
-    results = [inspect('nadia-synthetic-profile.pdf', 'desktop.json'),
-               inspect('nadia-supporting-appendix.pdf', 'desktop.json', appendix=True),
-               inspect('nadia-unknown-time-long-name.pdf', 'unknown-time.json')]
+    import argparse
+    global BASE
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--product', action='store_true', help='Inspect the private real-chart demonstration exports.')
+    args = parser.parse_args()
+    if args.product:
+        BASE = ROOT / 'tmp/profile-product'
+        results = [inspect('NADIA-Profile.pdf', 'profile.json'),
+                   inspect('NADIA-Profile-with-evidence.pdf', 'profile.json', appendix=True)]
+    else:
+        results = [inspect('nadia-synthetic-profile.pdf', 'desktop.json'),
+                   inspect('nadia-supporting-appendix.pdf', 'desktop.json', appendix=True),
+                   inspect('nadia-unknown-time-long-name.pdf', 'unknown-time.json')]
     (BASE / 'pdf-inspection.json').write_text(json.dumps(results, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(results))
 

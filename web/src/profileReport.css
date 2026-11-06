@@ -88,8 +88,40 @@
 .nadia-report-loading h1 { font-size: 38px; margin-top: 30px; }
 .nadia-report-loading p { margin-top: 20px; }
 .nadia-report-loading button { margin-top: 20px; }
+.nadia-profile-overview, .nadia-profile-focus, .nadia-profile-connections, .nadia-profile-review { padding: 42px 6%; border-top: 1px solid var(--report-line); }
+.nadia-profile-overview > p, .nadia-focus-intro, .nadia-profile-connections > p, .nadia-profile-review p { margin-top: 16px; color: var(--report-muted); font-size: 13px; }
+.nadia-reading-key { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 24px; color: #445568; font-size: 12px; }
+.nadia-reading-key span { border-left: 3px solid #8095a8; padding-left: 10px; }
+.nadia-reading-key span:last-child { border-color: #aa8d59; }
+.nadia-placement-table { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: 13px; text-align: left; }
+.nadia-placement-table th, .nadia-placement-table td { padding: 12px 8px; border-bottom: 1px solid var(--report-line); }
+.nadia-placement-table thead { color: #536577; background: #edf1f4; }
+.nadia-placement-table tbody th { font-weight: 500; }
+.nadia-focus-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 26px; }
+.nadia-focus-item { min-width: 0; border-top: 3px solid #aa8d59; padding-top: 22px; }
+.nadia-focus-item:last-child { border-color: #8095a8; }
+.nadia-focus-item h3 { font-family: Georgia, serif; font-size: 27px; font-weight: 400; }
+.nadia-focus-item > p, .nadia-represented p { margin-top: 12px; font-size: 13px; }
+.nadia-focus-function { color: #536577; font-weight: 600; }
+.nadia-focus-item .nadia-report-facts div { grid-template-columns: 1fr 1fr; gap: 12px; }
+.nadia-represented { margin-top: 22px; }
+.nadia-represented h4 { font-size: 13px; }
+.nadia-reflection-prompt { padding: 16px; background: #edf1f4; line-height: 1.6; }
+.nadia-focus-source, .nadia-method-note { font-size: 11px !important; color: var(--report-muted); margin-top: 20px; overflow-wrap: anywhere; }
+.nadia-profile-review { background: #edf1f4; display: grid; grid-template-columns: 1fr 1fr; gap: 38px; }
+.nadia-profile-review ol { margin: 0; padding-left: 20px; font-size: 13px; }
+.nadia-profile-review li + li { margin-top: 12px; }
+.nadia-profile-review .nadia-review-status { color: #72571f; margin: 0 0 14px; font-size: 12px; }
+.nadia-review-download { margin-top: 24px; }
+.nadia-print-review-question { display: none; }
+.nadia-print-notes, .nadia-print-report-id { display: none; }
+.nadia-profile-review .nadia-review-note { font-size: 11px; }
 .chart-actions .nadia-open-report { border: 1px solid #aa8d59; background: #20252c; color: #fbf8ef; padding: 9px 12px; border-radius: 5px; font-size: 11px; display: flex; align-items: center; gap: 7px; }
 @media (max-width: 760px) {
+  .nadia-focus-columns, .nadia-profile-review { grid-template-columns: 1fr; gap: 28px; }
+  .nadia-profile-overview, .nadia-profile-focus, .nadia-profile-connections, .nadia-profile-review { padding: 30px 24px; }
+  .nadia-placement-table { font-size: 11px; }
+  .nadia-placement-table th, .nadia-placement-table td { padding: 10px 3px; }
   .nadia-report-toolbar { gap: 12px; padding: 14px 18px; flex-wrap: wrap; }
   .nadia-report-export { width: 100%; margin-left: 0; }
   .nadia-report-export button { flex: 1; }
@@ -108,6 +140,26 @@
   .nadia-report-facts div { grid-template-columns: 1fr; gap: 4px; }
 }
 @media print {
+  .nadia-profile-overview, .nadia-profile-focus, .nadia-profile-connections, .nadia-profile-review { padding: 6mm 7mm; }
+  .nadia-placement-table { font-size: 9pt; }
+  .nadia-placement-table th, .nadia-placement-table td { padding: 5px; }
+  .nadia-profile-overview { break-inside: avoid; }
+  .nadia-profile-connections { break-inside: avoid; }
+  .nadia-focus-item { break-inside: avoid; }
+  .nadia-focus-columns { gap: 8mm; }
+  .nadia-profile-focus { break-before: page; }
+  .nadia-profile-review { display: block; break-inside: avoid; }
+  .nadia-profile-review h2 { font-size: 18pt; }
+  .nadia-profile-review p, .nadia-profile-review li { font-size: 9pt; }
+  .nadia-profile-review li + li { margin-top: 6px; }
+  .nadia-print-review-question { display: block; }
+  .nadia-report-consultation { display: none !important; }
+  .nadia-focus-item > p, .nadia-represented p { font-size: 9pt; margin-top: 8px; }
+  .nadia-profile-focus .nadia-report-facts div { padding: 5px 0; }
+  .nadia-profile-focus .nadia-represented { margin-top: 12px; }
+  .nadia-profile-focus .nadia-focus-source { font-size: 7pt !important; }
+  .nadia-profile-review ol { margin-top: 16px; }
+  .nadia-review-download, .nadia-review-note { display: none !important; }
   @page { size: A4; margin: 13mm; }
   html, body, #root { background: #fff !important; }
   .nadia-report-app { padding: 0; background: #fff; font-size: 10pt; }
@@ -143,4 +195,8 @@
   .nadia-reflection textarea { min-height: 35mm; border-color: #aaa; }
   .nadia-reflection textarea, .nadia-reflection-privacy, .nadia-booking, .nadia-booking-pending { display: none !important; }
   .nadia-report-footer { padding: 8mm 7mm; border-top: 1px solid #ded5c2; }
+  .nadia-report-footer { display: none; }
+  .nadia-print-report-id { display: inline; font-size: 6pt; letter-spacing: 0; }
+  .nadia-print-notes { display: block; margin-top: 10mm; }
+  .nadia-print-notes > div { height: 12mm; border-bottom: 1px solid #cad3d9; }
 }
