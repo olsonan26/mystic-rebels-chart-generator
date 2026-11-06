@@ -20,10 +20,15 @@ All original failed model outputs and reference standards are retained unchanged
 
 The first hosted run exposed three new integration tests requiring the private
 wheel, which public CI intentionally lacks (497 passed, three setup errors).
-The fixture now explicitly skips those three checks only when that wheel is
-absent. All six targeted tests execute and pass locally. Public CI is therefore
-not evidence of source-backed semantic integration; local logs remain separate.
-The calculation/source/semantic acceptance standard is unchanged.
+A skip-only correction was also rejected by the existing no-skipped-required-tests
+gate. Both failures are preserved. The final separation keeps the pure structural
+check in public CI and the actual private integration checks in explicitly invoked
+`local_integration_qa/test_semantic_return_private.py`. Missing private authority
+still fails that local suite; there are no skip paths. Run it with the existing
+runtime using `python -m pytest local_integration_qa -q` (repository first on the
+shared runtime import path). Public CI is not evidence of source-backed semantic
+integration; local logs remain separate. No existing required test or CI gate was
+removed or weakened. The semantic acceptance standard is unchanged.
 
 Private artifacts live only in ignored `tmp/semantic-return/`: the local runner,
 frozen-standard hash, four JSON traces, comparison, test log, source-media hashes,
