@@ -10,23 +10,27 @@ from .errors import ChartError
 from . import astronomy
 from .chart_chat import router as chart_chat_router
 from .profile_reports import router as profile_report_router
+from .practitioner import router as practitioner_router
 
 app=FastAPI(title='Mystic Rebels Chart API',version='0.1.0')
 from nadia_backend import router as nadia_router
 app.include_router(nadia_router)
 app.include_router(chart_chat_router)
 app.include_router(profile_report_router)
+app.include_router(practitioner_router)
 
 @app.exception_handler(ChartError)
 async def chart_error(request:Request,exc:ChartError):return JSONResponse(status_code=422,content={'error':exc.record()})
 
 @app.middleware('http')
 async def headers(request,call_next):
-    max_size=131072 if request.url.path.startswith('/api/chart-chat') else 32768
-    if request.method=='POST' and int(request.headers.get('content-length','0') or 0)>max_size:
+    max_size=524288 if request.url.path.startswith('/api/practitioner') else 131072 if request.url.path.startswith('/api/chart-chat') else 32768
+    if request.method in {'POST','PUT'} and int(request.headers.get('content-length','0') or 0)>max_size:
         return JSONResponse(status_code=413,content={'error':{'code':'PAYLOAD_TOO_LARGE','message':'Chart input is too large.'}})
     response=await call_next(request)
-    response.headers['Cache-Control']='private, no-store' if request.url.path.startswith('/api/profile-reports') else 'no-store' if request.url.path.startswith('/api/chart') else 'no-cache'
+    response.headers['Cache-Control']='private, no-store' if request.url.path.startswith(('/api/profile-reports','/api/practitioner')) else 'no-store' if request.url.path.startswith('/api/chart') else 'no-cache'
+    if request.url.path.startswith('/api/practitioner'):
+        response.headers['X-Robots-Tag']='noindex, nofollow'
     response.headers['X-Content-Type-Options']='nosniff'
     response.headers['Referrer-Policy']='strict-origin-when-cross-origin'
     return response

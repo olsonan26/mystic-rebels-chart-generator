@@ -92,6 +92,23 @@ describe("source-governed profile presentation", () => {
 });
 
 describe("print source compaction", () => {
+  it("keeps individual demonstration review separate from automated authority and escapes authored text", () => {
+    const html = renderToStaticMarkup(<ReportContents packet={packet} individualReview={{
+      demonstration: true, case_id: "synthetic-review-only", revision: 5,
+      incomplete_questions: ["An unanswered personal question"],
+      reviewed_sections: [{ id: "love", question: "A reviewed question", claims: [
+        { part: "recognition", text: "<script>untrusted author text</script>", basis: "example_content", practice_kind: "not_applicable", source_refs: [], review: { actor: "Demonstration reviewer" } },
+        { part: "practical_application", text: "A conditional example exercise", basis: "example_content", practice_kind: "adaptation", source_refs: [], review: { actor: "Demonstration reviewer" } },
+      ] }],
+    }} />);
+    expect(html).toContain("not an expert reading");
+    expect(html).toContain("does not authorize automated personal interpretation");
+    expect(html).toContain("An unanswered personal question");
+    expect(html).toContain("New adaptation");
+    expect(html).toContain("&lt;script&gt;");
+    expect(html).not.toContain("<script>");
+    expect(packet.readiness.complete_personal_reading).toBe(false);
+  });
   it("preserves exact page references without repeated prefixes", () => {
     expect(compactSourceLabels(["original-page-103", "original-page-100", "original-page-99", "original-page-100", "other-evidence"]))
       .toBe("Original printed pages 99\u2013100, 103; other-evidence");

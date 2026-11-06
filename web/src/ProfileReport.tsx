@@ -3,6 +3,7 @@ import { ArrowDownToLine, ArrowLeft, Printer, RefreshCw } from "lucide-react";
 import type { BirthInput, Chart } from "./types";
 import { Wheel } from "./Wheel";
 import "./profileReport.css";
+import PractitionerWorkspace from "./PractitionerWorkspace";
 
 export type ProfileSection = {
   id: string;
@@ -159,13 +160,20 @@ export function compactSourceLabels(refs: string[]): string {
   return [pages.length ? `Original printed pages ${spans.join(", ")}` : "", ...refs.filter(r => !/^original-page-\d+$/.test(r))].filter(Boolean).join("; ");
 }
 
-export function ReportContents({ packet }: { packet: ProfilePacket }) {
+export type ReviewedSection = { id: string; question: string; claims: {
+  part: string; text: string; basis: string; practice_kind: string; source_refs: string[];
+  review: { actor: string; scope?: string };
+}[] };
+
+export function ReportContents({ packet, individualReview }: { packet: ProfilePacket;
+  individualReview?: { reviewed_sections: ReviewedSection[]; demonstration: boolean; incomplete_questions: string[]; case_id: string; revision: number } }) {
   const [selected, setSelected] = useState<string | null>(null);
   const [reflection, setReflection] = useState("");
   const booking = safeBookingUrl(packet.lead.booking_url);
   const available = packet.sections.filter((s) => s.status !== "unavailable" && s.status !== "source_vocabulary");
   return (
-    <article className="nadia-report-document" aria-label="NADIA profile report">
+    <article className={`nadia-report-document${individualReview ? " nadia-reviewed-report" : ""}`} aria-label="NADIA profile report">
+      {individualReview?.demonstration && <p className="nadia-workflow-demo">Workflow demonstration - example content, not an expert reading. Internal review only.</p>}
       <header className="nadia-report-cover">
         <div className="nadia-report-cover-copy">
           <p className="nadia-wordmark">NADIA<span className="nadia-print-report-id"> · {packet.report_id.slice(0, 16)}</span></p>
@@ -186,9 +194,17 @@ export function ReportContents({ packet }: { packet: ProfilePacket }) {
 
       <section className="nadia-report-introduction">
         <h2>Read your chart with confidence</h2>
-        <p>This profile brings together your calculated placements and the source-supported context available for them. Complete personal interpretation is not yet available. Personal conclusions require qualified review; this document does not diagnose, predict events or infer your history.</p>
-        <div className="nadia-reading-key" aria-label="Report scope"><span>Calculated placements</span><span>Bounded source context</span><span>Personal interpretation: review required</span></div>
+        <p>{individualReview ? "This profile combines your calculated chart with individually reviewed sections. Review applies to those sections alone; it does not authorize automated personal interpretation or establish a complete profile. Unfinished questions are left incomplete." : "This profile brings together your calculated placements and the source-supported context available for them. Complete personal interpretation is not yet available. Personal conclusions require qualified review; this document does not diagnose, predict events or infer your history."}</p>
+        <div className="nadia-reading-key" aria-label="Report scope"><span>Calculated placements</span><span>Bounded source context</span><span>{individualReview ? "Individual review provenance retained" : "Personal interpretation: review required"}</span></div>
       </section>
+
+      {individualReview?.reviewed_sections.map(section => <section className="nadia-individual-insights" key={section.id}>
+        <h2>{section.question}</h2>{section.claims.map(c => <div key={c.part}>
+          <h3>{c.part === "recognition" ? "Recognition" : c.part === "explanation" ? "Explanation" : "Practical application"}</h3><p>{c.text}</p>
+          <p className="nadia-manual-provenance">{individualReview.demonstration ? "Demonstration content" : c.basis === "expert_judgment" ? "Practitioner judgment" : "Source-supported interpretation assessed by practitioner"} · reviewed by {c.review.actor} for this case only.{c.part === "practical_application" ? c.practice_kind === "adaptation" ? " New adaptation." : " Sourced practice; applicability individually reviewed." : ""}{c.source_refs.length > 0 ? ` References: ${compactSourceLabels(c.source_refs)}.` : ""}</p>
+        </div>)}
+      </section>)}
+      {individualReview && <section className="nadia-report-introduction nadia-incomplete-questions"><h2>Questions still to explore</h2><ul>{individualReview.incomplete_questions.map(q => <li key={q}>{q}</li>)}</ul><p>No interpretation has been supplied for these questions. Review record {individualReview.case_id.slice(0, 12)}, revision {individualReview.revision}. The separate private evidence record retains reasoning, limits and review decisions.</p></section>}
 
       <section className="nadia-report-chart" aria-labelledby="profile-chart-heading">
         <div className="nadia-report-chart-copy">
@@ -293,6 +309,7 @@ export default function ProfileReport({ birth, synthetic, onClose }: { birth: Bi
   const [error, setError] = useState("");
   const [attempt, setAttempt] = useState(0);
   const sequence = useRef(0);
+  const [workspace, setWorkspace] = useState(false);
   useEffect(() => {
     const controller = new AbortController();
     const current = ++sequence.current;
@@ -318,10 +335,12 @@ export default function ProfileReport({ birth, synthetic, onClose }: { birth: Bi
     return () => controller.abort();
   }, [birth, tier, synthetic, attempt]);
 
+  if (workspace) return <PractitionerWorkspace birth={birth} synthetic={synthetic} onClose={() => setWorkspace(false)} />;
   return <div className="nadia-report-app">
     <nav className="nadia-report-toolbar" aria-label="Profile report controls">
       <button type="button" onClick={onClose}><ArrowLeft size={17} />Back to chart</button>
       <span>Chart profile</span>
+      <button type="button" onClick={() => setWorkspace(true)}>Practitioner workspace</button>
       <div className="nadia-report-export"><button type="button" disabled={!packet || busy} onClick={() => packet && downloadReport(packet)}><ArrowDownToLine size={17} />Download JSON</button><button type="button" disabled={!packet || busy} onClick={() => window.print()}><Printer size={17} />Print / save PDF</button></div>
     </nav>
     {busy && <div className="nadia-report-loading" role="status"><p className="nadia-wordmark">NADIA</p><h1>Preparing your profile</h1><p>Calculating the chart and checking which components can be shown.</p></div>}
