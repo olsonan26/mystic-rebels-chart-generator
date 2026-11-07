@@ -1,0 +1,307 @@
+{
+  "scope": "invented_calibration_only_not_a_personal_interpretation_or_free_prose_quality_benchmark",
+  "external_requests": 12,
+  "models": {
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "requests": 3,
+      "accepted": 3,
+      "median_latency_ms": 2207.07,
+      "reported_cost_usd": 0.000316924,
+      "fallbacks": 0
+    },
+    "google/gemini-2.5-flash": {
+      "requests": 3,
+      "accepted": 0,
+      "median_latency_ms": 742.38,
+      "reported_cost_usd": 0,
+      "fallbacks": 3
+    },
+    "openai/gpt-4.1-mini": {
+      "requests": 6,
+      "accepted": 0,
+      "median_latency_ms": 1140.885,
+      "reported_cost_usd": 0,
+      "fallbacks": 6
+    }
+  },
+  "human_style_review": "pending",
+  "production_writer_enabled": false,
+  "personal_or_proprietary_data_sent": false,
+  "source_correctness_delegated_to_model": false,
+  "backend_access_tests_passed": 493,
+  "frontend_tests_passed": 46,
+  "skipped": 0,
+  "runs": [
+    {
+      "contract": "approved-wording-selection/1",
+      "external_calls": 6,
+      "personal_data_sent": false,
+      "proprietary_source_sent": false,
+      "interpretation_engine_replaced": false,
+      "production_writer_enabled": false,
+      "human_style_evaluation": "pending; constrained selection is not a free-prose quality benchmark",
+      "results": [
+        {
+          "case": "balanced",
+          "model": "deterministic",
+          "latency_ms": 0.14,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 16,
+          "output_changed_from_template": false,
+          "usage": {}
+        },
+        {
+          "case": "balanced",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 2207.07,
+          "accepted": true,
+          "fallback_reason": null,
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": true,
+          "usage": {
+            "prompt_tokens": 225,
+            "completion_tokens": 184,
+            "total_tokens": 409,
+            "cost": 0.000165315
+          }
+        },
+        {
+          "case": "balanced",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 1036.03,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 16,
+          "output_changed_from_template": false,
+          "usage": {}
+        },
+        {
+          "case": "limited",
+          "model": "deterministic",
+          "latency_ms": 0.03,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 17,
+          "output_changed_from_template": false,
+          "usage": {}
+        },
+        {
+          "case": "limited",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 3049.93,
+          "accepted": true,
+          "fallback_reason": null,
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 19,
+          "output_changed_from_template": true,
+          "usage": {
+            "prompt_tokens": 224,
+            "completion_tokens": 122,
+            "total_tokens": 346,
+            "cost": 6.2344e-05
+          }
+        },
+        {
+          "case": "limited",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 1646.92,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 17,
+          "output_changed_from_template": false,
+          "usage": {}
+        },
+        {
+          "case": "reflection",
+          "model": "deterministic",
+          "latency_ms": 0.02,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "usage": {}
+        },
+        {
+          "case": "reflection",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 1331.11,
+          "accepted": true,
+          "fallback_reason": null,
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "usage": {
+            "prompt_tokens": 229,
+            "completion_tokens": 104,
+            "total_tokens": 333,
+            "cost": 8.9265e-05
+          }
+        },
+        {
+          "case": "reflection",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 1245.74,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "usage": {}
+        }
+      ]
+    },
+    {
+      "contract": "approved-wording-selection/1",
+      "external_calls": 6,
+      "personal_data_sent": false,
+      "proprietary_source_sent": false,
+      "interpretation_engine_replaced": false,
+      "production_writer_enabled": false,
+      "human_style_evaluation": "pending; constrained selection is not a free-prose quality benchmark",
+      "results": [
+        {
+          "case": "balanced",
+          "model": "deterministic",
+          "latency_ms": 0.15,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 16,
+          "output_changed_from_template": false,
+          "http_status": null,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "balanced",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 1529.19,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 16,
+          "output_changed_from_template": false,
+          "http_status": 400,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "balanced",
+          "model": "google/gemini-2.5-flash",
+          "latency_ms": 799.76,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 16,
+          "output_changed_from_template": false,
+          "http_status": 404,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "limited",
+          "model": "deterministic",
+          "latency_ms": 0.04,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 17,
+          "output_changed_from_template": false,
+          "http_status": null,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "limited",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 856.98,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 17,
+          "output_changed_from_template": false,
+          "http_status": 400,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "limited",
+          "model": "google/gemini-2.5-flash",
+          "latency_ms": 639.63,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 17,
+          "output_changed_from_template": false,
+          "http_status": 404,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "reflection",
+          "model": "deterministic",
+          "latency_ms": 0.03,
+          "accepted": false,
+          "fallback_reason": "writer_disabled",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "http_status": null,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "reflection",
+          "model": "openai/gpt-4.1-mini",
+          "latency_ms": 894.96,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "http_status": 400,
+          "finish_reason": null,
+          "usage": {}
+        },
+        {
+          "case": "reflection",
+          "model": "google/gemini-2.5-flash",
+          "latency_ms": 742.38,
+          "accepted": false,
+          "fallback_reason": "provider_unavailable",
+          "claim_coverage": 1.0,
+          "unapproved_sentences_rendered": 0,
+          "word_count": 18,
+          "output_changed_from_template": false,
+          "http_status": 404,
+          "finish_reason": null,
+          "usage": {}
+        }
+      ]
+    }
+  ]
+}

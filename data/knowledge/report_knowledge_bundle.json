@@ -161,7 +161,7 @@
     },
     "requirements": {
       "path": "data/knowledge/material_requirements.json",
-      "sha256": "0182493e2ea62c074bfddd546bf0a43738070153e4e07b1b1fc6642483d94cae",
+      "sha256": "021830b09a98b89e4fe26dea53b81befb59a1b0a48a27ea54fe84ffe69a3dffd",
       "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
     },
     "findings": {
@@ -15373,7 +15373,7 @@
       "code_trace": [
         {
           "path": "mystic_rebels/api.py",
-          "sha256": "e9999fed8ac2f60039e54c8fa42e2b4487683ecd16efdd87f1a9ba63295ce00b",
+          "sha256": "f0d747639dfd15ff741ee8c193137b4b16b84f542c2c92437775f13071b67f52",
           "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
         },
         {
@@ -15398,7 +15398,7 @@
         },
         {
           "path": "web/src/App.tsx",
-          "sha256": "2cecccc1e051892a745c12bf8f9577c880f1a4fbcff5faa2693c791321c61170",
+          "sha256": "9899bede0fe5aa555e70167ac3c94538e39713fde338ea57832268066824c79f",
           "hash_normalization": "UTF8_UNIVERSAL_NEWLINES"
         },
         {

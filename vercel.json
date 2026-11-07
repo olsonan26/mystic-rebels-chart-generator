@@ -3,7 +3,8 @@
   "git": {
     "deploymentEnabled": {
       "codex/methodology-verification-20261024": false,
-      "codex/nadia-consumer-phase8": false
+      "codex/nadia-consumer-phase8": false,
+      "codex/nadia-profile-report-20261104": false
     }
   },
   "framework": "vite",

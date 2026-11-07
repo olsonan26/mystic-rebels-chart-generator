@@ -1,0 +1,123 @@
+import React from "react";
+import { describe, it, expect, vi } from "vitest";
+import { renderToStaticMarkup } from "react-dom/server";
+import { acceptProfilePacket, compactSourceLabels, ReportContents, reviewBrief, safeBookingUrl, type ProfilePacket } from "./ProfileReport";
+import type { Chart } from "./types";
+import before from "./__fixtures__/wheel-before.json";
+vi.mock("./Wheel", () => ({ Wheel: () => <svg aria-label="Calculated chart" /> }));
+
+const packet: ProfilePacket = {
+  schema_version: "nadia-profile/1", report_id: "synthetic-profile-fixture", tier: "essential", synthetic: true,
+  profile: { name: "Synthetic profile", birth_date: "2000-01-01", birth_time: "12:00:00", location: "Greenwich reference (synthetic)", timezone: "Etc/UTC", time_accuracy: "nearest_minute" },
+  chart: before.chart as unknown as Chart,
+  readiness: { technical_report_ready: true, complete_personal_reading: false, interpretation_status: "blocked", knowledge_status: "verified", limitations: ["Complete contextual synthesis remains unavailable."] },
+  sections: [
+    { id: "chart-facts", title: "Calculated placements", status: "calculated", summary: "Positions are calculated facts.", facts: [{ label: "Sun", value: "Cancer, house7" }], source_refs: [], rule_ids: [], blockers: [] },
+    { id: "vocabulary", title: "Planetary vocabulary", status: "source_vocabulary", summary: "A source-defined function is vocabulary, not a personal conclusion.", facts: [], source_refs: ["original-page-110"], rule_ids: ["internal-rule-not-for-display"], blockers: ["Unfinished synthesis"] },
+    { id: "personal", title: "Comprehensive personal interpretation", status: "unavailable", summary: "Additional verified methods are required.", facts: [], source_refs: [], rule_ids: [], blockers: ["Complete contextual synthesis"] },
+  ],
+  lead: { question: "What is the ONE thing you need to feel loved that other people keep missing?", reflection_question: "When have you felt understood?", personalized_answer: null, booking_url: null },
+  core_identity: { version: "0.7.0", commit: "test" },
+};
+
+describe("source-governed profile presentation", () => {
+  it("keeps technical context in an optional appendix without vocabulary filler or repeated unavailable sections", () => {
+    const html = renderToStaticMarkup(<ReportContents packet={packet} />);
+    expect(html).toContain("Calculated facts");
+    expect(html).not.toContain("Planetary vocabulary");
+    expect(html).not.toContain("Comprehensive personal interpretation");
+    expect(html).toContain('class="nadia-technical-appendix"');
+    expect(html).not.toContain('class="nadia-technical-appendix" open');
+    expect(html).toContain("Personal conclusions require qualified review");
+    expect(html).not.toContain("Original printed page 110");
+    expect(html).toContain("Synthetic demonstration");
+    expect(html).toContain("Complete personal interpretation is not yet available");
+    expect(html).toContain("What is the ONE thing you need to feel loved that other people keep missing?");
+    expect(html).toContain("Your own experience is a useful starting point");
+    expect(html.match(/Complete personal interpretation is not yet available/g)).toHaveLength(1);
+    expect(html).not.toContain("internal-rule-not-for-display");
+  });
+
+  it("preserves unknown time without offering an unsupported paid distinction", () => {
+    const html = renderToStaticMarkup(<ReportContents packet={{ ...packet, tier: "premium", profile: { ...packet.profile, birth_time: null } }} />);
+    expect(html).toContain("Unknown — time-dependent results withheld");
+    expect(html).not.toContain("Essential");
+    expect(html).not.toContain("Premium");
+    expect(html).toContain("Your chart profile");
+    const partial = { ...packet, readiness: { ...packet.readiness, technical_report_ready: false } };
+    expect(acceptProfilePacket(partial)).toBe(partial);
+    expect(renderToStaticMarkup(<ReportContents packet={partial} />)).toContain("Some required chart positions are unavailable");
+  });
+
+  it("shows a booking invitation only for a configured secure URL", () => {
+    const base = renderToStaticMarkup(<ReportContents packet={packet} />);
+    expect(base).toContain("A booking destination has not been connected yet");
+    expect(base).not.toContain("Explore a full consultation");
+    const configured = renderToStaticMarkup(<ReportContents packet={{ ...packet, lead: { ...packet.lead, booking_url: "https://example.org/booking" } }} />);
+    expect(configured).toContain('href="https://example.org/booking"');
+    expect(configured).toContain('rel="noopener noreferrer"');
+    for (const unsafe of ["javascript:alert(1)", "http://example.org/booking", "https://user:secret@example.org/booking", "/invented-booking"]) {
+      expect(safeBookingUrl(unsafe)).toBeNull();
+    }
+  });
+
+  it("rejects any payload promoting full interpretation or a fabricated personalized lead answer", () => {
+    expect(acceptProfilePacket(packet)).toBe(packet);
+    for (const change of [
+      { ...packet, readiness: { ...packet.readiness, complete_personal_reading: true } },
+      { ...packet, readiness: { ...packet.readiness, interpretation_status: "approved" } },
+      { ...packet, lead: { ...packet.lead, personalized_answer: "You need praise." } },
+      { ...packet, sections: [{ ...packet.sections[0], status: "personalized" }] },
+      { ...packet, review: { status: "approved", submitted: true, personal_interpretation_approved: true, requirements: [] } },
+    ]) {
+      expect(() => acceptProfilePacket(change)).toThrow("interpretation checks");
+    }
+  });
+
+  it("exports an explicitly unsubmitted review brief without a personal answer", () => {
+    const brief = reviewBrief(packet);
+    expect(brief).toContain("no personal interpretation approved");
+    expect(brief).toContain(packet.report_id);
+    expect(brief).toContain("No review has been requested or transmitted");
+    expect(brief).not.toContain("You need praise");
+  });
+
+  it("escapes user names and does not persist or transmit reflection notes", () => {
+    const html = renderToStaticMarkup(<ReportContents packet={{ ...packet, profile: { ...packet.profile, name: '<script>alert("name")</script>' } }} />);
+    expect(html).not.toContain('<script>alert("name")</script>');
+    expect(html).toContain("&lt;script&gt;");
+    expect(html).toContain("not sent, saved or included in the report export");
+    expect(html).toMatch(/maxlength="2000"/i);
+  });
+});
+
+describe("print source compaction", () => {
+  it("keeps individual demonstration review separate from automated authority and escapes authored text", () => {
+    const html = renderToStaticMarkup(<ReportContents packet={packet} individualReview={{
+      demonstration: true, case_id: "synthetic-review-only", revision: 5,
+      incomplete_questions: ["An unanswered personal question"],
+      reviewed_sections: [{ id: "love", question: "A reviewed question", claims: [
+        { part: "recognition", text: "<script>untrusted author text</script>", basis: "example_content", practice_kind: "not_applicable", source_refs: [], review: { actor: "Demonstration reviewer" } },
+        { part: "practical_application", text: "A conditional example exercise", basis: "example_content", practice_kind: "adaptation", source_refs: [], review: { actor: "Demonstration reviewer" } },
+      ] }],
+    }} />);
+    expect(html).toContain("not an expert reading");
+    expect(html).toContain("does not authorize automated personal interpretation");
+    expect(html).toContain("An unanswered personal question");
+    expect(html).toContain("New adaptation");
+    expect(html).toContain("&lt;script&gt;");
+    expect(html).not.toContain("<script>");
+    expect(packet.readiness.complete_personal_reading).toBe(false);
+  });
+  it("preserves exact page references without repeated prefixes", () => {
+    expect(compactSourceLabels(["original-page-103", "original-page-100", "original-page-99", "original-page-100", "other-evidence"]))
+      .toBe("Original printed pages 99\u2013100, 103; other-evidence");
+  });
+  it("renders scoped contexts without approving complete interpretation", () => {
+    const scoped = { ...packet, sections: [{ ...packet.sections[1], status: "source_context" as const }] };
+    expect(acceptProfilePacket(scoped)).toBe(scoped);
+    const html = renderToStaticMarkup(<ReportContents packet={scoped} />);
+    expect(html).toContain("Scoped source context");
+    expect(html).toContain("Complete personal interpretation is not yet available");
+  });
+});
